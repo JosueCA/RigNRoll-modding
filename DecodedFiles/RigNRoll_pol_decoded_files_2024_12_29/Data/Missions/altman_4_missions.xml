@@ -1,0 +1,3384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="altman_4=casino_man" bounded="false" uniq="true" description="Начало из тройки квестов- пассажир, информация, доставка посылки. Задействоана точка между Стандишем и Рино." org="altman_4=casino_man" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_RE_ST_02" model="ID_MICHAEL_R_1"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_MICHAEL_R_1" resource="altman_4=casino_man=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=casino_man=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=casino_man=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_RE_ST_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_RE_ST_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_1" resource="altman_4=casino_man=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_office_RE_01"/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <point name="MP_office_RE_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_1" resource="altman_4=casino_man=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_1" resource="altman_4=casino_man=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_1" resource="altman_4=casino_man=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=casino_man2" bounded="false" uniq="true" description="окончание квеста про попутчика до казино. квест на доставку посылки с деньгами в Минден." org="altman_4=casino_man2" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="InBarTalkChannel" npc="ID_LINDA_1" resource="altman_4=casino_man2=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=casino_man2=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=casino_man2=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_RE_ST"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_RE_ST"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DONNA_1" resource="altman_4=casino_man2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="altman_4=casino_man"/>
+    </req>
+  </mission>
+  <mission name="altman_4=car_viever" bounded="false" uniq="true" description="квест о доставке пассажира. начало- точка на трассе южнее Орленда. Финальная точка - Орленд." org="altman_4=car_viever" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_SR_03" model="ID_CARLOS_4"/>
+    <point name="MP_bar_OL" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_CARLOS_4" resource="altman_4=car_viever=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=car_viever=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=car_viever=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SR_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SR_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_CARLOS_4" resource="altman_4=car_viever=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_OL"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_OL"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_CARLOS_4" resource="altman_4=car_viever=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_OL"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_OL"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_CARLOS_4" resource="altman_4=car_viever=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_OL"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_OL"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_CARLOS_4" resource="altman_4=car_viever=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_OL"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_OL"/>
+  </mission>
+  <mission name="altman_4=most" bounded="false" uniq="true" description="задание на доставку полуприцепа с бульдозером в Реддинг из Сакраменто" org="altman_4=most" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SR_05" model="BULLDOZER"/>
+    <point name="MP_RD_05" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_TIMOTHY_1" resource="altman_4=most=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=most=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=most=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SR_05"/>
+        <add_item AddItemVehicle="" model="Ford_CV" color="2"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SR_05"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=most=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=most=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=most=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=most=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=most=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <PlayerInformedAboutMissionRequirement mission="altman_4=most_info"/>
+    </req>
+  </mission>
+  <mission name="altman_4=most_info" bounded="false" uniq="true" description="газетная выдача информации для квеста MOST" org="altman_4=most_info" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="NewspaperChannel" resource="altman_4=most_info=start=Newspaper">
+        <appear>
+          <action journal_active="" description="altman_4=most_info=start=Newspaper=appear" time="60"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_bar_RD"/>
+        <point name="MP_bar_scrt04"/>
+        <point name="MP_bar_CF_RN"/>
+        <point name="MP_bar_OL"/>
+        <point name="MP_bar_CF_SR"/>
+        <point name="MP_bar_RE_MD"/>
+        <point name="MP_bar_RE_ST"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_RD"/>
+    <point name="MP_bar_scrt04"/>
+    <point name="MP_bar_CF_RN"/>
+    <point name="MP_bar_OL"/>
+    <point name="MP_bar_CF_SR"/>
+    <point name="MP_bar_RE_MD"/>
+    <point name="MP_bar_RE_ST"/>
+  </mission>
+  <mission name="altman_4=poezd_info" bounded="false" uniq="true" description="вводный информ квест через газету для старта квеста POEZD" org="altman_4=poezd_info" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="NewspaperChannel" resource="altman_4=poezd_info=start=Newspaper">
+        <appear>
+          <action journal_active="" description="altman_4=poezd_info=start=Newspaper=appear" time="1"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_bar_scrt04"/>
+        <point name="MP_bar_OL"/>
+        <point name="MP_bar_RD"/>
+        <point name="MP_bar_RE_ST"/>
+        <point name="MP_bar_CF_SR"/>
+        <point name="MP_bar_CF_RN"/>
+        <point name="MP_bar_ST_AL_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_scrt04"/>
+    <point name="MP_bar_OL"/>
+    <point name="MP_bar_RD"/>
+    <point name="MP_bar_RE_ST"/>
+    <point name="MP_bar_CF_SR"/>
+    <point name="MP_bar_CF_RN"/>
+    <point name="MP_bar_ST_AL_01"/>
+  </mission>
+  <mission name="altman_4=poezd" bounded="false" uniq="true" description="доставка прицепа из Орленда в Колфакс" org="altman_4=poezd" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OL_05" model="DIESEL_OIL"/>
+    <point name="MP_GS_CF_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_MARY_1" resource="altman_4=poezd=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=poezd=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=poezd=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OL_05"/>
+        <add_item AddItemVehicle="" model="Chevrolet_Avalanche" color="5"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OL_05"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=poezd=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=poezd=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=poezd=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=poezd=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <PlayerInformedAboutMissionRequirement mission="altman_4=poezd_info"/>
+    </req>
+  </mission>
+  <mission name="altman_4=musor_1" bounded="false" uniq="true" description="типовой квест про вывоз мусора, получаемый через газету. задействованы Реддинг и Колфакс. НУЖЕН прицеп для сыпучих грузов. без маркировки." org="altman_4=musor_1" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_RD_06" model="GRAVEL"/>
+    <point name="MP_CF_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="NewspaperChannel" resource="altman_4=musor_1=start=Newspaper">
+        <appear>
+          <action journal_active="" description="altman_4=musor_1=start=Newspaper=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=musor_1=start=Newspaper=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=musor_1=start=Newspaper=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_RD"/>
+        <point name="MP_bar_WV_01"/>
+        <point name="MP_bar_OL"/>
+        <point name="MP_bar_CF_SR"/>
+        <point name="MP_bar_eu_wv03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_RD"/>
+    <point name="MP_bar_WV_01"/>
+    <point name="MP_bar_OL"/>
+    <point name="MP_bar_CF_SR"/>
+    <point name="MP_bar_eu_wv03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_1=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_1=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_1=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=musor_2" bounded="false" uniq="true" description="типовой квест про вывоз мусора, получаемый через газету. задействованы Стэндиш и Колфакс. НУЖЕН прицеп с контейнерами. без маркировки." org="altman_4=musor_2" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_ST_02" model="TELEPHONES"/>
+    <point name="MP_CF_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="NewspaperChannel" resource="altman_4=musor_2=start=Newspaper">
+        <appear>
+          <action journal_active="" description="altman_4=musor_2=start=Newspaper=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=musor_2=start=Newspaper=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=musor_2=start=Newspaper=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_RE_ST"/>
+        <point name="MP_bar_BN_AL_01"/>
+        <point name="MP_Room_Alturas_Bar"/>
+        <point name="MP_bar_CF_RN"/>
+        <point name="MP_bar_CF_SR"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_RE_ST"/>
+    <point name="MP_bar_BN_AL_01"/>
+    <point name="MP_Room_Alturas_Bar"/>
+    <point name="MP_bar_CF_RN"/>
+    <point name="MP_bar_CF_SR"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=musor_3" bounded="false" uniq="true" description="типовой квест про вывоз мусора, получаемый через газету. задействованы Рино и Колфакс. НУЖЕН прицеп для сыпучих грузов. без маркировки." org="altman_4=musor_3" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_RE_03" model="SAND"/>
+    <point name="MP_CF_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="NewspaperChannel" resource="altman_4=musor_3=start=Newspaper">
+        <appear>
+          <action journal_active="" description="altman_4=musor_3=start=Newspaper=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=musor_3=start=Newspaper=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=musor_3=start=Newspaper=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Room_Alturas_Bar"/>
+        <point name="MP_bar_ST_AL_01"/>
+        <point name="MP_bar_BN_AL_01"/>
+        <point name="MP_bar_CF_RN"/>
+        <point name="MP_bar_RE_ST"/>
+        <point name="MP_bar_scrt04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Room_Alturas_Bar"/>
+    <point name="MP_bar_ST_AL_01"/>
+    <point name="MP_bar_BN_AL_01"/>
+    <point name="MP_bar_CF_RN"/>
+    <point name="MP_bar_RE_ST"/>
+    <point name="MP_bar_scrt04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_3=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_3=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_3=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_3=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_THOMAS_1" resource="altman_4=musor_3=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=rab" bounded="false" uniq="true" description="доставка пассажира из пригорода Паттерсона в Окленд." org="altman_4=rab" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_PS_02" model="ID_RONALD_1"/>
+    <point name="MP_bar_Ok_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_RONALD_1" resource="altman_4=rab=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=rab=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=rab=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_PS_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_PS_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_RONALD_1" resource="altman_4=rab=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_Ok_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_Ok_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_RONALD_1" resource="altman_4=rab=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_Ok_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_Ok_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_RONALD_1" resource="altman_4=rab=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_Ok_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_Ok_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_RONALD_1" resource="altman_4=rab=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_Ok_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_Ok_01"/>
+  </mission>
+  <mission name="altman_4=rab_2" bounded="false" uniq="true" description="доставка пассажира из Сан-Хосе в Кетлмен-Сити" org="altman_4=rab_2" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_SJ_02" model="ID_GREGORY_1"/>
+    <point name="MP_KM_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_GREGORY_1" resource="altman_4=rab_2=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=rab_2=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=rab_2=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SJ_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SJ_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=rab_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=rab_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=rab_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=rab_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+  </mission>
+  <mission name="altman_4=cor" bounded="false" uniq="true" description="доставка пассажира от перекрестка 108 и 395 до Бишопа" org="altman_4=cor" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_BR_MD_02" model="ID_JACK_1"/>
+    <point name="MP_office_BI_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_JACK_1" resource="altman_4=cor=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=cor=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=cor=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BR_MD_02"/>
+        <add_item AddItemVehicle="" model="Dodge_Grand_Caravan" color="6"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BR_MD_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JACK_1" resource="altman_4=cor=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_office_BI_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_office_BI_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JACK_1" resource="altman_4=cor=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_office_BI_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_office_BI_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JACK_1" resource="altman_4=cor=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_office_BI_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_office_BI_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JACK_1" resource="altman_4=cor=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_office_BI_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_office_BI_01"/>
+  </mission>
+  <mission name="altman_4=bus" bounded="false" uniq="true" description="доставка пасажира со стороны Сакраменто в Мантику" org="altman_4=bus" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_MT_SR_02" model="ID_MARY_3"/>
+    <point name="MP_MT_05" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_MARY_3" resource="altman_4=bus=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=bus=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=bus=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MT_SR_02"/>
+        <add_item AddItemVehicle="" model="Freightliner_FL_65_Schoolbus"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MT_SR_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARY_3" resource="altman_4=bus=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARY_3" resource="altman_4=bus=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_05"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARY_3" resource="altman_4=bus=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_05"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARY_3" resource="altman_4=bus=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_05"/>
+  </mission>
+  <mission name="altman_4=vis_test" bounded="false" uniq="true" description="квест о посещении Мохаве. дается на подъездах к Мохаве&#xA;условие активации: исправить" org="altman_4=vis_test" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_MJ_02" finish=""/>
+    <dependences>
+      <parentFor mission="altman_4=vis_test_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_FRED_1" resource="altman_4=vis_test=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=vis_test=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=vis_test=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BK_MJ_02"/>
+        <point name="MP_motel_MJ_LP_01"/>
+        <point name="MP_MJ_BS_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BK_MJ_02"/>
+    <point name="MP_motel_MJ_LP_01"/>
+    <point name="MP_MJ_BS_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_FRED_1" resource="altman_4=vis_test=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action name="altman_4=vis_test_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action startmission="" name="altman_4=vis_test_2"/>
+          </accept>
+          <point name="MP_MJ_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MJ_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="altman_4=vis_test_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_FRED_1" resource="altman_4=vis_test=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="altman_4=vis_test_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="altman_4=vis_test_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_FRED_1" resource="altman_4=vis_test=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="altman_4=vis_test_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="altman_4=car_viever"/>
+    </req>
+  </mission>
+  <mission name="altman_4=vis_test_2" bounded="false" uniq="true" description="Квест о доставке денег в Фресно" org="altman_4=vis_test_2" dependByActivation="false" depend="true">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_FR_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHARLES_1" resource="altman_4=vis_test_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_FR_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_FR_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_FRED_1" resource="altman_4=vis_test_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_FRED_1" resource="altman_4=vis_test_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=trans" bounded="false" uniq="true" description="Доставка полуприцепа и Мохаве в пригород Лос-Анджелеса" org="altman_4=trans" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MJ_03" model="COMPUTERS"/>
+    <point name="MP_repair_LA_LB" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=trans=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=trans=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_PL_MJ_02"/>
+        <point name="MP_MJ_LP_01"/>
+        <point name="MP_BK_MJ_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_PL_MJ_02"/>
+    <point name="MP_MJ_LP_01"/>
+    <point name="MP_BK_MJ_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=trans_2" bounded="false" uniq="true" description="Доставка полуприцепа из Окленда в Юкайа. Телескоп для Международной службы движения полюсов. НУЖЕН. тентованый полуприцеп без маркировки." org="altman_4=trans_2" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OK_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_gs_UK_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans_2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=trans_2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=trans_2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OK_03"/>
+        <point name="MP_Ok_Sr_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OK_03"/>
+    <point name="MP_Ok_Sr_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARY_1" resource="altman_4=trans_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=shina" bounded="false" uniq="true" description="доставка прицепа из Бриджпорта в Ми-Вук Вилладж. НУЖЕН прицеп с контейнерами. без маркировки." org="altman_4=shina" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_bar_BI_BR_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MW_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="NewspaperChannel" resource="altman_4=shina=start=Newspaper">
+        <appear>
+          <action journal_active="" description="altman_4=shina=start=Newspaper=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=shina=start=Newspaper=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=shina=start=Newspaper=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_RE_MD"/>
+        <point name="MP_bar_LP_BI_01"/>
+        <point name="MP_bar_MT_MW_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_RE_MD"/>
+    <point name="MP_bar_LP_BI_01"/>
+    <point name="MP_bar_MT_MW_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ROBERT_1" resource="altman_4=shina=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ROBERT_1" resource="altman_4=shina=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ROBERT_1" resource="altman_4=shina=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ROBERT_1" resource="altman_4=shina=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ROBERT_1" resource="altman_4=shina=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=legenda" bounded="false" uniq="true" description="Доставка пассажира из Сан-Диего в Сан-Клементе" org="altman_4=legenda" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_SD_01" model="ID_MICHAEL_A_4"/>
+    <point name="MP_LA_SC_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_MICHAEL_A_4" resource="altman_4=legenda=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=legenda=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=legenda=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SD_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SD_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_A_4" resource="altman_4=legenda=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_SC_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_SC_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_A_4" resource="altman_4=legenda=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_SC_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_SC_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_A_4" resource="altman_4=legenda=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_SC_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_SC_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_A_4" resource="altman_4=legenda=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_SC_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_SC_02"/>
+  </mission>
+  <mission name="altman_4=sekta" bounded="false" uniq="true" description="Доставка пассажира из пригорода Сан-Хосе в пригород Окленда." org="altman_4=sekta" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_SJ_03" model="ID_MARTHA_1"/>
+    <point name="MP_Ok_Sr_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_MARTHA_1" resource="altman_4=sekta=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=sekta=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=sekta=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SJ_03"/>
+        <add_item AddItemVehicle="" model="Ford_F350" color="3"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SJ_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARTHA_1" resource="altman_4=sekta=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Ok_Sr_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Ok_Sr_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARTHA_1" resource="altman_4=sekta=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Ok_Sr_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Ok_Sr_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARTHA_1" resource="altman_4=sekta=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Ok_Sr_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Ok_Sr_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MARTHA_1" resource="altman_4=sekta=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Ok_Sr_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Ok_Sr_02"/>
+  </mission>
+  <mission name="altman_4=woter_chip" bounded="false" uniq="true" description="задание на доставку прицепа из Паттерсона в окресности Реддинга." org="altman_4=woter_chip" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_PS_MT_01" model="MICROCHIPS"/>
+    <point name="MP_RD_BN_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_1" resource="altman_4=woter_chip=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=woter_chip=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=woter_chip=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_PS_02"/>
+        <point name="MP_MT_12"/>
+        <point name="MP_OK_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_PS_02"/>
+    <point name="MP_MT_12"/>
+    <point name="MP_OK_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MARTHA_1" resource="altman_4=woter_chip=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RD_BN_01"/>
+          <add_item AddItemVehicle="" model="PETERBILT_379" color="4"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RD_BN_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_1" resource="altman_4=woter_chip=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_1" resource="altman_4=woter_chip=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_1" resource="altman_4=woter_chip=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_1" resource="altman_4=woter_chip=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=krok" bounded="false" uniq="true" description="Визит в Реддинг." org="altman_4=krok" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_RD_04" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=krok=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=krok=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=krok=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OL_02"/>
+        <point name="MP_RD_BN_02"/>
+        <point name="MP_RD_WV_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OL_02"/>
+    <point name="MP_RD_BN_02"/>
+    <point name="MP_RD_WV_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_TIMOTHY_1" resource="altman_4=krok=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RD_04"/>
+          <add_item AddItemVehicle="" model="GMC_TOPKICK8500" color="4"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RD_04"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=krok=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_1" resource="altman_4=krok=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=avaria" bounded="false" uniq="true" description="Визит в пригород Окленда." org="altman_4=avaria" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_OK_04" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_LARRY_4" resource="altman_4=avaria=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=avaria=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=avaria=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OK_03"/>
+        <point name="MP_gs_Ok_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OK_03"/>
+    <point name="MP_gs_Ok_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_LARRY_4" resource="altman_4=avaria=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_OK_04"/>
+          <add_item AddItemVehicle="" model="Ford_CV_police"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OK_04"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_LARRY_4" resource="altman_4=avaria=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+  </mission>
+  <mission name="altman_4=flowers" bounded="false" uniq="true" description="Доставка прицепа из Лебека в Л.А.&#xA;условие активации: исправить" org="altman_4=flowers" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_Motel_LA_LB_01" model="CUT_FLOWERS"/>
+    <point name="MP_LA_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CAROL_1" resource="altman_4=flowers=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=flowers=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=flowers=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_LB_04"/>
+        <point name="MP_LA_LB_01"/>
+        <point name="MP_LA_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_LB_04"/>
+    <point name="MP_LA_LB_01"/>
+    <point name="MP_LA_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CAROL_1" resource="altman_4=flowers=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CAROL_1" resource="altman_4=flowers=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CAROL_1" resource="altman_4=flowers=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CAROL_1" resource="altman_4=flowers=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CAROL_1" resource="altman_4=flowers=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="altman_4=casino_man"/>
+    </req>
+  </mission>
+  <mission name="altman_4=poput_3" bounded="false" uniq="true" description="Попутчик из бара между Альтурасом и Берни. В Альтурас." org="altman_4=poput_3" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_bar_BN_AL_01" model="ID_BRUCE_4"/>
+    <point name="MP_AL_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="InBarTalkChannel" npc="ID_BRUCE_4" resource="altman_4=poput_3=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=poput_3=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=poput_3=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_BN_AL_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_BN_AL_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_BRUCE_4" resource="altman_4=poput_3=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_BRUCE_4" resource="altman_4=poput_3=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_06"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_BRUCE_4" resource="altman_4=poput_3=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_06"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_BRUCE_4" resource="altman_4=poput_3=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_06"/>
+  </mission>
+  <mission name="altman_4=transport" bounded="false" uniq="true" description="Доставка прицепа из пригорода Уивервилля в Легет." org="altman_4=transport" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_WV_04" model="FUEL_OIL"/>
+    <point name="MP_EU_LG_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JACK_4" resource="altman_4=transport=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=transport=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=transport=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_EU_WV_01"/>
+        <point name="MP_RD_WV_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_EU_WV_01"/>
+    <point name="MP_RD_WV_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JACK_4" resource="altman_4=transport=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_EU_LG_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_EU_LG_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JACK_4" resource="altman_4=transport=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JACK_4" resource="altman_4=transport=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JACK_4" resource="altman_4=transport=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JACK_4" resource="altman_4=transport=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=passenger" bounded="false" uniq="true" description="НЕ ГОТОВО: точки" org="altman_4=passenger" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_OV_SB_03" model="ID_ANGELA_1"/>
+    <point name="MP_Oxnard_Motel_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_ANGELA_1" resource="altman_4=passenger=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=passenger=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=passenger=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OV_SB_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_SB_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=passenger=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Oxnard_Motel_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Oxnard_Motel_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=passenger=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Oxnard_Motel_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Oxnard_Motel_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=passenger=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Oxnard_Motel_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Oxnard_Motel_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=passenger=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Oxnard_Motel_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Oxnard_Motel_01"/>
+  </mission>
+  <mission name="altman_4=postman_6" bounded="false" uniq="true" description="Доставка посылки из Окснарда в Санта-Барбару. НУЖНО. модель коробки плоской и небольшой в оберточной бумаге. Размеры: длина 30 см, высота 10 см, ширина 20 см" org="altman_4=postman_6" dependByActivation="false" depend="false">
+    <quest_item QIPackage="" place="MP_OV_10" model="GENERAL_PACKAGE_SMALL"/>
+    <point name="MP_Bar_SB_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_ANGELA_1" resource="altman_4=postman_6=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=postman_6=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=postman_6=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OV_10"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_10"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DAVID_4" resource="altman_4=postman_6=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Bar_SB_01"/>
+          <add_item AddItemVehicle="" model="Dodge_Grand_Caravan"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Bar_SB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="altman_4=passenger"/>
+    </req>
+  </mission>
+  <mission name="altman_4=qDivorce" bounded="false" uniq="true" description="Доставка желающей развестись в Рино" org="altman_4=qDivorce" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_bar_CF_RN" model="ID_ANGELA_1"/>
+    <point name="MP_gs_RE_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="InBarTalkChannel" npc="ID_ANGELA_1" resource="altman_4=qDivorce=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=qDivorce=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=qDivorce=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_CF_RN"/>
+        <add_item AddItemVehicle="" model="Chevrolet_Avalanche" color="1"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_CF_RN"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=qDivorce=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=qDivorce=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=qDivorce=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ANGELA_1" resource="altman_4=qDivorce=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <req>
+      <MissionFinishedRequirement mission="altman_4=postman_6"/>
+    </req>
+  </mission>
+  <mission name="altman_4=help_2" bounded="false" uniq="true" description="Визит в пригород Атаскадеро" org="altman_4=help_2" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_SB_AT_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=help_2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=help_2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=help_2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_SB_AT_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_SB_AT_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=help_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=help_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=help_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=cd_games" bounded="false" uniq="true" description="Доставка груза из Окснарда в Атаскадеро" org="altman_4=cd_games" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OV_09" model="COMPUTER_GAMES"/>
+    <point name="MP_AT_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=cd_games=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=cd_games=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=cd_games=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_01"/>
+        <point name="MP_OV_SB_02"/>
+        <point name="MP_OV_LB_01"/>
+        <point name="MP_LA_LB_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_01"/>
+    <point name="MP_OV_SB_02"/>
+    <point name="MP_OV_LB_01"/>
+    <point name="MP_LA_LB_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOHN_1" resource="altman_4=cd_games=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_AT_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=cd_games=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=cd_games=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=cd_games=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOHN_1" resource="altman_4=cd_games=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="altman_4=help_2"/>
+    </req>
+  </mission>
+  <mission name="altman_4=ko_ko" bounded="false" uniq="true" description="визит в Сан-Хосе. выход на квест ko_ko_2" org="altman_4=ko_ko" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_SJ_03" finish=""/>
+    <dependences>
+      <parentFor mission="altman_4=ko_ko_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="RadioChannel" resource="altman_4=ko_ko=start=Radio">
+        <appear>
+          <action journal_active="" description="altman_4=ko_ko=start=Radio=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=ko_ko=start=Radio=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=ko_ko=start=Radio=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_SB_AT_04"/>
+        <point name="MP_GF_AT_02"/>
+        <point name="MP_SF_SJ_03"/>
+        <point name="MP_OK_01"/>
+        <point name="MP_SF_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_SB_AT_04"/>
+    <point name="MP_GF_AT_02"/>
+    <point name="MP_SF_SJ_03"/>
+    <point name="MP_OK_01"/>
+    <point name="MP_SF_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_LAURA_4" resource="altman_4=ko_ko=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="altman_4=ko_ko=success=LiveDialog=decline"/>
+            <action name="altman_4=ko_ko_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="altman_4=ko_ko=success=LiveDialog=accept"/>
+            <action startmission="" name="altman_4=ko_ko_2"/>
+          </accept>
+          <point name="MP_SJ_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SJ_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="altman_4=ko_ko_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_LAURA_4" resource="altman_4=ko_ko=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="altman_4=ko_ko_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="altman_4=ko_ko_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="altman_4=ko_ko_2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="altman_4=ko_ko_2" bounded="false" uniq="true" description="Доставка полуприцепа из Сан-Хосе в пригород Фресно. НУЖНО, тентованый полуприцеп без маркировки." org="altman_4=ko_ko_2" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_SJ_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_FR_04" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_LAURA_4" resource="altman_4=ko_ko_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_LAURA_4" resource="altman_4=ko_ko_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_LAURA_4" resource="altman_4=ko_ko_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_LAURA_4" resource="altman_4=ko_ko_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=big_kit" bounded="false" uniq="true" description="Визит в Санта-Барбару." org="altman_4=big_kit" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_OV_SB_03" finish=""/>
+    <dependences>
+      <parentFor mission="altman_4=big_kit_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="RadioChannel" resource="altman_4=big_kit=start=Radio">
+        <appear>
+          <action journal_active="" description="altman_4=big_kit=start=Radio=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=big_kit=start=Radio=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=big_kit=start=Radio=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OV_SB_01"/>
+        <point name="MP_OV_LB_01"/>
+        <point name="MP_LA_LB_01"/>
+        <point name="MP_KM_PT_04"/>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_GF_AT_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_SB_01"/>
+    <point name="MP_OV_LB_01"/>
+    <point name="MP_LA_LB_01"/>
+    <point name="MP_KM_PT_04"/>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_GF_AT_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JANET_3" resource="altman_4=big_kit=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="altman_4=big_kit=success=CbVideo=decline"/>
+            <action name="altman_4=big_kit_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="altman_4=big_kit=success=CbVideo=accept"/>
+            <action startmission="" name="altman_4=big_kit_2"/>
+          </accept>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="altman_4=big_kit_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+      <action name="altman_4=big_kit_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="altman_4=big_kit_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="altman_4=big_kit_2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="altman_4=big_kit_2" bounded="false" uniq="true" description="Доставка груза из Санта-Барбары в Лебек." org="altman_4=big_kit_2" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_OV_SB_03" model="FROZEN_FISH"/>
+    <point name="MP_LB_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JANET_3" resource="altman_4=big_kit_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JANET_3" resource="altman_4=big_kit_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JANET_3" resource="altman_4=big_kit_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JANET_3" resource="altman_4=big_kit_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JANET_3" resource="altman_4=big_kit_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=horek" bounded="false" uniq="true" description="Информация через глобальное радио на квест horek_2" org="altman_4=horek" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="RadioChannel" resource="altman_4=horek=start=Radio">
+        <appear>
+          <action journal_active="" description="altman_4=horek=start=Radio=appear" time="60"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_LA_LB_04"/>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_Bar_OV_SB_01"/>
+        <point name="MP_LA_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_LB_04"/>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_Bar_OV_SB_01"/>
+    <point name="MP_LA_04"/>
+  </mission>
+  <mission name="altman_4=horek_2" bounded="false" uniq="true" description="Посылка из Мерседа в Сан-Хосе. НУЖНО, фанерный ящик сколоченный. под перевозку двух хорьков. размеры 60х40х40, с круглыми вентиляционными отверстиями в верхней части." org="altman_4=horek_2" dependByActivation="false" depend="false">
+    <quest_item QIPackage="" place="MP_Mc_Fr_01" model="GENERAL_PACKAGE"/>
+    <point name="MP_SJ_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_ANGELA_3" resource="altman_4=horek_2=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="altman_4=horek_2=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=horek_2=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Mc_Fr_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Mc_Fr_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_GREGORY_1" resource="altman_4=horek_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_SJ_01"/>
+          <add_item AddItemVehicle="" model="Ford_F350" color="2"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SJ_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+    <req>
+      <PlayerInformedAboutMissionRequirement mission="altman_4=horek"/>
+    </req>
+  </mission>
+  <mission name="altman_4=poligon" bounded="false" uniq="true" description="Визит в пригород Мохаве." org="altman_4=poligon" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_MJ_02" finish=""/>
+    <dependences>
+      <parentFor mission="altman_4=poligon_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="RadioChannel" resource="altman_4=poligon=start=Radio">
+        <appear>
+          <action journal_active="" description="altman_4=poligon=start=Radio=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=poligon=start=Radio=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=poligon=start=Radio=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MJ_BS_02"/>
+        <point name="MP_MJ_LP_02"/>
+        <point name="MP_BK_MJ_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MJ_BS_02"/>
+    <point name="MP_MJ_LP_02"/>
+    <point name="MP_BK_MJ_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_4" resource="altman_4=poligon=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="altman_4=poligon=success=CbVideo=decline"/>
+            <action name="altman_4=poligon_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="altman_4=poligon=success=CbVideo=accept"/>
+            <action startmission="" name="altman_4=poligon_2"/>
+          </accept>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="altman_4=poligon_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+      <action name="altman_4=poligon_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="altman_4=poligon_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="altman_4=poligon_2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="altman_4=poligon_2" bounded="false" uniq="true" description="Доставка прицепа из Мохаве в пригород Окленда. НУЖНО, прицеп для сыпучих грузов без иконки и маркировки." org="altman_4=poligon_2" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_PL_MJ_01" model="SAND"/>
+    <point name="MP_Ok_Sr_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_4" resource="altman_4=poligon_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_4" resource="altman_4=poligon_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_4" resource="altman_4=poligon_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_4" resource="altman_4=poligon_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_4" resource="altman_4=poligon_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="altman_4=straus" bounded="false" uniq="true" description="Визит в точку между Фресно и Кетлмен-сити." org="altman_4=straus" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_FR_KM_05" finish=""/>
+    <dependences>
+      <parentFor mission="altman_4=straus_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="RadioChannel" resource="altman_4=straus=start=Radio">
+        <appear>
+          <action journal_active="" description="altman_4=straus=start=Radio=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=straus=start=Radio=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=straus=start=Radio=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_FR_KM_02"/>
+        <point name="MP_KM_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_FR_KM_02"/>
+    <point name="MP_KM_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JASON_1" resource="altman_4=straus=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="altman_4=straus=success=LiveDialog=decline"/>
+            <action name="altman_4=straus_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="altman_4=straus=success=LiveDialog=accept"/>
+            <action startmission="" name="altman_4=straus_2"/>
+          </accept>
+          <point name="MP_FR_KM_05"/>
+          <add_item AddItemVehicle="" model="FREIGHTLINER_FL60"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_FR_KM_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="altman_4=straus_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+      <action name="altman_4=straus_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="altman_4=straus_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="altman_4=straus_2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="altman_4=straus_2" bounded="false" uniq="true" description="Попутчик в Кетлмен-сити." org="altman_4=straus_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_FR_KM_05" model="ID_JASON_1"/>
+    <point name="MP_KM_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JASON_1" resource="altman_4=straus_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JASON_1" resource="altman_4=straus_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JASON_1" resource="altman_4=straus_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_JASON_1" resource="altman_4=straus_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+  </mission>
+  <mission name="altman_4=poezd_help" bounded="false" uniq="true" description="визит в точку между Окснардом и Санта-Барбарой." org="altman_4=poezd_help" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_OV_SB_01" finish=""/>
+    <dependences>
+      <parentFor mission="altman_4=poezd_help2"/>
+    </dependences>
+    <channels>
+      <infochannel name="RadioChannel" resource="altman_4=poezd_help=start=Radio">
+        <appear>
+          <action journal_active="" description="altman_4=poezd_help=start=Radio=appear" time="60"/>
+        </appear>
+        <decline>
+          <action journal="" description="altman_4=poezd_help=start=Radio=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="altman_4=poezd_help=start=Radio=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OV_06"/>
+        <point name="MP_OV_LB_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_06"/>
+    <point name="MP_OV_LB_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_GREGORY_1" resource="altman_4=poezd_help=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="altman_4=poezd_help=success=LiveDialog=decline"/>
+            <action name="altman_4=poezd_help2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="altman_4=poezd_help=success=LiveDialog=accept"/>
+            <action startmission="" name="altman_4=poezd_help2"/>
+          </accept>
+          <point name="MP_OV_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OV_SB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="altman_4=poezd_help2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+      <action name="altman_4=poezd_help2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="altman_4=poezd_help2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="altman_4=poezd_help2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="altman_4=poezd_help2" bounded="false" uniq="true" description="Попутчик в Санта-Барбару." org="altman_4=poezd_help2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_OV_SB_01" model="ID_GREGORY_1"/>
+    <point name="MP_SB_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=poezd_help2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=poezd_help2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SB_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=poezd_help2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SB_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_GREGORY_1" resource="altman_4=poezd_help2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SB_01"/>
+  </mission>
+  <mission name="altman_4=cars" bounded="false" uniq="true" description="Визит в точку между Л.А. и Викторвилем." org="altman_4=cars" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_motel_VV_LA_01" finish=""/>
+    <dependences>
+      <parentFor mission="altman_4=cars_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="RadioChannel" resource="altman_4=cars=start=Radio">
+        <appear>
+          <action journal_active="" description="altman_4=cars=start=Radio=appear" time="60"/>
+        </appear>
+        <decline/>
+        <accept>
+          <action journal="" description="altman_4=cars=start=Radio=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_TM_01"/>
+        <point name="MP_LA_TM_03"/>
+        <point name="MP_BS_VV_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_TM_01"/>
+    <point name="MP_LA_TM_03"/>
+    <point name="MP_BS_VV_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_1" resource="altman_4=cars=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="altman_4=cars=success=CbVideo=decline"/>
+            <action name="altman_4=cars_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="altman_4=cars=success=CbVideo=accept"/>
+            <action startmission="" name="altman_4=cars_2"/>
+          </accept>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="altman_4=cars_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_1" resource="altman_4=cars=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="altman_4=cars_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="altman_4=cars_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="altman_4=cars_2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="altman_4=cars_2" bounded="false" uniq="true" description="Доставка прицепа в Сан-Диего." org="altman_4=cars_2" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_motel_VV_LA_01" model="CARS"/>
+    <point name="MP_SD_05" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_1" resource="altman_4=cars_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_1" resource="altman_4=cars_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_1" resource="altman_4=cars_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_1" resource="altman_4=cars_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+</missions>
+

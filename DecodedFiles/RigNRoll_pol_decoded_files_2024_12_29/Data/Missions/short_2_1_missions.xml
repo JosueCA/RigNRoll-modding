@@ -1,0 +1,2334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="short_2_1=nm" bounded="false" uniq="true" description="доставить музыканта в пальмдейл" org="short_2_1=nm" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_LA_01" model="ID_MICHAEL_R_4"/>
+    <point name="MP_Motel_pl" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_MICHAEL_R_4" resource="short_2_1=nm=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=nm=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=nm=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_4" resource="short_2_1=nm=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_pl"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_pl"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_4" resource="short_2_1=nm=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_pl"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_pl"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_4" resource="short_2_1=nm=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_pl"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_pl"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_MICHAEL_R_4" resource="short_2_1=nm=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_pl"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_pl"/>
+  </mission>
+  <mission name="short_2_1=pigs" bounded="false" uniq="true" description="Старт квестовой линейки за промо директоров. Задействованы города: Рединг и Берни." org="short_2_1=pigs" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_motel_RD_01" model="PIGS"/>
+    <point name="MP_office_BN_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=pigs=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=pigs=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=pigs=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_RD_OL_01"/>
+        <point name="MP_RD_BN_02"/>
+        <point name="MP_RD_BN_01"/>
+        <point name="MP_RD_WV_02"/>
+        <point name="MP_SR_01"/>
+        <point name="MP_OL_SR_01"/>
+        <point name="MP_SR_03"/>
+        <point name="MP_OL_SR_03"/>
+        <point name="MP_Ok_Sr_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_RD_OL_01"/>
+    <point name="MP_RD_BN_02"/>
+    <point name="MP_RD_BN_01"/>
+    <point name="MP_RD_WV_02"/>
+    <point name="MP_SR_01"/>
+    <point name="MP_OL_SR_01"/>
+    <point name="MP_SR_03"/>
+    <point name="MP_OL_SR_03"/>
+    <point name="MP_Ok_Sr_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=pigs=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=pigs=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=pigs=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=pigs=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=pigs=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_2_1=wine" bounded="false" uniq="true" description="квест на доставку вина из Темекьюлы в Лос-Анджелес" org="short_2_1=wine" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_TM_02" model="WINE"/>
+    <point name="MP_LA_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=wine=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=wine=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=wine=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_TM_01"/>
+        <point name="MP_LA_TM_03"/>
+        <point name="MP_SD_TM_02"/>
+        <point name="MP_LA_TM_01"/>
+        <point name="MP_VV_LA_04"/>
+        <point name="MP_SD_TM_01"/>
+        <point name="MP_LA_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_TM_01"/>
+    <point name="MP_LA_TM_03"/>
+    <point name="MP_SD_TM_02"/>
+    <point name="MP_LA_TM_01"/>
+    <point name="MP_VV_LA_04"/>
+    <point name="MP_SD_TM_01"/>
+    <point name="MP_LA_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CAROL_1" resource="short_2_1=wine=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=wine=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=wine=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=wine=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=wine=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="short_2_1=pigs"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=promo_mat" bounded="false" uniq="true" description="доставка промоматериалов из Стендиша в Рино. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Shasta Festival&quot;." org="short_2_1=promo_mat" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_ST_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=promo_mat=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=promo_mat=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=promo_mat=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_RE_03"/>
+        <point name="MP_RE_MD_03"/>
+        <point name="MP_RE_04"/>
+        <point name="MP_RE_ST_02"/>
+        <point name="MP_BN_AL_04"/>
+        <point name="MP_AL_06"/>
+        <point name="MP_RE_MD_02"/>
+        <point name="MP_CF_RN_01"/>
+        <point name="MP_ST_AL_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_RE_03"/>
+    <point name="MP_RE_MD_03"/>
+    <point name="MP_RE_04"/>
+    <point name="MP_RE_ST_02"/>
+    <point name="MP_BN_AL_04"/>
+    <point name="MP_AL_06"/>
+    <point name="MP_RE_MD_02"/>
+    <point name="MP_CF_RN_01"/>
+    <point name="MP_ST_AL_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_BILL_1" resource="short_2_1=promo_mat=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_02"/>
+          <add_item AddItemVehicle="" model="Chevrolet_Express" color="3"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=promo_mat=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=promo_mat=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=promo_mat=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=promo_mat=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="short_2_1=pigs">
+        <MissionCompleteRequirement mission="short_2_1=wine"/>
+      </MissionFinishedRequirement>
+    </req>
+  </mission>
+  <mission name="short_2_1=horses" bounded="false" uniq="true" description="Доставка лошадей из Ми-Вук Вилледж в Бриджпорт." org="short_2_1=horses" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MW_02" model="HORSES"/>
+    <point name="MP_BR_04" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=horses=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=horses=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=horses=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_PS_MT_01"/>
+        <point name="MP_MT_MW_01"/>
+        <point name="MP_MR_01"/>
+        <point name="MP_MT_SR_01"/>
+        <point name="MP_MT_SR_03"/>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_MT_01"/>
+        <point name="MP_MT_07"/>
+        <point name="MP_PS_03"/>
+        <point name="MP_OK_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_PS_MT_01"/>
+    <point name="MP_MT_MW_01"/>
+    <point name="MP_MR_01"/>
+    <point name="MP_MT_SR_01"/>
+    <point name="MP_MT_SR_03"/>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_MT_01"/>
+    <point name="MP_MT_07"/>
+    <point name="MP_PS_03"/>
+    <point name="MP_OK_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=horses=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=horses=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=horses=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=horses=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=horses=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=promo_mat"/>
+      <MissionCompleteRequirement mission="short_2_1=wine"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=gun" bounded="false" uniq="true" description="Вторая часть квеста. Информация о посылке." org="short_2_1=gun" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_Room_Alturas_Bar" finish=""/>
+    <dependences>
+      <parentFor mission="short_2_1=gun_finish"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=gun=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=gun=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=gun=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BN_AL_04"/>
+        <point name="MP_AL_01"/>
+        <point name="MP_ST_AL_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BN_AL_04"/>
+    <point name="MP_AL_01"/>
+    <point name="MP_ST_AL_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_LAURA_1" resource="short_2_1=gun=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_2_1=gun=success=InBarTalk=decline"/>
+            <action name="short_2_1=gun_finish" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_2_1=gun=success=InBarTalk=accept"/>
+            <action startmission="" name="short_2_1=gun_finish"/>
+          </accept>
+          <point name="MP_Room_Alturas_Bar"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Room_Alturas_Bar"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_2_1=gun_finish" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=gun=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_2_1=gun_finish" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_2_1=gun_finish" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=gun=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_2_1=gun_finish" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=horses"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=gun_finish" bounded="false" uniq="true" description="окончание квеста про доставку пистолета из Альтураса в Рино." org="short_2_1=gun_finish" dependByActivation="false" depend="true">
+    <quest_item QIPackage="" place="MP_Room_Alturas_Bar" model="HISTORIC_GUN"/>
+    <point name="MP_RE_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_FRED_1" resource="short_2_1=gun_finish=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+          <add_item AddItemVehicle="" model="Chrysler_Voyager" color="9"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_FRED_1" resource="short_2_1=gun_finish=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=gun_finish=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BILL_1" resource="short_2_1=gun_finish=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_2_1=beer" bounded="false" uniq="true" description="Прицеп из Уивервилля в Реддинг." org="short_2_1=beer" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_WV_03" model="BEER"/>
+    <point name="MP_RD_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=beer=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=beer=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=beer=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_RD_04"/>
+        <point name="MP_RD_01"/>
+        <point name="MP_RD_OL_01"/>
+        <point name="MP_RD_WV_01"/>
+        <point name="MP_WV_06"/>
+        <point name="MP_EU_WV_01"/>
+        <point name="MP_RD_WV_04"/>
+        <point name="MP_RD_OL_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_RD_04"/>
+    <point name="MP_RD_01"/>
+    <point name="MP_RD_OL_01"/>
+    <point name="MP_RD_WV_01"/>
+    <point name="MP_WV_06"/>
+    <point name="MP_EU_WV_01"/>
+    <point name="MP_RD_WV_04"/>
+    <point name="MP_RD_OL_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=beer=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=beer=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=beer=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=beer=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=beer=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="short_2_1=pigs"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=cards" bounded="false" uniq="true" description="квест на доставку полуприцепа из Окленда в Мантику. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;." org="short_2_1=cards" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OK_01" model="COMPUTER_GAMES"/>
+    <point name="MP_MT_09" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=cards=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=cards=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=cards=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_motel_scrt04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_motel_scrt04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=cards=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=cards=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=cards=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=cards=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=cards=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="short_2_1=pigs"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=postman_1" bounded="false" uniq="true" description="вводный информ. квест на доставку посылки." org="short_2_1=postman_1" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_bar_scrt04" finish=""/>
+    <dependences>
+      <parentFor mission="short_2_1=postman_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=postman_1=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=postman_1=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=postman_1=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SR_03"/>
+        <point name="MP_CF_SR_01"/>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_Ok_Sr_01"/>
+        <point name="MP_OL_SR_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SR_03"/>
+    <point name="MP_CF_SR_01"/>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_Ok_Sr_01"/>
+    <point name="MP_OL_SR_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_VICTOR_1" resource="short_2_1=postman_1=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_2_1=postman_1=success=InBarTalk=decline"/>
+            <action name="short_2_1=postman_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_2_1=postman_1=success=InBarTalk=accept"/>
+            <action startmission="" name="short_2_1=postman_2"/>
+          </accept>
+          <point name="MP_bar_scrt04"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_scrt04"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_2_1=postman_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=postman_1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_2_1=postman_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_2_1=postman_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=postman_1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_2_1=postman_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=cards"/>
+      <MissionCompleteRequirement mission="short_2_1=beer"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=postman_2" bounded="false" uniq="true" description="окончания квеста про доставку посылки. задействован бар в Сакраменто и Рино." org="short_2_1=postman_2" dependByActivation="false" depend="true">
+    <quest_item QIPackage="" place="MP_bar_scrt04" model="SMOKING_PIPE"/>
+    <point name="MP_RE_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTINE_1" resource="short_2_1=postman_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+          <add_item AddItemVehicle="" model="VW_NewBeatle" color="4"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=postman_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=postman_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=postman_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_2_1=raduga_1" bounded="false" uniq="true" description="Доставка груза из Мерседа в Бейкерсфилд." org="short_2_1=raduga_1" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MR_01" model="COMPUTER_DISKS"/>
+    <point name="MP_BK_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_1=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=raduga_1=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=raduga_1=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MR_MT_01"/>
+        <point name="MP_Mc_Fr_01"/>
+        <point name="MP_FR_01"/>
+        <point name="MP_MT_12"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MR_MT_01"/>
+    <point name="MP_Mc_Fr_01"/>
+    <point name="MP_FR_01"/>
+    <point name="MP_MT_12"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_1=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BK_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BK_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_1=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_1=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="short_2_1=beer"/>
+      <MissionFinishedRequirement mission="short_2_1=postman_2"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=raduga_2" bounded="false" uniq="true" description="Доставка груза из Грифилда в Атаскадеро. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентства &quot;Rainbow LTD&quot;." org="short_2_1=raduga_2" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_GF_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_AT_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=raduga_2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=raduga_2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_SJ_04"/>
+        <point name="MP_SF_SJ_03"/>
+        <point name="MP_GF_AT_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_SJ_04"/>
+    <point name="MP_SF_SJ_03"/>
+    <point name="MP_GF_AT_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_AT_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AT_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=postman_2"/>
+      <MissionCompleteRequirement mission="short_2_1=raduga_1"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=raduga_3" bounded="false" uniq="true" description="Доставка груза из Окленда в Колфакс. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентства &quot;Rainbow LTD&quot;." org="short_2_1=raduga_3" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OK_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_CF_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_3=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=raduga_3=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=raduga_3=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Ok_Sr_01"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_SF_01"/>
+        <point name="MP_SF_SJ_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Ok_Sr_01"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_SF_01"/>
+    <point name="MP_SF_SJ_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_3=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_CF_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_CF_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_3=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_3=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_3=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=raduga_3=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=rock"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=zaglushka" bounded="false" uniq="true" description="прицеп из Лебека в Окснард. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;. ТАК ЖЕ. пререквизитом для выполнения этого квеста может являться один из квестов Мальцева, на его выбор о Hendelson Katapulten." org="short_2_1=zaglushka" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SJ_GF_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_OV_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=zaglushka=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=zaglushka=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BK_LB_04"/>
+        <point name="MP_LB_02"/>
+        <point name="MP_LA_LB_03"/>
+        <point name="MP_PD_05"/>
+        <point name="MP_LA_LB_02"/>
+        <point name="MP_LA_01"/>
+        <point name="MP_LA_LB_01"/>
+        <point name="MP_OV_LB_02"/>
+        <point name="MP_LA_05"/>
+        <point name="MP_OV_LB_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BK_LB_04"/>
+    <point name="MP_LB_02"/>
+    <point name="MP_LA_LB_03"/>
+    <point name="MP_PD_05"/>
+    <point name="MP_LA_LB_02"/>
+    <point name="MP_LA_01"/>
+    <point name="MP_LA_LB_01"/>
+    <point name="MP_OV_LB_02"/>
+    <point name="MP_LA_05"/>
+    <point name="MP_OV_LB_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_OV_03"/>
+          <add_item AddItemVehicle="" model="Chevrolet_Avalanche" color="9"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OV_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=postman_2"/>
+      <MissionCompleteRequirement mission="short_2_1=cards"/>
+      <MissionCompleteRequirement mission="short_2_1=beer"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=zaglushka_2" bounded="false" uniq="true" description="Доставка прицепа из Окснарда в Лебек. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;." org="short_2_1=zaglushka_2" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OV_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_SJ_GF_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka_2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=zaglushka_2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=zaglushka_2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LB_01"/>
+        <point name="MP_SB_02"/>
+        <point name="MP_LA_LB_02"/>
+        <point name="MP_LA_05"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LB_01"/>
+    <point name="MP_SB_02"/>
+    <point name="MP_LA_LB_02"/>
+    <point name="MP_LA_05"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_BERTOLD_1" resource="short_2_1=zaglushka_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_LB_01"/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <point name="MP_LB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=zaglushka_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=zaglushka"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=suvenir" bounded="false" uniq="true" description="прицеп со стороны Сан-Диего в Палмдейл. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;." org="short_2_1=suvenir" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SD_SC_Motel" model="AIRCRAFT_PARTS"/>
+    <point name="MP_PD_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=suvenir=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=suvenir=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=suvenir=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SC_02"/>
+        <point name="MP_SD_04"/>
+        <point name="MP_LA_SC_01"/>
+        <point name="MP_SD_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SC_02"/>
+    <point name="MP_SD_04"/>
+    <point name="MP_LA_SC_01"/>
+    <point name="MP_SD_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=suvenir=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=suvenir=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=suvenir=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=suvenir=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=suvenir=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=postman_2"/>
+      <MissionCompleteRequirement mission="short_2_1=cards"/>
+      <MissionCompleteRequirement mission="short_2_1=zaglushka"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=svord_info_1" bounded="false" uniq="true" description="вводный информ квест для квеста SVORD" org="short_2_1=svord_info_1" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_bar_RE_ST" finish=""/>
+    <dependences>
+      <parentFor mission="short_2_1=sword"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=svord_info_1=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=svord_info_1=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=svord_info_1=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_ST_AL_01"/>
+        <point name="MP_RE_04"/>
+        <point name="MP_ST_01"/>
+        <point name="MP_RE_03"/>
+        <point name="MP_RE_MD_03"/>
+        <point name="MP_RE_MD_02"/>
+        <point name="MP_RE_MD_01"/>
+        <point name="MP_CF_RN_01"/>
+        <point name="MP_MD_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_ST_AL_01"/>
+    <point name="MP_RE_04"/>
+    <point name="MP_ST_01"/>
+    <point name="MP_RE_03"/>
+    <point name="MP_RE_MD_03"/>
+    <point name="MP_RE_MD_02"/>
+    <point name="MP_RE_MD_01"/>
+    <point name="MP_CF_RN_01"/>
+    <point name="MP_MD_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_FRED_1" resource="short_2_1=svord_info_1=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_2_1=svord_info_1=success=InBarTalk=decline"/>
+            <action name="short_2_1=sword" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_2_1=svord_info_1=success=InBarTalk=accept"/>
+            <action startmission="" name="short_2_1=sword"/>
+          </accept>
+          <point name="MP_bar_RE_ST"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_RE_ST"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_2_1=sword" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=svord_info_1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_2_1=sword" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_2_1=sword" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=svord_info_1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_2_1=sword" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=suvenir"/>
+      <MissionCompleteRequirement mission="short_2_1=zaglushka"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=sword" bounded="false" uniq="true" description="квест о доставке посылки. из бара между Рино и Стендишем в Сакарменто. НУЖНО длинная картонная коробка, с текстурой от коробки для перевозки цветов. Размеры: длинна: 110см, высота 10 см, ширина 30 см." org="short_2_1=sword" dependByActivation="false" depend="true">
+    <quest_item QIPackage="" place="MP_bar_RE_ST" model="S_SWORD"/>
+    <point name="MP_bar_scrt04" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_VICTOR_1" resource="short_2_1=sword=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_scrt04"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_scrt04"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=sword=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=sword=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=sword=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_2_1=rock" bounded="false" uniq="true" description="Прицеп из Атаскадеро в Сан-Франциско. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;." org="short_2_1=rock" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_AT_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_SF_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=rock=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=rock=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_SB_AT_04"/>
+        <point name="MP_SB_AT_01"/>
+        <point name="MP_SB_02"/>
+        <point name="MP_GF_AT_02"/>
+        <point name="MP_GF_04"/>
+        <point name="MP_GF_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_SB_AT_04"/>
+    <point name="MP_SB_AT_01"/>
+    <point name="MP_SB_02"/>
+    <point name="MP_GF_AT_02"/>
+    <point name="MP_GF_04"/>
+    <point name="MP_GF_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_VICTOR_1" resource="short_2_1=rock=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_SF_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SF_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=sword">
+        <MissionFinishedRequirement mission="short_2_1=nm"/>
+      </MissionCompleteRequirement>
+    </req>
+  </mission>
+  <mission name="short_2_1=rock_2" bounded="false" uniq="true" description="Прицеп с концертным оборудованием из Сан-Франциско &gt; Сакраменто" org="short_2_1=rock_2" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SF_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_office_scrt_05" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=rock_2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=rock_2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_AA_01"/>
+        <point name="MP_SF_UK_03"/>
+        <point name="MP_OK_01"/>
+        <point name="MP_SF_SJ_03"/>
+        <point name="MP_SF_SJ_04"/>
+        <point name="MP_OK_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_AA_01"/>
+    <point name="MP_SF_UK_03"/>
+    <point name="MP_OK_01"/>
+    <point name="MP_SF_SJ_03"/>
+    <point name="MP_SF_SJ_04"/>
+    <point name="MP_OK_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=rock"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=rock_3" bounded="false" uniq="true" description="Прицеп с концертным оборудованием из Сакраменто &gt; Мантика. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;." org="short_2_1=rock_3" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_office_scrt_05" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MT_05" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_3=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=rock_3=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=rock_3=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_CF_03"/>
+        <point name="MP_OL_SR_01"/>
+        <point name="MP_OL_01"/>
+        <point name="MP_Ok_Sr_01"/>
+        <point name="MP_MT_SR_01"/>
+        <point name="MP_MT_SR_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_CF_03"/>
+    <point name="MP_OL_SR_01"/>
+    <point name="MP_OL_01"/>
+    <point name="MP_Ok_Sr_01"/>
+    <point name="MP_MT_SR_01"/>
+    <point name="MP_MT_SR_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MICHAEL_R_4" resource="short_2_1=rock_3=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_3=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_3=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_3=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_3=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=rock_2"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=rock_4" bounded="false" uniq="true" description="Прицеп с концертным оборудованием из Мантика &gt; Фресно. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентства &quot;Rainbow LTD&quot;." org="short_2_1=rock_4" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MT_05" model="AIRCRAFT_PARTS"/>
+    <point name="MP_Office_FR_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_4=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=rock_4=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=rock_4=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_MW_01"/>
+        <point name="MP_OK_04"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_PS_06"/>
+        <point name="MP_MR_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_MW_01"/>
+    <point name="MP_OK_04"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_PS_06"/>
+    <point name="MP_MR_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_4=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_4=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_4=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_4=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_4=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=rock_3"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=rock_5" bounded="false" uniq="true" description="Прицеп с концертным оборудованием из Фресно &gt; Бейкерсфилд. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;." org="short_2_1=rock_5" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_Office_FR_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_Office_BK_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_5=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=rock_5=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=rock_5=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Office_FR_01"/>
+        <point name="MP_Mc_Fr_01"/>
+        <point name="MP_FR_04"/>
+        <point name="MP_FR_KM_01"/>
+        <point name="MP_FR_KM_02"/>
+        <point name="MP_BK_FR_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Office_FR_01"/>
+    <point name="MP_Mc_Fr_01"/>
+    <point name="MP_FR_04"/>
+    <point name="MP_FR_KM_01"/>
+    <point name="MP_FR_KM_02"/>
+    <point name="MP_BK_FR_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_5=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_5=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_5=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_5=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_5=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=rock_4"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=rock_6" bounded="false" uniq="true" description="Прицеп с концертным оборудованием из Бейкерсфилд &gt; Палмдейл. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентства &quot;Rainbow LTD&quot;." org="short_2_1=rock_6" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_Office_BK_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_PD_08" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_6=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_2_1=rock_6=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_2_1=rock_6=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BK_FR_01"/>
+        <point name="MP_BK_MJ_01"/>
+        <point name="MP_BK_LB_04"/>
+        <point name="MP_KM_LB_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BK_FR_01"/>
+    <point name="MP_BK_MJ_01"/>
+    <point name="MP_BK_LB_04"/>
+    <point name="MP_KM_LB_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_6=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_6=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_6=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_6=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_6=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=rock_5"/>
+    </req>
+  </mission>
+  <mission name="short_2_1=rock_7" bounded="false" uniq="true" description="Прицеп с концертным оборудованием из Палмдейл &gt; Л.А. НУЖЕН. тентованый полуприцеп без маркировки или, по возможности с маркировкой придуманого промоагентсва &quot;Rainbow LTD&quot;." org="short_2_1=rock_7" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_PD_08" model="AIRCRAFT_PARTS"/>
+    <point name="MP_LA_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_7=start=CbVideo">
+        <appear/>
+        <decline/>
+        <accept>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MJ_BS_02"/>
+        <point name="MP_MJ_04"/>
+        <point name="MP_LA_LB_03"/>
+        <point name="MP_LA_LB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MJ_BS_02"/>
+    <point name="MP_MJ_04"/>
+    <point name="MP_LA_LB_03"/>
+    <point name="MP_LA_LB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_7=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_7=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_7=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_7=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_VICTOR_1" resource="short_2_1=rock_7=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_2_1=rock_6"/>
+    </req>
+  </mission>
+</missions>
+

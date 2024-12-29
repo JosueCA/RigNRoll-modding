@@ -1,0 +1,512 @@
+<rnr_quests>
+	<isoquests>
+		<item name="Rescue Dorothy test" finishonlastphase="true">
+			<task finish="false" phase="1" none="">bandits car hit
+				<cond message="" text="Bandits car collided"/>
+				<action name="sc00060part2" scene=""/>
+			</task>
+		</item>
+		<item name="Rescue Dorothy" finishonlastphase="true">
+			<task finish="false" phase="1" none="">bandits car hit
+				<cond message="" text="Bandits car collided"/>
+				<action name="this" phasequest="" phase="6">go to chase</action>
+			</task>
+			<task finish="false" phase="1" none="">we'll be killed
+				<cond message="" text="dorothy rescue too late"/>
+				<action name="this" phasequest="" phase="2">go to chase</action>
+			</task>
+			<task finish="false" phase="1" f2="">dorothy rescue it time
+				<cond so="" type="bar" name="Room_Oxnard_Bar1"/>
+				<action value="false" so_animation=""/>
+				<action name="this" phasequest="" phase="4">go to succed</action>
+			</task>
+			<task finish="false" phase="2" f2="">dorothy rescue it time
+				<cond so="" type="bar" name="Room_Oxnard_Bar1"/>
+				<action name="sc00065" scene=""/>
+			</task>
+			<task finish="true" phase="3" none="">killed by bandits
+				<cond message="" text="loose"/>
+				<action loosegame=""/>
+			</task>
+			<task finish="false" phase="4" none="">chase after rescue: part 1
+				<action name="sc00060part1" scene=""/>
+			</task>
+			<task finish="true" phase="5" none="">quest completed
+				<cond message="" text="Dorothy chase finished"/>
+				<action name="sc00100" scene=""/>
+			</task>
+			<task finish="false" phase="6" none="">chase after rescue: part 2
+				<action name="sc00060part2" scene=""/>
+			</task>
+		</item>
+	</isoquests>
+	<nothing_quests>
+		<syntaxisoquests>
+			<item name="firstbarquest" finishonlastphase="true" __fabric="fabricname">
+				<task exit="" phase="1" finish="false">
+					<cond so="" soname="Room_Oxnard_Bar1" type="bar"/>
+					<action/>
+				</task>
+				<task phase="2" finish="true" enter="">
+					<cond so="" soname="Baza_out_temecula" type="warehouse"/>
+					<action createquest="" name="quname"/>
+				</task>
+				<task phase="2" finish="false" enter="">
+					<cond scenariostate="" state="10"/>
+					<action finishquest="" name=""/>
+				</task>
+				<task phase="2" finish="false" enter="">
+					<cond questphase="" name="quname" phase="1"/>
+					<action phasequest="" name="quname" phase="2"/>
+				</task>
+				<task phase="2" finish="false" enter="">
+					<cond name="orgname" orgstate="" state="1" expired="false"/>
+					<cond daytime="" fromhour="14" tohour="16"/>
+					<action createquest="" name="quname"/>
+					<action finishquest="" name="quname"/>
+					<action phasequest="" name="quname" phase="2"/>
+					<action createorg="" name="orgname"/>
+					<action changeorg="" name="orgname" state="3" expired="true"/>
+					<action name="orgname" removeaction=""/>
+					<action name="orgname" removeaction="">
+						<wait name="" days=""/>
+					</action>
+				</task>
+			</item>
+			<item name="test" finishonlastphase="true">
+				<task phase="1" finish="false" exit="">
+					<cond so="" soname="Room_Oxnard_Bar1" type="bar"/>
+					<action createquest="" name="first"/>
+				</task>
+				<task phase="2" finish="false" f2="">
+					<cond so="" soname="NEVER" type="bar"/>
+				</task>
+				<task phase="3" finish="true" enter="">
+					<cond so="" soname="Room_Oxnard_Bar1" type="bar"/>
+					<action createquest="" name="second"/>
+				</task>
+			</item>
+			<item name="first" finishonlastphase="true">
+				<task phase="1" finish="true" f2="">
+					<cond so="" soname="Room_Oxnard_Bar1" type="bar"/>
+					<action phasequest="" name="test" phase="3"/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="10"/>
+					<action resumescript=""/>
+					<action movescenario=""/>
+					<action setstate2="" value="1"/>
+					<action value="1" setstate3=""/>
+				</task>
+			</item>
+			<item name="second" finishonlastphase="true"/>
+		</syntaxisoquests>
+		<isoquests>
+			<item name="gamebegining" finishonlastphase="true">
+				<task finish="true" any="" phase="1">
+					<action blockso="" type="johnhouse"/>
+					<action blockso="" type="police"/>
+				</task>
+			</item>
+			<item name="meet_stranger" finishonlastphase="true">
+				<task phase="1" finish="false" f2="">
+					<cond scenariostate="" state="410">
+						<cond so="" soname="Room_Oxnard_Bar1" type="bar">
+							<cond daytime="" fromhour="16" tohour="24"/>
+						</cond>
+					</cond>
+					<action name="SCENARIO" func="resetCounter" runscript=""/>
+					<action name="SCENARIO" func="disableSOdefault" runscript=""/>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+				</task>
+				<task phase="2" finish="true" exit="">
+					<action name="SCENARIO" func="addDayCounter_20" runscript=""/>
+					<action name="SCENARIO" func="enableSOdefault" runscript=""/>
+					<action movescenario=""/>
+					<action finishquest="" name="SC meet stranger"/>
+				</task>
+			</item>
+			<item name="meet_piterpan" finishonlastphase="true">
+				<task phase="1" finish="false" f2="">
+					<cond scenariostate="" state="453">
+						<cond so="" soname="Bar_SB_01" type="bar">
+							<cond daytime="" fromhour="16" tohour="24"/>
+						</cond>
+					</cond>
+					<action name="SCENARIO" func="resetCounter" runscript=""/>
+					<action name="SCENARIO" func="disableSOdefault" runscript=""/>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+					<action type="johnhouse" unblockso="" name="Oxnard_HouseJohn"/>
+				</task>
+				<task phase="2" finish="false" exit="">
+					<action name="SCENARIO" func="enableSOdefault" runscript=""/>
+					<action name="SCENARIO" func="addDayCounter_20" runscript=""/>
+				</task>
+				<task phase="2" finish="false" exit="">
+					<cond scenariostate="" state="454"/>
+					<action blockso="" name="Bar_SB_01" type="bar">
+						<time days="1"/>
+					</action>
+					<action phasequest="" name="SC meet Piter Pan" phase="1"/>
+				</task>
+				<task phase="3" finish="false" f2="">
+					<cond scenariostate="" state="454">
+						<cond so="" soname="Bar_SB_01" type="bar">
+							<cond daytime="" fromhour="16" tohour="24"/>
+						</cond>
+					</cond>
+					<action name="SCENARIO" func="resetCounter" runscript=""/>
+					<action name="SCENARIO" func="disableSOdefault" runscript=""/>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+					<action type="johnhouse" unblockso="" name="Oxnard_HouseJohn"/>
+				</task>
+				<task phase="4" finish="true" exit="">
+					<action name="SCENARIO" func="enableSOdefault" runscript=""/>
+					<action createquest="" name="piterpandomedrace"/>
+					<action phasequest="" name="SC meet Piter Pan" phase="2"/>
+				</task>
+			</item>
+			<item name="piterpandomedrace" fabric="piterpandomedrace" finishonlastphase="true">
+				<task phase="1" finish="true">
+					<action makecall="" name="dor_aboutjohn">
+						<wait name="waitdor_aboutjohn" days="1"/>
+					</action>
+				</task>
+			</item>
+			<item name="meetjohn" finishonlastphase="false">
+				<task phase="1" finish="false" f2="">
+					<cond scenariostate="" state="465">
+						<cond so="" type="johnhouse" name="Oxnard_HouseJohn"/>
+					</cond>
+					<action removeaction="" name="waitdor_aboutjohn"/>
+					<action name="SCENARIO" func="disableSOdefault" runscript=""/>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+					<action type="johnhouse" blockso=""/>
+					<action createquest="" name="finalpiterpanrace"/>
+					<action phasequest="" name="SC meet John" phase="2"/>
+					<action phasequest="" name="meetjohn" phase="2"/>
+				</task>
+				<task phase="1" finish="false" f2="">
+					<cond scenariostate="" state="454">
+						<cond so="" type="johnhouse" name="Oxnard_HouseJohn"/>
+					</cond>
+					<action name="SCENARIO" func="disableSOdefault" runscript=""/>
+					<action value="480" setstate3=""/>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+					<action type="johnhouse" blockso=""/>
+					<action createquest="" name="finalpiterpanrace"/>
+					<action phasequest="" name="SC meet John" phase="3"/>
+					<action phasequest="" name="meetjohn" phase="2"/>
+				</task>
+				<task phase="1" finish="false" enter="">
+					<cond scenariostate="" state="456">
+						<cond so="" type="johnhouse" name="Oxnard_HouseJohn"/>
+					</cond>
+					<action type="johnhouse" blockso=""/>
+				</task>
+				<task phase="2" finish="true" exit="">
+					<action name="SCENARIO" func="enableSOdefault" runscript=""/>
+				</task>
+			</item>
+			<item name="finalpiterpanrace" finishonlastphase="true">
+				<!--second encounter with PP or first, but after John-->
+				<task phase="1" finish="false" f2="">
+					<cond scenariostate="" state="480">
+						<cond so="" soname="Bar_SB_01" type="bar"/>
+					</cond>
+					<cond scenariostate="" state="481">
+						<cond so="" soname="Bar_SB_01" type="bar"/>
+					</cond>
+					<action name="SCENARIO" func="disableSOdefault" runscript=""/>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+				</task>
+				<task phase="2" finish="true" exit="">
+					<action name="SCENARIO" func="enableSOdefault" runscript=""/>
+					<action createquest="" name="piterpanfinalrace"/>
+					<action phasequest="" name="SC meet Piter Pan" phase="4"/>
+				</task>
+			</item>
+			<item name="piterpanfinalrace" fabric="piterpanfinalrace">
+				<task phase="1" finish="true">
+					<action type="scobject" unblockso="" name="TopoOffice"/>
+				</task>
+			</item>
+			<item name="meettopo" finishonlastphase="false">
+				<task phase="1" finish="false" f2="">
+					<cond scenariostate="" state="520">
+						<cond so="" type="scobject" name="TopoOffice"/>
+					</cond>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+					<action type="scobject" blockso=""/>
+				</task>
+				<task phase="2" finish="true" exit="">
+					<action name="SCENARIO" func="chase_topo" runscript=""/>
+					<action finishquest="" name="SC meet Topo"/>
+				</task>
+			</item>
+			<item name="topolice" finishonlastphase="false">
+				<task phase="1" finish="false" f2="">
+					<cond scenariostate="" state="862">
+						<cond so="" type="police"/>
+					</cond>
+					<action movescenario=""/>
+					<action name="SCENARIO" scriptonevent="" func="runscript" eventid="25001"/>
+					<action type="police" blockso=""/>
+					<action phasequest="" name="SC police" phase="1"/>
+				</task>
+			</item>
+		</isoquests>
+		<questactions>
+			<item name="some">
+				<action/>
+				<action/>
+				<action/>
+				<action/>
+			</item>
+		</questactions>
+		<quests>
+			<q name="test">
+				<org description="org" status="nostatus" gain="reputation" name="org">
+					<start description="jo1"/>
+					<finish description="jou2"/>
+					<expired description="jou3"/>
+					<fail description="jou4"/>
+				</org>
+				<MP name="controlpoint name"/>
+				<start>
+					<MP name="controlpoint name"/>
+					<jou description="jou2"/>
+					<startquest this=""/>
+					<finishquest this=""/>
+					<phasequest this="" phase="1"/>
+					<startorg name="this"/>
+					<finishorg name="this"/>
+					<failorg name="this"/>
+					<exporg name="org"/>
+				</start>
+				<phase nom="1">
+					<MP name="controlpoint name"/>
+					<jou description="jou2"/>
+					<startquest this=""/>
+					<finishquest this=""/>
+					<phasequest this="" phase="1"/>
+					<startorg name="this"/>
+					<finishorg name="this"/>
+					<failorg name="this"/>
+					<exporg name="org"/>
+				</phase>
+				<phase nom="2">
+					<MP name="controlpoint name"/>
+					<jou description="jou2"/>
+					<startquest this=""/>
+					<finishquest this=""/>
+					<phasequest this="" phase="1"/>
+					<startorg name="this"/>
+					<finishorg name="this"/>
+					<failorg name="this"/>
+					<exporg name="org"/>
+				</phase>
+				<finish>
+					<MP name="controlpoint name"/>
+					<jou description="jou2"/>
+					<startquest this=""/>
+					<finishquest this=""/>
+					<phasequest this="" phase="1"/>
+					<startorg name="this"/>
+					<finishorg name="this"/>
+					<failorg name="this"/>
+					<exporg name="org"/>
+				</finish>
+			</q>
+			<q name="SC meet stranger">
+				<org description="stranger_meet_org_str" gain="reputation" name="some">
+					<start description="stranger_called_jou_str"/>
+					<finish description="stranger_met_jou_str"/>
+				</org>
+				<MP name="Oxnard_Bar_01"/>
+				<start>
+					<startquest name="meet_stranger"/>
+				</start>
+				<finish>
+					<finishorg this=""/>
+					<startquest name="SC meet Piter Pan"/>
+				</finish>
+			</q>
+			<q name="SC meet Piter Pan">
+				<org description="stranger_meet_org_str" gain="reputation" name="some"/>
+				<start>
+					<startquest name="meet_piterpan"/>
+					<MP name="Bar_SB_01"/>
+				</start>
+				<phase nom="1">
+					<jou description="piterpan_cannotfind_jou_str"/>
+					<startquest name="SC meet John"/>
+					<MP name="Bar_SB_01"/>
+				</phase>
+				<phase nom="2">
+					<jou description="piterpan_race1_jou_str"/>
+					<startquest name="SC race 1 Piter Pan"/>
+				</phase>
+				<phase nom="3">
+					<startquest name="finalpiterpanrace"/>
+					<MP name="Bar_SB_01"/>
+				</phase>
+				<phase nom="4">
+					<jou description="piterpan_race2_jou_str"/>
+					<startquest name="SC race 2 Piter Pan"/>
+					<finishquest this=""/>
+				</phase>
+				<finish>
+					<finishorg this=""/>
+				</finish>
+			</q>
+			<q name="SC race 1 Piter Pan">
+				<MP name="Race_Finish_AT"/>
+				<phase nom="1">
+					<jou description="piterpan_race1_end_jou_str"/>
+					<finishquest this=""/>
+				</phase>
+				<phase nom="2">
+					<jou description="piterpan_race1_bankrupt_jou_str"/>
+					<finishquest this=""/>
+				</phase>
+			</q>
+			<q name="SC race 2 Piter Pan">
+				<MP name="Race_Finish_AT"/>
+				<phase nom="1">
+					<jou description="piterpan_race2_win_jou_str"/>
+					<finishquest this=""/>
+					<startquest name="SC meet Topo"/>
+				</phase>
+				<phase nom="2">
+					<jou description="piterpan_race2_loose_jou_str"/>
+					<finishquest this=""/>
+				</phase>
+			</q>
+			<q name="SC meet John">
+				<org description="stranger_meet_org_str" name="some" status="no"/>
+				<start>
+					<startquest name="meetjohn"/>
+				</start>
+				<phase nom="1">
+					<!--when we ride here from Dorothy call-->
+					<MP name="John_House"/>
+					<jou description="dorothy_called_john_help_jou_str"/>
+					<startorg this=""/>
+				</phase>
+				<phase nom="2">
+					<jou description="met_john_he_helped_jou_str"/>
+					<finishorg this=""/>
+					<finishquest this=""/>
+					<phasequest phase="3" name="SC meet Piter Pan"/>
+				</phase>
+				<phase nom="3">
+					<!--when we ride here on our own-->
+					<jou description="met_john_he_helped_jou_str"/>
+					<finishquest this=""/>
+				</phase>
+			</q>
+			<q name="SC meet Topo">
+				<org description="stranger_meet_org_str" gain="reputation" name="some">
+					<finish description="j00610"/>
+				</org>
+				<MP name="office_OV_02"/>
+				<start>
+					<startquest name="meettopo"/>
+				</start>
+				<finish>
+					<finishorg this=""/>
+					<startquest name="SC Topo chase"/>
+				</finish>
+			</q>
+			<q name="SC Topo chase">
+				<org description="stranger_meet_org_str" gain="reputation" name="some"/>
+				<start>
+					<MP name="CP_126_5"/>
+				</start>
+				<phase nom="1">
+					<jou description="j00611"/>
+					<MP name="CP_126_5"/>
+					<!--bandints called-->
+				</phase>
+				<phase nom="2">
+					<jou description="j00690"/>
+					<MP name="CP_126_5"/>
+					<!--Coch called-->
+				</phase>
+				<phase nom="3">
+					<jou description="j00691"/>
+					<MP name="CP_126_crossroad"/>
+					<!--Dakota called-->
+				</phase>
+				<phase nom="4">
+					<jou description="j00730"/>
+					<MP name="CP_126_5"/>
+					<!--Dakota helped-->
+				</phase>
+				<phase nom="5">
+					<jou description="j00740"/>
+					<MP name="CP_126_5"/>
+					<!--Customer call-->
+				</phase>
+				<phase nom="6">
+					<jou description="j00750"/>
+					<MP name="CP_LB_TS"/>
+					<!--After friends meet-->
+				</phase>
+				<phase nom="7">
+					<jou description="j00770"/>
+					<MP name="CP_exit5_bridge"/>
+					<!--Dorothy called. Warned about chase-->
+				</phase>
+				<phase nom="8">
+					<jou description="j00800"/>
+					<MP name="CP_LB_TS"/>
+					<!--Success roof riding :)-->
+				</phase>
+				<phase nom="9">
+					<jou description="j00805"/>
+					<MP name="CP_meet_on_14"/>
+					<!--Customer called-->
+				</phase>
+				<phase nom="10">
+					<jou description="j00830"/>
+					<MP name="CP_meet_on_14"/>
+					<!--Friend met again-->
+				</phase>
+				<phase nom="11">
+					<jou description="j00860"/>
+					<finishquest this=""/>
+					<startquest name="SC police"/>
+					<!--Dark truck scene-->
+				</phase>
+				<finish>
+					<finishorg this=""/>
+				</finish>
+			</q>
+			<q name="SC police">
+				<org description="stranger_meet_org_str" gain="reputation" name="some"/>
+				<MP name="Oxnard_Police"/>
+				<start>
+					<startquest name="topolice"/>
+				</start>
+				<phase nom="1">
+					<jou description="j00931"/>
+					<finishquest this=""/>
+				</phase>
+				<phase nom="2">
+					<jou description="j00862"/>
+					<finishquest this=""/>
+				</phase>
+				<finish>
+					<finishorg this=""/>
+				</finish>
+			</q>
+		</quests>
+	</nothing_quests>
+</rnr_quests>

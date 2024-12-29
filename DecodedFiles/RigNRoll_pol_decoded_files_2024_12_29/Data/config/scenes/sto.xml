@@ -1,0 +1,195 @@
+<scenes>
+	<xxxenvironments>
+		<env name="sto_street">
+			<xxx id="_Man">
+				<id>Man_020</id>
+			</xxx>
+			<xxx id="NicHello">
+				<scriptarg varname="Nic1"/>
+			</xxx>
+			<xxx id="NicReply">
+				<scriptarg varname="Nic2"/>
+			</xxx>
+			<xxx id="RepHello">
+				<scriptarg varname="Rep1"/>
+			</xxx>
+			<xxx id="RepReply">
+				<scriptarg varname="Rep2"/>
+			</xxx>
+			<matrix name="MNic">
+				<scriptarg varname="M"/>
+			</matrix>
+			<matrix name="MRep">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="posNic">
+				<scriptarg varname="P"/>
+			</vector>
+			<vector name="posRep">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+	</xxxenvironments>
+	<scene name="sto1" cutscene="">
+		<run>
+			<script name="SCENARIO" function="Igrok_car_out"/>
+		</run>
+		<world name="sto_street"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t1\\IVAN_NEW_Repair_Salut_type_1.txt" name="nic"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t1\\XXX_Man_Repair_Salut_type_1.txt" name="repman"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t1\\CamS_Repair_Salut_Repair_Salut_type_1.txt" type="anm" anmspace="Camera_CamS_Repair_Salut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</cameras>
+		<person name="repman">
+			<bindmatrix>
+				<matrix name="MRep"/>
+				<vector name="posRep"/>
+			</bindmatrix>
+		</person>
+		<person name="nic">
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</person>
+	</scene>
+	<scene name="sto2" cutscene="1">
+		<run>
+			<script name="SCENARIO" function="Igrok_car_out"/>
+		</run>
+		<world name="sto_street"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t1\\IVAN_NEW_Repair_Salut_type_1.txt" name="nic"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t2\\XXX_Man_Repair_Salut_type_2.txt" name="repman"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t1\\CamS_Repair_Salut_Repair_Salut_type_1.txt" type="anm" anmspace="Camera_CamS_Repair_Salut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</cameras>
+		<person name="repman">
+			<bindmatrix>
+				<matrix name="MRep"/>
+				<vector name="posRep"/>
+			</bindmatrix>
+		</person>
+		<person name="nic">
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</person>
+	</scene>
+	<scene name="sto3" cutscene="1">
+		<run>
+			<script name="SCENARIO" function="Igrok_car_out"/>
+		</run>
+		<world name="sto_street"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t3\\IVAN_NEW_Repair_Salut_type_3.txt" name="nic"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t3\\XXX_Man_Repair_Salut_type_3.txt" name="repman"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t3\\CamS_Repair_Salut_Repair_Salut_type_3.txt" type="anm" anmspace="Camera_CamS_Repair_Salut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</cameras>
+		<person name="repman">
+			<bindmatrix>
+				<matrix name="MRep"/>
+				<vector name="posRep"/>
+			</bindmatrix>
+		</person>
+		<person name="nic">
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</person>
+	</scene>
+	<scene name="sto4" cutscene="1">
+		<run>
+			<script name="SCENARIO" function="Igrok_car_out"/>
+		</run>
+		<world name="sto_street"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t4\\XXX_Man_Repair_Salut_type_4.txt" name="repman"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t3\\IVAN_NEW_Repair_Salut_type_3.txt" name="nic"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t3\\CamS_Repair_Salut_Repair_Salut_type_3.txt" type="anm" anmspace="Camera_CamS_Repair_Salut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</cameras>
+		<person name="repman">
+			<bindmatrix>
+				<matrix name="MRep"/>
+				<vector name="posRep"/>
+			</bindmatrix>
+		</person>
+		<person name="nic">
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</person>
+	</scene>
+	<scene name="sto5" cutscene="1">
+		<run>
+			<script name="SCENARIO" function="Igrok_car_out"/>
+		</run>
+		<world name="sto_street"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t5\\IVAN_NEW_Repair_Salut_type_5.txt" name="nic"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t5\\XXX_Man_Repair_Salut_type_5.txt" name="repman"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t5\\CamS_Repair_Salut_Repair_Salut_type_5.txt" type="anm" anmspace="Camera_CamS_Repair_Salut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</cameras>
+		<person name="repman">
+			<bindmatrix>
+				<matrix name="MRep"/>
+				<vector name="posRep"/>
+			</bindmatrix>
+		</person>
+		<person name="nic">
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</person>
+	</scene>
+	<scene name="sto6" cutscene="1">
+		<run>
+			<script name="SCENARIO" function="Igrok_car_out"/>
+		</run>
+		<world name="sto_street"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t6\\IVAN_NEW_Repair_Salut_type_6.txt" name="nic"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t6\\XXX_Man_Repair_Salut_type_6.txt" name="repman"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCRep_t6\\CamS_Repair_Salut_Repair_Salut_type_6.txt" type="anm" anmspace="Camera_CamS_Repair_Salut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</cameras>
+		<person name="repman">
+			<bindmatrix>
+				<matrix name="MRep"/>
+				<vector name="posRep"/>
+			</bindmatrix>
+		</person>
+		<person name="nic">
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</person>
+	</scene>
+</scenes>

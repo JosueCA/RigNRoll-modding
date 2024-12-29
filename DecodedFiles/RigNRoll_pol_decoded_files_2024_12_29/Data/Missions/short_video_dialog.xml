@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+  <dialog name="short_video=video_start=success=LiveDialog">
+    <item caller="" wav="short_video=video_start=success=LiveDialog=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_video=video_start=success=LiveDialog=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_video=video_start=success=LiveDialog=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_video=video_start=success=LiveDialog=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_video=video_start=success=LiveDialog=08=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=success=LiveDialog=09=Nick"/>
+    <item caller="" wav="short_video=video_start=success=LiveDialog=10=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=success=LiveDialog=11=Nick"/>
+    <item caller="" wav="short_video=video_start=success=LiveDialog=12=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_start=success=LiveDialog=Y">
+          <item callee="" wav="short_video=video_start=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_start=success=LiveDialog=Y=01=ID_MARTHA_3"/>
+          <item callee="" wav="short_video=video_start=success=LiveDialog=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_start=success=LiveDialog=N">
+          <item callee="" wav="short_video=video_start=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_video=video_start=success=LiveDialog=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_dekor=success=LiveDialog">
+    <item caller="" wav="short_video=video_dekor=success=LiveDialog=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_video=video_dekor=success=LiveDialog=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_video=video_dekor=success=LiveDialog=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=success=LiveDialog=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_reklama=success=LiveDialog">
+    <item caller="" wav="short_video=video_reklama=success=LiveDialog=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_video=video_reklama=success=LiveDialog=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_video=video_reklama=success=LiveDialog=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_video=video_reklama=success=LiveDialog=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_video=video_reklama=success=LiveDialog=08=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_reklama=success=LiveDialog=Y">
+          <item callee="" wav="short_video=video_reklama=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_reklama=success=LiveDialog=Y=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_reklama=success=LiveDialog=N">
+          <item callee="" wav="short_video=video_reklama=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_video=video_reklama=success=LiveDialog=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_clip=success=LiveDialog">
+    <item callee="" wav="short_video=video_clip=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_video=video_clip=success=LiveDialog=01=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_video=video_clip=success=LiveDialog=03=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_video=video_clip=success=LiveDialog=05=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="short_video=video_clip=success=LiveDialog=07=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_clip=success=LiveDialog=Y">
+          <item callee="" wav="short_video=video_clip=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_clip=success=LiveDialog=Y=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_clip=success=LiveDialog=N">
+          <item callee="" wav="short_video=video_clip=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_video=video_clip=success=LiveDialog=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_comp=success=LiveDialog">
+    <item caller="" wav="short_video=video_comp=success=LiveDialog=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_video=video_comp=success=LiveDialog=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_video=video_comp=success=LiveDialog=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_video=video_comp=success=LiveDialog=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_video=video_comp=success=LiveDialog=08=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_comp=success=LiveDialog=Y">
+          <item callee="" wav="short_video=video_comp=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_comp=success=LiveDialog=Y=01=ID_MARTHA_3"/>
+          <item callee="" wav="short_video=video_comp=success=LiveDialog=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_comp=success=LiveDialog=N">
+          <item callee="" wav="short_video=video_comp=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_video=video_comp=success=LiveDialog=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+</dialogs>
+

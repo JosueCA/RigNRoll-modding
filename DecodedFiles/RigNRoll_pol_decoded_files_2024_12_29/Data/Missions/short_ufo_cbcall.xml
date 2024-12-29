@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbcall>
+  <element name="short_ufo=ufo_lift=start=CbVideo" dialog="short_ufo=ufo_lift=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lift=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_lift=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lift_2=fail_damaged=CbVideo" dialog="short_ufo=ufo_lift_2=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lift_2=decline=CbVideo" dialog="short_ufo=ufo_lift_2=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_animal=start=CbVideo" dialog="short_ufo=ufo_animal=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo" dialog="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_animal=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_animal=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_animal=fail_damaged=CbVideo" dialog="short_ufo=ufo_animal=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_animal=decline=CbVideo" dialog="short_ufo=ufo_animal=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_rosuel=start=CbVideo" dialog="short_ufo=ufo_rosuel=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo" dialog="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_rosuel=fail_damaged=CbVideo" dialog="short_ufo=ufo_rosuel=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_rosuel=decline=CbVideo" dialog="short_ufo=ufo_rosuel=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_eqip=start=CbVideo" dialog="short_ufo=ufo_eqip=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo" dialog="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_eqip=fail_damaged=CbVideo" dialog="short_ufo=ufo_eqip=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_eqip=decline=CbVideo" dialog="short_ufo=ufo_eqip=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_disk=start=CbVideo" dialog="short_ufo=ufo_disk=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_disk=success=CbVideo" dialog="short_ufo=ufo_disk=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo" dialog="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_disk=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_disk=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_disk=fail_damaged=CbVideo" dialog="short_ufo=ufo_disk=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_disk=decline=CbVideo" dialog="short_ufo=ufo_disk=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lab=success=CbVideo" dialog="short_ufo=ufo_lab=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lab=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_lab=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lab=fail_damaged=CbVideo" dialog="short_ufo=ufo_lab=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_lab=decline=CbVideo" dialog="short_ufo=ufo_lab=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_art=start=CbVideo" dialog="short_ufo=ufo_art=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_art=fail_timeout_pickup=CbVideo" dialog="short_ufo=ufo_art=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_art=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_art=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_art=fail_damaged=CbVideo" dialog="short_ufo=ufo_art=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_art=decline=CbVideo" dialog="short_ufo=ufo_art=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_shar=success=CbVideo" dialog="short_ufo=ufo_shar=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_shar=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_shar=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_shar=fail_damaged=CbVideo" dialog="short_ufo=ufo_shar=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_shar=decline=CbVideo" dialog="short_ufo=ufo_shar=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_list=start=CbVideo" dialog="short_ufo=ufo_list=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_list=fail_timeout_pickup=CbVideo" dialog="short_ufo=ufo_list=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_list=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_list=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_list=fail_damaged=CbVideo" dialog="short_ufo=ufo_list=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_list=decline=CbVideo" dialog="short_ufo=ufo_list=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_grunt=start=CbVideo" dialog="short_ufo=ufo_grunt=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_grunt=fail_timeout_pickup=CbVideo" dialog="short_ufo=ufo_grunt=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_grunt=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_grunt=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_grunt=fail_damaged=CbVideo" dialog="short_ufo=ufo_grunt=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_grunt=decline=CbVideo" dialog="short_ufo=ufo_grunt=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo" dialog="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_otezd=fail_damaged=CbVideo" dialog="short_ufo=ufo_otezd=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_ufo=ufo_otezd=decline=CbVideo" dialog="short_ufo=ufo_otezd=decline=CbVideo" who="" timecall="10.5"/>
+</cbcall>
+

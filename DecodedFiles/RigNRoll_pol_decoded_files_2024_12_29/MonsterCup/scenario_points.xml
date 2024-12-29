@@ -1,0 +1,11 @@
+<mpoints>
+	<mpoint type="custom" id="SP_motel_BR_MD_01" objid="motel_BR_MD" pname="Road Point_meet_BR_MD_01" vehicle="false" semitrailer="false" npc="false" loc_short="SP_motel_BR_MD_01" loc_long="SP_motel_BR_MD_01"/>
+	<mpoint type="custom" id="SP_truckstop_BR_MD_01" objid="motel_BR_MD" pname="Road Point_meet_BR_MD_01" vehicle="false" semitrailer="false" npc="false" loc_short="SP_truckstop_BR_MD_01" loc_long="SP_truckstop_BR_MD_01"/>
+	<mpoint type="custom" id="SP_EnemyBaseTunnel" objid="EnemyBaseTunnel" pname="EnemyBaseTunnel" vehicle="false" semitrailer="false" npc="false" loc_short="SP_EnemyBaseTunnel" loc_long="SP_EnemyBaseTunnel"/>
+	<mpoint type="scenario" id="SP_Oxnard_Police" objid="Oxnard_Police" pname="Oxnard_Police" vehicle="false" semitrailer="false" npc="false" loc_short="SP_Oxnard_Police" loc_long="SP_Oxnard_Police"/>
+	<mpoint type="scenario" id="SP_John_House" objid="John_House" pname="John_House" vehicle="false" semitrailer="false" npc="false" loc_short="SP_John_House" loc_long="SP_John_House"/>
+	<mpoint type="scenario" id="SP_Topo_Office" objid="office_OV_02" pname="office_OV_02" vehicle="false" semitrailer="false" npc="false" loc_short="SP_Topo_Office" loc_long="SP_Topo_Office"/>
+	<mpoint type="custom" id="SP_CP_126_5" objid="CP_126_5" pname="CP_126_5" vehicle="false" semitrailer="false" npc="false" loc_short="SP_CP_126_crossroad" loc_long="SP_CP_126_crossroad"/>
+	<mpoint type="custom" id="SP_CP_LB_TS" objid="CP_LB_TS" pname="CP_LB_TS" vehicle="false" semitrailer="false" npc="false" loc_short="SP_CP_LB_TS" loc_long="SP_CP_LB_TS"/>
+	<mpoint type="custom" id="SP_CP_meet_on_14" objid="CP_meet_on_14" pname="CP_meet_on_14" vehicle="false" semitrailer="false" npc="false" loc_short="SP_CP_meet_on_14" loc_long="SP_CP_meet_on_14"/>
+</mpoints>

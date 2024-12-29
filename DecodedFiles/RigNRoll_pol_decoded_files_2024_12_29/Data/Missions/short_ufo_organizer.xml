@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="short_ufo=ufo_lift" description="short_ufo=ufo_lift" importance="true" type="visit" customer="short_ufo=ufo_lift=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="short_ufo=ufo_lift=fail_timeout_complete"/>
+    <decline description="short_ufo=ufo_lift=decline"/>
+  </element>
+  <element name="short_ufo=ufo_lift_2" description="short_ufo=ufo_lift_2" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_lift_2=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_ufo=ufo_lift_2=finish"/>
+    <fail_timeout_complete description="short_ufo=ufo_lift_2=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_lift_2=fail_damaged"/>
+    <decline description="short_ufo=ufo_lift_2=decline"/>
+  </element>
+  <element name="short_ufo=ufo_animal" description="short_ufo=ufo_animal" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_animal=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_ufo=ufo_animal=finish"/>
+    <fail_timeout_pickup description="short_ufo=ufo_animal=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_animal=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_animal=fail_damaged"/>
+    <decline description="short_ufo=ufo_animal=decline"/>
+  </element>
+  <element name="short_ufo=ufo_rosuel" description="short_ufo=ufo_rosuel" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_rosuel=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_ufo=ufo_rosuel=finish"/>
+    <fail_timeout_pickup description="short_ufo=ufo_rosuel=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_rosuel=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_rosuel=fail_damaged"/>
+    <decline description="short_ufo=ufo_rosuel=decline"/>
+  </element>
+  <element name="short_ufo=ufo_eqip" description="short_ufo=ufo_eqip" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_eqip=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_ufo=ufo_eqip=finish"/>
+    <fail_timeout_pickup description="short_ufo=ufo_eqip=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_eqip=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_eqip=fail_damaged"/>
+    <decline description="short_ufo=ufo_eqip=decline"/>
+  </element>
+  <element name="short_ufo=ufo_disk" description="short_ufo=ufo_disk" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_disk=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_ufo=ufo_disk=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_disk=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_disk=fail_damaged"/>
+    <decline description="short_ufo=ufo_disk=decline"/>
+  </element>
+  <element name="short_ufo=ufo_lab" description="short_ufo=ufo_lab" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_lab=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_ufo=ufo_lab=finish"/>
+    <fail_timeout_pickup description="short_ufo=ufo_lab=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_lab=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_lab=fail_damaged"/>
+    <decline description="short_ufo=ufo_lab=decline"/>
+  </element>
+  <element name="short_ufo=ufo_art" description="short_ufo=ufo_art" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_art=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_ufo=ufo_art=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_art=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_art=fail_damaged"/>
+    <decline description="short_ufo=ufo_art=decline"/>
+  </element>
+  <element name="short_ufo=ufo_shar" description="short_ufo=ufo_shar" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_shar=customer">
+    <reward money="1.3" rank="1" rating="1"/>
+    <forfeit money="1.3" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_ufo=ufo_shar=finish"/>
+    <fail_timeout_complete description="short_ufo=ufo_shar=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_shar=fail_damaged"/>
+    <decline description="short_ufo=ufo_shar=decline"/>
+  </element>
+  <element name="short_ufo=ufo_list" description="short_ufo=ufo_list" importance="false" type="trailerClientDelivery" customer="short_ufo=ufo_list=customer">
+    <reward money="3" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_ufo=ufo_list=finish"/>
+    <fail_timeout_pickup description="short_ufo=ufo_list=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_list=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_list=fail_damaged"/>
+    <decline description="short_ufo=ufo_list=decline"/>
+  </element>
+  <element name="short_ufo=ufo_grunt" description="short_ufo=ufo_grunt" importance="true" type="trailerClientDelivery" customer="short_ufo=ufo_grunt=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="0.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="2"/>
+    <periods outoftime_mission="custom" timecoef="2"/>
+    <fail_timeout_pickup description="short_ufo=ufo_grunt=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_ufo=ufo_grunt=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_grunt=fail_damaged"/>
+    <decline description="short_ufo=ufo_grunt=decline"/>
+  </element>
+  <element name="short_ufo=ufo_ot&quot;ezd" description="short_ufo=ufo_ot&quot;ezd" importance="true" type="trailerClientDelivery" customer="short_ufo=ufo_ot&quot;ezd=customer">
+    <reward money="3" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_ufo=ufo_ot&quot;ezd=finish"/>
+    <fail_timeout_complete description="short_ufo=ufo_ot&quot;ezd=fail_timeout_complete"/>
+    <fail_damaged description="short_ufo=ufo_ot&quot;ezd=fail_damaged"/>
+    <decline description="short_ufo=ufo_ot&quot;ezd=decline"/>
+  </element>
+  <element name="short_ufo=ufo_info" description="short_ufo=ufo_info"/>
+</org>
+

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="qDineev=qTrixy1" description="qDineev=qTrixy1" importance="false" type="passangerDelivery" customer_npc="ID_PATRICIA_1">
+    <reward money="0" rank="1" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qTrixy1=finish"/>
+    <fail_timeout_pickup description="qDineev=qTrixy1=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTrixy1=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTrixy1=fail_damaged"/>
+    <decline description="qDineev=qTrixy1=decline"/>
+  </element>
+  <element name="qDineev=qTrixy2" description="qDineev=qTrixy2" importance="false" type="passangerDelivery" customer_npc="ID_PATRICIA_1">
+    <reward information="" money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="2"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qTrixy2=finish"/>
+    <fail_timeout_pickup description="qDineev=qTrixy2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTrixy2=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTrixy2=fail_damaged"/>
+    <decline description="qDineev=qTrixy2=decline"/>
+  </element>
+  <element name="qDineev=qTrixy2a" description="qDineev=qTrixy2a" importance="false" type="pakageDelivery" customer_npc="ID_JAMES_1">
+    <reward money="5" rank="-1" rating="1"/>
+    <forfeit money="0" rank="0" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qTrixy2a=finish"/>
+    <fail_timeout_complete description="qDineev=qTrixy2a=fail_timeout_complete"/>
+    <decline description="qDineev=qTrixy2a=decline"/>
+  </element>
+  <element name="qDineev=qParcel1" description="qDineev=qParcel1" importance="false" type="pakageDelivery" customer_npc="ID_DANIEL_3">
+    <reward money="0" rank="2" rating="1"/>
+    <forfeit money="0" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qParcel1=finish"/>
+    <fail_timeout_complete description="qDineev=qParcel1=fail_timeout_complete"/>
+    <decline description="qDineev=qParcel1=decline"/>
+  </element>
+  <element name="qDineev=qLostTrailer" description="qDineev=qLostTrailer" importance="false" type="trailerClientDelivery" customer_npc="ID_TIMOTHY_4">
+    <reward money="2" rank="2" rating="1"/>
+    <forfeit money="1" rank="0" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="0.8"/>
+    <periods outoftime_mission="custom" timecoef="0.8"/>
+    <finish description="qDineev=qLostTrailer=finish"/>
+    <fail_timeout_complete description="qDineev=qLostTrailer=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qLostTrailer=fail_damaged"/>
+    <decline description="qDineev=qLostTrailer=decline"/>
+  </element>
+  <element name="qDineev=qUFO1" description="qDineev=qUFO1"/>
+  <element name="qDineev=qTransportInfo1" description="qDineev=qTransportInfo1"/>
+  <element name="qDineev=qTransport2" description="qDineev=qTransport2" importance="false" type="trailerClientDelivery" customer_npc="ID_DAVID_1">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="6" rank="1" rating="2"/>
+    <periods outoftime_questitem="custom" timecoef="2"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <finish description="qDineev=qTransport2=finish"/>
+    <fail_timeout_pickup description="qDineev=qTransport2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTransport2=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTransport2=fail_damaged"/>
+    <decline description="qDineev=qTransport2=decline"/>
+  </element>
+  <element name="qDineev=qTransport2bis" description="qDineev=qTransport2bis" importance="false" type="trailerClientDelivery" customer_npc="ID_DAVID_1">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="6" rank="1" rating="2"/>
+    <periods outoftime_questitem="custom" timecoef="2"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <finish description="qDineev=qTransport2bis=finish"/>
+    <fail_timeout_pickup description="qDineev=qTransport2bis=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTransport2bis=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTransport2bis=fail_damaged"/>
+    <decline description="qDineev=qTransport2bis=decline"/>
+  </element>
+  <element name="qDineev=star" description="qDineev=star" importance="false" type="passangerDelivery" customer_npc="ID_SARAH_1">
+    <reward money="0.3" rank="1" rating="0"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=star=finish"/>
+    <fail_timeout_pickup description="qDineev=star=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=star=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=star=fail_damaged"/>
+    <decline description="qDineev=star=decline"/>
+  </element>
+  <element name="qDineev=bonus" description="qDineev=bonus" importance="false" type="visit" customer="qDineev=bonus=customer">
+    <reward money="0.1" rank="1" rating="1"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=bonus=finish"/>
+    <fail_timeout_complete description="qDineev=bonus=fail_timeout_complete"/>
+    <decline description="qDineev=bonus=decline"/>
+  </element>
+  <element name="qDineev=qParcel3" description="qDineev=qParcel3" importance="false" type="pakageDelivery" customer_npc="ID_RONALD_1">
+    <reward money="1" rank="1" rating="0"/>
+    <forfeit money="0" rank="2" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qParcel3=finish"/>
+    <fail_timeout_complete description="qDineev=qParcel3=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qParcel3=fail_damaged"/>
+    <decline description="qDineev=qParcel3=decline"/>
+  </element>
+  <element name="qDineev=qTransport4" description="qDineev=qTransport4" importance="false" type="trailerClientDelivery" customer_npc="ID_BRUCE_1">
+    <reward money="3" rank="3" rating="2"/>
+    <forfeit money="5" rank="5" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="custom" timecoef="0.8"/>
+    <start description="qDineev=qTransport4=start"/>
+    <finish description="qDineev=qTransport4=finish"/>
+    <fail_timeout_pickup description="qDineev=qTransport4=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTransport4=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTransport4=fail_damaged"/>
+    <decline description="qDineev=qTransport4=decline"/>
+  </element>
+  <element name="qDineev=qTransport5" description="qDineev=qTransport5" importance="false" type="trailerClientDelivery" customer_npc="ID_CARLOS_1">
+    <reward money="4" rank="1" rating="1"/>
+    <forfeit money="5" rank="2" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qTransport5=finish"/>
+    <fail_timeout_complete description="qDineev=qTransport5=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTransport5=fail_damaged"/>
+    <decline description="qDineev=qTransport5=decline"/>
+  </element>
+  <element name="qDineev=qTransportInfo2" description="qDineev=qTransportInfo2"/>
+  <element name="qDineev=qTransport6" description="qDineev=qTransport6" importance="false" type="trailerClientDelivery" customer="qDineev=qTransport6=customer">
+    <reward money="5" rank="2" rating="2"/>
+    <forfeit money="9" rank="2" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <start description="qDineev=qTransport6=start"/>
+    <finish description="qDineev=qTransport6=finish"/>
+    <fail_timeout_pickup description="qDineev=qTransport6=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTransport6=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTransport6=fail_damaged"/>
+    <decline description="qDineev=qTransport6=decline"/>
+  </element>
+  <element name="qDineev=qVizit1" description="qDineev=qVizit1" importance="false" type="visit" customer_npc="ID_JOSE_1">
+    <reward money="0.5" rank="3" rating="0"/>
+    <forfeit money="0" rank="0.5" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qVizit1=finish"/>
+    <fail_timeout_complete description="qDineev=qVizit1=fail_timeout_complete"/>
+    <decline description="qDineev=qVizit1=decline"/>
+  </element>
+  <element name="qDineev=qTransport4bis" description="qDineev=qTransport4bis" importance="false" type="trailerClientDelivery" customer_npc="ID_BRUCE_1">
+    <reward money="4" rank="-1" rating="0"/>
+    <forfeit money="5" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <start description="qDineev=qTransport4bis=start"/>
+    <finish description="qDineev=qTransport4bis=finish"/>
+    <fail_timeout_pickup description="qDineev=qTransport4bis=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTransport4bis=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTransport4bis=fail_damaged"/>
+    <decline description="qDineev=qTransport4bis=decline"/>
+  </element>
+  <element name="qDineev=qSquid" description="qDineev=qSquid"/>
+  <element name="qDineev=qTrixy3" description="qDineev=qTrixy3" importance="true" type="passangerDelivery" customer_npc="ID_PATRICIA_1">
+    <reward information="" money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="1.5"/>
+    <periods outoftime_mission="custom" timecoef="4"/>
+    <finish description="qDineev=qTrixy3=finish"/>
+    <fail_timeout_pickup description="qDineev=qTrixy3=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTrixy3=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTrixy3=fail_damaged"/>
+    <decline description="qDineev=qTrixy3=decline"/>
+  </element>
+  <element name="qDineev=qTrixy4" description="qDineev=qTrixy4" importance="true" type="trailerClientDelivery" customer_npc="ID_PATRICIA_1">
+    <reward money="8" rank="-5" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qTrixy4=finish"/>
+    <fail_timeout_pickup description="qDineev=qTrixy4=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTrixy4=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTrixy4=fail_damaged"/>
+    <decline description="qDineev=qTrixy4=decline"/>
+  </element>
+  <element name="qDineev=qTrixy5" description="qDineev=qTrixy5" importance="true" type="passangerDelivery" customer_npc="ID_PATRICIA_1">
+    <reward information="" money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="1.5"/>
+    <periods outoftime_mission="custom" timecoef="2"/>
+    <finish description="qDineev=qTrixy5=finish"/>
+    <fail_timeout_pickup description="qDineev=qTrixy5=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTrixy5=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTrixy5=fail_damaged"/>
+    <decline description="qDineev=qTrixy5=decline"/>
+  </element>
+  <element name="qDineev=qTrixy6" description="qDineev=qTrixy6" importance="true" type="pakageDelivery" customer_npc="ID_PATRICIA_1">
+    <reward money="7" rank="-1" rating="1"/>
+    <forfeit money="5" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="qDineev=qTrixy6=finish"/>
+    <fail_timeout_pickup description="qDineev=qTrixy6=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTrixy6=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTrixy6=fail_damaged"/>
+    <decline description="qDineev=qTrixy6=decline"/>
+  </element>
+  <element name="qDineev=qTrixy7" description="qDineev=qTrixy7" importance="true" type="pakageDelivery" customer_npc="ID_PATRICIA_1">
+    <reward money="-8" rank="-2" rating="0"/>
+    <forfeit money="5" rank="5" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="2"/>
+    <periods outoftime_mission="custom" timecoef="2"/>
+    <fail_timeout_pickup description="qDineev=qTrixy7=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTrixy7=fail_timeout_complete"/>
+    <decline description="qDineev=qTrixy7=decline"/>
+  </element>
+  <element name="qDineev=qTransport17" description="qDineev=qTransport17" importance="false" type="trailerClientDelivery" customer_npc="ID_RUTH_3">
+    <reward money="2" rank="0.5" rating="0"/>
+    <forfeit money="1" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="2"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <finish description="qDineev=qTransport17=finish"/>
+    <fail_timeout_pickup description="qDineev=qTransport17=fail_timeout_pickup"/>
+    <fail_timeout_complete description="qDineev=qTransport17=fail_timeout_complete"/>
+    <fail_damaged description="qDineev=qTransport17=fail_damaged"/>
+    <decline description="qDineev=qTransport17=decline"/>
+  </element>
+  <element name="qDineev=qVizit2" description="qDineev=qVizit2" importance="false" type="visit" customer="qDineev=qVizit2=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="5"/>
+    <periods outoftime_mission="custom" timecoef="5"/>
+    <finish description="qDineev=qVizit2=finish"/>
+    <decline description="qDineev=qVizit2=decline"/>
+  </element>
+  <element name="qDineev=qVizit3" description="qDineev=qVizit3" importance="false" type="visit" customer="qDineev=qVizit3=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="5"/>
+    <periods outoftime_mission="custom" timecoef="5"/>
+    <finish description="qDineev=qVizit3=finish"/>
+    <decline description="qDineev=qVizit3=decline"/>
+  </element>
+</org>
+

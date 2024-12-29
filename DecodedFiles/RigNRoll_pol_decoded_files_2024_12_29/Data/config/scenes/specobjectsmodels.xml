@@ -1,0 +1,63 @@
+<so>
+	<item name="bar">
+		<model name="model_BarIn"/>
+		<model name="model_BarmenCloth"/>
+		<model name="model_Wine1"/>
+		<model name="model_Coca1"/>
+		<model name="model_Cup1"/>
+		<model name="model_Platel1"/>
+		<model name="model_Spoonl1"/>
+		<model name="model_Plate1"/>
+		<model name="model_Fork1"/>
+		<model name="model_Soup1"/>
+		<model name="model_GlassSmall"/>
+	</item>
+	<item name="bar2">
+		<model name="model_BarIn2"/>
+		<model name="model_BarmenCloth"/>
+		<model name="model_Wine1"/>
+		<model name="model_Coca1"/>
+		<model name="model_Cup1"/>
+		<model name="model_Platel1"/>
+		<model name="model_Spoonl1"/>
+		<model name="model_Plate1"/>
+		<model name="model_Fork1"/>
+		<model name="model_Soup1"/>
+		<model name="model_GlassSmall"/>
+	</item>
+	<item name="bar3">
+		<model name="model_BarIn3"/>
+		<model name="model_BarmenCloth"/>
+		<model name="model_Wine1"/>
+		<model name="model_Coca1"/>
+		<model name="model_Cup1"/>
+		<model name="model_Platel1"/>
+		<model name="model_Spoonl1"/>
+		<model name="model_Plate1"/>
+		<model name="model_Fork1"/>
+		<model name="model_Soup1"/>
+		<model name="model_GlassSmall"/>
+	</item>
+	<item name="office">
+		<model name="model_Office"/>
+		<additionmodels menu_vehicle=""/>
+	</item>
+	<item name="topokinaki_office">
+		<model name="model_Office_poor"/>
+	</item>
+	<item name="motel">
+		<model name="ROOM_MOTEL_01"/>
+	</item>
+	<item name="johnhome">
+		<model name="model_JohnHouse"/>
+	</item>
+	<item name="podium">
+		<model name="model_Podium"/>
+	</item>
+	<item name="police">
+		<model name="model_Police1"/>
+	</item>
+	<item name="bar_crash">
+		<model name="model_BarIn4"/>
+	</item>
+</so>

@@ -1,0 +1,66 @@
+<content>
+	<group loc_name="helpcontent.xml\Vehicle controls">Vehicle controls
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_ACCEL%, %VVK_CARV_BRAKE%" loc_key_value="helpcontent.xml\Vehicle controls\Accelerate, brake">Accelerate, brake</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_ACCEL2% %VVK_CARV_ACCEL%, %VVK_CARV_ACCEL2% %VVK_CARV_BRAKE%" loc_key_value="helpcontent.xml\Vehicle controls\Kick down, full brake">Kick down, full brake</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_LEFT%, %VVK_CARV_RIGHT%" loc_key_value="helpcontent.xml\Vehicle controls\Steer left, steer right">Steer left, steer right</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_ACCEL2% %VVK_CARV_LEFT%, %VVK_CARV_ACCEL2% %VVK_CARV_RIGHT%" loc_key_value="helpcontent.xml\Vehicle controls\Steer all the way left, steer all the way right">Steer all the way left, steer all the way right</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_GEARUP%, %VVK_CARV_GEARDOWN%" loc_key_value="helpcontent.xml\Vehicle controls\Gear up, down">Gear up, down</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_GEARR%" loc_key_value="helpcontent.xml\Vehicle controls\Reverse mode">Reverse mode</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_GEAR1%, %VVK_CARV_GEAR2%, ..., %VVK_CARV_GEAR6%" loc_key_value="helpcontent.xml\Vehicle controls\Gear 1, gear 2, ..., gear 6">Gear 1, gear 2, ..., gear 6</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_GEARN%" loc_key_value="helpcontent.xml\Vehicle controls\Neutral">Neutral</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_CLUTCH%" loc_key_value="helpcontent.xml\Vehicle controls\Clutch">Clutch</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_HANDBRAKE%" loc_key_value="helpcontent.xml\Vehicle controls\Parking brake">Parking brake</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_ENGINE_BRAKE%" loc_key_value="helpcontent.xml\Vehicle controls\Engine brake">Engine brake</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_START_ENGINE%" loc_key_value="helpcontent.xml\Vehicle controls\Start/stop engine">Start/stop engine</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_NITRO_BOOSTER%" loc_key_value="helpcontent.xml\Vehicle controls\Booster">Booster</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_WIPER%" loc_key_value="helpcontent.xml\Vehicle controls\Wipers on/off">Wipers on/off</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_HORN%" loc_key_value="helpcontent.xml\Vehicle controls\Horn">Horn</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_TURNSIGNAL_LEFT%, %VVK_TURNSIGNAL_RIGHT%" loc_key_value="helpcontent.xml\Vehicle controls\Signal left, right">Signal left, right</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_HAZARD_LIGHTS%" loc_key_value="helpcontent.xml\Vehicle controls\Hazard lights">Hazard lights</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_BEAMS%" loc_key_value="helpcontent.xml\Vehicle controls\Headlights on/off">Headlights on/off</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_ACCEL2% %VVK_BEAMS%" loc_key_value="helpcontent.xml\Vehicle controls\High/low beam">High/low beam</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CRUISECONTROL%" loc_key_value="helpcontent.xml\Vehicle controls\Cruise control coast set/cancel">Cruise control coast set/cancel</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_CARV_ACCEL2% %VVK_CRUISECONTROL%" loc_key_value="helpcontent.xml\Vehicle controls\Resume cruise control">Resume cruise control</line>
+		<line key="helpcontent.xml\Vehicle controls\%VVK_ATTACH_SEMITRAILER%" loc_key_value="helpcontent.xml\Vehicle controls\Hook/unhook trailer">Hook/unhook trailer</line>
+	</group>
+	<group loc_name=""/>
+	<group loc_name="helpcontent.xml\Car audio">Car audio
+		<line key="helpcontent.xml\Car audio\%VVK_FM_RADIO_ON%" loc_key_value="helpcontent.xml\Car audio\Radio on/off">Radio on/off</line>
+		<line key="helpcontent.xml\Car audio\%VVK_CARV_ACCEL2% %VVK_FM_RADIO_NEXTSTATION%, %VVK_FM_RADIO_NEXTSTATION%" loc_key_value="helpcontent.xml\Car audio\Previous, next radio station">Previous, next radio station</line>
+		<line key="helpcontent.xml\Car audio\%VVK_CARV_ACCEL2% %VVK_FM_RADIO_NEXTTRACK%, %VVK_FM_RADIO_NEXTTRACK%" loc_key_value="helpcontent.xml\Car audio\Previous, next radio track">Previous, next radio track</line>
+	</group>
+	<group loc_name=""/>
+	<group loc_name="helpcontent.xml\Camera Controls">Camera Controls
+		<line key="helpcontent.xml\Camera Controls\%VVK_VIEWER_OUTSIDEVIEWMODE%" loc_key_value="helpcontent.xml\Camera Controls\Inside/outside view">Inside/outside view</line>
+		<line key="helpcontent.xml\Camera Controls\%VVK_CABINCAM_POSITION%" loc_key_value="helpcontent.xml\Camera Controls\Inside view modes">Inside view modes</line>
+		<!--line key="helpcontent.xml\Camera Controls\%VVK_CAM_POS0%" loc_key_value="helpcontent.xml\Camera Controls\Outside view modes">Outside view modes</line-->
+		<line key="helpcontent.xml\Camera Controls\%VVK_CAM_POS1%, %VVK_CAM_POS2%, %VVK_CAM_POS3%" loc_key_value="helpcontent.xml\Camera Controls\Rear left, rear, rear right view">Rear left, rear, rear right view</line>
+		<line key="helpcontent.xml\Camera Controls\%VVK_CAM_POS7%, %VVK_CAM_POS8%, %VVK_CAM_POS9%" loc_key_value="helpcontent.xml\Camera Controls\Front left, front, front right view">Front left, front, front right view</line>
+		<line key="helpcontent.xml\Camera Controls\%VVK_CAM_POS4%, %VVK_CAM_POS6%" loc_key_value="helpcontent.xml\Camera Controls\Left view, right view">Left view, right view</line>
+		<line key="helpcontent.xml\Camera Controls\%VVK_CAM_POS5%" loc_key_value="helpcontent.xml\Camera Controls\Default view">Default view</line>
+		<line key="helpcontent.xml\Camera Controls\%VVK_CAM_FAR%, %VVK_CAM_NEAR%" loc_key_value="helpcontent.xml\Camera Controls\Camera closer, camera further">Camera closer, camera further</line>
+		<line key="helpcontent.xml\Camera Controls\%VVK_CHANGE_PYRAMID_TELE%, %VVK_CHANGE_PYRAMID_WIDE%" loc_key_value="helpcontent.xml\Camera Controls\Camera zoom in, zoom out">Camera zoom in, zoom out</line>
+	</group>
+	<group loc_name=""/>
+	<group loc_name="helpcontent.xml\Rear View Adjustment">Rear View Adjustment
+		<line key="helpcontent.xml\Rear View Adjustment\%VVK_MIRROW_LEFT%, %VVK_MIRROW_RIGHT%, %VVK_MIRROW_UP%, %VVK_MIRROW_DOWN%" loc_key_value="helpcontent.xml\Rear View Adjustment\Turn left mirror left, right, up, down">Turn left mirror left, right, up, down</line>
+		<line key="helpcontent.xml\Rear View Adjustment\%VVK_CARV_ACCEL2% %VVK_MIRROW_LEFT%, %VVK_CARV_ACCEL2% %VVK_MIRROW_RIGHT%, %VVK_CARV_ACCEL2% %VVK_MIRROW_UP%, %VVK_CARV_ACCEL2% %VVK_MIRROW_DOWN%" loc_key_value="helpcontent.xml\Rear View Adjustment\Turn right mirror left, right, up, down">Turn right mirror left, right, up, down</line>
+		<line key="helpcontent.xml\Rear View Adjustment\%VVK_MONITOR%" loc_key_value="helpcontent.xml\Rear View Adjustment\Monitor on/off">Monitor on/off</line>
+		<line key="helpcontent.xml\Rear View Adjustment\%VVK_CARV_ACCEL2% %VVK_MONITOR%" loc_key_value="helpcontent.xml\Rear View Adjustment\Switch monitor view">Switch monitor view</line>
+	</group>
+	<group loc_name=""/>
+	<group loc_name="helpcontent.xml\In game controls">In game controls
+		<line key="helpcontent.xml\In game controls\%VVK_HELP%" loc_key_value="helpcontent.xml\In game controls\Keyboard controls">Keyboard controls</line>
+		<line key="helpcontent.xml\In game controls\%VVK_QUICK_SAVE%" loc_key_value="helpcontent.xml\In game controls\Quick save">Quick save</line>
+		<line key="helpcontent.xml\In game controls\%VVK_QUICK_LOAD%" loc_key_value="helpcontent.xml\In game controls\Quick load">Quick load</line>
+		<line key="helpcontent.xml\In game controls\%VVK_ORGANIZER%" loc_key_value="helpcontent.xml\In game controls\Communicator">Communicator</line>
+		<line key="helpcontent.xml\In game controls\%VVK_ACTIVATOR%" loc_key_value="helpcontent.xml\In game controls\Activate">Activate</line>
+		<line key="helpcontent.xml\In game controls\%VVK_MAP_MISSION_SELECTOR%" loc_key_value="helpcontent.xml\In game controls\Browse tasks">Browse tasks</line>
+		<line key="helpcontent.xml\In game controls\%VVK_CARV_ACCEL2% %VVK_MAP_MISSION_SELECTOR%" loc_key_value="helpcontent.xml\In game controls\Select current task on the map">Select current task on the map</line>
+		<line key="helpcontent.xml\In game controls\%VVK_YES%, %VVK_NO%" loc_key_value="helpcontent.xml\In game controls\Yes, no">Yes, no</line>
+		<line key="helpcontent.xml\In game controls\%VVK_MAP%" loc_key_value="helpcontent.xml\In game controls\Map on/off">Map on/off</line>
+		<line key="helpcontent.xml\In game controls\%VVK_CARV_ACCEL2% %VVK_MAP%" loc_key_value="helpcontent.xml\In game controls\Zoom map">Zoom map</line>
+		<line key="helpcontent.xml\In game controls\%VVK_SCREENSHOT%" loc_key_value="helpcontent.xml\In game controls\Photo">Photo</line>
+		<line key="helpcontent.xml\In game controls\%VVK_PAUSE%" loc_key_value="helpcontent.xml\In game controls\Pause game">Pause game</line>
+	</group>
+</content>

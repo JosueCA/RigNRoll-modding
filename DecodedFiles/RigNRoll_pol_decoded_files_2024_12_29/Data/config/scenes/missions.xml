@@ -1,0 +1,190 @@
+<scenes>
+	<xxxenvironments>
+		<env name="missionpoint">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+			<car name="IvanCar">
+				<scriptarg varname="car"/>
+			</car>
+			<xxx id="frase">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="10sec">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="17sec">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="identity">
+				<scriptarg varname="identity"/>
+			</xxx>
+		</env>
+	</xxxenvironments>
+	<scene name="voter_man" useshow="false" wide="false" simple="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_voter\\XXXMan_voter.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="voter_man_calm" useshow="false" wide="false" simple="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_voter\\XXXMan_voter_01.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="voter_woman" useshow="false" wide="false" simple="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_voter\\XXXWoman_voter.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="voter_woman_calm" useshow="false" wide="false" simple="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_voter\\XXXWoman_voter_01.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="pass_man" useshow="false" wide="on" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_pass\\XXXMan_pas01_talk_cycle.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_pass\\CamS_secondary_pas01_cycle.txt" type="anm" anmspace="Camera_CamS00000" name="pass" cabinrender=""/>
+		<cameras>
+			<bindpassanger nom="1">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</cameras>
+	</scene>
+	<scene name="pass_woman" useshow="false" wide="on" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_pass\\XXXWoman_pas01_talk_cycle.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_pass\\CamS_secondary_pas01_cycle.txt" type="anm" anmspace="Camera_CamS00000" name="pass" cabinrender=""/>
+		<cameras>
+			<bindpassanger nom="1">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</cameras>
+	</scene>
+	<scene name="XXXNicACar" fade="off" wide="on" useshow="false">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_pass\\IVAN_NEW_rul01_talk_cycle.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\m_pass\\CamS_IVAN_NEW_rul01_talk_cycle.txt" type="anm" anmspace="Camera_CamS00000" cabinrender=""/>
+		<cameras>
+			<bindpassanger nom="0">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</cameras>
+	</scene>
+	<scene name="meet_client" useshow="false" wide="true" cutscene="1" fade="on">
+		<world name="missionpoint"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\IVAN_NEW_Scene_Meet_Client.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\Man_Scene_Meet_Client.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\CamS_MeetClient.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="meet_client_MC_to_man" useshow="true" wide="false" cutscene="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\IVAN_to_Man\\IVAN_NEW_Scene_Meet_Client_IVAN_to_Man.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\IVAN_to_Man\\Man_Scene_Meet_Client_IVAN_to_Man.txt"  name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\IVAN_to_Man\\CamS_MeetClient_IVAN_to_man.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="meet_client_MC_to_woman" useshow="true" wide="false" cutscene="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\IVAN_to_Woman\\IVAN_NEW_Scene_Meet_Client_IVAN_to_woman.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\IVAN_to_Woman\\Woman_Scene_Meet_Client_IVAN_to_woman.txt"  name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\IVAN_to_Woman\\CamS_MeetClient_IVAN_TO_Woman.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="meet_client_man_to_MC" useshow="true" wide="false" cutscene="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\Man_to_IVAN\\IVAN_NEW_Scene_Meet_Client_Man_to_IVAN.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\Man_to_IVAN\\Man_Scene_Meet_Client_Man_to_IVAN.txt"  name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\Man_to_IVAN\\CamS_MeetClient_Man_to_IVAN.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="meet_client_woman_to_MC" useshow="true" wide="false" cutscene="1" fade="off">
+		<world name="missionpoint"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\Woman_to_IVAN\\IVAN_NEW_Scene_Meet_Client_Woman_to_IVAN.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\Woman_to_IVAN\\Woman_Scene_Meet_Client_Woman_to_IVAN.txt"  name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_Meet_Client\\Woman_to_IVAN\\CamS_MeetClient_Woman_to_IVAN.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+</scenes>

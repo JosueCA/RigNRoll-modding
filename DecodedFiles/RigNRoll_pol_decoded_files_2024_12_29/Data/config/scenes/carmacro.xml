@@ -1,0 +1,38 @@
+<macro>
+	<car name="MATCAR">
+		<value name="FREIGHTLINER_CORONADO"/>
+	</car>
+	<car name="KOHCAR">
+		<value name="FREIGHTLINER_ARGOSY"/>
+	</car>
+	<car name="BANDITCAR">
+		<value name="FREIGHTLINER_ARGOSY"/>
+	</car>
+	<car name="PITCAR">
+		<value name="FREIGHTLINER_ARGOSY"/>
+	</car>
+	<car name="GEPARD">
+		<value name="GEPARD"/>
+	</car>
+	<car name="DACOTACAR">
+		<value name="PETERBILT_379"/>
+	</car>
+	<car name="TOPOTRAILER">
+		<value name="FLAT_BED_CARGO3"/>
+	</car>
+	<car name="DOROTHYCAR">
+		<value name="FREIGHTLINER_ARGOSY"/>
+	</car>
+	<car name="DARKCAR">
+		<value name="KENWORTH_T600W"/>
+	</car>
+	<car name="OURCAR">
+		<value name="*"/>
+	</car>
+	<car name="DORTRAILER">
+		<value name="FLAT_BED_CARGO3"/>
+	</car>
+	<car name="KOHTRAILER">
+		<value name="FLAT_BED_CARGO3"/>
+	</car>
+</macro>

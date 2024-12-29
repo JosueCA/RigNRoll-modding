@@ -1,0 +1,2520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="o'Leary=koleso_n" bounded="true" uniq="true" description="квест по смене колеса для Дороти. ВНИМАНИЕ! этот квест стартуется квестом на успешное спасение ДОРОТИ от бандитов." org="o'Leary=koleso_n" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_BK_FR_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=koleso_n=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=koleso_n=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_BK_03"/>
+        <point name="MP_BK_06"/>
+        <point name="MP_BK_04"/>
+        <point name="MP_FR_KM_03"/>
+        <point name="MP_FR_KM_05"/>
+        <point name="MP_FR_05"/>
+        <point name="MP_FR_02"/>
+        <point name="MP_BK_MJ_01"/>
+        <point name="MP_FR_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BK_03"/>
+    <point name="MP_BK_06"/>
+    <point name="MP_BK_04"/>
+    <point name="MP_FR_KM_03"/>
+    <point name="MP_FR_KM_05"/>
+    <point name="MP_FR_05"/>
+    <point name="MP_FR_02"/>
+    <point name="MP_BK_MJ_01"/>
+    <point name="MP_FR_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=koleso_n=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BK_FR_03"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=koleso_n" material="o'Leary=koleso_n"/>
+    </end>
+    <point name="MP_BK_FR_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=koleso_n=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=koleso_n=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <ScenarioFlagReq name="Dorothy_is_available"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=car_helper" bounded="false" uniq="true" description="Визит в Мантику с целью помочь Дороти с проблемами с автовозом. ВНИМАНИЕ! этот квест стартуется квестом на успешное спасение ДОРОТИ от бандитов." org="o'Leary=car_helper" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_MT_11" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=car_helper=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=car_helper=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=car_helper=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MR_MT_01"/>
+        <point name="MP_MR_01"/>
+        <point name="MP_PS_01"/>
+        <point name="MP_MT_MW_01"/>
+        <point name="MP_MT_SR_01"/>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_OK_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MR_MT_01"/>
+    <point name="MP_MR_01"/>
+    <point name="MP_PS_01"/>
+    <point name="MP_MT_MW_01"/>
+    <point name="MP_MT_SR_01"/>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_OK_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=car_helper=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_11"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=car_helper" material="o'Leary=car_helper"/>
+    </end>
+    <point name="MP_MT_11"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=car_helper=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=car_helper=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=koleso_n"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=girl_helper" bounded="false" uniq="true" description="Помощь коллеге Дороти по тракерской компании" org="o'Leary=girl_helper" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_LA_LB_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=girl_helper=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=girl_helper=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=girl_helper=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OV_LB_03"/>
+        <point name="MP_LA_05"/>
+        <point name="MP_LA_01"/>
+        <point name="MP_PD_09"/>
+        <point name="MP_PD_05"/>
+        <point name="MP_LB_02"/>
+        <point name="MP_BK_LB_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_LB_03"/>
+    <point name="MP_LA_05"/>
+    <point name="MP_LA_01"/>
+    <point name="MP_PD_09"/>
+    <point name="MP_PD_05"/>
+    <point name="MP_LB_02"/>
+    <point name="MP_BK_LB_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CAROL_3" resource="o'Leary=girl_helper=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_LB_03"/>
+          <add_item AddItemVehicle="" model="STERLING_9500" color="9"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_LB_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=girl_helper=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=girl_helper=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=car_helper"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=kofe_girl" bounded="false" uniq="true" description="Попить кофе с Дороти в Альтурасе." org="o'Leary=kofe_girl" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_Room_Alturas_Bar" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=kofe_girl=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=kofe_girl=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=kofe_girl=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BN_AL_02"/>
+        <point name="MP_BN_AL_01"/>
+        <point name="MP_ST_02"/>
+        <point name="MP_RE_ST_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BN_AL_02"/>
+    <point name="MP_BN_AL_01"/>
+    <point name="MP_ST_02"/>
+    <point name="MP_RE_ST_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_2" resource="o'Leary=kofe_girl=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Room_Alturas_Bar"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=kofe_girl" material="o'Leary=kofe_girl"/>
+    </end>
+    <point name="MP_Room_Alturas_Bar"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=kofe_girl=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=girl_helper"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=lunch_n" bounded="true" uniq="true" description="Визит в Окснард на &quot;обед&quot; с Дороти." org="o'Leary=lunch_n" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_Oxnard_Bar_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=lunch_n=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=lunch_n=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_LA_01"/>
+        <point name="MP_LA_LB_04"/>
+        <point name="MP_OV_LB_01"/>
+        <point name="MP_OV_05"/>
+        <point name="MP_OV_SB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_01"/>
+    <point name="MP_LA_LB_04"/>
+    <point name="MP_OV_LB_01"/>
+    <point name="MP_OV_05"/>
+    <point name="MP_OV_SB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=lunch_n=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Oxnard_Bar_01"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=lunch_n" material="o'Leary=lunch_n"/>
+    </end>
+    <point name="MP_Oxnard_Bar_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=lunch_n=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=lunch_n=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=kofe_girl"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=cinema" bounded="true" uniq="true" description="Визит в пригород Лебека." org="o'Leary=cinema" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_LA_01" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=cinema_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=cinema=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_OV_11"/>
+        <point name="MP_LA_LB_04"/>
+        <point name="MP_LA_LB_01"/>
+        <point name="MP_OV_LB_03"/>
+        <point name="MP_LA_LB_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_11"/>
+    <point name="MP_LA_LB_04"/>
+    <point name="MP_LA_LB_01"/>
+    <point name="MP_OV_LB_03"/>
+    <point name="MP_LA_LB_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+            <action journal="" description="o'Leary=cinema=success=LiveDialog=appear"/>
+            <action startmission="" name="o'Leary=cinema_2"/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_01"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=cinema_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=cinema_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=cinema_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=cinema_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=lunch_n"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=cinema_2" bounded="true" uniq="true" description="Доставка пассажира из Лебека в Лос-Анджелес." org="o'Leary=cinema_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_LA_01" model="ID_DOROTHY_2"/>
+    <point name="MP_LA_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_02"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=cinema_2" material="o'Leary=cinema_2"/>
+    </end>
+    <point name="MP_LA_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=cinema_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_02"/>
+  </mission>
+  <mission name="o'Leary=biliard" bounded="false" uniq="true" description="Визит в Гринфилд на партию в бильярд." org="o'Leary=biliard" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_GF_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=biliard=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=biliard=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=biliard=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_SB_AT_04"/>
+        <point name="MP_SJ_01"/>
+        <point name="MP_SJ_03"/>
+        <point name="MP_SF_SJ_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_SB_AT_04"/>
+    <point name="MP_SJ_01"/>
+    <point name="MP_SJ_03"/>
+    <point name="MP_SF_SJ_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=biliard=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_01"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=biliard" material="o'Leary=biliard"/>
+    </end>
+    <point name="MP_GF_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=biliard=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=biliard=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=cinema_2"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=golden_gate" bounded="false" uniq="true" description="Визит в Сан-Франциско." org="o'Leary=golden_gate" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_SF_UK_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=golden_gate=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=golden_gate=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=golden_gate=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_AA_01"/>
+        <point name="MP_SF_03"/>
+        <point name="MP_SF_UK_02"/>
+        <point name="MP_SF_UK_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_AA_01"/>
+    <point name="MP_SF_03"/>
+    <point name="MP_SF_UK_02"/>
+    <point name="MP_SF_UK_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=golden_gate=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_SF_UK_03"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=golden_gate" material="o'Leary=golden_gate"/>
+    </end>
+    <point name="MP_SF_UK_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=golden_gate=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=golden_gate=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=biliard"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=big_gonki_1" bounded="true" uniq="true" description="Визит в Стэндиш забрать Дороти" org="o'Leary=big_gonki_1" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_ST_01" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=big_gonki2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki_1=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=big_gonki_1=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_AL_07"/>
+        <point name="MP_BN_AL_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_AL_07"/>
+    <point name="MP_BN_AL_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki_1=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+            <action journal="" description="o'Leary=big_gonki_1=success=LiveDialog=appear"/>
+            <action startmission="" name="o'Leary=big_gonki2"/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_ST_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_ST_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=big_gonki2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki_1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=big_gonki2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=big_gonki2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki_1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=big_gonki2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=golden_gate"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=big_gonki2" bounded="true" uniq="true" description="Доставка пассажира из Стэндиша в Рино." org="o'Leary=big_gonki2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_ST_01" model="ID_DOROTHY_2"/>
+    <point name="MP_gs_RE_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_RE_01"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=big_gonki2" material="o'Leary=big_gonki2"/>
+    </end>
+    <point name="MP_gs_RE_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_gs_RE_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_gs_RE_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=big_gonki2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_gs_RE_01"/>
+  </mission>
+  <mission name="o'Leary=koncert_3" bounded="false" uniq="true" description="Визит в Барстоу." org="o'Leary=koncert_3" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_BS_02" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=koncert_4"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=koncert_3=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=koncert_3=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=koncert_3=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BS_VV_01"/>
+        <point name="MP_MJ_BS_01"/>
+        <point name="MP_BS_VV_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BS_VV_01"/>
+    <point name="MP_MJ_BS_01"/>
+    <point name="MP_BS_VV_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=koncert_3=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="o'Leary=koncert_3=success=LiveDialog=decline"/>
+            <action name="o'Leary=koncert_4" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="o'Leary=koncert_3=success=LiveDialog=accept"/>
+            <action startmission="" name="o'Leary=koncert_4"/>
+          </accept>
+          <point name="MP_BS_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BS_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=koncert_4" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=koncert_3=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=koncert_4" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=koncert_4" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=koncert_3=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=koncert_4" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=big_gonki2"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=koncert_4" bounded="false" uniq="true" description="Попутчица из Барстоу в Викторвилл." org="o'Leary=koncert_4" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_BS_02" model="ID_DOROTHY_CLUB"/>
+    <point name="MP_gs_VV_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=koncert_4=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_VV_02"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=koncert_4" material="o'Leary=koncert_4"/>
+    </end>
+    <point name="MP_gs_VV_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=koncert_4=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_VV_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_gs_VV_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=koncert_4=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_VV_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_gs_VV_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=koncert_4=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_gs_VV_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_gs_VV_02"/>
+  </mission>
+  <mission name="o'Leary=bowling_n" bounded="false" uniq="true" description="Визит в бар на Тракстопе между Минденом и Бриджопортом." org="o'Leary=bowling_n" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_bar_BR_MD_01" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=bowling_2_n"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=bowling_n=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=bowling_n=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=bowling_n=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BR_MW_01"/>
+        <point name="MP_BR_MW_02"/>
+        <point name="MP_MD_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BR_MW_01"/>
+    <point name="MP_BR_MW_02"/>
+    <point name="MP_MD_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=bowling_n=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="o'Leary=bowling_n=success=InBarTalk=decline"/>
+            <action name="o'Leary=bowling_2_n" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="o'Leary=bowling_n=success=InBarTalk=accept"/>
+            <action startmission="" name="o'Leary=bowling_2_n"/>
+          </accept>
+          <point name="MP_bar_BR_MD_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_BR_MD_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=bowling_2_n" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=bowling_n=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=bowling_2_n" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=bowling_2_n" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=bowling_n=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=bowling_2_n" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=koncert_4"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=bowling_2_n" bounded="false" uniq="true" description="Попутчица со стороны Миндена до Бриджпорта." org="o'Leary=bowling_2_n" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_bar_BR_MD_01" model="ID_DOROTHY_2"/>
+    <point name="MP_BR_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=bowling_2_n=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BR_02"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=bowling_2_n" material="o'Leary=bowling_2_n"/>
+    </end>
+    <point name="MP_BR_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=bowling_2_n=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_BR_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BR_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=bowling_2_n=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_BR_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BR_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=bowling_2_n=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_BR_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BR_02"/>
+  </mission>
+  <mission name="o'Leary=truks_nn" bounded="true" uniq="true" description="Визит в Колфакс на бейсбол." org="o'Leary=truks_nn" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_CF_01" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=truks_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_nn=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=truks_nn=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_CF_RN_02"/>
+        <point name="MP_RE_06"/>
+      </infochannel>
+    </channels>
+    <point name="MP_CF_RN_02"/>
+    <point name="MP_RE_06"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_nn=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="o'Leary=truks_nn=success=LiveDialog=decline"/>
+            <action name="o'Leary=truks_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="o'Leary=truks_nn=success=LiveDialog=accept"/>
+            <action startmission="" name="o'Leary=truks_2"/>
+          </accept>
+          <point name="MP_CF_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_CF_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=truks_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_nn=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=truks_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=truks_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_nn=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=truks_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=bowling_2_n"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=truks_2" bounded="false" uniq="true" description="Отвезти Дороти на Бейсбол в Сакраменто." org="o'Leary=truks_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_CF_01" model="ID_DOROTHY_2"/>
+    <point name="MP_office_scrt_05" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_office_scrt_05"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=truks_2" material="o'Leary=truks_2"/>
+    </end>
+    <point name="MP_office_scrt_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_office_scrt_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_office_scrt_05"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_office_scrt_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_office_scrt_05"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=truks_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_office_scrt_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_office_scrt_05"/>
+  </mission>
+  <mission name="o'Leary=prezent" bounded="false" uniq="true" description="Визит в Мохаве за подарком для брата Дороти." org="o'Leary=prezent" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_MJ_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=prezent=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=prezent=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=prezent=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BK_MJ_01"/>
+        <point name="MP_PL_MJ_01"/>
+        <point name="MP_MJ_LP_01"/>
+        <point name="MP_PD_08"/>
+        <point name="MP_MJ_BS_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BK_MJ_01"/>
+    <point name="MP_PL_MJ_01"/>
+    <point name="MP_MJ_LP_01"/>
+    <point name="MP_PD_08"/>
+    <point name="MP_MJ_BS_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=prezent=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MJ_01"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=prezent" material="o'Leary=prezent"/>
+    </end>
+    <point name="MP_MJ_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=prezent=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=prezent=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=truks_2"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=retro_n" bounded="true" uniq="true" description="Визит в Гринфилд." org="o'Leary=retro_n" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_GF_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=retro_n=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=retro_n=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_GF_AT_02"/>
+        <point name="MP_SJ_GF_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_GF_AT_02"/>
+    <point name="MP_SJ_GF_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=retro_n=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_02"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=retro_n" material="o'Leary=retro_n"/>
+    </end>
+    <point name="MP_GF_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=retro_n=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_CLUB" resource="o'Leary=retro_n=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=prezent"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=drunk" bounded="false" uniq="true" description="Визит в бар между Лебеком и Бейкерсфилдом." org="o'Leary=drunk" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_Bar_BK_LB_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=drunk=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=drunk=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=drunk=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_LB_01"/>
+        <point name="MP_BK_LB_03"/>
+        <point name="MP_BK_LB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_LB_01"/>
+    <point name="MP_BK_LB_03"/>
+    <point name="MP_BK_LB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_2" resource="o'Leary=drunk=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Bar_BK_LB_01"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=drunk" material="o'Leary=drunk"/>
+    </end>
+    <point name="MP_Bar_BK_LB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=drunk=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=drunk=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=retro_n"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=beach" bounded="false" uniq="true" description="Визит в бар между Окснардом и Санта-Барбарой." org="o'Leary=beach" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_Bar_OV_SB_01" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=beach_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=beach=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=beach=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_LB_04"/>
+        <point name="MP_LA_LB_03"/>
+        <point name="MP_LA_LB_02"/>
+        <point name="MP_LA_01"/>
+        <point name="MP_LA_LB_01"/>
+        <point name="MP_OV_LB_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_LB_04"/>
+    <point name="MP_LA_LB_03"/>
+    <point name="MP_LA_LB_02"/>
+    <point name="MP_LA_01"/>
+    <point name="MP_LA_LB_01"/>
+    <point name="MP_OV_LB_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="o'Leary=beach=success=InBarTalk=decline"/>
+            <action name="o'Leary=beach_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="o'Leary=beach=success=InBarTalk=accept"/>
+            <action startmission="" name="o'Leary=beach_2"/>
+          </accept>
+          <point name="MP_Bar_OV_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Bar_OV_SB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=beach_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=beach_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=beach_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=beach_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=drunk"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=beach_2" bounded="false" uniq="true" description="Отвезти дороти на пляж в Санта-Барбару." org="o'Leary=beach_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_Bar_OV_SB_01" model="ID_DOROTHY_BEACH"/>
+    <point name="MP_Bar_SB_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Bar_SB_01"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=beach_2" material="o'Leary=beach_2"/>
+    </end>
+    <point name="MP_Bar_SB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Bar_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Bar_SB_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Bar_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Bar_SB_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_BEACH" resource="o'Leary=beach_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Bar_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Bar_SB_01"/>
+  </mission>
+  <mission name="o'Leary=real_carnival_2" bounded="false" uniq="true" description="Визит в Мантику на карнавал." org="o'Leary=real_carnival_2" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_MT_10" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=real_carnival_2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=real_carnival_2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=real_carnival_2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MT_SR_03"/>
+        <point name="MP_MT_SR_01"/>
+        <point name="MP_MT_MW_01"/>
+        <point name="MP_MR_MT_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MT_SR_03"/>
+    <point name="MP_MT_SR_01"/>
+    <point name="MP_MT_MW_01"/>
+    <point name="MP_MR_MT_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=real_carnival_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_10"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_10"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=real_carnival_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=real_carnival_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=beach_2"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=rancho" bounded="false" uniq="true" description="Визит в бар между Бишопом и Лон-Пайном." org="o'Leary=rancho" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_bar_LP_BI_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=rancho=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=rancho=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=rancho=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LP_BI_04"/>
+        <point name="MP_LP_BI_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LP_BI_04"/>
+    <point name="MP_LP_BI_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_2" resource="o'Leary=rancho=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_LP_BI_01"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=rancho" material="o'Leary=rancho"/>
+    </end>
+    <point name="MP_bar_LP_BI_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=rancho=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=rancho=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=real_carnival_2"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=hello_nick" bounded="false" uniq="true" description="Привет по радио от Дороти Нику." org="o'Leary=hello_nick" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="RadioChannel" resource="o'Leary=hello_nick=start=Radio">
+        <appear>
+          <action journal_active="" description="o'Leary=hello_nick=start=Radio=appear"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_MT_SR_03"/>
+        <point name="MP_MR_01"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_SF_SJ_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MT_SR_03"/>
+    <point name="MP_MR_01"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_SF_SJ_04"/>
+    <req>
+      <MissionCompleteRequirement mission="o'Leary=rancho"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=shar" bounded="true" uniq="true" description="Визит в точку промеж Берни и Альтурасом." org="o'Leary=shar" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_BN_AL_03" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=shar_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=shar=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_BN_03"/>
+        <point name="MP_BN_AL_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BN_03"/>
+    <point name="MP_BN_AL_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+            <action journal="" description="o'Leary=shar=success=LiveDialog=appear"/>
+            <action startmission="" name="o'Leary=shar_2"/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BN_AL_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BN_AL_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=shar_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=shar_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=shar_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=shar_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=rancho"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=shar_2" bounded="true" uniq="true" description="Попутчица со стороны Берни в Альтурас." org="o'Leary=shar_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_BN_AL_03" model="ID_DOROTHY_2"/>
+    <point name="MP_AL_06" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=shar_2" material="o'Leary=shar_2"/>
+    </end>
+    <point name="MP_AL_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_06"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_06"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=shar_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_06"/>
+  </mission>
+  <mission name="o'Leary=koncert" bounded="false" uniq="true" description="Визит в Сан-Диего." org="o'Leary=koncert" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_SD_01" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=koncert_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=koncert=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=koncert=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=koncert=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SD_SC_02"/>
+        <point name="MP_SD_SC_01"/>
+        <point name="MP_SD_TM_01"/>
+        <point name="MP_TM_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SD_SC_02"/>
+    <point name="MP_SD_SC_01"/>
+    <point name="MP_SD_TM_01"/>
+    <point name="MP_TM_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=koncert=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="o'Leary=koncert=success=LiveDialog=decline"/>
+            <action name="o'Leary=koncert_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="o'Leary=koncert=success=LiveDialog=accept"/>
+            <action startmission="" name="o'Leary=koncert_2"/>
+          </accept>
+          <point name="MP_SD_01"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SD_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=koncert_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=koncert=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=koncert_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=koncert_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="o'Leary=koncert_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=shar_2"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=koncert_2" bounded="false" uniq="true" description="Доставка пассажира в мотель между Сан-Диего и Сан-Клементе." org="o'Leary=koncert_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_SD_01" model="ID_DOROTHY_TRIP"/>
+    <point name="MP_SD_SC_Motel" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=koncert_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+      <menu text="o'Leary=koncert_2" material="o'Leary=koncert_2"/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_3" resource="o'Leary=koncert_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=koncert_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_TRIP" resource="o'Leary=koncert_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_SD_SC_Motel"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SD_SC_Motel"/>
+  </mission>
+  <mission name="o'Leary=chiken" bounded="true" uniq="true" description="Визит в Сан-Хосе." org="o'Leary=chiken" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_bar_sf_sj_truckstop" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=chiken=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=chiken=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_SF_04"/>
+        <point name="MP_OK_01"/>
+        <point name="MP_SJ_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_04"/>
+    <point name="MP_OK_01"/>
+    <point name="MP_SJ_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_2" resource="o'Leary=chiken=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_sf_sj_truckstop"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=chiken" material="o'Leary=chiken"/>
+    </end>
+    <point name="MP_bar_sf_sj_truckstop"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=chiken=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=chiken=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=koncert_2"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=carnival" bounded="false" uniq="true" description="Визит на тракстоп между Рино и Минденом." org="o'Leary=carnival" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_bar_RE_MD" finish=""/>
+    <dependences>
+      <parentFor mission="o'Leary=carnival_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="o'Leary=carnival=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="o'Leary=carnival=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BR_MW_01"/>
+        <point name="MP_BR_MW_02"/>
+        <point name="MP_BR_MD_01"/>
+        <point name="MP_BR_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BR_MW_01"/>
+    <point name="MP_BR_MW_02"/>
+    <point name="MP_BR_MD_01"/>
+    <point name="MP_BR_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="o'Leary=carnival=success=InBarTalk=decline"/>
+            <action name="o'Leary=carnival_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="o'Leary=carnival=success=InBarTalk=accept"/>
+            <action startmission="" name="o'Leary=carnival_2"/>
+          </accept>
+          <point name="MP_bar_RE_MD"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_RE_MD"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="o'Leary=carnival_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=carnival_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="o'Leary=carnival_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="o'Leary=carnival_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=chiken"/>
+    </req>
+  </mission>
+  <mission name="o'Leary=carnival_2" bounded="false" uniq="true" description="Доставка пассажира со стороны Миндена в Рино." org="o'Leary=carnival_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_bar_RE_MD" model="ID_DOROTHY_2"/>
+    <point name="MP_RE_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=carnival_2" material="o'Leary=carnival_2"/>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=carnival_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+  </mission>
+  <mission name="o'Leary=tatoo" bounded="true" uniq="true" description="Визит в Атаскадеро." org="o'Leary=tatoo" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_AT_07" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=tatoo=start=CbVideo">
+        <appear>
+          <action journal="" description="o'Leary=tatoo=start=CbVideo=appear"/>
+          <action startmission="" name="this"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_SB_AT_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_SB_AT_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DOROTHY_2" resource="o'Leary=tatoo=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_AT_07"/>
+          <add_item AddItemVehicle="" model="KENWORTH_T600W" color="1"/>
+        </infochannel>
+      </channels>
+      <menu text="o'Leary=tatoo" material="o'Leary=tatoo"/>
+    </end>
+    <point name="MP_AT_07"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=tatoo=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DOROTHY_2" resource="o'Leary=tatoo=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="o'Leary=carnival_2"/>
+    </req>
+  </mission>
+</missions>
+

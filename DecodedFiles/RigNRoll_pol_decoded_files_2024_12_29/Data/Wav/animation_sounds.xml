@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <scoring dir="">
+    <CrashLight1 id="lighthit1" volume="1" group="1"></CrashLight1>
+    <CrashLight2 id="lighthit2" volume="1" group="1"></CrashLight2>
+    <CrashLight3 id="lighthit3" volume="1" group="1"></CrashLight3>
+    <CrashLight4 id="lighthit4" volume="1" group="1"></CrashLight4>
+    <CrashBody id="bodyhit" volume="1" group="1"></CrashBody>
+    <CrashFrame id="framehit" volume="1" group="1"></CrashFrame>
+  </scoring>
+  <sirens dir="">
+    <wail id="police_horn0" mindist="10" maxdist="70" volume="1" group="0" />
+    <yelp id="police_horn1" mindist="10" maxdist="70" volume="1" group="0"></yelp>
+  </sirens>
+</SoundParameters>

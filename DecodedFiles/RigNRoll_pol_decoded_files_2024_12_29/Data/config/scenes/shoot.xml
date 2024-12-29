@@ -1,0 +1,40 @@
+<scenes>
+	<xxxenvironments>
+		<env name="sometruck">
+			<matrix name="Mroot">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="Posroot" x="0" y="0" z="0"/>
+			<car name="banditCar">
+				<scriptref script="SCENARIO" variable="banditsCar1"/>
+			</car>
+		</env>
+	</xxxenvironments>
+	<scene name="sh" wide="off" fade="off" useshow="off">
+		<world name="sometruck"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\BANDIT_JOE_frnt_shoot_cyc.txt" name="bandit"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_gun_BANDIT_JOE_frnt_shoot_cyc.txt" name="gun"/>
+		<!--particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_shoot_BANDIT_JOE_frnt_shoot_cyc.txt" name="traceshoot" template="none" registertrace="bullettrace" carref="banditcar"/-->
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_shoot_BANDIT_JOE_frnt_shoot_cyc.txt" name="shoot" template="gunshot" carref="banditcar"/>
+		<!--persons>
+			<bindmatrix>
+				<matrix name="Mroot"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</persons-->
+		<run>
+			<script name="SCENARIO" function="UpdatePayersCar"/>
+		</run>
+		<runafter>
+			<script name="SCENARIO" function="resumescript"/>
+		</runafter>
+		<persons>
+			<bindcar>
+				<car name="banditCar"/>
+			</bindcar>
+		</persons>
+	</scene>
+</scenes>

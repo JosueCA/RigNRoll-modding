@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbcall>
+  <element name="short_video=video_start=start=CbVideo" dialog="short_video=video_start=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_start=fail_timeout_complete=CbVideo" dialog="short_video=video_start=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_start=decline=CbVideo" dialog="short_video=video_start=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dolina=success=CbVideo" dialog="short_video=video_dolina=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dolina=fail_timeout_complete=CbVideo" dialog="short_video=video_dolina=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dolina=fail_damaged=CbVideo" dialog="short_video=video_dolina=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dolina=decline=CbVideo" dialog="short_video=video_dolina=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dekor=start=CbVideo" dialog="short_video=video_dekor=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dekor=fail_timeout_pickup=CbVideo" dialog="short_video=video_dekor=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dekor=fail_timeout_complete=CbVideo" dialog="short_video=video_dekor=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dekor=fail_damaged=CbVideo" dialog="short_video=video_dekor=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_dekor=decline=CbVideo" dialog="short_video=video_dekor=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_reklama=start=CbVideo" dialog="short_video=video_reklama=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_reklama=fail_timeout_pickup=CbVideo" dialog="short_video=video_reklama=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_reklama=fail_timeout_complete=CbVideo" dialog="short_video=video_reklama=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_reklama=fail_damaged=CbVideo" dialog="short_video=video_reklama=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_reklama=decline=CbVideo" dialog="short_video=video_reklama=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_zavod=success=CbVideo" dialog="short_video=video_zavod=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_zavod=fail_timeout_complete=CbVideo" dialog="short_video=video_zavod=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_zavod=fail_damaged=CbVideo" dialog="short_video=video_zavod=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_zavod=decline=CbVideo" dialog="short_video=video_zavod=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_retrans=start=CbVideo" dialog="short_video=video_retrans=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_retrans=success=CbVideo" dialog="short_video=video_retrans=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_retrans=fail_timeout_pickup=CbVideo" dialog="short_video=video_retrans=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_retrans=fail_timeout_complete=CbVideo" dialog="short_video=video_retrans=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_retrans=fail_damaged=CbVideo" dialog="short_video=video_retrans=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_retrans=decline=CbVideo" dialog="short_video=video_retrans=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_clip=start=CbVideo" dialog="short_video=video_clip=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_clip=fail_timeout_pickup=CbVideo" dialog="short_video=video_clip=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_clip=fail_timeout_complete=CbVideo" dialog="short_video=video_clip=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_clip=fail_damaged=CbVideo" dialog="short_video=video_clip=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_clip=decline=CbVideo" dialog="short_video=video_clip=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_terror=success=CbVideo" dialog="short_video=video_terror=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_terror=fail_timeout_complete=CbVideo" dialog="short_video=video_terror=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_terror=fail_damaged=CbVideo" dialog="short_video=video_terror=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_terror=decline=CbVideo" dialog="short_video=video_terror=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_comp=start=CbVideo" dialog="short_video=video_comp=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_comp=fail_timeout_pickup=CbVideo" dialog="short_video=video_comp=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_comp=fail_timeout_complete=CbVideo" dialog="short_video=video_comp=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_comp=fail_damaged=CbVideo" dialog="short_video=video_comp=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_comp=decline=CbVideo" dialog="short_video=video_comp=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_beisboll=success=CbVideo" dialog="short_video=video_beisboll=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_beisboll=fail_timeout_complete=CbVideo" dialog="short_video=video_beisboll=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_beisboll=fail_damaged=CbVideo" dialog="short_video=video_beisboll=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_beisboll=decline=CbVideo" dialog="short_video=video_beisboll=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_star=start=CbVideo" dialog="short_video=video_star=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_star=success=CbVideo" dialog="short_video=video_star=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_star=fail_timeout_pickup=CbVideo" dialog="short_video=video_star=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_star=fail_timeout_complete=CbVideo" dialog="short_video=video_star=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_star=fail_damaged=CbVideo" dialog="short_video=video_star=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_video=video_star=decline=CbVideo" dialog="short_video=video_star=decline=CbVideo" who="" timecall="10.5"/>
+</cbcall>
+

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Motors dir="">
+    <DetroitS60 dir="">
+      <med_full id="DetroitS60\med_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <med_free id="DetroitS60\med_free" mindist="12" maxdist="500" volume="1" group="1"></med_free>
+      <high_full id="DetroitS60\high_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_full id="DetroitS60\low_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail02 id="DetroitS60\start_fail02" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail01 id="DetroitS60\start_fail01" mindist="12" maxdist="500" volume="1" group="1" />
+      <start id="DetroitS60\start" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_free id="DetroitS60\low_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <detroit_diesel_stop_eng id="DetroitS60\detroit_diesel_stop_eng" mindist="12" maxdist="500" volume="1" group="1" />
+      <idle id="DetroitS60\idle" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_free id="DetroitS60\high_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_01 id="DetroitS60\accel_01" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_03 id="DetroitS60\accel_03" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_02 id="DetroitS60\accel_02" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_05 id="DetroitS60\accel_05" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_04 id="DetroitS60\accel_04" mindist="12" maxdist="500" volume="1" group="1" />
+    </DetroitS60>
+    <CumminsISX565 dir="">
+      <low_full id="CumminsISX565\low_full" mindist="12" maxdist="500" volume="1" group="1"></low_full>
+      <med_full id="CumminsISX565\med_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_full id="CumminsISX565\high_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <cummins565_stop_eng id="CumminsISX565\cummins565_stop_eng" mindist="12" maxdist="500" volume="1" group="1" />
+      <idle id="CumminsISX565\idle" mindist="12" maxdist="500" volume="1" group="1"></idle>
+      <start_fail02 id="CumminsISX565\start_fail02" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail01 id="CumminsISX565\start_fail01" mindist="12" maxdist="500" volume="1" group="1" />
+      <start id="CumminsISX565\start" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_free id="CumminsISX565\low_free" mindist="12" maxdist="500" volume="1" group="1"></low_free>
+      <med_free id="CumminsISX565\med_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_free id="CumminsISX565\high_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_01 id="CumminsISX565\accel_01" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_03 id="CumminsISX565\accel_03" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_02 id="CumminsISX565\accel_02" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_04 id="CumminsISX565\accel_04" mindist="12" maxdist="500" volume="1" group="1"></accel_04>
+      <accel_05 id="CumminsISX565\accel_05" mindist="12" maxdist="500" volume="1" group="1" />
+    </CumminsISX565>
+    <MackAC330 dir="">
+      <low_full id="MackAC330\low_full" mindist="12" maxdist="500" volume="1" group="1"></low_full>
+      <med_full id="MackAC330\med_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_full id="MackAC330\high_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <mackAC330_stop_eng id="MackAC330\mackAC330_stop_eng" mindist="12" maxdist="500" volume="1" group="1" />
+      <idle id="MackAC330\idle" mindist="12" maxdist="500" volume="1" group="1"></idle>
+      <start_fail02 id="MackAC330\start_fail02" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail01 id="MackAC330\start_fail01" mindist="12" maxdist="500" volume="1" group="1" />
+      <start id="MackAC330\start" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_free id="MackAC330\low_free" mindist="12" maxdist="500" volume="1" group="1"></low_free>
+      <med_free id="MackAC330\med_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_free id="MackAC330\high_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_01 id="MackAC330\accel_01" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_03 id="MackAC330\accel_03" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_02 id="MackAC330\accel_02" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_04 id="MackAC330\accel_04" mindist="12" maxdist="500" volume="1" group="1"></accel_04>
+      <accel_05 id="MackAC330\accel_05" mindist="12" maxdist="500" volume="1" group="1" />
+    </MackAC330>
+    <CaterpillarC15 dir="">
+      <low_full id="CaterpillarC15\low_full" mindist="12" maxdist="500" volume="1" group="1"></low_full>
+      <med_full id="CaterpillarC15\med_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_full id="CaterpillarC15\high_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <caterpillarC15_stop_eng id="CaterpillarC15\caterpillarC15_stop_eng" mindist="12" maxdist="500" volume="1" group="1" />
+      <idle id="CaterpillarC15\idle" mindist="12" maxdist="500" volume="1" group="1"></idle>
+      <start_fail02 id="CaterpillarC15\start_fail02" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail01 id="CaterpillarC15\start_fail01" mindist="12" maxdist="500" volume="1" group="1" />
+      <start id="CaterpillarC15\start" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_free id="CaterpillarC15\low_free" mindist="12" maxdist="500" volume="1" group="1"></low_free>
+      <med_free id="CaterpillarC15\med_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_free id="CaterpillarC15\high_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_01 id="CaterpillarC15\accel_01" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_03 id="CaterpillarC15\accel_03" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_02 id="CaterpillarC15\accel_02" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_04 id="CaterpillarC15\accel_04" mindist="12" maxdist="500" volume="1" group="1"></accel_04>
+      <accel_05 id="CaterpillarC15\accel_05" mindist="12" maxdist="500" volume="1" group="1" />
+    </CaterpillarC15>
+    <CaterpillarC16 dir="">
+      <low_full id="CaterpillarC16\low_full" mindist="12" maxdist="500" volume="1" group="1"></low_full>
+      <med_full id="CaterpillarC16\med_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_full id="CaterpillarC16\high_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <caterpillarC16_stop_eng id="CaterpillarC16\caterpillarC16_stop_eng" mindist="12" maxdist="500" volume="1" group="1" />
+      <idle id="CaterpillarC16\idle" mindist="12" maxdist="500" volume="1" group="1"></idle>
+      <start_fail02 id="CaterpillarC16\start_fail02" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail01 id="CaterpillarC16\start_fail01" mindist="12" maxdist="500" volume="1" group="1" />
+      <start id="CaterpillarC16\start" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_free id="CaterpillarC16\low_free" mindist="12" maxdist="500" volume="1" group="1"></low_free>
+      <med_free id="CaterpillarC16\med_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_free id="CaterpillarC16\high_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_01 id="CaterpillarC16\accel_01" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_03 id="CaterpillarC16\accel_03" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_02 id="CaterpillarC16\accel_02" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_04 id="CaterpillarC16\accel_04" mindist="12" maxdist="500" volume="1" group="1"></accel_04>
+      <accel_05 id="CaterpillarC16\accel_05" mindist="12" maxdist="500" volume="1" group="1" />
+    </CaterpillarC16>
+    <MackE7460 dir="">
+      <low_full id="MackE7460\low_full" mindist="12" maxdist="500" volume="1" group="1"></low_full>
+      <med_full id="MackE7460\med_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_full id="MackE7460\high_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <mack_E7460_stop_eng id="MackE7460\mack_E7460_stop_eng" mindist="12" maxdist="500" volume="1" group="1" />
+      <idle id="MackE7460\idle" mindist="12" maxdist="500" volume="1" group="1"></idle>
+      <start_fail02 id="MackE7460\start_fail02" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail01 id="MackE7460\start_fail01" mindist="12" maxdist="500" volume="1" group="1" />
+      <start id="MackE7460\start" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_free id="MackE7460\low_free" mindist="12" maxdist="500" volume="1" group="1"></low_free>
+      <med_free id="MackE7460\med_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_free id="MackE7460\high_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_01 id="MackE7460\accel_01" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_03 id="MackE7460\accel_03" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_02 id="MackE7460\accel_02" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_04 id="MackE7460\accel_04" mindist="12" maxdist="500" volume="1" group="1"></accel_04>
+      <accel_05 id="MackE7460\accel_05" mindist="12" maxdist="500" volume="1" group="1" />
+    </MackE7460>
+    <CumminsISX370 dir="">
+      <low_full id="CumminsISX370\low_full" mindist="12" maxdist="500" volume="1" group="1"></low_full>
+      <med_full id="CumminsISX370\med_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_full id="CumminsISX370\high_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <cummins370_stop_eng id="CumminsISX370\cummins370_stop_eng" mindist="12" maxdist="500" volume="1" group="1" />
+      <idle id="CumminsISX370\idle" mindist="12" maxdist="500" volume="1" group="1"></idle>
+      <start_fail02 id="CumminsISX370\start_fail02" mindist="12" maxdist="500" volume="1" group="1" />
+      <start_fail01 id="CumminsISX370\start_fail01" mindist="12" maxdist="500" volume="1" group="1" />
+      <start id="CumminsISX370\start" mindist="12" maxdist="500" volume="1" group="1" />
+      <low_free id="CumminsISX370\low_free" mindist="12" maxdist="500" volume="1" group="1"></low_free>
+      <med_free id="CumminsISX370\med_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <high_free id="CumminsISX370\high_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_01 id="CumminsISX370\accel_01" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_03 id="CumminsISX370\accel_03" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_02 id="CumminsISX370\accel_02" mindist="12" maxdist="500" volume="1" group="1" />
+      <accel_04 id="CumminsISX370\accel_04" mindist="12" maxdist="500" volume="1" group="1"></accel_04>
+      <accel_05 id="CumminsISX370\accel_05" mindist="12" maxdist="500" volume="1" group="1" />
+    </CumminsISX370>
+    <Car_Yukon dir="">
+      <car1_yukon_1500_free id="car_yukon\car1_yukon_1500_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car1_yukon_2500_free id="car_yukon\car1_yukon_2500_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car1_yukon_3500_free id="car_yukon\car1_yukon_3500_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car1_yukon_1500_full id="car_yukon\car1_yukon_1500_full" mindist="12" maxdist="500" volume="1" group="1"></car1_yukon_1500_full>
+      <car1_yukon_2500_full id="car_yukon\car1_yukon_2500_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <car1_yukon_3500_full id="car_yukon\car1_yukon_3500_full" mindist="12" maxdist="500" volume="1" group="1" />
+    </Car_Yukon>
+    <Car_Ford dir="">
+      <car2_ford_1000_free id="car_Ford\car2_ford_1000_free" mindist="12" maxdist="500" volume="1" group="1"></car2_ford_1000_free>
+      <car2_ford_2000_free id="car_Ford\car2_ford_2000_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car2_ford_4000_free id="car_Ford\car2_ford_4000_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car2_ford_1000_full id="car_Ford\car2_ford_1000_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <car2_ford_2000_full id="car_Ford\car2_ford_2000_full" mindist="12" maxdist="500" volume="1" group="1"></car2_ford_2000_full>
+      <car2_ford_4000_full id="car_Ford\car2_ford_4000_full" mindist="12" maxdist="500" volume="1" group="1" />
+    </Car_Ford>
+    <Car_Toyota dir="">
+      <car3_toyota_1000_free id="Car_Toyota\car3_toyota_1000_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car3_toyota_2000_free id="Car_Toyota\car3_toyota_2000_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car3_toyota_4000_free id="Car_Toyota\car3_toyota_4000_free" mindist="12" maxdist="500" volume="1" group="1"></car3_toyota_4000_free>
+      <car3_toyota_1000_full id="Car_Toyota\car3_toyota_1000_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <car3_toyota_2000_full id="Car_Toyota\car3_toyota_2000_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <car3_toyota_4000_full id="Car_Toyota\car3_toyota_4000_full" mindist="12" maxdist="500" volume="1" group="1" />
+    </Car_Toyota>
+    <Car_Chevy dir="">
+      <car4_chevy_1000_free id="Car_Chevy\car4_chevy_1000_free" mindist="12" maxdist="500" volume="1" group="1"></car4_chevy_1000_free>
+      <car4_chevy_2000_free id="Car_Chevy\car4_chevy_2000_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car4_chevy_4000_free id="Car_Chevy\car4_chevy_4000_free" mindist="12" maxdist="500" volume="1" group="1" />
+      <car4_chevy_1000_full id="Car_Chevy\car4_chevy_1000_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <car4_chevy_2000_full id="Car_Chevy\car4_chevy_2000_full" mindist="12" maxdist="500" volume="1" group="1" />
+      <car4_chevy_4000_full id="Car_Chevy\car4_chevy_4000_full" mindist="12" maxdist="500" volume="1" group="1" />
+    </Car_Chevy>
+  </Motors>
+</SoundParameters>

@@ -1,0 +1,30 @@
+<deform>
+	<binds>set1
+		<item part="1" part_stranger="2" bind="1" state="0"/>
+	</binds>
+	<blow>car1
+		<item part="8" part_stranger="1" bind="1" state="1"/>
+		<item part="8" part_stranger="1" bind="2" state="1"/>
+		<item part="8" part_stranger="1" bind="3" state="0"/>
+		<item part="12" part_stranger="1" bind="1" state="0"/>
+		<item part="12" part_stranger="1" bind="2" state="0"/>
+		<item part="12" part_stranger="1" bind="3" state="1"/>
+		<item part="12" part_stranger="1" bind="4" state="1"/>
+	</blow>
+	<blow>Kenworth_T2000_Blow1
+		<item part="2" part_stranger="1" bind="1" state="0"/>
+		<item part="2" part_stranger="1" bind="2" state="0"/>
+		<item part="2" part_stranger="1" bind="3" state="0"/>
+		<item part="2" part_stranger="1" bind="4" state="0"/>
+		<item part="2" part_stranger="3" bind="1" state="1"/>
+		<item part="2" part_stranger="3" bind="2" state="1"/>
+		<item part="3" part_stranger="2" bind="1" state="0"/>
+		<item part="3" part_stranger="2" bind="4" state="0"/>
+		<item part="5" part_stranger="1" bind="1" state="1"/>
+		<item part="5" part_stranger="1" bind="2" state="1"/>
+		<item part="5" part_stranger="1" bind="3" state="0"/>
+		<item part="6" part_stranger="1" bind="1" state="1"/>
+		<item part="6" part_stranger="1" bind="2" state="1"/>
+		<item part="6" part_stranger="1" bind="3" state="0"/>
+	</blow>
+</deform>

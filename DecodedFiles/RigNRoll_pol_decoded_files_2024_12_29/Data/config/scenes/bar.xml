@@ -1,0 +1,855 @@
+<scenes>
+	<xxxenvironments>
+		<env name="bar">
+			<xxx id="_Man">
+				<id>Man_020</id>
+			</xxx>
+			<xxx id="Man">
+				<id>Man_020</id>
+			</xxx>
+			<xxx id="NicHello">
+				<scriptarg varname="Nic1"/>
+			</xxx>
+			<xxx id="NicReply">
+				<scriptarg varname="Nic2"/>
+			</xxx>
+			<xxx id="RepHello">
+				<scriptarg varname="Rep1"/>
+			</xxx>
+			<xxx id="RepReply">
+				<scriptarg varname="Rep2"/>
+			</xxx>
+			<matrix name="MNic">
+				<scriptarg varname="M"/>
+			</matrix>
+			<matrix name="MRep">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="posNic">
+				<scriptarg varname="P"/>
+			</vector>
+			<vector name="posRep">
+				<scriptarg varname="P"/>
+			</vector>
+			<xxx id="frase">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="_Man_Bar_Talk">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="_Woman_Bar_Talk">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="Man">
+				<scriptarg varname="model"/>
+			</xxx>
+			<xxx id="Woman">
+				<scriptarg varname="model"/>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<matrix name="M180">
+				<vector index="0" x="-1" y="0" z="0"/>
+				<vector index="1" x="0" y="-1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+			<vector name="posshift" x="0" y="0" z="-0.095"/>
+			<xxx id="MDL-Bar_door_01">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<xxx id="door">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<xxx id="newspaper">
+				<scriptarg varname="newspaper"/>
+			</xxx>
+			<xxx id="identity">
+				<scriptarg varname="identity"/>
+			</xxx>
+		</env>
+		<env name="bar2">
+			<xxx id="_Man">
+				<id>Man_020</id>
+			</xxx>
+			<xxx id="Man">
+				<id>Man_020</id>
+			</xxx>
+			<xxx id="NicHello">
+				<scriptarg varname="Nic1"/>
+			</xxx>
+			<xxx id="NicReply">
+				<scriptarg varname="Nic2"/>
+			</xxx>
+			<xxx id="RepHello">
+				<scriptarg varname="Rep1"/>
+			</xxx>
+			<xxx id="RepReply">
+				<scriptarg varname="Rep2"/>
+			</xxx>
+			<matrix name="MNic">
+				<scriptarg varname="M"/>
+			</matrix>
+			<matrix name="MRep">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="posNic">
+				<scriptarg varname="P"/>
+			</vector>
+			<vector name="posRep">
+				<scriptarg varname="P"/>
+			</vector>
+			<xxx id="frase">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="_Man_Bar_Talk">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="_Woman_Bar_Talk">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="Man">
+				<scriptarg varname="model"/>
+			</xxx>
+			<xxx id="Woman">
+				<scriptarg varname="model"/>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<matrix name="M180">
+				<vector index="0" x="-1" y="0" z="0"/>
+				<vector index="1" x="0" y="-1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+			<vector name="posshift" x="0" y="0" z="-0.08"/>
+			<xxx id="MDL-Bar_door_01">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<xxx id="door">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<xxx id="newspaper">
+				<scriptarg varname="newspaper"/>
+			</xxx>
+			<xxx id="identity">
+				<scriptarg varname="identity"/>
+			</xxx>
+		</env>
+		<env name="bar3">
+			<xxx id="_Man">
+				<id>Man_020</id>
+			</xxx>
+			<xxx id="Man">
+				<id>Man_020</id>
+			</xxx>
+			<xxx id="NicHello">
+				<scriptarg varname="Nic1"/>
+			</xxx>
+			<xxx id="NicReply">
+				<scriptarg varname="Nic2"/>
+			</xxx>
+			<xxx id="RepHello">
+				<scriptarg varname="Rep1"/>
+			</xxx>
+			<xxx id="RepReply">
+				<scriptarg varname="Rep2"/>
+			</xxx>
+			<matrix name="MNic">
+				<scriptarg varname="M"/>
+			</matrix>
+			<matrix name="MRep">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="posNic">
+				<scriptarg varname="P"/>
+			</vector>
+			<vector name="posRep">
+				<scriptarg varname="P"/>
+			</vector>
+			<xxx id="frase">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="_Man_Bar_Talk">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="_Woman_Bar_Talk">
+				<scriptarg varname="Phrase"/>
+			</xxx>
+			<xxx id="Man">
+				<scriptarg varname="model"/>
+			</xxx>
+			<xxx id="Woman">
+				<scriptarg varname="model"/>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<matrix name="M180">
+				<vector index="0" x="-1" y="0" z="0"/>
+				<vector index="1" x="0" y="-1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+			<vector name="posshift" x="0" y="0" z="-0.08"/>
+			<xxx id="MDL-Bar_door_01">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<xxx id="door">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<xxx id="newspaper">
+				<scriptarg varname="newspaper"/>
+			</xxx>
+			<xxx id="identity">
+				<scriptarg varname="identity"/>
+			</xxx>
+		</env>
+		<env name="nearBar">
+			<xxx id="MDL-Bar_door_01">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<xxx id="door">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+	</xxxenvironments>
+	<scene name="ManBar_Salut_type_1" fade="on" wide="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<!--itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/-->
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXMan_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\IVAN_NEW_Bar_Salut_type_1.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\CamSBarSalut_Bar_Salut_type_1.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="ManBar_Salut_type_2" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t2\\XXXMan_Bar_Salut_type_2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t2\\IVAN_NEW_Bar_Salut_type_2.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t2\\CamSBarSalut_Bar_Salut_type_2.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="ManBar_Salut_type_3" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t3\\XXXMan_Bar_Salut_type_3.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t3\\IVAN_NEW_Bar_Salut_type_3.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t3\\CamSBarSalut_Bar_Salut_type_3.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="ManBar_Salut_type_4" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t4\\XXXMan_Bar_Salut_type_4.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t4\\IVAN_NEW_Bar_Salut_type_4.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t4\\CamSBarSalut_Bar_Salut_type_4.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="ManBar_Salut_type_5" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t5\\XXXMan_Bar_Salut_type_5.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t5\\IVAN_NEW_Bar_Salut_type_5.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t5\\CamSBarSalut_Bar_Salut_type_5.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="ManBar_Salut_type_6" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t6\\XXXMan_Bar_Salut_type_6.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t6\\IVAN_NEW_Bar_Salut_type_6.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t6\\CamSBarSalut_Bar_Salut_type_6.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Bar_Salut_type_1" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\BARMEN_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\IVAN_NEW_Bar_Salut_type_1.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\CamSBarSalut_Bar_Salut_type_1.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Bar_Salut_type_2" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t2\\BARMEN_Bar_Salut_type_2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t2\\IVAN_NEW_Bar_Salut_type_2.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t2\\CamSBarSalut_Bar_Salut_type_2.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Bar_Salut_type_3" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t3\\BARMEN_Bar_Salut_type_3.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t3\\IVAN_NEW_Bar_Salut_type_3.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t3\\CamSBarSalut_Bar_Salut_type_3.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Bar_Salut_type_4" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t4\\BARMEN_Bar_Salut_type_4.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t4\\IVAN_NEW_Bar_Salut_type_4.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t4\\CamSBarSalut_Bar_Salut_type_4.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Bar_Salut_type_5" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t5\\BARMEN_Bar_Salut_type_5.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t5\\IVAN_NEW_Bar_Salut_type_5.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t5\\CamSBarSalut_Bar_Salut_type_5.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Bar_Salut_type_6" fade="on" wide="on" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t1\\XXXdoor_Bar_Salut_type_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t6\\BARMEN_Bar_Salut_type_6.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t6\\IVAN_NEW_Bar_Salut_type_6.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCBar_t6\\CamSBarSalut_Bar_Salut_type_6.txt" type="anm" anmspace="Camera_CamSBarSalut"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXNicABar1" fade="off" wide="on" useshow="false" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\IVAN_NEW_Bar_XXXMan_01.txt" name="man" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXXNicA_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXNicABar2" fade="off" wide="on" useshow="false" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\IVAN_NEW_Bar_XXXMan_01.txt" name="man" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXXNicA_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXNicABar3" fade="off" wide="on" useshow="false" so="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="bar3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\IVAN_NEW_Bar_XXXMan_01.txt" name="man" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXXNicA_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXWomanBar1" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\Woman_Bar_XXXMan_01.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXX_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXWomanBar2" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\Woman_Bar_XXXMan_01.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXX_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXWomanBar3" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\Woman_Bar_XXXMan_01.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXX_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXManBar1" fade="off" wide="on" useshow="true" so="1">
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\Man_Bar_XXXMan_01.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXX_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXManBar2" fade="off" wide="on" useshow="true" so="1">
+		<world name="bar2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\Man_Bar_XXXMan_01.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXX_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="XXXManBar3" fade="off" wide="on" useshow="true" so="1">
+		<world name="bar3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\Man_Bar_XXXMan_01.txt" name="man" id="XXXidentity"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCXXX_Bar_Talk\\CamS_XXX_Bar_01.txt" type="anm" anmspace="Camera_CamS_XXX_Bar"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin outside" fade="off" wide="on" useshow="false" simple="1">
+		<run>
+			<script name="SCENARIO" function="PrepareNearBarEnvironment"/>
+		</run>
+		<world name="nearBar"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_01\\IVAN_NEW_Ivan_in_bar_01.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_01\\CamS_in_bar_Ivan_in_bar_01.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_01\\XXXdoor_Ivan_in_bar_01.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin inside 1" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_02\\IVAN_NEW_Ivan_in_bar_02.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_02\\CamS_in_bar_Ivan_in_bar_02.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_02\\XXXdoor_Ivan_in_bar_02.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_02\\Model_newspaper_Ivan_in_bar_02.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin inside 2" fade="off" wide="on" useshow="false" so="11">
+		<world name="bar2"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_02\\IVAN_NEW_Ivan_in_bar_02.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_02\\CamS_in_bar_Ivan_in_bar_02.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_02\\XXXdoor_Ivan_in_bar_02.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_02\\Model_newspaper_Ivan_in_bar_02.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin inside 3" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_02\\IVAN_NEW_Ivan_in_bar_02.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_02\\CamS_in_bar_Ivan_in_bar_02.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_02\\XXXdoor_Ivan_in_bar_02.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_02\\Model_newspaper_Ivan_in_bar_02.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin move newspaper 1" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_03\\IVAN_NEW_Ivan_in_bar_03.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_03\\CamS_in_bar_Ivan_in_bar_03.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_03\\XXXdoor_Ivan_in_bar_03.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_03\\Model_newspaper_Ivan_in_bar_03.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin move newspaper 2" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_03\\IVAN_NEW_Ivan_in_bar_03.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_03\\CamS_in_bar_Ivan_in_bar_03.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_03\\XXXdoor_Ivan_in_bar_03.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_03\\Model_newspaper_Ivan_in_bar_03.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin move newspaper 3" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_03\\IVAN_NEW_Ivan_in_bar_03.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_03\\CamS_in_bar_Ivan_in_bar_03.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_03\\XXXdoor_Ivan_in_bar_03.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_03\\Model_newspaper_Ivan_in_bar_03.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin menu camera 1" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_04\\IVAN_NEW_Ivan_in_bar_04.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_04\\CamS_in_bar_Ivan_in_bar_04.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_04\\XXXdoor_Ivan_in_bar_04.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_04\\Model_newspaper_Ivan_in_bar_04.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin menu camera 2" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_04\\IVAN_NEW_Ivan_in_bar_04.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_04\\CamS_in_bar_Ivan_in_bar_04.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_04\\XXXdoor_Ivan_in_bar_04.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_04\\Model_newspaper_Ivan_in_bar_04.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barin menu camera 3" fade="off" wide="on" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_04\\IVAN_NEW_Ivan_in_bar_04.txt" name="man"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Bar\\scenes\\Ivan_in_bar_04\\CamS_in_bar_Ivan_in_bar_04.txt" type="anm" anmspace="Camera_CamS_in_bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_04\\XXXdoor_Ivan_in_bar_04.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\bar\\Scenes\\Ivan_in_bar_04\\Model_newspaper_Ivan_in_bar_04.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="posshift"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+</scenes>

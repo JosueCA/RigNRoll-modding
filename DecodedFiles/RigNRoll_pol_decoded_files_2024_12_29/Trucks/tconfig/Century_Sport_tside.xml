@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Objects>
+	<node name="FREIGHTLINER_CENTURY_SPORT" material="mat_Freight_Century_Sport_Case_540410" texture="0" set="24" container="century_sport.bin"/>
+</Objects>

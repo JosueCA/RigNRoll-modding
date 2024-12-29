@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="short_aeroport=aero_start" description="short_aeroport=aero_start" importance="true" type="trailerClientDelivery" customer="short_aeroport=aero_start=customer">
+    <reward money="1" rank="1.5" rating="1"/>
+    <forfeit money="1" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_aeroport=aero_start=finish"/>
+    <fail_timeout_pickup description="short_aeroport=aero_start=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_aeroport=aero_start=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_start=fail_damaged"/>
+    <decline description="short_aeroport=aero_start=decline"/>
+  </element>
+  <element name="short_aeroport=aero_beisbol" description="short_aeroport=aero_beisbol" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_beisbol=customer">
+    <reward money="1.3" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_aeroport=aero_beisbol=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_aeroport=aero_beisbol=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_beisbol=fail_damaged"/>
+    <decline description="short_aeroport=aero_beisbol=decline"/>
+  </element>
+  <element name="short_aeroport=aero_meteo" description="short_aeroport=aero_meteo" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_meteo=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_aeroport=aero_meteo=finish"/>
+    <fail_timeout_complete description="short_aeroport=aero_meteo=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_meteo=fail_damaged"/>
+    <decline description="short_aeroport=aero_meteo=decline"/>
+  </element>
+  <element name="short_aeroport=aero_meat" description="short_aeroport=aero_meat" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_meat=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_aeroport=aero_meat=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_aeroport=aero_meat=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_meat=fail_damaged"/>
+    <decline description="short_aeroport=aero_meat=decline"/>
+  </element>
+  <element name="short_aeroport=aero_radio" description="short_aeroport=aero_radio" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_radio=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="0.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_aeroport=aero_radio=finish"/>
+    <fail_timeout_complete description="short_aeroport=aero_radio=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_radio=fail_damaged"/>
+    <decline description="short_aeroport=aero_radio=decline"/>
+  </element>
+  <element name="short_aeroport=aero_stanok" description="short_aeroport=aero_stanok" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_stanok=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_aeroport=aero_stanok=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_aeroport=aero_stanok=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_stanok=fail_damaged"/>
+    <decline description="short_aeroport=aero_stanok=decline"/>
+  </element>
+  <element name="short_aeroport=aero_util" description="short_aeroport=aero_util" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_util=customer">
+    <reward money="2" rank="1.3" rating="1"/>
+    <forfeit money="1.5" rank="1.3" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_aeroport=aero_util=finish"/>
+    <fail_timeout_complete description="short_aeroport=aero_util=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_util=fail_damaged"/>
+    <decline description="short_aeroport=aero_util=decline"/>
+  </element>
+  <element name="short_aeroport=aero_scaner" description="short_aeroport=aero_scaner" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_scaner=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_aeroport=aero_scaner=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_aeroport=aero_scaner=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_scaner=fail_damaged"/>
+    <decline description="short_aeroport=aero_scaner=decline"/>
+  </element>
+  <element name="short_aeroport=aero_bagaj" description="short_aeroport=aero_bagaj" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_bagaj=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_aeroport=aero_bagaj=finish"/>
+    <fail_timeout_complete description="short_aeroport=aero_bagaj=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_bagaj=fail_damaged"/>
+    <decline description="short_aeroport=aero_bagaj=decline"/>
+  </element>
+  <element name="short_aeroport=aero_fuel" description="short_aeroport=aero_fuel" importance="false" type="trailerClientDelivery" customer="short_aeroport=aero_fuel=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_aeroport=aero_fuel=finish"/>
+    <fail_timeout_pickup description="short_aeroport=aero_fuel=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_aeroport=aero_fuel=fail_timeout_complete"/>
+    <fail_damaged description="short_aeroport=aero_fuel=fail_damaged"/>
+    <decline description="short_aeroport=aero_fuel=decline"/>
+  </element>
+</org>
+

@@ -1,0 +1,212 @@
+<particles>
+	<particle name="barrel_particle_bunch" type="type9" nom="2">main stream
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 256">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<alfa>
+					<anm x0="0.0" y0="32" x1="0.5" y1="200"/>
+					<anm x0="0.5" y0="200" x1="0.6" y1="80"/>
+					<anm x0="0.6" y0="80" x1="1.0" y1="0"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="true" use_max_cyclelimit="false" fps="18" time="0.0" maxcycles="0.0">
+					<texsized x0="0.166" y0="0.166" sx="0.1666" sy="0.1666"/>
+					<texanimations>
+						<texsized x0="0.166" y0="0.166" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.500" y0="0.166" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.833" y0="0.166" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.166" y0="0.500" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.500" y0="0.500" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.833" y0="0.500" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.166" y0="0.833" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.500" y0="0.833" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.833" y0="0.833" sx="0.1666" sy="0.1666"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1.0" multiply="" var1="0.0" var2="1.0"/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1.0" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="0" veldump="0.99" lifetime="1.0" shape_coef="0.3" sizedump="0.8" velatten="0.3">
+				<influence gravity="" veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable use="true" multiply="" dynname="barrel_bunch_particle_lifetime">
+					<random use="true" mult="2.0" var1="0.2" var2="1.0" multiply=""/>
+				</dynvariable>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.02" y="0.02" z="0.02" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="1.5" var1="1.7" var2="1.8" multiply=""/>
+				</stack2>
+			</velocity>
+			<charge use="true">
+				<task use="true" type="ontime" time="0.0" probability="0.4" number="1" getvelocity="true" getposition="true" name="barrel_particle_child_smoke" z="">
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+			</charge>
+		</simple>
+	</particle>
+	<particle name="barrel_particle_blast" type="type10" nom="1">water blast
+		<track>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="0.5" y0="1.0" x1="0.5" y1="0.0" x2="-0.5" y2="1.0" x3="-0.5" y3="0.0"/>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.3" y1="255"/>
+					<anm x0="0.3" y0="255" x1="0.6" y1="255"/>
+					<anm x0="0.6" y0="255" x1="1.0" y1="0"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="15" time="0.0" maxcycles="0.0">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.25" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1.0" multiply="" var1="0.0" var2="0.8"/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1.0" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+		</track>
+		<simple>
+			<lifetemplate1 z="0" veldump="0.85" lifetime="0.1" shape_coef="3.5" sizedump="0.8">
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1.0" var1="0.1" var2="0.5" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.01" y="0.01" z="0.01" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+		</simple>
+	</particle>
+	<particle name="barrel_particle_flat" type="type9" nom="2">splashes from blast center
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-1.0" y0="-1.0" x1="-1.0" y1="1.0" x2="1.0" y2="-1.0" x3="1.0" y3="1.0"/>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.25" y1="128"/>
+					<anm x0="0.25" y0="128" x1="1.0" y1="0"/>
+				</alfa>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="1.0" y1="9.0"/>
+				</rotate>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="9.0" time="0.0" maxcycles="0.0">
+					<texsized x0="0.1666" y0="0.8333" sx="0.1666" sy="0.1666"/>
+					<texanimations>
+						<texsized x0="0.1666" y0="0.8333" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.5000" y0="0.8333" sx="0.1666" sy="0.1666"/>
+						<texsized x0="0.8333" y0="0.8333" sx="0.1666" sy="0.1666"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1.0" var1="0.5" var2="1.0"/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="0.75" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="-1.0" var2="+1.0"/>
+				</mult>
+			</rotate>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="0" veldump="0.9" lifetime="0.5" shape_coef="0.0" sizedump="0.8">
+				<influence gravity="" veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1.0" var1="0.1" var2="0.6" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add=""/>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+		</simple>
+	</particle>
+	<particle name="barrel_particle_child_smoke" type="type3" nom="1">child smoke from main stream
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="5" time="0" maxcycles="0">
+					<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<coords x0="-1.0" y0="-1.0" x1="-1.0" y1="1.0" x2="1.0" y2="-1.0" x3="1.0" y3="1.0"/>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.02" y1="6"/>
+					<anm x0="0.02" y0="6" x1="0.4" y1="3"/>
+					<anm x0="0.4" y0="3" x1="0.6" y1="1"/>
+					<anm x0="0.6" y0="1" x1="1.0" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="2.0" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="0" veldump="0.0" lifetime="1.5" shape_coef="1.0" sizedump="0.8">
+				<influence gravity="" veldump="" wind=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="2.0" var1="0.5" var2="1.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.08" y="0.08" z="0.08" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="1.0" var1="0.5" var2="1.0" multiply=""/>
+				</stack2>
+			</velocity>
+		</simple>
+	</particle>
+</particles>

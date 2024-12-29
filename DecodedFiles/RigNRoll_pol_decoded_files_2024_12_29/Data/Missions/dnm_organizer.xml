@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="dnm=WoodDelivery1" description="dnm=WoodDelivery1" importance="false" type="visit" customer_npc="ID_ANTONIO_1">
+    <reward information="" money="0" rank="1" rating="1"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <start description="dnm=WoodDelivery1=start"/>
+    <finish description="dnm=WoodDelivery1=finish"/>
+    <fail_timeout_complete description="dnm=WoodDelivery1=fail_timeout_complete"/>
+    <decline description="dnm=WoodDelivery1=decline"/>
+  </element>
+  <element name="dnm=WoodDelivery_2" description="dnm=WoodDelivery_2" importance="true" type="trailerClientDelivery" customer_npc="ID_ANTONIO_1">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=WoodDelivery_2=finish"/>
+    <fail_timeout_pickup description="dnm=WoodDelivery_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="dnm=WoodDelivery_2=fail_timeout_complete"/>
+    <fail_damaged description="dnm=WoodDelivery_2=fail_damaged"/>
+    <decline description="dnm=WoodDelivery_2=decline"/>
+  </element>
+  <element name="dnm=brocken_car" description="dnm=brocken_car" importance="false" type="passangerDelivery" customer_npc="ID_JESSICA_1">
+    <reward information="" money="0" rank="1" rating="1"/>
+    <forfeit money="0" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <start description="dnm=brocken_car=start"/>
+    <finish description="dnm=brocken_car=finish"/>
+    <fail_timeout_pickup description="dnm=brocken_car=fail_timeout_pickup"/>
+    <fail_timeout_complete description="dnm=brocken_car=fail_timeout_complete"/>
+    <fail_damaged description="dnm=brocken_car=fail_damaged"/>
+    <decline description="dnm=brocken_car=decline"/>
+  </element>
+  <element name="dnm=jessica_bc" description="dnm=jessica_bc" importance="false" type="pakageDelivery" customer_npc="ID_JESSICA_1">
+    <reward money="0.5" rank="1" rating="1"/>
+    <forfeit money="0" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="custom" timecoef="2"/>
+    <finish description="dnm=jessica_bc=finish"/>
+    <fail_timeout_complete description="dnm=jessica_bc=fail_timeout_complete"/>
+    <fail_damaged description="dnm=jessica_bc=fail_damaged"/>
+    <decline description="dnm=jessica_bc=decline"/>
+  </element>
+  <element name="dnm=HK0" description="dnm=HK0"/>
+  <element name="dnm=HK0-1" description="dnm=HK0-1"/>
+  <element name="dnm=HK1" description="dnm=HK1" importance="true" type="visit" customer="dnm=HK1=customer">
+    <reward money="0" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=HK1=finish"/>
+    <fail_timeout_complete description="dnm=HK1=fail_timeout_complete"/>
+    <decline description="dnm=HK1=decline"/>
+  </element>
+  <element name="dnm=HK2" description="dnm=HK2" importance="false" type="trailerClientDelivery" customer="dnm=HK2=customer">
+    <reward money="3" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=HK2=finish"/>
+    <fail_timeout_complete description="dnm=HK2=fail_timeout_complete"/>
+    <fail_damaged description="dnm=HK2=fail_damaged"/>
+    <decline description="dnm=HK2=decline"/>
+  </element>
+  <element name="dnm=HK1-1" description="dnm=HK1-1" importance="false" type="visit" customer="dnm=HK1-1=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=HK1-1=finish"/>
+    <fail_timeout_complete description="dnm=HK1-1=fail_timeout_complete"/>
+    <decline description="dnm=HK1-1=decline"/>
+  </element>
+  <element name="dnm=HK2-1" description="dnm=HK2-1" importance="false" type="trailerClientDelivery" customer="dnm=HK2-1=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=HK2-1=finish"/>
+    <fail_timeout_complete description="dnm=HK2-1=fail_timeout_complete"/>
+    <fail_damaged description="dnm=HK2-1=fail_damaged"/>
+    <decline description="dnm=HK2-1=decline"/>
+  </element>
+  <element name="dnm=drunk_driver" description="dnm=drunk_driver" importance="false" type="trailerClientDelivery" customer_npc="ID_FRED_3">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=drunk_driver=finish"/>
+    <fail_timeout_pickup description="dnm=drunk_driver=fail_timeout_pickup"/>
+    <fail_timeout_complete description="dnm=drunk_driver=fail_timeout_complete"/>
+    <fail_damaged description="dnm=drunk_driver=fail_damaged"/>
+    <decline description="dnm=drunk_driver=decline"/>
+  </element>
+  <element name="dnm=qTransport3" description="dnm=qTransport3" importance="false" type="trailerClientDelivery" customer_npc="ID_FRED_3">
+    <reward money="1.8" rank="1" rating="0"/>
+    <forfeit money="2" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="0.8"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=qTransport3=finish"/>
+    <fail_timeout_pickup description="dnm=qTransport3=fail_timeout_pickup"/>
+    <fail_timeout_complete description="dnm=qTransport3=fail_timeout_complete"/>
+    <fail_damaged description="dnm=qTransport3=fail_damaged"/>
+    <decline description="dnm=qTransport3=decline"/>
+  </element>
+  <element name="dnm=help" description="dnm=help" importance="false" type="visit" customer_npc="ID_FRED_3">
+    <reward money="0" rank="1.3" rating="0"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=help=finish"/>
+    <fail_timeout_complete description="dnm=help=fail_timeout_complete"/>
+    <decline description="dnm=help=decline"/>
+  </element>
+  <element name="dnm=buffalo_bill" description="dnm=buffalo_bill" importance="false" type="trailerClientDelivery" customer_npc="ID_BILL_3">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=buffalo_bill=finish"/>
+    <fail_timeout_complete description="dnm=buffalo_bill=fail_timeout_complete"/>
+    <fail_damaged description="dnm=buffalo_bill=fail_damaged"/>
+    <decline description="dnm=buffalo_bill=decline"/>
+  </element>
+  <element name="dnm=qPoputchik3" description="dnm=qPoputchik3" importance="false" type="passangerDelivery" customer_npc="ID_DEBORAH_1">
+    <reward money="0" rank="1" rating="0"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=qPoputchik3=finish"/>
+    <fail_timeout_pickup description="dnm=qPoputchik3=fail_timeout_pickup"/>
+    <fail_timeout_complete description="dnm=qPoputchik3=fail_timeout_complete"/>
+    <fail_damaged description="dnm=qPoputchik3=fail_damaged"/>
+    <decline description="dnm=qPoputchik3=decline"/>
+  </element>
+  <element name="dnm=bulldozer" description="dnm=bulldozer" importance="false" type="trailerClientDelivery" customer_npc="ID_DEBORAH_1">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=bulldozer=finish"/>
+    <fail_timeout_pickup description="dnm=bulldozer=fail_timeout_pickup"/>
+    <fail_timeout_complete description="dnm=bulldozer=fail_timeout_complete"/>
+    <fail_damaged description="dnm=bulldozer=fail_damaged"/>
+    <decline description="dnm=bulldozer=decline"/>
+  </element>
+  <element name="dnm=writer" description="dnm=writer" importance="false" type="pakageDelivery" customer_npc="ID_KEVIN_3">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="dnm=writer=finish"/>
+    <fail_timeout_pickup description="dnm=writer=fail_timeout_pickup"/>
+    <fail_timeout_complete description="dnm=writer=fail_timeout_complete"/>
+    <fail_damaged description="dnm=writer=fail_damaged"/>
+    <decline description="dnm=writer=decline"/>
+  </element>
+</org>
+

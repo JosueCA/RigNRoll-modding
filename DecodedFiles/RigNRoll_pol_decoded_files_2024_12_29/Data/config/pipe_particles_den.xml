@@ -1,0 +1,497 @@
+<particles>
+	<particle name="pipe_fire_particle1" type="type13" nom="1">fire from pipe
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="8" time="0" maxcycles="0">
+					<texsized x0="0.0625" y0="0.6875" sx="0.0625" sy="0.0625"/>
+					<texanimations>
+						<texsized x0="0.0625" y0="0.6875" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.1875" y0="0.6875" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.3125" y0="0.6875" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.4375" y0="0.6875" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.5625" y0="0.6875" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.6875" y0="0.6875" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.8125" y0="0.6875" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.9375" y0="0.6875" sx="0.0625" sy="0.0625"/>
+					</texanimations>
+				</shapeAnimatable>
+				<color>
+					<anm x0="0.0" y0="128" x1="1" y1="64"/>
+				</color>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="1.0" y1="6.28"/>
+				</rotate>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="0.85" var1="0.8" var2="1.0"/>
+			</coordsmultiply>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="0.5" var2="1"/>
+				</mult>
+				<choose random="true" nom="0"/>
+			</rotate>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.98" lifetime="1" shape_coef="-1" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.8" var2="1.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.12" y="0.12" z="0.05" add="" mult="true">
+						<mult>
+							<dynvariable use="true" dynname="pipe_smoke_grouping_coef" mult=""/>
+						</mult>
+					</randvector>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<charge use="true">child process: smoke
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+			</charge>
+		</simple>
+	</particle>
+	<particle name="pipe_fire_particle2" type="type13" nom="1">fire from pipe
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="8" time="0" maxcycles="0">
+					<texcentr_ x0="0.25" y0="0.25" sz="0.25"/>
+					<texsized x0="0.0625" y0="0.6875" sx="0.0625" sy="0.0625"/>
+					<texanimations_>
+						<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.25" y0="0.75" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.75" sz="0.25"/>
+					</texanimations_>
+					<texanimations>
+						<texsized x0="0.0625" y0="0.3125" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.1875" y0="0.3125" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.3125" y0="0.3125" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.4375" y0="0.3125" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.5625" y0="0.3125" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.6875" y0="0.3125" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.8125" y0="0.3125" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.9375" y0="0.3125" sx="0.0625" sy="0.0625"/>
+					</texanimations>
+				</shapeAnimatable>
+				<color>
+					<anm x0="0.0" y0="128" x1="1" y1="64"/>
+				</color>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="1.0" y1="6.28"/>
+				</rotate>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="0.85" var1="0.8" var2="1.0"/>
+			</coordsmultiply>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="0.5" var2="1"/>
+				</mult>
+				<choose random="true" nom="0"/>
+			</rotate>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.98" lifetime="1" shape_coef="-1" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.8" var2="1.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.12" y="0.12" z="0.05" add="" mult="true">
+						<mult>
+							<dynvariable use="true" dynname="pipe_smoke_grouping_coef" mult=""/>
+						</mult>
+					</randvector>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<charge use="true">child process: smoke
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+			</charge>
+		</simple>
+	</particle>
+	<particle name="pipe_fire_particle3" type="type13" nom="1">fire from pipe
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="8" time="0" maxcycles="0">
+					<texcentr_ x0="0.25" y0="0.25" sz="0.25"/>
+					<texsized x0="0.0625" y0="0.6875" sx="0.0625" sy="0.0625"/>
+					<texanimations>
+						<texsized x0="0.0625" y0="0.5625" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.1875" y0="0.5625" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.3125" y0="0.5625" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.4375" y0="0.5625" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.5625" y0="0.5625" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.6875" y0="0.5625" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.8125" y0="0.5625" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.9375" y0="0.5625" sx="0.0625" sy="0.0625"/>
+					</texanimations>
+				</shapeAnimatable>
+				<color>
+					<anm x0="0.0" y0="128" x1="1" y1="64"/>
+				</color>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="1.0" y1="6.28"/>
+				</rotate>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="0.85" var1="0.8" var2="1.0"/>
+			</coordsmultiply>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="0.5" var2="1"/>
+				</mult>
+				<choose random="true" nom="0"/>
+			</rotate>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.98" lifetime="1" shape_coef="-1" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.8" var2="1.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.12" y="0.12" z="0.05" add="" mult="true">
+						<mult>
+							<dynvariable use="true" dynname="pipe_smoke_grouping_coef" mult=""/>
+						</mult>
+					</randvector>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<charge use="true">child process: smoke
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+			</charge>
+		</simple>
+	</particle>
+	<particle name="pipe_fire_particle4" type="type13" nom="1">fire from pipe
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="8" time="0" maxcycles="0">
+					<texcentr_ x0="0.25" y0="0.25" sz="0.25"/>
+					<texsized x0="0.0625" y0="0.6875" sx="0.0625" sy="0.0625"/>
+					<texanimations>
+						<texsized x0="0.0625" y0="0.4375" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.1875" y0="0.4375" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.3125" y0="0.4375" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.4375" y0="0.4375" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.5625" y0="0.4375" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.6875" y0="0.4375" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.8125" y0="0.4375" sx="0.0625" sy="0.0625"/>
+						<texsized x0="0.9375" y0="0.4375" sx="0.0625" sy="0.0625"/>
+					</texanimations>
+				</shapeAnimatable>
+				<color>
+					<anm x0="0.0" y0="128" x1="1" y1="64"/>
+				</color>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="1.0" y1="6.28"/>
+				</rotate>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="0.85" var1="0.8" var2="1.0"/>
+			</coordsmultiply>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="0.5" var2="1"/>
+				</mult>
+				<choose random="true" nom="0"/>
+			</rotate>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.98" lifetime="1" shape_coef="-1" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.8" var2="1.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.12" y="0.12" z="0.05" add="" mult="true">
+						<mult>
+							<dynvariable use="true" dynname="pipe_smoke_grouping_coef" mult=""/>
+						</mult>
+					</randvector>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<charge use="true">child process: smoke
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+				<task use="true" type="ontime" time="0.0" probability="1.0" number="2" getvelocity="true" getposition="true" name="pipe_child_smoke_particle" z="-100000">smoke
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+			</charge>
+		</simple>
+	</particle>
+	<particle name="pipe_smoke_particle" type="type1" nom="2">smoke from pipe
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="2" time="0" maxcycles="0">
+					<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0.0" x1="0.1" y1="180"/>
+					<anm x0="0.1" y0="180" x1="0.3" y1="255"/>
+					<anm x0="0.3" y0="255" x1="0.6" y1="40"/>
+					<anm x0="0.6" y0="40" x1="0.8" y1="5"/>
+					<anm x0="0.8" y0="5" x1="1.0" y1="0"/>
+				</alfa>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="0.5" y1="3.14"/>
+					<anm x0="0.5" y0="3.14" x1="1.0" y1="6.28"/>
+				</rotate>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.1" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</mult>
+				<choose random="true" nom="0"/>
+			</rotate>
+			<time>
+				<random use="true" mult="1.0" var1="0.0" var2="1.0"/>
+			</time>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.99" lifetime="1" shape_coef="0.8" sizedump="0.0">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0.2"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="1" var2="3" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.02" y="0.02" z="0.02" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<collide_with_roofs/>
+		</simple>
+	</particle>
+	<particle name="pipe_smoke_particle_small" type="type1" nom="3">smoke from pipe from light car
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="2" time="0" maxcycles="0">
+					<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0.0" x1="0.1" y1="32"/>
+					<anm x0="0.1" y0="32" x1="0.3" y1="64"/>
+					<anm x0="0.3" y0="64" x1="0.65" y1="40"/>
+					<anm x0="0.65" y0="40" x1="0.8" y1="10"/>
+					<anm x0="0.8" y0="10" x1="1.0" y1="0"/>
+				</alfa>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="0.5" y1="3.14"/>
+					<anm x0="0.5" y0="3.14" x1="1.0" y1="6.28"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="0.5" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+			<time>
+				<random use="true" mult="1.0" var1="0.0" var2="1.0"/>
+			</time>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<choose random="true" nom="0"/>
+			</rotate>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.99" lifetime="1" shape_coef="0.5" sizedump="0.0">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.3" var1="1" var2="3" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.04" y="0.04" z="0.04" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<randvector use="true" x="0.01" y="0.01" z="0.01" add="">
+						<random use="true" mult="0.4" var1="0.7" var2="1.1" multiply=""/>
+					</randvector>
+				</stack2>
+			</velocity>
+			<collide_with_roofs/>
+		</simple>
+	</particle>
+	<particle name="pipe_child_smoke_particle" type="type1" nom="1">child smoke from fire
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="2" time="0" maxcycles="0">
+					<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0.0" x1="0.1" y1="32"/>
+					<anm x0="0.1" y0="32" x1="0.3" y1="255"/>
+					<anm x0="0.3" y0="255" x1="0.65" y1="60"/>
+					<anm x0="0.65" y0="60" x1="0.8" y1="10"/>
+					<anm x0="0.8" y0="10" x1="1.0" y1="0"/>
+				</alfa>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="0.5" y1="3.14"/>
+					<anm x0="0.5" y0="3.14" x1="1.0" y1="6.28"/>
+				</rotate>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="0.9" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+			<time>
+				<random use="true" mult="1.0" var1="0.0" var2="1.0"/>
+			</time>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</mult>
+				<choose random="true" nom="0"/>
+			</rotate>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.98" lifetime="1" shape_coef="0.5" sizedump="0.0">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+				<act_on_first_frame/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.7" var1="1" var2="3" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.03" y="0.03" z="0" add="" mult="true">
+						<mult>
+							<dynvariable use="true" dynname="pipe_smoke_grouping_coef" mult=""/>
+						</mult>
+					</randvector>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<randvector use="true" x="0.01" y="0.01" z="0.01" add="">
+						<random use="true" mult="1.0" var1="0.7" var2="1.1" multiply=""/>
+					</randvector>
+				</stack2>
+			</velocity>
+			<collide_with_roofs/>
+		</simple>
+	</particle>
+</particles>

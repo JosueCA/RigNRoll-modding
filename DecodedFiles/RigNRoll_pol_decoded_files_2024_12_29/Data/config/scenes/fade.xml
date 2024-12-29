@@ -1,0 +1,42 @@
+<scenes>
+	<xxxenvironments>
+		<env name="fadeworld"/>
+	</xxxenvironments>
+	<scene name="sf" fade="off" wide="off">
+		<world name="fadeworld"/>
+		<gammatrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\fade\\FADE_Scene.txt"/>
+	</scene>
+	<scene name="justfade" fade="on" simple="">
+		<!--just fade - and all-->
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="justfadecutscene" fade="on" simple="">
+		<!--just fade - and all-->
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="justfadebar1" fade="on" so="">
+		<!--just fade - and all-->
+		<world name="bar"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="justfadebar2" fade="on" so="">
+		<!--just fade - and all-->
+		<world name="bar2"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="justfadebar3" fade="on" so="">
+		<!--just fade - and all-->
+		<world name="bar3"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+</scenes>

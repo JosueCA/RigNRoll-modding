@@ -1,0 +1,525 @@
+<scenes>
+	<xxxenvironments>
+		<env name="bar">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="bar2">
+			<xxx id="Man">
+				<scriptarg varname="model"/>
+			</xxx>
+			<xxx id="Woman">
+				<scriptarg varname="model"/>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="bar3">
+			<xxx id="Man">
+				<scriptarg varname="model"/>
+			</xxx>
+			<xxx id="Woman">
+				<scriptarg varname="model"/>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+	</xxxenvironments>
+	<scene name="table_m1_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M01_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M01_Plate1_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar001.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m2_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M02_Soup1_.txt" name="soup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M02_Spoon1_.txt" name="spoon"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar002.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m3_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M03_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar003.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m4_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Plate1_.txt" name="plate1"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Plate2_.txt" name="plate2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar004.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w1_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W01_Coca1_.txt" name="coca"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar001.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w2_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W02_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W02_Plate2_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar002.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w3_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Plate2_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Spoonl1_.txt" name="spoon"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar003.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w4_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Plate1_.txt" name="plate1"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Plate2_.txt" name="plate2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar004.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m1_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M01_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M01_Plate1_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar001.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m2_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M02_Soup1_.txt" name="soup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M02_Spoon1_.txt" name="spoon"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar002.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m3_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M03_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar003.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m4_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Plate1_.txt" name="plate1"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Plate2_.txt" name="plate2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar004.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w1_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W01_Coca1_.txt" name="coca"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar001.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w2_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W02_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W02_Plate2_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar002.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w3_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Plate2_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Spoonl1_.txt" name="spoon"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar003.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w4_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Plate1_.txt" name="plate1"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Plate2_.txt" name="plate2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar004.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m1_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M01_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M01_Plate1_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar001.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m2_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M02_Soup1_.txt" name="soup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M02_Spoon1_.txt" name="spoon"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar002.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m3_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M03_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar003.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_m4_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Plate1_.txt" name="plate1"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M04_Plate2_.txt" name="plate2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar004.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w1_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W01_Coca1_.txt" name="coca"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar001.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w2_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W02_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W02_Plate2_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar002.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w3_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Plate2_.txt" name="plate"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W03_Spoonl1_.txt" name="spoon"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar003.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="table_w4_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Cup1_.txt" name="cup"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Fork1_.txt" name="fork"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Plate1_.txt" name="plate1"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W04_Plate2_.txt" name="plate2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar004.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_m1_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M05_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar005.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_m2_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M06_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar006.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_w1_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W05_Coca1_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar005.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_w2_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar006.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_m1_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M05_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar005.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_m2_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M06_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar006.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_w1_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W05_Coca1_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar005.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_w2_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar006.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_m1_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M05_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar005.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_m2_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_M06_GlassSmall_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar006.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_w1_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishesBar_W05_Coca1_.txt" name="glass"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar005.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barstand_w2_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\W_inbar006.txt" name="model"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barman_bar1" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\BARMEN_in_bar.txt" name="model"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Wine1_in_bar.txt" name="wine"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\BarmenCloth_in_bar.txt" name="cloth"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barman_bar2" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar2"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\BARMEN_in_bar.txt" name="model"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Wine1_in_bar.txt" name="wine"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\BarmenCloth_in_bar.txt" name="cloth"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="barman_bar3" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar3"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\BARMEN_in_bar.txt" name="model"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Wine1_in_bar.txt" name="wine"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\BarmenCloth_in_bar.txt" name="cloth"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<!--scene name="barmen" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\barmen.txt" name="barmen"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\barmencloth.txt" name="barmenCloth"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\barmenwine.txt" name="barmenWine"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="TableMan1_bar" fade="off" wide="off" useshow="false" so="1">
+		<world name="bar"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\Man_inBar001.txt" name="man"/>
+		<persontrack fps="10" trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\bartracks\\dishM1.txt" name="item"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="MNic"/>
+				<vector name="posNic"/>
+			</bindmatrix>
+		</persons>
+	</scene-->
+</scenes>

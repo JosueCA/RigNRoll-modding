@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbcall>
+  <element name="dnm=WoodDelivery_2=fail_timeout_complete=CbVideo" dialog="dnm=WoodDelivery_2=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=WoodDelivery_2=fail_damaged=CbVideo" dialog="dnm=WoodDelivery_2=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=jessica_bc=fail_timeout_complete=CbVideo" dialog="dnm=jessica_bc=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=jessica_bc=fail_damaged=CbVideo" dialog="dnm=jessica_bc=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=jessica_bc=decline=CbVideo" dialog="dnm=jessica_bc=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK0=start=CbVideo" dialog="dnm=HK0=start=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK0-1=start=CbVideo" dialog="dnm=HK0-1=start=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK1=fail_timeout_complete=CbVideo" dialog="dnm=HK1=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK1=decline=CbVideo" dialog="dnm=HK1=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK2=fail_timeout_complete=CbVideo" dialog="dnm=HK2=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK2=fail_damaged=CbVideo" dialog="dnm=HK2=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK2=decline=CbVideo" dialog="dnm=HK2=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK1-1=fail_timeout_complete=CbVideo" dialog="dnm=HK1-1=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK1-1=decline=CbVideo" dialog="dnm=HK1-1=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK2-1=fail_timeout_complete=CbVideo" dialog="dnm=HK2-1=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK2-1=fail_damaged=CbVideo" dialog="dnm=HK2-1=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=HK2-1=decline=CbVideo" dialog="dnm=HK2-1=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=drunk_driver=fail_timeout_pickup=CbVideo" dialog="dnm=drunk_driver=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=drunk_driver=fail_timeout_complete=CbVideo" dialog="dnm=drunk_driver=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=qTransport3=fail_timeout_pickup=CbVideo" dialog="dnm=qTransport3=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=qTransport3=decline=CbVideo" dialog="dnm=qTransport3=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=help=start=CbVideo" dialog="dnm=help=start=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=help=fail_timeout_complete=CbVideo" dialog="dnm=help=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=help=decline=CbVideo" dialog="dnm=help=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=buffalo_bill=success=CbVideo" dialog="dnm=buffalo_bill=success=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=buffalo_bill=fail_timeout_complete=CbVideo" dialog="dnm=buffalo_bill=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=bulldozer=start=CbVideo" dialog="dnm=bulldozer=start=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=bulldozer=fail_timeout_pickup=CbVideo" dialog="dnm=bulldozer=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=bulldozer=fail_timeout_complete=CbVideo" dialog="dnm=bulldozer=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=bulldozer=fail_damaged=CbVideo" dialog="dnm=bulldozer=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=bulldozer=decline=CbVideo" dialog="dnm=bulldozer=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=writer=start=CbVideo" dialog="dnm=writer=start=CbVideo" who="" timecall="10.5"/>
+  <element name="dnm=writer=fail_timeout_pickup=CbVideo" dialog="dnm=writer=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+</cbcall>
+

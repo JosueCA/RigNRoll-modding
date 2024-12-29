@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loctable>
+  <include>..\\data\\loc\\ms.xml</include>
+  <include>..\\data\\loc\\journal.xml</include>
+  <include>..\\data\\loc\\organizer.xml</include>
+  <include>..\\data\\loc\\cityname.xml</include>
+  <include>..\\data\\loc\\cityname_native.xml</include>
+  <include>..\\data\\loc\\dealername.xml</include>
+  <include>..\\data\\loc\\recruitername.xml</include>
+  <include>..\\data\\loc\\servicename.xml</include>
+  <include>..\\data\\loc\\merchname.xml</include>
+  <include>..\\data\\loc\\fnames.xml</include>
+  <include>..\\data\\loc\\lnames.xml</include>
+  <include>..\\data\\loc\\nnames.xml</include>
+  <include>..\\data\\loc\\carnames_native.xml</include>
+  <include>..\\data\\loc\\faults.xml</include>
+  <include>..\\data\\loc\\news.xml</include>
+  <include>..\\data\\loc\\carsystems.xml</include>
+  <include>..\\data\\loc\\controls.xml</include>
+  <include>..\\data\\loc\\menu_profile.xml</include>
+  <include>..\\data\\loc\\system.xml</include>
+  <include>..\\data\\loc\\scenario.xml</include>
+  <include>..\\data\\loc\\companynames.xml</include>
+  <include>..\\data\\loc\\mp_loc.xml</include>
+  <include>..\\data\\loc\\navigation.xml</include>
+  <include>..\\data\\loc\\customer.xml</include>
+  <include>..\\data\\loc\\scenario_dialogs.xml</include>
+  <include>..\\data\\Quests\\Loc\\</include>
+  <include>..\\data\\Missions\\loc\\</include>
+  <include>..\\data\\loc\\whjournal.xml</include>
+  <include>..\\data\\loc\\upgrades_descriptions.xml</include>
+  <include>..\\data\\loc\\upgrades_names.xml</include>
+  <include>..\\data\\loc\\bigrace.xml</include>
+  <include>..\\data\\loc\\bigracealbum.xml</include>
+  <include>..\\data\\loc\\scenario_points_loc.xml</include>
+  <include>..\\data\\loc\\menu.xml</include>
+  <include>..\\data\\loc\\menu_NOTlocalized.xml</include>
+  <include>..\\data\\loc\\date_time.xml</include>
+  <include>..\\data\\loc\\pgamername.xml</include>
+  <include>..\\data\\loc\\ejournal.xml</include>
+  <include>..\\data\\loc\\balance.xml</include>
+  <include>..\\data\\loc\\bigracecb.xml</include>
+  <include>..\\data\\loc\\menu_DLC.xml</include>
+  <include>..\\data\\loc\\menu_BIGRACE.xml</include>
+</loctable>

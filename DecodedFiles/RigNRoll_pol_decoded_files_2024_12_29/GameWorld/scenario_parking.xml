@@ -1,0 +1,37 @@
+﻿<parking>
+    <place>
+           <name>Oxnard_Parking_01</name>
+           <num>2</num>
+    </place>
+    <place>
+           <name>SB_Parking01</name>
+           <num>1</num>
+    </place>
+    <place>
+           <name>John_House_Parking</name>
+           <num>1</num>
+    </place>
+    <place>
+           <name>OxnardParking05</name>
+           <num>1</num>
+    </place>
+    <place>
+           <name>pk_BR_MD_01</name>
+           <num>4</num>
+    </place>
+    <place>
+           <name>PK_LA_LB_01</name>
+           <num>4</num>
+    </place>
+    <place>
+           <name>pk_MW_01</name>
+           <num>3</num>
+    </place>
+    <place>
+           <name>Oxnard_Police_Parking</name>
+           <num>2</num>
+    </place>
+ </parking>
+
+
+

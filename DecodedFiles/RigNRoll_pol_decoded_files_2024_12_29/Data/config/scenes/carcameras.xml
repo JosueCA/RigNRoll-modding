@@ -1,0 +1,48 @@
+<scenes>
+	<xxxenvironments>
+		<env name="ourcar">
+			<car name="car">
+				<scriptarg varname="car"/>
+			</car>
+		</env>
+	</xxxenvironments>
+	<scene name="driver_coming_in" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<messagetrack message="animationEventIn" time="4.3"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<cameratrack trackfile="..\\Data\\Actors\\Camera\\Camera_driver_in_%NOM%.txt" type="anm" anmspace="Camera_CamSinout"/>
+		<persontrack trackfile="..\\Data\\Actors\\Camera\\%MODEL_NAME%_%CAR_PREFIX%in.txt"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\Camera\\%MODEL_NAME%_%CAR_PREFIX%door_in.txt" carref="carinout" carname="%CAR_PREFIX%"/>
+		<!--soundtrack trackfile="..\\Data\\Actors\\Camera\\IVAN_NEW_GEPARD_DOOR_IN_sound.txt"/-->
+		<cameras>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</cameras>
+		<persons>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</persons>
+	</scene>
+	<scene name="driver_coming_out" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Camera\\Camera_driver_out_%NOM%.txt" type="anm" anmspace="Camera_CamSinout"/>
+		<messagetrack message="animationEventOut" time="4.3"/>
+		<persontrack trackfile="..\\Data\\Actors\\Camera\\%MODEL_NAME%_%CAR_PREFIX%out.txt"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\Camera\\%MODEL_NAME%_%CAR_PREFIX%door_out.txt" carref="carinout" carname="%CAR_PREFIX%"/>
+		<!--soundtrack trackfile="..\\Data\\Actors\\Camera\\IVAN_NEW_GEPARD_DOOR_OUT_sound.txt"/-->
+		<persons>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</persons>
+		<cameras>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</cameras>
+	</scene>
+</scenes>

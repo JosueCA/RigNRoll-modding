@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+  <dialog name="altman_4=casino_man=start=LiveDialog">
+    <item callee="" wav="altman_4=casino_man=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=casino_man=start=LiveDialog=01=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=casino_man=start=LiveDialog=03=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=start=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=casino_man=start=LiveDialog=05=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=start=LiveDialog=06=Nick"/>
+    <item caller="" wav="altman_4=casino_man=start=LiveDialog=07=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=start=LiveDialog=08=Nick"/>
+    <item caller="" wav="altman_4=casino_man=start=LiveDialog=09=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=start=LiveDialog=10=Nick"/>
+    <item caller="" wav="altman_4=casino_man=start=LiveDialog=11=ID_MICHAEL_R_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=casino_man=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=casino_man=start=LiveDialog=Y=00=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=casino_man=start=LiveDialog=N">
+          <item callee="" wav="altman_4=casino_man=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=casino_man=start=LiveDialog=N=01=ID_MICHAEL_R_1"/>
+          <item callee="" wav="altman_4=casino_man=start=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=casino_man=success=CarDialog">
+    <item caller="" wav="altman_4=casino_man=success=CarDialog=00=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=casino_man=success=CarDialog=02=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=success=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=casino_man=fail_timeout_complete=CarDialog">
+    <item callee="" wav="altman_4=casino_man=fail_timeout_complete=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=casino_man=fail_timeout_complete=CarDialog=01=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=fail_timeout_complete=CarDialog=02=Nick"/>
+  </dialog>
+  <dialog name="altman_4=casino_man=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=casino_man=fail_damaged=CarDialog=00=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=fail_damaged=CarDialog=01=Nick"/>
+  </dialog>
+  <dialog name="altman_4=casino_man=decline=CarDialog">
+    <item callee="" wav="altman_4=casino_man=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=casino_man=decline=CarDialog=01=ID_MICHAEL_R_1"/>
+    <item callee="" wav="altman_4=casino_man=decline=CarDialog=02=Nick"/>
+  </dialog>
+  <dialog name="altman_4=casino_man2=start=InBarTalk">
+    <item callee="" wav="altman_4=casino_man2=start=InBarTalk=00=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=start=InBarTalk=01=ID_LINDA_1"/>
+    <item callee="" wav="altman_4=casino_man2=start=InBarTalk=02=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=start=InBarTalk=03=ID_LINDA_1"/>
+    <item callee="" wav="altman_4=casino_man2=start=InBarTalk=04=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=start=InBarTalk=05=ID_LINDA_1"/>
+    <item callee="" wav="altman_4=casino_man2=start=InBarTalk=06=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=start=InBarTalk=07=ID_LINDA_1"/>
+    <item callee="" wav="altman_4=casino_man2=start=InBarTalk=08=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=start=InBarTalk=09=ID_LINDA_1"/>
+    <item callee="" wav="altman_4=casino_man2=start=InBarTalk=10=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=start=InBarTalk=11=ID_LINDA_1"/>
+    <item callee="" wav="altman_4=casino_man2=start=InBarTalk=12=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=start=InBarTalk=13=ID_LINDA_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=casino_man2=start=InBarTalk=Y">
+          <item callee="" wav="altman_4=casino_man2=start=InBarTalk=Y=00=Nick"/>
+          <item caller="" wav="altman_4=casino_man2=start=InBarTalk=Y=01=ID_LINDA_1"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=casino_man2=start=InBarTalk=N">
+          <item callee="" wav="altman_4=casino_man2=start=InBarTalk=N=00=Nick"/>
+          <item caller="" wav="altman_4=casino_man2=start=InBarTalk=N=01=ID_LINDA_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=casino_man2=success=LiveDialog">
+    <item caller="" wav="altman_4=casino_man2=success=LiveDialog=00=ID_DONNA_1"/>
+    <item callee="" wav="altman_4=casino_man2=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=success=LiveDialog=02=ID_DONNA_1"/>
+    <item callee="" wav="altman_4=casino_man2=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=casino_man2=success=LiveDialog=04=ID_DONNA_1"/>
+    <item callee="" wav="altman_4=casino_man2=success=LiveDialog=05=Nick"/>
+  </dialog>
+  <dialog name="altman_4=car_viever=start=LiveDialog">
+    <item callee="" wav="altman_4=car_viever=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=car_viever=start=LiveDialog=01=ID_CARLOS_4"/>
+    <item callee="" wav="altman_4=car_viever=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=car_viever=start=LiveDialog=03=ID_CARLOS_4"/>
+    <item callee="" wav="altman_4=car_viever=start=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=car_viever=start=LiveDialog=05=ID_CARLOS_4"/>
+    <item callee="" wav="altman_4=car_viever=start=LiveDialog=06=Nick"/>
+    <item caller="" wav="altman_4=car_viever=start=LiveDialog=07=ID_CARLOS_4"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=car_viever=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=car_viever=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=car_viever=start=LiveDialog=Y=01=ID_CARLOS_4"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=car_viever=start=LiveDialog=N">
+          <item callee="" wav="altman_4=car_viever=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=car_viever=start=LiveDialog=N=01=ID_CARLOS_4"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=car_viever=success=CarDialog">
+    <item callee="" wav="altman_4=car_viever=success=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=car_viever=success=CarDialog=01=ID_CARLOS_4"/>
+    <item callee="" wav="altman_4=car_viever=success=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=car_viever=success=CarDialog=03=ID_CARLOS_4"/>
+  </dialog>
+  <dialog name="altman_4=car_viever=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=car_viever=fail_timeout_complete=CarDialog=00=ID_CARLOS_4"/>
+    <item callee="" wav="altman_4=car_viever=fail_timeout_complete=CarDialog=01=Nick"/>
+  </dialog>
+  <dialog name="altman_4=car_viever=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=car_viever=fail_damaged=CarDialog=00=ID_CARLOS_4"/>
+    <item callee="" wav="altman_4=car_viever=fail_damaged=CarDialog=01=Nick"/>
+  </dialog>
+  <dialog name="altman_4=car_viever=decline=CarDialog">
+    <item callee="" wav="altman_4=car_viever=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=car_viever=decline=CarDialog=01=ID_CARLOS_4"/>
+    <item callee="" wav="altman_4=car_viever=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=car_viever=decline=CarDialog=03=ID_CARLOS_4"/>
+  </dialog>
+  <dialog name="altman_4=most=start=LiveDialog">
+    <item callee="" wav="altman_4=most=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=most=start=LiveDialog=01=ID_TIMOTHY_1"/>
+    <item callee="" wav="altman_4=most=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=most=start=LiveDialog=03=ID_TIMOTHY_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=most=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=most=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=most=start=LiveDialog=Y=01=ID_TIMOTHY_1"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=most=start=LiveDialog=N">
+          <item callee="" wav="altman_4=most=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=most=start=LiveDialog=N=01=ID_TIMOTHY_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=poezd=start=LiveDialog">
+    <item caller="" wav="altman_4=poezd=start=LiveDialog=00=ID_MARY_1"/>
+    <item callee="" wav="altman_4=poezd=start=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poezd=start=LiveDialog=02=ID_MARY_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=poezd=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=poezd=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=poezd=start=LiveDialog=Y=01=ID_MARY_1"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=poezd=start=LiveDialog=N">
+          <item callee="" wav="altman_4=poezd=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=poezd=start=LiveDialog=N=01=ID_MARY_1"/>
+          <item callee="" wav="altman_4=poezd=start=LiveDialog=N=02=Nick"/>
+          <item caller="" wav="altman_4=poezd=start=LiveDialog=N=03=ID_MARY_1"/>
+          <item callee="" wav="altman_4=poezd=start=LiveDialog=N=04=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=rab=start=LiveDialog">
+    <item callee="" wav="altman_4=rab=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=rab=start=LiveDialog=01=ID_RONALD_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=rab=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=rab=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=rab=start=LiveDialog=Y=01=ID_RONALD_1"/>
+          <item callee="" wav="altman_4=rab=start=LiveDialog=Y=02=Nick"/>
+          <item caller="" wav="altman_4=rab=start=LiveDialog=Y=03=ID_RONALD_1"/>
+          <item callee="" wav="altman_4=rab=start=LiveDialog=Y=04=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=rab=start=LiveDialog=N">
+          <item callee="" wav="altman_4=rab=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=rab=start=LiveDialog=N=01=ID_RONALD_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=rab=success=CarDialog">
+    <item caller="" wav="altman_4=rab=success=CarDialog=00=ID_RONALD_1"/>
+    <item callee="" wav="altman_4=rab=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=rab=success=CarDialog=02=ID_RONALD_1"/>
+    <item callee="" wav="altman_4=rab=success=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=rab=success=CarDialog=04=ID_RONALD_1"/>
+  </dialog>
+  <dialog name="altman_4=rab=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=rab=fail_timeout_complete=CarDialog=00=ID_RONALD_1"/>
+    <item callee="" wav="altman_4=rab=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=rab=fail_timeout_complete=CarDialog=02=ID_RONALD_1"/>
+    <item callee="" wav="altman_4=rab=fail_timeout_complete=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=rab=fail_timeout_complete=CarDialog=04=ID_RONALD_1"/>
+  </dialog>
+  <dialog name="altman_4=rab=fail_damaged=CarDialog">
+    <item callee="" wav="altman_4=rab=fail_damaged=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=rab=fail_damaged=CarDialog=01=ID_RONALD_1"/>
+    <item callee="" wav="altman_4=rab=fail_damaged=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=rab=fail_damaged=CarDialog=03=ID_RONALD_1"/>
+  </dialog>
+  <dialog name="altman_4=rab=decline=CarDialog">
+    <item callee="" wav="altman_4=rab=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=rab=decline=CarDialog=01=ID_RONALD_1"/>
+    <item callee="" wav="altman_4=rab=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=rab=decline=CarDialog=03=ID_RONALD_1"/>
+  </dialog>
+  <dialog name="altman_4=rab_2=start=LiveDialog">
+    <item caller="" wav="altman_4=rab_2=start=LiveDialog=00=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=start=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=rab_2=start=LiveDialog=02=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=start=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=rab_2=start=LiveDialog=04=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=start=LiveDialog=05=Nick"/>
+    <item caller="" wav="altman_4=rab_2=start=LiveDialog=06=ID_GREGORY_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=rab_2=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=rab_2=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=rab_2=start=LiveDialog=Y=01=ID_GREGORY_1"/>
+          <item callee="" wav="altman_4=rab_2=start=LiveDialog=Y=02=Nick"/>
+          <item caller="" wav="altman_4=rab_2=start=LiveDialog=Y=03=ID_GREGORY_1"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=rab_2=start=LiveDialog=N">
+          <item callee="" wav="altman_4=rab_2=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=rab_2=start=LiveDialog=N=01=ID_GREGORY_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=rab_2=success=CarDialog">
+    <item caller="" wav="altman_4=rab_2=success=CarDialog=00=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=rab_2=success=CarDialog=02=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=success=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=rab_2=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=rab_2=fail_timeout_complete=CarDialog=00=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=rab_2=fail_timeout_complete=CarDialog=02=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=fail_timeout_complete=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=rab_2=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=rab_2=fail_damaged=CarDialog=00=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=rab_2=fail_damaged=CarDialog=02=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=fail_damaged=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=rab_2=decline=CarDialog">
+    <item callee="" wav="altman_4=rab_2=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=rab_2=decline=CarDialog=01=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=rab_2=decline=CarDialog=03=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=decline=CarDialog=04=Nick"/>
+    <item caller="" wav="altman_4=rab_2=decline=CarDialog=05=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=rab_2=decline=CarDialog=06=Nick"/>
+  </dialog>
+  <dialog name="altman_4=cor=start=LiveDialog">
+    <item callee="" wav="altman_4=cor=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=cor=start=LiveDialog=01=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=cor=start=LiveDialog=03=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=start=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=cor=start=LiveDialog=05=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=start=LiveDialog=06=Nick"/>
+    <item caller="" wav="altman_4=cor=start=LiveDialog=07=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=start=LiveDialog=08=Nick"/>
+    <item caller="" wav="altman_4=cor=start=LiveDialog=09=ID_JACK_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=cor=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=cor=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=cor=start=LiveDialog=Y=01=ID_JACK_1"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=cor=start=LiveDialog=N">
+          <item callee="" wav="altman_4=cor=start=LiveDialog=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=cor=success=CarDialog">
+    <item caller="" wav="altman_4=cor=success=CarDialog=00=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=cor=success=CarDialog=02=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=success=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=cor=success=CarDialog=04=ID_JACK_1"/>
+  </dialog>
+  <dialog name="altman_4=cor=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=cor=fail_timeout_complete=CarDialog=00=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=cor=fail_timeout_complete=CarDialog=02=ID_JACK_1"/>
+  </dialog>
+  <dialog name="altman_4=cor=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=cor=fail_damaged=CarDialog=00=ID_JACK_1"/>
+    <item callee="" wav="altman_4=cor=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=cor=fail_damaged=CarDialog=02=ID_JACK_1"/>
+  </dialog>
+  <dialog name="altman_4=cor=decline=CarDialog">
+    <item callee="" wav="altman_4=cor=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=cor=decline=CarDialog=01=ID_JACK_1"/>
+  </dialog>
+  <dialog name="altman_4=bus=start=LiveDialog">
+    <item caller="" wav="altman_4=bus=start=LiveDialog=00=ID_MARY_3"/>
+    <item callee="" wav="altman_4=bus=start=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=bus=start=LiveDialog=02=ID_MARY_3"/>
+    <item callee="" wav="altman_4=bus=start=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=bus=start=LiveDialog=04=ID_MARY_3"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=bus=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=bus=start=LiveDialog=Y=00=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=bus=start=LiveDialog=N">
+          <item callee="" wav="altman_4=bus=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=bus=start=LiveDialog=N=01=ID_MARY_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=bus=success=CarDialog">
+    <item callee="" wav="altman_4=bus=success=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=bus=success=CarDialog=01=ID_MARY_3"/>
+    <item callee="" wav="altman_4=bus=success=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=bus=success=CarDialog=03=ID_MARY_3"/>
+  </dialog>
+  <dialog name="altman_4=bus=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=bus=fail_timeout_complete=CarDialog=00=ID_MARY_3"/>
+    <item callee="" wav="altman_4=bus=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=bus=fail_timeout_complete=CarDialog=02=ID_MARY_3"/>
+    <item callee="" wav="altman_4=bus=fail_timeout_complete=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=bus=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=bus=fail_damaged=CarDialog=00=ID_MARY_3"/>
+    <item callee="" wav="altman_4=bus=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=bus=fail_damaged=CarDialog=02=ID_MARY_3"/>
+  </dialog>
+  <dialog name="altman_4=bus=decline=CarDialog">
+    <item callee="" wav="altman_4=bus=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=bus=decline=CarDialog=01=ID_MARY_3"/>
+    <item callee="" wav="altman_4=bus=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=bus=decline=CarDialog=03=ID_MARY_3"/>
+  </dialog>
+  <dialog name="altman_4=vis_test=success=LiveDialog">
+    <item caller="" wav="altman_4=vis_test=success=LiveDialog=00=ID_FRED_1"/>
+    <item callee="" wav="altman_4=vis_test=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=vis_test=success=LiveDialog=02=ID_FRED_1"/>
+    <item callee="" wav="altman_4=vis_test=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=vis_test=success=LiveDialog=04=ID_FRED_1"/>
+    <item callee="" wav="altman_4=vis_test=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="altman_4=vis_test=success=LiveDialog=06=ID_FRED_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=vis_test=success=LiveDialog=Y"/>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=vis_test=success=LiveDialog=N"/>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=vis_test_2=success=LiveDialog">
+    <item callee="" wav="altman_4=vis_test_2=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=vis_test_2=success=LiveDialog=01=ID_CHARLES_1"/>
+    <item callee="" wav="altman_4=vis_test_2=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=vis_test_2=success=LiveDialog=03=ID_CHARLES_1"/>
+    <item callee="" wav="altman_4=vis_test_2=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=vis_test_2=success=LiveDialog=05=ID_CHARLES_1"/>
+  </dialog>
+  <dialog name="altman_4=legenda=start=LiveDialog">
+    <item callee="" wav="altman_4=legenda=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=legenda=start=LiveDialog=01=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=legenda=start=LiveDialog=03=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=start=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=legenda=start=LiveDialog=05=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=start=LiveDialog=06=Nick"/>
+    <item caller="" wav="altman_4=legenda=start=LiveDialog=07=ID_MICHAEL_A_4"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=legenda=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=legenda=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=legenda=start=LiveDialog=Y=01=ID_MICHAEL_A_4"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=legenda=start=LiveDialog=N">
+          <item callee="" wav="altman_4=legenda=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=legenda=start=LiveDialog=N=01=ID_MICHAEL_A_4"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=legenda=success=CarDialog">
+    <item caller="" wav="altman_4=legenda=success=CarDialog=00=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=legenda=success=CarDialog=02=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=success=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=legenda=success=CarDialog=04=ID_MICHAEL_A_4"/>
+  </dialog>
+  <dialog name="altman_4=legenda=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=legenda=fail_timeout_complete=CarDialog=00=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item callee="" wav="altman_4=legenda=fail_timeout_complete=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=legenda=fail_timeout_complete=CarDialog=03=ID_MICHAEL_A_4"/>
+  </dialog>
+  <dialog name="altman_4=legenda=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=legenda=fail_damaged=CarDialog=00=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=legenda=fail_damaged=CarDialog=02=ID_MICHAEL_A_4"/>
+    <item callee="" wav="altman_4=legenda=fail_damaged=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=legenda=decline=CarDialog">
+    <item callee="" wav="altman_4=legenda=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=legenda=decline=CarDialog=01=ID_MICHAEL_A_4"/>
+  </dialog>
+  <dialog name="altman_4=sekta=start=LiveDialog">
+    <item callee="" wav="altman_4=sekta=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=sekta=start=LiveDialog=01=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=sekta=start=LiveDialog=03=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=start=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=sekta=start=LiveDialog=05=ID_MARTHA_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=sekta=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=sekta=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=sekta=start=LiveDialog=Y=01=ID_MARTHA_1"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=sekta=start=LiveDialog=N">
+          <item callee="" wav="altman_4=sekta=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=sekta=start=LiveDialog=N=01=ID_MARTHA_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=sekta=success=CarDialog">
+    <item caller="" wav="altman_4=sekta=success=CarDialog=00=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=sekta=success=CarDialog=02=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=success=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=sekta=success=CarDialog=04=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=success=CarDialog=05=Nick"/>
+    <item caller="" wav="altman_4=sekta=success=CarDialog=06=ID_MARTHA_1"/>
+  </dialog>
+  <dialog name="altman_4=sekta=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=sekta=fail_timeout_complete=CarDialog=00=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=sekta=fail_timeout_complete=CarDialog=02=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=fail_timeout_complete=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=sekta=fail_damaged=CarDialog">
+    <item callee="" wav="altman_4=sekta=fail_damaged=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=sekta=fail_damaged=CarDialog=01=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=fail_damaged=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=sekta=fail_damaged=CarDialog=03=ID_MARTHA_1"/>
+  </dialog>
+  <dialog name="altman_4=sekta=decline=CarDialog">
+    <item caller="" wav="altman_4=sekta=decline=CarDialog=00=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=decline=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=sekta=decline=CarDialog=02=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=sekta=decline=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=woter_chip=success=LiveDialog">
+    <item caller="" wav="altman_4=woter_chip=success=LiveDialog=00=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=woter_chip=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=woter_chip=success=LiveDialog=02=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=woter_chip=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=woter_chip=success=LiveDialog=04=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=woter_chip=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="altman_4=woter_chip=success=LiveDialog=06=ID_MARTHA_1"/>
+    <item callee="" wav="altman_4=woter_chip=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="altman_4=woter_chip=success=LiveDialog=08=ID_MARTHA_1"/>
+  </dialog>
+  <dialog name="altman_4=krok=success=LiveDialog">
+    <item caller="" wav="altman_4=krok=success=LiveDialog=00=ID_TIMOTHY_1"/>
+    <item callee="" wav="altman_4=krok=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=krok=success=LiveDialog=02=ID_TIMOTHY_1"/>
+    <item callee="" wav="altman_4=krok=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=krok=success=LiveDialog=04=ID_TIMOTHY_1"/>
+    <item callee="" wav="altman_4=krok=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="altman_4=krok=success=LiveDialog=06=ID_TIMOTHY_1"/>
+    <item callee="" wav="altman_4=krok=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="altman_4=krok=success=LiveDialog=08=ID_TIMOTHY_1"/>
+  </dialog>
+  <dialog name="altman_4=avaria=success=LiveDialog">
+    <item callee="" wav="altman_4=avaria=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=avaria=success=LiveDialog=01=ID_LARRY_4"/>
+    <item callee="" wav="altman_4=avaria=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=avaria=success=LiveDialog=03=ID_LARRY_4"/>
+    <item callee="" wav="altman_4=avaria=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=avaria=success=LiveDialog=05=ID_LARRY_4"/>
+    <item callee="" wav="altman_4=avaria=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="altman_4=avaria=success=LiveDialog=07=ID_LARRY_4"/>
+    <item callee="" wav="altman_4=avaria=success=LiveDialog=08=Nick"/>
+    <item caller="" wav="altman_4=avaria=success=LiveDialog=09=ID_LARRY_4"/>
+    <item callee="" wav="altman_4=avaria=success=LiveDialog=10=Nick"/>
+  </dialog>
+  <dialog name="altman_4=poput_3=start=InBarTalk">
+    <item caller="" wav="altman_4=poput_3=start=InBarTalk=00=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=start=InBarTalk=01=Nick"/>
+    <item caller="" wav="altman_4=poput_3=start=InBarTalk=02=ID_BRUCE_4"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=poput_3=start=InBarTalk=Y">
+          <item callee="" wav="altman_4=poput_3=start=InBarTalk=Y=00=Nick"/>
+          <item caller="" wav="altman_4=poput_3=start=InBarTalk=Y=01=ID_BRUCE_4"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=poput_3=start=InBarTalk=N">
+          <item callee="" wav="altman_4=poput_3=start=InBarTalk=N=00=Nick"/>
+          <item caller="" wav="altman_4=poput_3=start=InBarTalk=N=01=ID_BRUCE_4"/>
+          <item callee="" wav="altman_4=poput_3=start=InBarTalk=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=poput_3=success=CarDialog">
+    <item caller="" wav="altman_4=poput_3=success=CarDialog=00=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poput_3=success=CarDialog=02=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=success=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=poput_3=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=poput_3=fail_timeout_complete=CarDialog=00=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poput_3=fail_timeout_complete=CarDialog=02=ID_BRUCE_4"/>
+  </dialog>
+  <dialog name="altman_4=poput_3=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=poput_3=fail_damaged=CarDialog=00=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poput_3=fail_damaged=CarDialog=02=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=fail_damaged=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=poput_3=decline=CarDialog">
+    <item caller="" wav="altman_4=poput_3=decline=CarDialog=00=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=decline=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poput_3=decline=CarDialog=02=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=decline=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=poput_3=decline=CarDialog=04=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=decline=CarDialog=05=Nick"/>
+    <item caller="" wav="altman_4=poput_3=decline=CarDialog=06=ID_BRUCE_4"/>
+    <item callee="" wav="altman_4=poput_3=decline=CarDialog=07=Nick"/>
+  </dialog>
+  <dialog name="altman_4=transport=success=LiveDialog">
+    <item caller="" wav="altman_4=transport=success=LiveDialog=00=ID_JACK_4"/>
+    <item callee="" wav="altman_4=transport=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=transport=success=LiveDialog=02=ID_JACK_4"/>
+  </dialog>
+  <dialog name="altman_4=passenger=start=LiveDialog">
+    <item caller="" wav="altman_4=passenger=start=LiveDialog=00=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=passenger=start=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=passenger=start=LiveDialog=02=ID_ANGELA_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=passenger=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=passenger=start=LiveDialog=Y=00=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=passenger=start=LiveDialog=N">
+          <item callee="" wav="altman_4=passenger=start=LiveDialog=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=passenger=success=CarDialog">
+    <item caller="" wav="altman_4=passenger=success=CarDialog=00=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=passenger=success=CarDialog=01=Nick"/>
+  </dialog>
+  <dialog name="altman_4=passenger=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=passenger=fail_timeout_complete=CarDialog=00=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=passenger=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=passenger=fail_timeout_complete=CarDialog=02=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=passenger=fail_timeout_complete=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=passenger=fail_timeout_complete=CarDialog=04=ID_ANGELA_1"/>
+  </dialog>
+  <dialog name="altman_4=passenger=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=passenger=fail_damaged=CarDialog=00=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=passenger=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=passenger=fail_damaged=CarDialog=02=ID_ANGELA_1"/>
+  </dialog>
+  <dialog name="altman_4=passenger=decline=CarDialog">
+    <item callee="" wav="altman_4=passenger=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=passenger=decline=CarDialog=01=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=passenger=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=passenger=decline=CarDialog=03=ID_ANGELA_1"/>
+  </dialog>
+  <dialog name="altman_4=postman_6=start=LiveDialog">
+    <item callee="" wav="altman_4=postman_6=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=postman_6=start=LiveDialog=01=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=postman_6=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=postman_6=start=LiveDialog=03=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=postman_6=start=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=postman_6=start=LiveDialog=05=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=postman_6=start=LiveDialog=06=Nick"/>
+    <item caller="" wav="altman_4=postman_6=start=LiveDialog=07=ID_ANGELA_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=postman_6=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=postman_6=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=postman_6=start=LiveDialog=Y=01=ID_ANGELA_1"/>
+          <item callee="" wav="altman_4=postman_6=start=LiveDialog=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=postman_6=start=LiveDialog=N">
+          <item callee="" wav="altman_4=postman_6=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=postman_6=start=LiveDialog=N=01=ID_ANGELA_1"/>
+          <item callee="" wav="altman_4=postman_6=start=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=postman_6=success=InBarTalk">
+    <item callee="" wav="altman_4=postman_6=success=InBarTalk=00=Nick"/>
+    <item caller="" wav="altman_4=postman_6=success=InBarTalk=01=ID_DAVID_4"/>
+    <item callee="" wav="altman_4=postman_6=success=InBarTalk=02=Nick"/>
+    <item caller="" wav="altman_4=postman_6=success=InBarTalk=03=ID_DAVID_4"/>
+    <item callee="" wav="altman_4=postman_6=success=InBarTalk=04=Nick"/>
+    <item caller="" wav="altman_4=postman_6=success=InBarTalk=05=ID_DAVID_4"/>
+    <item callee="" wav="altman_4=postman_6=success=InBarTalk=06=Nick"/>
+    <item caller="" wav="altman_4=postman_6=success=InBarTalk=07=ID_DAVID_4"/>
+    <item callee="" wav="altman_4=postman_6=success=InBarTalk=08=Nick"/>
+  </dialog>
+  <dialog name="altman_4=qDivorce=start=InBarTalk">
+    <item caller="" wav="altman_4=qDivorce=start=InBarTalk=00=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=start=InBarTalk=01=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=start=InBarTalk=02=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=start=InBarTalk=03=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=start=InBarTalk=04=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=start=InBarTalk=05=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=start=InBarTalk=06=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=start=InBarTalk=07=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=start=InBarTalk=08=ID_ANGELA_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=qDivorce=start=InBarTalk=Y">
+          <item caller="" wav="altman_4=qDivorce=start=InBarTalk=Y=00=ID_ANGELA_1"/>
+          <item callee="" wav="altman_4=qDivorce=start=InBarTalk=Y=01=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=qDivorce=start=InBarTalk=N">
+          <item callee="" wav="altman_4=qDivorce=start=InBarTalk=N=00=Nick"/>
+          <item caller="" wav="altman_4=qDivorce=start=InBarTalk=N=01=ID_ANGELA_1"/>
+          <item callee="" wav="altman_4=qDivorce=start=InBarTalk=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=qDivorce=success=CarDialog">
+    <item callee="" wav="altman_4=qDivorce=success=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=success=CarDialog=01=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=success=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=success=CarDialog=03=ID_ANGELA_1"/>
+  </dialog>
+  <dialog name="altman_4=qDivorce=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=qDivorce=fail_timeout_complete=CarDialog=00=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=fail_timeout_complete=CarDialog=02=ID_ANGELA_1"/>
+    <item caller="" wav="altman_4=qDivorce=fail_timeout_complete=CarDialog=03=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=fail_timeout_complete=CarDialog=04=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=fail_timeout_complete=CarDialog=05=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=fail_timeout_complete=CarDialog=06=Nick"/>
+  </dialog>
+  <dialog name="altman_4=qDivorce=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=qDivorce=fail_damaged=CarDialog=00=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=fail_damaged=CarDialog=02=ID_ANGELA_1"/>
+    <item caller="" wav="altman_4=qDivorce=fail_damaged=CarDialog=03=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=fail_damaged=CarDialog=04=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=fail_damaged=CarDialog=05=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=fail_damaged=CarDialog=06=Nick"/>
+  </dialog>
+  <dialog name="altman_4=qDivorce=decline=CarDialog">
+    <item callee="" wav="altman_4=qDivorce=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=decline=CarDialog=01=ID_ANGELA_1"/>
+    <item callee="" wav="altman_4=qDivorce=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=qDivorce=decline=CarDialog=03=ID_ANGELA_1"/>
+  </dialog>
+  <dialog name="altman_4=cd_games=success=LiveDialog">
+    <item caller="" wav="altman_4=cd_games=success=LiveDialog=00=ID_JOHN_1"/>
+    <item callee="" wav="altman_4=cd_games=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=cd_games=success=LiveDialog=02=ID_JOHN_1"/>
+    <item callee="" wav="altman_4=cd_games=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=cd_games=success=LiveDialog=04=ID_JOHN_1"/>
+  </dialog>
+  <dialog name="altman_4=ko_ko=success=LiveDialog">
+    <item caller="" wav="altman_4=ko_ko=success=LiveDialog=00=ID_LAURA_4"/>
+    <item callee="" wav="altman_4=ko_ko=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=ko_ko=success=LiveDialog=02=ID_LAURA_4"/>
+    <item callee="" wav="altman_4=ko_ko=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=ko_ko=success=LiveDialog=04=ID_LAURA_4"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=ko_ko=success=LiveDialog=Y">
+          <item callee="" wav="altman_4=ko_ko=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=ko_ko=success=LiveDialog=Y=01=ID_LAURA_4"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=ko_ko=success=LiveDialog=N">
+          <item callee="" wav="altman_4=ko_ko=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=ko_ko=success=LiveDialog=N=01=ID_LAURA_4"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=horek_2=start=LiveDialog">
+    <item callee="" wav="altman_4=horek_2=start=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=horek_2=start=LiveDialog=01=ID_ANGELA_3"/>
+    <item callee="" wav="altman_4=horek_2=start=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=horek_2=start=LiveDialog=03=ID_ANGELA_3"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=horek_2=start=LiveDialog=Y">
+          <item callee="" wav="altman_4=horek_2=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=horek_2=start=LiveDialog=Y=01=ID_ANGELA_3"/>
+          <item callee="" wav="altman_4=horek_2=start=LiveDialog=Y=02=Nick"/>
+          <item caller="" wav="altman_4=horek_2=start=LiveDialog=Y=03=ID_ANGELA_3"/>
+          <item callee="" wav="altman_4=horek_2=start=LiveDialog=Y=04=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=horek_2=start=LiveDialog=N">
+          <item callee="" wav="altman_4=horek_2=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=horek_2=start=LiveDialog=N=01=ID_ANGELA_3"/>
+          <item callee="" wav="altman_4=horek_2=start=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=horek_2=success=LiveDialog">
+    <item callee="" wav="altman_4=horek_2=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=horek_2=success=LiveDialog=01=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=horek_2=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=horek_2=success=LiveDialog=03=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=horek_2=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=horek_2=success=LiveDialog=05=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=horek_2=success=LiveDialog=06=Nick"/>
+  </dialog>
+  <dialog name="altman_4=straus=success=LiveDialog">
+    <item callee="" wav="altman_4=straus=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="altman_4=straus=success=LiveDialog=01=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="altman_4=straus=success=LiveDialog=03=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="altman_4=straus=success=LiveDialog=05=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="altman_4=straus=success=LiveDialog=07=ID_JASON_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=straus=success=LiveDialog=Y">
+          <item callee="" wav="altman_4=straus=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=straus=success=LiveDialog=Y=01=ID_JASON_1"/>
+          <item callee="" wav="altman_4=straus=success=LiveDialog=Y=02=Nick"/>
+          <item caller="" wav="altman_4=straus=success=LiveDialog=Y=03=ID_JASON_1"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=straus=success=LiveDialog=N">
+          <item callee="" wav="altman_4=straus=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=straus=success=LiveDialog=N=01=ID_JASON_1"/>
+          <item callee="" wav="altman_4=straus=success=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=straus_2=success=CarDialog">
+    <item caller="" wav="altman_4=straus_2=success=CarDialog=00=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus_2=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=straus_2=success=CarDialog=02=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus_2=success=CarDialog=03=Nick"/>
+  </dialog>
+  <dialog name="altman_4=straus_2=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=straus_2=fail_timeout_complete=CarDialog=00=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus_2=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=straus_2=fail_timeout_complete=CarDialog=02=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus_2=fail_timeout_complete=CarDialog=03=Nick"/>
+    <item caller="" wav="altman_4=straus_2=fail_timeout_complete=CarDialog=04=ID_JASON_1"/>
+  </dialog>
+  <dialog name="altman_4=straus_2=fail_damaged=CarDialog">
+    <item caller="" wav="altman_4=straus_2=fail_damaged=CarDialog=00=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus_2=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=straus_2=fail_damaged=CarDialog=02=ID_JASON_1"/>
+  </dialog>
+  <dialog name="altman_4=straus_2=decline=CarDialog">
+    <item callee="" wav="altman_4=straus_2=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=straus_2=decline=CarDialog=01=ID_JASON_1"/>
+    <item callee="" wav="altman_4=straus_2=decline=CarDialog=02=Nick"/>
+  </dialog>
+  <dialog name="altman_4=poezd_help=success=LiveDialog">
+    <item caller="" wav="altman_4=poezd_help=success=LiveDialog=00=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=poezd_help=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poezd_help=success=LiveDialog=02=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=poezd_help=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="altman_4=poezd_help=success=LiveDialog=04=ID_GREGORY_1"/>
+    <item>
+      <question text="altman_4=Y" id="0">
+        <dialog name="altman_4=poezd_help=success=LiveDialog=Y">
+          <item callee="" wav="altman_4=poezd_help=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="altman_4=poezd_help=success=LiveDialog=Y=01=ID_GREGORY_1"/>
+          <item callee="" wav="altman_4=poezd_help=success=LiveDialog=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="altman_4=N" id="1">
+        <dialog name="altman_4=poezd_help=success=LiveDialog=N">
+          <item callee="" wav="altman_4=poezd_help=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="altman_4=poezd_help=success=LiveDialog=N=01=ID_GREGORY_1"/>
+          <item callee="" wav="altman_4=poezd_help=success=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="altman_4=poezd_help2=success=CarDialog">
+    <item caller="" wav="altman_4=poezd_help2=success=CarDialog=00=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=poezd_help2=success=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poezd_help2=success=CarDialog=02=ID_GREGORY_1"/>
+  </dialog>
+  <dialog name="altman_4=poezd_help2=fail_timeout_complete=CarDialog">
+    <item caller="" wav="altman_4=poezd_help2=fail_timeout_complete=CarDialog=00=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=poezd_help2=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="altman_4=poezd_help2=fail_timeout_complete=CarDialog=02=ID_GREGORY_1"/>
+  </dialog>
+  <dialog name="altman_4=poezd_help2=fail_damaged=CarDialog">
+    <item callee="" wav="altman_4=poezd_help2=fail_damaged=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=poezd_help2=fail_damaged=CarDialog=01=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=poezd_help2=fail_damaged=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=poezd_help2=fail_damaged=CarDialog=03=ID_GREGORY_1"/>
+  </dialog>
+  <dialog name="altman_4=poezd_help2=decline=CarDialog">
+    <item callee="" wav="altman_4=poezd_help2=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="altman_4=poezd_help2=decline=CarDialog=01=ID_GREGORY_1"/>
+    <item callee="" wav="altman_4=poezd_help2=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="altman_4=poezd_help2=decline=CarDialog=03=ID_GREGORY_1"/>
+  </dialog>
+</dialogs>
+

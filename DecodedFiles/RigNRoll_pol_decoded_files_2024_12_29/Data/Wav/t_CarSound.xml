@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Scoring dir="">
+    <SkidAsphalt1 id="SkidAsphalt1" mindist="12" maxdist="500" volume="1" group="1" />
+    <SkidAsphalt2 id="SkidAsphalt2" mindist="12" maxdist="500" volume="1" group="1" />
+    <SkidAsphalt3 id="SkidAsphalt3" mindist="12" maxdist="500" volume="1" group="1" />
+    <SkidGround id="SkidGround_500" mindist="12" maxdist="500" volume="1" group="1" />
+    <SkidGround id="SkidGround_100" mindist="12" maxdist="100" volume="1" group="1" />
+    <CrashFrame id="CrashFrame" mindist="12" maxdist="100" volume="1" group="1" />
+    <CrashBody id="CrashBody" mindist="12" maxdist="100" volume="1" group="1" />
+    <CrashHard1 id="CrashHard1" mindist="12" maxdist="100" volume="1" group="1" />
+    <CrashHeadLight2 id="CrashHeadLight2" mindist="12" maxdist="100" volume="1" group="1" />
+  </Scoring>
+  <General dir="" not_create="">
+    <gear id="gear" mindist="12" maxdist="500" volume="2" group="1" />
+    <horn id="horn" mindist="12" maxdist="500" volume="2" group="1" />
+    <squeak id="squeak" mindist="12" maxdist="500" volume="1" group="1" />
+    <surface_beton id="surface_beton" mindist="12" maxdist="500" volume="0.5" group="1" />
+    <grass id="grass" mindist="12" maxdist="500" volume="1" group="1" />
+    <sand_rock id="sand_rock" mindist="12" maxdist="500" volume="1" group="1" />
+    <water id="water" mindist="12" maxdist="500" volume="1" group="1" />
+    <asphalt id="asphalt" mindist="12" maxdist="500" volume="1" group="1" />
+    <gravel id="gravel" mindist="12" maxdist="500" volume="1" group="1" />
+    <roadnoise id="roadnoise" mindist="12" maxdist="500" volume="1" group="1" />
+    <hit_gluh_f id="hit_gluh_f" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_gluh_m id="hit_gluh_m" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_gluh_r id="hit_gluh_r" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_gluh_squeak id="hit_gluh_squeak" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_def1 id="hit_def1" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_def2 id="hit_def2" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_def_fara id="hit_def_fara" mindist="12" volume="1" group="1" maxdist="100" />
+    <hit_suspension id="hit_suspension" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_sign id="hit_sign" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_ironpillar id="hit_ironpillar" mindist="12" maxdist="100" volume="1" group="1" />
+    <hit_bullet id="hit_bullet" mindist="12" maxdist="100" volume="1" group="1" />
+  </General>
+</SoundParameters>

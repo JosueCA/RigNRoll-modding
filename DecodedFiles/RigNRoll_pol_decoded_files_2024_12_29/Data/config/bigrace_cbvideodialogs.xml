@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cbvdialogs>
+  <dialog name="CB=BRStageStart=0L2=01" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=0L2=01_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=0L2=01_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=0L2=01_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=0L2=01_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=0L2=01_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=0L2=01_06" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=0L2=02" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=0L2=02_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=0L2=02_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=0L2=02_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=0L2=02_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=0L2=02_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=0L2=02_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=0L2=02_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=0L2=02_08" callee="" />
+    <item i="8" caller="" wav="RonK_CB=BRStageStart=0L2=02_09" />
+  </dialog>
+  <dialog name="CB=BRStageStart=0L2=03" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=0L2=03_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=0L2=03_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=0L2=03_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=0L2=03_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=0L2=03_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=0L2=03_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=0L2=03_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=0L2=03_08" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=1L1=01" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=1L1=01_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=1L1=01_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=1L1=01_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=1L1=01_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=1L1=01_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=1L1=01_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=1L1=01_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=1L1=01_08" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=1L1=02" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=1L1=02_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=1L1=02_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=1L1=02_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=1L1=02_04" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=1L1=03" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=1L1=03_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=1L1=03_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=1L1=03_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=1L1=03_04" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=2LP=01" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=2LP=01_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=2LP=01_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=2LP=01_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=2LP=01_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=2LP=01_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=2LP=01_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=2LP=01_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=2LP=01_08" callee="" />
+    <item i="8" caller="" wav="RonK_CB=BRStageStart=2LP=01_09" />
+  </dialog>
+  <dialog name="CB=BRStageStart=2LP=02" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=2LP=02_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=2LP=02_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=2LP=02_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=2LP=02_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=2LP=02_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=2LP=02_06" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=2LP=03" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=2LP=03_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=2LP=03_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=2LP=03_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=2LP=03_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=2LP=03_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=2LP=03_06" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=3LC=01" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=3LC=01_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=3LC=01_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=3LC=01_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=3LC=01_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=3LC=01_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=3LC=01_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=3LC=01_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=3LC=01_08" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=3LC=02" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=3LC=02_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=3LC=02_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=3LC=02_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=3LC=02_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=3LC=02_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=3LC=02_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=3LC=02_07" />
+  </dialog>
+  <dialog name="CB=BRStageStart=3LC=03" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=3LC=03_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=3LC=03_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=3LC=03_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=3LC=03_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=3LC=03_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=3LC=03_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=3LC=03_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=3LC=03_08" callee="" />
+    <item i="8" caller="" wav="RonK_CB=BRStageStart=3LC=03_09" />
+  </dialog>
+  <dialog name="CB=BRStageStart=4LM=01" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=4LM=01_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=4LM=01_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=4LM=01_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=4LM=01_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=4LM=01_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=4LM=01_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=4LM=01_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=4LM=01_08" callee="" />
+    <item i="8" caller="" wav="RonK_CB=BRStageStart=4LM=01_09" />
+    <item i="9" wav="NicA_CB=BRStageStart=4LM=01_010" callee="" />
+    <item i="10" caller="" wav="RonK_CB=BRStageStart=4LM=01_011" />
+    <item i="11" wav="NicA_CB=BRStageStart=4LM=01_012" callee="" />
+    <item i="12" caller="" wav="RonK_CB=BRStageStart=4LM=01_013" />
+    <item i="13" wav="NicA_CB=BRStageStart=4LM=01_014" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=4LM=02" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=4LM=02_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=4LM=02_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=4LM=02_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=4LM=02_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=4LM=02_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=4LM=02_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=4LM=02_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=4LM=02_08" callee="" />
+  </dialog>
+  <dialog name="CB=BRStageStart=4LM=03" caller="RonK" callee="NicA">
+    <item i="0" caller="" wav="RonK_CB=BRStageStart=4LM=03_01" />
+    <item i="1" wav="NicA_CB=BRStageStart=4LM=03_02" callee="" />
+    <item i="2" caller="" wav="RonK_CB=BRStageStart=4LM=03_03" />
+    <item i="3" wav="NicA_CB=BRStageStart=4LM=03_04" callee="" />
+    <item i="4" caller="" wav="RonK_CB=BRStageStart=4LM=03_05" />
+    <item i="5" wav="NicA_CB=BRStageStart=4LM=03_06" callee="" />
+    <item i="6" caller="" wav="RonK_CB=BRStageStart=4LM=03_07" />
+    <item i="7" wav="NicA_CB=BRStageStart=4LM=03_08" callee="" />
+    <item i="8" caller="" wav="RonK_CB=BRStageStart=4LM=03_09" />
+    <item i="9" caller="" wav="RonK_CB=BRStageStart=4LM=03_010" />
+    <item i="10" wav="NicA_CB=BRStageStart=4LM=03_011" callee="" />
+    <item i="11" caller="" wav="RonK_CB=BRStageStart=4LM=03_012" />
+    <item i="12" wav="NicA_CB=BRStageStart=4LM=03_013" callee="" />
+    <item i="13" caller="" wav="RonK_CB=BRStageStart=4LM=03_014" />
+    <item i="14" wav="NicA_CB=BRStageStart=4LM=03_015" callee="" />
+    <item i="15" caller="" wav="RonK_CB=BRStageStart=4LM=03_016" />
+  </dialog>
+</cbvdialogs>

@@ -1,0 +1,10 @@
+<manufacturers>
+	<manufacturer name="FREIGHTLINER" control="FREIGHTLINER"/>
+	<manufacturer name="WESTERNSTAR" control="WESTERN STAR"/>
+	<manufacturer name="STERLING" control="STERLING"/>
+	<manufacturer name="KENWORTH" control="KENWORTH"/>
+	<manufacturer name="PETERBILT" control="PETERBILT"/>
+	<manufacturer name="VOLVO" control="VOLVO"/>
+	<manufacturer name="MACK" control="MACK"/>
+	<manufacturer name="INTERNATIONAL" control="INTERNATIONAL"/>
+</manufacturers>

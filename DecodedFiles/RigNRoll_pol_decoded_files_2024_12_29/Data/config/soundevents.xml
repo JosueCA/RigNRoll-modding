@@ -1,0 +1,20 @@
+<soundevents>
+	<event id="lighthit1" instanced="true">
+		<sound source="..\data\wav\CrashLight1.wav" cycle="false" volume="1."/>
+	</event>
+	<event id="lighthit2" instanced="true">
+		<sound source="..\data\wav\CrashLight2.wav" cycle="false" volume="1."/>
+	</event>
+	<event id="lighthit3" instanced="true">
+		<sound source="..\data\wav\CrashLight3.wav" cycle="false" volume="1."/>
+	</event>
+	<event id="lighthit4" instanced="true">
+		<sound source="..\data\wav\CrashLight4.wav" cycle="false" volume="1."/>
+	</event>
+	<event id="bodyhit" instanced="true">
+		<sound source="..\data\wav\CrashBody.wav" cycle="false" volume="1."/>
+	</event>
+	<event id="framehit" instanced="true">
+		<sound source="..\data\wav\CrashFrame.wav" cycle="false" volume="1."/>
+	</event>
+</soundevents>

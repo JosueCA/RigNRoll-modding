@@ -1,0 +1,6 @@
+<commercial>
+	<item type="1">
+		<params ushift="0.5" vshift="0.25" nu="1" nv="3" hold="4" uvelocity="0.07" vvelocity="0.07"/>
+		<log>commercial.log</log>
+	</item>
+</commercial>

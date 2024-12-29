@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> Main Menu </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>ComCommon</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<buttonres name="MC_PaperBack" script="Complex9">
+			<material>WelcomeToMonsterCup</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="MC_PaperBackShadow" script="Complex9">
+			<material>WelcomeToMonsterCup</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller Thumb" script="Complex3Vert">
+			<material>ComCommon_NoDet</material>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="284" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="301" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="303" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="267" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="267" sx="36" sy="17"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller Thumb NARROW" script="Complex3Vert">
+			<material>ComCommon_NoDet</material>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="10" id="up"/>
+				<texrect index="0" x="0" y="284" sx="36" sy="10"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="36" sy="10" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="36" sy="10" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="10"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="10" sx="36" sy="1" id="center"/>
+				<texrect index="0" x="0" y="301" sx="36" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="10" sx="36" sy="1" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="10" sx="36" sy="1" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="11" sx="36" sy="10" id="down"/>
+				<texrect index="0" x="0" y="310" sx="36" sy="10"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="11" sx="36" sy="10" id="down"/>
+				<texrect index="0" x="0" y="274" sx="36" sy="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="11" sx="36" sy="10" id="down"/>
+				<texrect index="0" x="0" y="274" sx="36" sy="10"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowUP">
+			<material>ComCommon_NoDet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowDOWN">
+			<material>ComCommon_NoDet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="-------------    BEGIN of PHOTO ALBUM   --------------"/>
+		<materialres name="ComCommon_NoDet">
+			<wdbmaterial>mat_menu_Com_COMMON_NoDet_110</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+		</materialres>
+		<materialres name="PhotoAlbum - PHOTO" shotupdater="0" screenshotid="11">
+			<wdbmaterial>mat_menu_PhotoAlbum_PHOTO_0000_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>0.75</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="PHOTO - PaperBack_HiDet">
+			<wdbmaterial>mat_menu_PaperBack01_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="PHOTO - PaperBack" script="Complex9">
+			<material>PHOTO - PaperBack_HiDet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="64" sy="96" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="0" sx="1" sy="96" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="0" sx="64" sy="96" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="64" sx="64" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="64" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="64" sx="64" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="65" sx="64" sy="96" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="65" sx="1" sy="96" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="65" sx="64" sy="96" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Table PHOTOALBUM - TEXT">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - left"/>
+				<texrect index="0" x="121" y="311" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - left"/>
+				<texrect index="0" x="4" y="0" sx="1" sy="30"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - left 10 NoWrap"/>
+				<font>Blue Highway OUTLINED</font>
+				<texrect index="0" x="22" y="0" sx="1" sy="30"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - left 10 NoWrap"/>
+				<font>Blue Highway OUTLINED</font>
+				<texrect index="0" x="22" y="0" sx="1" sy="30"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left 10 NoWrap"/>
+				<font>Blue Highway OUTLINED</font>
+				<texrect index="0" x="19" y="0" sx="1" sy="30"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - left 10 NoWrap"/>
+				<font>Blue Highway OUTLINED</font>
+				<texrect index="0" x="22" y="0" sx="1" sy="30"/>
+			</buttonstate>
+		</buttonres>
+		<textres name="JustText - black - center WRAP">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>0 51 51 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - redPHOTO - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 100 50 255</textcolor>
+		</textres>
+		<buttonres name="-------------    END of PHOTO ALBUM   --------------"/>
+		<buttonres name="-------------    BEGIN of TITRES   --------------"/>
+		<materialres name="AnswerPointer">
+			<wdbmaterial>mat_menu_AnswerPointer_110</wdbmaterial>
+			<texture index="0" maxx="64" maxy="64"/>
+		</materialres>
+		<buttonres name="Button TITLES">
+			<buttonstate type="passive">
+				<textres_ref name="BHT - white - left"/>
+				<font>Blue Highway Titles</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="BHT - yellow1 - left"/>
+				<font>Blue Highway Titles</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="BHT - yellow1 - left PRESSED"/>
+				<font>Blue Highway Titles</font>
+			</buttonstate>
+			<material>AnswerPointer</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="1" sy="1"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="-90" y="5" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sx="64" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="-90" y="11" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sx="64" sy="64"/>
+			</buttonstate>
+		</buttonres>
+		<textres name="BHT - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - yellow1 - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 220 50 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - yellow1 - left PRESSED">
+			<vertalign>baseline</vertalign>
+			<baseline>61</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 220 50 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<buttonres name="-------------    END of TITRES   --------------"/>
+		<buttonres name="BOL1_PaperBack" script="Complex9">
+			<material>BillOfLading_01</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="BOL1_PaperBackShadow" script="Complex9">
+			<material>BillOfLading_01</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="BillOfLading_01">
+			<wdbmaterial>mat_menu_BillOfLading01_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BillOfLading_02">
+			<wdbmaterial>mat_menu_BillOfLading02_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="64"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="WelcomeToMonsterCup">
+			<wdbmaterial>mat_menu_WelcomeToBigRun_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GoldCarrierCheck">
+			<wdbmaterial>mat_menu_GoldCarrierCheck_310</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>20</tilex>
+				<tiley>15</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MessageBridgeToll">
+			<wdbmaterial>mat_menu_MessageBridgeToll_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="64"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>20</tilex>
+				<tiley>15</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="WH_StellaTablo">
+			<wdbmaterial>mat_Menu_WH_StellaTablo_110</wdbmaterial>
+			<texture index="0" maxx="512" maxy="128"/>
+		</materialres>
+		<materialres name="BackOUT_yellow">
+			<wdbmaterial>mat_Menu_backOUT_yellow_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="COMM_BACK_Title" script="Complex9">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="70" id="leftUP"/>
+				<texrect index="0" x="82" y="0" sx="32" sy="70"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="70" id="centerUP"/>
+				<texrect index="0" x="113" y="0" sx="1" sy="70"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="14" sy="70" id="rightUP"/>
+				<texrect index="0" x="114" y="0" sx="14" sy="70"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="70" sx="32" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="82" y="69" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="70" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="113" y="69" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="70" sx="14" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="114" y="69" sx="14" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="71" sx="32" sy="14" id="leftDOWN"/>
+				<texrect index="0" x="82" y="70" sx="32" sy="14"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="71" sx="1" sy="14" id="centerDOWN"/>
+				<texrect index="0" x="113" y="70" sx="1" sy="14"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="71" sx="14" sy="14" id="rightDOWN"/>
+				<texrect index="0" x="114" y="70" sx="14" sy="14"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="COMM_BACK_Border" script="Complex9">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="12" sy="13" id="leftUP"/>
+				<texrect index="0" x="66" y="0" sx="12" sy="13"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="0" sx="1" sy="13" id="centerUP"/>
+				<texrect index="0" x="78" y="0" sx="1" sy="13"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="0" sx="12" sy="13" id="rightUP"/>
+				<texcoords index="0" x0="78" y0="0" x1="66" y1="0" x2="66" y2="13" x3="78" y3="13"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="13" sx="12" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="66" y="13" sx="12" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="13" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="78" y="13" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="12" sx="13" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="78" y0="13" x1="66" y1="13" x2="66" y2="14" x3="78" y3="14"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="14" sx="12" sy="18" id="leftDOWN"/>
+				<texrect index="0" x="66" y="14" sx="12" sy="18"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="14" sx="1" sy="18" id="centerDOWN"/>
+				<texrect index="0" x="78" y="14" sx="1" sy="18"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="14" sx="12" sy="18" id="rightDOWN"/>
+				<texcoords index="0" x0="78" y0="14" x1="66" y1="14" x2="66" y2="32" x3="78" y3="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="COMM_BACK_Gradient" script="Complex9">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="1" sy="200" id="leftUP"/>
+				<texrect index="0" x="13" y="0" sx="1" sy="31"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="1" y="0" sx="1" sy="200" id="centerUP"/>
+				<texrect index="0" x="13" y="0" sx="1" sy="31"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="0" sx="1" sy="200" id="rightUP"/>
+				<texrect index="0" x="13" y="0" sx="1" sy="31"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="1" sx="1" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="13" y="30" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="1" y="1" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="13" y="30" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="1" sx="1" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="13" y="30" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="2" sx="1" sy="200" id="leftDOWN"/>
+				<texcoords index="0" x0="13" y0="31" x1="14" y1="31" x2="14" y2="10" x3="13" y3="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="1" y="2" sx="1" sy="200" id="centerDOWN"/>
+				<texcoords index="0" x0="13" y0="31" x1="14" y1="31" x2="14" y2="10" x3="13" y3="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="1" sy="200" id="rightDOWN"/>
+				<texcoords index="0" x0="13" y0="31" x1="14" y1="31" x2="14" y2="10" x3="13" y3="10"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="PaperBack_Fade_Spots">
+			<wdbmaterial>mat_menu_PaperBack01_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>20</tilex>
+				<tiley>15</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="PaperBack_Sheet_Spots" script="Complex9">
+			<material>PaperBack_Fade_Spots</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="64" sy="96" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="0" sx="1" sy="96" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="0" sx="64" sy="96" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="64" sx="64" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="64" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="64" sx="64" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="65" sx="64" sy="96" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="65" sx="1" sy="96" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="65" sx="64" sy="96" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Titles">
+			<name>TahomaTitles</name>
+			<size>48</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<materialres name="ComCommon_A">
+			<wdbmaterial>mat_menu_Com_COMMONa_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon">
+			<wdbmaterial>mat_menu_Com_COMMON_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon_ACTIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_ACTIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon_PASSIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_PASSIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button COMMON Communicator" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Comm"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="256" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="256" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="256" x1="36" y1="256" x2="36" y2="320" x3="52" y3="320"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button COMMON Communicator NoDet" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Comm"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="256" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="256" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="256" x1="36" y1="256" x2="36" y2="320" x3="52" y3="320"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+		<textres name="JustText - black - left">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>85 85 82 255</textcolor>
+		</textres>
+		<textres name="JustText - black - left - News">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>85 85 82 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - left WRAP">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>85 85 82 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black1 - left WRAP">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>0 51 51 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>85 85 82 255</textcolor>
+		</textres>
+		<textres name="JustText - black - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>85 85 82 255</textcolor>
+		</textres>
+		<textres name="JustText - red - left">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>179 18 18 255</textcolor>
+		</textres>
+		<textres name="JustText - red - left WRAP">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>179 18 18 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - red - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>187 69 69 255</textcolor>
+		</textres>
+		<textres name="JustText - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - left">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+	</resources>
+	<controlgroup name="DOCUMENT - BILL OF LADING">
+		<picture name="DOCUMENT - Bill RIGHT - BACK">
+			<material>BillOfLading_01</material>
+			<coords x="50" y="50" sx="900" sy="1040"/>
+			<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+		</picture>
+		<picture name="DOCUMENT - Bill RIGHT - ARTICLE">
+			<coords x="70" y="450" sx="1" sy="1"/>
+			<picture name="BackPaperShadow">
+				<coords x="60" y="76" sx="710" sy="299"/>
+				<buttonres_ref name="BOL1_PaperBackShadow"/>
+			</picture>
+			<picture name="BackPaper">
+				<coords x="80" y="76" sx="670" sy="259"/>
+				<buttonres_ref name="BOL1_PaperBack"/>
+			</picture>
+			<picture name="Border DARK 2">
+				<material>BillOfLading_01</material>
+				<coords x="130" y="125" sx="570" sy="40"/>
+				<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+			</picture>
+			<textfield name="DOCUMENT - Bill RIGHT - SHIP TO">
+				<font>Blue Highway</font>
+				<coords x="130" y="127" sx="570" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="common\SHIP TO">SHIP TO</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill RIGHT - NAME">
+				<font>Blue Highway</font>
+				<coords x="130" y="170" sx="200" sy="36"/>
+				<textres_ref name="JustText - black - left - News"/>
+				<text locref="common\Name :">Name :</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill RIGHT - NAME VALUE">
+				<font>Blue Highway</font>
+				<coords x="340" y="170" sx="350" sy="72"/>
+				<textres_ref name="JustText - black - left - News"/>
+				<text>%STEVEN_CUNNING%</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill RIGHT - ADDRESS">
+				<font>Blue Highway</font>
+				<coords x="130" y="214" sx="200" sy="36"/>
+				<textres_ref name="JustText - black - left - News"/>
+				<text locref="common\Address :">Address :</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill RIGHT - ADDRESS VALUE">
+				<font>Blue Highway</font>
+				<coords x="340" y="214" sx="350" sy="92"/>
+				<textres_ref name="JustText - black - left - News"/>
+				<text locref="menu_documents.xml\DOCUMENT - BILL OF LADING\DOCUMENT - Bill RIGHT - ARTICLE\DOCUMENT - Bill RIGHT - ADDRESS VALUE">838 Grand Avenue, Los Angeles, California, 90017</text>
+			</textfield>
+		</picture>
+		<picture name="DOCUMENT - Bill WRONG - BACK">
+			<material>BillOfLading_01</material>
+			<coords x="650" y="130" sx="900" sy="1040"/>
+			<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			<picture name="patch">
+				<material>BillOfLading_02</material>
+				<coords x="172" y="300" sx="264" sy="132"/>
+				<texrect index="0" x="0" y="0" sx="128" sy="64"/>
+			</picture>
+		</picture>
+		<picture name="DOCUMENT - Bill WRONG - ARTICLE">
+			<coords x="780" y="530" sx="1" sy="1"/>
+			<picture name="BackPaperShadow">
+				<coords x="60" y="76" sx="710" sy="299"/>
+				<buttonres_ref name="BOL1_PaperBackShadow"/>
+			</picture>
+			<picture name="BackPaper">
+				<coords x="80" y="76" sx="670" sy="259"/>
+				<buttonres_ref name="BOL1_PaperBack"/>
+			</picture>
+			<picture name="Border DARK 2">
+				<material>BillOfLading_01</material>
+				<coords x="130" y="125" sx="570" sy="40"/>
+				<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+			</picture>
+			<textfield name="DOCUMENT - Bill WRONG - SHIP TO">
+				<font>Blue Highway</font>
+				<coords x="130" y="127" sx="570" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="common\SHIP TO">SHIP TO</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill WRONG - NAME">
+				<font>Blue Highway</font>
+				<coords x="130" y="170" sx="200" sy="36"/>
+				<textres_ref name="JustText - black - left - News"/>
+				<text locref="common\Name :">Name :</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill WRONG - NAME VALUE">
+				<font>Blue Highway</font>
+				<coords x="340" y="170" sx="350" sy="72"/>
+				<textres_ref name="JustText - red - left WRAP"/>
+				<text locref="menu_documents.xml\DOCUMENT - BILL OF LADING\DOCUMENT - Bill WRONG - ARTICLE\DOCUMENT - Bill WRONG - NAME VALUE">3rd Industries LTD</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill WRONG - ADDRESS">
+				<font>Blue Highway</font>
+				<coords x="130" y="214" sx="200" sy="36"/>
+				<textres_ref name="JustText - black - left - News"/>
+				<text locref="common\Address :">Address :</text>
+			</textfield>
+			<textfield name="DOCUMENT - Bill WRONG - ADDRESS VALUE">
+				<font>Blue Highway</font>
+				<coords x="340" y="214" sx="350" sy="92"/>
+				<textres_ref name="JustText - red - left WRAP"/>
+				<text locref="menu_documents.xml\DOCUMENT - BILL OF LADING\DOCUMENT - Bill WRONG - ARTICLE\DOCUMENT - Bill WRONG - ADDRESS VALUE">At shipper?s request</text>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="DOCUMENT - WELCOME TO MONSTER CUP">
+		<picture name="WelcomeToMonsterCup">
+			<coords x="0" y="0" sx="1" sy="1"/>
+			<picture name="DOCUMENT - WELCOME TO MONSTER CUP - BACK">
+				<material>WelcomeToMonsterCup</material>
+				<coords x="215" y="30" sx="900" sy="1040"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="DOCUMENT - WELCOME TO MONSTER CUP - ARTICLE">
+				<coords x="486" y="420" sx="1" sy="1"/>
+				<picture name="BackPaperShadow">
+					<coords x="60" y="76" sx="810" sy="407"/>
+					<buttonres_ref name="MC_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="80" y="76" sx="770" sy="367"/>
+					<buttonres_ref name="MC_PaperBack"/>
+				</picture>
+				<textfield name="MONSTER CUP - GREETINGS">
+					<font>Blue Highway</font>
+					<coords x="130" y="116" sx="670" sy="36"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_documents.xml\DOCUMENT - WELCOME TO MONSTER CUP\WelcomeToMonsterCup\DOCUMENT - WELCOME TO MONSTER CUP - ARTICLE\MONSTER CUP - GREETINGS">Dear Sir,</text>
+				</textfield>
+				<picture name="Border DARK 1">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="130" y="159" sx="670" sy="2"/>
+					<texrect index="0" x="539" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK 2">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="130" y="163" sx="670" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<textfield name="MONSTER CUP - TEXT">
+					<font>Blue Highway</font>
+					<coords x="130" y="170" sx="627" sy="176"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_documents.xml\DOCUMENT - WELCOME TO MONSTER CUP\WelcomeToMonsterCup\DOCUMENT - WELCOME TO MONSTER CUP - ARTICLE\MONSTER CUP - TEXT">The Monster Cup Organizational Committee is honored to request your participation in our unforgettable Trans-California Rally! The Annual Trans-California rally Monster Cup starts on %DATE% at %DAYTIME% from the %SOURCE% warehouse. The rally will pass through all the territory of California and will finish in %DESTINATION% on %DATE1%. The Cup of Monsters Grand Prix winner will receive a monetary prize of %PRIZE% and the title of California champion in high-speed cargo delivery among professional truckers.</text>
+				</textfield>
+				<picture name="Border DARK 1">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="130" y="357" sx="670" sy="2"/>
+					<texrect index="0" x="539" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK 2">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="130" y="361" sx="670" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<textfield name="MONSTER CUP - SIGN">
+					<font>Blue Highway</font>
+					<coords x="130" y="374" sx="627" sy="36"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_documents.xml\DOCUMENT - WELCOME TO MONSTER CUP\WelcomeToMonsterCup\DOCUMENT - WELCOME TO MONSTER CUP - ARTICLE\MONSTER CUP - SIGN">ROBERT  WILSON,  MCOC chairmen</text>
+				</textfield>
+			</picture>
+			<picture name="DOCUMENT - WELCOME TO MONSTER CUP - ARTICLE - Tableranger">
+				<coords x="1186" y="510" sx="1" sy="1"/>
+				<picture name="Tableranger - Newspaper - PIC FieldBlack">
+					<coords x="62" y="94" sx="36" sy="154"/>
+					<texrect index="0" x="118" y="302" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark01">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="60" y="92" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark02">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="60" y="130" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark03">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="60" y="210" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark04">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="60" y="248" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark05">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="60" y="93" sx="2" sy="156"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark06">
+					<material>WelcomeToMonsterCup</material>
+					<coords x="98" y="93" sx="2" sy="156"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<ranger name="Tableranger - Newspaper" orientation="vert">
+					<coords x="62" y="132" sx="36" sy="77"/>
+					<buttonsize>36</buttonsize>
+					<page>10</page>
+					<increment>1</increment>
+					<minthumbsize>36</minthumbsize>
+					<rangerup>
+						<buttonres_ref name="Scroller ArrowUP"/>
+					</rangerup>
+					<rangerdown>
+						<buttonres_ref name="Scroller ArrowDOWN"/>
+					</rangerdown>
+					<rangerthumb>
+						<buttonres_ref name="Scroller Thumb"/>
+					</rangerthumb>
+				</ranger>
+			</picture>
+			<button name="ACCEPT MONSTER CUP - OK">
+				<coords x="651" y="1020" sx="600" sy="75"/>
+				<buttonres_ref name="Button TITLES"/>
+				<text locref="menu_documents.xml\DOCUMENT - WELCOME TO MONSTER CUP\WelcomeToMonsterCup\ACCEPT MONSTER CUP - OK">ACCEPT</text>
+			</button>
+			<button name="ACCEPT MONSTER CUP - CANCEL">
+				<coords x="651" y="1095" sx="600" sy="75"/>
+				<buttonres_ref name="Button TITLES"/>
+				<text locref="menu_documents.xml\DOCUMENT - WELCOME TO MONSTER CUP\WelcomeToMonsterCup\ACCEPT MONSTER CUP - CANCEL">DECLINE</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="DOCUMENT - GOLD CARRIER CHECK">
+		<picture name="GoldCarrierCheck">
+			<coords x="288" y="344" sx="1" sy="1"/>
+			<picture name="BACK">
+				<material>GoldCarrierCheck</material>
+				<coords x="0" y="0" sx="1024" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="1024" sy="512"/>
+			</picture>
+			<textfield name="GoldCarrierCheck - DATE">
+				<font>Blue Highway</font>
+				<coords x="696" y="51" sx="285" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text>%FULL_DATE%</text>
+			</textfield>
+			<textfield name="GoldCarrierCheck - NAME">
+				<font>Blue Highway</font>
+				<coords x="231" y="182" sx="530" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="common\Nicolas Armstrong">%NICOLAS_ARMSTRONG%</text>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message BRIDGE TOLL">
+		<picture name="Message BRIDGE TOLL">
+			<coords x="0" y="350" sx="1" sy="1"/>
+			<picture name="Message Bridge Toll - BACK">
+				<coords x="0" y="55" sx="1" sy="1"/>
+				<picture name="BACK White">
+					<material>BackOUT_yellow</material>
+					<coords x="286" y="6" sx="1028" sy="450"/>
+					<texrect index="0" x="0" y="0" sx="330" sy="195"/>
+				</picture>
+				<picture name="BACK Gradient">
+					<coords x="286" y="6" sx="1028" sy="450"/>
+					<buttonres_ref name="COMM_BACK_Gradient"/>
+				</picture>
+				<picture name="BACK Border">
+					<coords x="280" y="0" sx="1040" sy="468"/>
+					<buttonres_ref name="COMM_BACK_Border"/>
+				</picture>
+				<picture name="BACK Title">
+					<coords x="345" y="-75" sx="650" sy="85"/>
+					<buttonres_ref name="COMM_BACK_Title"/>
+				</picture>
+				<picture name="BACK Icon - Communicator">
+					<material>ComCommon</material>
+					<coords x="366" y="-63" sx="72" sy="72"/>
+					<texrect index="0" x="0" y="320" sx="64" sy="64"/>
+				</picture>
+				<textfield name="BACK Icon - Incoming Message">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="450" y="-49" sx="500" sy="36"/>
+					<textres_ref name="JustText - white - left"/>
+					<text locref="menu_documents.xml\Message BRIDGE TOLL\Message BRIDGE TOLL\Message Bridge Toll - BACK\BACK Icon - Incoming Message">Net - Toll collected</text>
+				</textfield>
+			</picture>
+			<picture name="BackPaper">
+				<coords x="300" y="85" sx="1000" sy="404"/>
+				<buttonres_ref name="PaperBack_Sheet_Spots"/>
+			</picture>
+			<picture name="Message Bridge Toll - STRIPES TOP">
+				<coords x="350" y="166" sx="1" sy="1"/>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-28" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-24" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-20" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-16" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-12" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+			</picture>
+			<picture name="Message Bridge Toll - ALL">
+				<coords x="350" y="166" sx="900" sy="400"/>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="0" sx="900" sy="50"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border RED">
+					<material>MessageBridgeToll</material>
+					<coords x="2" y="2" sx="896" sy="46"/>
+					<texrect index="0" x="2" y="61" sx="1" sy="1"/>
+				</picture>
+				<textfield name="Message Bridge Toll - TITLE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="2" y="7" sx="886" sy="46"/>
+					<textres_ref name="JustText - white - center"/>
+					<text locref="menu_documents.xml\Message BRIDGE TOLL\Message BRIDGE TOLL\Message Bridge Toll - ALL\Message Bridge Toll - TITLE">BAY AREA BRIDGES</text>
+				</textfield>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="60" sx="900" sy="116"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="BRIDGES">
+					<material>MessageBridgeToll</material>
+					<coords x="2" y="62" sx="896" sy="112"/>
+					<texrect index="0" x="6" y="0" sx="506" sy="64"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="186" sx="900" sy="50"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border RED">
+					<material>MessageBridgeToll</material>
+					<coords x="2" y="188" sx="896" sy="46"/>
+					<texrect index="0" x="2" y="61" sx="1" sy="1"/>
+				</picture>
+				<textfield name="Message Bridge Toll - MONEY">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="2" y="193" sx="886" sy="46"/>
+					<textres_ref name="JustText - white - center"/>
+					<text locref="menu_documents.xml\Message BRIDGE TOLL\Message BRIDGE TOLL\Message Bridge Toll - ALL\Message Bridge Toll - MONEY">$ %MONEY% toll collected</text>
+				</textfield>
+			</picture>
+			<picture name="Message Bridge Toll - STRIPES BOTTOM">
+				<coords x="350" y="440" sx="1" sy="1"/>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-28" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-24" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-20" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-16" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>MessageBridgeToll</material>
+					<coords x="0" y="-12" sx="900" sy="2"/>
+					<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+				</picture>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message TASK EXECUTED">
+		<picture name="Message TASK EXECUTED">
+			<coords x="0" y="197" sx="1" sy="1"/>
+			<picture name="Task Executed - BACK">
+				<coords x="74" y="55" sx="1" sy="1"/>
+				<picture name="BACK White">
+					<material>BackOUT_yellow</material>
+					<coords x="326" y="6" sx="800" sy="761"/>
+					<texrect index="0" x="0" y="0" sx="330" sy="195"/>
+				</picture>
+				<picture name="BACK Gradient">
+					<coords x="326" y="6" sx="800" sy="761"/>
+					<buttonres_ref name="COMM_BACK_Gradient"/>
+				</picture>
+				<picture name="BACK Border">
+					<coords x="320" y="0" sx="812" sy="779"/>
+					<buttonres_ref name="COMM_BACK_Border"/>
+				</picture>
+				<picture name="BACK Title">
+					<coords x="345" y="-75" sx="760" sy="85"/>
+					<buttonres_ref name="COMM_BACK_Title"/>
+				</picture>
+				<picture name="BACK Icon - Communicator">
+					<material>ComCommon</material>
+					<coords x="366" y="-63" sx="72" sy="72"/>
+					<texrect index="0" x="0" y="320" sx="64" sy="64"/>
+				</picture>
+				<textfield name="BACK Icon - Incoming Message">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="450" y="-49" sx="620" sy="36"/>
+					<textres_ref name="JustText - white - left"/>
+					<text locref="menu_documents.xml\Message TASK EXECUTED\Message TASK EXECUTED\Task Executed - BACK\BACK Icon - Incoming Message">Photo Album - %TASK%</text>
+				</textfield>
+			</picture>
+			<picture name="Task Executed - PHOTO">
+				<coords x="440" y="80" sx="1" sy="1"/>
+				<picture name="BackPaper">
+					<coords x="0" y="-10" sx="720" sy="678"/>
+					<buttonres_ref name="PHOTO - PaperBack"/>
+				</picture>
+				<picture name="Task Executed - PHOTO - PIC">
+					<material>PhotoAlbum - PHOTO</material>
+					<coords x="40" y="33" sx="640" sy="480"/>
+					<texrect index="0" x="0" y="0" sx="512" sy="512"/>
+				</picture>
+				<picture name="border">
+					<coords x="39" y="32" sx="2" sy="482"/>
+					<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+					<material>ComCommon_NoDet</material>
+				</picture>
+				<picture name="border">
+					<coords x="679" y="32" sx="2" sy="482"/>
+					<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+					<material>ComCommon_NoDet</material>
+				</picture>
+				<picture name="border">
+					<coords x="39" y="32" sx="642" sy="2"/>
+					<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+					<material>ComCommon_NoDet</material>
+				</picture>
+				<picture name="border">
+					<coords x="39" y="512" sx="642" sy="2"/>
+					<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+					<material>ComCommon_NoDet</material>
+				</picture>
+				<textfield name="Task Executed - PHOTO - DATE">
+					<coords x="40" y="475" sx="630" sy="36"/>
+					<textres_ref name="JustText - redPHOTO - right"/>
+					<font>Blue Highway OUTLINED</font>
+					<text>%FULL_DATE% %HOURS%:%MINUTES%</text>
+				</textfield>
+				<textfield name="Task Executed - PHOTO - TEXT">
+					<coords x="40" y="518" sx="596" sy="130"/>
+					<textres_ref name="JustText - black1 - left WRAP"/>
+					<text/>
+				</textfield>
+				<picture name="GROUP Tableranger - Task Executed - PHOTO - TEXT">
+					<coords x="641" y="524" sx="40" sy="116"/>
+					<picture name="Field BLACK">
+						<coords x="1" y="1" sx="38" sy="114"/>
+						<texrect index="0" x="118" y="302" sx="1" sy="1"/>
+					</picture>
+					<picture name="border">
+						<coords x="0" y="0" sx="2" sy="116"/>
+						<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+						<material>ComCommon_NoDet</material>
+					</picture>
+					<picture name="border">
+						<coords x="38" y="0" sx="2" sy="116"/>
+						<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+						<material>ComCommon_NoDet</material>
+					</picture>
+					<picture name="border">
+						<coords x="1" y="0" sx="38" sy="2"/>
+						<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+						<material>ComCommon_NoDet</material>
+					</picture>
+					<picture name="border">
+						<coords x="1" y="38" sx="38" sy="2"/>
+						<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+						<material>ComCommon_NoDet</material>
+					</picture>
+					<picture name="border">
+						<coords x="1" y="76" sx="38" sy="2"/>
+						<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+						<material>ComCommon_NoDet</material>
+					</picture>
+					<picture name="border">
+						<coords x="1" y="114" sx="38" sy="2"/>
+						<texrect index="0" x="124" y="305" sx="1" sy="1"/>
+						<material>ComCommon_NoDet</material>
+					</picture>
+					<ranger name="Tableranger - Task Executed - PHOTO - TEXT" orientation="vert">
+						<coords x="2" y="40" sx="36" sy="36"/>
+						<buttonsize>36</buttonsize>
+						<page>10</page>
+						<increment>1</increment>
+						<minthumbsize>21</minthumbsize>
+						<rangerup>
+							<buttonres_ref name="Scroller ArrowUP"/>
+						</rangerup>
+						<rangerdown>
+							<buttonres_ref name="Scroller ArrowDOWN"/>
+						</rangerdown>
+						<rangerthumb>
+							<buttonres_ref name="Scroller Thumb NARROW"/>
+						</rangerthumb>
+					</ranger>
+				</picture>
+			</picture>
+			<button name="OK">
+				<coords x="650" y="746" sx="300" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</picture>
+	</controlgroup>
+</menu>

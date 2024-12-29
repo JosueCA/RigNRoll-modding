@@ -1,0 +1,21 @@
+<soundenvironment>
+	<parallelworld name="bar" config="BarFull">
+		<condition name="bar_full" config="BarFull"/>
+		<condition name="bar_empty" config="barempty"/>
+	</parallelworld>
+	<parallelworld name="bar2" config="BarFull">
+		<condition name="bar_full" config="BarFull"/>
+		<condition name="bar_empty" config="barempty"/>
+	</parallelworld>
+	<parallelworld name="bar3" config="BarFull">
+		<condition name="bar_full" config="BarFull"/>
+		<condition name="bar_empty" config="barempty"/>
+	</parallelworld>
+	<parallelworld name="office" config="Office"/>
+	<parallelworld name="motel" config="motel"/>
+	<parallelworld name="police" config="Police"/>
+	<parallelworld name="topokinaki_office" config="Office"/>
+	<parallelworld name="johnhome" config="johnhouse"/>
+	<parallelworld name="podium" config="podium"/>
+	<parallelworld name="bar_crash" config="barcrash"/>
+</soundenvironment>

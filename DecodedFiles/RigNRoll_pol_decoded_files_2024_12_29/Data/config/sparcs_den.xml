@@ -1,0 +1,220 @@
+<particles>
+	<particle name="sparcs_flash_particle" type="type7" nom="1">main flash
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-1" y0="-1" x1="-1" y1="1" x2="1" y2="-1" x3="1" y3="1"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0." maxcycles="0.">
+					<texsized x0="0.5" y0="0.5" sx="0.5" sy="0.5"/>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.1" y1="255"/>
+					<anm x0="0.1" y0="255" x1="0.3" y1="255"/>
+					<anm x0="0.3" y0="255" x1="1" y1="0"/>
+				</alfa>
+				<color>
+					<anm x0="0.0" y0="0" x1="0.1" y1="200"/>
+					<anm x0="0.1" y0="200" x1="0.3" y1="200"/>
+					<anm x0="0.3" y0="200" x1="1" y1="0"/>
+				</color>
+			</shapeTemplate1>
+			<time>
+				<random use="false" mult="6" replace=""/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="2" var1="0.4" var2="1.25"/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-10" veldump="1" lifetime="1" shape_coef="-0.0" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable use="true" dynname="flash_life_time" replace="">
+					<random use="true" mult="1" var1="1" var2="1" multiply=""/>
+				</dynvariable>
+			</lifetime>
+			<shape_coef>
+				<dynvariable use="true" dynname="flash_shape_coef" replace="">
+					<random use="false" mult="0.1" var1="1" var2="1" multiply=""/>
+				</dynvariable>
+			</shape_coef>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.15" y="0.15" z="0.15" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="false" whole="" add="">
+					<randvector use="false" x="0" y="0" z="0" replace=""/>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-10" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="sparcs_smoke_particle" type="type34" nom="1">smoke particle
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="12" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<color>
+					<anm x0="0.0" y0="0" x1="0.15" y1="48"/>
+					<anm x0="0.15" y0="48" x1="0.3" y1="64"/>
+					<anm x0="0.3" y0="64" x1="0.6" y1="24"/>
+					<anm x0="0.6" y0="24" x1="0.8" y1="8"/>
+					<anm x0="0.8" y0="8" x1="1" y1="0"/>
+				</color>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" var1="0" var2="1" replace=""/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="0.8" var2="2"/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-10" veldump="1" lifetime="1" shape_coef="0.6" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.7" var1="1" var2="1.5" multiply=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="1" add="">
+						<random use="true" mult="0.4" var1="1" var2="1" multiply=""/>
+					</randvector>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-10" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="sparcs_aux_flash_particle" type="type7" nom="6">fireflyes around main flash
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.3" y0="-0.3" x1="-0.3" y1="0.3" x2="0.3" y2="-0.3" x3="0.3" y3="0.3"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0." maxcycles="0.">
+					<texsized x0="0.5" y0="0.5" sx="0.5" sy="0.5"/>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.1" y1="255"/>
+					<anm x0="0.1" y0="255" x1="0.3" y1="255"/>
+					<anm x0="0.3" y0="255" x1="1" y1="0"/>
+				</alfa>
+				<color>
+					<anm x0="0.0" y0="0" x1="0.1" y1="200"/>
+					<anm x0="0.1" y0="200" x1="0.3" y1="200"/>
+					<anm x0="0.3" y0="200" x1="1" y1="0"/>
+				</color>
+			</shapeTemplate1>
+			<time>
+				<random use="false" mult="6" replace=""/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="0.85" var1="0.5" var2="1"/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-10" veldump="1" lifetime="1" shape_coef="0.0" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.2" var1="0.25" var2="1"/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.575" y="0.575" z="0.575" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="false" whole="" add="">
+					<randvector use="false" x="0" y="0" z="0" replace=""/>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-10" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="sparcs_fireflyes_particle" type="type6" nom="1">phisics fireflyes
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 256">
+				<coords x0="-0.015" y0="-0.03" x1="-0.015" y1="0.03" x2="0.015" y2="-0.03" x3="0.015" y3="0.03"/>
+				<alfa>
+					<anm x0="0.0" y0="128" x1="0.1" y1="255"/>
+					<anm x0="0.1" y0="255" x1="0.8" y1="255"/>
+					<anm x0="0.8" y0="255" x1="1" y1="0"/>
+				</alfa>
+				<color>
+					<anm x0="0.0" y0="128" x1="0.1" y1="255"/>
+					<anm x0="0.1" y0="255" x1="0.8" y1="255"/>
+					<anm x0="0.8" y0="255" x1="1" y1="0"/>
+				</color>
+				<rotate/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="7." time="0." maxcycles="0.">
+					<texsized x0="0.75" y0="0.25" sx="0.25" sy="0.25"/>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1.0" var1="0.0" var2="0.0" replace=""/>
+			</time>
+			<coordsmultiply>
+				<dynvariable use="true" dynname="sizeScale" replace="">
+					<random use="true" var1="0.5" var2="1.0" mult="2" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+		</trapecia>
+		<fisics>
+			<lifetemplate1 z="-10000" veldump="0.99" lifetime="1" shape_coef="0.5" sizedump="1.0" velatten="0.0">
+				<influence veldump="" sizedump="" velatten="" gravity="" deadoncollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1.0" var1="0.5" var2="1.5" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.1" y="0.1" z="0.1" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="3" y="3" z="20" add="">
+						<random use="true" mult="0.1" var1="-1" var2="1" multiply=""/>
+					</randvector>
+				</stack2>
+			</velocity>
+		</fisics>
+	</particle>
+</particles>

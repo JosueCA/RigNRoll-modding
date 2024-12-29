@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Static dir="">
+    <oceansurf staticid="0" id="sea" mindist="1000" maxdist="1400" volume="0.2" dd="" group="0"/>
+    <citynoise staticid="1" id="city" mindist="1000" maxdist="2000" volume="0.2" dd="" group="0"/>
+    <warehouse staticid="2" id="warehouse" mindist="50" maxdist="70" volume="0.2" dd="" group="0"/>
+    <RepairActive staticid="3" id="RepairActive" mindist="25" maxdist="35" volume="0.2" dd="" group="0"/>
+  </Static>
+</SoundParameters>

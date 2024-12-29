@@ -1,0 +1,66 @@
+<particles>
+	<particle name="rain_splash1" type="type41" nom="1">splash from rain drop
+		<trapecia_static>to change it edit RainSplash.cpp
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="0.0" x1="-0.5" y1="0.75" x2="0.5" y2="0.0" x3="0.5" y3="0.75"/>
+				<alfa>
+					<anm x0="0.0" y0="160" x1="1" y1="96"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="10" time="0" maxcycles="0">
+					<texsized x0="0.125" y0="0.5" sx="0.125" sy="0.5"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.5" sx="0.125" sy="0.5"/>
+						<texsized x0="0.375" y0="0.5" sx="0.125" sy="0.5"/>
+						<texsized x0="0.625" y0="0.5" sx="0.125" sy="0.5"/>
+						<texsized x0="0.875" y0="0.5" sx="0.125" sy="0.5"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.0" var1="0.15" var2="0.35"/>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="rain_splash_trancparency_decreese" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia_static>
+		<empty>
+			<lifetime>
+				<random use="true" mult="1.0" var1="0.2" var2="0.3" replace=""/>
+			</lifetime>
+		</empty>
+	</particle>
+	<particle name="rain_splash2" type="type41" nom="1">splash from rain drop
+		<trapecia_static>to change it edit RainSplash.cpp
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="0.0" x1="-0.5" y1="0.75" x2="0.5" y2="0.0" x3="0.5" y3="0.75"/>
+				<alfa>
+					<anm x0="0.0" y0="160" x1="1" y1="96"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="10" time="0" maxcycles="0">
+					<texcoords x0="0" y0="0" x1="0.25" y1="0" x3="0" y3="1.0"/>
+					<texanimations>
+						<texcoords x0="0" y0="0" x1="0.25" y1="0" x3="0" y3="1.0"/>
+						<texcoords x0="0.25" y0="0" x1="0.5" y1="0" x3="0.25" y3="1.0"/>
+						<texcoords x0="0.5" y0="0" x1="0.75" y1="0" x3="0.5" y3="1.0"/>
+						<texcoords x0="0.75" y0="0" x1="1.0" y1="0" x3="0.75" y3="1.0"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.0" var1="0.15" var2="0.35"/>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="rain_splash_trancparency_decreese" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia_static>
+		<empty>
+			<lifetime>
+				<random use="true" mult="1.0" var1="0.2" var2="0.3" replace=""/>
+			</lifetime>
+		</empty>
+	</particle>
+</particles>

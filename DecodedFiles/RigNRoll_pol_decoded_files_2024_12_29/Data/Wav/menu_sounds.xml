@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Menu dir="">
+    <MenuHighlight id="s_menuHighlightSound" volume="1" group="0" />
+    <MenuClickBig id="s_menuClickBigSound" volume="1" group="0" />
+    <MenuClick id="s_menuClickSound" volume="1" group="0"></MenuClick>
+    <Bankrupt id="sBankrupt" volume="1" group="0" />
+    <Killed id="sKilled" volume="1" group="0" />
+    <Arrested id="sArrested" volume="1" group="0" />
+    <Champion id="sChampion" volume="1" group="0" />
+    <Monopolist id="sMonopolist" volume="1" group="0" />
+    <BestTracker id="sBest_Trucker" volume="1" group="0" />
+    <LostRace id="sLostRace" volume="1" group="0" />
+    <Ringtone1 id="sRingTone" volume="1" group="0" />
+    <SMS1 id="sSMS" volume="1" group="0" />
+  </Menu>
+  <scoring dir="">
+    <CardBad2 id="s_menuTrailerDetachSound" volume="1" group="0" />
+  </scoring>
+  <General dir="" not_create="">
+    <mission_fail id="sLoseMission" volume="1" group="0" />
+    <mission_succes id="sWinMission" volume="1" group="0" />
+  </General>
+</SoundParameters>

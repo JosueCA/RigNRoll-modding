@@ -1,0 +1,12 @@
+<scenariostate>
+	<RescueDorothy unobtainable="false"/>
+	<RescueDorothy_succeeded unobtainable="false"/>
+	<RescueDorothy_failed unobtainable="false"/>
+	<Chasing_after_RescueDorothy unobtainable="false"/>
+	<RescueDorothy_becamefriend unobtainable="false"/>
+	<InPolice_PiterPans_Death unobtainable="false"/>
+	<InOffice_FBI_AND_BIG_RACE unobtainable="false"/>
+	<GameOver_you_loose unobtainable="false"/>
+	<GameOver_you_win unobtainable="false"/>
+	<NoQuests unobtainable="true"/>
+</scenariostate>

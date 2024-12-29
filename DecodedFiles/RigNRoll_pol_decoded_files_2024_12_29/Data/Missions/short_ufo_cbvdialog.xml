@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbvdialogs>
+  <dialog name="short_ufo=ufo_lift=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lift=start=CbVideo=00=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=start=CbVideo=02=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=start=CbVideo=04=ID_JEFFREY_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_lift=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_lift=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_lift=start=CbVideo=Y=01=ID_JEFFREY_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_lift=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_lift=start=CbVideo=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_lift=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lift=fail_timeout_complete=CbVideo=00=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=fail_timeout_complete=CbVideo=02=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=fail_timeout_complete=CbVideo=04=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo=00=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo=02=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo=04=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_lift_2=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lift_2=fail_damaged=CbVideo=00=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=fail_damaged=CbVideo=02=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=fail_damaged=CbVideo=04=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_lift_2=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lift_2=decline=CbVideo=00=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=decline=CbVideo=02=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=decline=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_animal=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_animal=start=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=start=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=start=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=start=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=start=CbVideo=07=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=start=CbVideo=08=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_animal=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_animal=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_animal=start=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_animal=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_animal=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_animal=start=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_animal=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_animal=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_animal=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_animal=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_animal=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=decline=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_rosuel=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=07=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=08=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=09=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=10=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=11=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=12=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_rosuel=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_rosuel=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_rosuel=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_rosuel=start=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_rosuel=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_rosuel=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_rosuel=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_eqip=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_eqip=start=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=start=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=start=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_eqip=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_eqip=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_eqip=start=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_eqip=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_eqip=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_eqip=start=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+          <item callee="" wav="short_ufo=ufo_eqip=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_eqip=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_eqip=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_eqip=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=decline=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_disk=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_disk=start=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=start=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=start=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_disk=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_disk=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_disk=start=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_disk=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_disk=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_disk=start=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_disk=success=CbVideo">
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=00=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=01=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=02=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=03=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=04=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=05=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=06=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=07=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=08=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=09=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=10=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=11=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=12=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=13=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=14=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=15=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=16=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=17=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_disk=success=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_disk=success=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_disk=success=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_disk=success=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_disk=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_disk=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_disk=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_disk=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_disk=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_disk=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_disk=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_lab=success=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lab=success=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=success=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=success=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=success=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_lab=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lab=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_lab=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lab=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=fail_damaged=CbVideo=06=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_lab=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_lab=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lab=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lab=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_art=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_art=start=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=start=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=start=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=start=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_art=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_art=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_art=start=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+          <item callee="" wav="short_ufo=ufo_art=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_art=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_art=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_art=start=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_art=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_pickup=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_pickup=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_pickup=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_pickup=CbVideo=06=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_art=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_timeout_complete=CbVideo=06=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_art=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_art=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_art=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_art=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=decline=CbVideo=06=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_shar=success=CbVideo">
+    <item caller="" wav="short_ufo=ufo_shar=success=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=success=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=success=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=success=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_shar=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_shar=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_shar=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_shar=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_shar=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_shar=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_shar=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_list=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_list=start=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=start=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=start=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=start=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_list=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_list=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_list=start=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_list=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_list=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_list=start=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+          <item callee="" wav="short_ufo=ufo_list=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_list=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_ufo=ufo_list=fail_timeout_pickup=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=fail_timeout_pickup=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=fail_timeout_pickup=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_list=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_list=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_list=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_list=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_list=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=decline=CbVideo=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_grunt=start=CbVideo">
+    <item caller="" wav="short_ufo=ufo_grunt=start=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=start=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=start=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_grunt=start=CbVideo=Y">
+          <item callee="" wav="short_ufo=ufo_grunt=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_grunt=start=CbVideo=Y=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_grunt=start=CbVideo=N">
+          <item callee="" wav="short_ufo=ufo_grunt=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_grunt=start=CbVideo=N=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_grunt=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_ufo=ufo_grunt=fail_timeout_pickup=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=fail_timeout_pickup=CbVideo=02=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_grunt=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_grunt=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_grunt=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_grunt=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_grunt=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_grunt=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=decline=CbVideo=04=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_otezd=fail_damaged=CbVideo">
+    <item caller="" wav="short_ufo=ufo_otezd=fail_damaged=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_otezd=fail_damaged=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=fail_damaged=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_otezd=decline=CbVideo">
+    <item caller="" wav="short_ufo=ufo_otezd=decline=CbVideo=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_otezd=decline=CbVideo=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=decline=CbVideo=03=Nick"/>
+  </dialog>
+</cbvdialogs>
+

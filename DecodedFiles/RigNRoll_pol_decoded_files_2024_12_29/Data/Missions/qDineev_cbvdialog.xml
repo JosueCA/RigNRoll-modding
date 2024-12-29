@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbvdialogs>
+  <dialog name="qDineev=qTrixy2a=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTrixy2a=fail_timeout_complete=CbVideo=00=ID_JAMES_1"/>
+    <item callee="" wav="qDineev=qTrixy2a=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy2a=fail_timeout_complete=CbVideo=02=ID_JAMES_1"/>
+    <item caller="" wav="qDineev=qTrixy2a=fail_timeout_complete=CbVideo=03=ID_JAMES_1"/>
+    <item callee="" wav="qDineev=qTrixy2a=fail_timeout_complete=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy2a=decline=CbVideo">
+    <item callee="" wav="qDineev=qTrixy2a=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTrixy2a=decline=CbVideo=01=ID_JAMES_1"/>
+  </dialog>
+  <dialog name="qDineev=qParcel1=success=CbVideo">
+    <item callee="" wav="qDineev=qParcel1=success=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=success=CbVideo=01=ID_DANIEL_3"/>
+    <item callee="" wav="qDineev=qParcel1=success=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=success=CbVideo=03=ID_DANIEL_3"/>
+    <item callee="" wav="qDineev=qParcel1=success=CbVideo=04=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=success=CbVideo=05=ID_DANIEL_3"/>
+  </dialog>
+  <dialog name="qDineev=qParcel1=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qParcel1=fail_timeout_complete=CbVideo=00=ID_DANIEL_3"/>
+    <item callee="" wav="qDineev=qParcel1=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=fail_timeout_complete=CbVideo=02=ID_DANIEL_3"/>
+    <item callee="" wav="qDineev=qParcel1=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=fail_timeout_complete=CbVideo=04=ID_DANIEL_3"/>
+  </dialog>
+  <dialog name="qDineev=qParcel1=decline=CbVideo">
+    <item callee="" wav="qDineev=qParcel1=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=decline=CbVideo=01=ID_DANIEL_3"/>
+    <item callee="" wav="qDineev=qParcel1=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=decline=CbVideo=03=ID_DANIEL_3"/>
+    <item callee="" wav="qDineev=qParcel1=decline=CbVideo=04=Nick"/>
+    <item caller="" wav="qDineev=qParcel1=decline=CbVideo=05=ID_DANIEL_3"/>
+  </dialog>
+  <dialog name="qDineev=qLostTrailer=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qLostTrailer=fail_timeout_complete=CbVideo=00=ID_PAMELA_3"/>
+    <item callee="" wav="qDineev=qLostTrailer=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qLostTrailer=fail_timeout_complete=CbVideo=02=ID_PAMELA_3"/>
+    <item callee="" wav="qDineev=qLostTrailer=fail_timeout_complete=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qLostTrailer=fail_damaged=CbVideo">
+    <item callee="" wav="qDineev=qLostTrailer=fail_damaged=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qLostTrailer=fail_damaged=CbVideo=01=ID_TIMOTHY_4"/>
+    <item callee="" wav="qDineev=qLostTrailer=fail_damaged=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qLostTrailer=decline=CbVideo">
+    <item callee="" wav="qDineev=qLostTrailer=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qLostTrailer=decline=CbVideo=01=ID_TIMOTHY_4"/>
+    <item callee="" wav="qDineev=qLostTrailer=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2=start=CbVideo">
+    <item caller="" wav="qDineev=qTransport2=start=CbVideo=00=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport2=start=CbVideo=02=ID_DAVID_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTransport2=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTransport2=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport2=start=CbVideo=Y=01=ID_DAVID_1"/>
+          <item callee="" wav="qDineev=qTransport2=start=CbVideo=Y=02=Nick"/>
+          <item caller="" wav="qDineev=qTransport2=start=CbVideo=Y=03=ID_DAVID_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTransport2=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTransport2=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport2=start=CbVideo=N=01=ID_DAVID_1"/>
+          <item callee="" wav="qDineev=qTransport2=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTransport2=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTransport2=fail_timeout_pickup=CbVideo=00=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport2=fail_timeout_pickup=CbVideo=02=ID_DAVID_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTransport2=fail_timeout_complete=CbVideo=00=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport2=fail_timeout_complete=CbVideo=02=ID_DAVID_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2=fail_damaged=CbVideo">
+    <item callee="" wav="qDineev=qTransport2=fail_damaged=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport2=fail_damaged=CbVideo=01=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2=fail_damaged=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTransport2=fail_damaged=CbVideo=03=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2=fail_damaged=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2=decline=CbVideo">
+    <item callee="" wav="qDineev=qTransport2=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport2=decline=CbVideo=01=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTransport2=decline=CbVideo=03=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2=decline=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2bis=start=CbVideo">
+    <item caller="" wav="qDineev=qTransport2bis=start=CbVideo=00=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2bis=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport2bis=start=CbVideo=02=ID_DAVID_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTransport2bis=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTransport2bis=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport2bis=start=CbVideo=Y=01=ID_DAVID_1"/>
+          <item callee="" wav="qDineev=qTransport2bis=start=CbVideo=Y=02=Nick"/>
+          <item caller="" wav="qDineev=qTransport2bis=start=CbVideo=Y=03=ID_DAVID_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTransport2bis=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTransport2bis=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport2bis=start=CbVideo=N=01=ID_DAVID_1"/>
+          <item callee="" wav="qDineev=qTransport2bis=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTransport2bis=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTransport2bis=fail_timeout_pickup=CbVideo=00=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2bis=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport2bis=fail_timeout_pickup=CbVideo=02=ID_DAVID_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2bis=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTransport2bis=fail_timeout_complete=CbVideo=00=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2bis=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport2bis=fail_timeout_complete=CbVideo=02=ID_DAVID_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2bis=fail_damaged=CbVideo">
+    <item callee="" wav="qDineev=qTransport2bis=fail_damaged=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport2bis=fail_damaged=CbVideo=01=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2bis=fail_damaged=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTransport2bis=fail_damaged=CbVideo=03=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2bis=fail_damaged=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport2bis=decline=CbVideo">
+    <item callee="" wav="qDineev=qTransport2bis=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport2bis=decline=CbVideo=01=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2bis=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTransport2bis=decline=CbVideo=03=ID_DAVID_1"/>
+    <item callee="" wav="qDineev=qTransport2bis=decline=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4=start=CbVideo">
+    <item caller="" wav="qDineev=qTransport4=start=CbVideo=00=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport4=start=CbVideo=02=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4=start=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTransport4=start=CbVideo=04=ID_BRUCE_1"/>
+    <item caller="" wav="qDineev=qTransport4=start=CbVideo=05=ID_BRUCE_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTransport4=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTransport4=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport4=start=CbVideo=Y=01=ID_BRUCE_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTransport4=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTransport4=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport4=start=CbVideo=N=01=ID_BRUCE_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTransport4=success=CbVideo">
+    <item callee="" wav="qDineev=qTransport4=success=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport4=success=CbVideo=01=ID_BRUCE_1"/>
+    <item caller="" wav="qDineev=qTransport4=success=CbVideo=02=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4=success=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTransport4=fail_timeout_pickup=CbVideo=00=ID_BRUCE_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTransport4=fail_timeout_complete=CbVideo=00=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport4=fail_timeout_complete=CbVideo=02=ID_BRUCE_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4=fail_damaged=CbVideo">
+    <item caller="" wav="qDineev=qTransport4=fail_damaged=CbVideo=00=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4=fail_damaged=CbVideo=01=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4=decline=CbVideo">
+    <item callee="" wav="qDineev=qTransport4=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport4=decline=CbVideo=01=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport5=success=CbVideo">
+    <item callee="" wav="qDineev=qTransport5=success=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport5=success=CbVideo=01=ID_CARLOS_1"/>
+    <item callee="" wav="qDineev=qTransport5=success=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport5=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTransport5=fail_timeout_complete=CbVideo=00=ID_CARLOS_1"/>
+    <item callee="" wav="qDineev=qTransport5=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport5=fail_timeout_complete=CbVideo=02=ID_CARLOS_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport5=fail_damaged=CbVideo">
+    <item caller="" wav="qDineev=qTransport5=fail_damaged=CbVideo=00=ID_CARLOS_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport5=decline=CbVideo">
+    <item callee="" wav="qDineev=qTransport5=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport5=decline=CbVideo=01=ID_CARLOS_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport6=success=CbVideo">
+    <item callee="" wav="qDineev=qTransport6=success=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport6=success=CbVideo=01=ID_BARBARA_1"/>
+    <item caller="" wav="qDineev=qTransport6=success=CbVideo=02=ID_BARBARA_1"/>
+    <item callee="" wav="qDineev=qTransport6=success=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport6=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTransport6=fail_timeout_complete=CbVideo=00=ID_BARBARA_1"/>
+    <item callee="" wav="qDineev=qTransport6=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport6=fail_timeout_complete=CbVideo=02=ID_BARBARA_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport6=fail_damaged=CbVideo">
+    <item callee="" wav="qDineev=qTransport6=fail_damaged=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport6=fail_damaged=CbVideo=01=ID_BARBARA_1"/>
+    <item callee="" wav="qDineev=qTransport6=fail_damaged=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTransport6=fail_damaged=CbVideo=03=ID_BARBARA_1"/>
+    <item callee="" wav="qDineev=qTransport6=fail_damaged=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport6=decline=CbVideo">
+    <item callee="" wav="qDineev=qTransport6=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport6=decline=CbVideo=01=ID_BARBARA_1"/>
+    <item callee="" wav="qDineev=qTransport6=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qVizit1=start=CbVideo">
+    <item caller="" wav="qDineev=qVizit1=start=CbVideo=00=ID_JOSE_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qVizit1=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qVizit1=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qVizit1=start=CbVideo=Y=01=ID_JOSE_1"/>
+          <item callee="" wav="qDineev=qVizit1=start=CbVideo=Y=02=Nick"/>
+          <item caller="" wav="qDineev=qVizit1=start=CbVideo=Y=03=ID_JOSE_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qVizit1=start=CbVideo=N"/>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qVizit1=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qVizit1=fail_timeout_complete=CbVideo=00=ID_JOSE_1"/>
+    <item callee="" wav="qDineev=qVizit1=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qVizit1=fail_timeout_complete=CbVideo=02=ID_JOSE_1"/>
+    <item callee="" wav="qDineev=qVizit1=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qVizit1=fail_timeout_complete=CbVideo=04=ID_JOSE_1"/>
+  </dialog>
+  <dialog name="qDineev=qVizit1=decline=CbVideo">
+    <item callee="" wav="qDineev=qVizit1=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qVizit1=decline=CbVideo=01=ID_JOSE_1"/>
+    <item caller="" wav="qDineev=qVizit1=decline=CbVideo=02=ID_JOSE_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4bis=start=CbVideo">
+    <item caller="" wav="qDineev=qTransport4bis=start=CbVideo=00=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=start=CbVideo=02=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=start=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=start=CbVideo=04=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=start=CbVideo=05=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=start=CbVideo=06=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=start=CbVideo=07=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=start=CbVideo=08=ID_BRUCE_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTransport4bis=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTransport4bis=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport4bis=start=CbVideo=Y=01=ID_BRUCE_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTransport4bis=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTransport4bis=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport4bis=start=CbVideo=N=01=ID_BRUCE_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTransport4bis=success=CbVideo">
+    <item callee="" wav="qDineev=qTransport4bis=success=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=success=CbVideo=01=ID_BRUCE_1"/>
+    <item caller="" wav="qDineev=qTransport4bis=success=CbVideo=02=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=success=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=success=CbVideo=04=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=success=CbVideo=05=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=success=CbVideo=06=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=success=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4bis=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTransport4bis=fail_timeout_pickup=CbVideo=00=ID_BRUCE_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4bis=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTransport4bis=fail_timeout_complete=CbVideo=00=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=fail_timeout_complete=CbVideo=02=ID_BRUCE_1"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4bis=fail_damaged=CbVideo">
+    <item caller="" wav="qDineev=qTransport4bis=fail_damaged=CbVideo=00=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=fail_damaged=CbVideo=01=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport4bis=decline=CbVideo">
+    <item callee="" wav="qDineev=qTransport4bis=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport4bis=decline=CbVideo=01=ID_BRUCE_1"/>
+    <item callee="" wav="qDineev=qTransport4bis=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy3=start=CbVideo">
+    <item caller="" wav="qDineev=qTrixy3=start=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy3=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy3=start=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy3=start=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTrixy3=start=CbVideo=04=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy3=start=CbVideo=05=Nick"/>
+    <item caller="" wav="qDineev=qTrixy3=start=CbVideo=06=ID_PATRICIA_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTrixy3=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTrixy3=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy3=start=CbVideo=Y=01=ID_PATRICIA_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTrixy3=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTrixy3=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy3=start=CbVideo=N=01=ID_PATRICIA_1"/>
+          <item callee="" wav="qDineev=qTrixy3=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTrixy3=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTrixy3=fail_timeout_pickup=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy3=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy3=fail_timeout_pickup=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy3=fail_timeout_pickup=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy4=start=CbVideo">
+    <item caller="" wav="qDineev=qTrixy4=start=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=start=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=start=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=start=CbVideo=04=ID_PATRICIA_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTrixy4=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTrixy4=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy4=start=CbVideo=Y=01=ID_PATRICIA_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTrixy4=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTrixy4=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy4=start=CbVideo=N=01=ID_PATRICIA_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTrixy4=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTrixy4=fail_timeout_pickup=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=fail_timeout_pickup=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=fail_timeout_pickup=CbVideo=04=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy4=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTrixy4=fail_timeout_complete=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=fail_timeout_complete=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=fail_timeout_complete=CbVideo=04=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy4=fail_damaged=CbVideo">
+    <item callee="" wav="qDineev=qTrixy4=fail_damaged=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=fail_damaged=CbVideo=01=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=fail_damaged=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=fail_damaged=CbVideo=03=ID_PATRICIA_1"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy4=decline=CbVideo">
+    <item callee="" wav="qDineev=qTrixy4=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTrixy4=decline=CbVideo=01=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy4=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy5=start=CbVideo">
+    <item caller="" wav="qDineev=qTrixy5=start=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy5=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy5=start=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy5=start=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTrixy5=start=CbVideo=04=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy5=start=CbVideo=05=Nick"/>
+    <item caller="" wav="qDineev=qTrixy5=start=CbVideo=06=ID_PATRICIA_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTrixy5=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTrixy5=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy5=start=CbVideo=Y=01=ID_PATRICIA_1"/>
+          <item callee="" wav="qDineev=qTrixy5=start=CbVideo=Y=02=Nick"/>
+          <item caller="" wav="qDineev=qTrixy5=start=CbVideo=Y=03=ID_PATRICIA_1"/>
+          <item callee="" wav="qDineev=qTrixy5=start=CbVideo=Y=04=Nick"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTrixy5=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTrixy5=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy5=start=CbVideo=N=01=ID_PATRICIA_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTrixy5=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTrixy5=fail_timeout_pickup=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy5=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy5=fail_timeout_pickup=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy5=fail_timeout_pickup=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy6=start=CbVideo">
+    <item caller="" wav="qDineev=qTrixy6=start=CbVideo=00=ID_PATRICIA_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTrixy6=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTrixy6=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy6=start=CbVideo=Y=01=ID_PATRICIA_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTrixy6=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTrixy6=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy6=start=CbVideo=N=01=ID_PATRICIA_1"/>
+          <item callee="" wav="qDineev=qTrixy6=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTrixy6=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTrixy6=fail_timeout_pickup=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy6=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy6=fail_timeout_pickup=CbVideo=02=ID_PATRICIA_1"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy6=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTrixy6=fail_timeout_complete=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy6=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy6=fail_timeout_complete=CbVideo=02=ID_PATRICIA_1"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy6=decline=CbVideo">
+    <item callee="" wav="qDineev=qTrixy6=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTrixy6=decline=CbVideo=01=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy6=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy7=start=CbVideo">
+    <item caller="" wav="qDineev=qTrixy7=start=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy7=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy7=start=CbVideo=02=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy7=start=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTrixy7=start=CbVideo=04=ID_PATRICIA_1"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTrixy7=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTrixy7=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy7=start=CbVideo=Y=01=ID_PATRICIA_1"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTrixy7=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTrixy7=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTrixy7=start=CbVideo=N=01=ID_PATRICIA_1"/>
+          <item callee="" wav="qDineev=qTrixy7=start=CbVideo=N=02=Nick"/>
+          <item caller="" wav="qDineev=qTrixy7=start=CbVideo=N=03=ID_PATRICIA_1"/>
+          <item callee="" wav="qDineev=qTrixy7=start=CbVideo=N=04=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTrixy7=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTrixy7=fail_timeout_pickup=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy7=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy7=fail_timeout_pickup=CbVideo=02=ID_PATRICIA_1"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy7=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTrixy7=fail_timeout_complete=CbVideo=00=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy7=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTrixy7=fail_timeout_complete=CbVideo=02=ID_PATRICIA_1"/>
+  </dialog>
+  <dialog name="qDineev=qTrixy7=decline=CbVideo">
+    <item callee="" wav="qDineev=qTrixy7=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTrixy7=decline=CbVideo=01=ID_PATRICIA_1"/>
+    <item callee="" wav="qDineev=qTrixy7=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="qDineev=qTransport17=start=CbVideo">
+    <item caller="" wav="qDineev=qTransport17=start=CbVideo=00=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=start=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=start=CbVideo=02=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=start=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=start=CbVideo=04=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=start=CbVideo=05=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=start=CbVideo=06=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=start=CbVideo=07=Nick"/>
+    <item>
+      <question text="qDineev=Y" id="0">
+        <dialog name="qDineev=qTransport17=start=CbVideo=Y">
+          <item callee="" wav="qDineev=qTransport17=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport17=start=CbVideo=Y=01=ID_RUTH_3"/>
+        </dialog>
+      </question>
+      <question text="qDineev=N" id="1">
+        <dialog name="qDineev=qTransport17=start=CbVideo=N">
+          <item callee="" wav="qDineev=qTransport17=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="qDineev=qTransport17=start=CbVideo=N=01=ID_RUTH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="qDineev=qTransport17=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="qDineev=qTransport17=fail_timeout_pickup=CbVideo=00=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_timeout_pickup=CbVideo=02=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_timeout_pickup=CbVideo=04=ID_RUTH_3"/>
+  </dialog>
+  <dialog name="qDineev=qTransport17=fail_timeout_complete=CbVideo">
+    <item caller="" wav="qDineev=qTransport17=fail_timeout_complete=CbVideo=00=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_timeout_complete=CbVideo=02=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_timeout_complete=CbVideo=04=ID_RUTH_3"/>
+  </dialog>
+  <dialog name="qDineev=qTransport17=fail_damaged=CbVideo">
+    <item callee="" wav="qDineev=qTransport17=fail_damaged=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_damaged=CbVideo=01=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=fail_damaged=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_damaged=CbVideo=03=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=fail_damaged=CbVideo=04=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_damaged=CbVideo=05=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=fail_damaged=CbVideo=06=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=fail_damaged=CbVideo=07=ID_RUTH_3"/>
+  </dialog>
+  <dialog name="qDineev=qTransport17=decline=CbVideo">
+    <item callee="" wav="qDineev=qTransport17=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=decline=CbVideo=01=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="qDineev=qTransport17=decline=CbVideo=03=ID_RUTH_3"/>
+    <item callee="" wav="qDineev=qTransport17=decline=CbVideo=04=Nick"/>
+  </dialog>
+</cbvdialogs>
+

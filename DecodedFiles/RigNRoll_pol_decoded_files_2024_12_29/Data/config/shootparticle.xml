@@ -1,0 +1,512 @@
+<particles>
+	<particle name="bullets_ground" type="type1" nom="5">
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 256">
+				<coords x0="-0.1" y0="-0.1" x1="-0.1" y1="0.1" x2="0.1" y2="-0.1" x3="0.1" y3="0.1"/>
+				<alfa>
+					<anm x0="0." y0="0." x1="0.2" y1="256"/>
+					<anm x0="0.2" y0="256" x1="0.6" y1="128"/>
+					<anm x0="0.6" y0="128" x1="1." y1="0"/>
+				</alfa>
+				<rotate>
+					<anm x0="0.5" y0="-0.1" x1="1." y1="-0.2"/>
+					<anm x0="0." y0="0." x1="0.5" y1="-0.1"/>
+				</rotate>
+				<shapeAnimatable animatable="false" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="20." time="0." maxcycles="10.">
+					<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+					<texanimations>
+						<texcentr x0="0.75" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.75" sz="0.25"/>
+						<texcentr x0="0.25" y0="0.75" sz="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1." shape_coef="0.5">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="1." z="2."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.5" var2="1"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="1" var1="0.8" var2="1" multiply="">
+						<randvector use="true" x="0.1" y="0.1" z="1" add=""/>
+					</random>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="1" y="1" z="1" add="" mult="0.1"/>
+				</stack1>
+			</position>
+		</simple>
+	</particle>
+	<particle name="bullets_car" type="type1" nom="5">
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 256">
+				<coords x0="-0.1" y0="-0.1" x1="-0.1" y1="0.1" x2="0.1" y2="-0.1" x3="0.1" y3="0.1"/>
+				<alfa>
+					<anm x0="0." y0="0." x1="0.2" y1="256"/>
+					<anm x0="0.2" y0="256" x1="0.6" y1="128"/>
+					<anm x0="0.6" y0="128" x1="1." y1="0"/>
+				</alfa>
+				<rotate>
+					<anm x0="0.5" y0="-0.1" x1="1." y1="-0.2"/>
+					<anm x0="0." y0="0." x1="0.5" y1="-0.1"/>
+				</rotate>
+				<shapeAnimatable animatable="false" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="20." time="0." maxcycles="10.">
+					<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+					<texanimations>
+						<texcentr x0="0.75" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.75" sz="0.25"/>
+						<texcentr x0="0.25" y0="0.75" sz="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1." shape_coef="0.5">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="1." z="2."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.5" var2="1"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="1" var1="0.8" var2="1" multiply="">
+						<randvector use="true" x="0.1" y="0.1" z="1" add=""/>
+					</random>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="1" y="1" z="1" add="" mult="0.1"/>
+				</stack1>
+			</position>
+		</simple>
+	</particle>
+	<particle name="gunshot" type="type18" nom="1">
+		<fourpointsshapedirectional usecar="true" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0" x1="0.3" y1="0.9" z1="0" x2="-0.3" y2="0.01" z2="0" x3="-0.3" y3="0.9" z3="0"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="true" change="false" invertonend="false" use_max_cyclelimit="false" fps="20." time="0." maxcycles="10.">
+					<texcoords x0="0.085" y0="0.5" x1="0.085" y1="0" x3="1." y3="0.5"/>
+					<texcoords x0="0.25" y0="0.3593" x1="0.25" y1="0.1406" x3="1." y3="0.3593"/>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="0.5" var1="1" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<carlife bindsteerwheel="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0" shape_coef="0.5" minshow="true">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.08" var2="0.2"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.1" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace=""/>
+			</position>
+			<charge use="true">
+				<task use="true" type="ontime" time="0" probability="1" number="1" getvelocity="true" getposition="true" name="gunshotfront" z="" override="true">
+					<velocity x="0." y="0" z="0."/>
+					<position x="0." y="0" z="0."/>
+					<z>
+						<stack3 replace=""/>
+					</z>
+				</task>
+				<task use="true" type="ontime" time="0" probability="1" number="1" getvelocity="true" getposition="true" name="gunshotback" z="" override="true">
+					<velocity x="0." y="0" z="0."/>
+					<position x="0." y="0" z="0."/>
+					<z>
+						<stack3 replace=""/>
+					</z>
+				</task>
+			</charge>
+		</carlife>
+	</particle>
+	<particle name="gunshot_for_csene_00065" type="type18" nom="1">
+		<fourpointsshapedirectional usecar="false" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0" x1="0.3" y1="0.9" z1="0" x2="-0.3" y2="0.01" z2="0" x3="-0.3" y3="0.9" z3="0"/>
+				<alfa>
+					<anm x0="0" y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="false" change="false" invertonend="false" use_max_cyclelimit="false" fps="20" time="0" maxcycles="10">
+					<texcoords x0="0.085" y0="0.5" x1="0.085" y1="0" x3="1." y3="0.5"/>
+					<texcoords x0="0.25" y0="0.3593" x1="0.25" y1="0.1406" x3="1." y3="0.3593"/>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="0.5" var1="1" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0" shape_coef="0" minshow="true">
+				<influence veldump="" zcollision=""/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.1" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="false" x="0" y="0.1" z="0" add="" mult="0.1"/>
+				</stack1>
+			</position>
+			<charge use="true">
+				<task use="true" type="ontime" time="0" probability="1" number="1" getvelocity="true" getposition="true" name="gunshotfront_00065" z="" override="true">
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+					<z>
+						<stack3 replace=""/>
+					</z>
+				</task>
+				<task use="true" type="ontime" time="0" probability="1" number="1" getvelocity="true" getposition="true" name="gunshotback_00065" z="" override="true">
+					<velocity x="0." y="0" z="0."/>
+					<position x="0." y="0" z="0."/>
+					<z>
+						<stack3 replace=""/>
+					</z>
+				</task>
+			</charge>
+		</simple>
+	</particle>
+	<particle name="gunshotfront" type="type16" nom="1">
+		<fourpointsshapedirectional usecar="true" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0.3" x1="0.3" y1="0.01" z1="-0.3" x2="-0.3" y2="0.01" z2="0.3" x3="-0.3" y3="0.01" z3="-0.3"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="40" time="0." maxcycles="10.">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+			<time>
+				<random use="true" mult="3" replace=""/>
+			</time>
+		</fourpointsshapedirectional>
+		<carlife bindsteerwheel="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0" shape_coef="0.5" minshow="true">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.01" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="false" x="0" y="0.1" z="0" add="" mult="0.1"/>
+				</stack1>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="gunshotback" type="type18" nom="1">
+		<fourpointsshapedirectional usecar="true" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0.3" x1="0.3" y1="0.01" z1="-0.3" x2="-0.3" y2="0.01" z2="0.3" x3="-0.3" y3="0.01" z3="-0.3"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="40" time="0." maxcycles="10.">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+			<time>
+				<random use="true" mult="3" replace=""/>
+			</time>
+		</fourpointsshapedirectional>
+		<carlife bindsteerwheel="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0" shape_coef="0.5" minshow="true">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.01" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="false" x="0" y="0.1" z="0" add="" mult="0.1"/>
+				</stack1>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="gunshotfront_00065" type="type16" nom="1">
+		<fourpointsshapedirectional usecar="false" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0.3" x1="0.3" y1="0.01" z1="-0.3" x2="-0.3" y2="0.01" z2="0.3" x3="-0.3" y3="0.01" z3="-0.3"/>
+				<alfa>
+					<anm x0="0" y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="40" time="0" maxcycles="10">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0" shape_coef="0" minshow="true">
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.01" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace=""/>
+			</position>
+		</simple>
+	</particle>
+	<particle name="gunshotback_00065" type="type16" nom="1">
+		<fourpointsshapedirectional usecar="false" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0.3" x1="0.3" y1="0.01" z1="-0.3" x2="-0.3" y2="0.01" z2="0.3" x3="-0.3" y3="0.01" z3="-0.3"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="40" time="0" maxcycles="10">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0" shape_coef="0" minshow="true">
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.01" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace=""/>
+			</position>
+		</simple>
+	</particle>
+	<particle name="bullettrace" type="type16" nom="1">
+		<fourpointsshapedirectional usecar="false" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.05" y0="-0.05" z0="0" x1="0.05" y1="10.9" z1="0" x2="-0.05" y2="-0.05" z2="0" x3="-0.05" y3="10.9" z3="0"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="0.1" y1="255"/>
+					<anm x0="0.1" y0="255" x1="1" y1="0"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="true" change="false" invertonend="false" use_max_cyclelimit="false" fps="20." time="0." maxcycles="10.">
+					<texcoords x0="0.25" y0="0.3593" x1="0.25" y1="0.1406" x3="1." y3="0.3593"/>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="0.8" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0.5" shape_coef="0.5" minshow="true">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="false" mult="10" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="false" x="0" y="0.1" z="0" add="" mult="0.1"/>
+				</stack1>
+			</position>
+		</simple>
+	</particle>
+	<particle name="gunshot_dakota" type="type18" nom="1">
+		<fourpointsshapedirectional usecar="true" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0" x1="0.3" y1="1.2" z1="0" x2="-0.3" y2="0.01" z2="0" x3="-0.3" y3="1.2" z3="0"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="true" change="false" invertonend="false" use_max_cyclelimit="false" fps="20." time="0." maxcycles="10.">
+					<texcoords x0="0.085" y0="0.5" x1="0.085" y1="0" x3="1." y3="0.5"/>
+					<texcoords x0="0.25" y0="0.3593" x1="0.25" y1="0.1406" x3="1." y3="0.3593"/>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="0.5" var1="1" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<carlife bindsteerwheel="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0.05" shape_coef="0.5" minshow="true">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="1." z="0."/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.1" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="false" x="0" y="0.1" z="0" add="" mult="0.1"/>
+				</stack1>
+			</position>
+			<charge use="true">
+				<task use="true" type="ontime" time="0." probability="1." number="1" getvelocity="true" getposition="true" name="gunshotfront_dakota" z="" override="true">
+					<velocity x="0." y="0" z="0."/>
+					<position x="0." y="0" z="0."/>
+					<z>
+						<stack3 replace=""/>
+					</z>
+				</task>
+				<task use="true" type="ontime" time="0." probability="1." number="1" getvelocity="true" getposition="true" name="gunshotback_dakota" z="" override="true">
+					<velocity x="0." y="0" z="0."/>
+					<position x="0." y="0" z="0."/>
+					<z>
+						<stack3 replace=""/>
+					</z>
+				</task>
+			</charge>
+		</carlife>
+	</particle>
+	<particle name="gunshotfront_dakota" type="type16" nom="1">
+		<fourpointsshapedirectional usecar="true" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0.3" x1="0.3" y1="0.01" z1="-0.3" x2="-0.3" y2="0.01" z2="0.3" x3="-0.3" y3="0.01" z3="-0.3"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="40" time="0." maxcycles="10.">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+			<time>
+				<random use="true" mult="3" replace=""/>
+			</time>
+		</fourpointsshapedirectional>
+		<carlife bindsteerwheel="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0.05" shape_coef="0.5" minshow="true">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.01" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="false" x="0" y="0.1" z="0" add="" mult="0.1"/>
+				</stack1>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="gunshotback_dakota" type="type18" nom="1">
+		<fourpointsshapedirectional usecar="true" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.3" y0="0.01" z0="0.3" x1="0.3" y1="0.01" z1="-0.3" x2="-0.3" y2="0.01" z2="0.3" x3="-0.3" y3="0.01" z3="-0.3"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="40" time="0." maxcycles="10.">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+			<time>
+				<random use="true" mult="3" replace=""/>
+			</time>
+		</fourpointsshapedirectional>
+		<carlife bindsteerwheel="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0.05" shape_coef="0.5" minshow="true">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="0.01" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="false" x="0" y="0.1" z="0" add="" mult="0.1"/>
+				</stack1>
+			</position>
+		</carlife>
+	</particle>
+</particles>

@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<cbvdialogs>
+	<dialog name="cb00410" caller="TomD" callee="NicA">
+		<item i="0" caller="" wav="TomD_cb00410_01"/>
+		<item i="1" wav="NicA_cb00410_01" callee=""/>
+		<item i="2" caller="" wav="TomD_cb00410_02"/>
+		<item i="3" wav="NicA_cb00410_02" callee=""/>
+		<item i="4" caller="" wav="TomD_cb00410_03"/>
+		<item i="5" wav="NicA_cb00410_03" callee=""/>
+	</dialog>
+	<dialog name="cb00468" caller="DorL" callee="NicA">
+		<item i="0" caller="" wav="DorL_cb00468_01"/>
+		<item i="1" wav="NicA_cb00468_01" callee=""/>
+		<item i="2" caller="" wav="DorL_cb00468_02"/>
+		<item i="3" wav="NicA_cb00468_02" callee=""/>
+		<item i="4" caller="" wav="DorL_cb00468_03"/>
+	</dialog>
+	<dialog name="cb00033" caller="CocJ" callee="NicA">
+		<item i="0" wav="CocJ_cb00033_01" caller=""/>
+		<item i="1" wav="NicA_cb00033_01" callee=""/>
+		<item i="2" wav="CocJ_cb00033_02" caller=""/>
+		<item i="3" wav="NicA_cb00033_02" callee=""/>
+		<item i="4" wav="CocJ_cb00033_03" caller=""/>
+	</dialog>
+	<dialog name="cb00040" caller="MatT" callee="NicA">
+		<item i="0" wav="MatT_cb00040_01" caller=""/>
+		<item i="1" wav="NicA_cb00040_01" callee=""/>
+		<item i="2" wav="MatT_cb00040_02" caller=""/>
+		<item>
+			<question id="0" text="CBCTRL_cb00040accept">
+				<dialog name="cb00040_Yes">
+					<item wav="NicA_cb00040yes_01" callee=""/>
+					<item wav="MatT_cb00040yes_01" caller=""/>
+					<item wav="NicA_cb00040yes_02" callee=""/>
+				</dialog>
+			</question>
+			<question id="1" text="CBCTRL_cb00040decline">
+				<dialog name="cb00040_No">
+					<item wav="NicA_cb00040no_01" callee=""/>
+				</dialog>
+			</question>
+		</item>
+	</dialog>
+	<dialog name="cb00165" caller="CocJ" callee="NicA">
+		<item caller="" wav="CocJ_cb00165_01"/>
+		<item callee="" wav="NicA_cb00165_01"/>
+		<item caller="" wav="CocJ_cb00165_02"/>
+		<item callee="" wav="NicA_cb00165_02"/>
+		<item caller="" wav="CocJ_cb00165_03"/>
+		<item callee="" wav="NicA_cb00165_03"/>
+	</dialog>
+	<dialog name="cb00322" caller="MarM" callee="NicA">
+		<item i="0" wav="MarM_cb00322_01" caller=""/>
+		<item i="1" wav="NicA_cb00322_01" callee=""/>
+		<item i="2" wav="MarM_cb00322_02" caller=""/>
+		<item i="3" wav="NicA_cb00322_02" callee=""/>
+		<item i="4" wav="MarM_cb00322_03" caller=""/>
+		<item i="5" wav="NicA_cb00322_03" callee=""/>
+	</dialog>
+	<dialog name="cb00465" caller="PitP" callee="NicA">
+		<item i="0" caller="" wav="PitP_cb00465_01"/>
+	</dialog>
+	<dialog name="cb00530" caller="PitP" callee="NicA">
+		<item i="0" caller="" wav="PitP_cb00530_01"/>
+	</dialog>
+	<dialog name="cb00611" caller="JoeD" callee="NicA">
+		<item i="0" wav="JoeD_cb00611_01" caller=""/>
+	</dialog>
+	<dialog name="cb00690" caller="CocJ" callee="NicA">
+		<item i="0" caller="" wav="CocJ_cb00690_01"/>
+		<item i="1" wav="NicA_cb00690_01" callee=""/>
+		<item i="2" caller="" wav="CocJ_cb00690_02"/>
+		<item i="3" wav="NicA_cb00690_02" callee=""/>
+		<item i="4" caller="" wav="CocJ_cb00690_03"/>
+		<item i="5" wav="NicA_cb00690_03" callee=""/>
+	</dialog>
+	<dialog name="cb00691" caller="FraD" callee="NicA">
+		<item i="0" wav="FraD_cb00691_01" caller=""/>
+	</dialog>
+	<dialog name="cb00740" caller="JohD" callee="NicA">
+		<item i="0" wav="JohD_cb00740_01" caller=""/>
+		<item i="1" wav="NicA_cb00740_01" callee=""/>
+		<item i="2" wav="JohD_cb00740_02" caller=""/>
+		<item i="3" wav="NicA_cb00740_02" callee=""/>
+		<item i="4" wav="JohD_cb00740_03" caller=""/>
+	</dialog>
+	<dialog name="cb00770" caller="DorL" callee="NicA">
+		<item i="0" caller="" wav="DorL_cb00770_01"/>
+		<item i="1" wav="NicA_cb00770_01" callee=""/>
+		<item i="2" caller="" wav="DorL_cb00770_02"/>
+		<item i="3" wav="NicA_cb00770_02" callee=""/>
+		<item i="4" caller="" wav="DorL_cb00770_03"/>
+		<item i="5" wav="NicA_cb00770_03" callee=""/>
+		<item i="6" caller="" wav="DorL_cb00770_04"/>
+	</dialog>
+	<dialog name="cb00805" caller="JohD" callee="NicA">
+		<item i="0" wav="JohD_cb00805_01" caller=""/>
+	</dialog>
+	<dialog name="cb00860" caller="JohD" callee="NicA">
+		<item i="0" caller="" wav="JohD_cb00860_01"/>
+	</dialog>
+	<dialog name="cb00862" caller="JohD" callee="NicA">
+		<item i="0" caller="" wav="JohD_cb00862_01"/>
+	</dialog>
+	<dialog name="cb01020" caller="PamD" callee="NicA">
+		<item caller="" wav="PamD_cb01020_01"/>
+		<item callee="" wav="NicA_cb01020_01"/>
+		<item caller="" wav="PamD_cb01020_02"/>
+		<item callee="" wav="NicA_cb01020_02"/>
+		<item caller="" wav="PamD_cb01020_03"/>
+		<item callee="" wav="NicA_cb01020_03"/>
+		<item caller="" wav="PamD_cb01020_04"/>
+	</dialog>
+	<dialog name="cb01040" caller="JohL" callee="NicA">
+		<item caller="" wav="JohL_cb01040_01"/>
+		<item callee="" wav="NicA_cb01040_01"/>
+		<item caller="" wav="JohL_cb01040_02"/>
+		<item callee="" wav="NicA_cb01040_02"/>
+	</dialog>
+	<dialog name="cb01110" caller="JohL" callee="NicA">
+		<item caller="" wav="JohL_cb01110_01"/>
+		<item callee="" wav="NicA_cb01110_01"/>
+		<item caller="" wav="JohL_cb01110_02"/>
+		<item callee="" wav="NicA_cb01110_02"/>
+	</dialog>
+	<dialog name="cb01160" caller="PamD" callee="NicA">
+		<item i="0" caller="" wav="PamD_cb01160_01"/>
+		<item i="1" callee="" wav="NicA_cb01160_01"/>
+	</dialog>
+	<dialog name="cb01400" caller="FraD" callee="NicA">
+		<item i="0" caller="" wav="FraD_cb01400_01"/>
+		<item i="1" wav="NicA_cb01400_01" callee=""/>
+		<item i="2" caller="" wav="FraD_cb01400_02"/>
+		<item i="3" wav="NicA_cb01400_02" callee=""/>
+		<item i="4" caller="" wav="FraD_cb01400_03"/>
+		<item i="5" wav="NicA_cb01400_03" callee=""/>
+	</dialog>
+	<dialog name="cb01430" caller="FraD" callee="NicA">
+		<item i="0" caller="" wav="FraD_cb01430_01"/>
+		<item i="1" wav="NicA_cb01430_01" callee=""/>
+		<item i="2" caller="" wav="FraD_cb01430_02"/>
+		<item i="3" wav="NicA_cb01430_02" callee=""/>
+		<item i="4" caller="" wav="FraD_cb01430_03"/>
+		<item i="5" wav="NicA_cb01430_03" callee=""/>
+	</dialog>
+	<dialog name="cb01500" caller="MatT" callee="NicA">
+		<item i="0" wav="MatT_cb01500_01" caller=""/>
+		<item i="1" wav="NicA_cb01500_01" callee=""/>
+		<item i="2" wav="MatT_cb01500_02" caller=""/>
+		<item i="3" wav="NicA_cb01500_02" callee=""/>
+		<item i="4" wav="MatT_cb01500_03" caller=""/>
+	</dialog>
+	<dialog name="cb01520" caller="CocJ" callee="NicA">
+		<item i="0" wav="CocJ_cb01520_01" caller=""/>
+		<item i="1" wav="NicA_cb01520_01" callee=""/>
+		<item i="2" wav="CocJ_cb01520_02" caller=""/>
+		<item i="3" wav="NicA_cb01520_02" callee=""/>
+		<item i="4" wav="CocJ_cb01520_03" caller=""/>
+		<item>
+			<question id="0" text="CBCTRL_cb01520accept">
+				<dialog name="cb01520_Yes">
+					<item wav="NicA_cb01520yes_01" callee=""/>
+				</dialog>
+			</question>
+			<question id="1" text="CBCTRL_cb01520decline">
+				<dialog name="cb01520_No">
+					<item wav="NicA_cb01520no_01" callee=""/>
+				</dialog>
+			</question>
+		</item>
+	</dialog>
+	<dialog name="cb01546" caller="FraD" callee="NicA">
+		<item i="0" wav="FraD_cb01546_01" caller=""/>
+		<item i="1" wav="NicA_cb01546_01" callee=""/>
+		<item i="2" wav="FraD_cb01546_02" caller=""/>
+		<item i="3" wav="NicA_cb01546_02" callee=""/>
+		<item i="4" wav="FraD_cb01546_03" caller=""/>
+		<item i="5" wav="NicA_cb01546_03" callee=""/>
+		<item i="6" wav="FraD_cb01546_04" caller=""/>
+		<item i="7" wav="NicA_cb01546_04" callee=""/>
+		<item i="8" wav="FraD_cb01546_05" caller=""/>
+	</dialog>
+	<dialog name="cb01548" caller="FraD" callee="NicA">
+		<item i="0" wav="FraD_cb01548_01" caller=""/>
+		<item i="1" wav="NicA_cb01548_01" callee=""/>
+		<item i="2" wav="FraD_cb01548_02" caller=""/>
+		<item i="3" wav="NicA_cb01548_02" callee=""/>
+		<item i="4" wav="FraD_cb01548_03" caller=""/>
+	</dialog>
+	<dialog name="cb01600" caller="MonD" callee="NicA">
+		<item caller="" wav="MonD_cb01600_01"/>
+		<item callee="" wav="NicA_cb01600_01"/>
+		<item caller="" wav="MonD_cb01600_02"/>
+		<item callee="" wav="NicA_cb01600_02"/>
+		<item caller="" wav="MonD_cb01600_03"/>
+		<item callee="" wav="NicA_cb01600_03"/>
+		<item caller="" wav="MonD_cb01600_04"/>
+		<item callee="" wav="NicA_cb01600_04"/>
+		<item caller="" wav="MonD_cb01600_05"/>
+		<item callee="" wav="NicA_cb01600_05"/>
+		<item caller="" wav="MonD_cb01600_06"/>
+	</dialog>
+	<dialog name="cb01660" caller="MonD" callee="NicA">
+		<item caller="" wav="MonD_cb01660_01"/>
+		<item callee="" wav="NicA_cb01660_01"/>
+		<item caller="" wav="MonD_cb01660_02"/>
+		<item callee="" wav="NicA_cb01660_02"/>
+		<item caller="" wav="MonD_cb01660_03"/>
+		<item callee="" wav="NicA_cb01660_03"/>
+		<item caller="" wav="MonD_cb01660_04"/>
+		<item callee="" wav="NicA_cb01660_04"/>
+	</dialog>
+	<dialog name="cb02010" caller="JohD" callee="NicA">
+		<item caller="" wav="JohD_cb02010_01"/>
+		<item callee="" wav="NicA_cb02010_01"/>
+		<item caller="" wav="JohD_cb02010_02"/>
+		<item callee="" wav="NicA_cb02010_02"/>
+		<item caller="" wav="JohD_cb02010_03"/>
+	</dialog>
+	<dialog name="cb02015" caller="FraD" callee="NicA">
+		<item caller="" wav="FraD_cb02015_01"/>
+		<item callee="" wav="NicA_cb02015_01"/>
+		<item caller="" wav="FraD_cb02015_02"/>
+		<item callee="" wav="NicA_cb02015_02"/>
+		<item caller="" wav="FraD_cb02015_03"/>
+		<item callee="" wav="NicA_cb02015_03"/>
+		<item caller="" wav="FraD_cb02015_04"/>
+		<item callee="" wav="NicA_cb02015_04"/>
+		<item caller="" wav="FraD_cb02015_05"/>
+	</dialog>
+	<dialog name="cb02020" caller="JohD" callee="NicA">
+		<item caller="" wav="JohD_cb02020_01"/>
+		<item callee="" wav="NicA_cb02020_01"/>
+		<item caller="" wav="JohD_cb02020_02"/>
+		<item callee="" wav="NicA_cb02020_02"/>
+		<item caller="" wav="JohD_cb02020_03"/>
+	</dialog>
+	<dialog name="cb02026" caller="JohL" callee="NicA">
+		<item caller="" wav="JohL_cb02026_01"/>
+		<item callee="" wav="NicA_cb02026_01"/>
+		<item caller="" wav="JohL_cb02026_02"/>
+		<item callee="" wav="NicA_cb02026_02"/>
+		<item caller="" wav="JohL_cb02026_03"/>
+		<item callee="" wav="NicA_cb02026_03"/>
+		<item caller="" wav="JohL_cb02026_04"/>
+		<item callee="" wav="NicA_cb02026_04"/>
+	</dialog>
+	<dialog name="cb01300" caller="SteC" callee="NicA">
+		<item caller="" wav="SteC_cb01300_01"/>
+		<item wav="NicA_cb01300_01" callee=""/>
+		<item caller="" wav="SteC_cb01300_02"/>
+		<item wav="NicA_cb01300_02" callee=""/>
+		<item caller="" wav="SteC_cb01300_03"/>
+		<item wav="NicA_cb01300_03" callee=""/>
+		<item caller="" wav="SteC_cb01300_04"/>
+		<item wav="NicA_cb01300_04" callee=""/>
+		<item caller="" wav="SteC_cb01300_05"/>
+		<item>
+			<question text="cb01300_yes" id="0">
+				<dialog name="cb01300_yes">
+					<item callee="" wav="NicA_cb01300_05"/>
+					<item caller="" wav="SteC_cb01300_06"/>
+				</dialog>
+			</question>
+			<question text="cb01300_no" id="1">
+				<dialog name="cb01300_no">
+					<item callee="" wav="NicA_cb01300_06"/>
+					<item caller="" wav="SteC_cb01300_07"/>
+				</dialog>
+			</question>
+		</item>
+	</dialog>
+	<dialog name="cb01330" caller="CocJ" callee="NicA">
+		<item caller="" wav="CocJ_cb01330_01"/>
+		<item callee="" wav="NicA_cb01330_01"/>
+		<item caller="" wav="CocJ_cb01330_02"/>
+		<item callee="" wav="NicA_cb01330_02"/>
+		<item caller="" wav="CocJ_cb01330_03"/>
+		<item callee="" wav="NicA_cb01330_03"/>
+	</dialog>
+</cbvdialogs>

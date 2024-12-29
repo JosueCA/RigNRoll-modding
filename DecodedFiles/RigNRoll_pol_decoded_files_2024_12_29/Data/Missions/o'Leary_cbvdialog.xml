@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbvdialogs>
+  <dialog name="o'Leary=koleso_n=start=CbVideo">
+    <item caller="" wav="o'Leary=koleso_n=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=start=CbVideo=07=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=start=CbVideo=08=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=koleso_n=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=koleso_n=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=koleso_n=decline=CbVideo">
+    <item caller="" wav="o'Leary=koleso_n=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koleso_n=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koleso_n=decline=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=car_helper=start=CbVideo">
+    <item caller="" wav="o'Leary=car_helper=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=car_helper=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=car_helper=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=car_helper=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=car_helper=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=car_helper=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=car_helper=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=car_helper=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=car_helper=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=car_helper=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=car_helper=start=CbVideo=N">
+          <item callee="" wav="o'Leary=car_helper=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=car_helper=start=CbVideo=N=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=car_helper=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=car_helper=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=car_helper=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=car_helper=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=car_helper=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=car_helper=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=car_helper=decline=CbVideo">
+    <item caller="" wav="o'Leary=car_helper=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=car_helper=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=car_helper=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=car_helper=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=car_helper=decline=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=girl_helper=start=CbVideo">
+    <item caller="" wav="o'Leary=girl_helper=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=girl_helper=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=girl_helper=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=girl_helper=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=girl_helper=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=girl_helper=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=girl_helper=start=CbVideo=Y=02=Nick"/>
+          <item caller="" wav="o'Leary=girl_helper=start=CbVideo=Y=03=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=girl_helper=start=CbVideo=N">
+          <item callee="" wav="o'Leary=girl_helper=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=girl_helper=start=CbVideo=N=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=girl_helper=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=girl_helper=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=girl_helper=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=girl_helper=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=girl_helper=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=girl_helper=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=girl_helper=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=girl_helper=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=girl_helper=decline=CbVideo">
+    <item caller="" wav="o'Leary=girl_helper=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=girl_helper=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=girl_helper=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=girl_helper=decline=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=kofe_girl=start=CbVideo">
+    <item caller="" wav="o'Leary=kofe_girl=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=kofe_girl=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=kofe_girl=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=kofe_girl=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=kofe_girl=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=kofe_girl=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=kofe_girl=start=CbVideo=N">
+          <item callee="" wav="o'Leary=kofe_girl=start=CbVideo=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=kofe_girl=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=kofe_girl=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=kofe_girl=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=kofe_girl=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=lunch_n=start=CbVideo">
+    <item caller="" wav="o'Leary=lunch_n=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=lunch_n=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=lunch_n=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=lunch_n=start=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=lunch_n=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=lunch_n=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=lunch_n=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=lunch_n=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=lunch_n=fail_timeout_complete=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=lunch_n=decline=CbVideo">
+    <item callee="" wav="o'Leary=lunch_n=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="o'Leary=lunch_n=decline=CbVideo=01=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=lunch_n=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="o'Leary=lunch_n=decline=CbVideo=03=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=lunch_n=decline=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=cinema=start=CbVideo">
+    <item caller="" wav="o'Leary=cinema=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=cinema=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=cinema=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=start=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=cinema=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=cinema=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=cinema=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=cinema=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=cinema=decline=CbVideo">
+    <item caller="" wav="o'Leary=cinema=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=cinema=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=cinema=decline=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=cinema=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=cinema=decline=CbVideo=06=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=biliard=start=CbVideo">
+    <item caller="" wav="o'Leary=biliard=start=CbVideo=00=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=biliard=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=biliard=start=CbVideo=02=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=biliard=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=biliard=start=CbVideo=04=ID_DOROTHY_TRIP"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=biliard=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=biliard=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=biliard=start=CbVideo=Y=01=ID_DOROTHY_TRIP"/>
+          <item callee="" wav="o'Leary=biliard=start=CbVideo=Y=02=Nick"/>
+          <item caller="" wav="o'Leary=biliard=start=CbVideo=Y=03=ID_DOROTHY_TRIP"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=biliard=start=CbVideo=N">
+          <item callee="" wav="o'Leary=biliard=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=biliard=start=CbVideo=N=01=ID_DOROTHY_TRIP"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=biliard=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=biliard=fail_timeout_complete=CbVideo=00=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=biliard=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=biliard=fail_timeout_complete=CbVideo=02=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=biliard=fail_timeout_complete=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=biliard=decline=CbVideo">
+    <item caller="" wav="o'Leary=biliard=decline=CbVideo=00=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=biliard=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=biliard=decline=CbVideo=02=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=biliard=decline=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=golden_gate=start=CbVideo">
+    <item caller="" wav="o'Leary=golden_gate=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=golden_gate=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=golden_gate=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=golden_gate=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=golden_gate=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=golden_gate=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=golden_gate=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=golden_gate=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=golden_gate=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=golden_gate=start=CbVideo=N">
+          <item callee="" wav="o'Leary=golden_gate=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=golden_gate=start=CbVideo=N=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=golden_gate=fail_timeout_complete=CbVideo">
+    <item callee="" wav="o'Leary=golden_gate=fail_timeout_complete=CbVideo=00=Nick"/>
+    <item caller="" wav="o'Leary=golden_gate=fail_timeout_complete=CbVideo=01=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=golden_gate=fail_timeout_complete=CbVideo=02=Nick"/>
+    <item caller="" wav="o'Leary=golden_gate=fail_timeout_complete=CbVideo=03=ID_DOROTHY_CLUB"/>
+  </dialog>
+  <dialog name="o'Leary=golden_gate=decline=CbVideo">
+    <item callee="" wav="o'Leary=golden_gate=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="o'Leary=golden_gate=decline=CbVideo=01=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=golden_gate=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="o'Leary=golden_gate=decline=CbVideo=03=ID_DOROTHY_CLUB"/>
+  </dialog>
+  <dialog name="o'Leary=big_gonki_1=start=CbVideo">
+    <item caller="" wav="o'Leary=big_gonki_1=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=big_gonki_1=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=big_gonki_1=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=start=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=big_gonki_1=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=big_gonki_1=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=big_gonki_1=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=fail_timeout_complete=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=big_gonki_1=decline=CbVideo">
+    <item caller="" wav="o'Leary=big_gonki_1=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=big_gonki_1=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=big_gonki_1=decline=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=big_gonki_1=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=koncert_3=start=CbVideo">
+    <item caller="" wav="o'Leary=koncert_3=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koncert_3=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koncert_3=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=koncert_3=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koncert_3=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=koncert_3=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=koncert_3=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=koncert_3=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=koncert_3=start=CbVideo=N">
+          <item callee="" wav="o'Leary=koncert_3=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=koncert_3=start=CbVideo=N=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=koncert_3=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=koncert_3=fail_timeout_complete=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=koncert_3=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koncert_3=fail_timeout_complete=CbVideo=02=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=koncert_3=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koncert_3=fail_timeout_complete=CbVideo=04=ID_DOROTHY_CLUB"/>
+  </dialog>
+  <dialog name="o'Leary=koncert_3=decline=CbVideo">
+    <item caller="" wav="o'Leary=koncert_3=decline=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=koncert_3=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koncert_3=decline=CbVideo=02=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=koncert_3=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koncert_3=decline=CbVideo=04=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=koncert_3=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=koncert_3=decline=CbVideo=06=ID_DOROTHY_CLUB"/>
+  </dialog>
+  <dialog name="o'Leary=bowling_n=start=CbVideo">
+    <item caller="" wav="o'Leary=bowling_n=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=start=CbVideo=07=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=start=CbVideo=08=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=bowling_n=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=bowling_n=start=CbVideo=Y=00=Nick"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=bowling_n=start=CbVideo=N">
+          <item callee="" wav="o'Leary=bowling_n=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=bowling_n=start=CbVideo=N=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=bowling_n=start=CbVideo=N=02=Nick"/>
+          <item caller="" wav="o'Leary=bowling_n=start=CbVideo=N=03=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=bowling_n=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=bowling_n=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=fail_timeout_complete=CbVideo=06=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=bowling_n=decline=CbVideo">
+    <item caller="" wav="o'Leary=bowling_n=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=decline=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=decline=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=decline=CbVideo=07=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=decline=CbVideo=08=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=bowling_n=decline=CbVideo=09=Nick"/>
+    <item caller="" wav="o'Leary=bowling_n=decline=CbVideo=10=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=truks_nn=start=CbVideo">
+    <item caller="" wav="o'Leary=truks_nn=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=truks_nn=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=truks_nn=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=truks_nn=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=start=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=truks_nn=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=truks_nn=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=truks_nn=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=truks_nn=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=truks_nn=decline=CbVideo">
+    <item caller="" wav="o'Leary=truks_nn=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=truks_nn=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=truks_nn=decline=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=prezent=start=CbVideo">
+    <item caller="" wav="o'Leary=prezent=start=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=prezent=start=CbVideo=02=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=prezent=start=CbVideo=04=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=prezent=start=CbVideo=06=ID_DOROTHY_CLUB"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=prezent=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=prezent=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=prezent=start=CbVideo=Y=01=ID_DOROTHY_CLUB"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=prezent=start=CbVideo=N">
+          <item callee="" wav="o'Leary=prezent=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=prezent=start=CbVideo=N=01=ID_DOROTHY_CLUB"/>
+          <item callee="" wav="o'Leary=prezent=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=prezent=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=prezent=fail_timeout_complete=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=prezent=fail_timeout_complete=CbVideo=02=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=prezent=fail_timeout_complete=CbVideo=04=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=prezent=decline=CbVideo">
+    <item caller="" wav="o'Leary=prezent=decline=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=prezent=decline=CbVideo=02=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=prezent=decline=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=retro_n=start=CbVideo">
+    <item caller="" wav="o'Leary=retro_n=start=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=retro_n=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=retro_n=start=CbVideo=02=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=retro_n=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=retro_n=start=CbVideo=04=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=retro_n=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=retro_n=start=CbVideo=06=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=retro_n=start=CbVideo=07=Nick"/>
+    <item caller="" wav="o'Leary=retro_n=start=CbVideo=08=ID_DOROTHY_CLUB"/>
+  </dialog>
+  <dialog name="o'Leary=retro_n=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=retro_n=fail_timeout_complete=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=retro_n=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=retro_n=fail_timeout_complete=CbVideo=02=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=retro_n=fail_timeout_complete=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=retro_n=decline=CbVideo">
+    <item caller="" wav="o'Leary=retro_n=decline=CbVideo=00=ID_DOROTHY_CLUB"/>
+    <item callee="" wav="o'Leary=retro_n=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=retro_n=decline=CbVideo=02=ID_DOROTHY_CLUB"/>
+  </dialog>
+  <dialog name="o'Leary=drunk=start=CbVideo">
+    <item caller="" wav="o'Leary=drunk=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=drunk=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=drunk=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=drunk=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=drunk=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=drunk=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=drunk=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=drunk=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=drunk=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=drunk=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=drunk=start=CbVideo=N">
+          <item callee="" wav="o'Leary=drunk=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=drunk=start=CbVideo=N=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=drunk=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=drunk=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=drunk=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=drunk=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=drunk=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=drunk=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=drunk=decline=CbVideo">
+    <item caller="" wav="o'Leary=drunk=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=drunk=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=drunk=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=drunk=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=drunk=decline=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=beach=start=CbVideo">
+    <item caller="" wav="o'Leary=beach=start=CbVideo=00=ID_DOROTHY_BEACH"/>
+    <item callee="" wav="o'Leary=beach=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=beach=start=CbVideo=02=ID_DOROTHY_BEACH"/>
+    <item callee="" wav="o'Leary=beach=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=beach=start=CbVideo=04=ID_DOROTHY_BEACH"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=beach=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=beach=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=beach=start=CbVideo=Y=01=ID_DOROTHY_BEACH"/>
+          <item callee="" wav="o'Leary=beach=start=CbVideo=Y=02=Nick"/>
+          <item caller="" wav="o'Leary=beach=start=CbVideo=Y=03=ID_DOROTHY_BEACH"/>
+          <item callee="" wav="o'Leary=beach=start=CbVideo=Y=04=Nick"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=beach=start=CbVideo=N">
+          <item callee="" wav="o'Leary=beach=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=beach=start=CbVideo=N=01=ID_DOROTHY_BEACH"/>
+          <item callee="" wav="o'Leary=beach=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=beach=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=beach=fail_timeout_complete=CbVideo=00=ID_DOROTHY_BEACH"/>
+    <item callee="" wav="o'Leary=beach=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=beach=fail_timeout_complete=CbVideo=02=ID_DOROTHY_BEACH"/>
+    <item callee="" wav="o'Leary=beach=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=beach=fail_timeout_complete=CbVideo=04=ID_DOROTHY_BEACH"/>
+    <item callee="" wav="o'Leary=beach=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=beach=decline=CbVideo">
+    <item callee="" wav="o'Leary=beach=decline=CbVideo=00=Nick"/>
+    <item callee="" wav="o'Leary=beach=decline=CbVideo=01=Nick"/>
+    <item callee="" wav="o'Leary=beach=decline=CbVideo=02=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=real_carnival_2=start=CbVideo">
+    <item caller="" wav="o'Leary=real_carnival_2=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=real_carnival_2=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=real_carnival_2=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=real_carnival_2=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=real_carnival_2=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=real_carnival_2=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=real_carnival_2=start=CbVideo=N">
+          <item callee="" wav="o'Leary=real_carnival_2=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=real_carnival_2=start=CbVideo=N=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=real_carnival_2=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=real_carnival_2=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=real_carnival_2=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=real_carnival_2=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=real_carnival_2=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=real_carnival_2=decline=CbVideo">
+    <item caller="" wav="o'Leary=real_carnival_2=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=real_carnival_2=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=real_carnival_2=decline=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=real_carnival_2=decline=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=real_carnival_2=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=rancho=start=CbVideo">
+    <item caller="" wav="o'Leary=rancho=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=rancho=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=rancho=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=rancho=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=rancho=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=rancho=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=rancho=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=rancho=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=rancho=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=rancho=start=CbVideo=N">
+          <item callee="" wav="o'Leary=rancho=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=rancho=start=CbVideo=N=01=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=rancho=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=rancho=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=rancho=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=rancho=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=rancho=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=rancho=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=rancho=decline=CbVideo">
+    <item caller="" wav="o'Leary=rancho=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=rancho=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=rancho=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=rancho=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=rancho=decline=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=shar=start=CbVideo">
+    <item caller="" wav="o'Leary=shar=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=shar=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=shar=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=shar=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=start=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=shar=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=shar=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=shar=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=shar=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=shar=decline=CbVideo">
+    <item caller="" wav="o'Leary=shar=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=shar=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=shar=decline=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=shar=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=shar=decline=CbVideo=06=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=koncert=start=CbVideo">
+    <item caller="" wav="o'Leary=koncert=start=CbVideo=00=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=koncert=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koncert=start=CbVideo=02=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=koncert=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koncert=start=CbVideo=04=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=koncert=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=koncert=start=CbVideo=06=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=koncert=start=CbVideo=07=Nick"/>
+    <item caller="" wav="o'Leary=koncert=start=CbVideo=08=ID_DOROTHY_TRIP"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=koncert=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=koncert=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=koncert=start=CbVideo=Y=01=ID_DOROTHY_TRIP"/>
+          <item callee="" wav="o'Leary=koncert=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=koncert=start=CbVideo=N">
+          <item callee="" wav="o'Leary=koncert=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=koncert=start=CbVideo=N=01=ID_DOROTHY_TRIP"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=koncert=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=koncert=fail_timeout_complete=CbVideo=00=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=koncert=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koncert=fail_timeout_complete=CbVideo=02=ID_DOROTHY_TRIP"/>
+    <item callee="" wav="o'Leary=koncert=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koncert=fail_timeout_complete=CbVideo=04=ID_DOROTHY_TRIP"/>
+  </dialog>
+  <dialog name="o'Leary=koncert_2=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=00=ID_JOSE_3"/>
+    <item callee="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=02=ID_JOSE_3"/>
+    <item callee="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=04=ID_JOSE_3"/>
+    <item callee="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=06=ID_JOSE_3"/>
+    <item callee="" wav="o'Leary=koncert_2=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=chiken=start=CbVideo">
+    <item caller="" wav="o'Leary=chiken=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=chiken=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=chiken=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=chiken=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=start=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=chiken=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=chiken=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=chiken=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=chiken=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=chiken=decline=CbVideo">
+    <item caller="" wav="o'Leary=chiken=decline=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=chiken=decline=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=chiken=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=chiken=decline=CbVideo=04=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=carnival=start=CbVideo">
+    <item caller="" wav="o'Leary=carnival=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=carnival=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=carnival=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=carnival=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item>
+      <question text="o'Leary=Y" id="0">
+        <dialog name="o'Leary=carnival=start=CbVideo=Y">
+          <item callee="" wav="o'Leary=carnival=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="o'Leary=carnival=start=CbVideo=Y=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=carnival=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="o'Leary=N" id="1">
+        <dialog name="o'Leary=carnival=start=CbVideo=N">
+          <item callee="" wav="o'Leary=carnival=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="o'Leary=carnival=start=CbVideo=N=01=ID_DOROTHY_2"/>
+          <item callee="" wav="o'Leary=carnival=start=CbVideo=N=02=Nick"/>
+          <item caller="" wav="o'Leary=carnival=start=CbVideo=N=03=ID_DOROTHY_2"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="o'Leary=carnival=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=carnival=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=carnival=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=carnival=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=carnival=decline=CbVideo">
+    <item callee="" wav="o'Leary=carnival=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="o'Leary=carnival=decline=CbVideo=01=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="o'Leary=carnival=decline=CbVideo=03=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=carnival=decline=CbVideo=04=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=tatoo=start=CbVideo">
+    <item caller="" wav="o'Leary=tatoo=start=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=start=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=start=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=start=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=start=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=start=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=start=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=start=CbVideo=07=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=start=CbVideo=08=ID_DOROTHY_2"/>
+  </dialog>
+  <dialog name="o'Leary=tatoo=fail_timeout_complete=CbVideo">
+    <item caller="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=00=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=02=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=04=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=06=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="o'Leary=tatoo=decline=CbVideo">
+    <item callee="" wav="o'Leary=tatoo=decline=CbVideo=00=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=decline=CbVideo=01=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=decline=CbVideo=02=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=decline=CbVideo=03=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=decline=CbVideo=04=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=decline=CbVideo=05=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=decline=CbVideo=06=Nick"/>
+    <item caller="" wav="o'Leary=tatoo=decline=CbVideo=07=ID_DOROTHY_2"/>
+    <item callee="" wav="o'Leary=tatoo=decline=CbVideo=08=Nick"/>
+  </dialog>
+</cbvdialogs>
+

@@ -1,0 +1,33 @@
+<dialogs>
+	<dialog name="mission1start">
+		<item i="0" wav="FraD_CB01548_01" caller=""/>
+		<item i="1" callee="">
+			<question text="agree" localetext="agree" id="0">
+				<dialog name="test_acept">
+					<item i="2" wav="NicA_CB01548_02" callee=""/>
+					<item i="3" wav="FraD_CB01548_02" caller=""/>
+				</dialog>
+			</question>
+			<question text="disagree" localetext="disagree" id="1">
+				<dialog name="test_reject">
+					<item i="4" wav="FraD_CB01548_03" caller=""/>
+				</dialog>
+			</question>
+			<question text="cancel" localetext="not my job" id="2">
+				<dialog name="test_cancel">
+					<item i="4" wav="FraD_CB01548_03" caller=""/>
+				</dialog>
+			</question>
+		</item>
+	</dialog>
+	<dialog name="mission1endgood">
+		<item i="0" wav="FraD_CB01548_01" caller=""/>
+		<item i="1" wav="NicA_CB01548_02" callee=""/>
+		<item i="2" wav="FraD_CB01548_02" caller=""/>
+	</dialog>
+	<dialog name="mission1endbad">
+		<item i="0" wav="FraD_CB01548_01" caller=""/>
+		<item i="1" wav="NicA_CB01548_02" callee=""/>
+		<item i="2" wav="FraD_CB01548_02" caller=""/>
+	</dialog>
+</dialogs>

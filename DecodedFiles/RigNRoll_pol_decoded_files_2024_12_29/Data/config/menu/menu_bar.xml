@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> Bar Menu </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>ComCommon_NoDet</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<buttonres name="--------------------------    START of buttons wth OFFSET   --------------------------"/>
+		<buttonres name="Button NEWS new" script="Complex9">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - left - NewsHead - wth offset"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - NewsHead - wth offset"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - NewsHead - 2pxdn - wth offset"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<material>PaperBack_Fade_Spots_smalldet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<textres name="JustText - white - left - NewsHead - wth offset">
+			<vertalign>center</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>90</horizbaseline>
+			<clip_right>-15</clip_right>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - left - NewsHead - 2pxdn - wth offset">
+			<vertalign>center</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>90</horizbaseline>
+			<clip_right>-15</clip_right>
+			<textcolor>155 195 205 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - left - NewsHead - wth offset">
+			<vertalign>center</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>90</horizbaseline>
+			<clip_right>-15</clip_right>
+			<textcolor>100 70 70 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<buttonres name="--------------------------    END of buttons wth OFFSET   --------------------------"/>
+		<buttonres name="Scroller Thumb" script="Complex3Vert">
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="284" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="301" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="303" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="267" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="267" sx="36" sy="17"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowUP">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowDOWN">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="--------------------------    START of Bar ADD   --------------------------"/>
+		<materialres name="PaperBack_Fade_Spots_smalldet">
+			<wdbmaterial>mat_menu_PaperBack01_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>12</tilex>
+				<tiley>9</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="PaperBack_Sheet_Spots_small" script="Complex9">
+			<material>PaperBack_Fade_Spots_smalldet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button NEWS new - OLD" script="Complex9">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - left - NewsHead"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - NewsHead"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - NewsHead - 2pxdn"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<material>PaperBack_Fade_Spots_smalldet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button TASKS">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - right - NewsHead"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - right - NewsHead"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - right - NewsHead - 2pxdn"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button TASKS GRAY">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - GRAY - right - NewsHead"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - GRAY - right - NewsHead"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - GRAY - right - NewsHead"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+		</buttonres>
+		<textres name="JustText - white - left - NewsHead">
+			<vertalign>baseline</vertalign>
+			<baseline>42</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>90</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - left - NewsHead - 2pxdn">
+			<vertalign>baseline</vertalign>
+			<baseline>46</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>90</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - black - left - NewsHead">
+			<vertalign>baseline</vertalign>
+			<baseline>42</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>90</horizbaseline>
+			<textcolor>100 70 70 255</textcolor>
+		</textres>
+		<textres name="JustText - white - right - NewsHead">
+			<vertalign>center</vertalign>
+			<horizalign>right</horizalign>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - right - NewsHead - 2pxdn">
+			<vertalign>center</vertalign>
+			<horizalign>right</horizalign>
+			<textcolor>155 195 205 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - right - NewsHead">
+			<vertalign>center</vertalign>
+			<horizalign>right</horizalign>
+			<textcolor>100 70 70 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - GRAY - right - NewsHead">
+			<vertalign>center</vertalign>
+			<horizalign>right</horizalign>
+			<textcolor>100 70 70 128</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<buttonres name="--------------------------    END of Bar ADD   --------------------------"/>
+		<buttonres name="====================  OLD bar buttons ARCHIVE  ====================">
+			<buttonres name="--------------------------    START of buttons wth OFFSET   --------------------------"/>
+			<buttonres name="Button NEWS new" script="Complex9">
+				<buttonstate type="passive">
+					<textres_ref name="JustText - black - left - NewsHead - wth offset"/>
+					<font>Blue Highway</font>
+				</buttonstate>
+				<buttonstate type="active">
+					<textres_ref name="JustText - white - left - NewsHead - wth offset"/>
+					<font>Blue Highway OUTLINED</font>
+				</buttonstate>
+				<buttonstate type="active">
+					<textres_ref name="JustText - white - left - NewsHead - 2pxdn - wth offset"/>
+					<font>Blue Highway OUTLINED</font>
+				</buttonstate>
+				<material>PaperBack_Fade_Spots_smalldet</material>
+				<buttonstate type="passive">
+					<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+					<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+					<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+					<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+					<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+					<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+					<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+					<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+					<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+					<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+				</buttonstate>
+			</buttonres>
+			<textres name="JustText - white - left - NewsHead - wth offset">
+				<vertalign>baseline</vertalign>
+				<baseline>42</baseline>
+				<horizalign>baseline</horizalign>
+				<horizbaseline>90</horizbaseline>
+				<textcolor>255 255 255 255</textcolor>
+				<clip_right>-15</clip_right>
+			</textres>
+			<textres name="JustText - white - left - NewsHead - 2pxdn - wth offset">
+				<vertalign>baseline</vertalign>
+				<baseline>46</baseline>
+				<horizalign>baseline</horizalign>
+				<horizbaseline>90</horizbaseline>
+				<textcolor>255 255 255 255</textcolor>
+				<clip_right>-15</clip_right>
+			</textres>
+			<textres name="JustText - black - left - NewsHead - wth offset">
+				<vertalign>baseline</vertalign>
+				<baseline>42</baseline>
+				<horizalign>baseline</horizalign>
+				<horizbaseline>90</horizbaseline>
+				<textcolor>100 70 70 255</textcolor>
+				<clip_right>-15</clip_right>
+			</textres>
+			<buttonres name="--------------------------    END of buttons wth OFFSET   --------------------------"/>
+			<buttonres name="--------------------------    START of Bar ADD   --------------------------"/>
+			<buttonres name="PaperBack_Sheet_Spots_small" script="Complex9">
+				<material>PaperBack_Fade_Spots_smalldet</material>
+				<buttonstate type="passive">
+					<patch state="0" x="0" y="0" sx="22" sy="32" id="leftUP"/>
+					<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="22" y="0" sx="1" sy="32" id="centerUP"/>
+					<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="23" y="0" sx="22" sy="32" id="rightUP"/>
+					<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="0" y="32" sx="22" sy="1" id="leftCENTER"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="22" y="32" sx="1" sy="1" id="centerCENTER"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="23" y="32" sx="22" sy="1" id="rightCENTER"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="0" y="33" sx="22" sy="32" id="leftDOWN"/>
+					<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="22" y="33" sx="1" sy="32" id="centerDOWN"/>
+					<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+				</buttonstate>
+				<buttonstate type="passive">
+					<patch state="0" x="23" y="33" sx="22" sy="32" id="rightDOWN"/>
+					<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+				</buttonstate>
+			</buttonres>
+			<buttonres name="Button TASKS">
+				<buttonstate type="passive">
+					<textres_ref name="JustText - black - right - NewsHead"/>
+					<font>Blue Highway</font>
+				</buttonstate>
+				<buttonstate type="active">
+					<textres_ref name="JustText - white - right - NewsHead"/>
+					<font>Blue Highway OUTLINED</font>
+				</buttonstate>
+				<buttonstate type="active">
+					<textres_ref name="JustText - white - right - NewsHead - 2pxdn"/>
+					<font>Blue Highway OUTLINED</font>
+				</buttonstate>
+			</buttonres>
+			<buttonres name="Button TASKS GRAY">
+				<buttonstate type="passive">
+					<textres_ref name="JustText - GRAY - right - NewsHead"/>
+					<font>Blue Highway</font>
+				</buttonstate>
+				<buttonstate type="active">
+					<textres_ref name="JustText - GRAY - right - NewsHead"/>
+					<font>Blue Highway</font>
+				</buttonstate>
+				<buttonstate type="active">
+					<textres_ref name="JustText - GRAY - right - NewsHead"/>
+					<font>Blue Highway</font>
+				</buttonstate>
+			</buttonres>
+			<textres name="JustText - white - right - NewsHead">
+				<horizalign>right</horizalign>
+				<vertalign>baseline</vertalign>
+				<baseline>51</baseline>
+				<textcolor>255 255 255 255</textcolor>
+			</textres>
+			<textres name="JustText - white - right - NewsHead - 2pxdn">
+				<horizalign>right</horizalign>
+				<vertalign>baseline</vertalign>
+				<baseline>55</baseline>
+				<textcolor>255 255 255 255</textcolor>
+			</textres>
+			<textres name="JustText - black - right - NewsHead">
+				<horizalign>right</horizalign>
+				<vertalign>baseline</vertalign>
+				<baseline>51</baseline>
+				<textcolor>100 70 70 255</textcolor>
+			</textres>
+			<textres name="JustText - GRAY - right - NewsHead">
+				<horizalign>right</horizalign>
+				<vertalign>baseline</vertalign>
+				<baseline>51</baseline>
+				<textcolor>100 70 70 128</textcolor>
+			</textres>
+			<buttonres name="--------------------------    END of Bar ADD   --------------------------"/>
+		</buttonres>
+		<materialres name="ComCommon_NoDet">
+			<wdbmaterial>mat_menu_Com_COMMON_NoDet_110</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+		</materialres>
+		<materialres name="ComCommon1_NoDet">
+			<wdbmaterial>mat_menu_Com_COMMON1_NoDet_110</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+		</materialres>
+		<materialres name="PaperBack">
+			<wdbmaterial>mat_menu_PaperBack01_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>16</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="News_NewsPAPER" shotupdater="0" screenshotid="14">
+			<wdbmaterial>mat_menu_News_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="News_PaperBack" shotupdater="0" screenshotid="14">
+			<wdbmaterial>mat_menu_News_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>16</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="AnswerPointer">
+			<wdbmaterial>mat_menu_AnswerPointer_110</wdbmaterial>
+			<texture index="0" maxx="64" maxy="64"/>
+		</materialres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<materialres name="ComCommon_ACTIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_ACTIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon_PASSIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_PASSIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button COMMON Communicator NoDet" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Comm"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="256" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="256" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="256" x1="36" y1="256" x2="36" y2="320" x3="52" y3="320"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+		<buttonres name="News_PaperBack" script="Complex9">
+			<material>News_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="News_PaperBackShadow" script="Complex9">
+			<material>News_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button TITLES">
+			<buttonstate type="passive">
+				<textres_ref name="BHT - white - left"/>
+				<font>Blue Highway Titles</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="BHT - yellow1 - left"/>
+				<font>Blue Highway Titles</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="BHT - yellow1 - left PRESSED"/>
+				<font>Blue Highway Titles</font>
+			</buttonstate>
+			<material>AnswerPointer</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="1" sy="1"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="-90" y="5" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sx="64" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="-90" y="11" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sx="64" sy="64"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Titles">
+			<name>TahomaTitles</name>
+			<size>48</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<textres name="JustText - gray - right - ActorName">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>220 220 220 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - right - ActorName">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - right - ActorName - 2pxdn">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>30</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - left - News">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>100 70 70 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>0 51 51 255</textcolor>
+		</textres>
+		<textres name="JustText - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - left - bsln24">
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - center - bsln24">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - red - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 85 0 128</textcolor>
+		</textres>
+		<textres name="BHT - red - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 85 0 128</textcolor>
+		</textres>
+		<textres name="BHT - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - white - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - red - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 85 0 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - red - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 85 0 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - yellow1 - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 220 50 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - yellow1 - left PRESSED">
+			<vertalign>baseline</vertalign>
+			<baseline>61</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 220 50 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+	</resources>
+	<controlgroup name="BAR ALL">
+		<picture name="BarMenu - ALL">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="TABLEGROUP BarNEWS Buttons - 4 100">
+				<coords x="120" y="300" sx="650" sy="400"/>
+			</picture>
+			<picture name="TABLEGROUP BarTALKS Buttons - 4 100">
+				<coords x="830" y="300" sx="650" sy="400"/>
+			</picture>
+			<button name="BUTTON - EXIT">
+				<coords x="600" y="900" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\EXIT">EXIT</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="TABLEGROUP ELEMENTS - ACTIONS">
+		<picture name="LINE">
+			<coords x="0" y="0" sx="600" sy="80"/>
+			<picture name="BarTALKS - BACK">
+				<coords x="0" y="10" sx="650" sy="80"/>
+				<buttonres_ref name="PaperBack_Sheet_Spots_small"/>
+			</picture>
+			<button name="BarTALKS - BUTTON - Type TALK">
+				<coords x="10" y="10" sx="500" sy="80"/>
+				<buttonres_ref name="Button TASKS"/>
+				<text/>
+				<buttonres>
+					<material>ComCommon1_NoDet</material>
+					<buttonstate type="passive">
+						<patch state="0" x="518" y="0" sx="64" sy="64"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="503" y="-5" sx="74" sy="74"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="503" y="-1" sx="74" sy="74"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="0" x="575" y="1" sx="42" sy="42"/>
+						<texrect index="0" x="0" y="192" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="570" y="-4" sx="52" sy="52"/>
+						<texrect index="0" x="0" y="192" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="570" y="0" sx="52" sy="52"/>
+						<texrect index="0" x="0" y="192" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="0" x="610" y="0" sx="64" sy="64"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="615" y="-5" sx="74" sy="74"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="615" y="-1" sx="74" sy="74"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+				</buttonres>
+			</button>
+			<button name="BarTALKS - BUTTON - Type BOX to CLIENT - AVAILABLE">
+				<coords x="10" y="10" sx="570" sy="80"/>
+				<buttonres_ref name="Button TASKS"/>
+				<text/>
+				<buttonres>
+					<material>ComCommon_NoDet</material>
+					<buttonstate type="passive">
+						<patch state="0" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="56" y="260" sx="60" sy="60"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="580" y="-14" sx="104" sy="104"/>
+						<texrect index="0" x="56" y="260" sx="60" sy="60"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="580" y="-10" sx="104" sy="104"/>
+						<texrect index="0" x="56" y="260" sx="60" sy="60"/>
+					</buttonstate>
+				</buttonres>
+			</button>
+			<button name="BarTALKS - BUTTON - Type BOX to CLIENT - NA">
+				<coords x="10" y="10" sx="570" sy="80"/>
+				<buttonres_ref name="Button TASKS GRAY"/>
+				<text/>
+				<buttonres>
+					<material>ComCommon_NoDet</material>
+					<buttonstate type="passive">
+						<patch state="0" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="56" y="260" sx="60" sy="60"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="56" y="260" sx="60" sy="60"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="56" y="260" sx="60" sy="60"/>
+					</buttonstate>
+				</buttonres>
+				<picture name="STOP BOX">
+					<material>ComCommon_NoDet</material>
+					<coords x="550" y="22" sx="76" sy="76"/>
+					<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+				</picture>
+			</button>
+			<button name="BarTALKS - BUTTON - Type CLIENT to ADDRESS - AVAILABLE">
+				<coords x="10" y="10" sx="570" sy="80"/>
+				<buttonres_ref name="Button TASKS"/>
+				<text/>
+				<buttonres>
+					<material>ComCommon1_NoDet</material>
+					<buttonstate type="passive">
+						<patch state="0" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="580" y="-14" sx="104" sy="104"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="580" y="-10" sx="104" sy="104"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+				</buttonres>
+			</button>
+			<button name="BarTALKS - BUTTON - Type CLIENT to ADDRESS - NA">
+				<coords x="10" y="10" sx="570" sy="80"/>
+				<buttonres_ref name="Button TASKS GRAY"/>
+				<text/>
+				<buttonres>
+					<material>ComCommon1_NoDet</material>
+					<buttonstate type="passive">
+						<patch state="0" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="590" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+					</buttonstate>
+				</buttonres>
+				<picture name="STOP CLIENT">
+					<material>ComCommon_NoDet</material>
+					<coords x="550" y="22" sx="76" sy="76"/>
+					<texrect index="0" x="64" y="320" sx="64" sy="64"/>
+				</picture>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="TABLEGROUP ELEMENTS - NEWS">
+		<picture name="LINE">
+			<coords x="0" y="0" sx="650" sy="80"/>
+			<button name="BarNews Button">
+				<coords x="0" y="10" sx="650" sy="80"/>
+				<buttonres_ref name="Button NEWS new"/>
+				<buttonres>
+					<material>ComCommon_NoDet</material>
+					<buttonstate type="passive">
+						<patch state="0" x="-14" y="-4" sx="84" sy="84"/>
+						<texrect index="0" x="56" y="200" sx="60" sy="60"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="-24" y="-14" sx="104" sy="104"/>
+						<texrect index="0" x="56" y="200" sx="60" sy="60"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="-24" y="-10" sx="104" sy="104"/>
+						<texrect index="0" x="56" y="200" sx="60" sy="60"/>
+					</buttonstate>
+				</buttonres>
+				<text/>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="News">
+		<picture name="News">
+			<material>News_NewsPAPER</material>
+			<coords x="100" y="140" sx="900" sy="845"/>
+			<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+		</picture>
+	</controlgroup>
+	<controlgroup name="NewsTEXT 1 row">
+		<picture name="News 1 row - 55 SymbPerRow - 31 pixel">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="ARTICLE">
+				<coords x="100" y="74" sx="1" sy="1"/>
+				<picture name="BackPaperShadow">
+					<coords x="560" y="776" sx="810" sy="220"/>
+					<buttonres_ref name="News_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="580" y="776" sx="770" sy="180"/>
+					<buttonres_ref name="News_PaperBack"/>
+				</picture>
+				<textfield name="TEXT - HeadLine">
+					<font>Blue Highway</font>
+					<coords x="630" y="816" sx="670" sy="36"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text/>
+				</textfield>
+				<picture name="Border DARK 1">
+					<material>News_NewsPAPER</material>
+					<coords x="630" y="864" sx="670" sy="2"/>
+					<texrect index="0" x="539" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK 2">
+					<material>News_NewsPAPER</material>
+					<coords x="630" y="868" sx="670" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<textfield name="TEXT - Body">
+					<font>Blue Highway</font>
+					<coords x="630" y="880" sx="627" sy="36"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text/>
+				</textfield>
+			</picture>
+			<picture name="GROUP - Tableranger - Newspaper">
+				<coords x="100" y="447" sx="1" sy="1"/>
+				<picture name="Tableranger - Newspaper - PIC FieldBlack">
+					<coords x="1262" y="94" sx="36" sy="437"/>
+					<texrect index="0" x="118" y="302" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark01">
+					<material>News_NewsPAPER</material>
+					<coords x="1260" y="92" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark02">
+					<material>News_NewsPAPER</material>
+					<coords x="1260" y="130" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark03">
+					<material>News_NewsPAPER</material>
+					<coords x="1260" y="493" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark04">
+					<material>News_NewsPAPER</material>
+					<coords x="1260" y="531" sx="40" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark05">
+					<material>News_NewsPAPER</material>
+					<coords x="1260" y="93" sx="2" sy="439"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Tableranger - Newspaper - PIC BorderDark06">
+					<material>News_NewsPAPER</material>
+					<coords x="1298" y="93" sx="2" sy="439"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<ranger name="Tableranger - Newspaper" orientation="vert">
+					<coords x="1262" y="132" sx="36" sy="361"/>
+					<buttonsize>36</buttonsize>
+					<page>10</page>
+					<increment>1</increment>
+					<minthumbsize>36</minthumbsize>
+					<rangerup>
+						<buttonres_ref name="Scroller ArrowUP"/>
+					</rangerup>
+					<rangerdown>
+						<buttonres_ref name="Scroller ArrowDOWN"/>
+					</rangerdown>
+					<rangerthumb>
+						<buttonres_ref name="Scroller Thumb"/>
+					</rangerthumb>
+				</ranger>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="695" y="1040" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="3DPhotoMenu">
+		<truckview name="3D PHOTO">
+			<coords x="0" y="0" sx="546" sy="271"/>
+		</truckview>
+		<picture name="3D PHOTO1">
+			<coords x="1" y="1" sx="1" sy="1"/>
+			<texrect index="0" x="66" y="0" sx="12" sy="13"/>
+		</picture>
+	</controlgroup>
+	<controlgroup name="3DPhoto">
+		<picture name="3D PHOTO">
+			<coords x="391" y="526" sx="546" sy="271"/>
+			<texrect index="0" x="0" y="0" sx="128" sy="512"/>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Dialog - Two Answers">
+		<textfield name="Dialog - Two Answers - WARNING">
+			<font>Blue Highway OUTLINED</font>
+			<coords x="200" y="974" sx="1400" sy="36"/>
+			<textres_ref name="JustText - red - left"/>
+			<text locref="common\DIALOG ANSWER - time warning">... left %SEC% sec.</text>
+		</textfield>
+		<button name="Answer01">
+			<coords x="200" y="1020" sx="1400" sy="75"/>
+			<buttonres_ref name="Button TITLES"/>
+			<text/>
+		</button>
+		<button name="Answer02">
+			<coords x="200" y="1095" sx="1400" sy="75"/>
+			<buttonres_ref name="Button TITLES"/>
+			<text/>
+		</button>
+		<picture name="Dialog - Two Answers - ProgressBar Border">
+			<material>ComCommon1_NoDet</material>
+			<coords x="500" y="1000" sx="600" sy="12"/>
+			<texrect index="0" x="37" y="11" sx="1" sy="1"/>
+		</picture>
+		<picture name="Dialog - Two Answers - ProgressBar">
+			<material>ComCommon_NoDet</material>
+			<coords x="504" y="1004" sx="592" sy="4"/>
+			<texrect index="0" x="124" y="302" sx="1" sy="1"/>
+		</picture>
+	</controlgroup>
+</menu>

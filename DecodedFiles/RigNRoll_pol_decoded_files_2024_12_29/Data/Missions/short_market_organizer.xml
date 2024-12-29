@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="short_market=market_start" description="short_market=market_start" importance="true" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="1" rank="1.5" rating="1"/>
+    <forfeit money="1" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_market=market_start=finish"/>
+    <fail_timeout_pickup description="short_market=market_start=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_market=market_start=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_start=fail_damaged"/>
+    <decline description="short_market=market_start=decline"/>
+  </element>
+  <element name="short_market=market_holod" description="short_market=market_holod" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="1.2" rank="1" rating="1"/>
+    <forfeit money="1.2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_market=market_holod=finish"/>
+    <fail_timeout_pickup description="short_market=market_holod=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_market=market_holod=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_holod=fail_damaged"/>
+    <decline description="short_market=market_holod=decline"/>
+  </element>
+  <element name="short_market=market_slots" description="short_market=market_slots" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="1.2" rank="1" rating="1"/>
+    <forfeit money="1.2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_market=market_slots=finish"/>
+    <fail_timeout_pickup description="short_market=market_slots=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_market=market_slots=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_slots=fail_damaged"/>
+    <decline description="short_market=market_slots=decline"/>
+  </element>
+  <element name="short_market=market_TV" description="short_market=market_TV" importance="true" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="2" rank="1.5" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_pickup description="short_market=market_TV=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_market=market_TV=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_TV=fail_damaged"/>
+    <decline description="short_market=market_TV=decline"/>
+  </element>
+  <element name="short_market=market_brak" description="short_market=market_brak" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_market=market_brak=finish"/>
+    <fail_timeout_complete description="short_market=market_brak=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_brak=fail_damaged"/>
+    <decline description="short_market=market_brak=decline"/>
+  </element>
+  <element name="short_market=market_mobila" description="short_market=market_mobila" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="1.3" rank="1.4" rating="1"/>
+    <forfeit money="1.3" rank="1.4" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_market=market_mobila=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_market=market_mobila=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_mobila=fail_damaged"/>
+    <decline description="short_market=market_mobila=decline"/>
+  </element>
+  <element name="short_market=market_food" description="short_market=market_food" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="0.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_market=market_food=finish"/>
+    <fail_timeout_complete description="short_market=market_food=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_food=fail_damaged"/>
+    <decline description="short_market=market_food=decline"/>
+  </element>
+  <element name="short_market=market_cd" description="short_market=market_cd" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="1.3" rank="1.5" rating="1"/>
+    <forfeit money="1" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_market=market_cd=finish"/>
+    <fail_timeout_pickup description="short_market=market_cd=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_market=market_cd=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_cd=fail_damaged"/>
+    <decline description="short_market=market_cd=decline"/>
+  </element>
+  <element name="short_market=market_plazma" description="short_market=market_plazma" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="3" rank="1" rating="1"/>
+    <forfeit money="3" rank="2" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_market=market_plazma=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_market=market_plazma=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_plazma=fail_damaged"/>
+    <decline description="short_market=market_plazma=decline"/>
+  </element>
+  <element name="short_market=market_vip" description="short_market=market_vip" importance="false" type="trailerClientDelivery" customer_npc="ID_JOSEPH_3">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_market=market_vip=finish"/>
+    <fail_timeout_complete description="short_market=market_vip=fail_timeout_complete"/>
+    <fail_damaged description="short_market=market_vip=fail_damaged"/>
+    <decline description="short_market=market_vip=decline"/>
+  </element>
+</org>
+

@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="short_ufo=ufo_lift" bounded="false" uniq="true" description="Визит в Окленд. Старт линейки. НУЖЕН. Тентованый полуприцеп без маркировки." org="short_ufo=ufo_lift" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_OK_01" finish=""/>
+    <dependences>
+      <parentFor mission="short_ufo=ufo_lift_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JEFFREY_1" resource="short_ufo=ufo_lift=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_lift=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_lift=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_SJ_03"/>
+        <point name="MP_PS_01"/>
+        <point name="MP_SF_AA_01"/>
+        <point name="MP_SF_UK_02"/>
+        <point name="MP_Ok_Sr_02"/>
+        <point name="MP_OL_SR_02"/>
+        <point name="MP_MT_01"/>
+        <point name="MP_CF_SR_02"/>
+        <point name="MP_SJ_GF_01"/>
+        <point name="MP_OK_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_SJ_03"/>
+    <point name="MP_PS_01"/>
+    <point name="MP_SF_AA_01"/>
+    <point name="MP_SF_UK_02"/>
+    <point name="MP_Ok_Sr_02"/>
+    <point name="MP_OL_SR_02"/>
+    <point name="MP_MT_01"/>
+    <point name="MP_CF_SR_02"/>
+    <point name="MP_SJ_GF_01"/>
+    <point name="MP_OK_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JEFFREY_1" resource="short_ufo=ufo_lift=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_ufo=ufo_lift=success=LiveDialog=decline"/>
+            <action name="short_ufo=ufo_lift_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_ufo=ufo_lift=success=LiveDialog=accept"/>
+            <action startmission="" name="short_ufo=ufo_lift_2"/>
+          </accept>
+          <point name="MP_OK_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OK_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_ufo=ufo_lift_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JEFFREY_1" resource="short_ufo=ufo_lift=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_lift_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_ufo=ufo_lift_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="short_ufo=ufo_lift_2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="short_ufo=ufo_lift_2" bounded="false" uniq="true" description="Доставка лифта из Окленда в Мантику. НУЖЕН. Тентованый полуприцеп без маркировки." org="short_ufo=ufo_lift_2" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_OK_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_lift_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JEFFREY_1" resource="short_ufo=ufo_lift_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JEFFREY_1" resource="short_ufo=ufo_lift_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JEFFREY_1" resource="short_ufo=ufo_lift_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_ufo=ufo_animal" bounded="false" uniq="true" description="Ягнята из Мерседа в Мантику." org="short_ufo=ufo_animal" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_Mc_Fr_02" model="LAMBS"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_animal=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_animal=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_animal=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_FR_KM_01"/>
+        <point name="MP_BK_FR_02"/>
+        <point name="MP_FR_01"/>
+        <point name="MP_MT_MW_01"/>
+        <point name="MP_MT_12"/>
+        <point name="MP_FR_KM_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_FR_KM_01"/>
+    <point name="MP_BK_FR_02"/>
+    <point name="MP_FR_01"/>
+    <point name="MP_MT_MW_01"/>
+    <point name="MP_MT_12"/>
+    <point name="MP_FR_KM_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_animal=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_animal=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_animal=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_animal=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_animal=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_ufo=ufo_lift_2"/>
+    </req>
+  </mission>
+  <mission name="short_ufo=ufo_rosuel" bounded="false" uniq="true" description="Груз из Миндена в Мантику. НУЖЕН. Контейнеровоз без маркировки." org="short_ufo=ufo_rosuel" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_RE_MD_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_rosuel=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_rosuel=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_rosuel=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_CF_RN_01"/>
+        <point name="MP_MD_04"/>
+        <point name="MP_ST_AL_02"/>
+        <point name="MP_RE_MD_01"/>
+        <point name="MP_RE_ST_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_CF_RN_01"/>
+    <point name="MP_MD_04"/>
+    <point name="MP_ST_AL_02"/>
+    <point name="MP_RE_MD_01"/>
+    <point name="MP_RE_ST_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_rosuel=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_rosuel=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_rosuel=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_rosuel=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_rosuel=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_ufo=ufo_lift_2"/>
+    </req>
+  </mission>
+  <mission name="short_ufo=ufo_eqip" bounded="false" uniq="true" description="Оборудование из Сан-Хосе в Мантику. НУЖЕН. Тентованый полуприцеп без маркировки." org="short_ufo=ufo_eqip" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SJ_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_eqip=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_eqip=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_eqip=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_SJ_03"/>
+        <point name="MP_SF_SJ_01"/>
+        <point name="MP_GF_04"/>
+        <point name="MP_GF_AT_02"/>
+        <point name="MP_KM_AT_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_SJ_03"/>
+    <point name="MP_SF_SJ_01"/>
+    <point name="MP_GF_04"/>
+    <point name="MP_GF_AT_02"/>
+    <point name="MP_KM_AT_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_eqip=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_eqip=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_eqip=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_eqip=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_eqip=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_ufo=ufo_animal"/>
+      <MissionCompleteRequirement mission="short_ufo=ufo_rosuel"/>
+    </req>
+  </mission>
+  <mission name="short_ufo=ufo_disk" bounded="false" uniq="true" description="Груз из Мохаве в Мантику. НУЖЕН. Тентованый полуприцеп без маркировки." org="short_ufo=ufo_disk" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MJ_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences>
+      <parentFor mission="short_ufo=ufo_lab"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_disk=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_disk=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_disk=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_PD_09"/>
+        <point name="MP_MJ_BS_02"/>
+        <point name="MP_MJ_LP_04"/>
+        <point name="MP_BK_07"/>
+        <point name="MP_LA_LB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_PD_09"/>
+    <point name="MP_MJ_BS_02"/>
+    <point name="MP_MJ_LP_04"/>
+    <point name="MP_BK_07"/>
+    <point name="MP_LA_LB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_disk=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_ufo=ufo_disk=success=CbVideo=decline"/>
+            <action name="short_ufo=ufo_lab" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_ufo=ufo_disk=success=CbVideo=accept"/>
+            <action startmission="" name="short_ufo=ufo_lab"/>
+          </accept>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_disk=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_lab" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_disk=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_lab" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_disk=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_lab" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_disk=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_lab" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_ufo=ufo_eqip"/>
+      <MissionCompleteRequirement mission="short_ufo=ufo_rosuel"/>
+    </req>
+  </mission>
+  <mission name="short_ufo=ufo_lab" bounded="false" uniq="true" description="Груз из Мантики в Реддинг. НУЖЕН: фургон без маркировки." org="short_ufo=ufo_lab" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_MT_06" model="AIRCRAFT_PARTS"/>
+    <point name="MP_RD_BN_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_lab=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_lab=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_lab=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_lab=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_ufo=ufo_art" bounded="false" uniq="true" description="Груз из Альтураса в Мантику. НУЖЕН: фургон без маркировки." org="short_ufo=ufo_art" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_AL_07" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences>
+      <parentFor mission="short_ufo=ufo_shar"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_art=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_art=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_art=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_ST_AL_01"/>
+        <point name="MP_BN_AL_02"/>
+        <point name="MP_BN_AL_04"/>
+        <point name="MP_ST_01"/>
+        <point name="MP_RE_ST_01"/>
+        <point name="MP_BN_AL_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_ST_AL_01"/>
+    <point name="MP_BN_AL_02"/>
+    <point name="MP_BN_AL_04"/>
+    <point name="MP_ST_01"/>
+    <point name="MP_RE_ST_01"/>
+    <point name="MP_BN_AL_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_art=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_ufo=ufo_art=success=LiveDialog=decline"/>
+            <action name="short_ufo=ufo_shar" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_ufo=ufo_art=success=LiveDialog=accept"/>
+            <action startmission="" name="short_ufo=ufo_shar"/>
+          </accept>
+          <point name="MP_MT_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_art=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_shar" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_art=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_shar" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_art=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_shar" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_art=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_shar" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_ufo=ufo_eqip"/>
+      <MissionCompleteRequirement mission="short_ufo=ufo_disk"/>
+    </req>
+  </mission>
+  <mission name="short_ufo=ufo_shar" bounded="false" uniq="true" description="Груз из Мантики в Ми-Вук-Виледж. Тентованый полуприцеп без маркировки." org="short_ufo=ufo_shar" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_MT_06" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BR_MW_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_shar=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_shar=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_shar=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_shar=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_ufo=ufo_list" bounded="false" uniq="true" description="Груз из Фресно в Мантику. НУЖЕН: фургон без маркировки." org="short_ufo=ufo_list" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_FR_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_list=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_list=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_list=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BK_07"/>
+        <point name="MP_BK_MJ_01"/>
+        <point name="MP_KM_02"/>
+        <point name="MP_Mc_Fr_01"/>
+        <point name="MP_MR_02"/>
+        <point name="MP_BK_LB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BK_07"/>
+    <point name="MP_BK_MJ_01"/>
+    <point name="MP_KM_02"/>
+    <point name="MP_Mc_Fr_01"/>
+    <point name="MP_MR_02"/>
+    <point name="MP_BK_LB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_list=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MT_06"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_list=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_list=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_list=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_list=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_ufo=ufo_lab"/>
+      <MissionCompleteRequirement mission="short_ufo=ufo_art"/>
+    </req>
+  </mission>
+  <mission name="short_ufo=ufo_grunt" bounded="false" uniq="true" description="Груз из Паттерсона в Мантику. НУЖЕН самосвал без маркировок." org="short_ufo=ufo_grunt" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_PS_04" model="CEMENT"/>
+    <point name="MP_MT_06" finish=""/>
+    <dependences>
+      <parentFor mission="short_ufo=ufo_ot&quot;ezd"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_grunt=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_ufo=ufo_grunt=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_ufo=ufo_grunt=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OK_04"/>
+        <point name="MP_MR_MT_01"/>
+        <point name="MP_FR_01"/>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_FR_KM_05"/>
+        <point name="MP_BK_MJ_01"/>
+        <point name="MP_Ok_Sr_01"/>
+        <point name="MP_OK_01"/>
+        <point name="MP_KM_AT_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OK_04"/>
+    <point name="MP_MR_MT_01"/>
+    <point name="MP_FR_01"/>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_FR_KM_05"/>
+    <point name="MP_BK_MJ_01"/>
+    <point name="MP_Ok_Sr_01"/>
+    <point name="MP_OK_01"/>
+    <point name="MP_KM_AT_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_grunt=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_ufo=ufo_grunt=success=LiveDialog=decline"/>
+            <action name="short_ufo=ufo_ot&quot;ezd" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_ufo=ufo_grunt=success=LiveDialog=accept"/>
+            <action startmission="" name="short_ufo=ufo_ot&quot;ezd"/>
+          </accept>
+          <point name="MP_MT_06"/>
+          <add_item AddItemVehicle="" model="Chevrolet_Cavalier" color="2"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MT_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_grunt=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_ot&quot;ezd" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_grunt=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_ot&quot;ezd" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_grunt=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_ot&quot;ezd" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_grunt=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_ufo=ufo_ot&quot;ezd" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_ufo=ufo_list"/>
+    </req>
+  </mission>
+  <mission name="short_ufo=ufo_ot&quot;ezd" bounded="false" uniq="true" description="Груз из Мантики в Барстоу. НУЖЕН Фургон без маркировок." org="short_ufo=ufo_ot&quot;ezd" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_MT_06" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BS_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_otezd=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BS_01"/>
+          <add_item AddItemVehicle="" model="Chevrolet_Cavalier" color="2"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BS_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_otezd=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_otezd=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CHRISTOPHER_1" resource="short_ufo=ufo_otezd=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_ufo=ufo_info" bounded="false" uniq="true" description="Завершающий информ квест линейки." org="short_ufo=ufo_info" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="RadioChannel" resource="short_ufo=ufo_info=start=Radio">
+        <appear>
+          <action journal_active="" description="short_ufo=ufo_info=start=Radio=appear"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_OV_LB_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_LB_01"/>
+    <req>
+      <MissionFinishedRequirement mission="short_ufo=ufo_ot&quot;ezd"/>
+    </req>
+  </mission>
+</missions>
+

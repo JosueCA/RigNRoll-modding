@@ -1,0 +1,101 @@
+<macro>
+	<key name="XXX_Man">
+		<value name="Man_001"/>
+		<value name="Man_002"/>
+		<value name="Man_003"/>
+		<value name="Man_004"/>
+		<value name="Man_005"/>
+		<value name="Man_006"/>
+		<value name="Man_007"/>
+		<value name="Man_008"/>
+		<value name="Man_009"/>
+		<value name="Man_010"/>
+		<value name="Man_011"/>
+		<value name="Man_012"/>
+		<value name="Man_013"/>
+		<value name="Man_014"/>
+		<value name="Man_015"/>
+		<value name="Man_016"/>
+		<value name="Man_017"/>
+		<value name="Man_018"/>
+		<value name="Man_019"/>
+		<value name="Man_020"/>
+		<value name="Man_021"/>
+		<value name="Man_022"/>
+		<value name="Man_023"/>
+		<value name="Man_024"/>
+		<value name="Man_025"/>
+		<value name="Man_026"/>
+		<value name="Man_027"/>
+		<value name="Man_028"/>
+		<value name="Man_029"/>
+		<value name="Man_030"/>
+	</key>
+	<key name="XXXMan">
+		<value name="Man_001"/>
+		<value name="Man_002"/>
+		<value name="Man_003"/>
+		<value name="Man_004"/>
+		<value name="Man_005"/>
+		<value name="Man_006"/>
+		<value name="Man_007"/>
+		<value name="Man_008"/>
+		<value name="Man_009"/>
+		<value name="Man_010"/>
+		<value name="Man_011"/>
+		<value name="Man_012"/>
+		<value name="Man_013"/>
+		<value name="Man_014"/>
+		<value name="Man_015"/>
+		<value name="Man_016"/>
+		<value name="Man_017"/>
+		<value name="Man_018"/>
+		<value name="Man_019"/>
+		<value name="Man_020"/>
+		<value name="Man_021"/>
+		<value name="Man_022"/>
+		<value name="Man_023"/>
+		<value name="Man_024"/>
+		<value name="Man_025"/>
+		<value name="Man_026"/>
+		<value name="Man_027"/>
+		<value name="Man_028"/>
+		<value name="Man_029"/>
+		<value name="Man_030"/>
+	</key>
+	<key name="XXXWoman">
+		<value name="Woman001"/>
+		<value name="Woman002"/>
+		<value name="Woman003"/>
+		<value name="Woman004"/>
+		<value name="Woman005"/>
+		<value name="Woman006"/>
+		<value name="Woman007"/>
+		<value name="Woman008"/>
+		<value name="Woman009"/>
+		<value name="Woman010"/>
+		<value name="Woman011"/>
+		<value name="Woman012"/>
+		<value name="Woman013"/>
+		<value name="Woman014"/>
+		<value name="Woman015"/>
+		<value name="Woman016"/>
+		<value name="Woman017"/>
+		<value name="Woman018"/>
+		<value name="Woman019"/>
+		<value name="Woman020"/>
+	</key>
+	<key name="XXXbarForCrash">
+		<value name="BarIn4"/>
+	</key>
+	<key name="XXXflags">
+		<value name="Little_flag"/>
+		<value name="Little_flag_SS"/>
+	</key>
+	<key name="XXXBarmen">
+		<value name="BARMEN"/>
+	</key>
+	<key name="XXXBaza">
+		<value name="Baza_bandits"/>
+	</key>
+</macro>

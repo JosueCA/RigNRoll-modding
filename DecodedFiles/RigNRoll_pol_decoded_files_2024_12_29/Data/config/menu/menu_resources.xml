@@ -1,0 +1,1589 @@
+<?xml version="1.0"?>
+<menus>
+	<Resources>
+		<menu id="consoleMENU" overlaytype="0">
+			<additional>
+				<font name="Tahoma" size="24" italic="false" bold="true"/>
+				<material name="mat_scrolldown_active_110"/>
+				<material name="mat_scrdown_pressed_110"/>
+				<material name="mat_scrup_110"/>
+				<material name="mat_thumb_110"/>
+				<material name="mat_thumb_pressed_110"/>
+				<material name="mat_thumb_active_110"/>
+				<material name="mat_menumsg_console_1_n_110"/>
+				<material name="mat_menumsg_console_2_nw_110"/>
+				<material name="mat_menumsg_console_4_sw_110"/>
+				<material name="mat_menumsg_console_5_s_110"/>
+				<material name="mat_menumsg_console_3_w_110"/>
+				<material name="mat_menumsg_console_6_center_110"/>
+			</additional>
+		</menu>
+		<menu id="introMENU" overlaytype="2">
+			<additional/>
+			<controlgroup name="anim" file="..\data\config\menu\intro.xml"/>
+		</menu>
+		<menu id="titreMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="titre" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="f2gasMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="cpecgasf2" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="f2repairMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="cpecrepairf2" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="f2barMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="cpecbarf2" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="f2motelMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="cpecmotelf2" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="f2officeMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="cpecofficef2" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="f2policeMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="cpecpolice2" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="f2defaultMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="cpdefaultf2" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="mainMENU" overlaytype="2">
+			<additional/>
+			<controlgroup name="COMMON VIDEO" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="MAIN MENU - BACKGROUND" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="DEFAULT SCREEN" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="MAIN BUTTONS" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="BUTTON TAB1" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="BUTTON TAB2" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="BUTTON TAB3" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="BUTTON TAB4" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="BUTTON TAB5" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="BUTTON TAB6" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SINGLE PLAYER - BACKGROUND" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SINGLE PLAYER - NEW GAME" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - List" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SINGLE PLAYER - LOAD GAME" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - SaveGame Lines" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - CONFIRM DELETE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - CONFIRM REPLACE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SINGLE PLAYER - GAME OPTIONS" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Slider" file="..\data\config\menu\menu_main.xml"/>
+			<control name="LampGreen" controlgroup="Tablegroup - ELEMENTS - Slider Elements" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Switch" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Switch - GRAY" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - SINGLE PLAYER - LOAD GAME - NO FILES FOUND" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - SINGLE PLAYER - LOAD GAME - DIFFERENT VERSION" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - SINGLE PLAYER - LOAD GAME - CANNOT SAVE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SETTINGS - BACKGROUND" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SETTINGS - CONTROLS" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - List Special" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - TopTenMyResults Lines" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - TopTenBestResults Lines" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - TopTen List Special CATEGORY" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - TopTen List Special CLASS" file="..\data\config\menu\menu_main.xml"/>
+			<control name="TEXT - TITLE" controlgroup="Tablegroup - ELEMENTS - 2 Texts" file="..\data\config\menu\menu_main.xml"/>
+			<control name="RADIO - VALUE" controlgroup="Tablegroup - ELEMENTS - 2 Texts" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - SETTINGS - CONTROLS - CONFIRM MESSAGE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SETTINGS - AUDIO" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="SETTINGS - VIDEO" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - SETTINGS - VIDEO - CONFIRM MESSAGE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="PROFILE - BACKGROUND" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="PROFILE - NEW PROFILE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Profile Panel" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - PROFILE -  NEW PROFILE - CONFIRM REPLACE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - PROFILE -  NEW PROFILE - CANNOT EDIT" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - PROFILE -  INFO" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="PROFILE - SELECT PROFILE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Profile Lines" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - PROFILE -  SELECT PROFILE - CONFIRM DELETE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Replay Lines" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - REPLAY - NO FILES FOUND" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="QUICK RACE - BACKGROUND" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="QUICK RACE - NEW GAME" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="QUICK RACE - TOP TEN" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="QUICK RACE - GAME OPTIONS" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="DLC STORE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - DLC Lines" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activated successfully" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Go to RNR GameStore" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activation not finished" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - No connection" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activate code failed" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Wrong serial number" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Serial number activated" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Serial number for another copy" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Unknown item" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activation error" file="..\data\config\menu\menu_main.xml"/>
+		</menu>
+		<menu id="mainRestyleMENU" overlaytype="3">
+			<additional>
+				<macro_material name="mat_%s_color_110"/>
+				<macro_material name="mat_%s_leather_110"/>
+				<macro_material name="mat_%s_dash_110"/>
+				<macro_material name="mat_%s_cloth_110"/>
+				<macro_material name="mat_%s_gauges_110"/>
+				<macro_material name="mat_%s_glass_110"/>
+				<additional_memory id="truck_plates" bytes="92736"/>
+			</additional>
+			<controlgroup name="QUICK RACE - NEW GAME - SELECT VEHICLE - RESTYLE VEHICLE" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="TABLEGROUP MenuMain RestyleVEHICLE MainColor DLC - 4 38" file="..\data\config\menu\menu_main.xml"/>
+			<controlgroup name="TABLEGROUP MenuMain RestyleVEHICLE MainColor DLC" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Border - MainColor - JustForTest 8 positions" controlgroup="MenuMain RestyleVEHICLE - Exterior - MainColor" file="..\data\config\menu\menu_main.xml"/>
+			<control name="MainColor00_pic" controlgroup="MenuMain RestyleVEHICLE - Exterior - MainColor" file="..\data\config\menu\menu_main.xml"/>
+			<control name="MainColor00" controlgroup="MenuMain RestyleVEHICLE - Exterior - MainColor" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Border - Leather - JustForTest 8 positions" controlgroup="MenuMain RestyleVEHICLE - Interior - Leather" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Leather00_pic" controlgroup="MenuMain RestyleVEHICLE - Interior - Leather" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Leather00" controlgroup="MenuMain RestyleVEHICLE - Interior - Leather" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Border - Dash - JustForTest 8 positions" controlgroup="MenuMain RestyleVEHICLE - Interior - Dash" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Dash00_pic" controlgroup="MenuMain RestyleVEHICLE - Interior - Dash" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Dash00" controlgroup="MenuMain RestyleVEHICLE - Interior - Dash" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Border - Cloth - JustForTest 8 positions" controlgroup="MenuMain RestyleVEHICLE - Interior - Cloth" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Cloth00_pic" controlgroup="MenuMain RestyleVEHICLE - Interior - Cloth" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Cloth00" controlgroup="MenuMain RestyleVEHICLE - Interior - Cloth" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Border - Gauges - JustForTest 8 positions" controlgroup="MenuMain RestyleVEHICLE - Interior - Gauges" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Gauges00_pic" controlgroup="MenuMain RestyleVEHICLE - Interior - Gauges" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Gauges00" controlgroup="MenuMain RestyleVEHICLE - Interior - Gauges" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Border - Glasses - JustForTest 8 positions" controlgroup="MenuMain RestyleVEHICLE - Exterior - Glasses" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Glasses00_pic" controlgroup="MenuMain RestyleVEHICLE - Exterior - Glasses" file="..\data\config\menu\menu_main.xml"/>
+			<control name="Glasses00" controlgroup="MenuMain RestyleVEHICLE - Exterior - Glasses" file="..\data\config\menu\menu_main.xml"/>
+		</menu>
+		<menu id="escMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Menu Esc" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="MAIN MENU" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="RESTART GAME" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="SAVE LOAD GAME" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - SaveGame Lines" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - CONFIRM DELETE" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - CONFIRM REPLACE" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - SAVELOAD - ENTER GAME NAME" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - SAVELOAD - DIFFERENT VERSION" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - SAVELOAD - CANNOT SAVE" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="OPTIONS" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="QUIT GAME" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - List Special" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Slider" file="..\data\config\menu\menu_esc.xml"/>
+			<control name="LampGreen" controlgroup="Tablegroup - ELEMENTS - Slider Elements" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - List" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Switch" file="..\data\config\menu\menu_esc.xml"/>
+			<control name="TEXT - TITLE" controlgroup="Tablegroup - ELEMENTS - 2 Texts" file="..\data\config\menu\menu_esc.xml"/>
+			<control name="RADIO - VALUE" controlgroup="Tablegroup - ELEMENTS - 2 Texts" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - SETTINGS - CONTROLS - CONFIRM MESSAGE" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - SETTINGS - VIDEO - CONFIRM MESSAGE" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - CLIPS Lines" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="LOAD CLIP" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="DLC STORE" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - DLC Lines" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activated successfully" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Go to RNR GameStore" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activation not finished" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - No connection" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activate code failed" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Wrong serial number" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Serial number activated" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Serial number for another copy" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Unknown item" file="..\data\config\menu\menu_esc.xml"/>
+			<controlgroup name="Tablegroup - DLC - Activation error" file="..\data\config\menu\menu_esc.xml"/>
+		</menu>
+		<menu id="helpMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="HELP" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="Tablegroup - HELP" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="pauseMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="PAUSE" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="pressanykeyMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="PRESS ANY KEY" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="tutorialOfficeMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="TUTORIAL - OFFICE" file="..\data\config\menu\menu_tutorial.xml"/>
+		</menu>
+		<menu id="tutorialTruckStopMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="TUTORIAL - WAREHOUSE" file="..\data\config\menu\menu_tutorial.xml"/>
+		</menu>
+		<menu id="tutorialWarehouseMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="TUTORIAL - TRUCKSTOP" file="..\data\config\menu\menu_tutorial.xml"/>
+		</menu>
+		<menu id="missioniconTrailerAMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="TIP - Type DELIVERY to CLIENT - AVAILABLE" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="TIP - Type DELIVERY to CLIENT - AVAILABLE - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="missioniconTrailerNAMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="TIP - Type DELIVERY to CLIENT - NA - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="TIP - Type DELIVERY to CLIENT - NA" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="missioniconPackageAMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="TIP - Type BOX to CLIENT - AVAILABLE - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="TIP - Type BOX to CLIENT - AVAILABLE" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="missioniconPackageNAMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="TIP - Type BOX to CLIENT - NA - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="TIP - Type BOX to CLIENT - NA" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="missioniconPassangerAMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="TIP - Type CLIENT to ADDRESS - AVAILABLE - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="TIP - Type CLIENT to ADDRESS - AVAILABLE" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="missioniconPassangerNAMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="TIP - Type CLIENT to ADDRESS - NA" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="TIP - Type CLIENT to ADDRESS - NA - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="missioniconTalkAMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="TIP - Type TALK - AVAILABLE - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="TIP - Type TALK - AVAILABLE" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="missioniconEndMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="endmission - SPEED LIMIT" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="endmission" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="headupMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="HeadUp" file="..\data\config\menu\menu_com.xml"/>
+		</menu>
+		<menu id="cbvnotifyMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="CB RADIO - CALL NOTIFICATION" file="..\data\config\menu\menu_com.xml"/>
+		</menu>
+		<menu id="cbvcallMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="CB RADIO - CALL" file="..\data\config\menu\menu_com.xml"/>
+		</menu>
+		<menu id="cbvfulldialogMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="CB RADIO - DIALOG PAUSED" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="CB RADIO - DIALOG BOX" file="..\data\config\menu\menu_com.xml"/>
+		</menu>
+		<menu id="pagerMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="pager_FM" file="..\data\config\menu\specmenu.xml"/>
+			<controlgroup name="pager" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="banner01MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="BANNER Race01" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="banner02MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="BANNER Race02" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="banner03MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="BANNER Race03" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="banner04MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="BANNER Race04" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="banner05MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="BANNER Race05" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="raceStartFinishWarehouse01MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race01 - Start/Finish" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="raceStartFinishWarehouse02MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race02 - Start/Finish" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="raceStartFinishWarehouse03MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race03 - Start/Finish" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="raceStartFinishWarehouse04MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race04 - Start/Finish" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="raceStartFinishWarehouse05MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race05 - Start/Finish" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<!--menu id="racecheckin01MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race01 - Check-IN IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="racecheckin02MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race02 - Check-IN IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="racecheckin03MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race03 - Check-IN IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="racecheckin04MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race04 - Check-IN IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="racestartin01MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race01 - Start IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="racestartin02MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race02 - Start IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="racestartin03MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race03 - Start IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="racestartin04MENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA Race04 - Start IN" file="..\data\config\menu\menu_banner.xml"/>
+		</menu-->
+		<menu id="stellaPreparingToOrdersMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA - PREPARING TO ORDERS" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="stellaPreparingToRaceMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA - PREPARING TO RACE" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="stellaWilcomMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="STELLA - WELCOME" file="..\data\config\menu\menu_banner.xml"/>
+		</menu>
+		<menu id="barMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="BAR ALL" file="..\data\config\menu\menu_bar.xml"/>
+			<controlgroup name="TABLEGROUP ELEMENTS - ACTIONS" file="..\data\config\menu\menu_bar.xml"/>
+			<controlgroup name="TABLEGROUP ELEMENTS - NEWS" file="..\data\config\menu\menu_bar.xml"/>
+			<controlgroup name="News" file="..\data\config\menu\menu_bar.xml"/>
+			<controlgroup name="NewsTEXT 1 row" file="..\data\config\menu\menu_bar.xml"/>
+			<controlgroup name="3DPhotoMenu" file="..\data\config\menu\menu_bar.xml"/>
+			<controlgroup name="3DPhoto" file="..\data\config\menu\menu_bar.xml"/>
+			<controlgroup name="Dialog - Two Answers" file="..\data\config\menu\menu_bar.xml"/>
+		</menu>
+		<menu id="officeMENU" overlaytype="1">
+			<additional>
+				<font name="Tahoma" size="24" italic="false" bold="true"/>
+				<font name="Tahoma" size="24" italic="false" bold="true"/>
+				<font name="TahomaOUTLINED" size="24" italic="false" bold="true"/>
+				<material name="mat_menu_photos_weather_00_NoDet_110"/>
+				<material name="mat_MAPicons_Menu_110"/>
+				<material name="mat_ui_part_empty_110"/>
+				<material name="mat_ui_part_1_1_110"/>
+				<material name="mat_ui_part_2_1_110"/>
+				<material name="mat_ui_part_3_1_110"/>
+				<material name="mat_ui_part_4_1_110"/>
+				<material name="mat_ui_part_1_2_110"/>
+				<material name="mat_ui_part_2_2_110"/>
+				<material name="mat_ui_part_3_2_110"/>
+				<material name="mat_ui_part_4_2_110"/>
+				<material name="mat_ui_part_1_3_110"/>
+				<material name="mat_ui_part_2_3_110"/>
+				<material name="mat_ui_part_3_3_110"/>
+				<material name="mat_ui_part_4_3_110"/>
+				<material name="mat_ui_part_1_4_110"/>
+				<material name="mat_ui_part_2_4_110"/>
+				<material name="mat_ui_part_3_4_110"/>
+				<material name="mat_ui_part_4_4_110"/>
+				<material name="mat_ui_part_1_5_110"/>
+				<material name="mat_ui_part_2_5_110"/>
+				<material name="mat_ui_part_3_5_110"/>
+				<material name="mat_ui_part_4_5_110"/>
+				<material name="mat_ui_part_1_6_110"/>
+				<material name="mat_ui_part_2_6_110"/>
+				<material name="mat_ui_part_3_6_110"/>
+				<material name="mat_ui_part_4_6_110"/>
+			</additional>
+			<controlgroup name="OFFICE" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - My Fleet" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Dealer Offers" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - MF Filer Menu" file="..\data\config\menu\menu_office.xml"/>
+			<control name="SelectSearch" controlgroup="Tablegroup - ELEMENTS - Filer Button" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="MF - Specifications - SHOW - Vehicle Details" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Drivers" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="TOOLTIP Deatiled VehicleName" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - HFD Filer Menu" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - MyTeam" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Hirelings" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="TOOLTIP - HFD - Detailed VehicleName" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - CompanyBranches" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Offices For Sale" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - CompanyBranches - AREA" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - Global Statistics - RANK" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="Message Debt" file="..\data\config\menu\menu_unsettled_debt.xml"/>
+			<controlgroup name="Menu Debt" file="..\data\config\menu\menu_unsettled_debt.xml"/>
+			<controlgroup name="MESSAGE - Not sufficient rank" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="MESSAGE - Not enough money" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="MESSAGE - Not enough turns" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="MESSAGE - Apply changes" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="MESSAGE - Not enough vehicles" file="..\data\config\menu\menu_office.xml"/>
+			<controlgroup name="TOOLTIP - FREIGHT MANAGER" file="..\data\config\menu\menu_office.xml"/>
+		</menu>
+		<menu id="gasMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Menu GAS" file="..\data\config\menu\menu_gasstation.xml"/>
+		</menu>
+		<menu id="motelMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="MenuMotel COMMON" file="..\data\config\menu\menu_motel.xml"/>
+			<controlgroup name="MenuMotel" file="..\data\config\menu\menu_motel.xml"/>
+			<controlgroup name="MESSAGE - Not enough money" file="..\data\config\menu\menu_motel.xml"/>
+		</menu>
+		<menu id="stoMENU" overlaytype="1">
+			<additional>
+				<macro_material name="mat_%s_color_110"/>
+				<macro_material name="mat_%s_leather_110"/>
+				<macro_material name="mat_%s_dash_110"/>
+				<macro_material name="mat_%s_cloth_110"/>
+				<macro_material name="mat_%s_gauges_110"/>
+				<macro_material name="mat_%s_glass_110"/>
+				<additional_memory id="truck_plates" bytes="92736"/>
+			</additional>
+			<controlgroup name="MenuREPAIR COMMON 1" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MenuRepair RepairVEHICLE" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MenuRepair RestyleVEHICLE" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MenuRepair UpgradeVEHICLE" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MenuRepair UpgradeVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MenuREPAIR COMMON 2" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MenuREPAIR CONFIRM" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MESSAGE - Not enough money" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="TABLEGROUP MenuRepair RestyleVEHICLE MainColor DLC - 4 38" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="TABLEGROUP MenuRepair RestyleVEHICLE MainColor DLC" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MESSAGE - Full repair first" file="..\data\config\menu\menu_repair.xml"/>
+			<controlgroup name="MESSAGE - Guepard unupgradable" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Border - MainColor - JustForTest 8 positions" controlgroup="MenuRepair RestyleVEHICLE - Exterior - MainColor" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="MainColor00_pic" controlgroup="MenuRepair RestyleVEHICLE - Exterior - MainColor" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="MainColor00" controlgroup="MenuRepair RestyleVEHICLE - Exterior - MainColor" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Border - Leather - JustForTest 8 positions" controlgroup="MenuRepair RestyleVEHICLE - Interior - Leather" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Leather00_pic" controlgroup="MenuRepair RestyleVEHICLE - Interior - Leather" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Leather00" controlgroup="MenuRepair RestyleVEHICLE - Interior - Leather" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Border - Dash - JustForTest 8 positions" controlgroup="MenuRepair RestyleVEHICLE - Interior - Dash" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Dash00_pic" controlgroup="MenuRepair RestyleVEHICLE - Interior - Dash" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Dash00" controlgroup="MenuRepair RestyleVEHICLE - Interior - Dash" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Border - Cloth - JustForTest 8 positions" controlgroup="MenuRepair RestyleVEHICLE - Interior - Cloth" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Cloth00_pic" controlgroup="MenuRepair RestyleVEHICLE - Interior - Cloth" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Cloth00" controlgroup="MenuRepair RestyleVEHICLE - Interior - Cloth" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Border - Gauges - JustForTest 8 positions" controlgroup="MenuRepair RestyleVEHICLE - Interior - Gauges" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Gauges00_pic" controlgroup="MenuRepair RestyleVEHICLE - Interior - Gauges" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Gauges00" controlgroup="MenuRepair RestyleVEHICLE - Interior - Gauges" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Border - Glasses - JustForTest 8 positions" controlgroup="MenuRepair RestyleVEHICLE - Exterior - Glasses" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Glasses00_pic" controlgroup="MenuRepair RestyleVEHICLE - Exterior - Glasses" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Glasses00" controlgroup="MenuRepair RestyleVEHICLE - Exterior - Glasses" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 1level - BUTTONbrowse" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 1 level - Back" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 1 level - Text Glow" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 1 level - Text" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 1level - BUTTONconditionRED" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 1level - BUTTONconditionYELLOW" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 1level - BUTTONconditionGREEN" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 2level - BUTTONbrowse" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 2 level - Back" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 2 level - Text Glow" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 2 level - Text" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 2level - BUTTONconditionRED" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 2level - BUTTONconditionYELLOW" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 2level - BUTTONconditionGREEN" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 3level - BUTTONbrowse" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 3 level - Back" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 3 level - Text Glow" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 3 level - Text" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 3level - BUTTONconditionRED" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 3level - BUTTONconditionYELLOW" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="VALUES - 3level - BUTTONconditionGREEN" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Repair Price - VALUES" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Authorize - VALUES" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+			<control name="Check BOX" controlgroup="MenuRepair RepairVEHICLE - TABLE" file="..\data\config\menu\menu_repair.xml"/>
+		</menu>
+		<menu id="warehouseMENU" overlaytype="1">
+			<additional>
+				<font name="Tahoma" size="24" italic="false" bold="true"/>
+				<font name="Tahoma" size="24" italic="false" bold="true"/>
+				<font name="TahomaOUTLINED" size="24" italic="false" bold="true"/>
+				<material name="mat_menu_photos_weather_00_NoDet_110"/>
+				<material name="mat_MAPicons_Menu_110"/>
+				<material name="mat_ui_part_empty_110"/>
+				<material name="mat_ui_part_1_1_110"/>
+				<material name="mat_ui_part_2_1_110"/>
+				<material name="mat_ui_part_3_1_110"/>
+				<material name="mat_ui_part_4_1_110"/>
+				<material name="mat_ui_part_1_2_110"/>
+				<material name="mat_ui_part_2_2_110"/>
+				<material name="mat_ui_part_3_2_110"/>
+				<material name="mat_ui_part_4_2_110"/>
+				<material name="mat_ui_part_1_3_110"/>
+				<material name="mat_ui_part_2_3_110"/>
+				<material name="mat_ui_part_3_3_110"/>
+				<material name="mat_ui_part_4_3_110"/>
+				<material name="mat_ui_part_1_4_110"/>
+				<material name="mat_ui_part_2_4_110"/>
+				<material name="mat_ui_part_3_4_110"/>
+				<material name="mat_ui_part_4_4_110"/>
+				<material name="mat_ui_part_1_5_110"/>
+				<material name="mat_ui_part_2_5_110"/>
+				<material name="mat_ui_part_3_5_110"/>
+				<material name="mat_ui_part_4_5_110"/>
+				<material name="mat_ui_part_1_6_110"/>
+				<material name="mat_ui_part_2_6_110"/>
+				<material name="mat_ui_part_3_6_110"/>
+				<material name="mat_ui_part_4_6_110"/>
+			</additional>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="TOOLTIP - MenuWarehouse - Destination DETAILS" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="TOOLTIP - CWA" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="TOOLTIP - OUT OF ORDER" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="MenuWarehouse" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - DESTINATION NOT IN AREA" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="ShiptoVALUES - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="FreightVALUES - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="ChargesVALUES - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="ShiptoVALUES GoldOrder - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="FreightVALUES GoldOrder - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="ChargesVALUES GoldOrder - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeDELIVERY - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeCONTEST - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeTENDER - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="GoldOrder - PIC" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="Freights type - PIC" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE01 - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE02 - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE03 - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE04 - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE05 - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE01_wthBALLAST - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE02_wthBALLAST - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE03_wthBALLAST - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE04_wthBALLAST - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<control name="TypeRACE05_wthBALLAST - TABLE" controlgroup="MenuWarehouse - TABLE ShiptoFreightCharges" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Race01 - QUALIFY" file="..\data\config\menu\menu_race01.xml"/>
+			<controlgroup name="Panel - Race02 - QUALIFY" file="..\data\config\menu\menu_race02.xml"/>
+			<controlgroup name="Panel - Race03 - QUALIFY" file="..\data\config\menu\menu_race03.xml"/>
+			<controlgroup name="Panel - Race04 - QUALIFY" file="..\data\config\menu\menu_race04.xml"/>
+			<controlgroup name="Panel - Race05 - QUALIFY" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="preparetoRaceInMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Common - PREPARING TO RACE - IN" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="preparetoRaceOutMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Common - PREPARING TO RACE - OUT" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="preparetoOrdersInMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Common - PREPARING TO RACE - IN" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="preparetoOrdersOutMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Common - PREPARING TO RACE - OUT" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="participantsRaceIn01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - LIST OF PARTICIPANTS - IN" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="participantsRaceOut01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - LIST OF PARTICIPANTS - OUT" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race01 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="participantsRaceIn02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - LIST OF PARTICIPANTS - IN" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="participantsRaceOut02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - LIST OF PARTICIPANTS - OUT" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race02 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="participantsRaceIn03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - LIST OF PARTICIPANTS - IN" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="participantsRaceOut03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - LIST OF PARTICIPANTS - OUT" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race03 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="participantsRaceIn04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - LIST OF PARTICIPANTS - IN" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="participantsRaceOut04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - LIST OF PARTICIPANTS - OUT" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Start Position - VALUE" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Status - READY" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Status - WAITING" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Status - STARTED" controlgroup="Panel - Race04 - LIST OF PARTICIPANTS - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="notinareaMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - NOT IN AREA" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="ordernothereMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - ORDER NOT HERE" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="missionothereMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - MISSION NOT HERE" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="semilostMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - SEMITRAILER LOST" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="deliveryFirstMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - FIRST" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="deliveryExecutedMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - EXECUTED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="contestFirstMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Contest - FIRST" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="contestExecutedMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Contest - EXECUTED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="contestDefaultMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Contest - DEFAULTED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="tenderFirstMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Tender - FIRST" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="tenderLateMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Tender - LATE" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="forfeitEvacuationMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - FORFEIT AND EVACUATION" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="missionCanceledMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - MISSION CANCELLED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="orderCanceledMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - ORDER CANCELLED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="orderCanceledCommonMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - ORDER CANCELLED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="towerdMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Common - TOWED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="deliveryDamagedMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - DAMAGED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="deliveryOrderCanceledOutMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - ORDER CANCELLED - OUT" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="contestContestCanceledOutMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Contest - CONTEST CANCELLED - OUT" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="tenderTenderCanceledOutMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Tender - TENDER CANCELLED - OUT" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="deliveryExpiredMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - EXPIRED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="tenderDefaultMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Tender - DEFAULTED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="deliveryTowedCanceledMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - TOWED AND CANCELLED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="deliveryTowedMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="COMMON" file="..\data\config\menu\menu_warehouse.xml"/>
+			<controlgroup name="Panel - Delivery - TOWED" file="..\data\config\menu\menu_warehouse.xml"/>
+		</menu>
+		<menu id="raceQualified01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - QUALIFY" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceNotQualified01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - DO NOT QUALIFY" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceCheckPointFirst01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - CHECKPOINT" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceDropOrContinue01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - DROP OR CONTINUE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceCheckpointMissed01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - CHECKPOINT MISSED" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceNotAParticipant01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - NOT A PARTICIPANT" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceWinGold01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - GRAND PRIX" file="..\data\config\menu\menu_race01.xml"/>
+			<controlgroup name="Panel - Race01 - SUMMARY REPORT" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceWinSilver01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - SILVER CUP" file="..\data\config\menu\menu_race01.xml"/>
+			<controlgroup name="Panel - Race01 - SUMMARY REPORT" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceWinBronze01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - BRONZE CUP" file="..\data\config\menu\menu_race01.xml"/>
+			<controlgroup name="Panel - Race01 - SUMMARY REPORT" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceFinish01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - FINISHED" file="..\data\config\menu\menu_race01.xml"/>
+			<controlgroup name="Panel - Race01 - SUMMARY REPORT" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<!--menu id="raceSummary01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - SUMMARY REPORT" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race01 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race01.xml"/>
+		</menu-->
+		<menu id="raceTowedDefaultedIn01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - TOWED AND DEFAULTED - IN" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceTowedDefaulted01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - TOWED AND DEFAULTED" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceCanceled01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - CANCELLED" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceDefaulted01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - DEFAULTED" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceDamagedOut01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - DAMAGED - OUT" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceCancelledOut01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - CANCELLED - OUT" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceSemitrailerLost01MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race01 - SEMITRAILER LOST" file="..\data\config\menu\menu_race01.xml"/>
+		</menu>
+		<menu id="raceQualified02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - QUALIFY" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceNotQualified02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - DO NOT QUALIFY" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceCheckPointFirst02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - CHECKPOINT" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceDropOrContinue02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - DROP OR CONTINUE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceCheckpointMissed02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - CHECKPOINT MISSED" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceNotAParticipant02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - NOT A PARTICIPANT" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceWinGold02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - GRAND PRIX" file="..\data\config\menu\menu_race02.xml"/>
+			<controlgroup name="Panel - Race02 - SUMMARY REPORT" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceWinSilver02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - SILVER CUP" file="..\data\config\menu\menu_race02.xml"/>
+			<controlgroup name="Panel - Race02 - SUMMARY REPORT" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceWinBronze02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - BRONZE CUP" file="..\data\config\menu\menu_race02.xml"/>
+			<controlgroup name="Panel - Race02 - SUMMARY REPORT" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceFinish02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - FINISHED" file="..\data\config\menu\menu_race02.xml"/>
+			<controlgroup name="Panel - Race02 - SUMMARY REPORT" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<!--menu id="raceSummary02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - SUMMARY REPORT" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race02 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race02.xml"/>
+		</menu-->
+		<menu id="raceTowedDefaultedIn02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - TOWED AND DEFAULTED - IN" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceTowedDefaulted02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - TOWED AND DEFAULTED" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceCanceled02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - CANCELLED" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceDefaulted02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - DEFAULTED" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceDamagedOut02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - DAMAGED - OUT" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceCancelledOut02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - CANCELLED - OUT" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceSemitrailerLost02MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race02 - SEMITRAILER LOST" file="..\data\config\menu\menu_race02.xml"/>
+		</menu>
+		<menu id="raceQualified03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - QUALIFY" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceNotQualified03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - DO NOT QUALIFY" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceCheckPointFirst03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - CHECKPOINT" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceDropOrContinue03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - DROP OR CONTINUE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceCheckpointMissed03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - CHECKPOINT MISSED" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceNotAParticipant03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - NOT A PARTICIPANT" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceWinGold03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - GRAND PRIX" file="..\data\config\menu\menu_race03.xml"/>
+			<controlgroup name="Panel - Race03 - SUMMARY REPORT" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceWinSilver03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - SILVER CUP" file="..\data\config\menu\menu_race03.xml"/>
+			<controlgroup name="Panel - Race03 - SUMMARY REPORT" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceWinBronze03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - BRONZE CUP" file="..\data\config\menu\menu_race03.xml"/>
+			<controlgroup name="Panel - Race03 - SUMMARY REPORT" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceFinish03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - FINISHED" file="..\data\config\menu\menu_race03.xml"/>
+			<controlgroup name="Panel - Race03 - SUMMARY REPORT" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<!--menu id="raceSummary03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - SUMMARY REPORT" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race03 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race03.xml"/>
+		</menu-->
+		<menu id="raceTowedDefaultedIn03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - TOWED AND DEFAULTED - IN" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceTowedDefaulted03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - TOWED AND DEFAULTED" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceCanceled03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - CANCELLED" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceDefaulted03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - DEFAULTED" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceDamagedOut03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - DAMAGED - OUT" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceCancelledOut03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - CANCELLED - OUT" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceSemitrailerLost03MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race03 - SEMITRAILER LOST" file="..\data\config\menu\menu_race03.xml"/>
+		</menu>
+		<menu id="raceQualified04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - QUALIFY" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceNotQualified04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - DO NOT QUALIFY" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceCheckPointFirst04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - CHECKPOINT" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceDropOrContinue04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - DROP OR CONTINUE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceCheckpointMissed04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - CHECKPOINT MISSED" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceNotAParticipant04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - NOT A PARTICIPANT" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceWinGold04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - GRAND PRIX" file="..\data\config\menu\menu_race04.xml"/>
+			<controlgroup name="Panel - Race04 - SUMMARY REPORT" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceWinSilver04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - SILVER CUP" file="..\data\config\menu\menu_race04.xml"/>
+			<controlgroup name="Panel - Race04 - SUMMARY REPORT" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceWinBronze04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - BRONZE CUP" file="..\data\config\menu\menu_race04.xml"/>
+			<controlgroup name="Panel - Race04 - SUMMARY REPORT" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceFinish04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - FINISHED" file="..\data\config\menu\menu_race04.xml"/>
+			<controlgroup name="Panel - Race04 - SUMMARY REPORT" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<!--menu id="raceSummary04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - SUMMARY REPORT" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race04 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race04.xml"/>
+		</menu-->
+		<menu id="raceTowedDefaultedIn04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - TOWED AND DEFAULTED - IN" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceTowedDefaulted04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - TOWED AND DEFAULTED" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceCanceled04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - CANCELLED" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceDefaulted04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - DEFAULTED" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceDamagedOut04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - DAMAGED - OUT" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceCancelledOut04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - CANCELLED - OUT" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceSemitrailerLost04MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race04 - SEMITRAILER LOST" file="..\data\config\menu\menu_race04.xml"/>
+		</menu>
+		<menu id="raceQualified05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - QUALIFY" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceNotQualified05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - DO NOT QUALIFY" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceCheckPointFirst05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - CHECKPOINT" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceDropOrContinue05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - DROP OR CONTINUE" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceCheckpointMissed05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - CHECKPOINT MISSED" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceNotAParticipant05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - NOT A PARTICIPANT" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceWinGold05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - GRAND PRIX" file="..\data\config\menu\menu_race05.xml"/>
+			<controlgroup name="Panel - Race05 - SUMMARY REPORT" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceWinSilver05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - SILVER CUP" file="..\data\config\menu\menu_race05.xml"/>
+			<controlgroup name="Panel - Race05 - SUMMARY REPORT" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceWinBronze05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - BRONZE CUP" file="..\data\config\menu\menu_race05.xml"/>
+			<controlgroup name="Panel - Race05 - SUMMARY REPORT" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceFinish05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - FINISHED" file="..\data\config\menu\menu_race05.xml"/>
+			<controlgroup name="Panel - Race05 - SUMMARY REPORT" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League01" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League02" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League03" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League04" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE - League05" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<!--menu id="raceSummary05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - SUMMARY REPORT" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Driver - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Rating - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Place - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Total Time - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Average Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+			<control name="Top Speed - VALUE" controlgroup="Panel - Race05 - SUMMARY REPORT - TABLE" file="..\data\config\menu\menu_race05.xml"/>
+		</menu-->
+		<menu id="raceTowedDefaultedIn05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - TOWED AND DEFAULTED - IN" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceTowedDefaulted05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - TOWED AND DEFAULTED" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceCanceled05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - CANCELLED" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceDefaulted05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - DEFAULTED" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceDamagedOut05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - DAMAGED - OUT" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceCancelledOut05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - CANCELLED - OUT" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="raceSemitrailerLost05MENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Panel - Race05 - SEMITRAILER LOST" file="..\data\config\menu\menu_race05.xml"/>
+		</menu>
+		<menu id="roadserviceMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Road Service BILL" file="..\data\config\menu\menu_roadservice.xml"/>
+		</menu>
+		<menu id="scenarioBigRaceConfirmationMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="DOCUMENT - WELCOME TO MONSTER CUP" file="..\data\config\menu\menu_documents.xml"/>
+		</menu>
+		<menu id="scenarioBillOfLadingMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="DOCUMENT - BILL OF LADING" file="..\data\config\menu\menu_documents.xml"/>
+		</menu>
+		<menu id="scenarioGoldCarrierCheckMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="DOCUMENT - GOLD CARRIER CHECK" file="..\data\config\menu\menu_documents.xml"/>
+		</menu>
+		<menu id="bridgeTallMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message BRIDGE TOLL" file="..\data\config\menu\menu_documents.xml"/>
+		</menu>
+		<menu id="policeMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Police01 - Ticket" file="..\data\config\menu\menu_police.xml"/>
+		</menu>
+		<menu id="unsettledDebtMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message Debt Sale" file="..\data\config\menu\menu_unsettled_debt.xml"/>
+		</menu>
+		<menu id="gameoverEndMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="gameoverEndWthBackgroundMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER with Black Background" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="gameoverJailMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER 01" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="gameoverMurderMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER 02" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="gameoverBankruptMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER 03" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="victoryEconomyMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message Victory_Economic" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="victoryScenarioMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message Victory_Social" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="victorySportMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message Victory_Sport" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="looseEconomyMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER_Economic" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="looseScenarioMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER_Social" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="looseSportMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER_Sport" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="gameoverTOTALMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="GameoverTOTAL" file="..\data\config\menu\menu_msg_gameover_TOTAL.xml"/>
+		</menu>
+		<menu id="gameoverInstantOrderDefaultedMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER INSTANTORDER - DEFAULTED" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="gameoverInstantOrderExecutedMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message GAMEOVER INSTANTORDER - EXECUTED" file="..\data\config\menu\menu_msg_gameover.xml"/>
+		</menu>
+		<menu id="organiserMENU" overlaytype="1">
+			<additional>
+				<font name="Tahoma" size="24" italic="false" bold="true"/>
+				<font name="Tahoma" size="24" italic="false" bold="true"/>
+				<font name="TahomaOUTLINED" size="24" italic="false" bold="true"/>
+				<material name="mat_menu_photos_weather_00_NoDet_110"/>
+				<material name="mat_MAPicons_Menu_110"/>
+				<material name="mat_ui_part_empty_110"/>
+				<material name="mat_ui_part_1_1_110"/>
+				<material name="mat_ui_part_2_1_110"/>
+				<material name="mat_ui_part_3_1_110"/>
+				<material name="mat_ui_part_4_1_110"/>
+				<material name="mat_ui_part_1_2_110"/>
+				<material name="mat_ui_part_2_2_110"/>
+				<material name="mat_ui_part_3_2_110"/>
+				<material name="mat_ui_part_4_2_110"/>
+				<material name="mat_ui_part_1_3_110"/>
+				<material name="mat_ui_part_2_3_110"/>
+				<material name="mat_ui_part_3_3_110"/>
+				<material name="mat_ui_part_4_3_110"/>
+				<material name="mat_ui_part_1_4_110"/>
+				<material name="mat_ui_part_2_4_110"/>
+				<material name="mat_ui_part_3_4_110"/>
+				<material name="mat_ui_part_4_4_110"/>
+				<material name="mat_ui_part_1_5_110"/>
+				<material name="mat_ui_part_2_5_110"/>
+				<material name="mat_ui_part_3_5_110"/>
+				<material name="mat_ui_part_4_5_110"/>
+				<material name="mat_ui_part_1_6_110"/>
+				<material name="mat_ui_part_2_6_110"/>
+				<material name="mat_ui_part_3_6_110"/>
+				<material name="mat_ui_part_4_6_110"/>
+			</additional>
+			<controlgroup name="Communicator" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - ORGANIZER - MY MISSIONS" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="TOOLTIP - ORGANIZER - MISSION DETAILS - From" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="TOOLTIP - ORGANIZER - MISSION DETAILS - To" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - JOURNAL" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - JOURNAL DATE" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - CHAMPIONSHIP - CURRENT RACE" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - CHAMPIONSHIP - CALENDAR" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="Tablegroup - ELEMENTS - CHAMPIONSHIP - TOP TEN" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="MESSAGE - JOURNAL - Add to organizer" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="MESSAGE - ORGANIZER - To cancel task" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="MESSAGE - CHAMPIONSHIP - Activate to access" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="MESSAGE - CHAMPIONSHIP - Start after TruckerOfTheYear" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="CB RADIO - WEATHER" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="TOOLTIP - common" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="TOOLTIP - BLACK SHARK" file="..\data\config\menu\menu_com.xml"/>
+		</menu>
+		<menu id="answerMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="Dialog - Two Answers" file="..\data\config\menu\menu_bar.xml"/>
+		</menu>
+		<menu id="missionSuccessMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="Message TASK EXECUTED" file="..\data\config\menu\menu_documents.xml"/>
+		</menu>
+		<menu id="inGameMapMenu" overlaytype="0">
+			<additional>
+				<font name="TahomaOUTLINED" size="24" italic="false" bold="true"/>
+				<material name="mat_map_icon_live_110"/>
+				<material name="mat_map_icon_competitor_110"/>
+				<material name="mat_map_icon_employee_110"/>
+				<material name="mat_map_icon_competitor_employee_110"/>
+				<material name="mat_map_ramka_110"/>
+				<material name="map_map_road_dest0_110"/>
+				<material name="map_map_road_dest1_110"/>
+				<material name="tex_map_compas"/>
+				<model name="model_map_s"/>
+				<model name="model_map_d"/>
+				<model name="model_map_t"/>
+				<model name="model_map_q"/>
+				<model name="model_map_m_0"/>
+				<model name="model_map_m_1"/>
+				<model name="model_map_m_2"/>
+				<model name="model_map_m_3"/>
+			</additional>
+		</menu>
+		<menu id="blackscreentitresMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="BLACK SCREEN and TITRES" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="ProgressIndicatorMENU" overlaytype="1">
+			<additional/>
+			<controlgroup name="PROGRESS_INDICATOR" file="..\data\config\menu\specmenu.xml"/>
+		</menu>
+		<menu id="gasBannerMENU" overlaytype="0">
+			<additional>
+				<material name="mat_gas_price_menu_110"/>
+			</additional>
+			<controlgroup name="GAS_PRICE_TABLO" file="..\data\config\menu\menu_gasstation.xml"/>
+		</menu>
+		<menu id="debugMENU" overlaytype="0">
+			<additional/>
+			<controlgroup name="1" file="..\data\config\menu\menu_com.xml"/>
+			<controlgroup name="2" file="..\data\config\menu\menu_com.xml"/>
+		</menu>
+	</Resources>
+</menus>

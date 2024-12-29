@@ -1,0 +1,206 @@
+<scenes>
+	<xxxenvironments>
+		<env name="cbvideo">
+			<xxx id="Man">
+				<scriptarg varname="modelname"/>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+		</env>
+	</xxxenvironments>
+	<scene name="IVAN_NEW" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\IVAN_NEW_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="SECRETARY" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\SECRETARY_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="WW" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\WW_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="POLICEMAN2" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\POLICEMAN2_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="POLICEMAN1" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\POLICEMAN1_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="PITER_PAN" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\PITER_PAN_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="ONTANELIO" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\ONTANELIO_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="ONIRI" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\ONIRI_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="MONIKA" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\MONIKA_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="MATTHEW" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\MATTHEW_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="KOHRAINE" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\KOHRAINE_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="JEY" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\JEY_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="FBI" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\FBI_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="DOROTY_NEW" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\DOROTY_NEW_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="BANDIT_JOE" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\BANDIT_JOE_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="BANDIT3" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\BANDIT3_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="BANDIT" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\BANDIT_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Man" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\Man_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="Woman" fade="off" wide="off" useshow="false">
+		<world name="cbvideo"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\cbvideo\\Woman_SBradio_cycle.txt" name="man"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+</scenes>

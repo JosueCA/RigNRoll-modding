@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<Resources>
+	<paraworld>
+		<object id="model_BarIn4"/>
+		<object id="model_BarIn"/>
+		<object id="model_BarIn2"/>
+		<object id="model_BarIn3"/>
+		<object id="model_Office"/>
+		<object id="model_Office_poor"/>
+		<object id="ROOM_MOTEL_01"/>
+		<object id="model_JohnHouse"/>
+		<object id="model_Podium"/>
+		<object id="model_Police1"/>
+	</paraworld>
+	<paraworldobject>
+		<object id="model_BarmenCloth"/>
+		<object id="model_Wine1"/>
+		<object id="model_Coca1"/>
+		<object id="model_Cup1"/>
+		<object id="model_Spoonl1"/>
+		<object id="model_Spoon1"/>
+		<object id="model_Plate1"/>
+		<object id="model_Plate2"/>
+		<object id="model_Fork1"/>
+		<object id="model_Soup1"/>
+		<object id="model_GlassSmall"/>
+	</paraworldobject>
+	<particlesobject>
+		<object id="mat_CrPart_150"/>
+		<object id="mat_DirtPart_150"/>
+		<object id="mat_RainSplash01_150"/>
+		<object id="mat_RoadClose_particle_150"/>
+		<object id="mat_WaterProtector_150"/>
+		<object id="mat_barrel_explosion2_150"/>
+		<object id="mat_barrel_explosion_150"/>
+		<object id="mat_drops_bump_540450"/>
+		<object id="mat_eff_explo_150"/>
+		<object id="mat_eff_flame_150"/>
+		<object id="mat_glass_piece_150"/>
+		<object id="mat_light_cop_blue_01_150"/>
+		<object id="mat_light_cop_red_01_150"/>
+		<object id="mat_phone_particle_150"/>
+		<object id="mat_postbox_01_particle_150"/>
+		<object id="mat_postbox_02_particle_150"/>
+		<object id="mat_postbox_03_particle_150"/>
+		<object id="mat_postbox_04_particle_150"/>
+		<object id="mat_puddle_drops_150"/>
+		<object id="mat_shoot1_150"/>
+		<object id="mat_sign_green_particle_150"/>
+		<object id="mat_smoke8_150"/>
+		<object id="mat_smoke_150"/>
+		<object id="mat_smoke_fire_150"/>
+		<object id="mat_smoke_fire_blue_150"/>
+		<object id="mat_smoke_slip_150"/>
+		<object id="mat_smoke_water_150"/>
+		<object id="mat_smoke_white8_150"/>
+		<object id="mat_sparcle1_150"/>
+		<object id="mat_sparcle2_150"/>
+		<object id="mat_RainSplash01_150"/>
+		<object id="mat_RoadClose_particle_150"/>
+		<object id="mat_barrel_explosion2_150"/>
+		<object id="mat_barrel_explosion_150"/>
+		<object id="mat_eff_explo_150"/>
+		<object id="mat_eff_flame_150"/>
+		<object id="mat_glass_piece_150"/>
+		<object id="mat_phone_particle_150"/>
+		<object id="mat_postbox_01_particle_150"/>
+		<object id="mat_postbox_02_particle_150"/>
+		<object id="mat_postbox_03_particle_150"/>
+		<object id="mat_postbox_04_particle_150"/>
+		<object id="mat_shoot1_150"/>
+		<object id="mat_sign_green_particle_150"/>
+		<object id="mat_sign_grey_particle_150"/>
+		<object id="mat_smoke8_150"/>
+		<object id="mat_smoke_150"/>
+		<object id="mat_smoke_fire_blue_150"/>
+		<object id="mat_smoke_slip_150"/>
+		<object id="mat_smoke_water_150"/>
+		<object id="mat_smoke_white8_150"/>
+		<object id="mat_sparcle1_150"/>
+		<object id="mat_sparcle2_150"/>
+	</particlesobject>
+	<scenarioobject>
+		<object id="model_Model_Prize_man_of_year"/>
+		<object id="model_Model_Prize_01"/>
+		<object id="model_Model_Prize_02"/>
+		<object id="model_Model_Prize_03"/>
+		<object id="model_Little_flag"/>
+		<object id="model_Little_flag_SS"/>
+		<object id="model_POLICEMAN2"/>
+		<object id="model_MONIKA"/>
+		<object id="model_trackcase"/>
+		<object id="model_ej"/>
+		<object id="model_stimorol_box"/>
+		<object id="model_Model_Pen_01"/>
+		<object id="model_Model_office_tablet_01"/>
+		<object id="model_Model_gun"/>
+		<object id="model_Model_Photocam_01"/>
+		<object id="model_Model_balonnik_ivan"/>
+		<object id="model_balonnik"/>
+		<object id="model_menumsg_BILL_of_LADING_1"/>
+		<object id="model_Model_20Dollars_01"/>
+		<object id="model_Model_keys"/>
+		<object id="model_Model_CoffeSmall_John"/>
+		<object id="model_Gepard_toy"/>
+		<object id="model_mayachok"/>
+		<object id="model_model_agreement_01"/>
+		<object id="model_Model_menumsg_TheBigRun_01"/>
+		<object id="model_Model_one_chip_01"/>
+		<object id="model_Model_Big_bone_bacon_taste"/>
+		<object id="model_model_order"/>
+		<object id="model_rocket_Model"/>
+		<object id="model_Model_Check_00VM"/>
+		<object id="HKMP7PDW_L"/>
+		<object id="model_papka_model"/>
+		<object id="model_Bizon"/>
+		<object id="model_mBofL_1"/>
+		<object id="model_mBR_01"/>
+		<object id="model_binokl_sil_model"/>
+		<object id="model_HKMP7PDW_L"/>
+	</scenarioobject>
+	<missionsobject>
+		<object id="model_mission_package1"/>
+		<object id="model_mission_package2"/>
+		<object id="model_mission_generator_pack"/>
+		<object id="model_mission_package_box_s1"/>
+		<object id="model_mission_package_box_s2"/>
+		<object id="model_mission_fish_pack"/>
+		<object id="model_mission_old_tv_item"/>
+		<object id="model_mission_toxic_liquid_pack"/>
+		<object id="model_mission_flowers_box"/>
+	</missionsobject>
+	<backgroundobject>
+		<object id="Background_object"/>
+	</backgroundobject>
+	<environment>
+		<object id="model_BarIn4"/>
+		<object id="model_FerrisWheel"/>
+		<object id="model_Baza_bandits"/>
+		<object id="model_LUFKIN_model"/>
+	</environment>
+</Resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbcall>
+  <element name="short_aeroport=aero_start=start=CbVideo" dialog="short_aeroport=aero_start=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_start=fail_timeout_pickup=CbVideo" dialog="short_aeroport=aero_start=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_start=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_start=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_start=fail_damaged=CbVideo" dialog="short_aeroport=aero_start=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_start=decline=CbVideo" dialog="short_aeroport=aero_start=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_beisbol=start=CbVideo" dialog="short_aeroport=aero_beisbol=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo" dialog="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_beisbol=fail_damaged=CbVideo" dialog="short_aeroport=aero_beisbol=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_beisbol=decline=CbVideo" dialog="short_aeroport=aero_beisbol=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meteo=success=CbVideo" dialog="short_aeroport=aero_meteo=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meteo=fail_damaged=CbVideo" dialog="short_aeroport=aero_meteo=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meteo=decline=CbVideo" dialog="short_aeroport=aero_meteo=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meat=start=CbVideo" dialog="short_aeroport=aero_meat=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo" dialog="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meat=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_meat=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meat=fail_damaged=CbVideo" dialog="short_aeroport=aero_meat=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_meat=decline=CbVideo" dialog="short_aeroport=aero_meat=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_radio=success=CbVideo" dialog="short_aeroport=aero_radio=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_radio=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_radio=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_radio=fail_damaged=CbVideo" dialog="short_aeroport=aero_radio=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_radio=decline=CbVideo" dialog="short_aeroport=aero_radio=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_stanok=start=CbVideo" dialog="short_aeroport=aero_stanok=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo" dialog="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_stanok=fail_damaged=CbVideo" dialog="short_aeroport=aero_stanok=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_stanok=decline=CbVideo" dialog="short_aeroport=aero_stanok=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_util=success=CbVideo" dialog="short_aeroport=aero_util=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_util=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_util=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_util=fail_damaged=CbVideo" dialog="short_aeroport=aero_util=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_util=decline=CbVideo" dialog="short_aeroport=aero_util=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_scaner=start=CbVideo" dialog="short_aeroport=aero_scaner=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo" dialog="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_scaner=fail_damaged=CbVideo" dialog="short_aeroport=aero_scaner=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_scaner=decline=CbVideo" dialog="short_aeroport=aero_scaner=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_bagaj=success=CbVideo" dialog="short_aeroport=aero_bagaj=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_bagaj=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_bagaj=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_bagaj=fail_damaged=CbVideo" dialog="short_aeroport=aero_bagaj=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_bagaj=decline=CbVideo" dialog="short_aeroport=aero_bagaj=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_fuel=start=CbVideo" dialog="short_aeroport=aero_fuel=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo" dialog="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo" dialog="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_fuel=fail_damaged=CbVideo" dialog="short_aeroport=aero_fuel=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_aeroport=aero_fuel=decline=CbVideo" dialog="short_aeroport=aero_fuel=decline=CbVideo" who="" timecall="10.5"/>
+</cbcall>
+

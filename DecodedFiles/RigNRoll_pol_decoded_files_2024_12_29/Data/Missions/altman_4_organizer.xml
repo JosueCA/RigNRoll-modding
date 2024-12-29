@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="altman_4=casino_man" description="altman_4=casino_man" importance="false" type="passangerDelivery" customer_npc="ID_MICHAEL_R_1">
+    <reward money="0" rank="1.5" rating="1"/>
+    <forfeit money="0" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=casino_man=finish"/>
+    <fail_timeout_pickup description="altman_4=casino_man=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=casino_man=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=casino_man=fail_damaged"/>
+    <decline description="altman_4=casino_man=decline"/>
+  </element>
+  <element name="altman_4=casino_man2" description="altman_4=casino_man2" importance="false" type="visit" customer_npc="ID_LINDA_1">
+    <reward money="1" rank="1.1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <finish description="altman_4=casino_man2=finish"/>
+    <fail_timeout_complete description="altman_4=casino_man2=fail_timeout_complete"/>
+    <decline description="altman_4=casino_man2=decline"/>
+  </element>
+  <element name="altman_4=car_viever" description="altman_4=car_viever" importance="false" type="passangerDelivery" customer_npc="ID_CARLOS_4">
+    <reward money="1.3" rank="1" rating="1"/>
+    <forfeit money="0" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="1.4"/>
+    <periods outoftime_mission="custom" timecoef="1.4"/>
+    <finish description="altman_4=car_viever=finish"/>
+    <fail_timeout_pickup description="altman_4=car_viever=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=car_viever=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=car_viever=fail_damaged"/>
+    <decline description="altman_4=car_viever=decline"/>
+  </element>
+  <element name="altman_4=most" description="altman_4=most" importance="false" type="trailerClientDelivery" customer="altman_4=most=customer">
+    <reward money="1.3" rank="1" rating="1"/>
+    <forfeit money="2" rank="1.3" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <finish description="altman_4=most=finish"/>
+    <fail_timeout_pickup description="altman_4=most=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=most=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=most=fail_damaged"/>
+    <decline description="altman_4=most=decline"/>
+  </element>
+  <element name="altman_4=most_info" description="altman_4=most_info"/>
+  <element name="altman_4=poezd_info" description="altman_4=poezd_info"/>
+  <element name="altman_4=poezd" description="altman_4=poezd" importance="false" type="trailerClientDelivery" customer="altman_4=poezd=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=poezd=finish"/>
+    <fail_timeout_complete description="altman_4=poezd=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=poezd=fail_damaged"/>
+    <decline description="altman_4=poezd=decline"/>
+  </element>
+  <element name="altman_4=musor_1" description="altman_4=musor_1" importance="false" type="trailerClientDelivery" customer="altman_4=musor_1=customer">
+    <reward money="0.9" rank="1.1" rating="1"/>
+    <forfeit money="0.8" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="1.3"/>
+    <periods outoftime_mission="custom" timecoef="1.3"/>
+    <start description="altman_4=musor_1=start"/>
+    <finish description="altman_4=musor_1=finish"/>
+    <fail_timeout_pickup description="altman_4=musor_1=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=musor_1=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=musor_1=fail_damaged"/>
+    <decline description="altman_4=musor_1=decline"/>
+  </element>
+  <element name="altman_4=musor_2" description="altman_4=musor_2" importance="false" type="trailerClientDelivery" customer="altman_4=musor_2=customer">
+    <reward money="0.9" rank="1" rating="1"/>
+    <forfeit money="0.8" rank="0.8" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="1.2"/>
+    <periods outoftime_mission="custom" timecoef="1.2"/>
+    <finish description="altman_4=musor_2=finish"/>
+    <fail_timeout_pickup description="altman_4=musor_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=musor_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=musor_2=fail_damaged"/>
+    <decline description="altman_4=musor_2=decline"/>
+  </element>
+  <element name="altman_4=musor_3" description="altman_4=musor_3" importance="false" type="trailerClientDelivery" customer="altman_4=musor_3=customer">
+    <reward money="0.9" rank="1" rating="1"/>
+    <forfeit money="0.8" rank="0.8" rating="0.8"/>
+    <periods outoftime_questitem="custom" timecoef="1.3"/>
+    <periods outoftime_mission="custom" timecoef="1.3"/>
+    <finish description="altman_4=musor_3=finish"/>
+    <fail_timeout_pickup description="altman_4=musor_3=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=musor_3=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=musor_3=fail_damaged"/>
+    <decline description="altman_4=musor_3=decline"/>
+  </element>
+  <element name="altman_4=rab" description="altman_4=rab" importance="false" type="passangerDelivery" customer_npc="ID_RONALD_1">
+    <reward money="0.4" rank="1" rating="1"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=rab=finish"/>
+    <fail_timeout_pickup description="altman_4=rab=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=rab=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=rab=fail_damaged"/>
+    <decline description="altman_4=rab=decline"/>
+  </element>
+  <element name="altman_4=rab_2" description="altman_4=rab_2" importance="false" type="passangerDelivery" customer_npc="ID_GREGORY_1">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="0" rank="1.2" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=rab_2=finish"/>
+    <fail_timeout_pickup description="altman_4=rab_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=rab_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=rab_2=fail_damaged"/>
+    <decline description="altman_4=rab_2=decline"/>
+  </element>
+  <element name="altman_4=cor" description="altman_4=cor" importance="false" type="passangerDelivery" customer_npc="ID_JACK_1">
+    <reward money="0.8" rank="2" rating="1"/>
+    <forfeit money="0" rank="2" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=cor=finish"/>
+    <fail_timeout_pickup description="altman_4=cor=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=cor=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=cor=fail_damaged"/>
+    <decline description="altman_4=cor=decline"/>
+  </element>
+  <element name="altman_4=bus" description="altman_4=bus" importance="false" type="passangerDelivery" customer_npc="ID_MARY_3">
+    <reward money="0" rank="2" rating="0"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=bus=finish"/>
+    <fail_timeout_pickup description="altman_4=bus=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=bus=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=bus=fail_damaged"/>
+    <decline description="altman_4=bus=decline"/>
+  </element>
+  <element name="altman_4=vis_test" description="altman_4=vis_test" importance="false" type="visit" customer_npc="ID_FRED_1">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=vis_test=finish"/>
+    <fail_timeout_complete description="altman_4=vis_test=fail_timeout_complete"/>
+    <decline description="altman_4=vis_test=decline"/>
+  </element>
+  <element name="altman_4=vis_test_2" description="altman_4=vis_test_2" importance="false" type="visit" customer_npc="ID_CHARLES_1">
+    <reward money="1" rank="0.9" rating="1"/>
+    <forfeit money="1" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <start description="altman_4=vis_test_2=start"/>
+    <finish description="altman_4=vis_test_2=finish"/>
+    <fail_timeout_complete description="altman_4=vis_test_2=fail_timeout_complete"/>
+    <decline description="altman_4=vis_test_2=decline"/>
+  </element>
+  <element name="altman_4=trans" description="altman_4=trans" importance="false" type="trailerClientDelivery" customer="altman_4=trans=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=trans=finish"/>
+    <fail_timeout_pickup description="altman_4=trans=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=trans=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=trans=fail_damaged"/>
+    <decline description="altman_4=trans=decline"/>
+  </element>
+  <element name="altman_4=trans_2" description="altman_4=trans_2" importance="false" type="trailerClientDelivery" customer="altman_4=trans_2=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=trans_2=finish"/>
+    <fail_timeout_pickup description="altman_4=trans_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=trans_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=trans_2=fail_damaged"/>
+    <decline description="altman_4=trans_2=decline"/>
+  </element>
+  <element name="altman_4=shina" description="altman_4=shina" importance="false" type="trailerClientDelivery" customer_npc="ID_ROBERT_1">
+    <reward money="0.7" rank="1.5" rating="1"/>
+    <forfeit money="0.5" rank="1.4" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=shina=finish"/>
+    <fail_timeout_pickup description="altman_4=shina=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=shina=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=shina=fail_damaged"/>
+    <decline description="altman_4=shina=decline"/>
+  </element>
+  <element name="altman_4=legenda" description="altman_4=legenda" importance="false" type="passangerDelivery" customer_npc="ID_MICHAEL_A_4">
+    <reward money="0" rank="1" rating="0"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=legenda=finish"/>
+    <fail_timeout_pickup description="altman_4=legenda=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=legenda=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=legenda=fail_damaged"/>
+    <decline description="altman_4=legenda=decline"/>
+  </element>
+  <element name="altman_4=sekta" description="altman_4=sekta" importance="false" type="passangerDelivery" customer="altman_4=sekta=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=sekta=finish"/>
+    <fail_timeout_pickup description="altman_4=sekta=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=sekta=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=sekta=fail_damaged"/>
+    <decline description="altman_4=sekta=decline"/>
+  </element>
+  <element name="altman_4=woter_chip" description="altman_4=woter_chip" importance="false" type="trailerClientDelivery" customer="altman_4=woter_chip=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="1.5"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <finish description="altman_4=woter_chip=finish"/>
+    <fail_timeout_pickup description="altman_4=woter_chip=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=woter_chip=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=woter_chip=fail_damaged"/>
+    <decline description="altman_4=woter_chip=decline"/>
+  </element>
+  <element name="altman_4=krok" description="altman_4=krok" importance="false" type="visit" customer="altman_4=krok=customer">
+    <reward money="0.2" rank="1" rating="1"/>
+    <forfeit money="0" rank="0.2" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=krok=finish"/>
+    <fail_timeout_complete description="altman_4=krok=fail_timeout_complete"/>
+    <decline description="altman_4=krok=decline"/>
+  </element>
+  <element name="altman_4=avaria" description="altman_4=avaria" importance="false" type="visit" customer_npc="ID_LARRY_4">
+    <reward money="0" rank="1.5" rating="0"/>
+    <forfeit money="0" rank="1.5" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="altman_4=avaria=finish"/>
+    <fail_timeout_complete description="altman_4=avaria=fail_timeout_complete"/>
+    <decline description="altman_4=avaria=decline"/>
+  </element>
+  <element name="altman_4=flowers" description="altman_4=flowers" importance="false" type="trailerClientDelivery" customer="altman_4=flowers=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=flowers=finish"/>
+    <fail_timeout_pickup description="altman_4=flowers=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=flowers=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=flowers=fail_damaged"/>
+    <decline description="altman_4=flowers=decline"/>
+  </element>
+  <element name="altman_4=poput_3" description="altman_4=poput_3" importance="false" type="passangerDelivery" customer_npc="ID_BRUCE_4">
+    <reward money="0.1" rank="1" rating="0"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=poput_3=finish"/>
+    <fail_timeout_pickup description="altman_4=poput_3=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=poput_3=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=poput_3=fail_damaged"/>
+    <decline description="altman_4=poput_3=decline"/>
+  </element>
+  <element name="altman_4=transport" description="altman_4=transport" importance="false" type="trailerClientDelivery" customer_npc="ID_JACK_4">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=transport=finish"/>
+    <fail_timeout_pickup description="altman_4=transport=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=transport=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=transport=fail_damaged"/>
+    <decline description="altman_4=transport=decline"/>
+  </element>
+  <element name="altman_4=passenger" description="altman_4=passenger" importance="false" type="passangerDelivery" customer_npc="ID_ANGELA_1">
+    <reward information="" money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=passenger=finish"/>
+    <fail_timeout_pickup description="altman_4=passenger=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=passenger=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=passenger=fail_damaged"/>
+    <decline description="altman_4=passenger=decline"/>
+  </element>
+  <element name="altman_4=postman_6" description="altman_4=postman_6" importance="false" type="pakageDelivery" customer_npc="ID_DAVID_4">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=postman_6=finish"/>
+    <fail_timeout_complete description="altman_4=postman_6=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=postman_6=fail_damaged"/>
+    <decline description="altman_4=postman_6=decline"/>
+  </element>
+  <element name="altman_4=qDivorce" description="altman_4=qDivorce" importance="false" type="passangerDelivery" customer_npc="ID_ANGELA_1">
+    <reward money="2" rank="-1" rating="1"/>
+    <forfeit money="0" rank="0" rating="-1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=qDivorce=finish"/>
+    <fail_timeout_pickup description="altman_4=qDivorce=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=qDivorce=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=qDivorce=fail_damaged"/>
+    <decline description="altman_4=qDivorce=decline"/>
+  </element>
+  <element name="altman_4=help_2" description="altman_4=help_2" importance="false" type="visit" customer_npc="ID_JOHN_1">
+    <reward money="0" rank="0.5" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=help_2=finish"/>
+    <fail_timeout_complete description="altman_4=help_2=fail_timeout_complete"/>
+    <decline description="altman_4=help_2=decline"/>
+  </element>
+  <element name="altman_4=cd_games" description="altman_4=cd_games" importance="false" type="trailerClientDelivery" customer_npc="ID_JOHN_1">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=cd_games=finish"/>
+    <fail_timeout_pickup description="altman_4=cd_games=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=cd_games=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=cd_games=fail_damaged"/>
+    <decline description="altman_4=cd_games=decline"/>
+  </element>
+  <element name="altman_4=ko_ko" description="altman_4=ko_ko" importance="false" type="visit" customer="altman_4=ko_ko=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="altman_4=ko_ko=fail_timeout_complete"/>
+    <decline description="altman_4=ko_ko=decline"/>
+  </element>
+  <element name="altman_4=ko_ko_2" description="altman_4=ko_ko_2" importance="false" type="trailerClientDelivery" customer="altman_4=ko_ko_2=customer">
+    <reward money="1.2" rank="1.2" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=ko_ko_2=finish"/>
+    <fail_timeout_complete description="altman_4=ko_ko_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=ko_ko_2=fail_damaged"/>
+    <decline description="altman_4=ko_ko_2=decline"/>
+  </element>
+  <element name="altman_4=big_kit" description="altman_4=big_kit" importance="false" type="visit" customer_npc="ID_JANET_3">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="2"/>
+    <periods outoftime_mission="custom" timecoef="2"/>
+    <fail_timeout_complete description="altman_4=big_kit=fail_timeout_complete"/>
+    <decline description="altman_4=big_kit=decline"/>
+  </element>
+  <element name="altman_4=big_kit_2" description="altman_4=big_kit_2" importance="false" type="trailerClientDelivery" customer_npc="ID_JANET_3">
+    <reward money="1.5" rank="1.2" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="altman_4=big_kit_2=finish"/>
+    <fail_timeout_pickup description="altman_4=big_kit_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=big_kit_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=big_kit_2=fail_damaged"/>
+    <decline description="altman_4=big_kit_2=decline"/>
+  </element>
+  <element name="altman_4=horek" description="altman_4=horek"/>
+  <element name="altman_4=horek_2" description="altman_4=horek_2" importance="false" type="pakageDelivery" customer_npc="ID_GREGORY_1">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=horek_2=finish"/>
+    <fail_timeout_complete description="altman_4=horek_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=horek_2=fail_damaged"/>
+    <decline description="altman_4=horek_2=decline"/>
+  </element>
+  <element name="altman_4=poligon" description="altman_4=poligon" importance="false" type="visit" customer="altman_4=poligon=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="altman_4=poligon=fail_timeout_complete"/>
+    <decline description="altman_4=poligon=decline"/>
+  </element>
+  <element name="altman_4=poligon_2" description="altman_4=poligon_2" importance="false" type="trailerClientDelivery" customer="altman_4=poligon_2=customer">
+    <reward money="1.8" rank="1" rating="1"/>
+    <forfeit money="0.7" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="custom" timecoef="1.5"/>
+    <finish description="altman_4=poligon_2=finish"/>
+    <fail_timeout_pickup description="altman_4=poligon_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=poligon_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=poligon_2=fail_damaged"/>
+    <decline description="altman_4=poligon_2=decline"/>
+  </element>
+  <element name="altman_4=straus" description="altman_4=straus" importance="false" type="visit" customer_npc="ID_JASON_1">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="altman_4=straus=fail_timeout_complete"/>
+    <decline description="altman_4=straus=decline"/>
+  </element>
+  <element name="altman_4=straus_2" description="altman_4=straus_2" importance="false" type="passangerDelivery" customer_npc="ID_JASON_1">
+    <reward money="0" rank="2" rating="0"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=straus_2=finish"/>
+    <fail_timeout_pickup description="altman_4=straus_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=straus_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=straus_2=fail_damaged"/>
+    <decline description="altman_4=straus_2=decline"/>
+  </element>
+  <element name="altman_4=poezd_help" description="altman_4=poezd_help" importance="false" type="visit" customer_npc="ID_GREGORY_1">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="altman_4=poezd_help=fail_timeout_complete"/>
+    <decline description="altman_4=poezd_help=decline"/>
+  </element>
+  <element name="altman_4=poezd_help2" description="altman_4=poezd_help2" importance="false" type="passangerDelivery" customer_npc="ID_GREGORY_1">
+    <reward money="0.5" rank="1" rating="0"/>
+    <forfeit money="0" rank="1" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=poezd_help2=finish"/>
+    <fail_timeout_pickup description="altman_4=poezd_help2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="altman_4=poezd_help2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=poezd_help2=fail_damaged"/>
+    <decline description="altman_4=poezd_help2=decline"/>
+  </element>
+  <element name="altman_4=cars" description="altman_4=cars" importance="false" type="visit" customer="altman_4=cars=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="altman_4=cars=fail_timeout_complete"/>
+    <decline description="altman_4=cars=decline"/>
+  </element>
+  <element name="altman_4=cars_2" description="altman_4=cars_2" importance="false" type="trailerClientDelivery" customer="altman_4=cars_2=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="altman_4=cars_2=finish"/>
+    <fail_timeout_complete description="altman_4=cars_2=fail_timeout_complete"/>
+    <fail_damaged description="altman_4=cars_2=fail_damaged"/>
+    <decline description="altman_4=cars_2=decline"/>
+  </element>
+</org>
+

@@ -1,0 +1,2468 @@
+<scenes>
+	<xxxenvironments>
+		<env name="begingame">
+			<car name="Mattcar">
+				<scriptarg varname="car"/>
+			</car>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="podium">
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+			<xxx id="_man_of_year">
+				<id>XXX_man_of_year</id>
+			</xxx>
+		</env>
+		<env name="bar">
+			<xxx id="door">
+				<id>Space_DoorBar01</id>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<matrix name="M180">
+				<vector index="0" x="-1" y="0" z="0"/>
+				<vector index="1" x="0" y="-1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="-0.095"/>
+		</env>
+		<env name="johnstreet">
+			<matrix name="Msc">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="Psc">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="randomkoh">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="behindmotel">
+			<car name="IvanCar">
+				<scriptarg varname="car"/>
+			</car>
+		</env>
+		<env name="coords">
+			<matrix name="M_180">
+				<scriptarg varname="M_180"/>
+			</matrix>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+			<vector name="Pshift">
+				<scriptarg varname="Pshift"/>
+			</vector>
+		</env>
+		<env name="coords1640">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+			<matrix name="M1">
+				<scriptarg varname="M1"/>
+			</matrix>
+			<vector name="P1">
+				<scriptarg varname="P1"/>
+			</vector>
+		</env>
+		<env name="bazashoot">
+			<xxx id="Man">
+				<id>Man_024</id>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="red_rock">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="bar2">
+			<xxx id="door">
+				<id>Space_DoorBar02</id>
+			</xxx>
+		</env>
+		<env name="bar3">
+			<xxx id="door">
+				<id>Space_DoorBar03</id>
+			</xxx>
+		</env>
+		<env name="topokinaki_office">
+			<xxx id="door">
+				<id>Space_DoorBar01</id>
+			</xxx>
+			<matrix name="Mroot">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<matrix name="M180">
+				<vector index="0" x="-1" y="0" z="0"/>
+				<vector index="1" x="0" y="-1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="Posroot" x="0" y="0" z="0"/>
+		</env>
+		<env name="johnhome">
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+		</env>
+		<env name="office">
+			<xxx id="door1">
+				<id>Space_Office_Door01</id>
+			</xxx>
+			<xxx id="door2">
+				<id>Space_Office_Door02</id>
+			</xxx>
+			<xxx id="chair1">
+				<id>Space_Office_ChairPart01</id>
+			</xxx>
+			<xxx id="chair2">
+				<id>Space_Office_ChairPart02</id>
+			</xxx>
+			<xxx id="doorholder1_1">
+				<id>Space_Office_DoorHold01</id>
+			</xxx>
+			<xxx id="doorholder1_2">
+				<id>Space_Office_DoorHold02</id>
+			</xxx>
+			<xxx id="doorholder2_1">
+				<id>Space_Office_DoorHold03</id>
+			</xxx>
+			<xxx id="doorholder2_2">
+				<id>Space_Office_DoorHold04</id>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<matrix name="M_180">
+				<vector index="0" x="-1" y="0" z="0"/>
+				<vector index="1" x="0" y="-1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+			<xxx id="Man">
+				<id>Man_020HiPoly</id>
+			</xxx>
+		</env>
+		<env name="motel">
+			<xxx id="door">
+				<id>SpaceDoor</id>
+			</xxx>
+			<xxx id="RC">
+				<id>Space_RC</id>
+			</xxx>
+			<xxx id="chair2">
+				<id>Space_ChairPart02</id>
+			</xxx>
+			<xxx id="doorholder1">
+				<id>Space_Doorhold01</id>
+			</xxx>
+			<xxx id="doorholder1">
+				<id>Space_Doorhold02</id>
+			</xxx>
+		</env>
+		<env name="police">
+			<xxx id="door">
+				<id>Space_DoorPolice</id>
+				<preset>
+					<bool value="true"/>
+					<bool value="false"/>
+					<double value="3.14"/>
+					<int value="2"/>
+					<string value="nu cho vam"/>
+					<matrix>
+						<vector index="0" x="0" y="1" z="0"/>
+						<vector index="1" x="0" y="0" z="1"/>
+						<vector index="2" x="1" y="0" z="0"/>
+						<vector index="3" x="0" y="0" z="0"/>
+					</matrix>
+					<vector x="1" y="0" z="0"/>
+				</preset>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+		</env>
+		<env name="shoot60">
+			<car name="banditCar">
+				<scriptarg varname="banditcar"/>
+			</car>
+		</env>
+		<env name="sc90">
+			<car name="IvanCar">
+				<scriptarg varname="car"/>
+			</car>
+			<car name="banditCar">
+				<scriptarg varname="banditcar"/>
+			</car>
+			<matrix name="mCar">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="pCar">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="null">
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+		</env>
+		<env name="nearBar">
+			<xxx id="door">
+				<scriptarg varname="bardoor"/>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="nearPolice">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="nearHomeOffice">
+			<xxx id="door">
+				<id>SpaceOV_OffiseDoor01</id>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="race">
+			<matrix name="mFinish">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="pFinish">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="topoquest_punktb">
+			<matrix name="m">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="v">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="topoquest_punkta">
+			<matrix name="m">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="v">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="topoquest_darktruck">
+			<car name="IvanCar">
+				<scriptarg varname="car"/>
+			</car>
+			<matrix name="m">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="v">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="dakota_cross">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="Posroot">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="bar_crash">
+			<xxx id="barForCrash">
+				<id>BarIn4</id>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="P" x="0" y="0" z="0"/>
+		</env>
+		<env name="ourcar">
+			<car name="car">
+				<scriptarg varname="car"/>
+			</car>
+		</env>
+	</xxxenvironments>
+	<scene name="00009" useshow="on" fade="on" wide="on" cutscene="">
+		<world name="begingame"/>
+		<additionmodels>
+			<vehicle name="MATCAR" cabine="true"/>
+		</additionmodels>
+		<runafter>
+			<message text="managed_black_screen"/>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00009\\IVAN_NEW_Scene00009.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00009\\MATTHEW_Scene00009.txt" id="SC_MATTHEW"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00009\\CamS00009.txt" type="anm" anmspace="Camera_CamS00009" cabinrender=""/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00009\\FREIGHTLINER_CORONADO_00009.txt" name="matcar" carref="matcar" carname="Freight_Coronado_"/>
+		<gammatrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00009\\FADE_Scene00009.txt"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00009\\SoundTrack_Scene00009.txt"/>
+		<cameras>
+			<bindpassanger nom="0">
+				<car name="Mattcar"/>
+			</bindpassanger>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+	</scene>
+	<scene name="00010" wide="on" useshow="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+			<!--message text="Turn off office panel"/-->
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<messagetrack message="Develop office panel" time="19"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\XXXdoor1_SC00010.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\XXXdoor2_SC00010.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\XXXchair2_SC00010.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\XXXchair1_SC00010.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\SECRETARY_SC00010.txt" id="SC_SECRETARY"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\MATTHEW_SC00010.txt" id="SC_MATTHEW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\IVAN_NEW_SC00010.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00010\\CamS00010_SC00010.txt" type="anm" anmspace="Camera_CamS00010"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+	</scene>
+	<scene name="00011" useshow="on" fade="on" wide="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="nearHomeOffice"/>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+		</additionmodels>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00011\\IVAN_NEW_SC00011.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00011\\KOHRAINE_SC00011.txt" id="SC_KOH"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00011\\MATTHEW_SC00011.txt" id="SC_MATTHEW"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00011\\XXXdoor_SC00011.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00011\\CamS00011_SC00011.txt" type="anm" anmspace="Camera_CamS00011"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00030cycle" useshow="false" wide="false" simple="1" fade="off">
+		<world name="randomkoh"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00030\\KOHRAINE_Scene00030_cycle.txt" id="SC_KOHLOW"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00030part1" cutscene="1">
+		<world name="randomkoh"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00030\\KOHRAINE_Scene00030_part1.txt" id="SC_KOH"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00030\\CamS00030_part1.txt" type="anm" anmspace="Camera_CamS00030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00030" cutscene="1">
+		<world name="randomkoh"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00030\\IVAN_NEW_Scene00030_part2.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00030\\KOHRAINE_Scene00030_part2.txt" id="SC_KOH"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00030\\Model_balonnik_ivan_Scene00030_part2.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00030\\CamS00030_part2.txt" type="anm" anmspace="Camera_CamS00030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00031" cutscene="1">
+		<world name="randomkoh"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00031\\IVAN_NEW_Scene00031.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00031\\KOHRAINE_Scene00031.txt" id="SC_KOH"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00031\\CamS00031.txt" type="anm" anmspace="Camera_CamS00030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00032" cutscene="1">
+		<world name="randomkoh"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00032\\IVAN_NEW_Scene00032.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00032\\KOHRAINE_Scene00032.txt" id="SC_KOH"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00032\\CamS00032.txt" type="anm" anmspace="Camera_CamS00030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00060part1" wide="off" cutscene="1">
+		<additional_scene>
+			<scene name="00060part2"/>
+		</additional_scene>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="nearBar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\DOROTY_NEW_Scene00060_part1.txt" name="dorothy" id="SC_DOROTHY"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\IVAN_NEW_Scene00060_part1.txt" name="ivan" id="SC_NICK"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\XXXdoor_Scene00060_part1.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\CamS00060_part1.txt" type="anm" anmspace="Camera_CamS00060" name="cam"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="BANDITCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00060part2" wide="off" cutscene="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="nearBar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\BANDIT3_Scene00060_part2.txt" name="bandit" id="SC_BANDIT3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\BANDIT_JOE_Scene00060_part2.txt" name="joe" id="SC_BANDITJOE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\Model_gun_Scene00060_part2.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\XXXdoor_Scene00060_part2.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060\\CamS00060_part2.txt" type="anm" anmspace="Camera_CamS00060" name="cam"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="BANDITCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00060shootbegin" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<runafter>
+			<message text="2070shootbeginfinish"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\JOE_shoot_begin.txt" name="shooter" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\gun_shoot_begin.txt" name="gun" id="SC_BANDITGUN"/>
+	</scene>
+	<scene name="00060shootfinish" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<runafter>
+			<message text="2070shootfinishfinish"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\JOE_shoot_finish.txt" name="shooter" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\gun_shoot_finish.txt" name="gun" id="SC_BANDITGUN"/>
+	</scene>
+	<scene name="00060shootcycle" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\JOE_shoot_cycle.txt" name="shooter" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\gun_shoot_cycle.txt" name="gun" id="SC_BANDITGUN"/>
+		<!--particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\shoot_shoot_cycle.txt" name="traceshoot" template="none" registertrace="bullettrace" carref="gepard"/-->
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\shoot_shoot_cycle.txt" name="shoot" template="gunshot" carref="banditcar" porosity="0.8"/>
+	</scene>
+	<scene name="00060shootingbegin_frnt" wide="off" fade="off" useshow="off" simple="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="shoot60"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\BANDIT_JOE_frnt_shoot_bgn.txt" name="bandit" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_gun_BANDIT_JOE_frnt_shoot_bgn.txt" name="gun" id="SC_BANDITGUN"/>
+	</scene>
+	<scene name="00060shooting_frnt" wide="off" fade="off" useshow="off" simple="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="shoot60"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\BANDIT_JOE_frnt_shoot_cyc.txt" name="bandit" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_gun_BANDIT_JOE_frnt_shoot_cyc.txt" name="gun" id="SC_BANDITGUN"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_shoot_BANDIT_JOE_frnt_shoot_cyc.txt" name="traceshoot" template="none" registertrace="bullettrace" carref="banditcar"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_shoot_BANDIT_JOE_frnt_shoot_cyc.txt" name="shoot" template="gunshot" carref="banditcar" registertrace="shootdacar"/>
+	</scene>
+	<scene name="00060shootingend_frnt" wide="off" fade="off" useshow="off" simple="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="shoot60"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\BANDIT_JOE_frnt_shoot_fin.txt" name="bandit" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_gun_BANDIT_JOE_frnt_shoot_fin.txt" name="gun" id="SC_BANDITGUN"/>
+	</scene>
+	<scene name="00060shootingbegin_side" wide="off" fade="off" useshow="off" simple="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="shoot60"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\BANDIT_JOE_sideback_shoot_bgn.txt" name="bandit" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_gun_BANDIT_JOE_sideback_shoot_bgn.txt" name="gun" id="SC_BANDITGUN"/>
+	</scene>
+	<scene name="00060shooting_side" wide="off" fade="off" useshow="off" simple="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="shoot60"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\BANDIT_JOE_sideback_shoot_cyc.txt" name="bandit" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_gun_BANDIT_JOE_sideback_shoot_cyc.txt" name="gun" id="SC_BANDITGUN"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_shoot_BANDIT_JOE_sideback_shoot_cyc.txt" name="traceshoot" template="none" registertrace="bullettrace" carref="banditcar"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_shoot_BANDIT_JOE_sideback_shoot_cyc.txt" name="shoot" template="gunshot" carref="banditcar" registertrace="shootdacar"/>
+	</scene>
+	<scene name="00060shootingend_side" wide="off" fade="off" useshow="off" simple="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="shoot60"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\BANDIT_JOE_sideback_shoot_fin.txt" name="bandit" id="SC_BANDITJOELOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00060shoot\\Model_gun_BANDIT_JOE_sideback_shoot_fin.txt" name="gun" id="SC_BANDITGUN"/>
+	</scene>
+	<scene name="00061" useshow="off" fade="off" wide="off" simple="">
+		<world name="coords"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00061\\CamS00061.txt" type="anm" anmspace="Camera_CamS00061"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00061\\IVAN_TRUCK_00061.txt" name="ourcar" carref="ourcar" carname="IVAN_TRUCK_"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00061\\FREIGHTLINER_ARGOSY_00061.txt" name="banditcar" carref="banditcar" carname="Freight_Argosy_"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00061\\SoundTrack_Scene00061.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M_180"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+	</scene>
+	<scene name="00065" useshow="off" cutscene="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="nearBar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\BANDIT_JOE_Scene00065.txt" id="SC_BANDITJOE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\BANDIT3_Scene00065.txt" id="SC_BANDIT3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\DOROTY_NEW_Scene00065.txt" id="SC_DOROTHY"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\IVAN_NEW_Scene00065.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\Model_gun_Scene00065.txt"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\Model_shoot_Scene00065.txt" name="shoot" template="gunshot_for_csene_00065" registertrace="shootdacar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\XXXdoor_Scene00065.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\CamS00065.txt" type="anm" anmspace="Camera_CamS00065"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00065\\SoundTrack_Scene00065.txt"/>
+		<particles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</particles>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="BANDITCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="chase00090start" fade="off" simple="1">
+		<run/>
+		<world name="sc90"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\chaseCamsStart_T1.txt" type="anm" anmspace="Camera_CamRul" name="cam1"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\chaseCamsStart2_T1.txt" type="anm" anmspace="Camera_CamRul" name="cam2"/>
+		<camera name="cam1">
+			<bindmatrix>
+				<matrix name="mCar"/>
+				<vector name="pCar"/>
+			</bindmatrix>
+		</camera>
+		<camera name="cam2">
+			<bindcar>
+				<car name="IvanCar"/>
+			</bindcar>
+		</camera>
+	</scene>
+	<scene name="chase00090" fade="off" wide="on" simple="1">
+		<run/>
+		<world name="sc90"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\chaseCams_T1.txt" type="anm" anmspace="Camera_CamRul" name="cam1"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\chaseCams_T2.txt" type="anm" anmspace="Camera_CamRul" name="cam2"/>
+		<camera name="cam1">
+			<bindcar>
+				<car name="IvanCar"/>
+			</bindcar>
+		</camera>
+		<camera name="cam2">
+			<bindcar>
+				<car name="banditCar"/>
+			</bindcar>
+		</camera>
+	</scene>
+	<scene name="00100part1" wide="on" useshow="off" fade="off" cutscene="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="sc90"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00100\\DOROTY_NEW_Scene00100_part1.txt" name="dorothy" id="SC_DOROTHY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00100\\CamS00100_pas_part1.txt" type="anm" anmspace="Camera_CamS00100" name="pass" cabinrender=""/>
+		<camera name="pass">
+			<bindpassanger nom="1">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</camera>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00100part2" wide="on" useshow="off" fade="off" cutscene="1">
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="sc90"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00100\\IVAN_NEW_Scene00100_part2.txt" name="ivan" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00100\\DOROTY_NEW_Scene00100_part2.txt" name="dorothy" id="SC_DOROTHY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00100\\CamS00100_part2.txt" type="anm" anmspace="Camera_CamS00100" name="cam" cabinrender=""/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00100\\CamS00100_out_part2.txt" type="anm" anmspace="Camera_CamS00100" name="out"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00100\\CamS00100_pas_part2.txt" type="anm" anmspace="Camera_CamS00100" name="pass" cabinrender=""/>
+		<cameras>
+			<bindcar>
+				<car name="IvanCar"/>
+			</bindcar>
+		</cameras>
+		<camera name="pass">
+			<bindpassanger nom="1">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</camera>
+		<camera name="cam">
+			<bindpassanger nom="1">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</camera>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00324" cutscene="1" fade="off">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="police"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\menumsg_BILL_of_LADING_1_sc00324.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\POLICE_SC00324.txt" id="SC_POLICE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\IVAN_NEW_SC00324.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\CamS00324_SC00324.txt" type="anm" anmspace="Camera_CamS00324"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00324_menu" cutscene="1" fade="off">
+		<world name="police"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\menumsg_BILL_of_LADING_1_sc00324_cam.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\POLICE_SC00324_cam.txt" id="SC_POLICE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\IVAN_NEW_SC00324_cam.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\CamS00324_SC00324_cam.txt" type="anm" anmspace="Camera_CamS00324"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00324_reject" cutscene="1" fade="off">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="police"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\menumsg_BILL_of_LADING_1_sc00324v1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\IVAN_NEW_SC00324v1.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\CamS00324_SC00324v1.txt" type="anm" anmspace="Camera_CamS00324"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00324_accept" cutscene="1" fade="off">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="police"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\menumsg_BILL_of_LADING_1_sc00324v2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\IVAN_NEW_SC00324v2.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00324\\CamS00324_SC00324v2.txt" type="anm" anmspace="Camera_CamS00324"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00430" fade="on" wide="on" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="bar"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00430\\XXXdoor_SC00430.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00430\\Model_20Dollars_01_SC00430.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00430\\STRANGER_SC00430.txt" id="SC_STRANGER"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00430\\IVAN_NEW_SC00430.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00430\\CamS00430_SC00430.txt" type="anm" anmspace="Camera_CamS00430"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00454" cutscene="1">
+		<world name="bar"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00454\\BANDIT_JOE_Scene00454.txt" id="SC_BANDITJOE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00454\\BANDIT_Scene00454.txt" id="SC_BANDIT"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00454\\IVAN_NEW_Scene00454.txt" id="SC_NICK"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00454\\XXXdoor_Scene00454.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00454\\CamS00454.txt" type="anm" anmspace="Camera_CamS00454"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00455" wide="on" fade="on" cutscene="1">
+		<world name="bar"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00455\\BANDIT3_Scene00455.txt" id="SC_BANDIT3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00455\\BANDIT_JOE_Scene00455.txt" id="SC_BANDITJOE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00455\\IVAN_NEW_Scene00455.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00455\\PITER_PAN_Scene00455.txt" id="SC_PITERPAN"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00455\\XXXdoor_Scene00455.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00455\\CamS00455.txt" type="anm" anmspace="Camera_CamS00455"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00465" fade="on" wide="on" cutscene="1">
+		<world name="race"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00465\\BANDIT3_Scene00465.txt" id="SC_BANDIT3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00465\\IVAN_NEW_Scene00465.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00465\\PITER_PAN_Scene00465.txt" id="SC_PITERPAN"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00465\\Model_keys_Scene00465.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00465\\CamS00465.txt" type="anm" anmspace="Camera_CamS00465"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="mFinish"/>
+				<vector name="pFinish"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="mFinish"/>
+				<vector name="pFinish"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="PITCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00480" fade="on" wide="on" useshow="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="johnhome"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00480\\ONIRI_SC00480.txt" id="SC_ONIRI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00480\\IVAN_NEW_SC00480.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00480\\Model_CoffeSmall_John_SC00480_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00480\\Model_CoffeSmall_John_SC00480_2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00480\\Gepard_toy_SC00480.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00480\\CamS00480_SC00480.txt" type="anm" anmspace="Camera_CamS00480"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00481" fade="on" wide="on" useshow="on" cutscene="1">
+		<!-- Nuzhen gruzovik  -->
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="johnhome"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00481\\ONIRI_SC00481.txt" id="SC_ONIRI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00481\\IVAN_NEW_SC00481.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00481\\Model_CoffeSmall_John_SC00481_1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00481\\Model_CoffeSmall_John_SC00481_2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00481\\Gepard_toy_SC00481.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00481\\CamS00480_SC00481.txt" type="anm" anmspace="Camera_CamS00480"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00510" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00510\\PITER_PAN_Scene00510.txt" id="SC_PITERPAN"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00510\\IVAN_NEW_Scene00510.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00510\\BANDIT3_Scene00510.txt" id="SC_BANDIT3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00510\\BANDIT_JOE_Scene00510.txt" id="SC_BANDITJOE"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00510\\CamS00510.txt" type="anm" anmspace="Camera_CamS00510"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00520" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="race"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00520\\PITER_PAN_Scene00520.txt" id="SC_PITERPAN"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00520\\IVAN_NEW_Scene00520.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00520\\CamS00520.txt" type="anm" anmspace="Camera_CamS00520"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="mFinish"/>
+				<vector name="pFinish"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="mFinish"/>
+				<vector name="pFinish"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="GEPARD"/>
+			<vehicle name="PITCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00530" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="coords"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00530\\PITER_PAN_Scene00530.txt" id="SC_PITERPAN"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00530\\IVAN_NEW_Scene00530.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00530\\CamS00530.txt" type="anm" anmspace="Camera_CamS00530"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="GEPARD"/>
+			<vehicle name="PITCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="00610" cutscene="1" wide="on" fade="off" useshow="on">
+		<!-- razvernut Cameru RAZVERNUL-->
+		<world name="topokinaki_office"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00610\\mBofL_1_Scene00610.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00610\\TOPOKINAKI_SC00610.txt" id="SC_TOPO"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00610\\IVAN_NEW_SC00610.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00610\\CamS00610_SC00610.txt" type="anm" anmspace="Camera_CamS00610"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M180"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="Mroot"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00730" wide="on" useshow="on" cutscene="1">
+		<world name="dakota_cross"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\Peterbilt_379_withRIG_Scene00730.txt" name="dakotacar" carref="dakotacar" carname="Peterbilt_379_"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\FREIGHTLINER_ARGOSY_Scene00730.txt" name="banditcar" carref="banditcar" carname="Freight_Argosy_"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\trackcase_Scene00730.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\ej_Scene00730.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\CamS00730.txt" type="anm" anmspace="Camera_CamS00730"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\SoundTrack_Scene00730.txt"/>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</vehicles>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</persons>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</cameras>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="DACOTACAR"/>
+			<vehicle name="BANDITCAR"/>
+			<vehicle name="TOPOTRAILER"/>
+		</additionmodels>
+	</scene>
+	<scene name="00750" fade="on" wide="on" cutscene="1">
+		<world name="topoquest_punkta"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00750\\IVAN_NEW_SC00750.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00750\\DOROTY_NEW_SC00750.txt" id="SC_DOROTHY"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00750\\KOHRAINE_SC00750.txt" id="SC_KOH"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00750\\CamS00750_SC00750.txt" type="anm" anmspace="Camera_CamS00750"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="m"/>
+				<vector name="v"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="m"/>
+				<vector name="v"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+			<vehicle name="DOROTHYCAR"/>
+			<vehicle name="TOPOTRAILER"/>
+		</additionmodels>
+	</scene>
+	<scene name="00830" fade="on" wide="on" cutscene="1">
+		<world name="topoquest_punktb"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00830\\DOROTY_NEW_Scene00830.txt" id="SC_DOROTHY"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00830\\KOHRAINE_Scene00830.txt" id="SC_KOH"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00830\\IVAN_NEW_Scene00830.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00830\\mayachok_Scene00830.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00830\\CamS00830.txt" type="anm" anmspace="Camera_CamS00830"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="m"/>
+				<vector name="v"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="m"/>
+				<vector name="v"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+			<vehicle name="DOROTHYCAR"/>
+			<vehicle name="TOPOTRAILER"/>
+			<vehicle name="DORTRAILER"/>
+			<vehicle name="KOHTRAILER"/>
+		</additionmodels>
+	</scene>
+	<scene name="00860_part1" fade="on" wide="on" cutscene="1">
+		<world name="topoquest_darktruck"/>
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\IVAN_NEW_Scene00860_part1.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\menumsg_BILL_of_LADING_1_Scene00860_part1.txt" name="bill"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\CamS00860_part1.txt" type="anm" anmspace="Camera_CamS00860" cabinrender=""/>
+		<cameras>
+			<bindpassanger nom="0">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</cameras>
+		<person name="billy">
+			<bindpassanger nom="0">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</person>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="DARKCAR"/>
+			<vehicle name="TOPOTRAILER"/>
+		</additionmodels>
+	</scene>
+	<scene name="00860_part2" fade="on" wide="on" cutscene="1">
+		<world name="topoquest_darktruck"/>
+		<runafter>
+			<message text="resumescript"/>
+			<message text="Igrok_car_inside"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\IVAN_NEW_Scene00860_part2.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\CamS00860_part2.txt" type="anm" anmspace="Camera_CamS00860"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="m"/>
+				<vector name="v"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="m"/>
+				<vector name="v"/>
+			</bindmatrix>
+		</persons>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="DARKCAR"/>
+			<vehicle name="TOPOTRAILER"/>
+		</additionmodels>
+	</scene>
+	<scene name="00860_part3" fade="on" wide="on" cutscene="1">
+		<world name="topoquest_darktruck"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\IVAN_NEW_Scene00860_part3.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\menumsg_BILL_of_LADING_1_Scene00860_part3.txt" name="bill"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00860\\CamS00860_part3.txt" type="anm" anmspace="Camera_CamS00860" cabinrender=""/>
+		<run/>
+		<cameras>
+			<bindpassanger nom="0">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</cameras>
+		<person name="bill">
+			<bindpassanger nom="0">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</person>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="DARKCAR"/>
+			<vehicle name="TOPOTRAILER"/>
+		</additionmodels>
+	</scene>
+	<scene name="00861" fade="on" wide="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00861\\IVAN_NEW_SC00861.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00861\\SECRETARY_SC00861.txt" id="SC_SECRETARY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00861\\CamS00861_SC00861.txt" type="anm" anmspace="Camera_CamS00861"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00861\\TOPOKINAKI_SC00861.txt" id="SC_TOPO"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00861\\Model_Pen_01_SC00861.txt"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00861\\XXXdoor1_SC00861.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00861\\model_agreement_01_SC00861.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M_180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M_180"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00930" cutscene="1">
+		<!-- razvernut Cameru RAZVERNUL-->
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<world name="police"/>
+		<itemtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\XXXdoor_SC00930.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\Model_balonnik_ivan_SC00930.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\POLICE_SC00930.txt" id="SC_POLICE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\POLICEMAN2_SC00930.txt" id="SC_POLICE2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\IVAN_NEW_SC00930.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\CamS00930_SC00930.txt" type="anm" anmspace="Camera_CamS00930"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\Sound_track_00930.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="00931" cutscene="1">
+		<!-- Vozmozhno nado popravit Cameru v zavisimosti ot polozheniya gruzovikov v scene POPRAVIL-->
+		<run/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="nearPolice"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00931\\KOHRAINE_SC00931.txt" id="SC_KOH"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00931\\IVAN_NEW_SC00931.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00931\\CamS00931_SC00931.txt" type="anm" anmspace="Camera_CamS00931"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="KOHCAR"/>
+			<vehicle name="DACOTACAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="01030_part1" fade="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part1\\mBofL_1_Scene01030_Part1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part1\\mBofL_2_Scene01030_Part1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part1\\mBR_01_Scene01030_Part1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part1\\FBI_SC01030_Part1.txt" id="SC_FBI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part1\\IVAN_NEW_SC01030_Part1.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part1\\SECRETARY_SC01030_Part1.txt" id="SC_SECRETARY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part1\\CamS01030_SC01030_Part1.txt" type="anm" anmspace="Camera_CamS01030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01030_part2" fade="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part2\\mBR_01_Scene01030__SPart2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part2\\Model_office_tablet_01_SC01030_Part2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part2\\mBofL_1_Scene01030_Part2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part2\\mBofL_2_Scene01030_Part2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part2\\IVAN_NEW_SC01030_Part2.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part2\\SECRETARY_SC01030_Part2.txt" id="SC_SECRETARY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\Part2\\CamS01030_SC01030_Part2.txt" type="anm" anmspace="Camera_CamS01030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01030_part3" wide="on" fade="off" useshow="off" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\SteelPart2\\mBR_01_SC01030_SPart2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\SteelPart2\\Model_office_tablet_01_SC01030_Part2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\SteelPart2\\mBofL_1_Scene01030_SPart2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\SteelPart2\\mBofL_2_Scene01030_SPart2.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\SteelPart2\\IVAN_NEW_SC01030_Part2.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\SteelPart2\\CamS01030_SC01030_Part2.txt" type="anm" anmspace="Camera_CamS01030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01030_part4" fade="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\mBofL_1_Scene01030.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\Model_office_tablet_01_SC01030_End1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\mBofL_2_Scene01030.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\mBR_01_Scene01030.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\IVAN_NEW_SC01030_End1.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\SECRETARY_SC01030_End1.txt" id="SC_SECRETARY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\CamS01030_SC01030_End1.txt" type="anm" anmspace="Camera_CamS01030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01030_part5" fade="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\mBofL_1_Scene01030.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\Model_office_tablet_01_SC01030_End1.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\mBofL_2_Scene01030.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\mBR_01_Scene01030.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\IVAN_NEW_SC01030_End2.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\SECRETARY_SC01030_End1.txt" id="SC_SECRETARY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01030\\End1\\CamS01030_SC01030_End1.txt" type="anm" anmspace="Camera_CamS01030"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01080_big_bone" fade="on" wide="on" useshow="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="johnhome"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\ONIRI_SC01080_big_bon_01.txt" id="SC_ONIRI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\IVAN_NEW_SC01080_big_bon_01.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\Model_one_chip_02_SC01080_big_bon_01.txt" name="chips1"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\Model_one_chip_01_SC01080_big_bon_01.txt" name="chips2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\Model_CoffeSmall_John_1_SC01080_big_bon_01.txt" name="coffee1"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\Model_CoffeSmall_John_SC01080_big_bon_01.txt" name="coffee2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\Model_CoffeSmall_John_2_SC01080_big_bon_01.txt" name="coffee3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\Model_Big_bone_bacon_taste_SC01080_big_bon_01.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC01080_big_bone\\CamS01080_SC01080_big_bon_01.txt" type="anm" anmspace="Camera_CamS01080"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01100" fade="on" cutscene="1" useshow="off">
+		<!-- razvernut Cameru RAZVERNUL-->
+		<!-- proverit model offisa (kreslo) -->
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="johnstreet"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01100\\ONIRI_SC01100.txt" id="SC_ONIRI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01100\\IVAN_NEW_SC01100.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01100\\CamS01100_SC01100.txt" type="anm" anmspace="Camera_CamS01100"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="Msc"/>
+				<vector name="Psc"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="Msc"/>
+				<vector name="Psc"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="01190" fade="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\FBI_SC01190.txt" id="SC_FBI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\IVAN_NEW_SC01190.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\model_agreement_01_SC01190.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\Man_SC01190.txt" id="ID_FISCAL"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\CamS01190_SC01190.txt" type="anm" anmspace="Camera_CamS01190"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="bankrupt" fade="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="bankrupt"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\IVAN_NEW_SC01190.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\model_agreement_01_SC01190.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\Man_SC01190.txt" id="ID_FISCAL"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01190\\CamS01190_SC01190.txt" type="anm" anmspace="Camera_CamS01190"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01200" fade="on" cutscene="1">
+		<!-- razvernut Cameru RAZVERNUL-->
+		<!-- proverit model offisa (kreslo) -->
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01200\\FBI_SC01200.txt" id="SC_FBI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01200\\IVAN_NEW_SC01200.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01200\\CamS01200_SC01200.txt" type="anm" anmspace="Camera_CamS01200"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01370" wide="on" useshow="off" fade="off" simple="1">
+		<world name="coords"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01370\\Ivan_Active_Truck_Scene01370.txt" name="ourcar" carref="ourcar" carname="Kenworth_T600_"/>
+		<messagetrack message="Blow" time="21.33"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01370\\CamS01370.txt" type="anm" anmspace="Camera_CamS01370"/>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+	</scene>
+	<scene name="01370_1" wide="on" useshow="off" fade="off" simple="1">
+		<world name="coords"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01370\\Ivan_Active_Truck_Scene01370.txt" name="ourcar" carref="ourcar" carname="Kenworth_T600_"/>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+	</scene>
+	<scene name="01380" fade="off" wide="on" useshow="off" simple="1">
+		<world name="coords"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01380\\CamS01380.txt" type="anm" anmspace="Camera_CamS01380"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01380\\Ivan_Active_Truck_Scene01380.txt" name="ourcar" carref="ourcar" carname="Kenworth_T600_"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01380\\KENWORTH_T600W_Scene01380.txt" name="matcar" carref="matcar" carname="Kenworth_T600_"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+	</scene>
+	<scene name="01420" fade="on" wide="on" useshow="off" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="office"/>
+		<messagetrack message="Turn off office panel" time="0"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01420\\IVAN_NEW_Scene01420.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01420\\MONIKA_Scene01420.txt" id="SC_MONICA"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01420\\ONTANELIO_Scene01420.txt" id="SC_ONTANIELO"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01420\\SECRETARY_Scene01420.txt" id="SC_SECRETARY"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01420\\CamS01420.txt" type="anm" anmspace="Camera_CamS01420"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01440" fade="on" wide="on" useshow="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="police"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01440\\POLICE_SC01440.txt" id="SC_POLICE"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01440\\IVAN_NEW_SC01440.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01440\\model_order_SC01440.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01440\\CamS01440_SC01440.txt" type="anm" anmspace="Camera_CamS01440"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="01540" fade="on" wide="on" useshow="on" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="red_rock"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\CamS01540.txt" type="anm" anmspace="Camera_CamS01540"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\rocket_Model_Scene01540.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\MATTHEW_rul_cycle.txt" id="SC_MATTHEW"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\Ivan_Active_Truck_Scene01540.txt" name="ourcar" carref="ourcar" carname="TruckIvan_"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\KENWORTH_T600W_Scene01540.txt" name="matcar" carref="matcar" carname="Kenworth_T600_"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\smoke_Model_Scene01540.txt" name="shoot" template="scene1540_1"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\fire_Model_Scene01540.txt" name="shoot" template="scene1540_2"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01540\\SoundTrack_Scene01540.txt"/>
+		<messagetrack message="Blow1" time="14.5"/>
+		<messagetrack message="RepairMatCar" time="16.0"/>
+		<messagetrack message="Blow2" time="16"/>
+		<particles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</particles>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="MATCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="01541" fade="on" wide="on" useshow="on" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="red_rock"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01541\\CamS01541.txt" type="anm" anmspace="Camera_CamS01541"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01541\\rocket_Model_Scene01541.txt"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01541\\Ivan_Active_Truck_Scene01541.txt" name="ourcar" carref="ourcar" carname="TruckIvan_"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01541\\KENWORTH_T600W_Scene01541.txt" name="matcar" carref="matcar" carname="Kenworth_T600_"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01541\\smoke_Model_Scene01541.txt" name="shoot" template="scene1540_1"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01541\\fire_Model_Scene01541.txt" name="shoot" template="scene1540_2"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01541\\SoundTrack_Scene01541.txt"/>
+		<messagetrack message="Blow1" time="15"/>
+		<messagetrack message="RepairMatCar" time="16.0"/>
+		<messagetrack message="Blow2" time="16"/>
+		<particles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</particles>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<additionmodels>
+			<vehicle name="OURCAR"/>
+			<vehicle name="MATCAR"/>
+		</additionmodels>
+	</scene>
+	<scene name="01620" fade="on" wide="on" useshow="on" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="behindmotel"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01620\\MONIKA_Scene01620.txt" id="SC_MONICA"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01620\\CamS00100_pas.txt" type="anm" anmspace="Camera_CamS00100" name="cam1" cabinrender=""/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01620\\IVAN_NEW_Scene01620.txt" id="SC_NICK"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01620\\CamS01620.txt" type="anm" anmspace="Camera_CamS00100" name="cam2" cabinrender=""/>
+		<camera name="cam1">
+			<bindpassanger nom="1">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</camera>
+		<camera name="cam2">
+			<bindpassanger nom="0">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</camera>
+	</scene>
+	<scene name="01640" fade="on" wide="on" useshow="on" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="coords1640"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01640\\MONIKA_Scene01640.txt" id="SC_MONICA"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01640\\IVAN_NEW_Scene01640.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01640\\binokl_sil_model_Scene01640.txt" name="binokl"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01640\\Baza_Model_Scene01640.txt" name="baza"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01640\\CamS01640.txt" type="anm" anmspace="Camera_CamS01640"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<person name="binokl">
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</person>
+	</scene>
+	<scene name="01650" fade="on" wide="on" useshow="on" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="behindmotel"/>
+		<!--cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01620\\CamS01620.txt" type="anm" anmspace="Camera_CamS01620"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01620\\IVAN_NEW_Scene01620.txt"/-->
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01650\\MONIKA_Scene01650.txt" id="SC_MONICA"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\01620\\CamS00100_pas.txt" type="anm" anmspace="Camera_CamS00100" cabinrender=""/>
+		<cameras>
+			<bindpassanger nom="1">
+				<car name="IvanCar"/>
+			</bindpassanger>
+		</cameras>
+	</scene>
+	<scene name="02025" wide="on" useshow="off" fade="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="coords"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02025\\IVAN_NEW_SC02025.txt" name="" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02025\\ONIRI_SC02025.txt" name="" id="SC_ONIRI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02025\\ONTANELIO_SC02025.txt" name="" id="SC_ONTANIELO"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02025\\CamS02025_SC02025.txt" type="anm" anmspace="Camera_CamS02025"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="02030" wide="on" useshow="off" fade="off" simple="1">
+		<world name="coords"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\Peterbilt_379_withRIG_Scene02030.txt" name="DAKOTA" carref="DAKOTA" carname="Peterbilt_379_">
+			<space>BoothSpace</space>
+			<space>CaseSpace</space>
+			<space>Axe0Space</space>
+			<space>Axe1Space</space>
+		</vehicletrack>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\GMC_TopKick4500_John_tramplin_Scene02030.txt" name="JOHN" carref="JOHN" carname="GMC_TopKick4500_John_tramplin_">
+			<space>BoothSpace</space>
+			<space>BumperSpace</space>
+			<space>CaseSpace</space>
+			<space>door2Space</space>
+			<space>door3Space</space>
+			<space>door4Space</space>
+			<space>Damper_main_space</space>
+			<space>Damper_slave_space</space>
+			<space>Leb_space</space>
+			<space>Tramp_bwd_part_space</space>
+			<space>Tramp_bwd_stand_space</space>
+			<space>Tramp_fwd_part_space</space>
+			<space>Tramp_fwd_part_stand_space</space>
+			<space>Tramp_master_space</space>
+			<space>Tramplin_Space</space>
+		</vehicletrack>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\Baza_Model_Scene02030.txt" name="baza"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\CamS02030.txt" type="anm" anmspace="Camera_CamS02030"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\SoundTrack_part1_1_Scene02030.txt"/>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="02031" wide="off" useshow="off" simple="1" fade="off">
+		<world name="coords"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\ONIRI_Scene02030.txt"/>
+	</scene>
+	<scene name="02040a_part1" fade="off" wide="on" useshow="off" simple="1">
+		<world name="coords"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040a\\Baza_Model_Scene02040_part1.txt" name="baza"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040a\\CamS02040_part1.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040a\\Peterbilt_379_Scene02040.txt" name="DAKOTA" carref="DAKOTA" carname="Peterbilt_379_"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\SoundTrack_part1_2_Scene02030.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="02040a_part2" fade="off" wide="off" useshow="off" simple="1">
+		<world name="coords"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040a\\Baza_Model_Scene02040_part2.txt" name="baza"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\SoundTrack_cycle_Scene02030.txt"/>
+	</scene>
+	<scene name="02040a_part3" fade="off" wide="on" useshow="off" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="coords"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040a\\Baza_Model_Scene02040_part3.txt" name="baza"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040a\\CamS02040_part3.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02030\\SoundTrack_part2_Scene02030.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+	</scene>
+	<scene name="02045" fade="on" wide="on" useshow="off" cutscene="1">
+		<world name="bazashoot"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02045c\\Baza_bandits_Scene02045c.txt" name="baza"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02045c\\CamS02045c.txt" type="anm" anmspace="Camera_CamS02045c"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02045c\\XXXMan_Scene02045c.txt" name="shooter"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02045c\\HKMP7PDW_L_Scene02045c.txt" name="gun"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02045c\\Model_shoot_Scene02045c.txt" name="shoot" template="scene1540_2"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<particles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</particles>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="02040" fade="on" wide="on" useshow="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="coords"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\POLICEMAN1_SC02040.txt" id="SC_POLICE1LOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\Model_Pen_01_SC02040.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\POLICEMAN2_SC02040.txt" id="SC_POLICE2LOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\ONTANELIO_SC02040.txt" id="SC_ONTANIELOLOW" name="dakota"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\ONIRI_SC02040.txt" id="SC_ONIRI"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\Model_office_tablet_01_Scene02040.txt" id=""/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\KOHRAINE_SC02040.txt" id="SC_KOH"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\IVAN_NEW_SC02040.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\DOROTY_NEW_SC02040.txt" id="SC_DOROTHY"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\FBI_SC02040.txt" id="SC_FBILOW"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\Police_Car_SC02040_01.txt" name="police1" carref="police1" carname="Police01_"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\Police_Car_SC02040_02.txt" name="police2" carref="police2" carname="Police01_"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02040\\CamS02040_SC02040.txt" type="anm" anmspace="Camera_CamS02040"/>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="02050" fade="on" wide="on" useshow="on" cutscene="1">
+		<world name="bar_crash"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\XXXbarForCrash_Scene02050.txt" name="bar"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\CamS02050_part1.txt" type="anm" anmspace="Camera_CamS02050"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\KOHRAINE_Scene02050.txt" id="SC_KOH"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\IVAN_NEW_Scene02050_part1.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\ONTANELIO_Scene02050_part1.txt" id="SC_ONTANIELO"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\DOROTY_NEW_Scene02050.txt" id="SC_DOROTHY"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\papka_model_Scene02050.txt"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\Peterbilt_379_inBar_Scene02050.txt" name="madcar" carref="madcar" carname="Peterbilt_379_"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\SoundTrack_Scene02050.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="02050_part2" fade="on" wide="on" useshow="on" cutscene="1">
+		<world name="coords"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\CamS02050_part2.txt" type="anm" anmspace="Camera_CamS02050"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\IVAN_NEW_Scene02050_part2.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02050\\ONTANELIO_Scene02050_part2.txt" id="SC_ONTANIELO"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="02060" fade="on" wide="on" useshow="off" cutscene="1">
+		<world name="ourcar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02060\\ROCKET_LAUNCHER_Scene02060.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02060\\CamS02060.txt" type="anm" anmspace="Camera_CamS02060"/>
+		<cameras>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</cameras>
+		<persons>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</persons>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+	</scene>
+	<scene name="02065" fade="on" wide="on" useshow="off" cutscene="1">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="ourcar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02065\\ONTANELIO_Scene02065.txt" id="SC_ONTANIELO"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02065\\Model_HKMP7PDW_Scene02065.txt" id="SC_DAKOTAGUN" name="gun"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02065\\CamS02065.txt" type="anm" anmspace="Camera_CamS02065" cabinrender=""/>
+		<cameras>
+			<bindpassanger nom="1">
+				<car name="car"/>
+			</bindpassanger>
+		</cameras>
+	</scene>
+	<scene name="02070shootbegin" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<runafter>
+			<message text="2070shootbeginfinish"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\ONTANELIO_shoot_begin.txt" name="dakota" id="SC_ONTANIELOLOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\gun_shoot_begin.txt" name="gun"/>
+	</scene>
+	<scene name="02070shootfinish" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<runafter>
+			<message text="2070shootfinishfinish"/>
+		</runafter>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\ONTANELIO_shoot_finish.txt" name="dakota" id="SC_ONTANIELOLOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\gun_shoot_finish.txt" name="gun"/>
+	</scene>
+	<scene name="02070shootcycle" wide="off" fade="off" useshow="off" simple="1">
+		<world name="ourcar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\ONTANELIO_shoot_cycle.txt" name="dakota" id="SC_ONTANIELOLOW"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\gun_shoot_cycle.txt" name="gun"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\02070shoot\\shoot_shoot_cycle.txt" name="shoot" template="gunshot_dakota" carref="gepard" porosity="0.70"/>
+	</scene>
+	<scene name="03000_obzor" fade="off" wide="off" useshow="off" cutscene="1">
+		<world name="coords"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000_obzor\\CamS03003_01.txt" type="anm" anmspace="Camera_CamS03003"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000_obzor\\Dor_Scene03003.txt" name="dor"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000_obzor\\Mon_Scene03003.txt" name="mon"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M_180"/>
+				<vector name="Pshift"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="03000" fade="on" wide="on" useshow="on" cutscene="1">
+		<world name="coords"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000\\CamS03000_SC_03000.txt" type="anm" anmspace="Camera_CamS03000"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000\\IVAN_NEW_SC_03000.txt" id="SC_NICK"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="03010" fade="on" wide="on" useshow="on" cutscene="1">
+		<world name="coords"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000\\CamS03000_SC_03001.txt" type="anm" anmspace="Camera_CamS03000"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000\\IVAN_NEW_SC_03001.txt" id="SC_NICK"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="03020" fade="on" wide="on" useshow="on" cutscene="1">
+		<world name="coords"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000\\CamS03000_SC_03002.txt" type="anm" anmspace="Camera_CamS03000"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03000\\IVAN_NEW_SC_03002.txt" id="SC_NICK"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="03030_1" fade="off" wide="on" useshow="off" simple="1">
+		<world name="coords"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03030\\CamS03030.txt" type="anm" anmspace="Camera_CamS03030"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03030\\Gepard_Scene03030.txt" name="ourcar" carref="ourcar" carname="Gepard_"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+	</scene>
+	<scene name="03030_2" fade="off" wide="on" useshow="off" simple="1">
+		<world name="coords"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03030\\CamS03030.txt" type="anm" anmspace="Camera_CamS03030"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03030\\Dodge_Intrepid_Scene03030.txt" name="ourcar" carref="ourcar" carname="Dodge_Intrepid_"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+	</scene>
+	<scene name="03030_3" fade="off" wide="on" useshow="off" simple="1">
+		<world name="coords"/>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03030\\CamS03030.txt" type="anm" anmspace="Camera_CamS03030"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\03030\\KENWORTH_T600W_Scene03030.txt" name="ourcar" carref="ourcar" carname="Kenworth_T600_"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</vehicles>
+	</scene>
+	<scene name="02080" fade="off" wide="on" cutscene="1">
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="podium"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_man_of_year\\IVAN_NEW_man_of_year.txt" id="SC_NICK"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_man_of_year\\Bizon_Sceneman_of_year.txt"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_man_of_year\\audio_mixer.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SC_man_of_year\\CamS_man_of_year_man_of_year.txt" type="anm" anmspace="Camera_CamS_man_of_year"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+</scenes>

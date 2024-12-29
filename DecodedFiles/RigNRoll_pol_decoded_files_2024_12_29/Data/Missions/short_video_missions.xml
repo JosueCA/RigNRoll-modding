@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="short_video=video_start" bounded="false" uniq="true" description="старт линейки, визит в «CA daylight»." org="short_video=video_start" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_RD_05" finish=""/>
+    <dependences>
+      <parentFor mission="short_video=video_dolina"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_start=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_video=video_start=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_video=video_start=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_RD_WV_04"/>
+        <point name="MP_EU_WV_01"/>
+        <point name="MP_Ok_Sr_01"/>
+        <point name="MP_OK_01"/>
+        <point name="MP_CF_SR_02"/>
+        <point name="MP_OL_SR_01"/>
+        <point name="MP_RD_BN_01"/>
+        <point name="MP_BN_AL_01"/>
+        <point name="MP_MT_SR_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_RD_WV_04"/>
+    <point name="MP_EU_WV_01"/>
+    <point name="MP_Ok_Sr_01"/>
+    <point name="MP_OK_01"/>
+    <point name="MP_CF_SR_02"/>
+    <point name="MP_OL_SR_01"/>
+    <point name="MP_RD_BN_01"/>
+    <point name="MP_BN_AL_01"/>
+    <point name="MP_MT_SR_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MARTHA_3" resource="short_video=video_start=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_video=video_start=success=LiveDialog=decline"/>
+            <action name="short_video=video_dolina" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_video=video_start=success=LiveDialog=accept"/>
+            <action startmission="" name="short_video=video_dolina"/>
+          </accept>
+          <point name="MP_RD_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RD_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_video=video_dolina" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_start=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_dolina" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_video=video_dolina" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_start=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_dolina" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="short_video=video_dolina" bounded="false" uniq="true" description="груз из Реддинга в Бишоп. НУЖЕН. фургон с маркировкой придуманной телекомпании компании «CA daylight», или без маркировки вообще." org="short_video=video_dolina" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_RD_05" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BI_04" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dolina=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dolina=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dolina=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dolina=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_video=video_dekor" bounded="false" uniq="true" description="груз из Юрики в Реддинг. НУЖЕН. тентованый полуприцеп без маркировки." org="short_video=video_dekor" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_EU_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_RD_05" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dekor=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_video=video_dekor=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_video=video_dekor=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_EU_WV_01"/>
+        <point name="MP_RD_WV_03"/>
+        <point name="MP_LG_UK_01"/>
+        <point name="MP_LG_02"/>
+        <point name="MP_UK_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_EU_WV_01"/>
+    <point name="MP_RD_WV_03"/>
+    <point name="MP_LG_UK_01"/>
+    <point name="MP_LG_02"/>
+    <point name="MP_UK_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MARTHA_3" resource="short_video=video_dekor=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RD_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RD_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dekor=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dekor=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dekor=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_dekor=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_video=video_star"/>
+    </req>
+  </mission>
+  <mission name="short_video=video_reklama" bounded="false" uniq="true" description="груз из Мерседа в Реддинг. НУЖЕН фургон без маркировки." org="short_video=video_reklama" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MR_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_RD_05" finish=""/>
+    <dependences>
+      <parentFor mission="short_video=video_zavod"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_reklama=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_video=video_reklama=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_video=video_reklama=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MT_MW_01"/>
+        <point name="MP_FR_02"/>
+        <point name="MP_BK_FR_02"/>
+        <point name="MP_FR_KM_01"/>
+        <point name="MP_BR_MW_03"/>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_PS_02"/>
+        <point name="MP_OK_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MT_MW_01"/>
+    <point name="MP_FR_02"/>
+    <point name="MP_BK_FR_02"/>
+    <point name="MP_FR_KM_01"/>
+    <point name="MP_BR_MW_03"/>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_PS_02"/>
+    <point name="MP_OK_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MARTHA_3" resource="short_video=video_reklama=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_video=video_reklama=success=LiveDialog=decline"/>
+            <action name="short_video=video_zavod" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_video=video_reklama=success=LiveDialog=accept"/>
+            <action startmission="" name="short_video=video_zavod"/>
+          </accept>
+          <point name="MP_RD_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RD_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_reklama=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_zavod" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_reklama=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_zavod" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_reklama=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_zavod" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_reklama=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_zavod" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_video=video_dolina"/>
+    </req>
+  </mission>
+  <mission name="short_video=video_zavod" bounded="false" uniq="true" description="груз из Реддинга в Окленд. НУЖЕН. фургон с маркировкой придуманной телекомпании компании «CA daylight», или без маркировки вообще." org="short_video=video_zavod" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_RD_05" model="AIRCRAFT_PARTS"/>
+    <point name="MP_OK_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_zavod=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_zavod=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_zavod=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_zavod=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_video=video_retrans" bounded="false" uniq="true" description="Из Мантики в Барстоу. НУЖЕН фургон без маркировки" org="short_video=video_retrans" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MT_07" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BS_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_retrans=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_video=video_retrans=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_video=video_retrans=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_MT_SR_03"/>
+        <point name="MP_MW_01"/>
+        <point name="MP_BR_MW_03"/>
+        <point name="MP_OK_04"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_PS_01"/>
+        <point name="MP_Mc_Fr_01"/>
+        <point name="MP_MR_MT_01"/>
+        <point name="MP_KM_PT_01"/>
+        <point name="MP_Ok_Sr_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_MT_SR_03"/>
+    <point name="MP_MW_01"/>
+    <point name="MP_BR_MW_03"/>
+    <point name="MP_OK_04"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_PS_01"/>
+    <point name="MP_Mc_Fr_01"/>
+    <point name="MP_MR_MT_01"/>
+    <point name="MP_KM_PT_01"/>
+    <point name="MP_Ok_Sr_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_retrans=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_retrans=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_retrans=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_retrans=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_retrans=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_video=video_dekor"/>
+      <MissionCompleteRequirement mission="short_video=video_reklama"/>
+    </req>
+  </mission>
+  <mission name="short_video=video_clip" bounded="false" uniq="true" description="груз из Санта-Барбары в Реддинг. НУЖЕН. фургон с маркировкой придуманной телекомпании компании «CA daylight», или без маркировки вообще." org="short_video=video_clip" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OV_SB_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_RD_05" finish=""/>
+    <dependences>
+      <parentFor mission="short_video=video_terror"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_clip=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_video=video_clip=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_video=video_clip=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SB_AT_03"/>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_OV_LB_01"/>
+        <point name="MP_LB_01"/>
+        <point name="MP_OV_11"/>
+        <point name="MP_LA_01"/>
+        <point name="MP_OV_SB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SB_AT_03"/>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_OV_LB_01"/>
+    <point name="MP_LB_01"/>
+    <point name="MP_OV_11"/>
+    <point name="MP_LA_01"/>
+    <point name="MP_OV_SB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MARTHA_3" resource="short_video=video_clip=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_video=video_clip=success=LiveDialog=decline"/>
+            <action name="short_video=video_terror" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_video=video_clip=success=LiveDialog=accept"/>
+            <action startmission="" name="short_video=video_terror"/>
+          </accept>
+          <point name="MP_RD_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RD_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_clip=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_terror" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_clip=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_terror" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_clip=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_terror" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_clip=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_terror" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_video=video_zavod"/>
+      <MissionCompleteRequirement mission="short_video=video_retrans"/>
+    </req>
+  </mission>
+  <mission name="short_video=video_terror" bounded="false" uniq="true" description="груз из Реддинга в Берни. НУЖЕН. фургон с маркировкой придуманной телекомпании компании «CA daylight», или без маркировки вообще." org="short_video=video_terror" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_RD_05" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BN_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_terror=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_terror=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_terror=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_terror=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_video=video_comp" bounded="false" uniq="true" description="груз из Сан-Хосе в Реддинг." org="short_video=video_comp" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SF_SJ_04" model="COMPUTERS"/>
+    <point name="MP_RD_05" finish=""/>
+    <dependences>
+      <parentFor mission="short_video=video_beisboll"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_comp=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_video=video_comp=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_video=video_comp=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_02"/>
+        <point name="MP_SF_03"/>
+        <point name="MP_OK_01"/>
+        <point name="MP_OK_04"/>
+        <point name="MP_SJ_GF_01"/>
+        <point name="MP_SJ_02"/>
+        <point name="MP_SF_AA_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_02"/>
+    <point name="MP_SF_03"/>
+    <point name="MP_OK_01"/>
+    <point name="MP_OK_04"/>
+    <point name="MP_SJ_GF_01"/>
+    <point name="MP_SJ_02"/>
+    <point name="MP_SF_AA_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MARTHA_3" resource="short_video=video_comp=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_video=video_comp=success=LiveDialog=decline"/>
+            <action name="short_video=video_beisboll" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_video=video_comp=success=LiveDialog=accept"/>
+            <action startmission="" name="short_video=video_beisboll"/>
+          </accept>
+          <point name="MP_RD_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RD_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_comp=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_beisboll" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_comp=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_beisboll" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_comp=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_beisboll" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_comp=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_video=video_beisboll" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_video=video_clip"/>
+      <MissionCompleteRequirement mission="short_video=video_retrans"/>
+    </req>
+  </mission>
+  <mission name="short_video=video_beisboll" bounded="false" uniq="true" description="груз из Реддинга в Фресно. НУЖЕН. фургон с маркировкой придуманной телекомпании компании «CA daylight», или без маркировки вообще." org="short_video=video_beisboll" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_RD_05" model="AIRCRAFT_PARTS"/>
+    <point name="MP_FR_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_beisboll=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_beisboll=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_beisboll=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_beisboll=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_video=video_star" bounded="false" uniq="true" description="груз из Атаскадеро в Бейкерсфилд. НУЖЕН. фургон с маркировкой придуманной телекомпании компании «CA daylight», или без маркировки вообще." org="short_video=video_star" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_AT_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BK_MJ_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_star=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_video=video_star=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_video=video_star=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_PT_04"/>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_KM_LB_02"/>
+        <point name="MP_GF_AT_02"/>
+        <point name="MP_SB_01"/>
+        <point name="MP_KM_02"/>
+        <point name="MP_BK_LB_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_PT_04"/>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_KM_LB_02"/>
+    <point name="MP_GF_AT_02"/>
+    <point name="MP_SB_01"/>
+    <point name="MP_KM_02"/>
+    <point name="MP_BK_LB_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_star=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_star=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_star=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_star=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_MARTHA_3" resource="short_video=video_star=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_video=video_terror"/>
+      <MissionCompleteRequirement mission="short_video=video_beisboll"/>
+    </req>
+  </mission>
+</missions>
+

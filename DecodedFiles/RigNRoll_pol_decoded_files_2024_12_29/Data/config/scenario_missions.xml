@@ -1,0 +1,20 @@
+<scenario_missions>AHTUNG! missionname and name attrs must be the same!
+	<element missionname="missionname" org="orgname" point="MP_OV_11" name="org"/>
+	<element missionname="m00040" org="o00040" point="MP_Oxnard_Bar_01" name="m00040" time="-1" move_time="false"/>
+	<element missionname="m00322" org="o00322" point="SP_Oxnard_Police" name="m00322" time="-1" move_time="false" need_finish_icon="false"/>
+	<element missionname="m00410" org="o00410" point="MP_Oxnard_Bar_01" name="m00410" time="-1" move_time="false" need_finish_icon="false"/>
+	<element missionname="m00430" org="o00430" point="MP_Bar_SB_01" name="m00430" time="-1" move_time="false" need_finish_icon="true"/>
+	<element missionname="m00454" org="o00454" point="MP_Bar_SB_01" name="m00454" time="-1" move_time="false" need_finish_icon="true"/>
+	<element missionname="m00468" org="o00468" point="SP_John_House" name="m00468" time="-1" move_time="false" need_finish_icon="false"/>
+	<element missionname="m00480" org="o00480" point="MP_Bar_SB_01" name="m00480" time="-1" move_time="false" need_finish_icon="false"/>
+	<element missionname="m00600" org="o00600" point="SP_Topo_Office" name="m00600" time="-1" move_time="false" need_finish_icon="false"/>
+	<element missionname="m00861" org="o00861" point="SP_Oxnard_Police" name="m00861" time="8" move_time="false" need_finish_icon="false"/>
+	<element missionname="m01020" org="o01020" point="MP_office_OV_01" name="m01020" time="-1" move_time="false"/>
+	<element missionname="m01040" org="o01040" point="SP_John_House" name="m01040" time="-1" move_time="false" need_finish_icon="false"/>
+	<element missionname="m01400" org="o01400" point="MP_office_OV_01" name="m01400" time="-1" move_time="false"/>
+	<element missionname="m01401" org="o01401" point="MP_office_OV_01" name="m01401" time="-1" move_time="false"/>
+	<element missionname="m01500" org="o01500" point="MP_MJ_LP_01" name="m01500" time="-1" move_time="false" need_finish_icon="false"/>
+	<element missionname="m01600" org="o01600" point="SP_motel_BR_MD_01" name="01600" time="4" move_time="true"/>
+	<element missionname="m02025" org="o02025" point="SP_truckstop_BR_MD_01" name="m02025" time="7" move_time="true" need_finish_icon="false"/>
+	<element missionname="m02030" org="o02030" point="SP_EnemyBaseTunnel" name="m02030" time="10" move_time="false" need_finish_icon="false"/>
+</scenario_missions>

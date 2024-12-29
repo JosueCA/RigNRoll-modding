@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<PassangerAnimations>
+	<Entry modelName = "MODEL_NAME_OF_FAT_MAN" prefix = "FAT_MAN"/>
+	<Entry modelName = "Woman002" prefix = "Woman"/>
+</PassangerAnimations>

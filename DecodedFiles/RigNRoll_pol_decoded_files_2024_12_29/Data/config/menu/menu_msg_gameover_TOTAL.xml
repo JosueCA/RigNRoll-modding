@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title>GameoverTOTAL</title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>MenuGameoverTOTAL_NoDet</material>
+		<font>Blue Highway OUTLINED</font>
+	</default>
+	<resources>
+		<materialres name="Main_Menu_TOP02">
+			<wdbmaterial>mat_main_menu_TOP02_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="2"/>
+			<texture index="1" maxx="64" maxy="64"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>10</tilex>
+				<tiley>7.5</tiley>
+			</autogen>
+			<texture index="2" maxx="256" maxy="256"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>4</tilex>
+				<tiley>3</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Main_Menu_BETON01">
+			<wdbmaterial>mat_main_menu_beton01_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="2"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>6</tilex>
+				<tiley>4.5</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.4</tilex>
+				<tiley>0.3</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL_BETON02">
+			<wdbmaterial>mat_menu_GameoverTOTAL_beton02_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="2"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>6</tilex>
+				<tiley>4.5</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.4</tilex>
+				<tiley>0.3</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL_NoDet">
+			<wdbmaterial>mat_GameoverTOTAL_NoDet_110</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL01">
+			<wdbmaterial>mat_GameoverTOTAL01_310</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL02">
+			<wdbmaterial>mat_GameoverTOTAL02_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="256"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL_traffic_to_LEFT">
+			<wdbmaterial>mat_GameoverTOTAL_traffic_toLEFT_110</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="16"/>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL_traffic_to_RIGHT">
+			<wdbmaterial>mat_GameoverTOTAL_traffic_toRIGHT_110</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="16"/>
+		</materialres>
+		<materialres name="MenuGameoverTOTALBanner">
+			<wdbmaterial>mat_GameoverTOTAL_BANNER_110</wdbmaterial>
+			<texture index="0" maxx="512" maxy="128"/>
+			<texture index="1" maxx="1024" maxy="2"/>
+			<texture index="2" maxx="1024" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BUTTON_TopMenu_P">
+			<wdbmaterial>mat_GameoverTOTAL_ButtTopMenuP_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="1024" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BUTTON_TopMenu_A">
+			<wdbmaterial>mat_GameoverTOTAL_ButtTopMenuA_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="1024" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="GameoverTOTAL - YOU HAVE LOST - TEXT">
+			<buttonstate type="passive">
+				<material>MenuGameoverTOTAL02</material>
+				<patch state="0" x="0" y="0" sx="640" sy="90"/>
+				<animationgroup cycle="" fps="1">
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="170" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="170" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="170" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="170" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="170" sx="512" sy="72"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+				</animationgroup>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GameoverTOTAL - YOU HAVE LOST - GAMEOVER">
+			<buttonstate type="passive">
+				<material>MenuGameoverTOTAL02</material>
+				<patch state="0" x="0" y="0" sx="640" sy="90"/>
+				<animationgroup cycle="" fps="1">
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="314" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="314" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="314" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="314" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="314" sx="512" sy="72"/>
+					</frame>
+				</animationgroup>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GameoverTOTAL - YOU HAVE WON - TEXT">
+			<buttonstate type="passive">
+				<material>MenuGameoverTOTAL02</material>
+				<patch state="0" x="0" y="0" sx="640" sy="90"/>
+				<animationgroup cycle="" fps="1">
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="242" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="242" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="242" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="242" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="242" sx="512" sy="72"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+				</animationgroup>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GameoverTOTAL - YOU HAVE WON - GAMEOVER">
+			<buttonstate type="passive">
+				<material>MenuGameoverTOTAL02</material>
+				<patch state="0" x="0" y="0" sx="640" sy="90"/>
+				<animationgroup cycle="" fps="1">
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>0
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="1" y="1" sx="1" sy="1"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="386" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="386" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="386" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="386" sx="512" sy="72"/>
+					</frame>
+					<frame>1
+						<shift x="0" y="0" sx="0" sy="0"/>
+						<texrect index="0" x="0" y="386" sx="512" sy="72"/>
+					</frame>
+				</animationgroup>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button TOPMENU Tab 350" script="Complex9">
+			<material>MenuGameoverTOTAL_NoDet</material>
+			<buttonstate type="passive">DESK
+				<material>BUTTON_TopMenu_P</material>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="BUTTON_TopMenu_gray"/>
+				<texrect index="0" x="18" y="306" sx="350" sy="80"/>
+			</buttonstate>
+			<buttonstate type="active">DESK
+				<material>BUTTON_TopMenu_A</material>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="BUTTON_TopMenu_white"/>
+				<texrect index="0" x="18" y="306" sx="350" sy="80"/>
+			</buttonstate>
+			<buttonstate type="active">DESK
+				<material>BUTTON_TopMenu_A</material>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="BUTTON_TopMenu_yellow_2pxdown"/>
+				<texrect index="0" x="18" y="306" sx="350" sy="80"/>
+			</buttonstate>
+			<buttonstate type="passive">SHADOW
+				<texrect index="0" x="0" y="386" sx="350" sy="5"/>
+				<patch state="0" x="0" y="80" sx="350" sy="5"/>
+			</buttonstate>
+			<buttonstate type="active">SHADOW
+				<texrect index="0" x="0" y="386" sx="350" sy="5"/>
+				<patch state="0" x="0" y="80" sx="350" sy="5"/>
+			</buttonstate>
+			<buttonstate type="active">SHADOW
+				<texrect index="0" x="0" y="386" sx="350" sy="5"/>
+				<patch state="1" x="0" y="80" sx="350" sy="5"/>
+			</buttonstate>
+			<buttonstate type="passive">ARROW
+				<patch state="0" x="155" y="41" sx="41" sy="30"/>
+				<texrect index="0" x="87" y="159" sx="41" sy="30"/>
+			</buttonstate>
+			<buttonstate type="active">ARROW
+				<patch state="0" x="155" y="41" sx="41" sy="30"/>
+				<texrect index="0" x="87" y="391" sx="41" sy="30"/>
+			</buttonstate>
+			<buttonstate type="active">ARROW
+				<patch state="1" x="155" y="43" sx="41" sy="30"/>
+				<texrect index="0" x="23" y="391" sx="41" sy="30"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="2" sx="11" sy="11" id="leftUP"/>
+				<texrect index="0" x="64" y="159" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="2" sx="11" sy="11" id="leftUP"/>
+				<texrect index="0" x="64" y="391" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="2" sx="11" sy="11" id="leftUP"/>
+				<texrect index="0" x="0" y="391" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="2" sx="218" sy="11" id="centerUP"/>
+				<texrect index="0" x="75" y="159" sx="1" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="11" y="2" sx="218" sy="11" id="centerUP"/>
+				<texrect index="0" x="75" y="391" sx="1" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="11" y="2" sx="218" sy="11" id="centerUP"/>
+				<texrect index="0" x="11" y="391" sx="1" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="2" sx="11" sy="11" id="rightUP"/>
+				<texcoords index="0" x0="75" y0="159" x1="64" y1="159" x2="64" y2="170" x3="75" y3="170"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="229" y="2" sx="11" sy="11" id="rightUP"/>
+				<texcoords index="0" x0="75" y0="391" x1="64" y1="391" x2="64" y2="402" x3="75" y3="402"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="229" y="2" sx="11" sy="11" id="rightUP"/>
+				<texcoords index="0" x0="11" y0="391" x1="0" y1="391" x2="0" y2="402" x3="11" y3="402"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="13" sx="11" sy="58" id="leftCENTER"/>
+				<texrect index="0" x="64" y="173" sx="11" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="13" sx="11" sy="58" id="leftCENTER"/>
+				<texrect index="0" x="64" y="405" sx="11" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="13" sx="11" sy="58" id="leftCENTER"/>
+				<texrect index="0" x="0" y="405" sx="11" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="13" sx="218" sy="58" id="centerCENTER"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="11" y="13" sx="218" sy="58" id="centerCENTER"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="11" y="13" sx="218" sy="58" id="centerCENTER"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="13" sx="11" sy="58" id="rightCENTER"/>
+				<texcoords index="0" x0="75" y0="173" x1="64" y1="173" x2="64" y2="174" x3="75" y3="174"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="229" y="13" sx="11" sy="58" id="rightCENTER"/>
+				<texcoords index="0" x0="75" y0="405" x1="64" y1="405" x2="64" y2="406" x3="75" y3="406"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="229" y="13" sx="11" sy="58" id="rightCENTER"/>
+				<texcoords index="0" x0="11" y0="405" x1="0" y1="405" x2="0" y2="406" x3="11" y3="406"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="71" sx="11" sy="11" id="leftDOWN"/>
+				<texrect index="0" x="64" y="178" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="71" sx="11" sy="11" id="leftDOWN"/>
+				<texrect index="0" x="64" y="410" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="71" sx="11" sy="11" id="leftDOWN"/>
+				<texrect index="0" x="0" y="410" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="71" sx="218" sy="11" id="centerDOWN"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="11" y="71" sx="218" sy="11" id="centerDOWN"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="11" y="71" sx="218" sy="11" id="centerDOWN"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="71" sx="11" sy="11" id="rightDOWN"/>
+				<texcoords index="0" x0="75" y0="178" x1="64" y1="178" x2="64" y2="189" x3="75" y3="189"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="229" y="71" sx="11" sy="11" id="rightDOWN"/>
+				<texcoords index="0" x0="75" y0="410" x1="64" y1="410" x2="64" y2="421" x3="75" y3="421"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="229" y="71" sx="11" sy="11" id="rightDOWN"/>
+				<texcoords index="0" x0="11" y0="410" x1="0" y1="410" x2="0" y2="421" x3="11" y3="421"/>
+			</buttonstate>
+			<buttonstate type="passive">LIGHT
+				<patch state="0" x="0" y="69" sx="350" sy="24"/>
+				<texrect index="0" x="122" y="421" sx="525" sy="31"/>
+				<material>MenuGameoverTOTAL_NoDet</material>
+			</buttonstate>
+			<buttonstate type="active">LIGHT
+				<patch state="0" x="0" y="69" sx="350" sy="24"/>
+				<texrect index="0" x="122" y="421" sx="525" sy="31"/>
+				<material>MenuGameoverTOTAL_NoDet</material>
+			</buttonstate>
+			<buttonstate type="active">LIGHT
+				<patch state="1" x="0" y="69" sx="350" sy="24"/>
+				<texrect index="0" x="122" y="421" sx="525" sy="31"/>
+				<material>MenuGameoverTOTAL_NoDet</material>
+			</buttonstate>
+			<buttonstate type="passive">GREEN
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<patch state="0" x="144" y="89" sx="64" sy="29"/>
+				<texrect index="0" x="64" y="277" sx="64" sy="29"/>
+			</buttonstate>
+			<buttonstate type="active">GREEN
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<patch state="0" x="144" y="89" sx="64" sy="29"/>
+				<texrect index="0" x="64" y="277" sx="64" sy="29"/>
+			</buttonstate>
+			<buttonstate type="active">GREEN
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<patch state="1" x="144" y="89" sx="64" sy="29"/>
+				<texrect index="0" x="64" y="277" sx="64" sy="29"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button TOPMENU Tab 350 END orange" script="Complex9">
+			<material>MenuGameoverTOTAL_NoDet</material>
+			<buttonstate type="passive">DESK
+				<material>BUTTON_TopMenu_P</material>
+				<font>Blue Highway</font>
+				<textres_ref name="BUTTON_TopMenu_black120"/>
+				<texrect index="0" x="18" y="189" sx="350" sy="80"/>
+			</buttonstate>
+			<buttonstate type="passive">SHADOW
+				<texrect index="0" x="0" y="386" sx="350" sy="5"/>
+				<patch state="0" x="0" y="80" sx="350" sy="5"/>
+			</buttonstate>
+			<buttonstate type="passive">END FREEWAY
+				<material>MenuGameoverTOTAL02</material>
+				<patch state="0" x="12" y="14" sx="100" sy="54"/>
+				<texrect index="0" x="412" y="170" sx="100" sy="54"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="2" sx="11" sy="11" id="leftUP"/>
+				<texrect index="0" x="0" y="159" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="2" sx="218" sy="11" id="centerUP"/>
+				<texrect index="0" x="11" y="159" sx="1" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="2" sx="11" sy="11" id="rightUP"/>
+				<texcoords index="0" x0="11" y0="159" x1="0" y1="159" x2="0" y2="170" x3="11" y3="170"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="13" sx="11" sy="58" id="leftCENTER"/>
+				<texrect index="0" x="0" y="173" sx="11" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="13" sx="218" sy="58" id="centerCENTER"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="13" sx="11" sy="58" id="rightCENTER"/>
+				<texcoords index="0" x0="11" y0="173" x1="0" y1="173" x2="0" y2="174" x3="11" y3="174"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="71" sx="11" sy="11" id="leftDOWN"/>
+				<texrect index="0" x="0" y="178" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="71" sx="218" sy="11" id="centerDOWN"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="71" sx="11" sy="11" id="rightDOWN"/>
+				<texcoords index="0" x0="11" y0="178" x1="0" y1="178" x2="0" y2="189" x3="11" y3="189"/>
+			</buttonstate>
+			<buttonstate type="passive">LIGHT
+				<patch state="0" x="0" y="69" sx="350" sy="24"/>
+				<texrect index="0" x="122" y="421" sx="525" sy="31"/>
+				<material>MenuGameoverTOTAL_NoDet</material>
+			</buttonstate>
+			<buttonstate type="passive">RED
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<patch state="0" x="144" y="89" sx="64" sy="29"/>
+				<texrect index="0" x="0" y="277" sx="64" sy="29"/>
+			</buttonstate>
+		</buttonres>
+		<textres name="BUTTON_TopMenu_gray">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>36</baseline>
+			<textcolor>184 204 200 192</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BUTTON_TopMenu_white">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>36</baseline>
+			<textcolor>255 255 255 192</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BUTTON_TopMenu_yellow_2pxdown">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>38</baseline>
+			<textcolor>255 255 92 192</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BUTTON_TopMenu_black120">
+			<horizalign>baseline</horizalign>
+			<horizbaseline>122</horizbaseline>
+			<vertalign>baseline</vertalign>
+			<baseline>49</baseline>
+			<textcolor>0 51 51 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="ButtonMM FONT GOLD big">
+			<name>Futura Condensed MainMenu Abig</name>
+			<size>61</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="BIGFONT - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="BIGFONT - red - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 150 0 255</textcolor>
+		</textres>
+	</resources>
+	<controlgroup name="GameoverTOTAL">
+		<picture name="GameoverTOTAL BACK 01">
+			<coords x="0" y="0" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - Traffic TO LEFT">
+				<material>MenuGameoverTOTAL_traffic_to_LEFT</material>
+				<coords x="-2800" y="176" sx="7200" sy="18"/>
+				<texrect index="0" x="0" y="1" sx="719" sy="6"/>
+			</picture>
+			<picture name="GameoverTOTAL - Traffic TO RIGHT">
+				<material>MenuGameoverTOTAL_traffic_to_RIGHT</material>
+				<coords x="-2800" y="176" sx="7200" sy="18"/>
+				<texrect index="0" x="0" y="9" sx="719" sy="6"/>
+			</picture>
+			<picture name="GameoverTOTAL - COMMON BACK middle">
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<coords x="-2800" y="176" sx="7200" sy="16"/>
+				<texrect index="0" x="0" y="78" sx="5400" sy="16"/>
+			</picture>
+			<picture name="GameoverTOTAL - COMMON BACK top">
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<coords x="-2800" y="20" sx="7200" sy="156"/>
+				<texrect index="0" x="0" y="0" sx="5400" sy="78"/>
+			</picture>
+			<picture name="GameoverTOTAL - COMMON BACK bottom">
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<coords x="-2800" y="192" sx="7200" sy="128"/>
+				<texrect index="0" x="0" y="94" sx="5400" sy="64"/>
+			</picture>
+			<picture name="GameoverTOTAL - COMMON BACK bottom FERMA">
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<coords x="406" y="191" sx="788" sy="114"/>
+				<texrect index="0" x="118" y="468" sx="916" sy="44"/>
+			</picture>
+			<picture name="GameoverTOTAL - BANNER">
+				<material>MenuGameoverTOTALBanner</material>
+				<coords x="522" y="24" sx="552" sy="138"/>
+				<texrect index="0" x="0" y="0" sx="512" sy="128"/>
+			</picture>
+			<picture name="GameoverTOTAL - BANNER - Lights">
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<coords x="528" y="150" sx="540" sy="24"/>
+				<texrect index="0" x="43" y="422" sx="810" sy="31"/>
+			</picture>
+			<picture name="Beton">
+				<material>Main_Menu_BETON01</material>
+				<coords x="-2800" y="1037" sx="7200" sy="128"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - Buttons - END FREEWAY">
+			<coords x="440" y="205" sx="350" sy="80"/>
+			<buttonres_ref name="Button TOPMENU Tab 350 END orange"/>
+			<text locref="menu_msg_gameover_TOTAL.xml\GameoverTOTAL\GameoverTOTAL - Buttons - END FREEWAY">FREEWAY ENDS</text>
+		</picture>
+		<button name="GameoverTOTAL - Buttons - CONTINUE">
+			<coords x="440" y="205" sx="350" sy="80"/>
+			<buttonres_ref name="Button TOPMENU Tab 350"/>
+			<text locref="common\CONTINUE">Continue</text>
+		</button>
+		<button name="GameoverTOTAL - Buttons - MAIN MENU">
+			<coords x="810" y="205" sx="350" sy="80"/>
+			<buttonres_ref name="Button TOPMENU Tab 350"/>
+			<text locref="common\Main Menu">Main Menu</text>
+		</button>
+		<picture name="GameoverTOTAL - xx0 - Prize - SOCIAL WON">
+			<coords x="280" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - SOCIAL - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="744" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - SOCIAL - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="340" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - SOCIAL - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="54" y="140" sx="208" sy="512"/>
+				<texrect index="0" x="375" y="0" sx="229" sy="512"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx0 - Prize - SOCIAL LOST">
+			<coords x="280" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - SOCIAL - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="744" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - SOCIAL - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="340" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - SOCIAL - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="54" y="140" sx="208" sy="512"/>
+				<texrect index="0" x="375" y="0" sx="229" sy="512"/>
+			</picture>
+			<picture name="NA">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="40" y="110" sx="192" sy="176"/>
+				<texrect index="0" x="288" y="170" sx="124" sy="86"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx0 - Prize - ECONOMIC WON">
+			<coords x="680" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - ECONOMIC - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="604" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - ECONOMIC - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="170" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - ECONOMIC - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="84" y="140" sx="167" sy="512"/>
+				<texrect index="0" x="208" y="0" sx="167" sy="512"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx0 - Prize - ECONOMIC LOST">
+			<coords x="680" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - ECONOMIC - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="604" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - ECONOMIC - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="170" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - ECONOMIC - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="84" y="140" sx="167" sy="512"/>
+				<texrect index="0" x="208" y="0" sx="167" sy="512"/>
+			</picture>
+			<picture name="NA">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="40" y="110" sx="192" sy="176"/>
+				<texrect index="0" x="288" y="170" sx="124" sy="86"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx0 - Prize - SPORT WON">
+			<coords x="1080" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - SPORT - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="884" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - SPORT - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="0" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - SPORT - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="64" y="140" sx="208" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="208" sy="512"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx0 - Prize - SPORT LOST">
+			<coords x="1080" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - SPORT - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="884" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - SPORT - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="0" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - SPORT - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="64" y="140" sx="208" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="208" sy="512"/>
+			</picture>
+			<picture name="NA">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="40" y="110" sx="192" sy="176"/>
+				<texrect index="0" x="288" y="170" sx="124" sy="86"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx1 - 3Prizes - SOCIAL n SPORT n ECONOMIC">
+			<coords x="0" y="0" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - 3Prizes - SOCIAL WON">
+				<coords x="280" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - SOCIAL - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="744" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - SOCIAL - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="340" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - SOCIAL - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="54" y="140" sx="208" sy="512"/>
+					<texrect index="0" x="375" y="0" sx="229" sy="512"/>
+				</picture>
+			</picture>
+			<picture name="GameoverTOTAL - 3Prizes - ECONOMIC WON">
+				<coords x="680" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - ECONOMIC - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="604" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - ECONOMIC - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="170" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - ECONOMIC - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="84" y="140" sx="167" sy="512"/>
+					<texrect index="0" x="208" y="0" sx="167" sy="512"/>
+				</picture>
+			</picture>
+			<picture name="GameoverTOTAL - 3Prizes - SPORT WON">
+				<coords x="1080" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - SPORT - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="884" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - SPORT - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="0" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - SPORT - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="64" y="140" sx="208" sy="512"/>
+					<texrect index="0" x="0" y="0" sx="208" sy="512"/>
+				</picture>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx1 - 2Prizes - SOCIAL n SPORT">
+			<coords x="0" y="0" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - 2Prizes - SOCIAL WON 1">
+				<coords x="480" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - SOCIAL - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="744" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - SOCIAL - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="340" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - SOCIAL - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="54" y="140" sx="208" sy="512"/>
+					<texrect index="0" x="375" y="0" sx="229" sy="512"/>
+				</picture>
+			</picture>
+			<picture name="GameoverTOTAL - 2Prizes - SPORT WON 1">
+				<coords x="880" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - SPORT - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="884" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - SPORT - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="0" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - SPORT - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="64" y="140" sx="208" sy="512"/>
+					<texrect index="0" x="0" y="0" sx="208" sy="512"/>
+				</picture>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx1 - 2Prizes - SPORT n ECONOMIC">
+			<coords x="0" y="0" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - 2Prizes - SPORT WON 2">
+				<coords x="480" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - SPORT - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="884" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - SPORT - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="0" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - SPORT - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="64" y="140" sx="208" sy="512"/>
+					<texrect index="0" x="0" y="0" sx="208" sy="512"/>
+				</picture>
+			</picture>
+			<picture name="GameoverTOTAL - 2Prizes - ECONOMIC WON 1">
+				<coords x="880" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - ECONOMIC - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="604" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - ECONOMIC - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="170" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - ECONOMIC - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="84" y="140" sx="167" sy="512"/>
+					<texrect index="0" x="208" y="0" sx="167" sy="512"/>
+				</picture>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx1 - 2Prizes - SOCIAL n ECONOMIC">
+			<coords x="0" y="0" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - 2Prizes - SOCIAL WON 2">
+				<coords x="480" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - SOCIAL - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="744" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - SOCIAL - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="340" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - SOCIAL - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="54" y="140" sx="208" sy="512"/>
+					<texrect index="0" x="375" y="0" sx="229" sy="512"/>
+				</picture>
+			</picture>
+			<picture name="GameoverTOTAL - 2Prizes - ECONOMIC WON 2">
+				<coords x="880" y="350" sx="1" sy="1"/>
+				<picture name="GameoverTOTAL - ECONOMIC - STRIPE">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="29" y="154" sx="140" sy="512"/>
+					<texrect index="0" x="604" y="0" sx="140" sy="512"/>
+				</picture>
+				<picture name="GameoverTOTAL - ECONOMIC - PLATE">
+					<material>MenuGameoverTOTAL02</material>
+					<coords x="0" y="0" sx="192" sy="192"/>
+					<texrect index="0" x="170" y="0" sx="170" sy="170"/>
+				</picture>
+				<picture name="GameoverTOTAL - ECONOMIC - CUP">
+					<material>MenuGameoverTOTAL01</material>
+					<coords x="84" y="140" sx="167" sy="512"/>
+					<texrect index="0" x="208" y="0" sx="167" sy="512"/>
+				</picture>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx1 - 1Prize - SOCIAL WON">
+			<coords x="680" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - SOCIAL - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="744" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - SOCIAL - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="340" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - SOCIAL - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="54" y="140" sx="208" sy="512"/>
+				<texrect index="0" x="375" y="0" sx="229" sy="512"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx1 - 1Prize - SPORT WON">
+			<coords x="680" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - SPORT - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="884" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - SPORT - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="0" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - SPORT - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="64" y="140" sx="208" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="208" sy="512"/>
+			</picture>
+		</picture>
+		<picture name="GameoverTOTAL - xx1 - 1Prize - ECONOMIC WON">
+			<coords x="680" y="350" sx="1" sy="1"/>
+			<picture name="GameoverTOTAL - ECONOMIC - STRIPE">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="29" y="154" sx="140" sy="512"/>
+				<texrect index="0" x="604" y="0" sx="140" sy="512"/>
+			</picture>
+			<picture name="GameoverTOTAL - ECONOMIC - PLATE">
+				<material>MenuGameoverTOTAL02</material>
+				<coords x="0" y="0" sx="192" sy="192"/>
+				<texrect index="0" x="170" y="0" sx="170" sy="170"/>
+			</picture>
+			<picture name="GameoverTOTAL - ECONOMIC - CUP">
+				<material>MenuGameoverTOTAL01</material>
+				<coords x="84" y="140" sx="167" sy="512"/>
+				<texrect index="0" x="208" y="0" sx="167" sy="512"/>
+			</picture>
+		</picture>
+		<textfield name="GameoverTOTAL - 000 - BottomText - YOU HAVE LOST">
+			<font>ButtonMM FONT GOLD big</font>
+			<coords x="0" y="1068" sx="1600" sy="74"/>
+			<textres_ref name="BIGFONT - red - center"/>
+			<text locref="menu_msg_gameover_TOTAL.xml\GameoverTOTAL\GameoverTOTAL - 000 - BottomText - YOU HAVE LOST">YOU HAVE LOST!!! GAMEOVER.</text>
+		</textfield>
+		<textfield name="GameoverTOTAL - xx0 - BottomText - GAMEOVER">
+			<font>ButtonMM FONT GOLD big</font>
+			<coords x="0" y="1068" sx="1600" sy="74"/>
+			<textres_ref name="BIGFONT - white - center"/>
+			<text locref="menu_msg_gameover_TOTAL.xml\GameoverTOTAL\GameoverTOTAL - xx0 - BottomText - GAMEOVER">GAMEOVER</text>
+		</textfield>
+		<textfield name="GameoverTOTAL - xx1 - BottomText - YOU HAVE WON">
+			<font>ButtonMM FONT GOLD big</font>
+			<coords x="0" y="1068" sx="1600" sy="74"/>
+			<textres_ref name="BIGFONT - white - center"/>
+			<text locref="menu_msg_gameover_TOTAL.xml\GameoverTOTAL\GameoverTOTAL - xx1 - BottomText - YOU HAVE WON">YOU HAVE WON!!! GAMEOVER.</text>
+		</textfield>
+		<picture name="GameoverTOTAL BACK 02">
+			<coords x="0" y="0" sx="1" sy="1"/>
+			<picture name="Top Picture 02">
+				<material>Main_Menu_TOP02</material>
+				<coords x="-2800" y="1037" sx="7200" sy="128"/>
+				<texrect index="0" x="90" y="0" sx="1120" sy="2"/>
+			</picture>
+			<picture name="Line_BETON">
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<coords x="-2810" y="1032" sx="7220" sy="16"/>
+				<texrect index="0" x="0" y="452" sx="7220" sy="16"/>
+			</picture>
+			<picture name="Line_BETON">
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<coords x="-2810" y="1160" sx="7220" sy="16"/>
+				<texrect index="0" x="0" y="452" sx="7220" sy="16"/>
+			</picture>
+		</picture>
+	</controlgroup>
+</menu>

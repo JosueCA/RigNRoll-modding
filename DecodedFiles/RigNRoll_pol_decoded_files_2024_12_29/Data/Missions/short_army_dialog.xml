@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+  <dialog name="short_army=army_start=success=LiveDialog">
+    <item caller="" wav="short_army=army_start=success=LiveDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_start=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_start=success=LiveDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_start=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_start=success=LiveDialog=04=ID_ALAN_1"/>
+    <item>
+      <question text="short_army=Y" id="0">
+        <dialog name="short_army=army_start=success=LiveDialog=Y">
+          <item callee="" wav="short_army=army_start=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_army=army_start=success=LiveDialog=Y=01=ID_ALAN_1"/>
+          <item callee="" wav="short_army=army_start=success=LiveDialog=Y=02=Nick"/>
+          <item caller="" wav="short_army=army_start=success=LiveDialog=Y=03=ID_ALAN_1"/>
+        </dialog>
+      </question>
+      <question text="short_army=N" id="1">
+        <dialog name="short_army=army_start=success=LiveDialog=N">
+          <item callee="" wav="short_army=army_start=success=LiveDialog=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_army=army_mans=success=LiveDialog">
+    <item caller="" wav="short_army=army_mans=success=LiveDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_mans=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_mans=success=LiveDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_mans=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_mans=success=LiveDialog=04=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_mans=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_army=army_mans=success=LiveDialog=06=ID_ALAN_1"/>
+  </dialog>
+  <dialog name="short_army=army_draiver=success=LiveDialog">
+    <item caller="" wav="short_army=army_draiver=success=LiveDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_draiver=success=LiveDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_draiver=success=LiveDialog=04=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_army=army_draiver=success=LiveDialog=06=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_army=army_draiver=success=LiveDialog=08=ID_ALAN_1"/>
+    <item>
+      <question text="short_army=Y" id="0">
+        <dialog name="short_army=army_draiver=success=LiveDialog=Y">
+          <item callee="" wav="short_army=army_draiver=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_army=army_draiver=success=LiveDialog=Y=01=ID_ALAN_1"/>
+        </dialog>
+      </question>
+      <question text="short_army=N" id="1">
+        <dialog name="short_army=army_draiver=success=LiveDialog=N">
+          <item callee="" wav="short_army=army_draiver=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_army=army_draiver=success=LiveDialog=N=01=ID_ALAN_1"/>
+          <item callee="" wav="short_army=army_draiver=success=LiveDialog=N=02=Nick"/>
+          <item caller="" wav="short_army=army_draiver=success=LiveDialog=N=03=ID_ALAN_1"/>
+          <item callee="" wav="short_army=army_draiver=success=LiveDialog=N=04=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_army=army_draiver_2=success=CarDialog">
+    <item caller="" wav="short_army=army_draiver_2=success=CarDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=success=CarDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=success=CarDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=success=CarDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=success=CarDialog=04=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=success=CarDialog=05=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=success=CarDialog=06=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=success=CarDialog=07=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=success=CarDialog=08=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=success=CarDialog=09=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=success=CarDialog=10=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=success=CarDialog=11=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=success=CarDialog=12=ID_ALAN_1"/>
+  </dialog>
+  <dialog name="short_army=army_draiver_2=fail_timeout_complete=CarDialog">
+    <item caller="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=04=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=05=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=06=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=fail_timeout_complete=CarDialog=07=Nick"/>
+  </dialog>
+  <dialog name="short_army=army_draiver_2=fail_damaged=CarDialog">
+    <item caller="" wav="short_army=army_draiver_2=fail_damaged=CarDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=fail_damaged=CarDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=fail_damaged=CarDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=fail_damaged=CarDialog=04=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=fail_damaged=CarDialog=05=Nick"/>
+  </dialog>
+  <dialog name="short_army=army_draiver_2=decline=CarDialog">
+    <item callee="" wav="short_army=army_draiver_2=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=decline=CarDialog=01=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=decline=CarDialog=02=Nick"/>
+    <item caller="" wav="short_army=army_draiver_2=decline=CarDialog=03=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_draiver_2=decline=CarDialog=04=Nick"/>
+  </dialog>
+  <dialog name="short_army=army_beton=success=LiveDialog">
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_beton=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_beton=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=04=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_beton=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=06=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_beton=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=08=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_beton=success=LiveDialog=09=Nick"/>
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=10=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_beton=success=LiveDialog=11=Nick"/>
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=12=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_beton=success=LiveDialog=13=Nick"/>
+    <item caller="" wav="short_army=army_beton=success=LiveDialog=14=ID_ALAN_1"/>
+  </dialog>
+  <dialog name="short_army=army_cel=success=LiveDialog">
+    <item callee="" wav="short_army=army_cel=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_army=army_cel=success=LiveDialog=01=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_cel=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_army=army_cel=success=LiveDialog=03=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_cel=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_army=army_cel=success=LiveDialog=05=ID_ALAN_1"/>
+    <item>
+      <question text="short_army=Y" id="0">
+        <dialog name="short_army=army_cel=success=LiveDialog=Y">
+          <item callee="" wav="short_army=army_cel=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_army=army_cel=success=LiveDialog=Y=01=ID_ALAN_1"/>
+          <item callee="" wav="short_army=army_cel=success=LiveDialog=Y=02=Nick"/>
+          <item caller="" wav="short_army=army_cel=success=LiveDialog=Y=03=ID_ALAN_1"/>
+          <item callee="" wav="short_army=army_cel=success=LiveDialog=Y=04=Nick"/>
+          <item caller="" wav="short_army=army_cel=success=LiveDialog=Y=05=ID_ALAN_1"/>
+        </dialog>
+      </question>
+      <question text="short_army=N" id="1">
+        <dialog name="short_army=army_cel=success=LiveDialog=N">
+          <item callee="" wav="short_army=army_cel=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_army=army_cel=success=LiveDialog=N=01=ID_ALAN_1"/>
+          <item callee="" wav="short_army=army_cel=success=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_army=army_med=success=LiveDialog">
+    <item callee="" wav="short_army=army_med=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_army=army_med=success=LiveDialog=01=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_med=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_army=army_med=success=LiveDialog=03=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_med=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_army=army_med=success=LiveDialog=05=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_med=success=LiveDialog=06=Nick"/>
+  </dialog>
+  <dialog name="short_army=army_dress=success=LiveDialog">
+    <item callee="" wav="short_army=army_dress=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_army=army_dress=success=LiveDialog=01=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_dress=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_army=army_dress=success=LiveDialog=03=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_dress=success=LiveDialog=04=Nick"/>
+  </dialog>
+  <dialog name="short_army=army_food=success=LiveDialog">
+    <item caller="" wav="short_army=army_food=success=LiveDialog=00=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_food=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_army=army_food=success=LiveDialog=02=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_food=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_army=army_food=success=LiveDialog=04=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_food=success=LiveDialog=05=Nick"/>
+  </dialog>
+  <dialog name="short_army=army_dizel_2=success=LiveDialog">
+    <item callee="" wav="short_army=army_dizel_2=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_army=army_dizel_2=success=LiveDialog=01=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_dizel_2=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_army=army_dizel_2=success=LiveDialog=03=ID_ALAN_1"/>
+    <item callee="" wav="short_army=army_dizel_2=success=LiveDialog=04=Nick"/>
+  </dialog>
+</dialogs>
+

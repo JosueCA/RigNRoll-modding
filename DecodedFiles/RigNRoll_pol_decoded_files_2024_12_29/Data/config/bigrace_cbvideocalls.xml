@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cbcall>
+  <element name="CB=BRStageStart=0L2=01" dialog="CB=BRStageStart=0L2=01" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=0L2=02" dialog="CB=BRStageStart=0L2=02" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=0L2=03" dialog="CB=BRStageStart=0L2=03" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=1L1=01" dialog="CB=BRStageStart=1L1=01" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=1L1=02" dialog="CB=BRStageStart=1L1=02" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=1L1=03" dialog="CB=BRStageStart=1L1=03" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=2LP=01" dialog="CB=BRStageStart=2LP=01" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=2LP=02" dialog="CB=BRStageStart=2LP=02" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=2LP=03" dialog="CB=BRStageStart=2LP=03" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=3LC=01" dialog="CB=BRStageStart=3LC=01" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=3LC=02" dialog="CB=BRStageStart=3LC=02" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=3LC=03" dialog="CB=BRStageStart=3LC=03" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=4LM=01" dialog="CB=BRStageStart=4LM=01" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=4LM=02" dialog="CB=BRStageStart=4LM=02" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+  <element name="CB=BRStageStart=4LM=03" dialog="CB=BRStageStart=4LM=03" who="ID_RONALD_4" timecall="10" talkanyway="true" />
+</cbcall>

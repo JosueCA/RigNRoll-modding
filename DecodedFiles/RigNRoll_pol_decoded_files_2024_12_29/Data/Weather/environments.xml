@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<environments>
+	<environment name="default">
+		<texture wdb_name="qac_Outside"/>
+	</environment>
+	<environment name="gas">
+		<texture wdb_name="qac_Outside"/>
+	</environment>
+	<environment name="warehouse">
+		<lod_ambient r="200" g="200" b="200"/>
+		<texture wdb_name="qac_Outside"/>
+	</environment>
+	<environment name="warehouse_operators">
+		<lod_ambient r="200" g="200" b="200"/>
+		<texture wdb_name="qac_Outside"/>
+	</environment>
+	<environment name="sto">
+		<texture wdb_name="qac_Repair"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="office01">
+		<texture wdb_name="qac_Office"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="office02">
+		<texture wdb_name="qac_Office2"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="motel">
+		<texture wdb_name="qac_Motel"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="cabine">
+		<texture wdb_name="qac_Cabine"/>
+	</environment>
+	<environment name="bar01">
+		<lod_ambient r="140" g="140" b="130"/>
+		<texture wdb_name="qac_BarIn1"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="bar02">
+		<lod_ambient r="150" g="150" b="130"/>
+		<texture wdb_name="qac_BarIn2"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="bar03">
+		<lod_ambient r="150" g="150" b="130"/>
+		<texture wdb_name="qac_BarIn3"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="bar04">
+		<texture wdb_name="qac_BarIn4"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="police">
+		<texture wdb_name="qac_Police"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+	<environment name="jhons_house">
+		<texture wdb_name="qac_John_House"/>
+		<sun_vector x="0" y="0" z="-1"/>
+	</environment>
+</environments>

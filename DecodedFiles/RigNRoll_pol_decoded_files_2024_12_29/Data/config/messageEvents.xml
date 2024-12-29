@@ -1,0 +1,128 @@
+<messages>
+	<msg>Scenario Answer Ok</msg>
+	<msg>Scenario Answer Cancel</msg>
+	<msg>Scenario Answer Recived</msg>
+	<msg>Begining Scene phase1</msg>
+	<msg>Begining Scene phase2</msg>
+	<msg>Begining Scene phase3</msg>
+	<msg>Skip intro</msg>
+	<msg>makeKohDummy</msg>
+	<msg>Accept Help Koh</msg>
+	<msg>Escape Help Koh</msg>
+	<msg>cb00033 finished</msg>
+	<msg>cb00165 finished</msg>
+	<msg>resques_dorothy_started</msg>
+	<msg>resques_dorothy_drop_by_time</msg>
+	<msg>Scenario Arrested</msg>
+	<msg>Bandits car collided</msg>
+	<msg>dorothy rescue too late</msg>
+	<msg>loose</msg>
+	<msg>Dorothy chase finished</msg>
+	<msg>sceneendedwithDorothy</msg>
+	<msg>sceneendedwithoutDorothy</msg>
+	<msg>Quest Dropped Out</msg>
+	<msg>cb00040 finished</msg>
+	<msg>Piter Pan doomed race call</msg>
+	<msg>Piter Pan doomed race finished</msg>
+	<msg>Piter Pan doomed race win</msg>
+	<msg>Player loose car</msg>
+	<msg>pp_badendrace1 finished</msg>
+	<msg>Piter Pan final race win</msg>
+	<msg>Piter Pan final race loose</msg>
+	<msg>Piter Pan final race call</msg>
+	<msg>sc00610 failed</msg>
+	<msg>Topo chase failed</msg>
+	<msg>Topo chase pickup</msg>
+	<msg>Topo chase enter chase notrailer</msg>
+	<msg>Topo chase bad end</msg>
+	<msg>Topo chase bandits call</msg>
+	<msg>Topo chase Koh call</msg>
+	<msg>Topo chase Dakota call</msg>
+	<msg>Topo chase animate Dakota</msg>
+	<msg>Topo chase animate Dakota ended</msg>
+	<msg>Topo chase customer call 1</msg>
+	<msg>cb00740 finished</msg>
+	<msg>Topo chase animate punkt a</msg>
+	<msg>Topo chase animate punkt a ended</msg>
+	<msg>Topo chase Dorothy called call</msg>
+	<msg>Topo chase animate bridge</msg>
+	<msg>Topo chase animate bridge ended</msg>
+	<msg>Topo chase customer call 2</msg>
+	<msg>Topo chase customer call 2 finished</msg>
+	<msg>Topo chase animate punkt b ended</msg>
+	<msg>Topo chase animate dark truck</msg>
+	<msg>Topo chase customer call 3</msg>
+	<msg>Topo chase animate dark truck ended</msg>
+	<msg>cb00860 finished</msg>
+	<msg>big_race_scenario</msg>
+	<msg>cb01040 finished</msg>
+	<msg>cb01020 finished</msg>
+	<msg>sc01080  mission succeeded</msg>
+	<msg>BigRace Quest Ready</msg>
+	<msg>BigRace Quest Win</msg>
+	<msg>BigRace Quest Loose</msg>
+	<msg>BigRace Quest Pam called</msg>
+	<msg>Dakota Ready</msg>
+	<msg>Dakota Quest called</msg>
+	<msg>Economy Victory</msg>
+	<msg>Matew Ready</msg>
+	<msg>cb01500 finished</msg>
+	<msg>ready call 1520</msg>
+	<msg>reach Red Rock Canyon</msg>
+	<msg>fail Red Rock Canyon</msg>
+	<msg>Reach point failure</msg>
+	<msg>cb01520 finished</msg>
+	<msg>cb01548 finished</msg>
+	<msg>1540 finished</msg>
+	<msg>start_help_coch</msg>
+	<msg>startDorothySave</msg>
+	<msg>teleporttooffice</msg>
+	<msg>chase_topo</msg>
+	<msg>start_1500</msg>
+	<msg>start_1600</msg>
+	<msg>start_2050</msg>
+	<msg>reach EnemyBaseTruckstop</msg>
+	<msg>Dorothy_call</msg>
+	<msg>cb01600 finished</msg>
+	<msg>m01600 failed</msg>
+	<msg>m01600 activated</msg>
+	<msg>m02025 failed</msg>
+	<msg>m02025 activated</msg>
+	<msg>make 2020 call</msg>
+	<msg>m02030 failed</msg>
+	<msg>Monica discovered EnemyBase</msg>
+	<msg>cb01660 finished</msg>
+	<msg>threaten_call_1</msg>
+	<msg>cb02010 finished</msg>
+	<msg>track to EnemyBase failed</msg>
+	<msg>track to EnemyBase succeded</msg>
+	<msg>make_Dacota_call</msg>
+	<msg>cb02015 finished</msg>
+	<msg>met assault team</msg>
+	<msg>Reach EnemyBase failure</msg>
+	<msg>Reach EnemyBase succes</msg>
+	<msg>EnemyBaseAssault succes</msg>
+	<msg>EnemyBaseAssault covard</msg>
+	<msg>EnemyBaseAssault failed</msg>
+	<msg>EnemyBaseFinish</msg>
+	<msg>cb02020 finished</msg>
+	<msg>cb02021 finished</msg>
+	<msg>Dakota warns about bomb</msg>
+	<msg>start 2050</msg>
+	<msg>Chase Koh succes</msg>
+	<msg>Chase Koh fail</msg>
+	<msg>Chase Koh far</msg>
+	<msg>enemybase moat</msg>
+	<msg>bankrupt</msg>
+	<msg>sc01300 accepted</msg>
+	<msg>sc01300 loaded</msg>
+	<msg>sc01300 declined</msg>
+	<msg>sc01300 failed</msg>
+	<msg>sc01300  mission succeeded</msg>
+	<msg>Cursed hiway Koh call</msg>
+	<msg>cb01330 finished</msg>
+	<msg>1370_enter</msg>
+	<msg>1370_exit</msg>
+	<msg>1370_downfall</msg>
+	<msg>police_scene_end</msg>
+</messages>

@@ -1,0 +1,10 @@
+<icons resx="128" resy="32">
+	<item id="KINGS_ROAD" x="0" y="0" sx="32" sy="16"/>
+	<item id="MOUNTAIN_PASS" x="32" y="0" sx="32" sy="16"/>
+	<item id="MIDCALIFORNIA_SPEEDWAY" x="64" y="0" sx="32" sy="16"/>
+	<item id="TRANSCALIFORNIA_MARATHON" x="96" y="0" sx="32" sy="16"/>
+	<item id="MONSTER_CUP" x="0" y="16" sx="32" sy="16"/>
+	<item id="STORM_HAUL" x="32" y="16" sx="32" sy="16"/>
+	<item id="race_logo_07" x="64" y="16" sx="32" sy="16"/>
+	<item id="race_logo_08" x="96" y="16" sx="32" sy="16"/>
+</icons>

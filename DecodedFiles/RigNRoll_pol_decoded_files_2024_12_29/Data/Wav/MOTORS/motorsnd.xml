@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Motors default="_oldMotor">
+  <DetroitS60>
+    <free name0="DetroitS60\low_free" freq0="17" name1="DetroitS60\med_free" freq1="24" name2="DetroitS60\high_free" freq2="32" />
+    <full name0="DetroitS60\low_full" freq0="17" name1="DetroitS60\med_full" freq1="24" name2="DetroitS60\high_full" freq2="32" />
+    <accel name0="DetroitS60\accel_01" name1="DetroitS60\accel_02" name2="DetroitS60\accel_03" name3="DetroitS60\accel_04" name4="DetroitS60\accel_05" />
+    <start name0="DetroitS60\start" name1="DetroitS60\start_fail01" name2="DetroitS60\start_fail02" />
+    <idle name0="DetroitS60\idle" freq0="12" />
+    <stop name0="DetroitS60\detroit_diesel_stop_eng" />
+  </DetroitS60>
+  <CumminsISX565>
+    <free name0="CumminsISX565\low_free" freq0="21" name1="CumminsISX565\med_free" freq1="27" name2="CumminsISX565\high_free" freq2="34" />
+    <full name0="CumminsISX565\low_full" freq0="21" name1="CumminsISX565\med_full" freq1="27" name2="CumminsISX565\high_full" freq2="34" />
+    <accel name0="CumminsISX565\accel_01" name1="CumminsISX565\accel_02" name2="CumminsISX565\accel_03" name3="CumminsISX565\accel_04" name4="CumminsISX565\accel_05" />
+    <start name0="CumminsISX565\start" name1="CumminsISX565\start_fail01" name2="CumminsISX565\start_fail02" />
+    <idle name0="CumminsISX565\idle" freq0="14" />
+    <stop name0="CumminsISX565\cummins565_stop_eng" />
+  </CumminsISX565>
+  <MackAC330>
+    <free name0="MackAC330\low_free" freq0="27" name1="MackAC330\med_free" freq1="41" name2="MackAC330\high_free" freq2="50" />
+    <full name0="MackAC330\low_full" freq0="27" name1="MackAC330\med_full" freq1="41" name2="MackAC330\high_full" freq2="50" />
+    <accel name0="MackAC330\accel_01" name1="MackAC330\accel_02" name2="MackAC330\accel_03" name3="MackAC330\accel_04" name4="MackAC330\accel_05" />
+    <start name0="MackAC330\start" name1="MackAC330\start_fail01" name2="MackAC330\start_fail02" />
+    <idle name0="MackAC330\idle" freq0="20" />
+    <stop name0="MackAC330\mackAC330_stop_eng" />
+  </MackAC330>
+  <CaterpillarC15>
+    <free name0="CaterpillarC15\low_free" freq0="20" name1="CaterpillarC15\med_free" freq1="28" name2="CaterpillarC15\high_free" freq2="35" />
+    <full name0="CaterpillarC15\low_full" freq0="20" name1="CaterpillarC15\med_full" freq1="28" name2="CaterpillarC15\high_full" freq2="35" />
+    <accel name0="CaterpillarC15\accel_01" name1="CaterpillarC15\accel_02" name2="CaterpillarC15\accel_03" name3="CaterpillarC15\accel_04" name4="CaterpillarC15\accel_05" />
+    <start name0="CaterpillarC15\start" name1="CaterpillarC15\start_fail01" name2="CaterpillarC15\start_fail02" />
+    <idle name0="CaterpillarC15\idle" freq0="13" />
+    <stop name0="CaterpillarC15\caterpillarC15_stop_eng" />
+  </CaterpillarC15>
+  <MackE7460>
+    <free name0="MackE7460\low_free" freq0="31" name1="MackE7460\med_free" freq1="39" name2="MackE7460\high_free" freq2="52" />
+    <full name0="MackE7460\low_full" freq0="27" name1="MackE7460\med_full" freq1="39" name2="MackE7460\high_full" freq2="52" />
+    <accel name0="MackE7460\accel_01" name1="MackE7460\accel_02" name2="MackE7460\accel_03" name3="MackE7460\accel_04" name4="MackE7460\accel_05" />
+    <start name0="MackE7460\start" name1="MackE7460\start_fail01" name2="MackE7460\start_fail02" />
+    <idle name0="MackE7460\idle" freq0="20" />
+    <stop name0="MackE7460\mack_E7460_stop_eng" />
+  </MackE7460>
+  <CumminsISX370>
+    <free name0="CumminsISX370\low_free" freq0="18.5" name1="CumminsISX370\med_free" freq1="25" name2="CumminsISX370\high_free" freq2="34" />
+    <full name0="CumminsISX370\low_full" freq0="18.5" name1="CumminsISX370\med_full" freq1="25" name2="CumminsISX370\high_full" freq2="34" />
+    <accel name0="CumminsISX370\accel_01" name1="CumminsISX370\accel_02" name2="CumminsISX370\accel_03" name3="CumminsISX370\accel_04" name4="CumminsISX370\accel_05" />
+    <start name0="CumminsISX370\start" name1="CumminsISX370\start_fail01" name2="CumminsISX370\start_fail02" />
+    <idle name0="CumminsISX370\idle" freq0="12" />
+    <stop name0="CumminsISX370\cummins370_stop_eng" />
+  </CumminsISX370>
+  <CaterpillarC16>
+    <free name0="CaterpillarC16\low_free" freq0="18" name1="CaterpillarC16\med_free" freq1="29" name2="CaterpillarC16\high_free" freq2="35" />
+    <full name0="CaterpillarC16\low_full" freq0="18" name1="CaterpillarC16\med_full" freq1="29" name2="CaterpillarC16\high_full" freq2="35" />
+    <accel name0="CaterpillarC16\accel_01" name1="CaterpillarC16\accel_02" name2="CaterpillarC16\accel_03" name3="CaterpillarC16\accel_04" name4="CaterpillarC16\accel_05" />
+    <start name0="CaterpillarC16\start" name1="CaterpillarC16\start_fail01" name2="CaterpillarC16\start_fail02" />
+    <idle name0="CaterpillarC16\idle" freq0="15" />
+    <stop name0="CaterpillarC16\caterpillarC16_stop_eng" />
+  </CaterpillarC16>
+  <Car_Yukon>
+    <free name0="car_yukon\car1_yukon_1500_free" freq0="25" name1="car_yukon\car1_yukon_2500_free" freq1="41.6666" name2="car_yukon\car1_yukon_3500_free" freq2="58.3333" />
+    <full name0="car_yukon\car1_yukon_1500_full" freq0="25" name1="car_yukon\car1_yukon_2500_full" freq1="41.6666" name2="car_yukon\car1_yukon_3500_full" freq2="58.3333" />
+  </Car_Yukon>
+  <Car_Ford>
+    <free name0="car_Ford\car2_ford_1000_free" freq0="16.6666" name1="car_Ford\car2_ford_2000_free" freq1="33.3333" name2="car_Ford\car2_ford_4000_free" freq2="66.6666" />
+    <full name0="car_Ford\car2_ford_1000_full" freq0="16.6666" name1="car_Ford\car2_ford_2000_full" freq1="33.3333" name2="car_Ford\car2_ford_4000_full" freq2="66.6666" />
+  </Car_Ford>
+  <Car_Toyota>
+    <free name0="Car_Toyota\car3_toyota_1000_free" freq0="16.6666" name1="Car_Toyota\car3_toyota_2000_free" freq1="33.3333" name2="Car_Toyota\car3_toyota_4000_free" freq2="66.6666" />
+    <full name0="Car_Toyota\car3_toyota_1000_full" freq0="16.6666" name1="Car_Toyota\car3_toyota_2000_full" freq1="33.3333" name2="Car_Toyota\car3_toyota_4000_full" freq2="66.6666" />
+  </Car_Toyota>
+  <Car_Chevy>
+    <free name0="Car_Chevy\car4_chevy_1000_free" freq0="16.6666" name1="Car_Chevy\car4_chevy_2000_free" freq1="33.3333" name2="Car_Chevy\car4_chevy_4000_free" freq2="66.6666" />
+    <full name0="Car_Chevy\car4_chevy_1000_full" freq0="16.6666" name1="Car_Chevy\car4_chevy_2000_full" freq1="33.3333" name2="Car_Chevy\car4_chevy_4000_full" freq2="66.6666" />
+  </Car_Chevy>
+  <oldMotor>
+    <free name0="..\idle" freq0="12" name1="..\idle" freq1="12" name2="..\idle" freq2="12" />
+    <full name0="..\full" freq0="25" name1="..\full" freq1="25" name2="..\full" freq2="25" />
+    <accel name0="..\accel_ext" name1="..\accel_ext" name2="..\accel_ext" name3="..\accel_ext" name4="..\accel_ext" />
+    <start name0="..\start0" name1="..\startgloch" name2="..\start0" />
+    <idle name0="..\idle" freq0="10" />
+  </oldMotor>
+</Motors>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="short_army=army_start" description="short_army=army_start" importance="true" type="visit" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="2" rating="1.5"/>
+    <forfeit money="2" rank="0" rating="1.5"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="short_army=army_start=fail_timeout_complete"/>
+    <decline description="short_army=army_start=decline"/>
+  </element>
+  <element name="short_army=army_dizel" description="short_army=army_dizel" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="2" rating="1.5"/>
+    <forfeit money="0" rank="2" rating="1.5"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_dizel=finish"/>
+    <fail_timeout_complete description="short_army=army_dizel=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_dizel=fail_damaged"/>
+    <decline description="short_army=army_dizel=decline"/>
+  </element>
+  <element name="short_army=army_mans" description="short_army=army_mans" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="2" rating="1"/>
+    <forfeit money="0" rank="2" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_mans=finish"/>
+    <fail_timeout_pickup description="short_army=army_mans=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_mans=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_mans=fail_damaged"/>
+    <decline description="short_army=army_mans=decline"/>
+  </element>
+  <element name="short_army=army_draiver" description="short_army=army_draiver" importance="false" type="visit" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="2" rating="1"/>
+    <forfeit money="0" rank="2" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="short_army=army_draiver=fail_timeout_complete"/>
+    <decline description="short_army=army_draiver=decline"/>
+  </element>
+  <element name="short_army=army_draiver_2" description="short_army=army_draiver_2" importance="false" type="passangerDelivery" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="2" rating="1"/>
+    <forfeit money="0" rank="2" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_draiver_2=finish"/>
+    <fail_timeout_pickup description="short_army=army_draiver_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_draiver_2=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_draiver_2=fail_damaged"/>
+    <decline description="short_army=army_draiver_2=decline"/>
+  </element>
+  <element name="short_army=army_beton" description="short_army=army_beton" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="2" rating="1"/>
+    <forfeit money="0" rank="2" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_beton=finish"/>
+    <fail_timeout_pickup description="short_army=army_beton=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_beton=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_beton=fail_damaged"/>
+    <decline description="short_army=army_beton=decline"/>
+  </element>
+  <element name="short_army=army_cel" description="short_army=army_cel" importance="false" type="visit" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="2" rating="1"/>
+    <forfeit money="0" rank="2" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="short_army=army_cel=fail_timeout_complete"/>
+    <decline description="short_army=army_cel=decline"/>
+  </element>
+  <element name="short_army=army_cel_1" description="short_army=army_cel_1" importance="false" type="visit" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="1.5" rating="1"/>
+    <forfeit money="0" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="short_army=army_cel_1=fail_timeout_complete"/>
+    <decline description="short_army=army_cel_1=decline"/>
+  </element>
+  <element name="short_army=army_cel_2" description="short_army=army_cel_2" importance="false" type="visit" customer_npc="ID_ALAN_1">
+    <reward money="0" rank="1.5" rating="1"/>
+    <forfeit money="0" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="short_army=army_cel_2=fail_timeout_complete"/>
+    <decline description="short_army=army_cel_2=decline"/>
+  </element>
+  <element name="short_army=army_cel_3" description="short_army=army_cel_3" importance="false" type="visit" customer_npc="ID_ALAN_1">
+    <reward money="3" rank="1.5" rating="1"/>
+    <forfeit money="1" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_cel_3=finish"/>
+    <fail_timeout_complete description="short_army=army_cel_3=fail_timeout_complete"/>
+    <decline description="short_army=army_cel_3=decline"/>
+  </element>
+  <element name="short_army=army_med" description="short_army=army_med" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_med=finish"/>
+    <fail_timeout_pickup description="short_army=army_med=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_med=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_med=fail_damaged"/>
+    <decline description="short_army=army_med=decline"/>
+  </element>
+  <element name="short_army=army_dress" description="short_army=army_dress" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_dress=finish"/>
+    <fail_timeout_pickup description="short_army=army_dress=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_dress=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_dress=fail_damaged"/>
+    <decline description="short_army=army_dress=decline"/>
+  </element>
+  <element name="short_army=army_mex" description="short_army=army_mex" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="1.3" rank="1" rating="1"/>
+    <forfeit money="1.3" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_mex=finish"/>
+    <fail_timeout_pickup description="short_army=army_mex=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_mex=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_mex=fail_damaged"/>
+    <decline description="short_army=army_mex=decline"/>
+  </element>
+  <element name="short_army=army_food" description="short_army=army_food" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_food=finish"/>
+    <fail_timeout_pickup description="short_army=army_food=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_food=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_food=fail_damaged"/>
+    <decline description="short_army=army_food=decline"/>
+  </element>
+  <element name="short_army=army_dizel_2" description="short_army=army_dizel_2" importance="false" type="trailerClientDelivery" customer_npc="ID_ALAN_1">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="0" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_army=army_dizel_2=finish"/>
+    <fail_timeout_pickup description="short_army=army_dizel_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_army=army_dizel_2=fail_timeout_complete"/>
+    <fail_damaged description="short_army=army_dizel_2=fail_damaged"/>
+    <decline description="short_army=army_dizel_2=decline"/>
+  </element>
+</org>
+

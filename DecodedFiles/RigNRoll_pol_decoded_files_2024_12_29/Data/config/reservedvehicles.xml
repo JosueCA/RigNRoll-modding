@@ -1,0 +1,50 @@
+<vehicles>
+	<vehicle name="FREIGHTLINER_ARGOSY">
+		<color num="13"/>
+		<color num="14"/>
+	</vehicle>
+	<vehicle name="FREIGHTLINER_CORONADO">
+		<color num="13"/>
+		<color num="14"/>
+	</vehicle>
+	<vehicle name="FREIGHTLINER_CLASSIC_XL">
+		<color num="13"/>
+	</vehicle>
+	<vehicle name="KENWORTH_T2000">
+		<color num="13"/>
+	</vehicle>
+	<vehicle name="KENWORTH_T600W">
+		<color num="13"/>
+		<color num="14"/>
+		<color num="16"/>
+	</vehicle>
+	<vehicle name="KENWORTH_T800">
+		<color num="13"/>
+	</vehicle>
+	<vehicle name="KENWORTH_W900L">
+		<color num="13"/>
+	</vehicle>
+	<vehicle name="PETERBILT_379">
+		<color num="13"/>
+		<color num="14"/>
+	</vehicle>
+	<vehicle name="PETERBILT_387">
+		<color num="13"/>
+		<color num="14"/>
+	</vehicle>
+	<vehicle name="PETERBILT_378">
+		<color num="13"/>
+	</vehicle>
+	<vehicle name="WESTERN_STAR4900_EX">
+		<color num="13"/>
+	</vehicle>
+	<vehicle name="GMC_TOPKICK4500_JOHN">
+		<color num="0"/>
+	</vehicle>
+	<vehicle name="GMC_TOPKICK4500_JOHN_TRAMPLIN">
+		<color num="0"/>
+	</vehicle>
+	<vehicle name="Dodge_Intrepid">
+		<color num="16"/>
+	</vehicle>
+</vehicles>

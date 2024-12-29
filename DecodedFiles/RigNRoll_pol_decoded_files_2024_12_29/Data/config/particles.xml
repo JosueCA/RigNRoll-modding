@@ -1,0 +1,863 @@
+<particles>
+	<particle name="slip" type="type44" nom="1">SLIP
+		<trapecia_soft_tess>
+			<shapeTemplate1 color="255 255 255 150">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.15" y1="48"/>
+					<anm x0="0.15" y0="48" x1="0.3" y1="64"/>
+					<anm x0="0.3" y0="64" x1="0.6" y1="24"/>
+					<anm x0="0.6" y0="24" x1="0.8" y1="8"/>
+					<anm x0="0.8" y0="8" x1="1" y1="0"/>
+				</alfa>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1.0" var1="0.8" var2="2"/>
+			</coordsmultiply>
+			<soften_part absolute="">
+				<random use="true" mult="0.2" var1="1.0" var2="1.0">absolute or relative</random>
+			</soften_part>
+		</trapecia_soft_tess>
+		<simple>
+			<lifetemplate1 z="-10" veldump="1" lifetime="1" shape_coef="0.6" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="1" var2="1.5" multiply=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="1" add="">
+						<random use="true" mult="0.4" var1="1" var2="1" multiply=""/>
+					</randvector>
+				</stack2>
+			</velocity>
+		</simple>
+	</particle>
+	<particle name="wheel_dust_particle" type="type42" nom="1">dust from ground
+		<trapecia_soft>
+			<shapeTemplate1 color="255 190 110 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="8" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.1" y1="255"/>
+					<anm x0="0.1" y0="255" x1="0.25" y1="200"/>
+					<anm x0="0.25" y0="200" x1="0.5" y1="100"/>
+					<anm x0="0.5" y0="100" x1="0.75" y1="24"/>
+					<anm x0="0.75" y0="24" x1="1" y1="0"/>
+				</alfa>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<dynvariable dynname="dust_size_scale" use="true" replace="">
+					<random use="true" mult="1" var1="1" var2="4.5" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable dynname="dust_alpha_scale" use="true" multiply=""/>
+				</mult>
+			</transparency>
+			<linear_coef>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</linear_coef>
+			<linear_distOne>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</linear_distOne>
+			<linear_distZero>
+				<random use="true" mult="0" var1="1" var2="1"/>
+			</linear_distZero>
+			<use_sun/>
+			<plane_normal>
+				<dynvector use="true" dynname="dust_ground_normal" whole="" replace=""/>
+			</plane_normal>
+			<plane_point>
+				<stack1 use="true" whole="" replace=""/>
+			</plane_point>
+			<color_mult>
+				<random use="true" mult="1" var1="0" var2="1" step="0.5"/>
+			</color_mult>
+		</trapecia_soft>
+		<simple>
+			<lifetemplate1 z="-10" veldump="0" lifetime="1" shape_coef="0.7" sizedump="0.1">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0.8"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1.75" var1="1" var2="1.5" multiply="">
+					<dynvariable dynname="dust_life_scale" use="true" multiply=""/>
+				</random>
+			</lifetime>
+			<position>
+				<randvector use="true" x="1.2" y="1.2" z="0.5" add="">
+					<dynvariable dynname="dust_size_scale" use="true" multiply="">
+						<stack1 use="true" whole="" add=""/>
+					</dynvariable>
+				</randvector>
+			</position>
+			<shape_coef>
+				<dynvariable dynname="dust_size_scale" use="true" multiply=""/>
+			</shape_coef>
+			<z>
+				<stack3 use="true" whole="" replace="">
+					<random use="true" mult="-100" var1="1" var2="1" add=""/>
+				</stack3>
+			</z>
+		</simple>
+	</particle>
+	<particle name="wetmystright" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa_dbg>
+					<anm x0="0.0" y0="255" x1="1.0" y1="255"/>
+				</alfa_dbg>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="12"/>
+					<anm x0="0.05" y0="12" x1="0.4" y1="8"/>
+					<anm x0="0.4" y0="8" x1="0.6" y1="5"/>
+					<anm x0="0.6" y0="5" x1="0.8" y1="2"/>
+					<anm x0="0.8" y0="2" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="mystshapecoef" use="true" multiply="">
+					<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+						<random use="true" mult="2.5" var1="1" var2="1" multiply=""/>
+					</dynvariable>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-1" veldump="1.5" lifetime="2" shape_coef="-0.4" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<shape_coef>
+				<dynvariable dynname="mystshapecoef" use="true" multiply=""/>
+			</shape_coef>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="1" add=""/>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="wetmystleft" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="12"/>
+					<anm x0="0.05" y0="12" x1="0.4" y1="8"/>
+					<anm x0="0.4" y0="8" x1="0.6" y1="5"/>
+					<anm x0="0.6" y0="5" x1="0.8" y1="2"/>
+					<anm x0="0.8" y0="2" x1="1" y1="0"/>
+				</alfa>
+				<alfa_dbg>
+					<anm x0="0.0" y0="255" x1="1.0" y1="255"/>
+				</alfa_dbg>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="mystshapecoef" use="true" multiply="">
+					<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+						<random use="true" mult="2.5" var1="1" var2="1" multiply=""/>
+					</dynvariable>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-1" veldump="1.5" lifetime="2" shape_coef="-0.4" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<shape_coef>
+				<dynvariable dynname="mystshapecoef" use="true" multiply=""/>
+			</shape_coef>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="1" add=""/>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="wetwheelfog0" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="16"/>
+					<anm x0="0.05" y0="16" x1="0.4" y1="12"/>
+					<anm x0="0.4" y0="12" x1="0.6" y1="6"/>
+					<anm x0="0.6" y0="6" x1="0.8" y1="3"/>
+					<anm x0="0.8" y0="3" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+					<random use="true" mult="1.5" var1="1" var2="1" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<carlife bindwheel0="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="-0.5" y="0." z="-0.5"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+			<position>
+				<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="wetwheelfog1" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="16"/>
+					<anm x0="0.05" y0="16" x1="0.4" y1="12"/>
+					<anm x0="0.4" y0="12" x1="0.6" y1="6"/>
+					<anm x0="0.6" y0="6" x1="0.8" y1="3"/>
+					<anm x0="0.8" y0="3" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+					<random use="true" mult="1.5" var1="1" var2="1" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<carlife bindwheel1="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="0.5" y="0." z="-0.5"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+			<position>
+				<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="wetwheelfog2" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="16"/>
+					<anm x0="0.05" y0="16" x1="0.4" y1="12"/>
+					<anm x0="0.4" y0="12" x1="0.6" y1="6"/>
+					<anm x0="0.6" y0="6" x1="0.8" y1="3"/>
+					<anm x0="0.8" y0="3" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+					<random use="true" mult="1.5" var1="1" var2="1" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<carlife bindwheel2="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="-0.5" y="0." z="-0.5"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+			<position>
+				<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="wetwheelfog3" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="16"/>
+					<anm x0="0.05" y0="16" x1="0.4" y1="12"/>
+					<anm x0="0.4" y0="12" x1="0.6" y1="6"/>
+					<anm x0="0.6" y0="6" x1="0.8" y1="3"/>
+					<anm x0="0.8" y0="3" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+					<random use="true" mult="1.5" var1="1" var2="1" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<carlife bindwheel3="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="0.5" y="0." z="-0.5"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+			<position>
+				<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="wetwheelfog4" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="16"/>
+					<anm x0="0.05" y0="16" x1="0.4" y1="12"/>
+					<anm x0="0.4" y0="12" x1="0.6" y1="6"/>
+					<anm x0="0.6" y0="6" x1="0.8" y1="3"/>
+					<anm x0="0.8" y0="3" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+					<random use="true" mult="1.5" var1="1" var2="1" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<carlife bindwheel4="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="-0.5" y="0." z="-0.5"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+			<position>
+				<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="wetwheelfog5" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="16"/>
+					<anm x0="0.05" y0="16" x1="0.4" y1="12"/>
+					<anm x0="0.4" y0="12" x1="0.6" y1="6"/>
+					<anm x0="0.6" y0="6" x1="0.8" y1="3"/>
+					<anm x0="0.8" y0="3" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1.5" var1="1" var2="1" multiply="">
+					<dynvariable dynname="wet_sizeMult" use="true" multiply=""/>
+				</random>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<carlife bindwheel5="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="1" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="0.5" y="0." z="-0.5"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply=""/>
+			</lifetime>
+			<z>
+				<random use="true" mult="-0.5" var1="1" var2="1" add=""/>
+			</z>
+			<position>
+				<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="wetbigtrail" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.25" y1="40"/>
+					<anm x0="0.25" y0="40" x1="1" y1="0"/>
+				</alfa>
+				<alfa_dbg>
+					<anm x0="0.0" y0="255" x1="1.0" y1="255"/>
+				</alfa_dbg>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<dynvariable dynname="wet_sizeMult" use="true" multiply="">
+					<random use="true" mult="8" var1="0.75" var2="1" multiply=""/>
+				</dynvariable>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-1" veldump="10" lifetime="1" shape_coef="-0.3" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="-2"/>
+				<position x="0" y="0" z="2"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="mystlifetime" use="true" multiply="">
+					<random use="true" mult="2.75" var1="0.8" var2="1" multiply=""/>
+				</dynvariable>
+			</lifetime>
+			<shape_coef>
+				<dynvariable dynname="mystshapecoef" use="true" multiply=""/>
+			</shape_coef>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="1" add=""/>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-3." var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="roadtrailmist" type="type19" nom="1">wet eff
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.75" y0="-0.75" x1="-0.75" y1="0.75" x2="0.75" y2="-0.75" x3="0.75" y3="0.75"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.05" y1="32"/>
+					<anm x0="0.05" y0="32" x1="0.4" y1="24"/>
+					<anm x0="0.4" y0="24" x1="0.6" y1="12"/>
+					<anm x0="0.6" y0="12" x1="0.8" y1="4"/>
+					<anm x0="0.8" y0="4" x1="1" y1="0"/>
+				</alfa>
+				<alfa_dbg>
+					<anm x0="0.0" y0="255" x1="1.0" y1="255"/>
+				</alfa_dbg>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1.25" var1="1" var2="1" multiply="">
+					<dynvariable dynname="wet_sizeMult" use="true" multiply=""/>
+				</random>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="wet_alphaMult" mult=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-1" veldump="10" lifetime="1" shape_coef="-0.8" sizedump="0.1">
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="-2"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<dynvariable dynname="raodtrailmystlifetime" use="true" multiply="">
+					<random use="true" mult="0.8" var1="0.8" var2="1" multiply=""/>
+				</dynvariable>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.05" y="0.05" z="0" add=""/>
+				</stack1>
+			</position>
+			<z>
+				<random use="true" mult="-0.2" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="scene1540_1" type="type19" nom="1">smoke particle
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 150">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.15" y1="48"/>
+					<anm x0="0.15" y0="48" x1="0.3" y1="64"/>
+					<anm x0="0.3" y0="64" x1="0.6" y1="24"/>
+					<anm x0="0.6" y0="24" x1="0.8" y1="8"/>
+					<anm x0="0.8" y0="8" x1="1" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" replace="" var2="1" var1="0"/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="0.8" var1="0.8" var2="2"/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-1000." veldump="1" lifetime="1" shape_coef="0.6" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="1" var2="1.5" multiply=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.2" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="1" add="">
+						<random use="true" mult="0.4" var1="1" var2="1" multiply=""/>
+					</randvector>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-10000" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="_scene1540_2" type="type13" nom="1">fire particle (name is wrong)
+		<trapecia>
+			<shapeTemplate1 color="256 256 256 256">
+				<coords x0="-0.1" y0="-0.3" x1="-0.1" y1="0.3" x2="0.1" y2="-0.3" x3="0.1" y3="0.3"/>
+				<alfa>
+					<anm x0="0" y0="0" x1="0.5" y1="200"/>
+					<anm x0="0.5" y0="200" x1="1" y1="0"/>
+				</alfa>
+				<rotate/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="24" time="0." maxcycles="0.">
+					<texsized x0="0.0625" y0="0.125" sx="0.0625" sy="0.125"/>
+					<texanimations>
+						<texsized x0="0.0625" y0="0.125" sx="0.0625" sy="0.125"/>
+						<texsized x0="0.1875" y0="0.125" sx="0.0625" sy="0.125"/>
+						<texsized x0="0.3125" y0="0.125" sx="0.0625" sy="0.125"/>
+						<texsized x0="0.4375" y0="0.125" sx="0.0625" sy="0.125"/>
+						<texsized x0="0.5625" y0="0.125" sx="0.0625" sy="0.125"/>
+						<texsized x0="0.6875" y0="0.125" sx="0.0625" sy="0.125"/>
+						<texsized x0="0.8125" y0="0.125" sx="0.0625" sy="0.125"/>
+						<texsized x0="0.9375" y0="0.125" sx="0.0625" sy="0.125"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="0.001" replace=""/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="6" var1="0.5" var2="1."/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-10000." veldump="0.1" lifetime="0.05" shape_coef="0.1">
+				<influence veldump="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0" z="0"/>
+				<position x="1" y="1" z="1"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="0.9" var2="1"/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="0.8" y="0.8" z="0.8" add=""/>
+				</stack1>
+			</position>
+			<z>
+				<random use="true" mult="-10000" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+</particles>

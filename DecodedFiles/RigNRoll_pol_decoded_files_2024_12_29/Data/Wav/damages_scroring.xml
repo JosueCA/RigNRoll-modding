@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Damages dir="">
+    <nitro_02 id="booster" group="1" volume="0.6" mindist="10" maxdist="100" />
+    <braking_shoe_01 id="braking_shoe" group="1" volume="1" mindist="10" maxdist="100" />
+    <metal_hit4 id="metal_hit4" mindist="10" maxdist="100" volume="1" group="1" />
+    <engine_crankshaft id="engine_crankshaft" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_engine_lock id="dmg_engine_lock" mindist="10" maxdist="100" volume="1" group="1" />
+    <steering_shaft id="steering_shaft" mindist="10" maxdist="100" volume="1" group="1" />
+    <steering_rods id="steering_rods" mindist="10" maxdist="100" volume="1" group="1" />
+    <safety_valve_ref2 id="safety_valve_ref2" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_transmission_axleleakage2 id="dmg_transmission_axleleakage2" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_transmission_axleleakage1 id="dmg_transmission_axleleakage1" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_transmission_axleleakage3 id="dmg_transmission_axleleakage3" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_suspension_silentblock1 id="dmg_suspension_silentblock1" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_electrical_relay1 id="dmg_electrical_relay1" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_suspension_leaf1 id="dmg_suspension_leaf1" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_suspension_leaf2 id="dmg_suspension_leaf2" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_suspension_leaf3 id="dmg_suspension_leaf3" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_suspension_leaf4 id="dmg_suspension_leaf4" mindist="10" maxdist="100" volume="1" group="1" />
+    <TireBlowOut2 id="TireBlowOut2" mindist="10" maxdist="100" volume="3" group="1" />
+    <metal_valve_working id="metal_valve_working" mindist="10" maxdist="100" volume="1" group="1" />
+    <metal_hit8 id="metal_hit8" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_fuel_valvebreak id="dmg_fuel_valvebreak" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_exhaust_muffler id="dmg_exhaust_muffler" mindist="10" maxdist="100" volume="1" group="1" />
+    <dmg_fuel_invalvebreak id="dmg_fuel_invalvebreak" mindist="10" maxdist="100" volume="1" group="1" />
+    <exhaust_gases_clean id="exhaust_gases_clean" mindist="10" maxdist="100" volume="1" group="1" />
+    <GearBroken3 id="GearBroken3" mindist="10" maxdist="100" volume="2" group="1" />
+    <GearBroken1 id="GearBroken1" mindist="10" maxdist="100" volume="2" group="1" />
+  </Damages>
+  <scoring dir="">
+    <HitSuspension1 id="HitSuspension1" mindist="10" maxdist="100" volume="1" group="1" />
+    <HitSuspension2 id="HitSuspension2" mindist="10" maxdist="100" volume="1" group="1" />
+    <HitSuspension3 id="HitSuspension3" mindist="10" maxdist="100" volume="1" group="1" />
+    <TrailerAttached id="TrailerAttached" mindist="10" maxdist="100" volume="1" group="1" />
+    <TrailerAttachedPss id="TrailerAttachedPss" mindist="10" maxdist="100" volume="1" group="1" />
+    <TruckRestore1 id="TruckRestore1" mindist="10" maxdist="100" volume="1" group="0" />
+    <TirePuncture id="TirePuncture" mindist="10" maxdist="100" volume="1" group="1" />
+    <TireTorn1 id="TireTorn1" mindist="10" maxdist="100" volume="1" group="1" />
+    <burning0 id="burning0_damage" mindist="10" maxdist="100" volume="1" group="1" />
+    <BlowOff id="BlowOff" mindist="10" maxdist="100" volume="1" group="1" />
+    <ExplosionBig1 id="ExplosionBig1" mindist="10" maxdist="300" volume="4" group="0"></ExplosionBig1>
+    <ExplosionBig2 id="ExplosionBig2" mindist="10" maxdist="300" volume="4" group="0" />
+    <CrashHard1 id="CrashHard1_explosion" mindist="10" maxdist="300" volume="1" group="1" />
+    <Wipers_slow1 id="Wipers_slow1" mindist="1" maxdist="10" volume="0.4" group="1" />
+    <TurnlightRelay1 id="TurnlightRelay1" mindist="1" maxdist="10" volume="0.2" group="1" />
+    <ReverseGearBeep id="ReverseGearBeep" mindist="5" maxdist="30" volume="1" group="1" />
+  </scoring>
+</SoundParameters>

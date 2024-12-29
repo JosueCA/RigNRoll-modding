@@ -1,0 +1,29 @@
+<particles>
+	<particle name="police" type="type12" nom="1">light on the police car (type is ignored - comes from code). warning!!! don't change shape, life and nom!!!
+		<trapecia usecar="true" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.4" y0="-0.4" x1="-0.4" y1="0.4" x2="0.4" y2="-0.4" x3="0.4" y3="0.4"/>
+				<shapeAnimatable animatable="false" cycle="false" change="false" invertonend="false" use_max_cyclelimit="false" fps="20." time="0." maxcycles="10.">
+					<texsized x0="0.5" y0="0.5" sx="0.5" sy="0.5"/>
+				</shapeAnimatable>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<dynvariable use="true" dynname="policehorncmult" replace=""/>
+			</coordsmultiply>
+		</trapecia>
+		<carlife bindcentr="">
+			<lifetemplate1 z="0." veldump="0.9" lifetime="100000" shape_coef="0.0" minshow="false">don't change lifetime!!! particles stored not only in manager!!!
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace=""/>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" add=""/>
+			</position>
+		</carlife>
+	</particle>
+</particles>

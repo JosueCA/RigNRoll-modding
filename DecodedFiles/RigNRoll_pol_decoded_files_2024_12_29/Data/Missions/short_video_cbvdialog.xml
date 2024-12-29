@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbvdialogs>
+  <dialog name="short_video=video_start=start=CbVideo">
+    <item caller="" wav="short_video=video_start=start=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_start=start=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_start=start=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_start=start=CbVideo=06=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_start=start=CbVideo=Y">
+          <item callee="" wav="short_video=video_start=start=CbVideo=Y=00=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_start=start=CbVideo=N">
+          <item callee="" wav="short_video=video_start=start=CbVideo=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_start=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_start=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_start=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=fail_timeout_complete=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_start=decline=CbVideo">
+    <item caller="" wav="short_video=video_start=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_start=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_start=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_start=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_dolina=success=CbVideo">
+    <item caller="" wav="short_video=video_dolina=success=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dolina=success=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dolina=success=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=success=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_dolina=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_dolina=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_dolina=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dolina=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dolina=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_dolina=fail_damaged=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_dolina=decline=CbVideo">
+    <item caller="" wav="short_video=video_dolina=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dolina=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dolina=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dolina=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_dolina=decline=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_dekor=start=CbVideo">
+    <item caller="" wav="short_video=video_dekor=start=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dekor=start=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dekor=start=CbVideo=04=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_dekor=start=CbVideo=Y">
+          <item callee="" wav="short_video=video_dekor=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_dekor=start=CbVideo=Y=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_dekor=start=CbVideo=N">
+          <item callee="" wav="short_video=video_dekor=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_video=video_dekor=start=CbVideo=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_dekor=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_video=video_dekor=fail_timeout_pickup=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_timeout_pickup=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_timeout_pickup=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_timeout_pickup=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_dekor=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_dekor=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_timeout_complete=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_dekor=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_dekor=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_dekor=fail_damaged=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_dekor=decline=CbVideo">
+    <item caller="" wav="short_video=video_dekor=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_dekor=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_dekor=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_dekor=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_dekor=decline=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_reklama=start=CbVideo">
+    <item caller="" wav="short_video=video_reklama=start=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_reklama=start=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_reklama=start=CbVideo=04=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_reklama=start=CbVideo=Y">
+          <item callee="" wav="short_video=video_reklama=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_reklama=start=CbVideo=Y=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_reklama=start=CbVideo=N">
+          <item callee="" wav="short_video=video_reklama=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_video=video_reklama=start=CbVideo=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_reklama=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_reklama=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_reklama=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_reklama=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_reklama=fail_damaged=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_reklama=decline=CbVideo">
+    <item caller="" wav="short_video=video_reklama=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_reklama=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_reklama=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_reklama=decline=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_reklama=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_zavod=success=CbVideo">
+    <item caller="" wav="short_video=video_zavod=success=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_zavod=success=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_zavod=success=CbVideo=04=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_zavod=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_zavod=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_zavod=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_zavod=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_zavod=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_zavod=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_zavod=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_zavod=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_zavod=decline=CbVideo">
+    <item caller="" wav="short_video=video_zavod=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_zavod=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_zavod=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_zavod=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_retrans=start=CbVideo">
+    <item caller="" wav="short_video=video_retrans=start=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_retrans=start=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_retrans=start=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_retrans=start=CbVideo=06=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_retrans=start=CbVideo=Y">
+          <item callee="" wav="short_video=video_retrans=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_retrans=start=CbVideo=Y=01=ID_MARTHA_3"/>
+          <item callee="" wav="short_video=video_retrans=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_retrans=start=CbVideo=N">
+          <item callee="" wav="short_video=video_retrans=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_video=video_retrans=start=CbVideo=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_retrans=success=CbVideo">
+    <item caller="" wav="short_video=video_retrans=success=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_retrans=success=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_retrans=success=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=success=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_retrans=success=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_retrans=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_video=video_retrans=fail_timeout_pickup=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_retrans=fail_timeout_pickup=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_retrans=fail_timeout_pickup=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_retrans=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_retrans=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_retrans=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_retrans=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_retrans=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_retrans=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_retrans=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_retrans=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_retrans=fail_damaged=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_retrans=decline=CbVideo">
+    <item caller="" wav="short_video=video_retrans=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_retrans=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_retrans=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_retrans=decline=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_retrans=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_clip=start=CbVideo">
+    <item caller="" wav="short_video=video_clip=start=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_clip=start=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_clip=start=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_clip=start=CbVideo=06=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_clip=start=CbVideo=Y">
+          <item callee="" wav="short_video=video_clip=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_clip=start=CbVideo=Y=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_clip=start=CbVideo=N">
+          <item callee="" wav="short_video=video_clip=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_video=video_clip=start=CbVideo=N=01=ID_MARTHA_3"/>
+          <item callee="" wav="short_video=video_clip=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_clip=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_video=video_clip=fail_timeout_pickup=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_timeout_pickup=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_timeout_pickup=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_timeout_pickup=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_clip=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_clip=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_timeout_complete=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_clip=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_clip=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_clip=fail_damaged=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_clip=decline=CbVideo">
+    <item caller="" wav="short_video=video_clip=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_clip=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_clip=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_clip=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_clip=decline=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_terror=success=CbVideo">
+    <item caller="" wav="short_video=video_terror=success=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_terror=success=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_terror=success=CbVideo=04=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_terror=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_terror=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_terror=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_terror=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_terror=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_terror=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_terror=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_terror=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_terror=fail_damaged=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_terror=decline=CbVideo">
+    <item caller="" wav="short_video=video_terror=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_terror=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_terror=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_terror=decline=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_terror=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_comp=start=CbVideo">
+    <item caller="" wav="short_video=video_comp=start=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_comp=start=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_comp=start=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_comp=start=CbVideo=06=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_comp=start=CbVideo=Y">
+          <item callee="" wav="short_video=video_comp=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_comp=start=CbVideo=Y=01=ID_MARTHA_3"/>
+          <item callee="" wav="short_video=video_comp=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_comp=start=CbVideo=N">
+          <item callee="" wav="short_video=video_comp=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_video=video_comp=start=CbVideo=N=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_comp=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_video=video_comp=fail_timeout_pickup=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_comp=fail_timeout_pickup=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_comp=fail_timeout_pickup=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_comp=fail_timeout_pickup=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_comp=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_comp=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_comp=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_comp=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_comp=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_comp=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_comp=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_comp=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_comp=decline=CbVideo">
+    <item caller="" wav="short_video=video_comp=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_comp=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_comp=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_comp=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_beisboll=success=CbVideo">
+    <item caller="" wav="short_video=video_beisboll=success=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=success=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=success=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=success=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_beisboll=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_beisboll=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=fail_timeout_complete=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_beisboll=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_beisboll=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=fail_damaged=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_beisboll=decline=CbVideo">
+    <item caller="" wav="short_video=video_beisboll=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_beisboll=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_beisboll=decline=CbVideo=06=ID_MARTHA_3"/>
+  </dialog>
+  <dialog name="short_video=video_star=start=CbVideo">
+    <item caller="" wav="short_video=video_star=start=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_star=start=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_star=start=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_star=start=CbVideo=06=ID_MARTHA_3"/>
+    <item>
+      <question text="short_video=Y" id="0">
+        <dialog name="short_video=video_star=start=CbVideo=Y">
+          <item callee="" wav="short_video=video_star=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_video=video_star=start=CbVideo=Y=01=ID_MARTHA_3"/>
+        </dialog>
+      </question>
+      <question text="short_video=N" id="1">
+        <dialog name="short_video=video_star=start=CbVideo=N">
+          <item callee="" wav="short_video=video_star=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_video=video_star=start=CbVideo=N=01=ID_MARTHA_3"/>
+          <item callee="" wav="short_video=video_star=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_video=video_star=success=CbVideo">
+    <item caller="" wav="short_video=video_star=success=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_star=success=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_star=success=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=success=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_star=success=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=success=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_star=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_video=video_star=fail_timeout_pickup=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_star=fail_timeout_pickup=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_star=fail_timeout_pickup=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_star=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_video=video_star=fail_timeout_complete=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_star=fail_timeout_complete=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_star=fail_timeout_complete=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_star=fail_damaged=CbVideo">
+    <item caller="" wav="short_video=video_star=fail_damaged=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_star=fail_damaged=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_star=fail_damaged=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_video=video_star=decline=CbVideo">
+    <item caller="" wav="short_video=video_star=decline=CbVideo=00=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_video=video_star=decline=CbVideo=02=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_video=video_star=decline=CbVideo=04=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_video=video_star=decline=CbVideo=06=ID_MARTHA_3"/>
+    <item callee="" wav="short_video=video_star=decline=CbVideo=07=Nick"/>
+  </dialog>
+</cbvdialogs>
+

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Scoring dir="">
+    <TruckHorn1 id="TruckHorn1" mindist="15" maxdist="400" volume="3" group="1" />
+    <TruckHorn2 id="TruckHorn2" mindist="15" maxdist="400" volume="3" group="1" />
+    <TruckHorn3 id="TruckHorn3" mindist="15" maxdist="400" volume="3" group="1" />
+    <TruckHorn4 id="TruckHorn4" mindist="15" maxdist="400" volume="3" group="1" />
+    <truckHornCool1 id="truckHornCool1" mindist="15" maxdist="400" volume="4" group="1" />
+    <CarHorn1 id="CarHorn1" mindist="10" maxdist="100" volume="2" group="1" />
+    <CarHorn2 id="CarHorn2" mindist="10" maxdist="100" volume="2" group="1" />
+    <CarHorn3 id="CarHorn3" mindist="10" maxdist="100" volume="2" group="1" />
+    <CarHorn4 id="CarHorn4" mindist="10" maxdist="100" volume="2" group="1" />
+    <CarHorn5 id="CarHorn5" mindist="10" maxdist="100" volume="2" group="1" />
+  </Scoring>
+  <General dir="" not_create="">
+    <truck_breakes_air1 id="truck_breakes_air1" mindist="12" maxdist="500" volume="1" group="1" />
+    <engineBrake id="engineBrake" mindist="12" maxdist="500" volume="1" group="1" />
+  </General>
+  <Crash dir="">
+    <ExplosionTruck1 id="ExplosionTruck1" mindist="40" maxdist="1000" volume="4" group="0" />
+    <ExplosionTruck2 id="ExplosionTruck2" mindist="40" maxdist="1000" volume="4" group="0"></ExplosionTruck2>
+    <ExplosionTruck3 id="ExplosionTruck3" mindist="40" maxdist="1000" volume="4" group="0" />
+    <burning0 id="burning0" mindist="3" maxdist="1000" volume="1" group="0" />
+  </Crash>
+</SoundParameters>

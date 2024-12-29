@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Scoring dir="">
+    <GearBroken1 id="GearBroken" mindist="10" maxdist="500" volume="1" group="1" />
+    <CrashWallGrind id="CrashWallGrind" mindist="10" maxdist="300" volume="1" group="1" />
+    <BumperAsphaltGrind id="BumperAsphaltGrind" mindist="50" maxdist="500" volume="1" group="1" />
+    <BarFull id="BarFull" volume="1" group="0" />
+    <TownNoise id="Police" volume="0.2" group="0" />
+    <barempty id="barempty" volume="1" group="0" />
+    <Podium_66 id="podium" volume="0.5" group="0" />
+    <TownNoise id="johnhouse" volume="0.5" group="0" />
+    <barempty id="barcrash" volume="0.5" group="0" />
+    <TownNoise id="motel" volume="0.2" group="0" />
+    <Shot1 id="Shot1" volume="4" mindist="50" maxdist="700" group="0" />
+    <Shot2 id="Shot2" volume="4" mindist="50" maxdist="700" group="0" />
+    <Shot3 id="Shot3" volume="4" mindist="50" maxdist="700" group="0" />
+    <Shot4 id="Shot4" volume="4" mindist="50" maxdist="700" group="0" />
+    <photo id="photo" volume="4" mindist="50" maxdist="700" group="0" />
+  </Scoring>
+  <Sirens dir="" />
+  <Hits dir="">
+    <GlassDemolition1 id="GlassDemolition1" mindist="50" maxdist="300" volume="1" group="0" />
+    <GlassDemolition2 id="GlassDemolition2" mindist="50" maxdist="300" volume="1" group="0" />
+    <HitSign id="HitSign" mindist="50" maxdist="300" volume="1" group="0" />
+    <HitSign2 id="HitSign2" mindist="50" maxdist="300" volume="1" group="0" />
+    <HitSign3 id="HitSign3" mindist="50" maxdist="300" volume="1" group="0" />
+  </Hits>
+  <crash dir="" />
+  <pss id="pss" mindist="10" maxdist="500" volume="1" group="1" />
+  <pss2 id="pss2" mindist="10" maxdist="500" volume="1.1" group="1" />
+</SoundParameters>

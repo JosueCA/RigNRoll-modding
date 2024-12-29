@@ -1,0 +1,926 @@
+<parking>
+<place>
+  <name>PK_OV_SB_01</name>
+  <num>8</num>
+  <x>1924.7</x>
+  <y>-23710.3</y>
+  <z>18</z>
+</place>
+<place>
+  <name>PK_OV_SB_02</name>
+  <num>8</num>
+  <x>2075</x>
+  <y>-23710</y>
+  <z>18</z>
+</place>
+<place>
+  <name>John_House_Parking</name>
+  <num>2</num>
+  <x>3209</x>
+  <y>-24353</y>
+  <z>-8.04663e-007</z>
+</place>
+<place>
+  <name>Oxnard_Police_Parking</name>
+  <num>3</num>
+  <x>3523.55</x>
+  <y>-24851.4</y>
+  <z>-8.04663e-007</z>
+</place>
+<place>
+  <name>OxnardParking04</name>
+  <num>3</num>
+  <x>4836</x>
+  <y>-24155</y>
+  <z>-9.53674e-007</z>
+</place>
+<place>
+  <name>OxnardParking05</name>
+  <num>2</num>
+  <x>4309</x>
+  <y>-24264</y>
+  <z>3</z>
+</place>
+<place>
+  <name>Oxnard_Parking_01</name>
+  <num>4</num>
+  <x>6069.9</x>
+  <y>-24268.8</y>
+  <z>15</z>
+</place>
+<place>
+  <name>Oxnard_Parking_02</name>
+  <num>9</num>
+  <x>6289.75</x>
+  <y>-24226.1</y>
+  <z>15</z>
+</place>
+<place>
+  <name>Oxnard_Parking_03</name>
+  <num>6</num>
+  <x>6116.28</x>
+  <y>-24226</y>
+  <z>15</z>
+</place>
+<place>
+  <name>pk_LA_TM_02</name>
+  <num>3</num>
+  <x>20893.5</x>
+  <y>-27652.4</y>
+  <z>30</z>
+</place>
+<place>
+  <name>pk_LA_TM_03</name>
+  <num>3</num>
+  <x>21019.5</x>
+  <y>-27781.7</y>
+  <z>30</z>
+</place>
+<place>
+  <name>pk_LA_TM_01</name>
+  <num>4</num>
+  <x>21220.6</x>
+  <y>-27692.7</y>
+  <z>29.9999</z>
+</place>
+<place>
+  <name>SC_LA_Parking02</name>
+  <num>7</num>
+  <x>18322.6</x>
+  <y>-31127.7</y>
+  <z>4.4167</z>
+</place>
+<place>
+  <name>SC_LA_Parking01</name>
+  <num>8</num>
+  <x>18434.4</x>
+  <y>-31151.1</y>
+  <z>4.4167</z>
+</place>
+<place>
+  <name>SD_SC_Parking_02</name>
+  <num>8</num>
+  <x>20986.8</x>
+  <y>-36346.7</y>
+  <z>20</z>
+</place>
+<place>
+  <name>SD_SC_Parking_01</name>
+  <num>8</num>
+  <x>20898.2</x>
+  <y>-36257.7</y>
+  <z>40</z>
+</place>
+<place>
+  <name>pk_sd_05</name>
+  <num>2</num>
+  <x>24022.9</x>
+  <y>-40834.5</y>
+  <z>-2</z>
+</place>
+<place>
+  <name>SD_Tem_parking_01</name>
+  <num>10</num>
+  <x>25284.7</x>
+  <y>-36942.5</y>
+  <z>13</z>
+</place>
+<place>
+  <name>SD_Tem_parking_02</name>
+  <num>10</num>
+  <x>25341.8</x>
+  <y>-37041.3</y>
+  <z>13</z>
+</place>
+<place>
+  <name>SD_Tem_parking_02</name>
+  <num>10</num>
+  <x>25418.9</x>
+  <y>-36934.5</y>
+  <z>13</z>
+</place>
+<place>
+  <name>PK_LA_LB_01</name>
+  <num>8</num>
+  <x>10269.8</x>
+  <y>-22741</y>
+  <z>55.8172</z>
+</place>
+<place>
+  <name>PK_LA_LB_02</name>
+  <num>8</num>
+  <x>10217.6</x>
+  <y>-22808.6</y>
+  <z>54.6982</z>
+</place>
+<place>
+  <name>PK_lb_02</name>
+  <num>10</num>
+  <x>8453.8</x>
+  <y>-17801.8</y>
+  <z>108.578</z>
+</place>
+<place>
+  <name>PK_lb_01</name>
+  <num>8</num>
+  <x>8472.15</x>
+  <y>-17750.6</y>
+  <z>108.578</z>
+</place>
+<place>
+  <name>PK_BK_LB_01</name>
+  <num>8</num>
+  <x>3332.8</x>
+  <y>-13373.4</y>
+  <z>20</z>
+</place>
+<place>
+  <name>PK_BK_LB_02</name>
+  <num>8</num>
+  <x>3467.75</x>
+  <y>-13276.6</y>
+  <z>20</z>
+</place>
+<place>
+  <name>PK_BK_10</name>
+  <num>2</num>
+  <x>5814</x>
+  <y>-11113</y>
+  <z>12</z>
+</place>
+<place>
+  <name>Bakersfield_Parking_04</name>
+  <num>6</num>
+  <x>5371.5</x>
+  <y>-8594.8</y>
+  <z>17</z>
+</place>
+<place>
+  <name>Bakersfield_Parking_03</name>
+  <num>8</num>
+  <x>5274.92</x>
+  <y>-8527.99</y>
+  <z>17</z>
+</place>
+<place>
+  <name>Bakersfield_Parking_02</name>
+  <num>8</num>
+  <x>5295.94</x>
+  <y>-8379.06</y>
+  <z>17</z>
+</place>
+<place>
+  <name>Bakersfield_Parking_01</name>
+  <num>8</num>
+  <x>5296.03</x>
+  <y>-8254.05</y>
+  <z>17</z>
+</place>
+<place>
+  <name>Bakersfield_Parking_06</name>
+  <num>8</num>
+  <x>8223.68</x>
+  <y>-9976.4</y>
+  <z>27</z>
+</place>
+<place>
+  <name>Bakersfield_Parking_05</name>
+  <num>8</num>
+  <x>8385</x>
+  <y>-10024.6</y>
+  <z>27</z>
+</place>
+<place>
+  <name>PK_BK_FR_01</name>
+  <num>8</num>
+  <x>1031.2</x>
+  <y>2230.6</y>
+  <z>4</z>
+</place>
+<place>
+  <name>PK_BK_FR_02</name>
+  <num>8</num>
+  <x>5078.75</x>
+  <y>-4840.6</y>
+  <z>14</z>
+</place>
+<place>
+  <name>PK_FR_01</name>
+  <num>2</num>
+  <x>1394</x>
+  <y>-1848</y>
+  <z>16.5</z>
+</place>
+<place>
+  <name>Mr_Fr_Parking_01</name>
+  <num>8</num>
+  <x>-2072.69</x>
+  <y>975.642</y>
+  <z>6</z>
+</place>
+<place>
+  <name>Mr_Fr_Parking_03</name>
+  <num>8</num>
+  <x>-2092.43</x>
+  <y>659.682</y>
+  <z>6</z>
+</place>
+<place>
+  <name>Mr_Fr_Parking_04</name>
+  <num>8</num>
+  <x>-1952.97</x>
+  <y>871.812</y>
+  <z>6</z>
+</place>
+<place>
+  <name>Mr_Fr_Parking_03</name>
+  <num>8</num>
+  <x>-2092.62</x>
+  <y>831.352</y>
+  <z>6</z>
+</place>
+<place>
+  <name>PK_pl_01</name>
+  <num>8</num>
+  <x>14606.5</x>
+  <y>-19563.2</y>
+  <z>77</z>
+</place>
+<place>
+  <name>PK_pl_02</name>
+  <num>8</num>
+  <x>14535.3</x>
+  <y>-19610.7</y>
+  <z>77</z>
+</place>
+<place>
+  <name>pk_Pl_01</name>
+  <num>2</num>
+  <x>14498.2</x>
+  <y>-18460.5</y>
+  <z>77.2</z>
+</place>
+<place>
+  <name>parking_PL_MJ</name>
+  <num>5</num>
+  <x>13597.6</x>
+  <y>-15885.7</y>
+  <z>87</z>
+</place>
+<place>
+  <name>pk_MJ_BS_01</name>
+  <num>8</num>
+  <x>20539.2</x>
+  <y>-15761.6</y>
+  <z>75</z>
+</place>
+<place>
+  <name>pk_MJ_BS_02</name>
+  <num>2</num>
+  <x>20317</x>
+  <y>-15770</y>
+  <z>75</z>
+</place>
+<place>
+  <name>BS_Parking_01</name>
+  <num>8</num>
+  <x>23994.3</x>
+  <y>-18239.3</y>
+  <z>71</z>
+</place>
+<place>
+  <name>BS_Parking_02</name>
+  <num>8</num>
+  <x>23871.6</x>
+  <y>-18237.1</y>
+  <z>71.01</z>
+</place>
+<place>
+  <name>pk_VV_LA_01</name>
+  <num>3</num>
+  <x>21585.6</x>
+  <y>-24661.6</y>
+  <z>46</z>
+</place>
+<place>
+  <name>pk_VV_LA_02</name>
+  <num>5</num>
+  <x>21680.3</x>
+  <y>-24780.2</y>
+  <z>46</z>
+</place>
+<place>
+  <name>pk_VV_LA_03</name>
+  <num>4</num>
+  <x>21803</x>
+  <y>-25009.3</y>
+  <z>46</z>
+</place>
+<place>
+  <name>pk_MJ_01</name>
+  <num>4</num>
+  <x>12464.9</x>
+  <y>-12134.1</y>
+  <z>83</z>
+</place>
+<place>
+  <name>pk_MJ_02</name>
+  <num>4</num>
+  <x>12423.5</x>
+  <y>-12254.7</y>
+  <z>83</z>
+</place>
+<place>
+  <name>pk_MJ_LP_02</name>
+  <num>2</num>
+  <x>13732.9</x>
+  <y>-10962.4</y>
+  <z>86</z>
+</place>
+<place>
+  <name>pk_MJ_LP_01</name>
+  <num>8</num>
+  <x>15110.6</x>
+  <y>-8260.64</y>
+  <z>100</z>
+</place>
+<place>
+  <name>pk_LP_BI_01</name>
+  <num>8</num>
+  <x>12409.5</x>
+  <y>-925.394</y>
+  <z>120</z>
+</place>
+<place>
+  <name>pk_BI_01</name>
+  <num>2</num>
+  <x>12211.1</x>
+  <y>5803.02</y>
+  <z>127</z>
+</place>
+<place>
+  <name>pk_BI_BR_01</name>
+  <num>8</num>
+  <x>9739.66</x>
+  <y>9819.67</y>
+  <z>150</z>
+</place>
+<place>
+  <name>pk_BI_BR_02</name>
+  <num>2</num>
+  <x>9776.77</x>
+  <y>9688.93</y>
+  <z>150</z>
+</place>
+<place>
+  <name>pk_BR_MD_01</name>
+  <num>8</num>
+  <x>7009.46</x>
+  <y>14074.6</y>
+  <z>190</z>
+</place>
+<place>
+  <name>pk_RE_MD</name>
+  <num>10</num>
+  <x>5857.83</x>
+  <y>21140.1</y>
+  <z>144.04</z>
+</place>
+<place>
+  <name>pk_BN_01</name>
+  <num>2</num>
+  <x>-3673.64</x>
+  <y>35865.7</y>
+  <z>96</z>
+</place>
+<place>
+  <name>pk_BN_AL_01</name>
+  <num>4</num>
+  <x>-537.439</x>
+  <y>37107.2</y>
+  <z>81</z>
+</place>
+<place>
+  <name>pk_BN_AL_02</name>
+  <num>4</num>
+  <x>-295.708</x>
+  <y>37135.9</y>
+  <z>81</z>
+</place>
+<place>
+  <name>pk_BN_AL_03</name>
+  <num>4</num>
+  <x>-488.319</x>
+  <y>37203.7</y>
+  <z>81</z>
+</place>
+<place>
+  <name>Alturas_Parking01</name>
+  <num>8</num>
+  <x>5067.25</x>
+  <y>39626.8</y>
+  <z>133</z>
+</place>
+<place>
+  <name>Alturas_Parking02</name>
+  <num>7</num>
+  <x>5025.98</x>
+  <y>39514.9</y>
+  <z>133</z>
+</place>
+<place>
+  <name>pk_OL_01</name>
+  <num>4</num>
+  <x>-12363.3</x>
+  <y>23801</y>
+  <z>17</z>
+</place>
+<place>
+  <name>pk_OL_02</name>
+  <num>4</num>
+  <x>-12216.4</x>
+  <y>23798</y>
+  <z>17</z>
+</place>
+<place>
+  <name>pk_OL_03</name>
+  <num>1</num>
+  <x>-12136.5</x>
+  <y>23699.6</y>
+  <z>17</z>
+</place>
+<place>
+  <name>pk_OL_04</name>
+  <num>2</num>
+  <x>-12215.4</x>
+  <y>23929.5</y>
+  <z>17</z>
+</place>
+<place>
+  <name>pk_RD_01</name>
+  <num>4</num>
+  <x>-14254.3</x>
+  <y>32086.7</y>
+  <z>21.5591</z>
+</place>
+<place>
+  <name>pk_RD_02</name>
+  <num>4</num>
+  <x>-14374.7</x>
+  <y>32086.7</y>
+  <z>21.5591</z>
+</place>
+<place>
+  <name>pk_RD_03</name>
+  <num>3</num>
+  <x>-14417</x>
+  <y>32155</y>
+  <z>21.5591</z>
+</place>
+<place>
+  <name>pk_WV_01</name>
+  <num>2</num>
+  <x>-23676.5</x>
+  <y>31487</y>
+  <z>62</z>
+</place>
+<place>
+  <name>pk_WV_02</name>
+  <num>1</num>
+  <x>-23501.4</x>
+  <y>31289.3</y>
+  <z>62</z>
+</place>
+<place>
+  <name>pk_RE_01</name>
+  <num>2</num>
+  <x>5455.04</x>
+  <y>27190</y>
+  <z>109</z>
+</place>
+<place>
+  <name>parking_RE_ST_01</name>
+  <num>6</num>
+  <x>3838.99</x>
+  <y>30742.4</y>
+  <z>127.792</z>
+</place>
+<place>
+  <name>parking_RE_ST_02</name>
+  <num>6</num>
+  <x>3815.88</x>
+  <y>30753.2</y>
+  <z>127.792</z>
+</place>
+<place>
+  <name>pk_ST_AL_01</name>
+  <num>8</num>
+  <x>6990.54</x>
+  <y>33345.4</y>
+  <z>130</z>
+</place>
+<place>
+  <name>CF_RN_Parking_02</name>
+  <num>8</num>
+  <x>-1402.4</x>
+  <y>25234.7</y>
+  <z>122.034</z>
+</place>
+<place>
+  <name>CF_RN_Parking_01</name>
+  <num>8</num>
+  <x>-1422.62</x>
+  <y>25414.6</y>
+  <z>122.034</z>
+</place>
+<place>
+  <name>CF_SR_Parking_02</name>
+  <num>8</num>
+  <x>-4838.94</x>
+  <y>22208.5</y>
+  <z>40.4427</z>
+</place>
+<place>
+  <name>CF_SR_Parking_01</name>
+  <num>8</num>
+  <x>-4898.36</x>
+  <y>22312.7</y>
+  <z>40.4427</z>
+</place>
+<place>
+  <name>park01_scrt04</name>
+  <num>10</num>
+  <x>-9410.87</x>
+  <y>19294.3</y>
+  <z>10</z>
+</place>
+<place>
+  <name>park02_scrt04</name>
+  <num>10</num>
+  <x>-9587.2</x>
+  <y>19117.4</y>
+  <z>10</z>
+</place>
+<place>
+  <name>park03_scrt04</name>
+  <num>10</num>
+  <x>-9422.65</x>
+  <y>19002.1</y>
+  <z>10</z>
+</place>
+<place>
+  <name>pk_scrt_05</name>
+  <num>2</num>
+  <x>-6827.94</x>
+  <y>18610.1</y>
+  <z>14</z>
+</place>
+<place>
+  <name>PK_Gf_Atsc_02</name>
+  <num>8</num>
+  <x>-10738.5</x>
+  <y>-7569.66</y>
+  <z>16</z>
+</place>
+<place>
+  <name>PK_Gf_Atsc_01</name>
+  <num>8</num>
+  <x>-10809.7</x>
+  <y>-7617.21</y>
+  <z>16</z>
+</place>
+<place>
+  <name>pk_sj_gf_01</name>
+  <num>10</num>
+  <x>-13725.8</x>
+  <y>-2979.45</y>
+  <z>17</z>
+</place>
+<place>
+  <name>pk_sj_gf_02</name>
+  <num>10</num>
+  <x>-13941.9</x>
+  <y>-3104.42</y>
+  <z>17</z>
+</place>
+<place>
+  <name>pk_sj_gf_03</name>
+  <num>10</num>
+  <x>-13813.2</x>
+  <y>-3258.69</y>
+  <z>17</z>
+</place>
+<place>
+  <name>pc_sf_sj_truckstop_01</name>
+  <num>10</num>
+  <x>-21993.3</x>
+  <y>2810.28</y>
+  <z>30</z>
+</place>
+<place>
+  <name>pc_sf_sj_truckstop_02</name>
+  <num>10</num>
+  <x>-21926.6</x>
+  <y>2782.02</y>
+  <z>30</z>
+</place>
+<place>
+  <name>pc_sf_sj_truckstop_03</name>
+  <num>10</num>
+  <x>1406.41</x>
+  <y>531.147</y>
+  <z>30</z>
+</place>
+<place>
+  <name>Ok_Parking_01</name>
+  <num>8</num>
+  <x>-18770.9</x>
+  <y>8794.19</y>
+  <z>15</z>
+</place>
+<place>
+  <name>Ok_Parking_03</name>
+  <num>8</num>
+  <x>7929.63</x>
+  <y>1831.74</y>
+  <z>15</z>
+</place>
+<place>
+  <name>Ok_Parking_04</name>
+  <num>8</num>
+  <x>7795.56</x>
+  <y>2047.32</y>
+  <z>15</z>
+</place>
+<place>
+  <name>Ok_Parking_03</name>
+  <num>8</num>
+  <x>7773.72</x>
+  <y>1903.58</y>
+  <z>15</z>
+</place>
+<place>
+  <name>OkSc_Parking_01</name>
+  <num>8</num>
+  <x>-16042.9</x>
+  <y>13909.4</y>
+  <z>6</z>
+</place>
+<place>
+  <name>OkSc_Parking_03</name>
+  <num>8</num>
+  <x>-15752</x>
+  <y>14034.3</y>
+  <z>6</z>
+</place>
+<place>
+  <name>OkSc_Parking_04</name>
+  <num>8</num>
+  <x>-16004.2</x>
+  <y>14063</y>
+  <z>6</z>
+</place>
+<place>
+  <name>OkSc_Parking_03</name>
+  <num>8</num>
+  <x>-15905.1</x>
+  <y>13956.7</y>
+  <z>6</z>
+</place>
+<place>
+  <name>SB_Parking01</name>
+  <num>5</num>
+  <x>-5496.47</x>
+  <y>-21879.1</y>
+  <z>36.5</z>
+</place>
+<place>
+  <name>SB_Atsc_Parking01</name>
+  <num>8</num>
+  <x>-7425.99</x>
+  <y>-20498.3</y>
+  <z>36.5</z>
+</place>
+<place>
+  <name>SB_Atsc_Parking02</name>
+  <num>7</num>
+  <x>-7492.68</x>
+  <y>-20405.5</y>
+  <z>36.5</z>
+</place>
+<place>
+  <name>Parking_Atsc_1</name>
+  <num>6</num>
+  <x>-8363.27</x>
+  <y>-14308.2</y>
+  <z>26</z>
+</place>
+<place>
+  <name>Parking_Atsc_2</name>
+  <num>6</num>
+  <x>468.06</x>
+  <y>150.344</y>
+  <z>0</z>
+</place>
+<place>
+  <name>Ktlm_Parking01</name>
+  <num>8</num>
+  <x>-1770.16</x>
+  <y>-12683.9</y>
+  <z>10</z>
+</place>
+<place>
+  <name>Ktlm_Parking02</name>
+  <num>8</num>
+  <x>-1835.33</x>
+  <y>-12586</y>
+  <z>10</z>
+</place>
+<place>
+  <name>Ktlm_Ptrs_Parking02</name>
+  <num>8</num>
+  <x>-4227.39</x>
+  <y>-5489.92</y>
+  <z>15.5</z>
+</place>
+<place>
+  <name>Ktlm_Ptrs_Parking01</name>
+  <num>8</num>
+  <x>-4192.12</x>
+  <y>-5378.05</y>
+  <z>15.5</z>
+</place>
+<place>
+  <name>pk_Ptrs_01</name>
+  <num>2</num>
+  <x>-9291.76</x>
+  <y>619.138</y>
+  <z>-5.00006</z>
+</place>
+<place>
+  <name>Ptrs_Mn_Parking_02</name>
+  <num>8</num>
+  <x>-11036.7</x>
+  <y>2487.65</y>
+  <z>-10</z>
+</place>
+<place>
+  <name>Ptrs_Mn_Parking_01</name>
+  <num>8</num>
+  <x>-10984.2</x>
+  <y>2555.33</y>
+  <z>-10</z>
+</place>
+<place>
+  <name>Ptrs_Mn_Parking_03</name>
+  <num>5</num>
+  <x>-10591.2</x>
+  <y>2957.28</y>
+  <z>-2</z>
+</place>
+<place>
+  <name>PK_Space_manteca_Parking01</name>
+  <num>8</num>
+  <x>-9208.92</x>
+  <y>6218.36</y>
+  <z>0</z>
+</place>
+<place>
+  <name>PK_manteca_02</name>
+  <num>8</num>
+  <x>-9256.47</x>
+  <y>6289.56</y>
+  <z>0</z>
+</place>
+<place>
+  <name>PK_SF_UK_02</name>
+  <num>5</num>
+  <x>-30260.2</x>
+  <y>12861.8</y>
+  <z>10</z>
+</place>
+<place>
+  <name>PK_SF_UK_01</name>
+  <num>5</num>
+  <x>-30422.8</x>
+  <y>13056.9</y>
+  <z>10</z>
+</place>
+<place>
+  <name>pk_UK_01</name>
+  <num>4</num>
+  <x>-31851.8</x>
+  <y>18249.5</y>
+  <z>28</z>
+</place>
+<place>
+  <name>pk_UK_02</name>
+  <num>5</num>
+  <x>-31713.1</x>
+  <y>18319</y>
+  <z>28</z>
+</place>
+<place>
+  <name>pk_01_eu_lgt_02</name>
+  <num>10</num>
+  <x>-34085.1</x>
+  <y>27639.4</y>
+  <z>22</z>
+</place>
+<place>
+  <name>pk_02_eu_lgt_02</name>
+  <num>10</num>
+  <x>-33851.7</x>
+  <y>27550.6</y>
+  <z>22</z>
+</place>
+<place>
+  <name>pk_03_eu_lgt_02</name>
+  <num>10</num>
+  <x>-33813.1</x>
+  <y>27747.2</y>
+  <z>22.0001</z>
+</place>
+<place>
+  <name>pk_eu_03_a</name>
+  <num>2</num>
+  <x>-33331.3</x>
+  <y>31633.5</y>
+  <z>0</z>
+</place>
+<place>
+  <name>pk01_eu_wv03</name>
+  <num>10</num>
+  <x>-28315.5</x>
+  <y>33140.3</y>
+  <z>35</z>
+</place>
+<place>
+  <name>pk02_eu_wv03</name>
+  <num>10</num>
+  <x>-28479.2</x>
+  <y>33222.9</y>
+  <z>35</z>
+</place>
+<place>
+  <name>pk03_eu_wv03</name>
+  <num>10</num>
+  <x>-28472.1</x>
+  <y>33059.6</y>
+  <z>35.0001</z>
+</place>
+<place>
+  <name>pk_MW_01</name>
+  <num>1</num>
+  <x>-392.255</x>
+  <y>11270.7</y>
+  <z>140</z>
+</place>
+<place>
+  <name>pk_MT_MW_01</name>
+  <num>7</num>
+  <x>-2927.39</x>
+  <y>9848.24</y>
+  <z>113.555</z>
+</place>
+</parking>

@@ -1,0 +1,1325 @@
+<rnr_quests>
+	<isoquests>
+		<item name="gamebegining_no_scenario" finishonlastphase="true">
+			<task finish="true" phase="1.0" none="">
+				<action blockso="" type="scobject"/>
+				<action blockso="" type="johnhouse"/>
+				<action blockso="" type="police"/>
+			</task>
+		</item>
+		<item name="gamebegining" finishonlastphase="true">STAGE #0
+			<task finish="false" phase="1.0" none="">
+				<action scenario_stage="" number="0"/>
+				<action blockso="" type="johnhouse"/>
+				<action blockso="" type="police"/>
+				<action blockso="" type="scobject"/>
+				<action createquest="" name="SC intro"/>
+				<action name="sc00009" scene=""/>
+				<action name="Dorothy_is_available" value="false" set_scenario_flag=""/>
+			</task>
+			<task finish="false" phase="2.0" none="">
+				<cond message="" text="Begining Scene phase1"/>
+				<action name="sc00010" scene=""/>
+				<action phasequest="" name="gamebegining" phase="3"/>
+			</task>
+			<task finish="true" phase="2.1" none="">
+				<cond message="" text="Skip intro"/>
+				<action createquest="" name="SC Help Coch"/>
+				<action finishquest="" name="SC intro"/>
+			</task>
+			<task finish="false" phase="3.0" none="">
+				<cond message="" text="Begining Scene phase2"/>
+				<action name="sc00011" scene=""/>
+				<action finishquest="" name="SC intro"/>
+			</task>
+			<task finish="true" phase="4.0" none="">
+				<cond message="" text="Begining Scene phase3"/>
+				<action createquest="" name="SC Help Coch"/>
+			</task>
+		</item>
+		<item name="help_to_coch" finishonlastphase="true">
+			<task finish="false" phase="1.0" none="">
+				<action text="start_help_coch" event=""/>
+				<action text="makeKohDummy" event=""/>
+			</task>
+			<task finish="false" phase="1.1" none="">
+				<cond message="" text="Accept Help Koh"/>
+				<action name="sc00030" scene=""/>
+				<action phasequest="" name="help_to_coch" phase="2"/>
+			</task>
+			<task finish="false" phase="1.2" none="">
+				<cond message="" text="Escape Help Koh"/>
+				<action makecall="" name="cb00033"/>
+				<action phasequest="" name="help_to_coch" phase="2"/>
+			</task>
+			<task finish="true" phase="2.0" none="">
+				<cond message="" text="cb00033 finished"/>
+				<action phasequest="" name="SC Help Coch" phase="2"/>
+			</task>
+			<task finish="true" phase="2.1" none="">
+				<cond message="" text="finished scene sc00030"/>
+				<action phasequest="" name="SC Help Coch" phase="1"/>
+			</task>
+		</item>
+		<item name="dispatch_resque_police" finishonlastphase="true">STAGE #1
+			<task phase="1.0" finish="true">
+				<action scenario_stage="" number="1"/>
+				<action createquest="" name="start Rescue Dorothy">
+					<wait name="start_resque_dorothy_delay" days="1"/>
+				</action>
+			</task>
+		</item>
+		<item name="start Rescue Dorothy" finishonlastphase="true">
+			<task phase="1.0" finish="false" none="">
+				<action text="startDorothySave" event=""/>
+			</task>
+			<task phase="2.0" finish="false">
+				<cond message="" text="resques_dorothy_started"/>
+			</task>
+			<task finish="true" phase="3.0" none="">ACCEPTED TASK
+				<cond message="" text="cb00040 accepted"/>
+				<action createquest="" name="Rescue Dorothy"/>
+				<action createquest="" name="SC Resque Dorothy"/>
+				<action kill_taken_missions=""/>
+				<action name="MissionsEnebledByScenario" value="false" set_scenario_flag=""/>
+				<action name="WarehousesEnabledByScenario" value="false" set_scenario_flag=""/>
+			</task>
+			<task finish="true" phase="3.1" none="">DECLINED TASK
+				<cond message="" text="cb00040 declined"/>
+				<action name="wait_policecall" startquest=""/>
+				<action description="j00041" jou=""/>
+			</task>
+		</item>
+		<item name="Rescue Dorothy" finishonlastphase="true">
+			<task finish="false" phase="1.0" none="">Bandits car hit. REMOVED FROM CODE (never will be called, but exists for saves compatibility).
+				<cond message="" text="Bandits car collided"/>
+				<action name="this" phasequest="" phase="6">go to chase</action>
+				<action phasequest="" name="SC Resque Dorothy" phase="1"/>
+			</task>
+			<task finish="false" phase="1.1" none="">Failed to enter bar in time
+				<cond text="m00040 failed" nativemessage=""/>
+				<action make_payoff="" name="dorothy_save_loose"/>
+				<action name="this" phasequest="" phase="2">wait bar activation or drop quest out</action>
+				<action phasequest="" name="SC Resque Dorothy" phase="2"/>
+			</task>
+			<task finish="false" phase="1.2" none="">Dorothy rescue it time.
+				<cond text="m00040 mission succeeded" nativemessage=""/>
+				<action name="this" phasequest="" phase="4">go to succed</action>
+				<action police_immunity="" value="true"/>
+				<action traffic="" on="false"/>
+			</task>
+			<task finish="true" phase="1.3" none="">Drop quest out.
+				<cond message="" text="Quest Dropped Out"/>
+				<action phasequest="" name="SC Resque Dorothy" phase="1"/>
+			</task>
+			<task finish="false" phase="2.0" f2="">We'll be killed.
+				<cond so="" type="bar" name="Room_Oxnard_Bar1"/>
+				<action name="sc00065" scene="" afterparking="true"/>
+				<action so_animation="" value="false"/>
+				<action name="this" phasequest="" phase="3"/>
+			</task>
+			<task finish="true" phase="2.1" f2="">Drop quest out.
+				<cond message="" text="Quest Dropped Out"/>
+				<action name="wait_policecall" startquest=""/>
+			</task>
+			<task finish="true" phase="3.0" none="">Killed by bandits.
+				<cond message="" text="loose"/>
+				<action so_animation="" value="true"/>
+				<action loosegame=""/>
+			</task>
+			<task finish="false" phase="4.0" none="">Chase after rescue: part 1.
+				<action name="sc00060part1" scene=""/>
+			</task>
+			<task finish="false" phase="5.0" none="">Quest completed.
+				<cond message="" text="Dorothy chase finished"/>
+				<action name="sc00100" scene=""/>
+				<action phasequest="" name="Rescue Dorothy" phase="7"/>
+			</task>
+			<task finish="false" phase="6.0" none="">Chase after rescue: part 2. REMOVED FROM CODE (never will be called, but exists for saves compatibility).
+				<action name="sc00060part2" scene=""/>
+				<action declinemission="" name="m00040"/>
+			</task>
+			<task finish="true" phase="7.0" none="">
+				<cond message="" text="finished scene sc00100"/>
+				<action make_payoff="" name="dorothy_save_success"/>
+				<action phasequest="" name="SC Resque Dorothy" phase="3"/>
+			</task>
+		</item>
+		<item name="wait_policecall" finishonlastphase="true">STAGE #2
+			<task phase="1.0" finish="false">
+				<action createquest="" name="SC Koh curious call"/>
+				<action scenario_stage="" number="2"/>
+				<action name="cb00165" makecall="">
+					<wait name="cb00165 delay" days="0" hours="12"/>
+				</action>
+			</task>
+			<task phase="1.1" finish="false">
+				<cond message="" text="cb00165 finished"/>
+				<action phasequest="" name="SC Koh curious call" phase="1"/>
+			</task>
+			<task phase="2.0" finish="true">
+				<action name="cb00322" makecall="">
+					<wait name="cb00322 delay" days="0" hours="12"/>
+				</action>
+			</task>
+		</item>
+		<item name="topolicematdeath" finishonlastphase="true">
+			<task phase="1.0" finish="false" f2="">
+				<cond so="" type="police"/>
+				<action name="m00322" finishmission=""/>
+				<action name="sc00324" scene="" afterparking="true"/>
+				<action blockso="" type="scobject" name="SP_Oxnard_Police" use_name="true"/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task finish="false" phase="1.1" none="">
+				<action unblockso="" type="scobject" name="SP_Oxnard_Police"/>
+			</task>
+			<task finish="true" phase="1.2" none="">SCENARIO END: 
+				<cond text="m00322 failed" nativemessage=""/>
+				<action phasequest="" name="SC Police Mat Death" phase="3"/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action scenario_finished=""/>
+			</task>
+			<task finish="true" phase="2.0" none="">accept
+				<cond message="" text="Scenario Answer Ok"/>
+				<action phasequest="" name="SC Police Mat Death" phase="1"/>
+			</task>
+			<task finish="false" phase="2.1" none="">SCENARIO END: reject
+				<cond message="" text="Scenario Answer Cancel"/>
+				<action phasequest="" name="SC Police Mat Death" phase="2"/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action phasequest="" name="this" phase="3"/>
+			</task>
+			<task finish="true" phase="3.0" none="">SCENARIO FINISH ON SCENE END
+				<cond message="" text="finished scene sc00324">verify that all previous scenario actions completed</cond>
+				<action scenario_finished=""/>
+			</task>
+		</item>
+		<item name="wait_starngercall" finishonlastphase="true">STAGE #3
+			<task phase="1.0" finish="true">
+				<cond message="" text="finished scene sc00324">verify that all previous scenario actions completed</cond>
+				<action createquest="" name="starngercall">
+					<wait name="starngercall delay" days="1"/>
+				</action>
+				<action scenario_stage="" number="3"/>
+			</task>
+		</item>
+		<item name="starngercall" finishonlastphase="true">
+			<task finish="true" phase="1.0" none="">
+				<action blockso="" type="scobject" name="SP_Oxnard_Police" use_name="true"/>
+				<action name="stranger call" makecall="">THIS CALL WILL START QUEST {SC meet stranger}</action>
+			</task>
+		</item>
+		<item name="meet_stranger" finishonlastphase="true">
+			<task phase="1.0" finish="false" f2="">MEETING WITH STRANGER
+				<cond so="" type="bar" name="Room_Oxnard_Bar1">
+					<cond daytime="" fromhour="16" tohour="24"/>
+				</cond>
+				<action name="m00410" finishmission=""/>
+				<action so_animation="" value="false"/>
+				<action name="sc00430" scene="" afterparking="true"/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="1.1" finish="true" none="">SCENARIO END
+				<cond text="m00410 failed" nativemessage=""/>
+				<action jou="" description="j00420"/>
+				<action scenario_finished=""/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+			</task>
+			<task phase="2.0" finish="true" exit="">MET WITH STRANGER
+				<action so_animation="" value="true"/>
+				<action finishquest="" name="SC meet stranger"/>
+				<action scenario_stage="" number="4"/>
+			</task>
+		</item>
+		<item name="meet_piterpan" finishonlastphase="true">STAGE #4
+			<task phase="1.0" finish="false" none="">MET BANDITS
+				<cond text="m00430 mission succeeded" nativemessage=""/>
+				<action name="sc00454" scene=""/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="1.1" finish="true" none="">SCENARIO END - FAILED MET BANDITS
+				<cond text="m00430 failed" nativemessage=""/>
+				<action finishquest="" name="SC meet Piter Pan"/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action jou="" description="j00440"/>
+				<action scenario_finished=""/>
+			</task>
+			<task phase="2.0" finish="false">EXECUTED AFTER MEET WITH BANDITS
+				<cond text="finished scene sc00454" message=""/>
+				<action phasequest="" name="SC meet Piter Pan" phase="1"/>
+			</task>
+			<task phase="3.0" finish="false" none="">MET PP
+				<cond text="m00454 mission succeeded" nativemessage=""/>
+				<action name="sc00455" scene=""/>
+				<action phasequest="" name="this" phase="4"/>
+			</task>
+			<task phase="3.1" finish="true" none="">
+				<cond text="m00454 failed" nativemessage=""/>
+				<action finishquest="" name="SC meet Piter Pan"/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action scenario_finished=""/>
+				<action jou="" description="j00440"/>
+			</task>
+			<task phase="4.0" finish="true">
+				<cond text="finished scene sc00455" message=""/>
+				<action phasequest="" name="SC meet Piter Pan" phase="2"/>
+			</task>
+		</item>
+		<item name="wait_dor_about_john" finishonlastphase="true">STAGE #6
+			<task phase="1.0" finish="true">SCHEDULE CBV CALL FROM DOROTHY
+				<action name="dor_aboutjohn" makecall="">
+					<wait name="waitdor_aboutjohn" days="1"/>
+				</action>
+			</task>
+		</item>
+		<item name="meetjohn after race" finishonlastphase="true">STAGE #6
+			<task phase="1.0" finish="false" f2="">
+				<cond so="" type="johnhouse" name="Oxnard_HouseJohn"/>
+				<action so_animation="" value="false"/>
+				<action removeaction="" name="waitdor_aboutjohn"/>
+				<action name="sc00480" scene="" afterparking="true"/>
+				<action type="johnhouse" blockso=""/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="2.0" finish="true" exit="">
+				<action so_animation="" value="true"/>
+				<action phasequest="" name="SC meet John" phase="2"/>
+			</task>
+			<task phase="3.0" finish="false" f2="">Phased here from CS_Meet_John after Dorothy call 
+				<cond so="" type="johnhouse" name="Oxnard_HouseJohn"/>
+				<action name="m00468" finishmission=""/>
+				<action so_animation="" value="false"/>
+				<action name="sc00480" scene="" afterparking="true"/>
+				<action type="johnhouse" blockso=""/>
+				<action phasequest="" name="this" phase="4"/>
+			</task>
+			<task phase="3.1" finish="true" none="">
+				<cond text="m00468 failed" nativemessage=""/>
+				<action type="johnhouse" blockso=""/>
+				<action scenario_finished=""/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action finishquest="" name="SC meet John"/>
+				<action finishquest="" name="SC meet Piter Pan"/>
+				<action description="j00482" jou=""/>
+			</task>
+			<task phase="4.0" finish="true" exit="">
+				<action so_animation="" value="true"/>
+				<action phasequest="" name="SC meet John" phase="2"/>
+			</task>
+		</item>
+		<item name="finalpiterpanrace" finishonlastphase="true">
+			<!--second meeting with PP-->
+			<task phase="1.0" finish="false" f2="">
+				<cond so="" name="Bar_SB_01" type="bar">
+					<cond daytime="" fromhour="16" tohour="24"/>
+				</cond>
+				<action name="m00480" finishmission=""/>
+				<action so_animation="" value="false"/>
+				<action number="7" scenario_stage=""/>
+				<action name="sc00510" scene="" afterparking="true"/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="1.1" finish="true" none="">
+				<cond text="m00480 failed" nativemessage=""/>
+				<action finishquest="" name="SC meet Piter Pan"/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action scenario_finished=""/>
+				<action jou="" description="j00440"/>
+			</task>
+			<task phase="2.0" finish="true" exit="">
+				<action so_animation="" value="true"/>
+				<action phasequest="" name="SC meet Piter Pan" phase="4"/>
+			</task>
+		</item>
+		<item name="piterpandomedrace" finishonlastphase="true">STAGE #5
+			<task phase="1.0" finish="false">
+				<cond message="" text="Piter Pan doomed race call"/>
+				<action make_payoff="" name="pp_race_loose"/>
+				<action makecall="" name="pp_badendrace1"/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="1.1" finish="false">
+				<cond message="" text="Piter Pan doomed race finished"/>
+				<action make_payoff="" name="pp_race_loose"/>
+				<action name="sc00465" scene=""/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="1.2" finish="false">
+				<cond message="" text="Piter Pan doomed race win"/>
+				<action make_payoff="" name="pp_race_success"/>
+				<action name="sc00520" scene="" scenarioStageNumberForScene="5"/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="2.0" finish="true">AFTER LOOSE CBV CALL
+				<cond message="" text="pp_badendrace1 finished"/>
+				<action text="Player loose car" event=""/>
+				<action phasequest="" name="SC race 1 Piter Pan" phase="1"/>
+			</task>
+			<task phase="2.1" finish="true">AFTER WIN SCENE
+				<cond message="" text="finished scene sc00520"/>
+				<action phasequest="" name="SC race 1 Piter Pan" phase="2"/>
+				<action name="SC meet Topo" startquest=""/>
+				<action finishquest="" name="SC meet Piter Pan"/>
+			</task>
+			<task phase="2.2" finish="true">AFTER LOOSE SCENE
+				<cond message="" text="finished scene sc00465"/>
+				<action phasequest="" name="SC race 1 Piter Pan" phase="1"/>
+			</task>
+		</item>
+		<item name="piterpanfinalrace">STAGE #7
+			<task phase="1.0" finish="false">WIN
+				<cond message="" text="Piter Pan final race win"/>
+				<action make_payoff="" name="pp_final_race_success"/>
+				<action name="sc00520" scene="" scenarioStageNumberForScene="7"/>
+				<action phasequest="" name="this" phase="2"/>
+			</task>
+			<task phase="1.1" finish="true">LOOSE ON FINISH
+				<cond message="" text="Piter Pan final race loose"/>
+				<action phasequest="" name="SC race 2 Piter Pan" phase="2"/>
+				<action name="sc00530" scene=""/>
+			</task>
+			<task phase="1.2" finish="true">LOOSE NOT FINISHED
+				<cond message="" text="Piter Pan final race call"/>
+				<action makecall="" name="pp_badendrace2"/>
+				<action phasequest="" name="SC race 2 Piter Pan" phase="2"/>
+			</task>
+			<task phase="2.0" finish="true">AFTER sc00520 (WIN)
+				<cond text="sc00520 finished" message=""/>
+				<action phasequest="" name="SC race 2 Piter Pan" phase="1"/>
+			</task>
+		</item>
+		<item name="meettopo" finishonlastphase="true">STAGE #8
+			<task phase="1.0" finish="false" none="">
+				<!-- we paste start_aside_mission to place mission resourses just before we came to office. Mission shoud began far from here to let resourses be placed -->
+				<action type="scobject" unblockso="" name="SP_Topo_Office"/>
+				<action name="sc00610" start_aside_mission=""/>
+			</task>
+			<task phase="1.1" finish="false" f2="">
+				<cond so="" type="scobject" name="TopoOffice"/>
+				<action name="m00600" finishmission=""/>
+				<action type="scobject" blockso="" name="SP_Topo_Office" use_name="true"/>
+				<action name="sc00610" scene="" afterparking="true"/>
+				<action name="this" phasequest="" phase="2"/>
+			</task>
+			<task phase="1.2" finish="true" none="">SCENARIO END
+				<cond text="m00600 failed" nativemessage=""/>
+				<action type="scobject" blockso="" name="SP_Topo_Office" use_name="true"/>
+				<action name="SC meet Topo" phasequest="" phase="2"/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action scenario_finished=""/>
+			</task>
+			<task phase="2.0" finish="true" exit="">
+				<cond message="" text="finished scene sc00610"/>
+				<action name="SC meet Topo" phasequest="" phase="1"/>
+			</task>
+		</item>
+		<item name="chasetopo" finishonlastphase="true">STAGE #9
+			<task phase="1.0" finish="false">
+				<action number="9" scenario_stage="">HAS HIGHEST PRIORITY</action>
+				<action createquest="" name="topomission_failes"/>
+				<action createquest="" name="topomission_failed"/>
+				<action name="sc00610_start_channel" point="SP_Topo_Office" extermal_channel_appear=""/>
+				<action police_immunity="" value="true"/>
+				<action name="MissionsEnebledByScenario" value="false" set_scenario_flag=""/>
+				<action name="WarehousesEnabledByScenario" value="false" set_scenario_flag=""/>
+				<action kill_taken_missions=""/>
+				<action on="false" traffic=""/>
+				<action text="chase_topo" event=""/>
+			</task>
+			<task phase="1.1" finish="false">IF WE MET BANDITS
+				<cond message="" text="Topo chase bandits call"/>
+				<action name="SavesEnabledByScenario" value="false" set_scenario_flag=""/>
+				<action makecall="" name="cb00611"/>
+				<action createquest="" name="chasebadend"/>
+				<action phasequest="" name="this" phase="2"/>
+				<action phasequest="" name="SC Topo chase" phase="1"/>
+			</task>
+			<task phase="1.2" finish="false">IF WE ENVELOPE BANDITS
+				<cond message="" text="Topo chase customer call 1"/>
+				<action changemd="" mission="sc00610" destination="SP_CP_LB_TS"/>
+				<action phasequest="" name="this" phase="7"/>
+				<action makecall="" name="cb00740"/>
+				<action finishquest="" name="topomission_failes"/>
+				<action value="false" police_immunity=""/>
+				<action on="true" traffic=""/>
+				<action name="SavesEnabledByScenario" value="false" set_scenario_flag=""/>
+			</task>
+			<task phase="2.0" finish="false">
+				<cond message="" text="Topo chase Koh call"/>
+				<action makecall="" name="cb00690"/>
+				<action phasequest="" name="SC Topo chase" phase="2"/>
+			</task>
+			<task phase="3.0" finish="false">
+				<cond message="" text="Topo chase Dakota call"/>
+				<action makecall="" name="cb00691"/>
+				<action phasequest="" name="SC Topo chase" phase="3"/>
+			</task>
+			<task phase="4.0" finish="false">
+				<cond message="" text="Topo chase animate Dakota"/>
+				<action name="sc00730" scene=""/>
+			</task>
+			<task phase="5.0" finish="false">
+				<cond message="" text="Topo chase animate Dakota ended"/>
+				<action name="SC Topo chase" phasequest="" phase="4"/>
+				<action finishquest="" name="topomission_failes"/>
+				<action finishquest="" name="chasebadend"/>
+			</task>
+			<task phase="6.0" finish="false">
+				<cond message="" text="Topo chase customer call 1"/>
+				<action changemd="" mission="sc00610" destination="SP_CP_LB_TS"/>
+				<action phasequest="" name="this" phase="7"/>
+				<action makecall="" name="cb00740"/>
+				<action phasequest="" name="SC Topo chase" phase="5"/>
+			</task>
+			<task phase="7.0" finish="false">
+				<cond message="" text="Topo chase animate punkt a"/>
+				<action name="SC Topo chase" phasequest="" phase="6"/>
+				<action name="sc00750" scene=""/>
+			</task>
+			<task phase="8.0" finish="false">SECOND CUSTOMER CALL
+				<cond message="" text="Topo chase customer call 2"/>
+				<action changemd="" mission="sc00610" destination="SP_CP_meet_on_14"/>
+				<action makecall="" name="cb00805" immediate="true"/>
+				<action name="SC Topo chase" phasequest="" phase="7"/>
+			</task>
+			<task phase="9.0" finish="false">MEET WITH FRIENDS ON TRUCKSTOP
+				<cond message="" text="Topo chase player on truckstop"/>
+				<action name="sc00830" scene=""/>
+				<action name="SC Topo chase" phasequest="" phase="8"/>
+			</task>
+			<task phase="9.1" finish="true">LAST CALL FROM CUSTOMER
+				<cond message="" text="Topo chase customer call 3"/>
+				<action makecall="" name="cb00860"/>
+			</task>
+			<task phase="9.2" finish="false">MEET WITH CUSTOMER
+				<cond message="" text="Topo chase animate dark truck"/>
+				<action name="sc00860" scene=""/>
+				<action name="SC Topo chase" phasequest="" phase="9"/>
+				<action finishquest="" name="topomission_failed"/>
+				<action changemd="" mission="sc00610" destination="SP_CP_LB_TS">WTF-code: to increase mission expiration time while playing sc00860</action>
+			</task>
+		</item>
+		<item name="chasebadend" finishonlastphase="true">
+			<task phase="1.0" finish="true">
+				<cond message="" text="Topo chase bad end"/>
+				<action name="chasetopo" finishquest=""/>
+				<action phasequest="" name="SC Topo chase" phase="10"/>
+			</task>
+		</item>
+		<item name="topomission_commonfailes" finishonlastphase="true">
+			<task phase="1.0" finish="true">
+				<action name="chasetopo" finishquest=""/>
+				<action name="chasebadend" finishquest=""/>
+				<action phasequest="" name="SC Topo chase" phase="10"/>
+			</task>
+		</item>
+		<item name="topomission_failes" finishonlastphase="true">
+			<task phase="1.0" finish="true">
+				<cond message="" text="Topo chase pickup"/>
+				<action declinemission="" name="sc00610"/>
+			</task>
+			<task phase="1.1" finish="true">
+				<cond message="" text="Topo chase enter chase notrailer"/>
+				<cond message="" text="Topo chase failed"/>
+				<action createquest="" name="topomission_commonfailes"/>
+				<action declinemission="" name="sc00610"/>
+				<action text="scenario_bankrupt" event=""/>
+			</task>
+		</item>
+		<item name="topomission_failed" finishonlastphase="true">
+			<task phase="1.0" finish="false">
+				<cond nativemessage="" text="sc00610 mission failed timeout pickup"/>
+				<cond nativemessage="" text="sc00610 mission failed timeout damaged"/>
+				<cond nativemessage="" text="sc00610 mission failed declined"/>
+				<cond nativemessage="" text="sc00610 mission failed timeout complete"/>
+				<action createquest="" name="topomission_commonfailes"/>
+				<action name="topomission_failes" finishquest=""/>
+				<action text="finish special cargo and scenario" event=""/>
+				<action on="true" traffic=""/>
+				<action value="false" police_immunity=""/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+				<action name="MissionsEnebledByScenario" value="true" set_scenario_flag=""/>
+				<action name="WarehousesEnabledByScenario" value="true" set_scenario_flag=""/>
+				<action description="j00850" jou=""/>
+			</task>
+		</item>
+		<item name="topolice" finishonlastphase="true">STAGE #10
+			<task phase="1.0" finish="false">
+				<cond message="" text="finished scene sc00860"/>
+				<action unblockso="" type="scobject" name="SP_Oxnard_Police"/>
+				<action name="m00861" timer="Start0861" startscenariomission=""/>
+				<action phasequest="" name="this" phase="2"/>
+				<action number="10" scenario_stage=""/>
+				<action name="sc00610" finishmission="">WTF-code: must be in chasetopo end, but here because of technical reasons</action>
+			</task>
+			<task phase="2.0" finish="true" f2="">
+				<cond so="" type="police"/>
+				<action name="sc00930" scene="" afterparking="true"/>
+				<action name="m00861" finishmission=""/>
+				<action blockso="" type="scobject" name="SP_Oxnard_Police" use_name="true"/>
+				<action phasequest="" name="SC police" phase="1"/>
+			</task>
+			<task phase="2.1" finish="true" none="">SCENARIO END
+				<cond nativemessage="" text="m00861 failed"/>
+				<action finishquest="" name="SC police"/>
+				<action description="j00865" jou=""/>
+				<action scenario_finished=""/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+			</task>
+		</item>
+		<item name="wait_01030" finishonlastphase="true">
+			<task phase="1.0" finish="true">
+				<action name="tooffice" createquest="">
+					<wait name="Pam Call Delay" days="1"/>
+				</action>
+			</task>
+		</item>
+		<item name="tooffice" finishonlastphase="true">STAGE #11
+			<task phase="1.0" finish="false" none="">
+				<action makecall="" name="cb01020"/>
+				<action number="11" scenario_stage=""/>
+			</task>
+			<task phase="2.0" finish="false" none="">
+				<cond message="" text="cb01020 finished"/>
+				<action startscenariomission="" name="m01020" timer="StartMissionToOffice"/>
+				<action description="j01020" jou=""/>
+			</task>
+			<task phase="2.1" finish="true" none="">
+				<cond text="m01020 mission succeeded" nativemessage=""/>
+				<action name="sc01200" scene=""/>
+				<action name="wait_01400" createquest=""/>
+				<action description="j01200" jou=""/>
+				<action name="Start_SR108_news" value="true" set_scenario_flag=""/>
+			</task>
+			<task phase="2.2" finish="false" none="">
+				<cond text="m01020 failed" nativemessage=""/>
+				<action text="scenario_bankrupt" event=""/>
+			</task>
+		</item>
+		<item name="arrest_1440" finishonlastphase="true">
+			<task phase="1.0" finish="false">catch
+				<action policescene="" reserve="true"/>
+			</task>
+			<task phase="2.0" finish="true">after catch
+				<cond message="" text="police_scene_end"/>
+				<action name="sc01440" scene=""/>
+			</task>
+		</item>
+		<item name="wait_01400" finishonlastphase="true">
+			<task phase="1.0" finish="true">
+				<cond message="" text="finished scene sc01200"/>
+				<action name="SC Dakota" createquest="">
+					<wait name="Dakota Ready" days="1"/>
+				</action>
+				<action number="12" scenario_stage=""/>
+			</task>
+		</item>
+		<item name="meet_dakota" finishonlastphase="true">STAGE 12
+			<task phase="1.0" finish="false">
+				<cond message="" text="Dakota Quest called">came from cbvideocalls.xml</cond>
+				<action name="SC Dakota" phasequest="" phase="1"/>
+				<action startscenariomission="" name="m01400" timer="StartMissionToOffice"/>
+			</task>
+			<task phase="2.0" finish="false">
+				<cond text="m01400 mission succeeded" nativemessage=""/>
+				<action removeaction="" name="dakota_meeting_late"/>
+				<action name="sc01420" scene=""/>
+				<action phasequest="" name="meet_dakota" phase="4"/>
+			</task>
+			<task phase="2.1" finish="false">
+				<cond text="m01400 failed" nativemessage=""/>
+				<action name="cb01430" makecall="">
+					<wait name="dakota_meeting_late" days="1"/>
+				</action>
+				<action description="j01410" jou=""/>
+			</task>
+			<task phase="2.2" finish="false">late
+				<cond message="" text="Dakota Quest called">came from cbvideocalls.xml</cond>
+				<action startscenariomission="" name="m01401" timer="StartMissionToOffice"/>
+				<action name="SC Dakota" phasequest="" phase="2"/>
+				<action phasequest="" name="this" phase="3"/>
+			</task>
+			<task phase="3.0" finish="false">
+				<cond text="m01401 mission succeeded" nativemessage=""/>
+				<action name="sc01420" scene=""/>
+				<action phasequest="" name="this" phase="4"/>
+			</task>
+			<task phase="3.1" finish="false">
+				<cond text="m01401 failed" nativemessage=""/>
+				<action phasequest="" name="meet_dakota" phase="5"/>
+			</task>
+			<task phase="4.0" finish="true" none="">late meeting
+				<action so_animation="" value="true"/>
+				<action name="SC Dakota" phasequest="" phase="3"/>
+			</task>
+			<task phase="5.0" finish="true">never met
+				<action createquest="" name="arrest_1440"/>
+			</task>
+		</item>
+		<item name="wait_01500" finishonlastphase="true">
+			<task phase="1.0" finish="true">
+				<cond message="" text="finished scene sc01420"/>
+				<action name="SC Meet Mat" createquest="">
+					<wait name="Matew Ready" days="1"/>
+				</action>
+				<action number="13" scenario_stage=""/>
+			</task>
+		</item>
+		<item name="1500_findMat" finishonlastphase="true">STAGE 13
+			<task phase="1.0" finish="false" none="">
+				<cond message="" text="player far from red rock"/>
+				<action makecall="" name="cb01500"/>
+			</task>
+			<task phase="2.0" finish="false" none="">
+				<cond message="" text="cb01500 finished"/>
+				<action phasequest="" name="SC Meet Mat" phase="1"/>
+				<action startscenariomission="" name="m01500" timer="Start1500"/>
+			</task>
+			<task phase="3.0" finish="false" none="">
+				<cond text="m01500 failed" nativemessage=""/>
+				<action phasequest="" name="this" phase="4"/>
+			</task>
+			<task phase="3.1" finish="false" none="">
+				<cond message="" text="reach Red Rock Canyon"/>
+				<action name="m01500" finishmission=""/>
+				<action name="sc01540" scene=""/>
+				<action phasequest="" name="this" phase="6"/>
+			</task>
+			<task phase="3.2" finish="false" none="">
+				<cond message="" text="fail Red Rock Canyon"/>
+				<action name="m01500" finishmission=""/>
+				<action name="sc01541" scene=""/>
+				<action phasequest="" name="this" phase="6"/>
+			</task>
+			<task phase="3.3" finish="false" none="">
+				<cond message="" text="ready call 1520"/>
+				<action makecall="" name="cb01520"/>
+			</task>
+			<task phase="3.4" finish="false" none="">
+				<cond message="" text="cb01520 finished"/>
+				<action phasequest="" name="SC Meet Mat" phase="2"/>
+			</task>
+			<task phase="4.0" finish="false" none="">
+				<action makecall="" name="cb01548">
+					<wait name="cb01546 delay" days="0" hours="2"/>
+				</action>
+			</task>
+			<task phase="5.0" finish="true" none="">
+				<cond message="" text="cb01548 finished"/>
+				<action phasequest="" name="SC Meet Mat" phase="3"/>
+				<action name="wait_01600" createquest=""/>
+			</task>
+			<task phase="6.0" finish="false" none="">
+				<cond message="" text="1540 finished"/>
+				<action phasequest="" name="SC Meet Mat" phase="4"/>
+				<action makecall="" name="cb01546">
+					<wait name="cb01546 delay" days="0" hours="2"/>
+				</action>
+				<action name="wait_01600" createquest=""/>
+			</task>
+		</item>
+		<item name="wait_01600" finishonlastphase="true">
+			<task phase="1.0" finish="true">
+				<action name="SC Enemy Base" createquest=""/>
+				<action number="14" scenario_stage=""/>
+				<action text="Dorothy_call" event="">
+					<wait name="dorothy calls day after mat death" days="1"/>
+				</action>
+			</task>
+		</item>
+		<item name="1600_enemybase" finishonlastphase="true">STAGE 14
+			<task phase="1.0" finish="false" none="">Refactored. FEATURE CUTTED: no bandits tracking
+				<cond message="" text="Dorothy_call"/>
+				<action text="start_1600" event=""/>
+			</task>
+			<task phase="2.0" finish="false" none="">
+				<action phasequest="" name="SC Enemy Base" phase="1"/>
+				<action makecall="" name="cb02010"/>
+			</task>
+			<task phase="3.0" finish="false" none="">
+				<cond message="" text="threaten_call_1"/>
+				<action makecall="" name="cb01660">MONICA CALL! threaten_call_1 - is not a correct name, but leaved unrefactored in case of deadline</action>
+			</task>
+			<task phase="4.0" finish="true" none="">
+				<cond message="" text="cb01660 finished"/>
+				<action phasequest="" name="SC Enemy Base" phase="2"/>
+				<action createquest="" name="2015_enemybase"/>
+			</task>
+		</item>
+		<item name="2015_enemybase" finishonlastphase="true">STAGE 14
+			<task phase="1.0" finish="false" none="">
+				<cond message="" text="make_Dacota_call"/>
+				<action makecall="" name="cb02015"/>
+				<action createquest="" name="enemybase_blowcar"/>
+				<action name="MissionsEnebledByScenario" value="false" set_scenario_flag=""/>
+				<action name="WarehousesEnabledByScenario" value="false" set_scenario_flag=""/>
+				<action kill_taken_missions=""/>
+			</task>
+			<task phase="2.0" finish="false" none="">
+				<cond message="" text="cb02015 finished"/>
+				<action phasequest="" name="this" phase="4"/>
+				<action phasequest="" name="SC Enemy Base" phase="3"/>
+			</task>
+			<task phase="2.1" finish="false" none="">
+				<cond message="" text="!NEVER THROWN MESSAGE!">TO SWITCH REPORT ON UNREACHABLE 3RD PHASE</cond>
+				<action phasequest="" name="this" phase="3"/>
+			</task>
+			<task phase="2.2" finish="false" none="">
+				<action name="m02025" timer="Start2025" startscenariomission=""/>
+			</task>
+			<task phase="3.1" finish="false" none="">TO SUPPORT OLD SAVES
+				<cond text="m02025 failed" nativemessage=""/>
+				<action phasequest="" name="this" phase="5"/>
+				<action description="j02017" jou=""/>
+			</task>
+			<task phase="3.0" finish="false" none="">TO SUPPORT OLD SAVES
+				<cond message="" text="met assault team"/>
+				<action name="sc02025" scene=""/>
+				<action phasequest="" name="this" phase="6"/>
+				<action name="m02025" finishmission=""/>
+				<action value="true" police_immunity=""/>
+				<action name="MissionsEnebledByScenario" value="false" set_scenario_flag=""/>
+				<action name="WarehousesEnabledByScenario" value="false" set_scenario_flag=""/>
+				<action kill_taken_missions=""/>
+			</task>
+			<task phase="4.0" finish="false" none="">
+				<cond text="m02025 failed" nativemessage=""/>
+				<action phasequest="" name="this" phase="5"/>
+				<action description="j02017" jou=""/>
+			</task>
+			<task phase="4.1" finish="false" none="">
+				<cond message="" text="met assault team"/>
+				<action name="sc02025" scene=""/>
+				<action name="m02025" finishmission=""/>
+				<action value="true" police_immunity=""/>
+				<action phasequest="" name="this" phase="6"/>
+			</task>
+			<task phase="5.0" finish="true" none="">
+				<cond text="make 2020 call" message=""/>
+				<action makecall="" name="cb02020"/>
+			</task>
+			<task phase="6.0" finish="false" none="">
+				<action phasequest="" name="SC Enemy Base" phase="4"/>
+			</task>
+			<task phase="7.0" finish="false" none="">
+				<cond nativemessage="" text="m02030 failed"/>
+				<action makecall="" name="cb02020"/>
+				<action name="SavesEnabledByScenario" value="false" set_scenario_flag=""/>
+			</task>
+			<task phase="7.1" finish="false" none="">
+				<cond message="" text="Reach EnemyBase succes"/>
+				<action phasequest="" name="this" phase="8"/>
+				<action name="m02030" finishmission=""/>
+			</task>
+			<task phase="7.2" finish="false" none="">
+				<cond message="" text="Dakota warns about bomb"/>
+				<action makecall="" name="cb02026"/>
+			</task>
+			<task phase="8.0" finish="false" none="">
+				<action name="sc02030" scene=""/>
+			</task>
+			<task phase="9.0" finish="false" none="">
+				<cond message="" text="EnemyBaseAssault succes"/>
+				<action make_payoff="" name="enemy_base_assault_success"/>
+				<action name="sc02040" scene=""/>
+				<action phasequest="" name="this" phase="10"/>
+			</task>
+			<task phase="9.1" finish="true" none="">
+				<cond message="" text="EnemyBaseAssault covard"/>
+				<action text="cb02021 finished" event=""/>
+			</task>
+			<task phase="9.2" finish="true" none="">
+				<cond message="" text="EnemyBaseAssault failed"/>
+				<action name="sc02045" scene=""/>
+			</task>
+			<task phase="10.0" finish="false" none="">
+				<action phasequest="" name="SC Enemy Base" phase="5"/>
+			</task>
+			<task phase="11.0" finish="true" none="">
+				<cond message="" text="EnemyBaseFinish"/>
+				<action name="SC Chase Koh" createquest=""/>
+				<action value="false" police_immunity=""/>
+				<action name="MissionsEnebledByScenario" value="true" set_scenario_flag=""/>
+				<action name="WarehousesEnabledByScenario" value="true" set_scenario_flag=""/>
+			</task>
+		</item>
+		<item name="enemybase_blowcar" finishonlastphase="true">
+			<task phase="1.0" finish="true" none="">
+				<cond message="" text="cb02020 finished"/>
+				<action text="blowcar" event=""/>
+				<action name="SavesEnabledByScenario" value="true" set_scenario_flag=""/>
+			</task>
+			<task phase="1.1" finish="true" none="">
+				<cond message="" text="cb02021 finished"/>
+				<action text="blowcar" event=""/>
+			</task>
+		</item>
+		<item name="2050_barcrash" finishonlastphase="true">STAGE 15
+			<task phase="1.0" finish="false" none="">
+				<cond message="" text="finished scene sc02040"/>
+				<action number="15" scenario_stage=""/>
+				<action text="start_2050" event=""/>
+				<action on="false" traffic=""/>
+				<action value="true" police_immunity=""/>
+				<action name="MissionsEnebledByScenario" value="false" set_scenario_flag=""/>
+				<action name="WarehousesEnabledByScenario" value="false" set_scenario_flag=""/>
+				<action kill_taken_missions=""/>
+			</task>
+			<task phase="1.1" finish="false" none="">
+				<cond message="" text="start 2050"/>
+				<action name="sc02050" scene=""/>
+				<action phasequest="" name="SC Chase Koh" phase="1"/>
+			</task>
+			<task phase="2.0" finish="false" none="">
+				<cond message="" text="Chase Koh succes"/>
+				<action make_payoff="" name="koh_chase_success"/>
+				<action name="sc02070" scene=""/>
+				<action phasequest="" name="SC Chase Koh" phase="2"/>
+				<action phasequest="" name="this" phase="3"/>
+			</task>
+			<task phase="2.1" finish="false" none="">
+				<cond message="" text="Chase Koh fail"/>
+				<action name="sc02060" scene=""/>
+				<action phasequest="" name="SC Chase Koh" phase="3"/>
+				<action phasequest="" name="this" phase="3"/>
+			</task>
+			<task phase="2.2" finish="false" none="">
+				<cond message="" text="Chase Koh far"/>
+				<action name="sc02065" scene=""/>
+				<action phasequest="" name="SC Chase Koh" phase="4"/>
+				<action phasequest="" name="this" phase="3"/>
+			</task>
+			<task phase="3.0" finish="true" none="">
+				<cond message="" text="player car exploded"/>
+				<action scenario_finished="" delayed="true"/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+			</task>
+			<task phase="3.1" finish="true" none="">
+				<cond text="finished scene sc02070" message=""/>
+				<action scenario_finished="" successfully="true" delayed="true"/>
+				<action value="false" police_immunity=""/>
+				<action name="Dorothy_is_available" value="true" set_scenario_flag=""/>
+			</task>
+		</item>
+	</isoquests>
+	<quests>
+		<example name="test" org="id">SAMPLE NODE
+			<org name="org" gain="reputation" status="nostatusMission" description="org">
+				<start description="jo1"/>
+				<finish description="jou2"/>
+				<expired description="jou3"/>
+				<fail description="jou4"/>
+			</org>
+			<MP name="controlpoint name"/>
+			<start>
+				<MP name="controlpoint name"/>
+				<jou description="jou2"/>
+				<startquest this=""/>
+				<finishquest this=""/>
+				<phasequest this="" phase="1"/>
+				<startorg name="this"/>
+				<finishorg name="this"/>
+				<failorg name="this"/>
+				<exporg name="org"/>
+			</start>
+			<phase nom="1">
+				<MP name="controlpoint name"/>
+				<jou description="jou2"/>
+				<startquest this=""/>
+				<finishquest this=""/>
+				<phasequest this="" phase="1"/>
+				<startorg name="this"/>
+				<finishorg name="this"/>
+				<failorg name="this"/>
+				<exporg name="org"/>
+			</phase>
+			<phase nom="2">
+				<MP name="controlpoint name"/>
+				<jou description="jou2"/>
+				<startquest this=""/>
+				<finishquest this=""/>
+				<phasequest this="" phase="1"/>
+				<startorg name="this"/>
+				<finishorg name="this"/>
+				<failorg name="this"/>
+				<exporg name="org"/>
+			</phase>
+			<finish>
+				<MP name="controlpoint name"/>
+				<jou description="jou2"/>
+				<startquest this=""/>
+				<finishquest this=""/>
+				<phasequest this="" phase="1"/>
+				<startorg name="this"/>
+				<finishorg name="this"/>
+				<failorg name="this"/>
+				<exporg name="org"/>
+			</finish>
+		</example>
+		<q name="SC intro">
+			<finish>
+				<jou description="j00011"/>
+			</finish>
+		</q>
+		<q name="SC Help Coch">
+			<start>
+				<startquest name="help_to_coch"/>
+			</start>
+			<phase nom="1">
+				<jou description="j00030"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="2">
+				<jou description="j00033"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<startquest name="dispatch_resque_police"/>
+			</finish>
+		</q>
+		<q name="SC Resque Dorothy">
+			<start>
+				<jou description="j00040"/>
+				<startscenariomission name="m00040" timer="Start0040"/>
+			</start>
+			<phase nom="1">
+				<startquest name="wait_policecall"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="2">
+				<finishquest this=""/>
+				<jou description="j00065"/>
+			</phase>
+			<phase nom="3">
+				<startquest name="wait_policecall"/>
+				<jou description="j00100"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<police_immunity value="false"/>
+				<traffic on="true"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="true"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="true"/>
+			</finish>
+		</q>
+		<q name="SC Koh curious call">
+			<start/>
+			<phase nom="1">
+				<jou description="j00165"/>
+				<finishquest this=""/>
+			</phase>
+		</q>
+		<q name="SC Police Mat Death">
+			<start>
+				<jou description="j00322"/>
+				<startquest name="topolicematdeath"/>
+				<startscenariomission name="m00322" timer="Start0322"/>
+			</start>
+			<phase nom="1">
+				<jou description="j00324"/>
+				<startquest name="wait_starngercall"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="2">
+				<jou description="j00325"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="3">
+				<jou description="j00330"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<blockso type="police"/>
+			</finish>
+		</q>
+		<q name="SC meet stranger">Started after finish of {stranger call} CBV call - see cbvdialogs.xml
+			<start>
+				<startquest name="meet_stranger"/>
+				<startscenariomission name="m00410" timer="Start0410"/>
+				<jou description="j00410"/>
+			</start>
+			<finish>
+				<jou description="j00430"/>
+				<startquest name="SC meet Piter Pan"/>
+			</finish>
+		</q>
+		<q name="SC meet Piter Pan">
+			<start>
+				<startquest name="meet_piterpan"/>
+				<startscenariomission name="m00430" timer="Start0430"/>
+			</start>
+			<phase nom="1">
+				<jou description="j00454"/>
+				<startscenariomission name="m00454" timer="Start0454"/>
+			</phase>
+			<phase nom="2">
+				<jou description="j00455"/>
+				<startquest name="SC race 1 Piter Pan"/>
+			</phase>
+			<phase nom="3">
+				<startquest name="finalpiterpanrace">Start second meeting with PP</startquest>
+				<startscenariomission name="m00480" timer="Start0480"/>
+			</phase>
+			<phase nom="4">
+				<jou description="j00510"/>
+				<startquest name="SC race 2 Piter Pan"/>
+				<finishquest this=""/>
+			</phase>
+		</q>
+		<q name="SC race 1 Piter Pan">
+			<start>
+				<scenario_stage number="5"/>
+				<traffic on="false"/>
+				<police_immunity value="true"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="false"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="false"/>
+				<kill_taken_missions/>
+				<startquest name="piterpandomedrace"/>
+				<race race="pp_race" name="PiterPandoomedrace"/>
+			</start>
+			<phase nom="1">In case of LOOSE
+				<scenario_stage number="6"/>
+				<jou description="j00465"/>
+				<startquest name="SC meet John"/>
+				<startquest name="wait_dor_about_john"/>
+				<startquest name="meetjohn after race"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="2">In case on WIN
+				<jou description="j00520"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<police_immunity value="false"/>
+				<traffic on="true"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="true"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="true"/>
+			</finish>
+		</q>
+		<q name="SC race 2 Piter Pan">
+			<start>
+				<police_immunity value="true"/>
+				<traffic on="false"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="false"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="false"/>
+				<kill_taken_missions/>
+				<startquest name="piterpanfinalrace"/>
+				<race race="pp_race" name="PiterPanFinalrace"/>
+			</start>
+			<phase nom="1">
+				<startquest name="SC meet Topo"/>
+				<jou description="j00520"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="2">
+				<jou description="j00530"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<police_immunity value="false"/>
+				<traffic on="true"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="true"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="true"/>
+			</finish>
+		</q>
+		<q name="SC meet John">
+			<start>
+				<unblockso type="johnhouse" name="SP_John_House"/>
+			</start>
+			<phase nom="1">PHASED from cbvcalls.xml after Dorothy call
+				<!--when we ride here from Dorothy call-->
+				<startscenariomission name="m00468" timer="Start0468"/>
+				<jou description="j00468"/>
+				<phasequest name="meetjohn after race" phase="3"/>
+			</phase>
+			<phase nom="2">PHASED from this xml when came without Dorothy call
+				<!--when we ride here on our own-->
+				<jou description="j00480"/>
+				<phasequest phase="3" name="SC meet Piter Pan"/>
+				<finishquest this=""/>
+			</phase>
+		</q>
+		<q name="SC meet Topo">
+			<start>
+				<startquest name="meettopo"/>
+				<startscenariomission name="m00600" timer="Start0600"/>
+				<scenario_stage number="8"/>
+			</start>
+			<phase nom="1">
+				<startquest name="SC Topo chase"/>
+				<jou description="j00610"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="2">
+				<jou description="j00605"/>
+				<finishquest this=""/>
+			</phase>
+		</q>
+		<q name="SC Topo chase">
+			<start>
+				<startquest name="chasetopo"/>
+			</start>
+			<phase nom="1">
+				<jou description="j00611"/>
+				<!--bandints called-->
+			</phase>
+			<phase nom="2">
+				<jou description="j00690"/>
+				<!--Coch called-->
+			</phase>
+			<phase nom="3">
+				<jou description="j00691"/>
+				<!--Dakota called-->
+			</phase>
+			<phase nom="4">
+				<jou description="j00730"/>
+				<!--Dakota helped-->
+			</phase>
+			<phase nom="5">
+				<jou description="j00740"/>
+				<!--Customer call-->
+			</phase>
+			<phase nom="6">
+				<jou description="j00750"/>
+				<!--After friends meet-->
+			</phase>
+			<phase nom="7">
+				<jou description="j00805"/>
+				<!--Customer called-->
+			</phase>
+			<phase nom="8">
+				<jou description="j00830"/>
+				<!--Friend met again-->
+			</phase>
+			<phase nom="9">
+				<jou description="j00860"/>
+				<jou description="j00861"/>
+				<finishquest this=""/>
+				<startquest name="SC police"/>
+				<make_payoff name="chase_topo_success"/>
+				<!--Dark truck scene-->
+			</phase>
+			<phase nom="10">
+				<finishquest this=""/>
+				<!--Blow our car-->
+			</phase>
+			<finish>
+				<finishorg this=""/>
+				<police_immunity value="false"/>
+				<traffic on="true"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="true"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="true"/>
+				<set_scenario_flag name="SavesEnabledByScenario" value="true"/>
+			</finish>
+		</q>
+		<q name="SC police">
+			<start>
+				<startquest name="topolice"/>
+				<unblockso type="scobject" name="SP_Oxnard_Police"/>
+			</start>
+			<phase nom="1">
+				<jou description="j00931"/>
+				<startquest name="wait_01030"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<blockso type="scobject" name="SP_Oxnard_Police" use_name="true"/>
+			</finish>
+		</q>
+		<q name="SC Dakota">
+			<start>
+				<makecall name="cb01400"/>
+				<startquest name="meet_dakota"/>
+			</start>
+			<phase nom="1">Dakota called
+				<MP name="office_OV_02"/>
+				<jou description="j01400"/>
+			</phase>
+			<phase nom="2">did not met Dakota - Dakota called again
+				<jou description="j01430"/>
+			</phase>
+			<phase nom="3">met Dakota
+				<jou description="j01420"/>
+				<startquest name="wait_01500"/>
+				<finishquest this=""/>
+			</phase>
+		</q>
+		<q name="SC Meet Mat">
+			<start>
+				<startquest name="1500_findMat"/>
+				<event text="start_1500"/>
+			</start>
+			<phase nom="1">Mat called - need find him
+				<jou description="j01500"/>
+			</phase>
+			<phase nom="2">Koh called
+				<jou description="j01520"/>
+			</phase>
+			<phase nom="3">failed
+				<jou description="j01548"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="4">succeeded
+				<jou description="j01540"/>
+			</phase>
+			<phase nom="5">Dakota called
+				<jou description="j01546"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<police_immunity value="false"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="true"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="true"/>
+			</finish>
+		</q>
+		<q name="SC Enemy Base">
+			<start>
+				<startquest name="1600_enemybase"/>
+			</start>
+			<phase nom="1">Threaten call recived</phase>
+			<phase nom="2">Monica discovered base
+				<jou description="j01660"/>
+			</phase>
+			<phase nom="3">Dacota called
+				<jou description="j02015"/>
+			</phase>
+			<phase nom="4">Met Assault team
+				<jou description="j02025"/>
+				<startscenariomission name="m02030" timer="Start2030"/>
+			</phase>
+			<phase nom="5">Succeed assault
+				<jou description="j02040"/>
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<finishquest name="enemybase_blowcar"/>
+			</finish>
+		</q>
+		<q name="SC Chase Koh">
+			<start>
+				<startquest name="2050_barcrash"/>
+			</start>
+			<phase nom="1">Monica found bandit documents
+				<jou description="j02050"/>
+			</phase>
+			<phase nom="2">chase succes
+				<jou description="j02080"/>
+				<finishquest this=""/>
+			</phase>
+			<phase nom="3">chase fail
+				<finishquest this=""/>
+			</phase>
+			<phase nom="4">chase too far away
+				<finishquest this=""/>
+			</phase>
+			<finish>
+				<traffic on="true"/>
+				<set_scenario_flag name="Dorothy_is_available" value="true"/>
+				<set_scenario_flag name="MissionsEnebledByScenario" value="true"/>
+				<set_scenario_flag name="WarehousesEnabledByScenario" value="true"/>
+				<finishquest name="enemybase_blowcar"/>
+			</finish>
+		</q>
+	</quests>
+</rnr_quests>

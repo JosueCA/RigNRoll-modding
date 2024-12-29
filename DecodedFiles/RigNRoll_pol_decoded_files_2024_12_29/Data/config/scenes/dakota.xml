@@ -1,0 +1,76 @@
+<scenes>
+	<xxxenvironments>
+		<env name="testt">
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="Posroot" x="0" y="0" z="0"/>
+		</env>
+		<env name="stimoroltest">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="Posroot">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+	</xxxenvironments>
+	<scene name="ut" wide="off" useshow="off">
+		<world name="testt"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\Peterbilt_379_withRIG_Scene00730.txt" name="dakotacar" carref="dakotacar" carname="Peterbilt_379_"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\FREIGHTLINER_ARGOSY_Scene00730.txt" name="banditcar" carref="banditcar" carname="Freight_Argosy_"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\trackcase_Scene00730.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\ej_Scene00730.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00730\\CamS00730.txt" type="anm" anmspace="Camera_CamS00730"/>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</vehicles>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</persons>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</cameras>
+	</scene>
+	<!--scene name="stimorol" wide="on" useshow="on">
+		<world name="stimoroltest"/>
+		<vehicletrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\St_10\\DryVan_48d_Stimorol_SceneST_10.txt" name="trailer" carref="trailer" carname="DryVan_48d_Stimorol"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\St_10\\DOROTY_NEW_SceneST_10.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\St_10\\IVAN_NEW_SceneST_10.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\St_10\\stimorol_box_SceneST_10.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\St_10\\CamSST_10.txt" type="anm" anmspace="Camera_CamSST_10"/>
+		<vehicles>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</vehicles>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</persons>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="Posroot"/>
+			</bindmatrix>
+		</cameras>
+		<run>
+			<script name="SCENARIO" function="Igrok_car_out"/>
+		</run>
+	</scene-->
+</scenes>

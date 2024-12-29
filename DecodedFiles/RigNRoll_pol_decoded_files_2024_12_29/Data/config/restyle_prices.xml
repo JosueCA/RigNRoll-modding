@@ -1,0 +1,13 @@
+<restyle_prices>
+	<types>
+		<body price="4300"/>
+		<body_metallic price="5160"/>
+		<body_chameleon price="6450"/>
+		<body_metallic_chameleon price="7740"/>
+		<leather price="2090"/>
+		<cloth price="1100"/>
+		<dash price="600"/>
+		<dash_gauges price="850"/>
+		<glasses price="450"/>
+	</types>
+</restyle_prices>

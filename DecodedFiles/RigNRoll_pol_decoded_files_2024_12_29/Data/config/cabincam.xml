@@ -1,0 +1,703 @@
+<?xml version="1.0"?>
+<cabincam>
+	<vehicle section_name="PETERBILT_379">
+		<cam x="-0.423000" y="1.7500" z="2.442300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="41.275" pitch="18.260" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="18.517" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.000" pitch="23.843" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="45.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-57.709" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="41.111" pitch="-7.197" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="0.808" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-28.581" pitch="8.421" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.456000" y="1.7500" z="2.442300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="44.955" pitch="16.379" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.216" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-39.854" pitch="25.228" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="59.569" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-45.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="45.945" pitch="-2.538" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-7.543" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-38.786" pitch="-12.741" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.140000" z="2.442300" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="57.000" pitch="24.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-57.000" pitch="24.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="77.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-77.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="57.000" pitch="-12.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-6.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-57.000" pitch="-12.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="PETERBILT_379_SPORT">
+		<cam x="-0.423000" y="1.7500" z="2.442300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="41.275" pitch="18.260" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="18.517" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.000" pitch="23.843" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="45.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-57.709" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="41.111" pitch="-7.197" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="0.808" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-28.581" pitch="8.421" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.456000" y="1.7500" z="2.442300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="44.955" pitch="16.379" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.216" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-39.854" pitch="25.228" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="59.569" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-45.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="45.945" pitch="-2.538" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-7.543" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-38.786" pitch="-12.741" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.140000" z="2.442300" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="57.000" pitch="24.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-57.000" pitch="24.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="77.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-77.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="57.000" pitch="-12.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-6.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-57.000" pitch="-12.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="PETERBILT_378">
+		<cam x="-0.414000" y="1.140000" z="2.377300" yawmin="-70.000001" yawmax="70.000001" pitchmin="-45.000001" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="37.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="16.947" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-51.695" pitch="21.764" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="50.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-61.391" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="37.000" pitch="-12.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS8" yaw="-0.000" pitch="-2.256" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-31.263" pitch="3.414" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.414000" y="1.140000" z="2.377300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="42.847" pitch="14.846" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="17.784" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-40.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="58.984" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-54.613" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="43.105" pitch="-8.001" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="0.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-40.000" pitch="-12.000" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.025000" z="2.377300" yawmin="-80.000002" yawmax="80.000002" pitchmin="-80.000002" pitchmax="80.000002" grad="">
+			<view key="CAM_POS1" yaw="60.00" pitch="30.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="35.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-60.000" pitch="30.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS4" yaw="75.000" pitch="4.500" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="4.500000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-75.000" pitch="4.500" roll="-0.000" grad=""/>
+			<view key="CAM_POS7" yaw="60.000" pitch="-30.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-35.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-60.000" pitch="-30.000" roll="-0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="PETERBILT_387">
+		<cam x="-0.587" y="1.50" z="2.364" yawmin="-70.000002" yawmax="70.000002" pitchmin="-45.000002" pitchmax="45.000002" grad="">
+			<view key="CAM_POS1" yaw="32.000" pitch="26.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="13.705" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-59.539" pitch="20.005" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="38.572" pitch="5.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000" pitch="5.000" roll="0.000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-65.221" pitch="5.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="32.000" pitch="-12.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-5.794" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-30.331" pitch="0.533" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.587" y="1.50" z="2.364" yawmin="-70.000002" yawmax="70.000002" pitchmin="-45.000002" pitchmax="45.000002" grad="">
+			<view key="CAM_POS1" yaw="55.000" pitch="18.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="25.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-34.000" pitch="18.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="59.256" pitch="5.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="5.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-40.475" pitch="5.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="59.097" pitch="-7.684" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-3.638" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-34.000" pitch="-12.000" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="0.166" z="2.364" yawmin="-80.000002" yawmax="80.000002" pitchmin="-80.000002" pitchmax="80.000002" grad="">
+			<view key="CAM_POS1" yaw="60.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="27.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-60.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="5.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="5.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="5.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="60.000" pitch="-20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-60.000" pitch="-20.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="KENWORTH_K100E">
+		<cam x="-0.674000" y="1.920000" z="2.600000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS3" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS4" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS7" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS9" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+		</cam>
+		<cam x="0.819000" y="1.920000" z="2.600000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS3" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS4" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS7" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS9" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="0.840000" z="2.600000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS3" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS4" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS7" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+			<view key="CAM_POS9" yaw="0.000000" pitch="11.000000" roll="0.000000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="KENWORTH_T600W">
+		<cam x="-0.40286" y="1.58234" z="2.543000" yawmin="-70.000001" yawmax="70.000001" pitchmin="-45.000001" pitchmax="45.000001" grad="">
+			<view key="CAM_POS1" yaw="42.161" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-52.116" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="49.762" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000" pitch="10.000" roll="0.000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-62.636" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="41.479" pitch="1.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="1.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-24.064" pitch="1.000" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.40286" y="1.58234" z="2.543000" yawmin="-70.000002" yawmax="70.000002" pitchmin="-45.000002" pitchmax="45.000002" grad="">
+			<view key="CAM_POS1" yaw="44.347" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-36.579" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="62.362" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-46.498" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="46.794" pitch="1.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="1.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-37.409" pitch="1.000" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="0.1962" z="2.44674" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="60.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="25.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-60.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="60.000" pitch="-20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-25.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-60.000" pitch="-20.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="KENWORTH_T800">
+		<cam x="-0.407000" y="1.650000" z="2.584000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="36.274" pitch="17.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="17.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-57.733" pitch="17.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="50.824" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-65.803" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.446" pitch="-3.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="0.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-30.187" pitch="6.026" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.407000" y="1.650000" z="2.584000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="40.786" pitch="19.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="19.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-37.813" pitch="19.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="64.927" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-49.583" pitch="7.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS7" yaw="42.546" pitch="-4.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="0.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-37.452" pitch="-4.000" roll="-0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="0.010000" z="2.584000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="45.000" pitch="19.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.000" pitch="19.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="70.000" pitch="7.464" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="15.180" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="45.000" pitch="-7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-45.000" pitch="-7.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="KENWORTH_W900L">
+		<cam x="-0.40266" y="1.38" z="2.4000" yawmin="-75.000000" yawmax="75.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="45.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.031" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-57.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="54.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-66.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="39.000" pitch="-4.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="2.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-23.728" pitch="1.103" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.40266" y="1.38" z="2.4000" yawmin="-75.000000" yawmax="75.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="43.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-37.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="66.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-52.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="49.000" pitch="-2.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="0.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-37.000" pitch="-2.000" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.500000" z="2.4000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="50.000" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-50.000" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="75.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-75.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="45.000" pitch="-20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-22.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-45.000" pitch="-20.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="KENWORTH_W900L_SPORT">
+		<cam x="-0.40266" y="1.38" z="2.4000" yawmin="-75.000000" yawmax="75.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="45.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.031" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-57.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="54.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-66.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="39.000" pitch="-4.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="2.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-23.728" pitch="1.103" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.40266" y="1.38" z="2.4000" yawmin="-75.000000" yawmax="75.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="43.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-37.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="66.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-52.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="49.000" pitch="-2.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="0.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-37.000" pitch="-2.000" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.500000" z="2.4000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="50.000" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-50.000" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="75.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="7.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-75.000" pitch="7.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="45.000" pitch="-20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-22.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-45.000" pitch="-20.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="KENWORTH_T2000">
+		<cam x="-0.707000" y="1.300000" z="2.522300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="42.359" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-65.519" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="55.730" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="47.161" pitch="-5.295" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-4.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-33.243" pitch="5.000" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.655000" y="1.300000" z="2.522300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="53.489" pitch="18.715" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="25.036" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-35.497" pitch="25.251" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="68.535" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-54.688" pitch="3.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS7" yaw="45.480" pitch="-4.112" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-3.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-43.987" pitch="-6.858" roll="-0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.200000" z="2.522330" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="45.000" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="23.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.000" pitch="20.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS4" yaw="75.000" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-75.000" pitch="3.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS7" yaw="60.000" pitch="-20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-11.000" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-60.000" pitch="-20.000" roll="-0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="STERLING_9500">
+		<cam x="-0.461000" y="1.275000" z="2.563300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="40.983" pitch="15.446" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.861" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-54.214" pitch="25.926" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="57.827" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-62.207" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="41.131" pitch="-9.400" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-1.414" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-24.598" pitch="6.915" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.48000" y="1.275000" z="2.563300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="40.756" pitch="20.073" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="21.445" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-33.008" pitch="20.567" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="62.950" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-54.561" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.737" pitch="-2.063" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-2.795" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-40.264" pitch="-3.497" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.206000" z="2.563330" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="45.0" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="22.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.000" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="70.000" pitch="-35.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-70.000" pitch="-35.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="STERLING_9500_SPORT">
+		<cam x="-0.461000" y="1.275000" z="2.563300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="40.983" pitch="15.446" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="20.861" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-54.214" pitch="25.926" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="57.827" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-62.207" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="41.131" pitch="-9.400" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-1.414" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-24.598" pitch="6.915" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.48000" y="1.275000" z="2.563300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="40.756" pitch="20.073" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="21.445" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-33.008" pitch="20.567" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="62.950" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-54.561" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.737" pitch="-2.063" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-2.795" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-40.264" pitch="-3.497" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.206000" z="2.563330" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="45.0" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="22.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.000" pitch="15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="3.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="3.000" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="70.000" pitch="-35.000" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.000" pitch="-15.000" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-70.000" pitch="-35.000" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="FREIGHTLINER_CLASSIC_XL">
+		<cam x="-0.477074" y="1.639945" z="2.500000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="33.758" pitch="18.926" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="27.600" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-47.005" pitch="22.833" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="52.661" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-65.046" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.716" pitch="3.682" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="3.888" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-36.257" pitch="2.975" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.477074" y="1.639945" z="2.500000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="45.216" pitch="24.636" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="23.642" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-32.153" pitch="22.016" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="69.072" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-50.632" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="39.919" pitch="2.679" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="3.502" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-30.997" pitch="-1.296" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="0.304925" z="2.500000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="48.0" pitch="18.0" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="24.0" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-48.0" pitch="18.0" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="70.0" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.0" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="65.0" pitch="-25.0" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="-21.0" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-65.0" pitch="-25.0" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="FREIGHTLINER_CORONADO">
+		<cam x="-0.485000" y="0.900000" z="2.500000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="45.878" pitch="24.147" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="27.990" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-63.223" pitch="19.866" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="62.462" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="47.796" pitch="-1.143" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="4.390" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-32.930" pitch="11.456" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.485000" y="0.900000" z="2.500000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="47.298" pitch="22.719" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="29.008" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-40.508" pitch="24.637" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="66.742" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-63.170" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="47.267" pitch="1.164" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="3.421" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-50.547" pitch="-2.324" roll="0.000" grad=""/>
+		</cam>
+		<cam x="-0.400000" y="-0.500000" z="2.489000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="55.0" pitch="30.0" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="23.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-55.0" pitch="30.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="10.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS7" yaw="70.0" pitch="-28.0" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="-25.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-70.0" pitch="-28.0" roll="-0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="FREIGHTLINER_CENTURY">
+		<cam x="-0.485000" y="1.000000" z="2.489300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="43.703" pitch="23.534" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="28.160" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-60.110" pitch="20.010" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="61.194" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-65.899" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="48.339" pitch="-4.037" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="4.428" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-33.482" pitch="10.856" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.485000" y="1.000000" z="2.489000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="51.219" pitch="21.500" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.00" pitch="31.359" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-46.872" pitch="23.046" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="68.298" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="43.769" pitch="-0.863" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="3.799" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-48.851" pitch="-0.839" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.700000" z="2.489000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="45.0" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="22.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.0" pitch="20.0" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="60.0" pitch="-30.0" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="-22.0" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-60.0" pitch="-30.0" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="FREIGHTLINER_CENTURY_SPORT">
+		<cam x="-0.485000" y="1.000000" z="2.489300" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="43.703" pitch="23.534" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.000" pitch="28.160" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-60.110" pitch="20.010" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="61.194" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-65.899" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="48.339" pitch="-4.037" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="4.428" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-33.482" pitch="10.856" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.485000" y="1.000000" z="2.489000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="51.219" pitch="21.500" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.00" pitch="31.359" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-46.872" pitch="23.046" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="68.298" pitch="10.000" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="43.769" pitch="-0.863" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="3.799" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-48.851" pitch="-0.839" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-0.700000" z="2.489000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="45.0" pitch="20.000" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="22.000" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-45.0" pitch="20.0" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="10.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="10.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="60.0" pitch="-30.0" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="-22.0" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-60.0" pitch="-30.0" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="FREIGHTLINER_ARGOSY">
+		<cam x="-0.674000" y="2.900000" z="2.589000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="50.161" pitch="23.930" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="24.727" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-65.327" pitch="19.866" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="54.356" pitch="12.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.0" pitch="12.0" roll="0.000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-69.485" pitch="12.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="33.535" pitch="-3.486" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="7.067" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-33.645" pitch="21.100" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.667000" y="2.900000" z="2.589000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="64.859" pitch="17.476" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="29.259" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-57.643" pitch="25.871" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="70.248" pitch="12.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="12.0" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-63.497" pitch="12.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="66.205" pitch="2.724" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="7.525" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-57.395" pitch="2.762" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="1.500000" z="2.589000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="40.0" pitch="20.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="25.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-40.0" pitch="20.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.0" pitch="12.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.0" pitch="12.0" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.0" pitch="12.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="62.0" pitch="-32.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="-22.0" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-62.0" pitch="-32.0" roll="-0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="GEPARD">
+		<cam x="-0.537000" y="1.0750000" z="2.550000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="41.534" pitch="16.844" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="19.888" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-55.340" pitch="18.276" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="54.910" pitch="5.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="5.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="5.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="43.814" pitch="-6.975" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="-0.207" pitch="-4.017" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-32.940" pitch="18.975" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.537000" y="1.0750000" z="2.550000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="46.283" pitch="17.350" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="20.849" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-38.167" pitch="15.170" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="68.278" pitch="5.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="5.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-57.831" pitch="5.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="46.821" pitch="-2.875" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="-0.729" pitch="-3.741" roll="-0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-40.442" pitch="-9.033" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="0.600000" z="2.550000" yawmin="-100.000000" yawmax="100.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="60.0" pitch="33.0" roll="-0.001" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="33.0" roll="-0.001" grad=""/>
+			<view key="CAM_POS3" yaw="-60.0" pitch="33.0" roll="-0.001" grad=""/>
+			<view key="CAM_POS4" yaw="100.0" pitch="5.0" roll="-0.001" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="5.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-100.000" pitch="5.0" roll="-0.001" grad=""/>
+			<view key="CAM_POS7" yaw="35.0" pitch="-8.0" roll="-0.001" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="-15.0" roll="-0.001" grad=""/>
+			<view key="CAM_POS9" yaw="-35.0" pitch="-8.0" roll="-0.001" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="WESTERN_STAR4900_EX">
+		<cam x="-0.553000" y="0.40000" z="2.550000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="42.483" pitch="24.107" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="28.490" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-60.463" pitch="24.355" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="61.027" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.142" pitch="-9.010" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="2.534" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-32.483" pitch="14.597" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.553000" y="0.40000" z="2.550000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="57.896" pitch="20.399" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="31.518" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-39.211" pitch="24.816" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="70.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-61.184" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="44.869" pitch="4.062" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="3.896" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-41.562" pitch="-5.378" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-1.252000" z="2.550000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="40.0" pitch="16.0" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="22.0" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-40.0" pitch="16.0" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="-3.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.0" pitch="0.0" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="0.0" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-40.0" pitch="0.0" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+	<vehicle section_name="WESTERN_STAR4900_SPORT">
+		<cam x="-0.553000" y="0.40000" z="2.550000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="42.483" pitch="24.107" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="28.490" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-60.463" pitch="24.355" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="61.027" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-70.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.142" pitch="-9.010" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="2.534" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-32.483" pitch="14.597" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.553000" y="0.40000" z="2.550000" yawmin="-70.000000" yawmax="70.000000" pitchmin="-45.000000" pitchmax="45.000000" grad="">
+			<view key="CAM_POS1" yaw="57.896" pitch="20.399" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="31.518" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-39.211" pitch="24.816" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="70.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="0.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-61.184" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="44.869" pitch="4.062" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="3.896" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-41.562" pitch="-5.378" roll="0.000" grad=""/>
+		</cam>
+		<cam x="0.000000" y="-1.252000" z="2.550000" yawmin="-80.000000" yawmax="80.000000" pitchmin="-80.000000" pitchmax="80.000000" grad="">
+			<view key="CAM_POS1" yaw="40.0" pitch="16.0" roll="0.000" grad=""/>
+			<view key="CAM_POS2" yaw="0.0" pitch="22.0" roll="0.000" grad=""/>
+			<view key="CAM_POS3" yaw="-40.0" pitch="16.0" roll="0.000" grad=""/>
+			<view key="CAM_POS4" yaw="80.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS5" yaw="-3.000000" pitch="11.000000" roll="0.000000" default="" grad=""/>
+			<view key="CAM_POS6" yaw="-80.000" pitch="11.0" roll="0.000" grad=""/>
+			<view key="CAM_POS7" yaw="40.0" pitch="0.0" roll="0.000" grad=""/>
+			<view key="CAM_POS8" yaw="0.0" pitch="0.0" roll="0.000" grad=""/>
+			<view key="CAM_POS9" yaw="-40.0" pitch="0.0" roll="0.000" grad=""/>
+		</cam>
+	</vehicle>
+</cabincam>

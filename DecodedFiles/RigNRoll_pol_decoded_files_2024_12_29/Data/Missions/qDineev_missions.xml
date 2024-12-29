@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="qDineev=qTrixy1" bounded="false" uniq="true" description="Игрок знакомится с Трикси, она его зовет потом заехать в бар." org="qDineev=qTrixy1" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_OV_10" model="ID_PATRICIA_1"/>
+    <point name="MP_Motel_OV_SB_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy1=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy1=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy1=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OV_10"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OV_10"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy1=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_OV_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_OV_SB_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy1=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_OV_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_OV_SB_01"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy1=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_OV_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_OV_SB_01"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy1=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_Motel_OV_SB_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Motel_OV_SB_01"/>
+  </mission>
+  <mission name="qDineev=qTrixy2" bounded="false" uniq="true" description="Игрок приезжает в бар, встречает Трикси, она его зовет кататься в Сан-Хосе" org="qDineev=qTrixy2" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_Bar_SB_01" model="ID_PATRICIA_1"/>
+    <point name="MP_bar_sf_sj_truckstop" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="InBarTalkChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy2=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy2=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy2=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Bar_SB_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Bar_SB_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_sf_sj_truckstop"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_sf_sj_truckstop"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_sf_sj_truckstop"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_sf_sj_truckstop"/>
+    <req>
+      <TimeRequirement lowerBound="1"/>
+      <MissionCompleteRequirement mission="qDineev=qTrixy1"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTrixy2a" bounded="false" uniq="true" description="По наводке Трикси игрок получает квест доставить посылку" org="qDineev=qTrixy2a" dependByActivation="false" depend="false">
+    <quest_item QIPackage="" place="MP_bar_sf_sj_truckstop" model="MONEY"/>
+    <point name="MP_CF_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="InBarTalkChannel" npc="ID_JAMES_1" resource="qDineev=qTrixy2a=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy2a=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy2a=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_sf_sj_truckstop"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_sf_sj_truckstop"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHARLES_1" resource="qDineev=qTrixy2a=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_CF_03"/>
+          <add_item AddItemVehicle="" model="WORK_TRUCK"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_CF_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JAMES_1" resource="qDineev=qTrixy2a=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JAMES_1" resource="qDineev=qTrixy2a=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTrixy2"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qParcel1" bounded="false" uniq="true" description="Доставка запаски непредусмотрительному водителю" org="qDineev=qParcel1" dependByActivation="false" depend="false">
+    <quest_item QIPackage="" place="MP_bar_MJ_BS_01" model="GENERAL_PACKAGE"/>
+    <point name="MP_BS_VV_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="InBarTalkChannel" npc="ID_DANIEL_3" resource="qDineev=qParcel1=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qParcel1=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qParcel1=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_MJ_BS_01"/>
+        <add_item AddItemVehicle="" model="Chevrolet_Silverado" color="14"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_MJ_BS_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MICHAEL_A_1" resource="qDineev=qParcel1=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BS_VV_01"/>
+          <add_item AddItemVehicle="" model="Chevrolet_Cavalier" color="2"/>
+        </infochannel>
+        <infochannel name="CbvChannel" npc="ID_DANIEL_3" resource="qDineev=qParcel1=success=CbVideo" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BS_VV_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BS_VV_01"/>
+    <point name="MP_BS_VV_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DANIEL_3" resource="qDineev=qParcel1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DANIEL_3" resource="qDineev=qParcel1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="qDineev=qLostTrailer" bounded="false" uniq="true" description="Доставка прицепа с молоком вместо сломанного тягача" org="qDineev=qLostTrailer" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MJ_LP_01" model="MILK"/>
+    <point name="MP_RE_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_TIMOTHY_4" resource="qDineev=qLostTrailer=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qLostTrailer=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qLostTrailer=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MJ_LP_01"/>
+        <add_item AddItemVehicle="" model="FREIGHTLINER_ARGOSY" color="4"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MJ_LP_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_PAMELA_3" resource="qDineev=qLostTrailer=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_01"/>
+          <add_item AddItemVehicle="" model="VW_NewBeatle" color="11"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PAMELA_3" resource="qDineev=qLostTrailer=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_4" resource="qDineev=qLostTrailer=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_TIMOTHY_4" resource="qDineev=qLostTrailer=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="qDineev=qUFO1" bounded="false" uniq="true" description="Игрок слышит по радио сообщение об НЛО" org="qDineev=qUFO1" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="RadioChannel" resource="qDineev=qUFO1=start=Radio">
+        <appear>
+          <action journal_active="" description="qDineev=qUFO1=start=Radio=appear" time="3"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_PD_09"/>
+      </infochannel>
+    </channels>
+    <point name="MP_PD_09"/>
+  </mission>
+  <mission name="qDineev=qTransportInfo1" bounded="false" uniq="true" description="Газета с сообщением о доставке турбины" org="qDineev=qTransportInfo1" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="NewspaperChannel" resource="qDineev=qTransportInfo1=start=Newspaper">
+        <appear>
+          <action journal_active="" description="qDineev=qTransportInfo1=start=Newspaper=appear" time="1"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_bar_Ok_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_bar_Ok_01"/>
+    <req>
+      <RatingRequirement lowerBound="0.3"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTransport2" bounded="false" uniq="true" description="Перевозка комбайна из Фресно в Кеттлмен-Сити" org="qDineev=qTransport2" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_FR_05" model="HARVESTER_COMB"/>
+    <point name="MP_KM_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTransport2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTransport2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_FR_05"/>
+      </infochannel>
+    </channels>
+    <point name="MP_FR_05"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_03"/>
+          <add_item AddItemVehicle="" model="GMC_TOPKICK8500_FLAT" color="0"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="qDineev=qTransport2bis" bounded="false" uniq="true" description="Перевозка комбайна обратно из Кеттлмен-Сити во Фресно" org="qDineev=qTransport2bis" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_KM_02" model="HARVESTER_COMB"/>
+    <point name="MP_FR_06" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2bis=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTransport2bis=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTransport2bis=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2bis=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_FR_06"/>
+          <add_item AddItemVehicle="" model="GMC_TOPKICK8500_FLAT" color="0"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_FR_06"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2bis=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2bis=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2bis=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_DAVID_1" resource="qDineev=qTransport2bis=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTransport2"/>
+    </req>
+  </mission>
+  <mission name="qDineev=star" bounded="false" uniq="true" description="доставка пассажира из пригорода Темекьюлы в Л.А." org="qDineev=star" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_TM_01" model="ID_SARAH_1"/>
+    <point name="MP_LA_05" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_SARAH_1" resource="qDineev=star=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=star=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=star=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_TM_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_TM_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_SARAH_1" resource="qDineev=star=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_SARAH_1" resource="qDineev=star=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_05"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_SARAH_1" resource="qDineev=star=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_05"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_SARAH_1" resource="qDineev=star=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_LA_05"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_LA_05"/>
+  </mission>
+  <mission name="qDineev=bonus" bounded="false" uniq="true" description="&quot;визит&quot; в Альтурас" org="qDineev=bonus" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_AL_05" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="RadioChannel" resource="qDineev=bonus=start=Radio">
+        <appear>
+          <action journal_active="" description="qDineev=bonus=start=Radio=appear" time="1"/>
+        </appear>
+        <decline>
+          <action journal="" description="qDineev=bonus=start=Radio=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=bonus=start=Radio=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_ST_AL_02"/>
+        <point name="MP_BN_AL_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_ST_AL_02"/>
+    <point name="MP_BN_AL_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_MARGARET_1" resource="qDineev=bonus=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_05"/>
+          <add_item AddItemVehicle="" model="PETERBILT_379" color="1"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_AL_05"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="RadioChannel" resource="qDineev=bonus=fail_timeout_complete=Radio" main="">
+          <appear>
+            <action journal="" description="qDineev=bonus=fail_timeout_complete=Radio=appear"/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+  </mission>
+  <mission name="qDineev=qParcel3" bounded="false" uniq="true" description="Отвезти посылку из бара около Паттерсона в бар перед Мантикой" org="qDineev=qParcel3" dependByActivation="false" depend="false">
+    <quest_item QIPackage="" place="MP_Room_Ktlm_Ptrs_Bar" model="MONEY"/>
+    <point name="MP_Bar_Ptrs_Mn" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="InBarTalkChannel" npc="ID_RONALD_1" resource="qDineev=qParcel3=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qParcel3=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qParcel3=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Room_Ktlm_Ptrs_Bar"/>
+        <add_item AddItemVehicle="" model="GMC_TOPKICK8500_CISTERN" color="3"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Room_Ktlm_Ptrs_Bar"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="InBarTalkChannel" npc="ID_ELIZABETH_4" resource="qDineev=qParcel3=success=InBarTalk" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Bar_Ptrs_Mn"/>
+          <add_item AddItemVehicle="" model="Dodge_Grand_Caravan" color="9"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Bar_Ptrs_Mn"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+  </mission>
+  <mission name="qDineev=qTransport4" bounded="false" uniq="true" description="Доставка осьминога" org="qDineev=qTransport4" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SF_UK_01" model="SQUID"/>
+    <point name="MP_SJ_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4=start=CbVideo">
+        <appear/>
+        <decline/>
+        <accept>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_UK_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_UK_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+        <infochannel name="NewspaperChannel" resource="qDineev=qTransport4=success=Newspaper" success="">
+          <appear>
+            <action removeresources=""/>
+            <action journal="" description="qDineev=qTransport4=success=Newspaper=appear"/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_sj_gf_01"/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <point name="MP_bar_sj_gf_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="qDineev=qTransport5" bounded="false" uniq="true" description="Доставка мулов в Бишоп." org="qDineev=qTransport5" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SC_02" model="CATTLE"/>
+    <point name="MP_BI_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="LiveDialogChannel" npc="ID_CARLOS_1" resource="qDineev=qTransport5=start=LiveDialog">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTransport5=start=LiveDialog=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTransport5=start=LiveDialog=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SC_02"/>
+        <add_item AddItemVehicle="" model="FREIGHTLINER_CORONADO" color="8"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SC_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CARLOS_1" resource="qDineev=qTransport5=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CARLOS_1" resource="qDineev=qTransport5=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CARLOS_1" resource="qDineev=qTransport5=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_CARLOS_1" resource="qDineev=qTransport5=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <PlayerInformedAboutMissionRequirement mission="qDineev=qTransportInfo2"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTransportInfo2" bounded="false" uniq="true" description="Газета с сообщением об ожидающих транспортировки мулах" org="qDineev=qTransportInfo2" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="NewspaperChannel" resource="qDineev=qTransportInfo2=start=Newspaper">
+        <appear>
+          <action journal_active="" description="qDineev=qTransportInfo2=start=Newspaper=appear" time="60"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_Room_SD_SC_Bar"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Room_SD_SC_Bar"/>
+  </mission>
+  <mission name="qDineev=qTransport6" bounded="false" uniq="true" description="Срочная доставка авиазапчастей в аэропорт Сан-Хосе" org="qDineev=qTransport6" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OK_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_SF_SJ_04" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="RadioChannel" resource="qDineev=qTransport6=start=Radio">
+        <appear>
+          <action journal_active="" description="qDineev=qTransport6=start=Radio=appear" time="60"/>
+        </appear>
+        <decline/>
+        <accept>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OK_01"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_OK_04"/>
+      </infochannel>
+      <infochannel name="LiveDialogChannel" npc="ID_BARBARA_1" resource="qDineev=qTransport6=start=LiveDialog">
+        <appear/>
+        <decline/>
+        <accept>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OK_02"/>
+        <add_item AddItemVehicle="" model="FREIGHTLINER_CLASSIC_XL" color="4"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OK_01"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_OK_04"/>
+    <point name="MP_OK_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BARBARA_1" resource="qDineev=qTransport6=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+        <infochannel name="NewspaperChannel" resource="qDineev=qTransport6=success=Newspaper" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_bar_sf_sj_truckstop"/>
+          <point name="MP_bar_OkSc"/>
+          <point name="MP_bar_Ok_01"/>
+        </infochannel>
+        <infochannel name="RadioChannel" resource="qDineev=qTransport6=success=Radio" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_SF_SJ_04"/>
+          <point name="MP_SJ_01"/>
+          <point name="MP_SJ_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_bar_sf_sj_truckstop"/>
+    <point name="MP_bar_OkSc"/>
+    <point name="MP_bar_Ok_01"/>
+    <point name="MP_SF_SJ_04"/>
+    <point name="MP_SJ_01"/>
+    <point name="MP_SJ_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BARBARA_1" resource="qDineev=qTransport6=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BARBARA_1" resource="qDineev=qTransport6=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BARBARA_1" resource="qDineev=qTransport6=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="qDineev=qVizit1" bounded="false" uniq="true" description="Ложный вызов" org="qDineev=qVizit1" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_BR_MW_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSE_1" resource="qDineev=qVizit1=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qVizit1=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qVizit1=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BR_MW_01"/>
+        <point name="MP_MW_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BR_MW_01"/>
+    <point name="MP_MW_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSE_1" resource="qDineev=qVizit1=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BR_MW_03"/>
+          <add_item AddItemVehicle="" model="FREIGHTLINER_ARGOSY" color="4"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BR_MW_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_1" resource="qDineev=qVizit1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSE_1" resource="qDineev=qVizit1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="qDineev=qTransport4bis" bounded="false" uniq="true" description="Доставка осьминога культистам" org="qDineev=qTransport4bis" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SJ_02" model="SQUID"/>
+    <point name="MP_KM_AT_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4bis=start=CbVideo">
+        <appear/>
+        <decline/>
+        <accept>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SJ_02"/>
+        <point name="MP_SJ_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SJ_02"/>
+    <point name="MP_SJ_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4bis=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4bis=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4bis=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4bis=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_BRUCE_1" resource="qDineev=qTransport4bis=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTransport4"/>
+      <PlayerInformedAboutMissionRequirement mission="qDineev=qSquid"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qSquid" bounded="false" uniq="true" description="Информация о зверствах осьминога в аквариуме" org="qDineev=qSquid" dependByActivation="false" depend="false">
+    <channels>
+      <infochannel name="RadioChannel" resource="qDineev=qSquid=start=Radio">
+        <appear>
+          <action journal_active="" description="qDineev=qSquid=start=Radio=appear" time="60"/>
+        </appear>
+        <decline/>
+        <accept/>
+        <point name="MP_MW_02"/>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_SF_SJ_02"/>
+        <point name="MP_KM_PT_02"/>
+        <point name="MP_MR_MT_01"/>
+        <point name="MP_GF_AT_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MW_02"/>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_SF_SJ_02"/>
+    <point name="MP_KM_PT_02"/>
+    <point name="MP_MR_MT_01"/>
+    <point name="MP_GF_AT_01"/>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTransport4"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTrixy3" bounded="false" uniq="true" description="Трикси в своем репертуаре, просит чтобы игрок за ней заехал" org="qDineev=qTrixy3" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_SF_UK_03" model="ID_PATRICIA_1"/>
+    <point name="MP_GF_AT_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy3=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy3=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy3=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_UK_02"/>
+        <point name="MP_SF_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_UK_02"/>
+    <point name="MP_SF_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy3=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy3=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy3=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_AT_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_GF_AT_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy3=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_AT_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_GF_AT_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy3=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_AT_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_GF_AT_02"/>
+    <req>
+      <MissionFinishedRequirement mission="qDineev=qTrixy2"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTrixy4" bounded="false" uniq="true" description="Перевозка нелегальных иммигрантов по наводке Трикси" org="qDineev=qTrixy4" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SD_TM_01" model="CATTLE"/>
+    <point name="MP_AL_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy4=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy4=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy4=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SF_UK_02"/>
+        <point name="MP_SF_04"/>
+        <point name="MP_SD_06"/>
+        <point name="MP_SD_TM_01"/>
+        <point name="MP_SD_TM_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SF_UK_02"/>
+    <point name="MP_SF_04"/>
+    <point name="MP_SD_06"/>
+    <point name="MP_SD_TM_01"/>
+    <point name="MP_SD_TM_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="NewspaperChannel" resource="qDineev=qTrixy4=success=Newspaper" success="">
+          <appear>
+            <action removeresources=""/>
+            <action journal="" description="qDineev=qTrixy4=success=Newspaper=appear"/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_Room_Bakersfield_Bar"/>
+          <point name="MP_bar_sj_gf_01"/>
+          <point name="MP_Bar_SB_01"/>
+          <point name="MP_Bar_LA_LB_01"/>
+        </infochannel>
+        <infochannel name="LiveDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy4=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_AL_03"/>
+          <add_item AddItemVehicle="" model="FREIGHTLINER_ARGOSY" color="6"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_Room_Bakersfield_Bar"/>
+    <point name="MP_bar_sj_gf_01"/>
+    <point name="MP_Bar_SB_01"/>
+    <point name="MP_Bar_LA_LB_01"/>
+    <point name="MP_AL_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy4=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy4=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy4=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy4=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTrixy3"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTrixy5" bounded="false" uniq="true" description="Очередное бесцельное катание с Трикси" org="qDineev=qTrixy5" dependByActivation="false" depend="false">
+    <quest_item QINpc="" place="MP_bar_Mr_Fr" model="ID_PATRICIA_1"/>
+    <point name="MP_Bar_Atsc" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy5=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy5=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy5=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Mc_Fr_01"/>
+        <point name="MP_MR_02"/>
+        <point name="MP_MR_MT_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Mc_Fr_01"/>
+    <point name="MP_MR_02"/>
+    <point name="MP_MR_MT_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy5=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_AT_02"/>
+          <point name="MP_Bar_Atsc"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_GF_AT_02"/>
+    <point name="MP_Bar_Atsc"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy5=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy5=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_AT_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_GF_AT_02"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy5=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_AT_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_GF_AT_02"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy5=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_GF_AT_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_GF_AT_02"/>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTrixy4"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTrixy6" bounded="false" uniq="true" description="// Доставка противозаконного груза от Трикси" org="qDineev=qTrixy6" dependByActivation="false" depend="false">
+    <quest_item QIPackage="" place="MP_bar_lb" model="TOXIC_LIQUID"/>
+    <point name="MP_RE_MD_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy6=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy6=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy6=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LB_01"/>
+        <point name="MP_LB_02"/>
+      </infochannel>
+      <infochannel name="InBarTalkChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy6=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy6=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy6=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_bar_lb"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LB_01"/>
+    <point name="MP_LB_02"/>
+    <point name="MP_bar_lb"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHARLES_1" resource="qDineev=qTrixy6=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_MD_03"/>
+          <add_item AddItemVehicle="" model="WORK_TRUCK"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_MD_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy6=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy6=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_CHARLES_1" resource="qDineev=qTrixy6=fail_damaged=LiveDialog">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_MD_03"/>
+          <add_item AddItemVehicle="" model="WORK_TRUCK"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_MD_03"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy6=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTrixy5"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTrixy7" bounded="false" uniq="true" description="// Доставка противозаконного груза от Трикси, она подставляет игрока." org="qDineev=qTrixy7" dependByActivation="false" depend="false">
+    <quest_item QIPackage="" place="MP_Bar_Ptrs_Mn" model="MONEY"/>
+    <point name="MP_RE_MD_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy7=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy7=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy7=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Bar_Ptrs_Mn"/>
+        <point name="MP_PS_03"/>
+        <point name="MP_MT_12"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_KM_PT_01"/>
+      </infochannel>
+      <infochannel name="InBarTalkChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy7=start=InBarTalk">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTrixy7=start=InBarTalk=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTrixy7=start=InBarTalk=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Bar_Ptrs_Mn"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Bar_Ptrs_Mn"/>
+    <point name="MP_PS_03"/>
+    <point name="MP_MT_12"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_KM_PT_01"/>
+    <point name="MP_Bar_Ptrs_Mn"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JAMES_1" resource="qDineev=qTrixy7=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_MD_03"/>
+          <add_item AddItemVehicle="" model="Ford_CV"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_MD_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy7=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy7=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_PATRICIA_1" resource="qDineev=qTrixy7=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="qDineev=qTrixy6"/>
+    </req>
+  </mission>
+  <mission name="qDineev=qTransport17" bounded="false" uniq="true" description="Доставка &quot;американских&quot; китайских сувениров из Окленда" org="qDineev=qTransport17" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OK_02" model="SOUVENIRS"/>
+    <point name="MP_WV_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_RUTH_3" resource="qDineev=qTransport17=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="qDineev=qTransport17=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="qDineev=qTransport17=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_OK_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_OK_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_RUTH_3" resource="qDineev=qTransport17=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_WV_01"/>
+          <add_item AddItemVehicle="" model="VW_NewBeatle" color="11"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_WV_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_RUTH_3" resource="qDineev=qTransport17=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_RUTH_3" resource="qDineev=qTransport17=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_RUTH_3" resource="qDineev=qTransport17=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_RUTH_3" resource="qDineev=qTransport17=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="qDineev=qVizit2" bounded="false" uniq="true" description="Визит на смотровую площадку" org="qDineev=qVizit2" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_RD_BN_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="NewspaperChannel" resource="qDineev=qVizit2=start=Newspaper">
+        <appear>
+          <action journal_active="" description="qDineev=qVizit2=start=Newspaper=appear" time="15"/>
+        </appear>
+        <decline/>
+        <accept>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Room_Alturas_Bar"/>
+        <point name="MP_bar_ST_AL_01"/>
+        <point name="MP_bar_BN_AL_01"/>
+        <point name="MP_bar_RD"/>
+        <point name="MP_bar_RE_ST"/>
+        <point name="MP_bar_WV_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Room_Alturas_Bar"/>
+    <point name="MP_bar_ST_AL_01"/>
+    <point name="MP_bar_BN_AL_01"/>
+    <point name="MP_bar_RD"/>
+    <point name="MP_bar_RE_ST"/>
+    <point name="MP_bar_WV_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels/>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+  </mission>
+  <mission name="qDineev=qVizit3" bounded="false" uniq="true" description="Визит - посмотреть на парусник" org="qDineev=qVizit3" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_SD_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="NewspaperChannel" resource="qDineev=qVizit3=start=Newspaper">
+        <appear>
+          <action journal_active="" description="qDineev=qVizit3=start=Newspaper=appear" time="15"/>
+        </appear>
+        <decline/>
+        <accept>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Room_SD_SC_Bar"/>
+        <point name="MP_Room_sd_tem_02_bar"/>
+        <point name="MP_Room_SC_LA_Bar"/>
+        <point name="MP_bar_VV_LA_01"/>
+        <point name="MP_bar_LA_TM_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Room_SD_SC_Bar"/>
+    <point name="MP_Room_sd_tem_02_bar"/>
+    <point name="MP_Room_SC_LA_Bar"/>
+    <point name="MP_bar_VV_LA_01"/>
+    <point name="MP_bar_LA_TM_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels/>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+    </end>
+  </mission>
+</missions>
+

@@ -1,0 +1,33 @@
+<scenes>
+	<xxxenvironments>
+		<env name="blow">
+			<car name="car">
+				<scriptarg varname="car"/>
+			</car>
+		</env>
+	</xxxenvironments>
+	<scene name="blowcar" fade="off">
+		<world name="blow"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\explodeCamRul_start.txt" type="anm" anmspace="Camera_CamRul" name="cam"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\explodeCamRul_helic_cyc.txt" type="anm" anmspace="Camera_CamRul" name="cam"/>
+		<cameras>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</cameras>
+	</scene>
+	<scene name="blowcar2070" fade="off">
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="blow"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\explodeCamRul_helic_cyc.txt" type="anm" anmspace="Camera_CamRul" name="cam"/>
+		<cameratrack trackfile="..\\Data\\Actors\\Driver\\camchase\\explodeCamRul_start.txt" type="anm" anmspace="Camera_CamRul" name="cam"/>
+		<!--gammatrack trackfile="..\\Data\\Actors\\Driver\\camchase\\explodeCamRul_helic_cyc.txt" type="anm" anmspace="Camera_CamRul" name="cam"/-->
+		<cameras>
+			<bindcar>
+				<car name="car"/>
+			</bindcar>
+		</cameras>
+	</scene>
+</scenes>

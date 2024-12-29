@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<payoff>
+  <element name="dorothy_save_loose" money="0" rank="-3" rating="0" realmoney="0" />
+  <element name="dorothy_save_success" money="0" rank="3" rating="0" realmoney="0" />
+  <element name="pp_race_loose" money="0" rank="-2" rating="0" realmoney="0" />
+  <element name="pp_race_success" money="0" rank="2" rating="0" realmoney="0" />
+  <element name="pp_final_race_success" money="0" rank="2" rating="0" realmoney="50000" pager_locref="FROMPEN" />
+  <element name="gepard_test_success" money="0" rank="0" rating="0" realmoney="20000" pager_locref="FROMJOHN" />
+  <element name="chase_topo_success" money="0" rank="0" rating="0" realmoney="22000" pager_locref="FROMTOPO" />
+  <element name="track_to_enemy_base_success" money="0" rank="2" rating="0" realmoney="0" />
+  <element name="track_to_enemy_base_loose" money="0" rank="-2" rating="0" realmoney="0" />
+  <element name="enemy_base_assault_success" money="0" rank="4" rating="0" realmoney="0" />
+  <element name="koh_chase_success" money="0" rank="3" rating="0" realmoney="0" />
+  <element name="economy_victory" money="0" rank="0" rating="0" realmoney="500000" pager_locref="GOLDCARRIER" />
+  <element name="social_victory" money="0" rank="0" rating="0" realmoney="500000" pager_locref="GOLDBISON" />
+  <element name="race_victory" money="0" rank="0" rating="0" realmoney="500000" pager_locref="FINES" />
+</payoff>

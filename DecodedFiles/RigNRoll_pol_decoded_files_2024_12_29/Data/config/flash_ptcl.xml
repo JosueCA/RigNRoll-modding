@@ -1,0 +1,60 @@
+<particles>
+	<particle name="flashshot" type="type47" nom="1">
+		<fourpointsshapedirectional usecar="false" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.5" y0="0" z0="0.5" x1="0.5" y1="0" z1="-0.5" x2="-0.5" y2="0" z2="0.5" x3="-0.5" y3="0" z3="-0.5"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="false" change="false" invertonend="false" use_max_cyclelimit="false" fps="40" time="0." maxcycles="10.">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0.05" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+				<influence veldump=""/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace=""/>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace=""/>
+			</position>
+		</simple>
+	</particle>
+	<particle name="flashphoto" type="type47" nom="1">
+		<fourpointsshapedirectional usecar="false" shiftvertices="false" lastcurrentshift="false">
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="0.5" y0="0" z0="0.5" x1="0.5" y1="0" z1="-0.5" x2="-0.5" y2="0" z2="0.5" x3="-0.5" y3="0" z3="-0.5"/>
+				<alfa>
+					<anm x0="0." y0="255" x1="1" y1="255"/>
+				</alfa>
+				<shapeAnimatable animatable="false" cycle="false" change="false" invertonend="false" use_max_cyclelimit="false" fps="40" time="0." maxcycles="10.">
+					<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="1"/>
+			</coordsmultiply>
+		</fourpointsshapedirectional>
+		<simple>
+			<lifetemplate1 z="0." veldump="0.9" lifetime="0.05" shape_coef="0.5" minshow="true">
+				<velocity x="0." y="0." z="0."/>
+				<position x="0." y="0." z="0."/>
+				<influence veldump=""/>
+			</lifetemplate1>
+			<velocity>
+				<stack2 use="true" whole="" replace=""/>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace=""/>
+			</position>
+		</simple>
+	</particle>
+</particles>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+  <dialog name="short_2_1=nm=start=LiveDialog">
+    <item caller="" wav="short_2_1=nm=start=LiveDialog=00=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=start=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=nm=start=LiveDialog=02=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=start=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=nm=start=LiveDialog=04=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=start=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_2_1=nm=start=LiveDialog=06=ID_MICHAEL_R_4"/>
+    <item>
+      <question text="short_2_1=Y" id="0">
+        <dialog name="short_2_1=nm=start=LiveDialog=Y">
+          <item callee="" wav="short_2_1=nm=start=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_2_1=nm=start=LiveDialog=Y=01=ID_MICHAEL_R_4"/>
+          <item callee="" wav="short_2_1=nm=start=LiveDialog=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_2_1=N" id="1">
+        <dialog name="short_2_1=nm=start=LiveDialog=N">
+          <item callee="" wav="short_2_1=nm=start=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_2_1=nm=start=LiveDialog=N=01=ID_MICHAEL_R_4"/>
+          <item callee="" wav="short_2_1=nm=start=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_2_1=nm=success=CarDialog">
+    <item caller="" wav="short_2_1=nm=success=CarDialog=00=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=success=CarDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=nm=success=CarDialog=02=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=success=CarDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=nm=success=CarDialog=04=ID_MICHAEL_R_4"/>
+  </dialog>
+  <dialog name="short_2_1=nm=fail_timeout_complete=CarDialog">
+    <item caller="" wav="short_2_1=nm=fail_timeout_complete=CarDialog=00=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=fail_timeout_complete=CarDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=nm=fail_timeout_complete=CarDialog=02=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=fail_timeout_complete=CarDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=nm=fail_timeout_complete=CarDialog=04=ID_MICHAEL_R_4"/>
+  </dialog>
+  <dialog name="short_2_1=nm=fail_damaged=CarDialog">
+    <item caller="" wav="short_2_1=nm=fail_damaged=CarDialog=00=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=fail_damaged=CarDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=nm=fail_damaged=CarDialog=02=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=fail_damaged=CarDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=nm=fail_damaged=CarDialog=04=ID_MICHAEL_R_4"/>
+  </dialog>
+  <dialog name="short_2_1=nm=decline=CarDialog">
+    <item callee="" wav="short_2_1=nm=decline=CarDialog=00=Nick"/>
+    <item caller="" wav="short_2_1=nm=decline=CarDialog=01=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=nm=decline=CarDialog=02=Nick"/>
+  </dialog>
+  <dialog name="short_2_1=promo_mat=success=LiveDialog">
+    <item callee="" wav="short_2_1=promo_mat=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_2_1=promo_mat=success=LiveDialog=01=ID_BILL_1"/>
+    <item callee="" wav="short_2_1=promo_mat=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_2_1=promo_mat=success=LiveDialog=03=ID_BILL_1"/>
+    <item callee="" wav="short_2_1=promo_mat=success=LiveDialog=04=Nick"/>
+  </dialog>
+  <dialog name="short_2_1=gun=success=InBarTalk">
+    <item callee="" wav="short_2_1=gun=success=InBarTalk=00=Nick"/>
+    <item caller="" wav="short_2_1=gun=success=InBarTalk=01=ID_LAURA_1"/>
+    <item callee="" wav="short_2_1=gun=success=InBarTalk=02=Nick"/>
+    <item caller="" wav="short_2_1=gun=success=InBarTalk=03=ID_LAURA_1"/>
+    <item callee="" wav="short_2_1=gun=success=InBarTalk=04=Nick"/>
+    <item caller="" wav="short_2_1=gun=success=InBarTalk=05=ID_LAURA_1"/>
+    <item>
+      <question text="short_2_1=Y" id="0">
+        <dialog name="short_2_1=gun=success=InBarTalk=Y">
+          <item callee="" wav="short_2_1=gun=success=InBarTalk=Y=00=Nick"/>
+          <item caller="" wav="short_2_1=gun=success=InBarTalk=Y=01=ID_LAURA_1"/>
+        </dialog>
+      </question>
+      <question text="short_2_1=N" id="1">
+        <dialog name="short_2_1=gun=success=InBarTalk=N">
+          <item callee="" wav="short_2_1=gun=success=InBarTalk=N=00=Nick"/>
+          <item caller="" wav="short_2_1=gun=success=InBarTalk=N=01=ID_LAURA_1"/>
+          <item callee="" wav="short_2_1=gun=success=InBarTalk=N=02=Nick"/>
+          <item caller="" wav="short_2_1=gun=success=InBarTalk=N=03=ID_LAURA_1"/>
+          <item callee="" wav="short_2_1=gun=success=InBarTalk=N=04=Nick"/>
+          <item caller="" wav="short_2_1=gun=success=InBarTalk=N=05=ID_LAURA_1"/>
+          <item callee="" wav="short_2_1=gun=success=InBarTalk=N=06=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_2_1=gun_finish=success=LiveDialog">
+    <item caller="" wav="short_2_1=gun_finish=success=LiveDialog=00=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=gun_finish=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=gun_finish=success=LiveDialog=02=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=gun_finish=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=gun_finish=success=LiveDialog=04=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=gun_finish=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_2_1=gun_finish=success=LiveDialog=06=ID_FRED_1"/>
+  </dialog>
+  <dialog name="short_2_1=postman_1=success=InBarTalk">
+    <item caller="" wav="short_2_1=postman_1=success=InBarTalk=00=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=postman_1=success=InBarTalk=01=Nick"/>
+    <item caller="" wav="short_2_1=postman_1=success=InBarTalk=02=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=postman_1=success=InBarTalk=03=Nick"/>
+    <item caller="" wav="short_2_1=postman_1=success=InBarTalk=04=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=postman_1=success=InBarTalk=05=Nick"/>
+    <item caller="" wav="short_2_1=postman_1=success=InBarTalk=06=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=postman_1=success=InBarTalk=07=Nick"/>
+    <item caller="" wav="short_2_1=postman_1=success=InBarTalk=08=ID_VICTOR_1"/>
+    <item>
+      <question text="short_2_1=Y" id="0">
+        <dialog name="short_2_1=postman_1=success=InBarTalk=Y">
+          <item callee="" wav="short_2_1=postman_1=success=InBarTalk=Y=00=Nick"/>
+          <item caller="" wav="short_2_1=postman_1=success=InBarTalk=Y=01=ID_VICTOR_1"/>
+        </dialog>
+      </question>
+      <question text="short_2_1=N" id="1">
+        <dialog name="short_2_1=postman_1=success=InBarTalk=N">
+          <item callee="" wav="short_2_1=postman_1=success=InBarTalk=N=00=Nick"/>
+          <item caller="" wav="short_2_1=postman_1=success=InBarTalk=N=01=ID_VICTOR_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_2_1=postman_2=success=LiveDialog">
+    <item callee="" wav="short_2_1=postman_2=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_2_1=postman_2=success=LiveDialog=01=ID_CHRISTINE_1"/>
+    <item callee="" wav="short_2_1=postman_2=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_2_1=postman_2=success=LiveDialog=03=ID_CHRISTINE_1"/>
+    <item callee="" wav="short_2_1=postman_2=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_2_1=postman_2=success=LiveDialog=05=ID_CHRISTINE_1"/>
+    <item callee="" wav="short_2_1=postman_2=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="short_2_1=postman_2=success=LiveDialog=07=ID_CHRISTINE_1"/>
+    <item callee="" wav="short_2_1=postman_2=success=LiveDialog=08=Nick"/>
+    <item caller="" wav="short_2_1=postman_2=success=LiveDialog=09=ID_CHRISTINE_1"/>
+  </dialog>
+  <dialog name="short_2_1=raduga_1=success=LiveDialog">
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=00=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=02=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=04=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=06=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=08=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=09=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=10=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=11=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=12=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=13=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=14=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_1=success=LiveDialog=15=Nick"/>
+    <item caller="" wav="short_2_1=raduga_1=success=LiveDialog=16=ID_VICTOR_1"/>
+  </dialog>
+  <dialog name="short_2_1=raduga_2=success=LiveDialog">
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=00=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=02=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=04=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=06=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=08=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=09=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=10=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=11=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=12=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=13=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=14=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=15=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=16=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=17=Nick"/>
+    <item caller="" wav="short_2_1=raduga_2=success=LiveDialog=18=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_2=success=LiveDialog=19=Nick"/>
+  </dialog>
+  <dialog name="short_2_1=raduga_3=success=LiveDialog">
+    <item callee="" wav="short_2_1=raduga_3=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_2_1=raduga_3=success=LiveDialog=01=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_3=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_2_1=raduga_3=success=LiveDialog=03=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_3=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_2_1=raduga_3=success=LiveDialog=05=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=raduga_3=success=LiveDialog=06=Nick"/>
+  </dialog>
+  <dialog name="short_2_1=zaglushka=success=LiveDialog">
+    <item callee="" wav="short_2_1=zaglushka=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_2_1=zaglushka=success=LiveDialog=01=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=zaglushka=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_2_1=zaglushka=success=LiveDialog=03=ID_VICTOR_1"/>
+  </dialog>
+  <dialog name="short_2_1=zaglushka_2=success=LiveDialog">
+    <item caller="" wav="short_2_1=zaglushka_2=success=LiveDialog=00=ID_BERTOLD_1"/>
+    <item callee="" wav="short_2_1=zaglushka_2=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=zaglushka_2=success=LiveDialog=02=ID_BERTOLD_1"/>
+    <item callee="" wav="short_2_1=zaglushka_2=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=zaglushka_2=success=LiveDialog=04=ID_BERTOLD_1"/>
+    <item callee="" wav="short_2_1=zaglushka_2=success=LiveDialog=05=Nick"/>
+  </dialog>
+  <dialog name="short_2_1=svord_info_1=success=InBarTalk">
+    <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=00=Nick"/>
+    <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=01=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=02=Nick"/>
+    <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=03=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=04=Nick"/>
+    <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=05=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=06=Nick"/>
+    <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=07=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=08=Nick"/>
+    <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=09=ID_FRED_1"/>
+    <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=10=Nick"/>
+    <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=11=ID_FRED_1"/>
+    <item>
+      <question text="short_2_1=Y" id="0">
+        <dialog name="short_2_1=svord_info_1=success=InBarTalk=Y">
+          <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=Y=00=Nick"/>
+          <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=Y=01=ID_FRED_1"/>
+          <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_2_1=N" id="1">
+        <dialog name="short_2_1=svord_info_1=success=InBarTalk=N">
+          <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=N=00=Nick"/>
+          <item caller="" wav="short_2_1=svord_info_1=success=InBarTalk=N=01=ID_FRED_1"/>
+          <item callee="" wav="short_2_1=svord_info_1=success=InBarTalk=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_2_1=sword=success=InBarTalk">
+    <item caller="" wav="short_2_1=sword=success=InBarTalk=00=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=sword=success=InBarTalk=01=Nick"/>
+    <item caller="" wav="short_2_1=sword=success=InBarTalk=02=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=sword=success=InBarTalk=03=Nick"/>
+    <item caller="" wav="short_2_1=sword=success=InBarTalk=04=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=sword=success=InBarTalk=05=Nick"/>
+    <item caller="" wav="short_2_1=sword=success=InBarTalk=06=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=sword=success=InBarTalk=07=Nick"/>
+    <item caller="" wav="short_2_1=sword=success=InBarTalk=08=ID_VICTOR_1"/>
+  </dialog>
+  <dialog name="short_2_1=rock=success=LiveDialog">
+    <item callee="" wav="short_2_1=rock=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_2_1=rock=success=LiveDialog=01=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=rock=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_2_1=rock=success=LiveDialog=03=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=rock=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_2_1=rock=success=LiveDialog=05=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=rock=success=LiveDialog=06=Nick"/>
+  </dialog>
+  <dialog name="short_2_1=rock_3=success=LiveDialog">
+    <item caller="" wav="short_2_1=rock_3=success=LiveDialog=00=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=rock_3=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_2_1=rock_3=success=LiveDialog=02=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=rock_3=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_2_1=rock_3=success=LiveDialog=04=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=rock_3=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_2_1=rock_3=success=LiveDialog=06=ID_MICHAEL_R_4"/>
+    <item callee="" wav="short_2_1=rock_3=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_2_1=rock_3=success=LiveDialog=08=ID_MICHAEL_R_4"/>
+  </dialog>
+  <dialog name="short_2_1=rock_7=success=LiveDialog">
+    <item callee="" wav="short_2_1=rock_7=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_2_1=rock_7=success=LiveDialog=01=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=rock_7=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_2_1=rock_7=success=LiveDialog=03=ID_VICTOR_1"/>
+    <item callee="" wav="short_2_1=rock_7=success=LiveDialog=04=Nick"/>
+  </dialog>
+</dialogs>
+

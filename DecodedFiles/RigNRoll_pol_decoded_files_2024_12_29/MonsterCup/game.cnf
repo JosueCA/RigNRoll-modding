@@ -1,0 +1,258 @@
+(
+(traffic 0.5)
+(distribution 2)
+(playertypes
+        (aitruck 60)
+        (ghost 0)
+  (police 3)
+
+  ;(live 1 "Ford_CV")
+  ; (live 1 "WORK_TRUCK")
+  ;(live 1 "Dodge_Grand_Caravan")
+  ;(live 1 "Dodge_Intrepid")
+  ;(live 1 "GMC_TOPKICK4500_JOHN_TRAMPLIN")
+
+  ;(live 1 "KENWORTH_T2000")
+  ;(live 1 "KENWORTH_T600W")
+  ;(live 1 "KENWORTH_T800")
+  ;(live 1 "KENWORTH_W900L")
+
+  ;(live 1 "WESTERN_STAR4900_EX")
+  ;(live 1 "PETERBILT_378")
+  ;(live 1 "PETERBILT_379")
+  ;(live 1 "PETERBILT_387")
+
+  ;(live 1 "STERLING_9500")
+  ;(live 1 "VOLVO_VNL770")
+
+ ;(live 1 "GMC_TOPKICK8500_DUMP" 3)
+;  (live 1 "PETERBILT_378_CONTAINER" 4)
+;  (live 1 "PETERBILT_378_DRYVAN" 3)
+;  (live 1 "PETERBILT_378_DRYVAN_2" 4)
+
+  (live 1 "FREIGHTLINER_ARGOSY")
+
+  ;(live 1 "FREIGHTLINER_CENTURY" 2)
+  ;(live 1 "FREIGHTLINER_CLASSIC_XL")
+  ;(live 1 "FREIGHTLINER_CORONADO")
+  
+  ;(live 1 "KENWORTH_T600W")
+  ;(live 1 "PETERBILT_379")
+  ;(live 1 "PETERBILT_387")
+
+  ;(live 1 "INTERNATIONAL_9800")
+  ;(live 1 "MACK_CH603")
+  ;(live 1 "GEPARD")
+
+)
+
+; Alturas:
+  ;(startposition  4342 39397 133)    ; Alturas
+  ;(startposition  4793 39397 133)    ; Alturas_trackstop
+  ;(startposition  6617 37571 133)    ; Alturas_warehouse
+          
+; Atascadero:
+  ;(startposition  -8484 -14740  36)              ;Atascadero - "Camera_Atsc"              
+  ;(startposition  -8325 -14444  26)        ;Atascadero truckstop             
+  ;(startposition  -7800 -12500  26)              ;Atascadero - Kettleman near Atascadero      
+  ;(startposition  -1991 -12860  12)              ;Atascadero - Kettleman truckstop    
+
+; Bakersfield:
+  ;(startposition   5360  -8333 18)         ; Bakersfield truckstop
+  ;(startposition   5848 -11722 15)         ; Bakersfield warehouse
+  ;(startposition   8131 -10028 26)         ; Bakersfield - Mojave truckstop
+  ;(startposition   5252  -4717 14)         ; Bakersfield - Fresno truckstop
+  ;(startposition   3600 -13198 20)         ; Bakersfield - Lebec truckstop
+
+; Barstow:
+  ;(startposition  23333 -18232 71)   ; Barstow
+  ;(startposition  24454 -18418 71)   ; Barstow  warehouse
+
+; Bishop:
+  ;(startposition  12901 3750 127)    ; Bishop
+  ;(startposition  10897 6333 127)    ; Bishop-Bridgeport
+  ;(startposition  9940 9740 150)     ; Bishop_Bridgeport_trackstop
+
+; Bridgeport:
+  ;(startposition  9467 11905 196)    ; Bridgeport
+  ;(startposition  7750 12816 196)    ; Bridgeport-Minden
+  ;(startposition  7200 13953 190)    ; Bridgeport-Minden_trackstop
+  ;(startposition  3470 12119 266)    ; Bridgeport_MWVillage
+  ;(startposition  3997 12639 273)    ; Enemy base entrance
+
+; Burney:
+  ;(startposition  -5214 35278 96)    ; Burney     
+  ;(startposition  -2870 36704 97)    ; Burney-Alturas
+  ;(startposition   -636 37156 81)    ; Burney-Alturas_trackstop
+
+; Colfax:
+  ;(startposition  -2707 23696  84)   ;Colfax near warehouse        
+  ;(startposition  -4595 22234  60)   ;Colfax - Sacramento near Truck Stop
+  ;(startposition  -1126 25373 150)   ;Colfax - Reno Truck Stop
+
+; Eureka:
+  ;(startposition -35115 30108  2)    ; Eureka_begin
+  ;(startposition -34446 31298  2)    ; Eureka_center
+  ;(startposition -35095 29196  5)    ; Eureka_Leggett near Eureka         
+  ;(startposition -34215 27787 22)    ; Eureka_Leggett near Truck Stop
+  ;(startposition -24856 32171 62)      ; Eureka_Weaverville begin 
+  ;(startposition -27978 33020 37)    ; Eureka_Weaverville near Truck Stop
+
+; Fresno:
+  ;(startposition   3088  -4747 10)         ; Fresno exit 41 to Kettleman
+  ;(startposition   1167  -1747 16)         ; Fresno warehouse
+  ;(startposition   2358  -5505 25)         ; Fresno - Kettleman near Fresno
+  ;(startposition   -151  -8008 10)         ; Fresno - Kettleman near Kettleman       
+  ;(startposition    212   -848 10)         ; Fresno - Merced near Fresno
+  ;(startposition  -1895   1230  8)         ; Fresno - Merced truckstop
+
+; Greenfield:
+  ;(startposition -12384  -4422  2)           ; Greenfield
+
+; Kettleman City:
+  ;(startposition  -1434 -10666 10)         ; Kettleman
+  ;(startposition  -2494 -10636 12)         ; Kettleman_Paterson near Kettleman        
+  ;(startposition  -3595  -5700 16)         ; Kettleman_Paterson truckstop        
+
+; Lebec:
+  ;(startposition   8120 -16927 90)         ; Lebec truckstop
+
+; Leggett:
+  ;(startposition  -34360 24790 60)         ;Leggett near warehouse           
+  ;(startposition  -31691 22848 40)         ;Leggett - Ukiah
+
+; Lone Pine:
+  ;(startposition  14103 -5309 114)   ; LonePine
+  ;(startposition  13032 -2460 119)   ; LonePine-Bishop
+  ;(startposition  12600 -1109 120)   ; LonePine-Bishop_trackstop
+
+; Los Angeles:
+  ;(startposition  14290 -30404 72)         ; LA Downtown warehouse  "Camera_LA_04"
+  ;(startposition  10383 -23650 40)         ; LA-Lebec truckstop
+  ;(startposition  21525 -28888 40)         ; Los Angeles - Temecula    
+  ;(startposition  11557 -29273 72)   ; Âúåçä íà óçêóþ ýñòàêàäó
+
+; Manteña: 
+  ;(startposition   -8400 7292   2)         ;Manteca
+  ;(startposition   -9925 7050   5)         ;Manteca  truckstop
+  ;(startposition   -4100 7292  45)         ;Manteca - Mi-Wuk Village
+  ;(startposition  -11800 3818   2)         ;Manteca - Patterson
+  ;(startposition  -11767 5915  32)         ;Manteca - Okland
+  ;(startposition   -8070 9505  10)         ;Manteca - Sacramento
+  ;(startposition   -7171 5335  12)         ;Manteca - Merced
+
+; Merced:
+  ;(startposition   -2110 2688  18)         ;Merced  warehouse
+  ;(startposition   -3580 3018  14)         ;Merced
+  ;(startposition   -5725 3950  14)         ;Merced - Manteca
+
+; Minden:
+  ;(startposition  7302 17510 144)    ; Minden
+
+; Mi-Wuk Village:
+  ;(startposition  670 10900 154)           ; Mi-Wuk Village
+
+; Mojave:
+  ;(startposition  12884 -14608 85)         ; Mojave
+  ;(startposition  13761 -14029 83)   ; Mojave warehouse
+  ;(startposition  17171 -15515 75)   ; Mojave - Barstow truckstop
+  ;(startposition  13178 -11450 83)   ; Mojave - Lone Pine                    
+  ;(startposition  15000 -8372 100)   ; Mojave - Lone Pine_trackstop
+
+; Oakland:
+  ;(startposition -20781 10408 31)    ; Oakland
+  ;(startposition -19087  9195 15)    ; Oakland TruckStop
+  ;(startposition -15835  7101  6)    ; Oakland - Manteca
+  ;(startposition -16046 14314  8)    ; Oakland - Sacramento  TruckStop
+
+; Oxnard:
+  ;(startposition  6260 -24262 16)          ; Oxnard truckstop
+  (startposition  5390 -23870 16)          ; Oxnard warehouse
+  ;(startposition  4884 -24151  1)          ; Oxnard Office
+  ;(startposition  4333 -24272  4)          ; Oxnard Office Topokinaki
+  ;(startposition  3535 -24888  1)          ; Oxnard Police
+
+; Orland:
+  ;(startposition  -13287 23431  8)   ; Orland
+  ;(startposition  -12355 23928 17)   ; Orland_truckstop
+  ;(startposition  -13939 24983 17)   ; Orland_warehouse
+  ;(startposition  -13303 23430  8)   ; Orland-Sacramento, near Orland
+
+; Palmdale - Lancaster:
+  ;(startposition  15990 -22210 80)         ;Palmdale Warehouse
+  ;(startposition  14935 -19891 80)         ;Palmdale TruckStop
+  ;(startposition  13800 -16310 90)         ;Palmdale - Mojave
+  
+; Patterson:
+  ;(startposition   -8363 -1331 2)    ;Patterson 
+  ;(startposition  -10220 -1881 2)          ;Patterson - Manteña truckstop 
+
+; Redding:
+  ;(startposition  -14441 32234 15)   ; Redding_truckstop
+  ;(startposition  -13745 30848 13)   ; Redding_warehouse
+  ;(startposition  -16459 30781 13)   ; Redding_Weaverville
+  ;(startposition  -4162 29668 22)    ; Redding_Orland, near Redding
+
+; Reno:
+  ;(startposition  4766 27012 120)    ;Reno near warehouse
+  ;(startposition  4020 29141 150)    ;Reno-Standish near Reno
+  ;(startposition  2565 31600 125)    ;Reno-Standish near Standish
+  ;(startposition  5910 24230 110)    ;Reno-Minden near Reno
+  ;(startposition  5303 21600 170)    ;Reno-Minden near Minden
+  ;(startposition  2626 26711 125)    ;Reno-Colfax near Reno
+
+; Sacramento:
+  ;(startposition   -8358 19565  12)          ;
+  ;(startposition   -9155 19232  12)          ; Sacramento TruckStop
+  ;(startposition   -6450 18919  24)          ; Sacramento near warehouse
+
+; Santa Barbara:
+  ;(startposition  -3874 -21757 37)         ; Santa Barbara
+  ;(startposition   2121 -23717 18)         ; Santa Barbara - Oxnard truckstop
+  ;(startposition  -650 -23767 21)          ; Oxnard - Santa Barbara near sea
+
+; San Clemente:
+  ;(startposition  18364 -31357 7)          ; San Clemente TruckStop
+  ;(startposition  16453 -30078 20)         ; San Clemente - Los Angeles
+  ;(startposition  19778 -35105 78)         ; San Clemente - San Giego
+
+; San Diego:                   
+  ;(startposition  21123 -37017 1)          ; San Diego
+  ;(startposition  24444 -38535 0)    ; San diego Temecula
+
+; Standish:
+  ;(startposition  6130 31827 124)    ; Standish
+  ;(startposition  6130 31827 124)    ; Standish - Alturas
+  ;(startposition  3970 30656  130)           ; Standish - Reno truckstop
+
+; San Jose:
+  ;(startposition -18483.8  1518.6 50.0)     ; San_Jose
+  ;(startposition -14921.7  -690.3 50.5)    ; San_Jose_Greenfield
+  ;(startposition -14934.2  -623.3 50.0)        ; San_Jose_near_Sj_Gf
+
+; San Francisco:
+  ;(startposition  -26429  7985 -2.5)     ; SF Van Ness
+  ;(startposition  -24343  8060 45)     ; Bay Bridge
+  ;(startposition  -29383  8969  2)   ; south Golden Gate Bridge
+  ;(startposition  -30676 11428  2)   ; north Golden Gate Bridge
+
+; Temecula:
+  ;(startposition  23333 -31348 1)          ; Temecula near warehouse
+
+; Ukiah:
+  ;(startposition  -31268 17752 19)   ; Ukiah
+  ;(startposition  -31905 18369 28)   ; Ukiah_truckstop
+  ;(startposition  -31824 18915 27)   ; Ukiah_warehouse
+  ;(startposition  -31111 15915 40)   ; Ukiah - SanFransisco near river
+  ;(startposition  -30545 13127 12)   ; Ukiah - SanFransisco near truckstop
+
+; VictorVill:
+  ;(startposition  22309 -21242 83)   ; VictorVill
+  ;(startposition  21746 -22743 92)   ; VictorVill_warehouse
+  ;(startposition  21969 -24505 58)   ; VictorVill-Los Angeles_truckstop
+
+; Weaverville:
+  ;(startposition  -23537 31212 62)   ; Weaverville
+  ;(startposition  -24370 31837 62)   ; Weaverville_warehouse
+
+)

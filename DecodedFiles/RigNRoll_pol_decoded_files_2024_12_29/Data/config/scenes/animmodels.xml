@@ -1,0 +1,50 @@
+<scenes>
+	<xxxenvironments>
+		<env name="am">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="rope1">
+			<xxx id="flags">
+				<id>Little_flag</id>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+		<env name="rope2">
+			<xxx id="flags">
+				<id>Little_flag_SS</id>
+			</xxx>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+	</xxxenvironments>
+	<scene name="FerrisWheel" fade="off" wide="off" useshow="off">
+		<world name="am"/>
+		<persontrack trackfile="..\\Data\\Actors\\am\\scenes\\FerrisWheel.txt" name="model"/>
+	</scene>
+	<scene name="Little_flag" fade="off" wide="off" useshow="off">
+		<world name="rope1"/>
+		<persontrack trackfile="..\\Data\\Actors\\am\\scenes\\flags_on_rope.txt" name="model"/>
+	</scene>
+	<scene name="Little_flag_SS" fade="off" wide="off" useshow="off">
+		<world name="rope2"/>
+		<persontrack trackfile="..\\Data\\Actors\\am\\scenes\\flags_on_rope.txt" name="model"/>
+	</scene>
+	<scene name="LUFKIN_model" fade="off" wide="off" useshow="off">
+		<world name="am"/>
+		<persontrack trackfile="..\\Data\\Actors\\am\\scenes\\OilPump.txt" name="model"/>
+	</scene>
+</scenes>

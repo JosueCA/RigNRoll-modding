@@ -1,0 +1,880 @@
+<?xml version="1.0"?>
+<menu>
+	<title>Road Service BILL</title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>ComCommon</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<materialres name="BackOUT_yellow">
+			<wdbmaterial>mat_Menu_backOUT_yellow_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Road Service BILL">
+			<wdbmaterial>mat_menu_RoadServiceBill_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="64"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Road Service Banner" script="Complex3">
+			<material>Road Service BILL</material>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT - BANNER"/>
+				<font>Button FONT passive Comm</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="68" sy="104" id="left"/>
+				<texrect index="0" x="6" y="0" sx="42" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="68" y="0" sx="1" sy="104" id="center"/>
+				<texrect index="0" x="47" y="0" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="69" y="0" sx="104" sy="104" id="right"/>
+				<texrect index="0" x="64" y="0" sx="64" sy="64"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="PaperBack_Fade_Spots">
+			<wdbmaterial>mat_menu_PaperBack01_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="PaperBack_Sheet_Spots" script="Complex9">
+			<material>PaperBack_Fade_Spots</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="64" sy="96" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="0" sx="1" sy="96" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="0" sx="64" sy="96" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="64" sx="64" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="64" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="64" sx="64" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="65" sx="64" sy="96" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="65" sx="1" sy="96" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="65" sx="64" sy="96" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<materialres name="ComCommon_A">
+			<wdbmaterial>mat_menu_Com_COMMONa_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon">
+			<wdbmaterial>mat_menu_Com_COMMON_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button COMMON Communicator" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Comm"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="256" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="256" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="256" x1="36" y1="256" x2="36" y2="320" x3="52" y3="320"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT - BANNER">
+			<textcolor>205 230 255 255</textcolor>
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>40</baseline>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+		<buttonres name="COMM_BACK_Title" script="Complex9">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="70" id="leftUP"/>
+				<texrect index="0" x="82" y="0" sx="32" sy="70"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="70" id="centerUP"/>
+				<texrect index="0" x="113" y="0" sx="1" sy="70"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="14" sy="70" id="rightUP"/>
+				<texrect index="0" x="114" y="0" sx="14" sy="70"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="70" sx="32" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="82" y="69" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="70" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="113" y="69" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="70" sx="14" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="114" y="69" sx="14" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="71" sx="32" sy="14" id="leftDOWN"/>
+				<texrect index="0" x="82" y="70" sx="32" sy="14"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="71" sx="1" sy="14" id="centerDOWN"/>
+				<texrect index="0" x="113" y="70" sx="1" sy="14"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="71" sx="14" sy="14" id="rightDOWN"/>
+				<texrect index="0" x="114" y="70" sx="14" sy="14"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="COMM_BACK_Border" script="Complex9">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="12" sy="13" id="leftUP"/>
+				<texrect index="0" x="66" y="0" sx="12" sy="13"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="0" sx="1" sy="13" id="centerUP"/>
+				<texrect index="0" x="78" y="0" sx="1" sy="13"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="0" sx="12" sy="13" id="rightUP"/>
+				<texcoords index="0" x0="78" y0="0" x1="66" y1="0" x2="66" y2="13" x3="78" y3="13"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="13" sx="12" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="66" y="13" sx="12" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="13" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="78" y="13" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="12" sx="13" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="78" y0="13" x1="66" y1="13" x2="66" y2="14" x3="78" y3="14"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="14" sx="12" sy="18" id="leftDOWN"/>
+				<texrect index="0" x="66" y="14" sx="12" sy="18"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="14" sx="1" sy="18" id="centerDOWN"/>
+				<texrect index="0" x="78" y="14" sx="1" sy="18"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="14" sx="12" sy="18" id="rightDOWN"/>
+				<texcoords index="0" x0="78" y0="14" x1="66" y1="14" x2="66" y2="32" x3="78" y3="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="COMM_BACK_Gradient" script="Complex9">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="1" sy="200" id="leftUP"/>
+				<texrect index="0" x="13" y="0" sx="1" sy="31"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="1" y="0" sx="1" sy="200" id="centerUP"/>
+				<texrect index="0" x="13" y="0" sx="1" sy="31"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="0" sx="1" sy="200" id="rightUP"/>
+				<texrect index="0" x="13" y="0" sx="1" sy="31"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="1" sx="1" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="13" y="30" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="1" y="1" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="13" y="30" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="1" sx="1" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="13" y="30" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="2" sx="1" sy="200" id="leftDOWN"/>
+				<texcoords index="0" x0="13" y0="31" x1="14" y1="31" x2="14" y2="10" x3="13" y3="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="1" y="2" sx="1" sy="200" id="centerDOWN"/>
+				<texcoords index="0" x0="13" y0="31" x1="14" y1="31" x2="14" y2="10" x3="13" y3="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="1" sy="200" id="rightDOWN"/>
+				<texcoords index="0" x0="13" y0="31" x1="14" y1="31" x2="14" y2="10" x3="13" y3="10"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller Thumb" script="Complex3Vert">
+			<material>ComCommon</material>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="284" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="0" y="248" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="301" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="0" y="265" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="303" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="267" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="0" y="267" sx="36" sy="17"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowUP">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="212" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowDOWN">
+			<material>ComCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="248" x1="0" y1="248" x2="0" y2="212" x3="36" y3="212"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<textres name="BHT - black - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>0 26 51 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="BHT - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BHT - white - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - black - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>55 75 75 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - left - News">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>55 75 75 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - left - bsln24">
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>55 75 75 255</textcolor>
+		</textres>
+		<textres name="JustText - black - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>55 75 75 255</textcolor>
+		</textres>
+		<textres name="JustText - black - center - News">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>55 75 75 255</textcolor>
+		</textres>
+		<textres name="JustText - black - center - bsln24">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<textcolor>55 75 75 255</textcolor>
+		</textres>
+		<textres name="JustText - black - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>55 75 75 255</textcolor>
+		</textres>
+		<textres name="JustText - black - right - News">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>55 75 75 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - white - left - bsln24">
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - center - bsln24">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+	</resources>
+	<controlgroup name="Road Service BILL">
+		<picture name="Road Service BILL">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Road Service BILL - BACK">
+				<coords x="90" y="257" sx="1" sy="1"/>
+				<picture name="BACK White">
+					<material>BackOUT_yellow</material>
+					<coords x="286" y="6" sx="848" sy="748"/>
+					<texrect index="0" x="0" y="0" sx="330" sy="195"/>
+				</picture>
+				<picture name="BACK Gradient">
+					<coords x="286" y="6" sx="848" sy="748"/>
+					<buttonres_ref name="COMM_BACK_Gradient"/>
+				</picture>
+				<picture name="BACK Border">
+					<coords x="280" y="0" sx="860" sy="764"/>
+					<buttonres_ref name="COMM_BACK_Border"/>
+				</picture>
+				<picture name="BACK Title">
+					<coords x="345" y="-75" sx="650" sy="85"/>
+					<buttonres_ref name="COMM_BACK_Title"/>
+				</picture>
+				<picture name="BACK Icon - Communicator">
+					<material>ComCommon</material>
+					<coords x="366" y="-63" sx="72" sy="72"/>
+					<texrect index="0" x="0" y="320" sx="64" sy="64"/>
+				</picture>
+				<textfield name="BACK Icon - Incoming Message">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="450" y="-49" sx="500" sy="36"/>
+					<textres_ref name="JustText - white - left"/>
+					<text locref="common\Net - Online Payment Form">Net - Online Payment Form</text>
+				</textfield>
+			</picture>
+			<picture name="BackPaper">
+				<coords x="390" y="285" sx="820" sy="680"/>
+				<buttonres_ref name="PaperBack_Sheet_Spots"/>
+			</picture>
+			<picture name="Road Service BILL - ALL">
+				<coords x="330" y="358" sx="940" sy="630"/>
+				<picture name="Road Service BILL - Banner TOP">
+					<coords x="119" y="20" sx="1" sy="1"/>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="0" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="102" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="140" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="1" sx="2" sy="140"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="700" y="1" sx="2" sy="140"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border BLACK">
+						<material>Road Service BILL</material>
+						<coords x="2" y="104" sx="698" sy="36"/>
+						<texrect index="0" x="2" y="17" sx="1" sy="1"/>
+					</picture>
+					<picture name="RSB_banner">
+						<material>Road Service BILL</material>
+						<coords x="2" y="2" sx="698" sy="100"/>
+						<texrect index="0" x="72" y="0" sx="440" sy="64"/>
+					</picture>
+					<picture name="RSB_banner">
+						<material>Road Service BILL</material>
+						<coords x="2" y="2" sx="698" sy="100"/>
+						<texcoords index="0" x0="2" y0="34" x1="2" y1="27" x2="3" y2="27" x3="3" y3="34"/>
+					</picture>
+					<picture name="RSB_sign">
+						<material>Road Service BILL</material>
+						<coords x="12" y="12" sx="80" sy="80"/>
+						<texrect index="0" x="6" y="0" sx="64" sy="64"/>
+					</picture>
+					<textfield name="RSB_EMERGENCY">
+						<textres_ref name="Button - TEXT - BANNER"/>
+						<font>Button FONT passive</font>
+						<coords x="100" y="23" sx="600" sy="60"/>
+						<text locref="menu_roadservice.xml\Road Service BILL\Road Service BILL\Road Service BILL - ALL\Road Service BILL - Banner TOP\RSB_EMERGENCY">EMERGENCY ROADSIDE SERVICE</text>
+					</textfield>
+					<textfield name="RSB_OnlineForm">
+						<font>Blue Highway</font>
+						<coords x="2" y="104" sx="698" sy="36"/>
+						<textres_ref name="JustText - white - center"/>
+						<text locref="common\online payment form">online payment form</text>
+					</textfield>
+				</picture>
+				<picture name="Road Service BILL - Table Title">
+					<coords x="119" y="182" sx="1" sy="1"/>
+					<picture name="Border Title Back">
+						<material>Road Service BILL</material>
+						<coords x="2" y="2" sx="698" sy="36"/>
+						<texrect index="0" x="2" y="51" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="0" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="38" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="1" sx="2" sy="38"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="450" y="1" sx="2" sy="38"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="700" y="1" sx="2" sy="38"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<textfield name="Road Service BILL - Service TITLE">
+						<font>Blue Highway</font>
+						<coords x="2" y="2" sx="448" sy="36"/>
+						<textres_ref name="JustText - white - center"/>
+						<text locref="menu_roadservice.xml\Road Service BILL\Road Service BILL\Road Service BILL - ALL\Road Service BILL - Table Title\Road Service BILL - Service TITLE">Service</text>
+					</textfield>
+					<textfield name="Road Service BILL - Amount TITLE">
+						<font>Blue Highway</font>
+						<coords x="452" y="2" sx="248" sy="36"/>
+						<textres_ref name="JustText - white - center"/>
+						<text locref="common\Amount due">Amount due</text>
+					</textfield>
+				</picture>
+				<picture name="Road Service BILL - Table Body">
+					<coords x="119" y="220" sx="702" sy="192"/>
+					<picture name="Border Yellow LIGHT2">
+						<material>Road Service BILL</material>
+						<coords x="2" y="2" sx="698" sy="38"/>
+						<texrect index="0" x="2" y="56" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow LIGHT">
+						<material>Road Service BILL</material>
+						<coords x="2" y="40" sx="698" sy="38"/>
+						<texrect index="0" x="2" y="46" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow LIGHT2">
+						<material>Road Service BILL</material>
+						<coords x="2" y="78" sx="698" sy="38"/>
+						<texrect index="0" x="2" y="56" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Title Back">
+						<material>Road Service BILL</material>
+						<coords x="2" y="118" sx="698" sy="36"/>
+						<texrect index="0" x="2" y="51" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow LIGHT">
+						<material>Road Service BILL</material>
+						<coords x="2" y="156" sx="698" sy="36"/>
+						<texrect index="0" x="2" y="46" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="0" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="116" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="154" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="192" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="1" sx="2" sy="192"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="450" y="1" sx="2" sy="116"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border Yellow DARK">
+						<material>Road Service BILL</material>
+						<coords x="700" y="1" sx="2" sy="192"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<textfield name="Road Service BILL - Towing - TEXT">
+						<font>Blue Highway</font>
+						<coords x="12" y="2" sx="428" sy="36"/>
+						<textres_ref name="JustText - black - left"/>
+						<text locref="menu_roadservice.xml\Road Service BILL\Road Service BILL\Road Service BILL - ALL\Road Service BILL - Table Body\Road Service BILL - Towing - TEXT">Towing</text>
+					</textfield>
+					<textfield name="Road Service BILL - Towing - VALUE">
+						<font>Blue Highway</font>
+						<coords x="462" y="2" sx="228" sy="36"/>
+						<textres_ref name="JustText - black - center - News"/>
+						<text>$ %MONEY%</text>
+					</textfield>
+					<textfield name="Road Service BILL - Repairing - TEXT">
+						<font>Blue Highway</font>
+						<coords x="12" y="40" sx="428" sy="36"/>
+						<textres_ref name="JustText - black - left"/>
+						<text locref="menu_roadservice.xml\Road Service BILL\Road Service BILL\Road Service BILL - ALL\Road Service BILL - Table Body\Road Service BILL - Repairing - TEXT">Repairing</text>
+					</textfield>
+					<textfield name="Road Service BILL - Repairing - VALUE">
+						<font>Blue Highway</font>
+						<coords x="462" y="40" sx="228" sy="36"/>
+						<textres_ref name="JustText - black - center - News"/>
+						<text>$ %MONEY%</text>
+					</textfield>
+					<textfield name="Road Service BILL - Refueling - TEXT">
+						<font>Blue Highway</font>
+						<coords x="12" y="78" sx="428" sy="36"/>
+						<textres_ref name="JustText - black - left"/>
+						<text locref="menu_roadservice.xml\Road Service BILL\Road Service BILL\Road Service BILL - ALL\Road Service BILL - Table Body\Road Service BILL - Refueling - TEXT">Refueling</text>
+					</textfield>
+					<textfield name="Road Service BILL - Refueling - VALUE">
+						<font>Blue Highway</font>
+						<coords x="462" y="78" sx="228" sy="36"/>
+						<textres_ref name="JustText - black - center - News"/>
+						<text>$ %MONEY%</text>
+					</textfield>
+					<textfield name="Road Service BILL - Total - TEXT">
+						<font>Blue Highway</font>
+						<coords x="70" y="118" sx="600" sy="36"/>
+						<textres_ref name="JustText - white - right"/>
+						<text locref="common\Total amount due">Total amount due</text>
+					</textfield>
+					<textfield name="Road Service BILL - Total - VALUE">
+						<coords x="462" y="156" sx="228" sy="36"/>
+						<text>$ %MONEY%</text>
+						<font>Blue Highway OUTLINED</font>
+						<textres_ref name="JustText - white - center"/>
+					</textfield>
+				</picture>
+				<picture name="Road Service BILL - Banner BOTTOM">
+					<coords x="119" y="434" sx="1" sy="1"/>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="0" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="74" sx="702" sy="2"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="0" y="1" sx="2" sy="74"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<material>Road Service BILL</material>
+						<coords x="700" y="1" sx="2" sy="74"/>
+						<texrect index="0" x="2" y="12" sx="1" sy="1"/>
+					</picture>
+					<picture name="RSB_banner">
+						<material>Road Service BILL</material>
+						<coords x="2" y="2" sx="698" sy="72"/>
+						<texrect index="0" x="72" y="20" sx="440" sy="42"/>
+					</picture>
+					<picture name="RSB_banner">
+						<material>Road Service BILL</material>
+						<coords x="2" y="2" sx="698" sy="72"/>
+						<texcoords index="0" x0="2" y0="27" x1="2" y1="34" x2="3" y2="34" x3="3" y3="27"/>
+					</picture>
+				</picture>
+				<button name="BUTTON - PAY">
+					<material>ComCommon</material>
+					<coords x="160" y="440" sx="300" sy="64"/>
+					<buttonres_ref name="Button COMMON Communicator"/>
+					<text locref="common\PAY">PAY</text>
+				</button>
+				<button name="BUTTON - CANCEL">
+					<material>ComCommon</material>
+					<coords x="480" y="440" sx="300" sy="64"/>
+					<buttonres_ref name="Button COMMON Communicator"/>
+					<text locref="common\CANCEL">CANCEL</text>
+				</button>
+				<picture name="Road Service BILL - YourBalance">
+					<coords x="198" y="600" sx="544" sy="40"/>
+					<picture name="VALUES - Field WHITE">
+						<coords x="2" y="2" sx="540" sy="36"/>
+						<texrect index="0" x="127" y="246" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<coords x="0" y="0" sx="544" sy="2"/>
+						<texrect index="0" x="118" y="308" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<coords x="0" y="38" sx="544" sy="2"/>
+						<texrect index="0" x="118" y="308" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<coords x="0" y="1" sx="2" sy="38"/>
+						<texrect index="0" x="118" y="308" sx="1" sy="1"/>
+					</picture>
+					<picture name="Border DARK">
+						<coords x="542" y="1" sx="2" sy="38"/>
+						<texrect index="0" x="118" y="308" sx="1" sy="1"/>
+					</picture>
+					<textfield name="Road Service BILL - Balance TITLE">
+						<coords x="2" y="2" sx="270" sy="36"/>
+						<textres_ref name="JustText - black - right"/>
+						<text locref="common\My balance :">My balance :</text>
+					</textfield>
+					<textfield name="Road Service BILL - Balance VALUE">
+						<coords x="282" y="2" sx="260" sy="36"/>
+						<textres_ref name="JustText - black - left"/>
+						<text>%SIGN%$ %MONEY%</text>
+					</textfield>
+				</picture>
+			</picture>
+		</picture>
+	</controlgroup>
+</menu>

@@ -1,0 +1,33 @@
+<menuesfields>
+<item><ID>Driver</ID><value>Full repair</value></item>
+<item><ID>FullHeader</ID><value>Full repair</value></item>
+<item><ID>SystemHeader</ID><value>System</value></item>
+<item><ID>CondHeader</ID><value>Cond.</value></item>
+<item><ID>PriceHeader</ID><value>Repair price</value></item>
+<item><ID>AuthoriseHeader</ID><value>Authorize</value></item>
+<item><ID>Head_VehicleType</ID><value>  Vehicle type</value></item>
+<item><ID>Head_Make</ID><value>  Make</value></item>
+<item><ID>Head_Model</ID><value>  Model</value></item>
+<item><ID>Head_Company</ID><value>  Company</value></item>
+<item><ID>Head_Driver</ID><value>  Driver</value></item>
+<item><ID>Head_YourBallance</ID><value>Your balance</value></item>
+<item><ID>Head_RepairPrice</ID><value>Authorized price</value></item>
+<item><ID>MenuInfo_Redtext</ID><value> - Urgent</value></item>
+<item><ID>MenuInfo_Yellowtext</ID><value> - Advisory</value></item>
+<item><ID>MenuInfo_Greentext</ID><value> - Ok</value></item>
+<item><ID>ShipTo_WH</ID><value>Ship to</value></item>
+<item><ID>LoadType_WH</ID><value>Load type</value></item>
+<item><ID>Weightl1_WH</ID><value>Weight</value></item>
+<item><ID>Weightl2_WH</ID><value>(t)</value></item>
+<item><ID>Fragility1_WH</ID><value>Fragility</value></item>
+<item><ID>Fragility2_WH</ID><value>(%)</value></item>
+<item><ID>TimeLimit1_WH</ID><value>Time limit</value></item>
+<item><ID>TimeLimit2_WH</ID><value>(hh:mm)</value></item>
+<item><ID>MaxFee1_WH</ID><value>Max fee</value></item>
+<item><ID>MaxFee2_WH</ID><value>($)</value></item>
+<item><ID>Accept_WH</ID><value>Accept</value></item>
+<item><ID>HHMM_Motel</ID><value>HH:MM</value></item>
+<item><ID>Vehicles_OfficeTextMain</ID><value>Vehicles</value></item>
+<item><ID>Drivers_OfficeTextMain</ID><value>Drivers</value></item>
+<item><ID>Branches_OfficeTextMain</ID><value>Branches</value></item>
+</menuesfields>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialogs>
+  <dialog name="short_ufo=ufo_lift=success=LiveDialog">
+    <item callee="" wav="short_ufo=ufo_lift=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=success=LiveDialog=01=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=success=LiveDialog=03=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=success=LiveDialog=05=ID_JEFFREY_1"/>
+    <item callee="" wav="short_ufo=ufo_lift=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift=success=LiveDialog=07=ID_JEFFREY_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_lift=success=LiveDialog=Y">
+          <item callee="" wav="short_ufo=ufo_lift=success=LiveDialog=Y=00=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_lift=success=LiveDialog=N">
+          <item callee="" wav="short_ufo=ufo_lift=success=LiveDialog=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_lift_2=success=LiveDialog">
+    <item callee="" wav="short_ufo=ufo_lift_2=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=success=LiveDialog=01=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=success=LiveDialog=03=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=success=LiveDialog=05=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=success=LiveDialog=07=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=success=LiveDialog=08=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=success=LiveDialog=09=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=success=LiveDialog=10=Nick"/>
+    <item caller="" wav="short_ufo=ufo_lift_2=success=LiveDialog=11=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_lift_2=success=LiveDialog=12=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_animal=success=LiveDialog">
+    <item caller="" wav="short_ufo=ufo_animal=success=LiveDialog=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=success=LiveDialog=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=success=LiveDialog=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=success=LiveDialog=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_animal=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_ufo=ufo_animal=success=LiveDialog=08=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_rosuel=success=LiveDialog">
+    <item callee="" wav="short_ufo=ufo_rosuel=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=success=LiveDialog=01=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=success=LiveDialog=03=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=success=LiveDialog=05=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="short_ufo=ufo_rosuel=success=LiveDialog=07=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_rosuel=success=LiveDialog=08=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_eqip=success=LiveDialog">
+    <item caller="" wav="short_ufo=ufo_eqip=success=LiveDialog=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=success=LiveDialog=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=success=LiveDialog=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=success=LiveDialog=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_eqip=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_ufo=ufo_eqip=success=LiveDialog=08=ID_CHRISTOPHER_1"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_art=success=LiveDialog">
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=00=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=01=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=02=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=03=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=04=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=05=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=06=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=07=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=08=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=09=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=10=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=11=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=12=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=13=Nick"/>
+    <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=14=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_art=success=LiveDialog=Y">
+          <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=Y=01=ID_CHRISTOPHER_1"/>
+          <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_art=success=LiveDialog=N">
+          <item callee="" wav="short_ufo=ufo_art=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_art=success=LiveDialog=N=01=ID_CHRISTOPHER_1"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_list=success=LiveDialog">
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=01=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=03=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=05=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=07=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=08=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=09=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=10=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=11=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=12=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=13=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=14=Nick"/>
+    <item caller="" wav="short_ufo=ufo_list=success=LiveDialog=15=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_list=success=LiveDialog=16=Nick"/>
+  </dialog>
+  <dialog name="short_ufo=ufo_grunt=success=LiveDialog">
+    <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=01=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=03=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=05=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=06=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=07=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=08=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=09=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=10=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=11=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=12=Nick"/>
+    <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=13=ID_CHRISTOPHER_1"/>
+    <item>
+      <question text="short_ufo=Y" id="0">
+        <dialog name="short_ufo=ufo_grunt=success=LiveDialog=Y">
+          <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=Y=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=Y=01=ID_CHRISTOPHER_1"/>
+          <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_ufo=N" id="1">
+        <dialog name="short_ufo=ufo_grunt=success=LiveDialog=N">
+          <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=N=00=Nick"/>
+          <item caller="" wav="short_ufo=ufo_grunt=success=LiveDialog=N=01=ID_CHRISTOPHER_1"/>
+          <item callee="" wav="short_ufo=ufo_grunt=success=LiveDialog=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_ufo=ufo_otezd=success=LiveDialog">
+    <item callee="" wav="short_ufo=ufo_otezd=success=LiveDialog=00=Nick"/>
+    <item caller="" wav="short_ufo=ufo_otezd=success=LiveDialog=01=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=success=LiveDialog=02=Nick"/>
+    <item caller="" wav="short_ufo=ufo_otezd=success=LiveDialog=03=ID_CHRISTOPHER_1"/>
+    <item callee="" wav="short_ufo=ufo_otezd=success=LiveDialog=04=Nick"/>
+    <item caller="" wav="short_ufo=ufo_otezd=success=LiveDialog=05=ID_CHRISTOPHER_1"/>
+  </dialog>
+</dialogs>
+

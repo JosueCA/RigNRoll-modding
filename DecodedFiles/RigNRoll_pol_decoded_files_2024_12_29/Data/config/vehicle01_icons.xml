@@ -1,0 +1,30 @@
+<icons resx="512" resy="512">
+	<item id="Chevrolet_Express" x="204" y="0" sx="102" sy="102"/>
+	<item id="Ford_F350" x="204" y="102" sx="102" sy="102"/>
+	<item id="Dodge_Grand_Caravan" x="0" y="102" sx="102" sy="102"/>
+	<item id="Lincoln_Town_Car" x="306" y="102" sx="102" sy="102"/>
+	<item id="Ford_CV" x="102" y="102" sx="102" sy="102"/>
+	<item id="Ford_CV_taxi" x="102" y="102" sx="102" sy="102"/>
+	<item id="Ford_CV_taxi1" x="102" y="102" sx="102" sy="102"/>
+	<item id="Ford_CV_police" x="410" y="410" sx="102" sy="102"/>
+	<item id="Chevrolet_Silverado" x="306" y="0" sx="102" sy="102"/>
+	<item id="Chevrolet_Avalanche" x="0" y="0" sx="102" sy="102"/>
+	<item id="Chrysler_Voyager" x="410" y="0" sx="102" sy="102"/>
+	<item id="VW_NewBeatle" x="410" y="102" sx="102" sy="102"/>
+	<item id="Toyota_Camry" x="410" y="204" sx="102" sy="102"/>
+	<item id="Dodge_Intrepid" x="306" y="0" sx="102" sy="102"/>
+	<item id="Chevrolet_Cavalier" x="102" y="0" sx="102" sy="102"/>
+	<item id="Army_vechicle" x="306" y="410" sx="102" sy="102"/>
+	<item id="FREIGHTLINER_FL60" x="306" y="204" sx="102" sy="102"/>
+	<item id="FREIGHTLINER_FL60_2" x="306" y="204" sx="102" sy="102"/>
+	<item id="Freightliner_FL_65_Schoolbus" x="0" y="204" sx="102" sy="102"/>
+	<item id="GMC_TOPKICK4500" x="102" y="204" sx="102" sy="102"/>
+	<item id="GMC_TOPKICK4500_JOHN" x="102" y="204" sx="102" sy="102"/>
+	<item id="GMC_TOPKICK4500_JOHN_TRAMPLIN" x="102" y="204" sx="102" sy="102"/>
+	<item id="GMC_TOPKICK8500_CISTERN" x="204" y="204" sx="102" sy="102"/>
+	<item id="GMC_TOPKICK8500_FLAT" x="204" y="204" sx="102" sy="102"/>
+	<item id="GMC_TOPKICK8500" x="204" y="204" sx="102" sy="102"/>
+	<item id="WORK_TRUCK" x="306" y="102" sx="102" sy="102"/>
+	<item id="PETERBILT_378_DUMP" x="306" y="204" sx="102" sy="102"/>
+	<item id="PETERBILT_379_WRECKER" x="306" y="306" sx="102" sy="102"/>
+</icons>

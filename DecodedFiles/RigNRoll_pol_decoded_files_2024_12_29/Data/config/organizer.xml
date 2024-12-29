@@ -1,0 +1,132 @@
+<org>
+	<element name="o00040" description="00040_description" importance="true" type="visit" customer_npc="SC_MATTHEW">
+		<reward money="0" rank="2" rating="0"/>
+		<forfeit money="0" rank="2" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00322" description="00322_description" importance="true" type="visit" customer_npc="SC_POLICE">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00410" description="00410_description" importance="true" type="visit" customer_npc="SC_STRANGER">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00430" description="00430_description" importance="true" type="visit" customer_npc="SC_STRANGER">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00454" description="00454_description" importance="true" type="visit" customer_npc="SC_STRANGER">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00468" description="00468_description" importance="true" type="visit" customer_npc="SC_DOROTHY">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00480" description="00480_description" importance="true" type="visit" customer_npc="SC_DOROTHY">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00520" description="00520_description" importance="true" type="visit" customer_npc="SC_DOROTHY">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00600" description="00520_description" importance="true" type="visit" customer_npc="SC_NICK">for m00600
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o00610" description="00610_description" importance="true" type="trailerClientDelivery" customer_npc="SC_TOPO">for sc00610
+		<reward money="0" rank="2" rating="10"/>
+		<forfeit money="30000" rank="2" rating="10"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="0.8"/>
+	</element>
+	<element name="o00861" description="00861_description" importance="true" type="visit" customer_npc="SC_POLICE">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1."/>
+		<periods outoftime_mission="normal" timecoef="1."/>
+	</element>
+	<element name="o01020" description="01020_description" importance="true" type="visit" customer_npc="SC_SECRETARY">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o01040" description="01040_description" importance="true" type="visit" customer_npc="SC_JOHN">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o01080" description="01080_description" importance="true" type="trailerClientDelivery" customer_npc="SC_JOHN">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o01300" description="01300_description" importance="true" type="trailerClientDelivery" customer_npc="SC_FBI">
+		<reward money="2" rank="3" rating="0"/>
+		<forfeit money="0" rank="0" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o01400" description="01400_description" importance="true" type="visit" customer_npc="SC_ONTANIELO">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o01401" description="01401_description" importance="true" type="visit" customer_npc="SC_ONTANIELO">
+		<reward money="0" rank="1" rating="0"/>
+		<forfeit money="0" rank="1" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o01500" description="01500_description" importance="true" type="visit" customer_npc="SC_MATTHEW">
+		<reward money="0" rank="2" rating="0"/>
+		<forfeit money="0" rank="2" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o01600" description="01600_description" importance="true" type="visit" customer_npc="ID_MONICA_2">
+		<reward money="0" rank="2" rating="0">
+			<faction name="MonikaRank" rating="12"/>
+		</reward>
+		<forfeit money="0" rank="2" rating="0">
+			<faction name="MonikaRank" rating="12"/>
+		</forfeit>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o02025" description="02025_description" importance="true" type="visit" customer_npc="SC_ONTANIELO">
+		<reward money="0" rank="2" rating="0"/>
+		<forfeit money="0" rank="2" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+	<element name="o02030" description="02030_description" importance="true" type="visit" customer_npc="SC_ONTANIELO">
+		<reward money="0" rank="3" rating="0"/>
+		<forfeit money="0" rank="3" rating="0"/>
+		<periods outoftime_questitem="normal" timecoef="1"/>
+		<periods outoftime_mission="normal" timecoef="1"/>
+	</element>
+</org>

@@ -1,0 +1,18 @@
+<npctable>
+	<npc>
+		<name>npc1</name>
+		<Description model="Woman002" loc_name="Lodh" loc_nick="DHL"/>
+	</npc>
+	<npc>
+		<name>npc2</name>
+		<Description model="Man_001" loc_name="Lodh" loc_nick="DHL"/>
+	</npc>
+	<npc>
+		<name>npc3</name>
+		<Description model="Woman003" loc_name="Lodh" loc_nick="DHL"/>
+	</npc>
+	<npc>
+		<name>npc4</name>
+		<Description model="Man_019" loc_name="Lodh" loc_nick="DHL"/>
+	</npc>
+</npctable>

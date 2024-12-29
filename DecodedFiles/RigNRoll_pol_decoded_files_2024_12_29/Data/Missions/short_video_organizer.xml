@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="short_video=video_start" description="short_video=video_start" importance="true" type="visit" customer="short_video=video_start=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="short_video=video_start=fail_timeout_complete"/>
+    <decline description="short_video=video_start=decline"/>
+  </element>
+  <element name="short_video=video_dolina" description="short_video=video_dolina" importance="false" type="trailerClientDelivery" customer="short_video=video_dolina=customer">
+    <reward money="1" rank="2" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_video=video_dolina=finish"/>
+    <fail_timeout_complete description="short_video=video_dolina=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_dolina=fail_damaged"/>
+    <decline description="short_video=video_dolina=decline"/>
+  </element>
+  <element name="short_video=video_dekor" description="short_video=video_dekor" importance="false" type="trailerClientDelivery" customer="short_video=video_dekor=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_video=video_dekor=finish"/>
+    <fail_timeout_pickup description="short_video=video_dekor=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_video=video_dekor=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_dekor=fail_damaged"/>
+    <decline description="short_video=video_dekor=decline"/>
+  </element>
+  <element name="short_video=video_reklama" description="short_video=video_reklama" importance="false" type="trailerClientDelivery" customer="short_video=video_reklama=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_video=video_reklama=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_video=video_reklama=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_reklama=fail_damaged"/>
+    <decline description="short_video=video_reklama=decline"/>
+  </element>
+  <element name="short_video=video_zavod" description="short_video=video_zavod" importance="false" type="trailerClientDelivery" customer="short_video=video_zavod=customer">
+    <reward money="1" rank="1.3" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_video=video_zavod=finish"/>
+    <fail_timeout_complete description="short_video=video_zavod=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_zavod=fail_damaged"/>
+    <decline description="short_video=video_zavod=decline"/>
+  </element>
+  <element name="short_video=video_retrans" description="short_video=video_retrans" importance="false" type="trailerClientDelivery" customer="short_video=video_retrans=customer">
+    <reward money="1.5" rank="2" rating="1"/>
+    <forfeit money="1.5" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_video=video_retrans=finish"/>
+    <fail_timeout_pickup description="short_video=video_retrans=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_video=video_retrans=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_retrans=fail_damaged"/>
+    <decline description="short_video=video_retrans=decline"/>
+  </element>
+  <element name="short_video=video_clip" description="short_video=video_clip" importance="false" type="trailerClientDelivery" customer="short_video=video_clip=customer">
+    <reward money="2" rank="2" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_video=video_clip=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_video=video_clip=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_clip=fail_damaged"/>
+    <decline description="short_video=video_clip=decline"/>
+  </element>
+  <element name="short_video=video_terror" description="short_video=video_terror" importance="false" type="trailerClientDelivery" customer="short_video=video_terror=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_video=video_terror=finish"/>
+    <fail_timeout_complete description="short_video=video_terror=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_terror=fail_damaged"/>
+    <decline description="short_video=video_terror=decline"/>
+  </element>
+  <element name="short_video=video_comp" description="short_video=video_comp" importance="false" type="trailerClientDelivery" customer="short_video=video_comp=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_pickup description="short_video=video_comp=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_video=video_comp=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_comp=fail_damaged"/>
+    <decline description="short_video=video_comp=decline"/>
+  </element>
+  <element name="short_video=video_beisboll" description="short_video=video_beisboll" importance="false" type="trailerClientDelivery" customer="short_video=video_beisboll=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_video=video_beisboll=finish"/>
+    <fail_timeout_complete description="short_video=video_beisboll=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_beisboll=fail_damaged"/>
+    <decline description="short_video=video_beisboll=decline"/>
+  </element>
+  <element name="short_video=video_star" description="short_video=video_star" importance="false" type="trailerClientDelivery" customer="short_video=video_star=customer">
+    <reward money="2.5" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_video=video_star=finish"/>
+    <fail_timeout_pickup description="short_video=video_star=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_video=video_star=fail_timeout_complete"/>
+    <fail_damaged description="short_video=video_star=fail_damaged"/>
+    <decline description="short_video=video_star=decline"/>
+  </element>
+</org>
+

@@ -1,0 +1,10 @@
+<points>
+	<test_point id="name" type="missionpoint" name="point_name" vehicle="true/false" trailer="true/false" npc="true/false" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+	<test_point id="name" type="gas/bar/repair/motel/office/warehouse" name="node_name" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+	<point id="MP_OV_SB_01" type="missionpoint" name="MP_OV_SB_01" vehicle="true" trailer="true" npc="true" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+	<point id="MP_OV_SB_02" type="missionpoint" name="MP_OV_SB_02" vehicle="true" trailer="true" npc="true" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+	<point id="MP_OV_SB_03" type="missionpoint" name="MP_OV_SB_03" vehicle="true" trailer="true" npc="true" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+	<point id="MP_OV_LB_01" type="missionpoint" name="MP_OV_LB_01" vehicle="true" trailer="true" npc="true" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+	<point id="MP_OV_01" type="missionpoint" name="MP_OV_01" vehicle="true" trailer="true" npc="true" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+	<point id="Oxnard_Bar_01" type="bar" name="Oxnard_Bar_01" loc_short="ref_to_loc_short_namespace" loc_long="ref_to_loc_long_namespace"/>
+</points>

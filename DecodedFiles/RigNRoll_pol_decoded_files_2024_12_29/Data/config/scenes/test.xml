@@ -1,0 +1,51 @@
+<scenes>
+	<xxxenvironments>
+		<env name="coords_mimic">
+			<matrix name="M_180">
+				<scriptarg varname="M_180"/>
+			</matrix>
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+			<vector name="P2">
+				<scriptarg varname="P2"/>
+			</vector>
+			<vector name="Pshift">
+				<scriptarg varname="Pshift"/>
+			</vector>
+		</env>
+	</xxxenvironments>
+	<!--scene name="testsound" fade="off" wide="off" simple="1">
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\00930\\Sound_track_00930_1.txt"/>
+	</scene-->
+	<!--scene name="testmimic" cutscene="1" wide="on" fade="off" useshow="off">
+		<world name="coords_mimic"/>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\IVAN_NEW_Scene00000.txt" id="SC_NICK" name="man1"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\IVAN_NEW2_Scene00000.txt" id="SC_NICK" name="man2" comment="simple mimic on whole track"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\CamS00000.txt" type="anm" anmspace="Camera_CamS00000"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<person name="man1">
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</person>
+		<person name="man2">
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</person>
+	</scene-->
+	</scenes>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <Damages dir="">
+    <nitro_02 id="booster" group="1" volume="0.6" />
+    <braking_shoe_01 id="braking_shoe" group="1" volume="1" />
+  </Damages>
+</SoundParameters>

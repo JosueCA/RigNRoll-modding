@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="short_market=market_start" bounded="false" uniq="true" description="Груз из Колфакса в Рино. Старт линейки." org="short_market=market_start" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_CF_04" model="LIGHT_BULBS"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_start=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_market=market_start=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_market=market_start=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_RE_ST_02"/>
+        <point name="MP_RE_ST_01"/>
+        <point name="MP_RE_MD_01"/>
+        <point name="MP_MD_01"/>
+        <point name="MP_SR_05"/>
+        <point name="MP_SR_01"/>
+        <point name="MP_OL_SR_03"/>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_MT_SR_03"/>
+        <point name="MP_Ok_Sr_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_RE_ST_02"/>
+    <point name="MP_RE_ST_01"/>
+    <point name="MP_RE_MD_01"/>
+    <point name="MP_MD_01"/>
+    <point name="MP_SR_05"/>
+    <point name="MP_SR_01"/>
+    <point name="MP_OL_SR_03"/>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_MT_SR_03"/>
+    <point name="MP_Ok_Sr_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSEPH_3" resource="short_market=market_start=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_start=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_start=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_start=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_start=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_market=market_holod" bounded="false" uniq="true" description="груз из Бриджпорта в Рино." org="short_market=market_holod" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_BR_03" model="TELEPHONES"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_holod=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_market=market_holod=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_market=market_holod=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MD_04"/>
+        <point name="MP_BR_MW_03"/>
+        <point name="MP_BI_BR_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MD_04"/>
+    <point name="MP_BR_MW_03"/>
+    <point name="MP_BI_BR_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSEPH_3" resource="short_market=market_holod=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_holod=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_holod=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_holod=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_holod=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_market=market_start"/>
+    </req>
+  </mission>
+  <mission name="short_market=market_slots" bounded="false" uniq="true" description="груз из Мантики в Рино. НУЖЕН. тентованый полуприцеп без маркировки." org="short_market=market_slots" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MT_07" model="AIRCRAFT_PARTS"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_slots=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_market=market_slots=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_market=market_slots=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MT_MW_02"/>
+        <point name="MP_MT_SR_02"/>
+        <point name="MP_MT_SR_03"/>
+        <point name="MP_MR_MT_01"/>
+        <point name="MP_MR_02"/>
+        <point name="MP_PS_01"/>
+        <point name="MP_OK_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MT_MW_02"/>
+    <point name="MP_MT_SR_02"/>
+    <point name="MP_MT_SR_03"/>
+    <point name="MP_MR_MT_01"/>
+    <point name="MP_MR_02"/>
+    <point name="MP_PS_01"/>
+    <point name="MP_OK_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSEPH_3" resource="short_market=market_slots=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_slots=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_slots=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_slots=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_slots=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_market=market_start"/>
+    </req>
+  </mission>
+  <mission name="short_market=market_TV" bounded="false" uniq="true" description="Груз из Окленда в Рино" org="short_market=market_TV" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OK_01" model="LCD_TV"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences>
+      <parentFor mission="short_market=market_brak"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_TV=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_market=market_TV=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_market=market_TV=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_Ok_Sr_02"/>
+        <point name="MP_OK_03"/>
+        <point name="MP_OK_04"/>
+        <point name="MP_SF_SJ_02"/>
+        <point name="MP_SF_SJ_01"/>
+        <point name="MP_SF_AA_01"/>
+        <point name="MP_SF_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_Ok_Sr_02"/>
+    <point name="MP_OK_03"/>
+    <point name="MP_OK_04"/>
+    <point name="MP_SF_SJ_02"/>
+    <point name="MP_SF_SJ_01"/>
+    <point name="MP_SF_AA_01"/>
+    <point name="MP_SF_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSEPH_3" resource="short_market=market_TV=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_market=market_TV=success=LiveDialog=decline"/>
+            <action name="short_market=market_brak" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_market=market_TV=success=LiveDialog=accept"/>
+            <action startmission="" name="short_market=market_brak"/>
+          </accept>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_TV=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_brak" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_TV=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_brak" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_TV=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_brak" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_TV=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_brak" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_market=market_holod"/>
+      <MissionCompleteRequirement mission="short_market=market_slots"/>
+    </req>
+  </mission>
+  <mission name="short_market=market_brak" bounded="false" uniq="true" description="Груз из Рино в Берни. НУЖЕН. тентованый полуприцеп без маркировки." org="short_market=market_brak" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_RE_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BN_03" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_brak=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_brak=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_brak=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_brak=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_market=market_mobila" bounded="false" uniq="true" description="Груз из Миндена в Рино." org="short_market=market_mobila" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_MD_03" model="DIGIT_CAMERAS"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences>
+      <parentFor mission="short_market=market_food"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_mobila=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_market=market_mobila=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_market=market_mobila=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_BR_MW_03"/>
+        <point name="MP_MT_MW_01"/>
+        <point name="MP_BI_BR_01"/>
+        <point name="MP_BI_01"/>
+        <point name="MP_RE_MD_03"/>
+        <point name="MP_RE_05"/>
+        <point name="MP_RE_06"/>
+      </infochannel>
+    </channels>
+    <point name="MP_BR_MW_03"/>
+    <point name="MP_MT_MW_01"/>
+    <point name="MP_BI_BR_01"/>
+    <point name="MP_BI_01"/>
+    <point name="MP_RE_MD_03"/>
+    <point name="MP_RE_05"/>
+    <point name="MP_RE_06"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSEPH_3" resource="short_market=market_mobila=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_market=market_mobila=success=LiveDialog=decline"/>
+            <action name="short_market=market_food" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_market=market_mobila=success=LiveDialog=accept"/>
+            <action startmission="" name="short_market=market_food"/>
+          </accept>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_mobila=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_food" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_mobila=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_food" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_mobila=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_food" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_mobila=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_food" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_market=market_TV"/>
+    </req>
+  </mission>
+  <mission name="short_market=market_food" bounded="false" uniq="true" description="Груз из Рино в Бишоп. НУЖЕН. контейнеровоз без маркировки." org="short_market=market_food" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_RE_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BI_01" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_food=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_food=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_food=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_food=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_market=market_cd" bounded="false" uniq="true" description="груз из Реддинга в Рино." org="short_market=market_cd" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_RD_05" model="COMPUTER_DISKS"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_cd=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_market=market_cd=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_market=market_cd=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_RD_BN_01"/>
+        <point name="MP_RD_WV_02"/>
+        <point name="MP_OL_SR_02"/>
+        <point name="MP_OL_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_RD_BN_01"/>
+    <point name="MP_RD_WV_02"/>
+    <point name="MP_OL_SR_02"/>
+    <point name="MP_OL_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSEPH_3" resource="short_market=market_cd=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_cd=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_cd=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_cd=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_cd=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_market=market_brak"/>
+      <MissionCompleteRequirement mission="short_market=market_mobila"/>
+    </req>
+  </mission>
+  <mission name="short_market=market_plazma" bounded="false" uniq="true" description="груз из Мохаве в Рино." org="short_market=market_plazma" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_PD_03" model="PLAZMA_TV"/>
+    <point name="MP_RE_02" finish=""/>
+    <dependences>
+      <parentFor mission="short_market=market_vip"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_plazma=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_market=market_plazma=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_market=market_plazma=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_LB_02"/>
+        <point name="MP_LA_LB_04"/>
+        <point name="MP_MJ_BS_02"/>
+        <point name="MP_MJ_LP_01"/>
+        <point name="MP_MJ_04"/>
+        <point name="MP_BK_MJ_01"/>
+        <point name="MP_LB_01"/>
+        <point name="MP_LA_05"/>
+        <point name="MP_OV_LB_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_LB_02"/>
+    <point name="MP_LA_LB_04"/>
+    <point name="MP_MJ_BS_02"/>
+    <point name="MP_MJ_LP_01"/>
+    <point name="MP_MJ_04"/>
+    <point name="MP_BK_MJ_01"/>
+    <point name="MP_LB_01"/>
+    <point name="MP_LA_05"/>
+    <point name="MP_OV_LB_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_JOSEPH_3" resource="short_market=market_plazma=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_market=market_plazma=success=LiveDialog=decline"/>
+            <action name="short_market=market_vip" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_market=market_plazma=success=LiveDialog=accept"/>
+            <action startmission="" name="short_market=market_vip"/>
+          </accept>
+          <point name="MP_RE_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_RE_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_plazma=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_vip" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_plazma=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_vip" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_plazma=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_vip" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_plazma=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_market=market_vip" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_market=market_cd"/>
+    </req>
+  </mission>
+  <mission name="short_market=market_vip" bounded="false" uniq="true" description="груз из Рино в Бриджпорт. НУЖЕН. Фургон без маркировки." org="short_market=market_vip" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_RE_02" model="AIRCRAFT_PARTS"/>
+    <point name="MP_BR_03" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_vip=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_vip=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_vip=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_JOSEPH_3" resource="short_market=market_vip=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+</missions>
+

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbvdialogs>
+  <dialog name="short_aeroport=aero_start=start=CbVideo">
+    <item caller="" wav="short_aeroport=aero_start=start=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=start=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=start=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=start=CbVideo=06=ID_DEBORAH_3"/>
+    <item>
+      <question text="short_aeroport=Y" id="0">
+        <dialog name="short_aeroport=aero_start=start=CbVideo=Y">
+          <item callee="" wav="short_aeroport=aero_start=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_start=start=CbVideo=Y=01=ID_DEBORAH_3"/>
+        </dialog>
+      </question>
+      <question text="short_aeroport=N" id="1">
+        <dialog name="short_aeroport=aero_start=start=CbVideo=N">
+          <item callee="" wav="short_aeroport=aero_start=start=CbVideo=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_aeroport=aero_start=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_start=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_start=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_start=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_start=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_start=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_start=decline=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_start=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_beisbol=start=CbVideo">
+    <item caller="" wav="short_aeroport=aero_beisbol=start=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=start=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=start=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=start=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=start=CbVideo=07=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=start=CbVideo=08=ID_DEBORAH_3"/>
+    <item>
+      <question text="short_aeroport=Y" id="0">
+        <dialog name="short_aeroport=aero_beisbol=start=CbVideo=Y">
+          <item callee="" wav="short_aeroport=aero_beisbol=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_beisbol=start=CbVideo=Y=01=ID_DEBORAH_3"/>
+        </dialog>
+      </question>
+      <question text="short_aeroport=N" id="1">
+        <dialog name="short_aeroport=aero_beisbol=start=CbVideo=N">
+          <item callee="" wav="short_aeroport=aero_beisbol=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_beisbol=start=CbVideo=N=01=ID_DEBORAH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_beisbol=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_beisbol=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_beisbol=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_beisbol=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_beisbol=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meteo=success=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meteo=success=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meteo=success=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meteo=success=CbVideo=04=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meteo=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meteo=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meteo=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=fail_damaged=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meteo=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meteo=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meteo=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meteo=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meteo=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meat=start=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meat=start=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=start=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=start=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=start=CbVideo=06=ID_DEBORAH_3"/>
+    <item>
+      <question text="short_aeroport=Y" id="0">
+        <dialog name="short_aeroport=aero_meat=start=CbVideo=Y">
+          <item callee="" wav="short_aeroport=aero_meat=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_meat=start=CbVideo=Y=01=ID_DEBORAH_3"/>
+          <item callee="" wav="short_aeroport=aero_meat=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_aeroport=N" id="1">
+        <dialog name="short_aeroport=aero_meat=start=CbVideo=N">
+          <item callee="" wav="short_aeroport=aero_meat=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_meat=start=CbVideo=N=01=ID_DEBORAH_3"/>
+          <item callee="" wav="short_aeroport=aero_meat=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_pickup=CbVideo=06=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meat=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_timeout_complete=CbVideo=06=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meat=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=07=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=fail_damaged=CbVideo=08=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_meat=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_meat=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=decline=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_meat=decline=CbVideo=07=Nick"/>
+    <item caller="" wav="short_aeroport=aero_meat=decline=CbVideo=08=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_radio=success=CbVideo">
+    <item caller="" wav="short_aeroport=aero_radio=success=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=success=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=success=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=success=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=success=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=success=CbVideo=07=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=success=CbVideo=08=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_radio=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=07=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=08=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_timeout_complete=CbVideo=09=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_radio=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_radio=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_radio=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_radio=decline=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_radio=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_stanok=start=CbVideo">
+    <item caller="" wav="short_aeroport=aero_stanok=start=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=start=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=start=CbVideo=04=ID_DEBORAH_3"/>
+    <item>
+      <question text="short_aeroport=Y" id="0">
+        <dialog name="short_aeroport=aero_stanok=start=CbVideo=Y">
+          <item callee="" wav="short_aeroport=aero_stanok=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_stanok=start=CbVideo=Y=01=ID_DEBORAH_3"/>
+        </dialog>
+      </question>
+      <question text="short_aeroport=N" id="1">
+        <dialog name="short_aeroport=aero_stanok=start=CbVideo=N">
+          <item callee="" wav="short_aeroport=aero_stanok=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_stanok=start=CbVideo=N=01=ID_DEBORAH_3"/>
+          <item callee="" wav="short_aeroport=aero_stanok=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_pickup=CbVideo=06=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_timeout_complete=CbVideo=06=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_stanok=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=07=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=fail_damaged=CbVideo=08=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_stanok=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_stanok=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=decline=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_stanok=decline=CbVideo=07=Nick"/>
+    <item caller="" wav="short_aeroport=aero_stanok=decline=CbVideo=08=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_util=success=CbVideo">
+    <item caller="" wav="short_aeroport=aero_util=success=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=success=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=success=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=success=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_util=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_util=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=fail_timeout_complete=CbVideo=06=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_util=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_util=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=fail_damaged=CbVideo=06=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_util=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_util=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_util=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_util=decline=CbVideo=06=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_scaner=start=CbVideo">
+    <item caller="" wav="short_aeroport=aero_scaner=start=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=start=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=start=CbVideo=04=ID_DEBORAH_3"/>
+    <item>
+      <question text="short_aeroport=Y" id="0">
+        <dialog name="short_aeroport=aero_scaner=start=CbVideo=Y">
+          <item callee="" wav="short_aeroport=aero_scaner=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_scaner=start=CbVideo=Y=01=ID_DEBORAH_3"/>
+          <item callee="" wav="short_aeroport=aero_scaner=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_aeroport=N" id="1">
+        <dialog name="short_aeroport=aero_scaner=start=CbVideo=N">
+          <item callee="" wav="short_aeroport=aero_scaner=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_scaner=start=CbVideo=N=01=ID_DEBORAH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_scaner=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_scaner=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_scaner=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_scaner=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_scaner=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_scaner=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_bagaj=success=CbVideo">
+    <item caller="" wav="short_aeroport=aero_bagaj=success=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=success=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=success=CbVideo=04=ID_DEBORAH_3"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_bagaj=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_bagaj=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=fail_timeout_complete=CbVideo=03=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_bagaj=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_bagaj=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_bagaj=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_bagaj=decline=CbVideo=06=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_bagaj=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_fuel=start=CbVideo">
+    <item caller="" wav="short_aeroport=aero_fuel=start=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=start=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=start=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=start=CbVideo=06=ID_DEBORAH_3"/>
+    <item>
+      <question text="short_aeroport=Y" id="0">
+        <dialog name="short_aeroport=aero_fuel=start=CbVideo=Y">
+          <item callee="" wav="short_aeroport=aero_fuel=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_fuel=start=CbVideo=Y=01=ID_DEBORAH_3"/>
+          <item callee="" wav="short_aeroport=aero_fuel=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_aeroport=N" id="1">
+        <dialog name="short_aeroport=aero_fuel=start=CbVideo=N">
+          <item callee="" wav="short_aeroport=aero_fuel=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_aeroport=aero_fuel=start=CbVideo=N=01=ID_DEBORAH_3"/>
+          <item callee="" wav="short_aeroport=aero_fuel=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_fuel=fail_damaged=CbVideo">
+    <item caller="" wav="short_aeroport=aero_fuel=fail_damaged=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=fail_damaged=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=fail_damaged=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_aeroport=aero_fuel=decline=CbVideo">
+    <item caller="" wav="short_aeroport=aero_fuel=decline=CbVideo=00=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=decline=CbVideo=02=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_aeroport=aero_fuel=decline=CbVideo=04=ID_DEBORAH_3"/>
+    <item callee="" wav="short_aeroport=aero_fuel=decline=CbVideo=05=Nick"/>
+  </dialog>
+</cbvdialogs>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbcall>
+  <element name="short_market=market_start=start=CbVideo" dialog="short_market=market_start=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_start=fail_timeout_pickup=CbVideo" dialog="short_market=market_start=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_start=fail_timeout_complete=CbVideo" dialog="short_market=market_start=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_start=fail_damaged=CbVideo" dialog="short_market=market_start=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_start=decline=CbVideo" dialog="short_market=market_start=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_holod=start=CbVideo" dialog="short_market=market_holod=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_holod=fail_timeout_pickup=CbVideo" dialog="short_market=market_holod=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_holod=fail_timeout_complete=CbVideo" dialog="short_market=market_holod=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_holod=fail_damaged=CbVideo" dialog="short_market=market_holod=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_holod=decline=CbVideo" dialog="short_market=market_holod=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_slots=start=CbVideo" dialog="short_market=market_slots=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_slots=fail_timeout_pickup=CbVideo" dialog="short_market=market_slots=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_slots=fail_timeout_complete=CbVideo" dialog="short_market=market_slots=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_slots=fail_damaged=CbVideo" dialog="short_market=market_slots=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_slots=decline=CbVideo" dialog="short_market=market_slots=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_TV=start=CbVideo" dialog="short_market=market_TV=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_TV=fail_timeout_pickup=CbVideo" dialog="short_market=market_TV=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_TV=fail_timeout_complete=CbVideo" dialog="short_market=market_TV=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_TV=fail_damaged=CbVideo" dialog="short_market=market_TV=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_TV=decline=CbVideo" dialog="short_market=market_TV=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_brak=success=CbVideo" dialog="short_market=market_brak=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_brak=fail_timeout_complete=CbVideo" dialog="short_market=market_brak=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_brak=fail_damaged=CbVideo" dialog="short_market=market_brak=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_brak=decline=CbVideo" dialog="short_market=market_brak=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_mobila=start=CbVideo" dialog="short_market=market_mobila=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_mobila=fail_timeout_pickup=CbVideo" dialog="short_market=market_mobila=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_mobila=fail_timeout_complete=CbVideo" dialog="short_market=market_mobila=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_mobila=fail_damaged=CbVideo" dialog="short_market=market_mobila=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_mobila=decline=CbVideo" dialog="short_market=market_mobila=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_food=success=CbVideo" dialog="short_market=market_food=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_food=fail_timeout_complete=CbVideo" dialog="short_market=market_food=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_food=fail_damaged=CbVideo" dialog="short_market=market_food=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_food=decline=CbVideo" dialog="short_market=market_food=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_cd=start=CbVideo" dialog="short_market=market_cd=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_cd=fail_timeout_pickup=CbVideo" dialog="short_market=market_cd=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_cd=fail_timeout_complete=CbVideo" dialog="short_market=market_cd=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_cd=fail_damaged=CbVideo" dialog="short_market=market_cd=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_cd=decline=CbVideo" dialog="short_market=market_cd=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_plazma=start=CbVideo" dialog="short_market=market_plazma=start=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_plazma=fail_timeout_pickup=CbVideo" dialog="short_market=market_plazma=fail_timeout_pickup=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_plazma=fail_timeout_complete=CbVideo" dialog="short_market=market_plazma=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_plazma=fail_damaged=CbVideo" dialog="short_market=market_plazma=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_plazma=decline=CbVideo" dialog="short_market=market_plazma=decline=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_vip=success=CbVideo" dialog="short_market=market_vip=success=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_vip=fail_timeout_complete=CbVideo" dialog="short_market=market_vip=fail_timeout_complete=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_vip=fail_damaged=CbVideo" dialog="short_market=market_vip=fail_damaged=CbVideo" who="" timecall="10.5"/>
+  <element name="short_market=market_vip=decline=CbVideo" dialog="short_market=market_vip=decline=CbVideo" who="" timecall="10.5"/>
+</cbcall>
+

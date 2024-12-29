@@ -1,0 +1,27 @@
+<icons resx="512" resy="512">
+	<item id="FREIGHTLINER_ARGOSY" x="0" y="0" sx="102" sy="102"/>
+	<item id="FREIGHTLINER_CENTURY" x="102" y="0" sx="102" sy="102"/>
+	<item id="FREIGHTLINER_CENTURY_SPORT" x="408" y="408" sx="102" sy="102"/>
+	<item id="FREIGHTLINER_CORONADO" x="204" y="0" sx="102" sy="102"/>
+	<item id="FREIGHTLINER_CLASSIC_XL" x="306" y="0" sx="102" sy="102"/>
+	<item id="VOLVO_VNL770" x="408" y="0" sx="102" sy="102"/>
+	<item id="INTERNATIONAL_9300" x="0" y="102" sx="102" sy="102"/>
+	<item id="INTERNATIONAL_9800" x="102" y="102" sx="102" sy="102"/>
+	<item id="INTERNATIONAL_9900IX" x="204" y="102" sx="102" sy="102"/>
+	<item id="STERLING_9500" x="306" y="102" sx="102" sy="102"/>
+	<item id="STERLING_9500_SPORT" x="102" y="408" sx="102" sy="102"/>
+	<item id="KENWORTH_T2000" x="408" y="102" sx="102" sy="102"/>
+	<item id="KENWORTH_T600W" x="0" y="204" sx="102" sy="102"/>
+	<item id="KENWORTH_W900L" x="102" y="204" sx="102" sy="102"/>
+	<item id="KENWORTH_W900L_SPORT" x="204" y="408" sx="102" sy="102"/>
+	<item id="KENWORTH_T800" x="204" y="204" sx="102" sy="102"/>
+	<item id="MACK_VISION_CX603" x="306" y="204" sx="102" sy="102"/>
+	<item id="MACK_CH603" x="408" y="204" sx="102" sy="102"/>
+	<item id="PETERBILT_378" x="0" y="306" sx="102" sy="102"/>
+	<item id="PETERBILT_379" x="102" y="306" sx="102" sy="102"/>
+	<item id="PETERBILT_379_SPORT" x="0" y="408" sx="102" sy="102"/>
+	<item id="PETERBILT_387" x="204" y="306" sx="102" sy="102"/>
+	<item id="WESTERN_STAR4900_EX" x="306" y="306" sx="102" sy="102"/>
+	<item id="WESTERN_STAR4900_SPORT" x="306" y="408" sx="102" sy="102"/>
+	<item id="GEPARD" x="408" y="306" sx="102" sy="102"/>
+</icons>

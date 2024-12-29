@@ -1,0 +1,142 @@
+<scenes>
+	<xxxenvironments>
+		<env name="bigrace">
+			<xxx id="_Man_1_Place">
+				<id>Man_017</id>
+			</xxx>
+			<xxx id="_Man_2_Place">
+				<id>Man_004</id>
+			</xxx>
+			<xxx id="_Man_3_Place">
+				<id>Man_028</id>
+			</xxx>
+			<xxx id="_Model_Prize_01">
+				<id>Model_Prize_01</id>
+			</xxx>
+			<xxx id="_Model_Prize_02">
+				<id>Model_Prize_02</id>
+			</xxx>
+			<xxx id="_Model_Prize_03">
+				<id>Model_Prize_03</id>
+			</xxx>
+			<xxx id="photographer_01">
+				<id>Man_003</id>
+			</xxx>
+			<matrix name="mRootscene">
+				<scriptarg varname="M"/>
+			</matrix>
+			<matrix name="mRootCam">
+				<scriptarg varname="Mcam"/>
+			</matrix>
+			<vector name="pRootscene">
+				<scriptarg varname="P"/>
+			</vector>
+		</env>
+	</xxxenvironments>
+	<scene name="bigrace_1place" fade="off" cutscene="">
+		<world name="bigrace"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\IVAN_NEW_NicPrize1Place.txt" name="MC"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Man_2_Place_NicPrize1Place.txt" name="man1"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Man_3_Place_NicPrize1Place.txt" name="man2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_01_NicPrize1Place.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_02_NicPrize1Place.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_03_NicPrize1Place.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\CamS00001_Prize_NicPrize1PlaceCam.txt" type="anm" anmspace="Camera_CamS00001_Prize"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\SoundTrack_NicPrizePlaceCam.txt"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="mRootscene"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</persons>
+		<cameras>
+			<bindmatrix>
+				<matrix name="mRootCam"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</cameras>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+	</scene>
+	<scene name="bigrace_2place" fade="off" cutscene="1">
+		<world name="bigrace"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\IVAN_NEW1_NicPrize2Place.txt" name="MC"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Man_1_Place_NicPrize2Place.txt" name="man1"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Man_3_Place_NicPrize2Place.txt" name="man2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_01_NicPrize2Place.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_02_NicPrize2Place.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_03_NicPrize2Place.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\CamS00001_Prize_NicPrize2PlaceCam.txt" type="anm" anmspace="Camera_CamS00001_Prize"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\SoundTrack_NicPrizePlaceCam.txt"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="mRootscene"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</persons>
+		<cameras>
+			<bindmatrix>
+				<matrix name="mRootCam"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</cameras>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+	</scene>
+	<scene name="bigrace_3place" fade="off" cutscene="1">
+		<world name="bigrace"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\IVAN_NEW2_NicPrize3Place.txt" name="MC"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Man_2_Place_NicPrize3Place.txt" name="man1"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Man_1_Place_NicPrize3Place.txt" name="man2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_01_NicPrize3Place.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_02_NicPrize3Place.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\XXX_Model_Prize_03_NicPrize3Place.txt"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\CamS00001_Prize_NicPrize3PlaceCam.txt" type="anm" anmspace="Camera_CamS00001_Prize"/>
+		<soundtrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\Prize\\SoundTrack_NicPrizePlaceCam.txt"/>
+		<persons>
+			<bindmatrix>
+				<matrix name="mRootscene"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</persons>
+		<cameras>
+			<bindmatrix>
+				<matrix name="mRootCam"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</cameras>
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+	</scene>
+	<scene name="bigrace_photoman" fade="off" wide="off" cutscene="1">
+		<world name="bigrace"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\photoman\\Model_Photocam_01_Photographer.txt" name="cam"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\photoman\\photographer_01_Photographer.txt" name="man"/>
+		<particletrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\photoman\\Model_PhotoFlash_01_Photographer.txt" name="flashshot" template="flashphoto"/>
+		<particles>
+			<bindmatrix>
+				<matrix name="mRootscene"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</particles>
+		<persons>
+			<bindmatrix>
+				<matrix name="mRootscene"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="bigrace_background" fade="off" wide="on" cutscene="1">
+		<world name="bigrace"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\scenes\\SCCamPrizeOneShot\\CamSPrizeOneShot.txt" type="anm" anmspace="Camera_CamSPrizeOneShot"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="mRootCam"/>
+				<vector name="pRootscene"/>
+			</bindmatrix>
+		</cameras>
+	</scene>
+</scenes>

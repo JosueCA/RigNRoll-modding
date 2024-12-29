@@ -1,0 +1,56 @@
+<scenes>
+	<xxxenvironments>
+		<env name="police_situation">
+			<matrix name="M">
+				<scriptarg varname="M"/>
+			</matrix>
+			<vector name="P">
+				<scriptarg varname="P"/>
+			</vector>
+			<car name="police">
+				<scriptarg varname="policecar"/>
+			</car>
+		</env>
+	</xxxenvironments>
+	<scene name="PoliceSituation" fade="on" wide="on" useshow="on" cutscene="">
+		<world name="police_situation"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation\\POLICEMAN2_Police_cityation.txt" name="1"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation\\IVAN_NEW_Police_cityation.txt" name="2"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation\\Model_Pen_01_Police_cityation.txt" name="3"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation\\Model_office_tablet_01_Police_cityation.txt" name="4"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation\\Model_gun_Police_cityation.txt" name="5"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation\\CamS_PoliceSituation_01_Police_cityation.txt" type="anm" anmspace="Camera_CamS_PoliceSituation_01"/>
+		<soundtrack  trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation\\SoundTrack_PoliceSituation.txt"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="P"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+	<scene name="PoliceSituation2" fade="on" wide="on" useshow="on" cutscene="">
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation2\\POLICEMAN2_Police_cityation_critik.txt" name="5"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation2\\POLICEMAN1_Police_cityation_critik.txt" name="6"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation2\\IVAN_NEW_Police_cityation_critik.txt" name="7"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation2\\Model_gun_Police_cityation_critik.txt" name="8"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation2\\CamSPoliceSituation_02_Police_cityation_critik.txt" type="anm" anmspace="Camera_CamSPoliceSituation_02"/>
+		<soundtrack  trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\SCPoliceSituation2\\SoundTrack_Police_cityation_02.txt"/>
+		<world name="police_situation"/>
+		<cameras>
+			<bindcar>
+				<car name="police"/>
+			</bindcar>
+		</cameras>
+		<persons>
+			<bindcar>
+				<car name="police"/>
+			</bindcar>
+		</persons>
+	</scene>
+</scenes>

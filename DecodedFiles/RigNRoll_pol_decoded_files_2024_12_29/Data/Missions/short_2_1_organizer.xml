@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="short_2_1=nm" description="short_2_1=nm" importance="false" type="passangerDelivery" customer_npc="ID_MICHAEL_R_4">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <start description="short_2_1=nm=start"/>
+    <finish description="short_2_1=nm=finish"/>
+    <fail_timeout_pickup description="short_2_1=nm=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=nm=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=nm=fail_damaged"/>
+    <decline description="short_2_1=nm=decline"/>
+  </element>
+  <element name="short_2_1=pigs" description="short_2_1=pigs" importance="false" type="trailerClientDelivery" customer="short_2_1=pigs=customer">
+    <reward money="1" rank="1.5" rating="1"/>
+    <forfeit money="1" rank="1.5" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <start description="short_2_1=pigs=start"/>
+    <finish description="short_2_1=pigs=finish"/>
+    <fail_timeout_pickup description="short_2_1=pigs=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=pigs=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=pigs=fail_damaged"/>
+    <decline description="short_2_1=pigs=decline"/>
+  </element>
+  <element name="short_2_1=wine" description="short_2_1=wine" importance="false" type="trailerClientDelivery" customer="short_2_1=wine=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1.3" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=wine=finish"/>
+    <fail_timeout_pickup description="short_2_1=wine=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=wine=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=wine=fail_damaged"/>
+    <decline description="short_2_1=wine=decline"/>
+  </element>
+  <element name="short_2_1=promo_mat" description="short_2_1=promo_mat" importance="true" type="trailerClientDelivery" customer="short_2_1=promo_mat=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=promo_mat=finish"/>
+    <fail_timeout_pickup description="short_2_1=promo_mat=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=promo_mat=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=promo_mat=fail_damaged"/>
+    <decline description="short_2_1=promo_mat=decline"/>
+  </element>
+  <element name="short_2_1=horses" description="short_2_1=horses" importance="true" type="trailerClientDelivery" customer="short_2_1=horses=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="custom" timecoef="1"/>
+    <finish description="short_2_1=horses=finish"/>
+    <fail_timeout_pickup description="short_2_1=horses=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=horses=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=horses=fail_damaged"/>
+    <decline description="short_2_1=horses=decline"/>
+  </element>
+  <element name="short_2_1=gun" description="short_2_1=gun" importance="true" type="visit" customer="short_2_1=gun=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="short_2_1=gun=fail_timeout_complete"/>
+    <decline description="short_2_1=gun=decline"/>
+  </element>
+  <element name="short_2_1=gun_finish" description="short_2_1=gun_finish" importance="true" type="pakageDelivery" customer="short_2_1=gun_finish=customer">
+    <reward money="2" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=gun_finish=finish"/>
+    <fail_timeout_complete description="short_2_1=gun_finish=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=gun_finish=fail_damaged"/>
+    <decline description="short_2_1=gun_finish=decline"/>
+  </element>
+  <element name="short_2_1=beer" description="short_2_1=beer" importance="true" type="trailerClientDelivery" customer="short_2_1=beer=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_2_1=beer=finish"/>
+    <fail_timeout_pickup description="short_2_1=beer=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=beer=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=beer=fail_damaged"/>
+    <decline description="short_2_1=beer=decline"/>
+  </element>
+  <element name="short_2_1=cards" description="short_2_1=cards" importance="false" type="trailerClientDelivery" customer="short_2_1=cards=customer">
+    <reward money="0.8" rank="1.2" rating="1"/>
+    <forfeit money="0.5" rank="0.5" rating="0.5"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=cards=finish"/>
+    <fail_timeout_pickup description="short_2_1=cards=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=cards=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=cards=fail_damaged"/>
+    <decline description="short_2_1=cards=decline"/>
+  </element>
+  <element name="short_2_1=postman_1" description="short_2_1=postman_1" importance="true" type="visit" customer="short_2_1=postman_1=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="short_2_1=postman_1=fail_timeout_complete"/>
+    <decline description="short_2_1=postman_1=decline"/>
+  </element>
+  <element name="short_2_1=postman_2" description="short_2_1=postman_2" importance="true" type="pakageDelivery" customer_npc="ID_VICTOR_1">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=postman_2=finish"/>
+    <fail_timeout_complete description="short_2_1=postman_2=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=postman_2=fail_damaged"/>
+    <decline description="short_2_1=postman_2=decline"/>
+  </element>
+  <element name="short_2_1=raduga_1" description="short_2_1=raduga_1" importance="false" type="trailerClientDelivery" customer="short_2_1=raduga_1=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="short_2_1=raduga_1=finish"/>
+    <fail_timeout_pickup description="short_2_1=raduga_1=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=raduga_1=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=raduga_1=fail_damaged"/>
+    <decline description="short_2_1=raduga_1=decline"/>
+  </element>
+  <element name="short_2_1=raduga_2" description="short_2_1=raduga_2" importance="false" type="trailerClientDelivery" customer="short_2_1=raduga_2=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=raduga_2=finish"/>
+    <fail_timeout_pickup description="short_2_1=raduga_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=raduga_2=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=raduga_2=fail_damaged"/>
+    <decline description="short_2_1=raduga_2=decline"/>
+  </element>
+  <element name="short_2_1=raduga_3" description="short_2_1=raduga_3" importance="false" type="trailerClientDelivery" customer="short_2_1=raduga_3=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=raduga_3=finish"/>
+    <fail_timeout_pickup description="short_2_1=raduga_3=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=raduga_3=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=raduga_3=fail_damaged"/>
+    <decline description="short_2_1=raduga_3=decline"/>
+  </element>
+  <element name="short_2_1=zaglushka" description="short_2_1=zaglushka" importance="true" type="trailerClientDelivery" customer="short_2_1=zaglushka=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=zaglushka=finish"/>
+    <fail_timeout_pickup description="short_2_1=zaglushka=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=zaglushka=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=zaglushka=fail_damaged"/>
+    <decline description="short_2_1=zaglushka=decline"/>
+  </element>
+  <element name="short_2_1=zaglushka_2" description="short_2_1=zaglushka_2" importance="false" type="trailerClientDelivery" customer="short_2_1=zaglushka_2=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=zaglushka_2=finish"/>
+    <fail_timeout_pickup description="short_2_1=zaglushka_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=zaglushka_2=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=zaglushka_2=fail_damaged"/>
+    <decline description="short_2_1=zaglushka_2=decline"/>
+  </element>
+  <element name="short_2_1=suvenir" description="short_2_1=suvenir" importance="true" type="trailerClientDelivery" customer="short_2_1=suvenir=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=suvenir=finish"/>
+    <fail_timeout_pickup description="short_2_1=suvenir=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=suvenir=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=suvenir=fail_damaged"/>
+    <decline description="short_2_1=suvenir=decline"/>
+  </element>
+  <element name="short_2_1=svord_info_1" description="short_2_1=svord_info_1" importance="true" type="visit" customer="short_2_1=svord_info_1=customer">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <fail_timeout_complete description="short_2_1=svord_info_1=fail_timeout_complete"/>
+    <decline description="short_2_1=svord_info_1=decline"/>
+  </element>
+  <element name="short_2_1=sword" description="short_2_1=sword" importance="false" type="pakageDelivery" customer="short_2_1=sword=customer">
+    <reward money="2" rank="1" rating="1"/>
+    <forfeit money="2" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=sword=finish"/>
+    <fail_timeout_complete description="short_2_1=sword=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=sword=fail_damaged"/>
+    <decline description="short_2_1=sword=decline"/>
+  </element>
+  <element name="short_2_1=rock" description="short_2_1=rock" importance="true" type="trailerClientDelivery" customer="short_2_1=rock=customer">
+    <reward money="1.5" rank="1" rating="1"/>
+    <forfeit money="1.5" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=rock=finish"/>
+    <fail_timeout_pickup description="short_2_1=rock=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=rock=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=rock=fail_damaged"/>
+    <decline description="short_2_1=rock=decline"/>
+  </element>
+  <element name="short_2_1=rock_2" description="short_2_1=rock_2" importance="false" type="trailerClientDelivery" customer="short_2_1=rock_2=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=rock_2=finish"/>
+    <fail_timeout_pickup description="short_2_1=rock_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=rock_2=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=rock_2=fail_damaged"/>
+    <decline description="short_2_1=rock_2=decline"/>
+  </element>
+  <element name="short_2_1=rock_3" description="short_2_1=rock_3" importance="false" type="trailerClientDelivery" customer="short_2_1=rock_3=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=rock_3=finish"/>
+    <fail_timeout_pickup description="short_2_1=rock_3=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=rock_3=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=rock_3=fail_damaged"/>
+    <decline description="short_2_1=rock_3=decline"/>
+  </element>
+  <element name="short_2_1=rock_4" description="short_2_1=rock_4" importance="false" type="trailerClientDelivery" customer="short_2_1=rock_4=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=rock_4=finish"/>
+    <fail_timeout_pickup description="short_2_1=rock_4=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=rock_4=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=rock_4=fail_damaged"/>
+    <decline description="short_2_1=rock_4=decline"/>
+  </element>
+  <element name="short_2_1=rock_5" description="short_2_1=rock_5" importance="false" type="trailerClientDelivery" customer="short_2_1=rock_5=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=rock_5=finish"/>
+    <fail_timeout_pickup description="short_2_1=rock_5=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=rock_5=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=rock_5=fail_damaged"/>
+    <decline description="short_2_1=rock_5=decline"/>
+  </element>
+  <element name="short_2_1=rock_6" description="short_2_1=rock_6" importance="false" type="trailerClientDelivery" customer="short_2_1=rock_6=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=rock_6=finish"/>
+    <fail_timeout_pickup description="short_2_1=rock_6=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=rock_6=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=rock_6=fail_damaged"/>
+    <decline description="short_2_1=rock_6=decline"/>
+  </element>
+  <element name="short_2_1=rock_7" description="short_2_1=rock_7" importance="false" type="trailerClientDelivery" customer="short_2_1=rock_7=customer">
+    <reward money="1" rank="1" rating="1"/>
+    <forfeit money="1" rank="1" rating="1"/>
+    <periods outoftime_questitem="custom" timecoef="3"/>
+    <periods outoftime_mission="normal" timecoef="1"/>
+    <finish description="short_2_1=rock_7=finish"/>
+    <fail_timeout_pickup description="short_2_1=rock_7=fail_timeout_pickup"/>
+    <fail_timeout_complete description="short_2_1=rock_7=fail_timeout_complete"/>
+    <fail_damaged description="short_2_1=rock_7=fail_damaged"/>
+    <decline description="short_2_1=rock_7=decline"/>
+  </element>
+</org>
+

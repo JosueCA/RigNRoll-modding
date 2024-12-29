@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> Menu Tutorial </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>ComCommon_NoDet</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<materialres name="ComCommon">
+			<wdbmaterial>mat_menu_Com_COMMON_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon_NoDet">
+			<wdbmaterial>mat_menu_Com_COMMON_NoDet_110</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+		</materialres>
+		<materialres name="Tutorial_PICS_WH">
+			<wdbmaterial>mat_Message_Tutor_WH_110</wdbmaterial>
+			<texture index="0" maxx="512" maxy="256"/>
+		</materialres>
+		<materialres name="Tutorial_PICS_OFF">
+			<wdbmaterial>mat_Message_Tutor_OFF_110</wdbmaterial>
+			<texture index="0" maxx="512" maxy="256"/>
+		</materialres>
+		<materialres name="Tutorial_PICS_TS">
+			<wdbmaterial>mat_Message_Tutor_TS_110</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+		</materialres>
+		<materialres name="MessageCommon">
+			<wdbmaterial>mat_Message_COMMON_110</wdbmaterial>
+			<texture index="0" maxx="64" maxy="64"/>
+		</materialres>
+		<buttonres name="Button MessCommon" script="Complex9">
+			<material>MessageCommon</material>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center - bsln27"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center - bsln27"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center - bsln27"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="61" sy="44" id="leftUP"/>
+				<texrect index="0" x="0" y="0" sx="61" sy="44"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="61" sy="44" id="leftUP"/>
+				<texrect index="0" x="0" y="0" sx="61" sy="44"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="61" sy="44" id="leftUP"/>
+				<texrect index="0" x="0" y="0" sx="61" sy="44"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="12" y="0" sx="1" sy="20" id="centerUP"/>
+				<texrect index="0" x="61" y="0" sx="1" sy="44"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="12" y="0" sx="1" sy="20" id="centerUP"/>
+				<texrect index="0" x="61" y="0" sx="1" sy="44"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="0" sx="1" sy="20" id="centerUP"/>
+				<texrect index="0" x="61" y="0" sx="1" sy="44"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="13" y="0" sx="12" sy="20" id="rightUP"/>
+				<texcoords index="0" x0="61" y0="0" x1="0" y1="0" x2="0" y2="44" x3="61" y3="44"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="13" y="0" sx="12" sy="20" id="rightUP"/>
+				<texcoords index="0" x0="61" y0="0" x1="0" y1="0" x2="0" y2="44" x3="61" y3="44"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="0" sx="12" sy="20" id="rightUP"/>
+				<texcoords index="0" x0="61" y0="0" x1="0" y1="0" x2="0" y2="44" x3="61" y3="44"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="20" sx="12" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="44" sx="61" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="20" sx="12" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="44" sx="61" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="20" sx="12" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="44" sx="61" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="12" y="20" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="61" y="44" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="12" y="20" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="61" y="44" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="20" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="61" y="44" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="13" y="20" sx="12" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="61" y0="44" x1="0" y1="44" x2="0" y2="45" x3="61" y3="45"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="13" y="20" sx="12" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="61" y0="44" x1="0" y1="44" x2="0" y2="45" x3="61" y3="45"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="20" sx="12" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="61" y0="44" x1="0" y1="44" x2="0" y2="45" x3="61" y3="45"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="21" sx="12" sy="15" id="leftDOWN"/>
+				<texrect index="0" x="0" y="45" sx="61" sy="19"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="21" sx="12" sy="15" id="leftDOWN"/>
+				<texrect index="0" x="0" y="45" sx="61" sy="19"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="21" sx="12" sy="15" id="leftDOWN"/>
+				<texrect index="0" x="0" y="45" sx="61" sy="19"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="12" y="21" sx="1" sy="15" id="centerDOWN"/>
+				<texrect index="0" x="61" y="45" sx="1" sy="19"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="12" y="21" sx="1" sy="15" id="centerDOWN"/>
+				<texrect index="0" x="61" y="45" sx="1" sy="19"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="21" sx="1" sy="15" id="centerDOWN"/>
+				<texrect index="0" x="61" y="45" sx="1" sy="19"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="62" y="45" sx="61" sy="19" id="rightDOWN"/>
+				<texcoords index="0" x0="61" y0="45" x1="0" y1="45" x2="0" y2="64" x3="61" y3="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="62" y="45" sx="61" sy="19" id="rightDOWN"/>
+				<texcoords index="0" x0="61" y0="45" x1="0" y1="45" x2="0" y2="64" x3="61" y3="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="62" y="45" sx="61" sy="19" id="rightDOWN"/>
+				<texcoords index="0" x0="61" y0="45" x1="0" y1="45" x2="0" y2="64" x3="61" y3="64"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<materialres name="ComCommon_ACTIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_ACTIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon_PASSIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_PASSIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button COMMON Communicator NoDet" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Comm"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="256" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="256" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="256" x1="36" y1="256" x2="36" y2="320" x3="52" y3="320"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<textres name="JustText - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - center - bsln27">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>27</baseline>
+			<textcolor>0 51 51 255</textcolor>
+		</textres>
+	</resources>
+	<controlgroup name="TUTORIAL - WAREHOUSE">
+		<button name="TutorialBACK - WAREHOUSE" keyfocus="false">
+			<coords x="200" y="200" sx="1200" sy="800"/>
+			<buttonres_ref name="Button MessCommon"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - WAREHOUSE\TutorialBACK - WAREHOUSE">TUTORIAL: WAREHOUSE</text>
+		</button>
+		<textfield name="TutorialTEXT - 01">
+			<coords x="225" y="262" sx="1151" sy="100"/>
+			<textres_ref name="JustText - white - left"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - WAREHOUSE\TutorialTEXT - 01">    To take your first order, go to the nearest base. Be guided by the road signs and the map. To invoke the map press [Tab]. To change the map scale press [Tab] once again.</text>
+		</textfield>
+		<picture name="TutorialPIC - 01">
+			<material>Tutorial_PICS_WH</material>
+			<coords x="298" y="372" sx="493" sy="370"/>
+			<texrect index="0" x="1" y="1" sx="254" sy="254"/>
+		</picture>
+		<picture name="TutorialPIC - 02">
+			<material>Tutorial_PICS_WH</material>
+			<coords x="810" y="372" sx="493" sy="370"/>
+			<texrect index="0" x="257" y="1" sx="254" sy="254"/>
+		</picture>
+		<textfield name="TutorialTEXT - 02">
+			<coords x="225" y="752" sx="1151" sy="140"/>
+			<textres_ref name="JustText - white - left"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - WAREHOUSE\TutorialTEXT - 02">    Choose the order and go to the base in the specified destination. To receive the maximal profit you have to overtake all competitors (they will have trailers of the same type as you). To be recovered on the move, press [Ctrl 9], to refuel and be repaired - press [Backspace].</text>
+		</textfield>
+		<button name="BUTTON - OK">
+			<coords x="700" y="900" sx="200" sy="64"/>
+			<buttonres_ref name="Button COMMON Communicator NoDet"/>
+			<text locref="common\OK">OK</text>
+		</button>
+	</controlgroup>
+	<controlgroup name="TUTORIAL - OFFICE">
+		<button name="TutorialBACK - OFFICE" keyfocus="false">
+			<coords x="200" y="200" sx="1200" sy="800"/>
+			<buttonres_ref name="Button MessCommon"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - OFFICE\TutorialBACK - OFFICE">TUTORIAL: OFFICE</text>
+		</button>
+		<picture name="TutorialPIC - 01">
+			<material>Tutorial_PICS_OFF</material>
+			<coords x="225" y="262" sx="400" sy="300"/>
+			<texrect index="0" x="1" y="1" sx="254" sy="254"/>
+		</picture>
+		<picture name="TutorialPIC - 02">
+			<material>Tutorial_PICS_OFF</material>
+			<coords x="225" y="582" sx="400" sy="300"/>
+			<texrect index="0" x="257" y="1" sx="254" sy="254"/>
+		</picture>
+		<textfield name="TutorialTEXT - 02">
+			<coords x="645" y="262" sx="731" sy="630"/>
+			<textres_ref name="JustText - white - left"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - OFFICE\TutorialTEXT - 02">
+    To get into your office it is necessary to pass along the US101 to the north until the first exit. Turn off onto the ramp. Then merge onto US101 again but drive in the South direction. The office "Nick Trucking" will be to the right of the road. Approach the entrance in order to get inside.
+
+    Inside the office you can:
+
+- contact the dealer for truck purchase or sale; 
+- employ or dismiss the driver; 
+- give tasks to your drivers to perform orders; 
+- contact  a truck service center and send a driver to repair and restyle his car; 
+- have your driver change his truck to any other in the garage of the office; 
+- change your truck to any other in the garage of the office.</text>
+		</textfield>
+		<button name="BUTTON - OK">
+			<coords x="700" y="900" sx="200" sy="64"/>
+			<buttonres_ref name="Button COMMON Communicator NoDet"/>
+			<text locref="common\OK">OK</text>
+		</button>
+	</controlgroup>
+	<controlgroup name="TUTORIAL - TRUCKSTOP">
+		<button name="TutorialBACK - TRUCKSTOP" keyfocus="false">
+			<coords x="200" y="200" sx="1200" sy="800"/>
+			<buttonres_ref name="Button MessCommon"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - TRUCKSTOP\TutorialBACK - TRUCKSTOP">TUTORIAL: TRUCKSTOP</text>
+		</button>
+		<textfield name="TutorialTEXT - 01">
+			<coords x="225" y="262" sx="1151" sy="70"/>
+			<textres_ref name="JustText - white - left"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - TRUCKSTOP\TutorialTEXT - 01">    To refuel or repair the truck, to learn the news or just to have a rest you can use a truckstop (the exit to one of them is to the right from you):</text>
+		</textfield>
+		<picture name="TutorialPIC - 01">
+			<material>Tutorial_PICS_TS</material>
+			<coords x="225" y="342" sx="280" sy="210"/>
+			<texrect index="0" x="1" y="1" sx="254" sy="254"/>
+		</picture>
+		<picture name="TutorialPIC - 02">
+			<material>Tutorial_PICS_TS</material>
+			<coords x="515" y="342" sx="280" sy="210"/>
+			<texrect index="0" x="257" y="1" sx="254" sy="254"/>
+		</picture>
+		<picture name="TutorialPIC - 03">
+			<material>Tutorial_PICS_TS</material>
+			<coords x="805" y="342" sx="280" sy="210"/>
+			<texrect index="0" x="1" y="257" sx="254" sy="254"/>
+		</picture>
+		<picture name="TutorialPIC - 04">
+			<material>Tutorial_PICS_TS</material>
+			<coords x="1095" y="342" sx="280" sy="210"/>
+			<texrect index="0" x="257" y="257" sx="254" sy="254"/>
+		</picture>
+		<textfield name="TutorialTEXT - 02">
+			<coords x="225" y="563" sx="1151" sy="329"/>
+			<textres_ref name="JustText - white - left"/>
+			<text locref="menu_tutorial.xml\TUTORIAL - TRUCKSTOP\TutorialTEXT - 02">- To refuel,
+           drive inside of the gas station
+           and press [F2] after the prompt appeared;
+- To repair the truck,
+           approach the entrance of the repair station
+           and press [F2] after the prompt appeared;
+- To learn the news,
+           approach the bar entrance and press [F2] after the prompt appeared;
+- To have a rest,
+           approach the motel and press [F2] after the prompt appeared.</text>
+		</textfield>
+		<button name="BUTTON - OK">
+			<coords x="700" y="900" sx="200" sy="64"/>
+			<buttonres_ref name="Button COMMON Communicator NoDet"/>
+			<text locref="common\OK">OK</text>
+		</button>
+	</controlgroup>
+</menu>

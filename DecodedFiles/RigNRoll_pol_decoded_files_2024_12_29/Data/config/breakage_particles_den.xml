@@ -1,0 +1,873 @@
+<particles>
+	<particle name="breakage_engine_steam" type="type19" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="7" time="0" maxcycles="0">
+					<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0" y0="40" x1="0.2" y1="100"/>
+					<anm x0="0.2" y0="100" x1="0.6" y1="80"/>
+					<anm x0="0.6" y0="80" x1="0.8" y1="24"/>
+					<anm x0="0.8" y0="24" x1="1.0" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<transparency>
+				<mult>
+					<dynvariable use="false" dynname="breakage_radiator_smoke_trans" multiply=""/>
+				</mult>
+			</transparency>
+			<coordsmultiply>
+				<random use="true" mult="1.5" var1="0.8" var2="0.9"/>
+			</coordsmultiply>
+		</trapecia>
+		<tied_fisics>
+			<lifetemplate1 z="0.0" veldump="0.9" lifetime="1.0" shape_coef="0.3">
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="2" var1="1" var2="2"/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.01" y="0.01" z="0.001" add=""/>
+				</stack1>
+			</position>
+			<grav_const>
+				<dynvariable use="true" dynname="radiator_steam_gravity" replace="">
+					<random use="false" mult="1.0" var1="0.5" var2="1.0" replace=""/>
+				</dynvariable>
+			</grav_const>
+			<glue_velocity>
+				<dynvariable use="true" dynname="radiator_steam_tie" replace=""/>
+			</glue_velocity>
+			<tie_fade_start>
+				<dynvariable use="true" dynname="radiator_steam_tie_st" replace=""/>
+			</tie_fade_start>
+			<tie_fade_end>
+				<dynvariable use="true" dynname="radiator_steam_tie_fn" replace=""/>
+			</tie_fade_end>
+			<tieXy/>
+		</tied_fisics>
+	</particle>
+	<particle name="breakage_engine_smoke" type="type17" nom="2">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="9" time="0" maxcycles="0">
+					<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0" y0="0" x1="0.2" y1="120"/>
+					<anm x0="0.2" y0="120" x1="0.6" y1="70"/>
+					<anm x0="0.6" y0="70" x1="0.8" y1="20"/>
+					<anm x0="0.8" y0="20" x1="1.0" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.2" var1="0.8" var2="0.9"/>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="breakage_radiator_smoke_trans" multiply="">
+						<random use="false" mult="0.4" var1="1" var2="1"/>
+					</dynvariable>
+				</mult>
+			</transparency>
+		</trapecia>
+		<tied_fisics>
+			<lifetemplate1 z="0.0" veldump="0.9" lifetime="1.0" shape_coef="0.3">
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="3" var1="1" var2="2.5"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="0.5" var1="1" var2="1" multiply="">
+						<dynvector use="true" dynname="car_breakage_car_vel_forward" whole="" add=""/>
+					</random>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="0.01" y="0.01" z="0.001" add=""/>
+				</stack1>
+			</position>
+			<grav_const>
+				<random use="true" mult="1.0" var1="0.5" var2="1.0" replace=""/>
+			</grav_const>
+			<glue_velocity>
+				<random use="true" mult="1.0" var1="0.4" var2="0.5" replace=""/>
+			</glue_velocity>
+			<tieXy/>
+		</tied_fisics>
+	</particle>
+	<particle name="breakage_transmission_smoke" type="type17" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="6" time="0" maxcycles="0">
+					<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="8" x1="0.5" y1="3"/>
+					<anm x0="0.5" y0="3" x1="1.0" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="2" var1="0.8" var2="1"/>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable use="true" dynname="car_breakage_car_vel_threshold_norma" multiply=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<fisics>
+			<lifetemplate1 z="0.0" veldump="1.5" lifetime="1.0" shape_coef="0.7">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0" y="0" z="2"/>
+				<position x="0" y="0" z="0"/>
+				<act_on_first_frame/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.8" var1="1" var2="2"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="0.8" var1="1" var2="1" multiply=""/>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.1" y="0.1" z="0.05" add=""/>
+				</stack1>
+			</position>
+			<grav_const>
+				<random use="true" mult="0.4" var1="0.9" var2="1.1" replace=""/>
+			</grav_const>
+		</fisics>
+	</particle>
+	<particle name="breakage_transmission_spark" type="type7" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0" maxcycles="0">
+					<texsized x0="0.5" y0="0.5" sx="0.5" sy="0.5"/>
+				</shapeAnimatable>
+				<channel_r>
+					<anm x0="0.0" y0="255" x1="0.65" y1="200"/>
+					<anm x0="0.65" y0="200" x1="1" y1="16"/>
+				</channel_r>
+				<channel_g>
+					<anm x0="0.0" y0="255" x1="0.65" y1="50"/>
+					<anm x0="0.65" y0="50" x1="1" y1="0"/>
+				</channel_g>
+				<channel_b>
+					<anm x0="0.0" y0="200" x1="0.65" y1="20"/>
+					<anm x0="0.65" y0="20" x1="1" y1="0"/>
+				</channel_b>
+				<rotate>
+					<anm x0="0.0" y0="-1.5705" x1="1.0" y1="-1.5705"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" var1="0.3" var2="1" mult="0.25"/>
+			</coordsmultiply>
+		</trapecia>
+		<fisics>
+			<lifetemplate1 z="0" veldump="3" lifetime="1" shape_coef="0.0" sizedump="0.0">
+				<influence gravity="" veldump="" realcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="-1.5"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.5" var1="1.0" var2="3.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="1.0" var1="1.0" var2="1.0" multiply="">
+						<randvector use="true" x="0.4" y="0.4" z="0" add="">
+							<dynvector use="true" dynname="car_breakage_car_vel" whole="" add=""/>
+						</randvector>
+					</random>
+				</stack2>
+			</velocity>
+			<bounce>
+				<random use="true" mult="1" var1="0.9" var2="1.1" replace=""/>
+			</bounce>
+		</fisics>
+	</particle>
+	<particle name="breakage_wheel_rim_spark_small" type="type7" nom="20">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0" maxcycles="0">
+					<texsized x0="0.5" y0="0.5" sx="0.5" sy="0.5"/>
+				</shapeAnimatable>
+				<color>
+					<anm x0="0.0" y0="255" x1="0.8" y1="255"/>
+					<anm x0="0.8" y0="255" x1="1" y1="0"/>
+				</color>
+				<rotate>
+					<anm x0="0.0" y0="-1.5705" x1="1.0" y1="-1.5705"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" var1="1" var2="1" mult="0.15"/>
+			</coordsmultiply>
+		</trapecia>
+		<carlife bindcentr="">
+			<lifetemplate1 z="0" veldump="3" lifetime="1" shape_coef="0.0">
+				<influence/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.3" var1="1.0" var2="1.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.32" y="0.16" z="0.06" add=""/>
+				</stack1>
+			</position>
+		</carlife>
+	</particle>
+	<particle name="breakage_wheel_rim_spark" type="type6" nom="1">done
+		<spark>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.3" y0="-0.6" x1="-0.3" y1="0.6" x2="0.3" y2="-0.6" x3="0.3" y3="0.6"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0." maxcycles="0.">
+					<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+					<texanimations>
+						<texcentr x0="0.25" y0="0.75" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.75" sz="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<channel_r>
+					<anm x0="0.0" y0="255" x1="0.65" y1="200"/>
+					<anm x0="0.65" y0="200" x1="1" y1="16"/>
+				</channel_r>
+				<channel_g>
+					<anm x0="0.0" y0="255" x1="0.65" y1="50"/>
+					<anm x0="0.65" y0="50" x1="1" y1="0"/>
+				</channel_g>
+				<channel_b>
+					<anm x0="0.0" y0="200" x1="0.65" y1="20"/>
+					<anm x0="0.65" y0="20" x1="1" y1="0"/>
+				</channel_b>
+				<rotate>
+					<anm x0="0.0" y0="-1.5705" x1="1.0" y1="-1.5705"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" var1="0.3" var2="1" mult="0.2"/>
+			</coordsmultiply>
+		</spark>
+		<car_space_physics>
+			<lifetemplate1 z="0" veldump="0" lifetime="1" shape_coef="0.0" sizedump="0.0">
+				<influence gravity="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1.7" var1="0.4" var2="0.8" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.02" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" replace="">
+					<random use="true" mult="1" var1="0.4" var2="0.8" multiply=""/>
+				</stack2>
+			</velocity>
+			<bounce>
+				<random use="true" mult="1.0" var1="0.4" var2="0.8" replace=""/>
+			</bounce>
+			<z>
+				<random use="true" mult="0.0" var1="1.0" var2="1.0" replace=""/>
+			</z>
+		</car_space_physics>
+	</particle>
+	<particle name="breakage_wheel_rim_spark_rotating" type="type6" nom="1">done
+		<spark>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.3" y0="-0.6" x1="-0.3" y1="0.6" x2="0.3" y2="-0.6" x3="0.3" y3="0.6"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0." maxcycles="0.">
+					<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+					<texanimations>
+						<texcentr x0="0.25" y0="0.75" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.75" sz="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<channel_r>
+					<anm x0="0.0" y0="255" x1="0.65" y1="200"/>
+					<anm x0="0.65" y0="200" x1="1" y1="16"/>
+				</channel_r>
+				<channel_g>
+					<anm x0="0.0" y0="255" x1="0.65" y1="50"/>
+					<anm x0="0.65" y0="50" x1="1" y1="0"/>
+				</channel_g>
+				<channel_b>
+					<anm x0="0.0" y0="200" x1="0.65" y1="20"/>
+					<anm x0="0.65" y0="20" x1="1" y1="0"/>
+				</channel_b>
+				<rotate>
+					<anm x0="0.0" y0="-1.5705" x1="1.0" y1="-1.5705"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" var1="0.3" var2="1" mult="0.2"/>
+			</coordsmultiply>
+		</spark>
+		<car_wheel_space_rot>
+			<lifetemplate1 z="0" veldump="0" lifetime="1" shape_coef="0.0" sizedump="0.0">
+				<influence gravity="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.8" var1="0.4" var2="0.8" replace=""/>
+			</lifetime>
+			<rotation_speed>
+				<random use="true" mult="10.0" var1="1.0" var2="1.0" replace="">
+					<dynvariable use="true" dynname="breakage_wheel_rotating_sign" multiply=""/>
+				</random>
+			</rotation_speed>
+			<wheel_number>
+				<dynvariable use="true" dynname="torn_tire_number" replace=""/>
+			</wheel_number>
+			<wheel_radius>
+				<random use="true" mult="0.2" var1="0.4" var2="1.3" replace=""/>
+			</wheel_radius>
+			<position>
+				<randvector use="true" x="0.04" y="0.04" z="0.04" add=""/>
+			</position>
+		</car_wheel_space_rot>
+	</particle>
+	<particle name="breakage_engine_mount_smoke" type="type17" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="2" time="0" maxcycles="0">
+					<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.3" y1="32"/>
+					<anm x0="0.3" y0="32" x1="1.0" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="2" var1="0.8" var2="1"/>
+			</coordsmultiply>
+		</trapecia>
+		<carlife>
+			<lifetemplate1 z="0.0" veldump="1.2" lifetime="1.0" shape_coef="0.3">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0" y="0" z="2"/>
+				<position x="0" y="0" z="0"/>
+				<act_on_first_frame/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="1" var2="2"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="1" var1="0.8" var2="1" multiply="">
+						<dynvector use="false" dynname="car_breakage_car_vel" whole="" add=""/>
+					</random>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="0.05" y="0.05" z="0.05" add=""/>
+				</stack1>
+			</position>
+			<grav_const>
+				<random use="true" mult="1.4" var1="1" var2="1" replace=""/>
+			</grav_const>
+		</carlife>
+	</particle>
+	<particle name="breakage_engine_clutch_smoke" type="type19" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="9" time="0" maxcycles="0">
+					<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0" x1="0.2" y1="50"/>
+					<anm x0="0.2" y0="50" x1="1.0" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.5" var1="0.8" var2="0.9"/>
+			</coordsmultiply>
+		</trapecia>
+		<fisics>
+			<lifetemplate1 z="0.0" veldump="1.2" lifetime="1.0" shape_coef="0.3">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.8" var1="1" var2="2">
+					<dynvariable use="true" dynname="breakage_clutch_smoke_life" multiply=""/>
+				</random>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<dynvector use="true" dynname="car_breakage_car_vel" whole="" add="">
+						<dynvector use="true" dynname="breakage_clutch_velocity_z" add="" whole=""/>
+					</dynvector>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="0.05" y="0.05" z="0.05" add=""/>
+				</stack1>
+			</position>
+			<grav_const>
+				<random use="true" mult="2" var1="1" var2="1" replace=""/>
+			</grav_const>
+		</fisics>
+	</particle>
+	<particle name="breakage_wheel_spark" type="type6" nom="1">done
+		<spark>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.3" y0="-0.6" x1="-0.3" y1="0.6" x2="0.3" y2="-0.6" x3="0.3" y3="0.6"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0" maxcycles="0">
+					<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+					<texanimations>
+						<texcentr x0="0.25" y0="0.75" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.75" sz="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<color_dbg>
+					<anm x0="0.0" y0="0" x1="0.1" y1="255"/>
+					<anm x0="0.1" y0="255" x1="0.7" y1="255"/>
+					<anm x0="0.7" y0="255" x1="1" y1="0"/>
+				</color_dbg>
+				<channel_r>
+					<anm x0="0.0" y0="255" x1="0.65" y1="200"/>
+					<anm x0="0.65" y0="200" x1="1" y1="16"/>
+				</channel_r>
+				<channel_g>
+					<anm x0="0.0" y0="255" x1="0.65" y1="50"/>
+					<anm x0="0.65" y0="50" x1="1" y1="0"/>
+				</channel_g>
+				<channel_b>
+					<anm x0="0.0" y0="200" x1="0.65" y1="20"/>
+					<anm x0="0.65" y0="20" x1="1" y1="0"/>
+				</channel_b>
+				<rotate>
+					<anm x0="0.0" y0="-1.5705" x1="1.0" y1="-1.5705"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" var1="0.3" var2="1" mult="0.1"/>
+			</coordsmultiply>
+		</spark>
+		<car_space_physics>
+			<lifetemplate1 z="0" veldump="0" lifetime="1" shape_coef="0.0" sizedump="0.0">
+				<influence gravity="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0.3"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1.0" var1="0.1" var2="2.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0.02" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<bounce>
+				<random use="true" mult="1.0" var1="0.4" var2="0.8" replace=""/>
+			</bounce>
+			<z>
+				<random use="true" mult="0.0" var1="1.0" var2="1.0" replace=""/>
+			</z>
+			<charge use="true">
+				<task use="true" type="oncollide" time="0" probability="0.2" number="1" getvelocity="false" getposition="true" name="breakage_wheel_child_spark" z="">
+					<velocity x="0" y="0" z="0"/>
+					<position x="0" y="0" z="0"/>
+				</task>
+			</charge>
+		</car_space_physics>
+	</particle>
+	<particle name="breakage_wheel_child_spark" type="type7" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0" maxcycles="0">
+					<texsized x0="0.5" y0="0.5" sx="0.5" sy="0.5"/>
+				</shapeAnimatable>
+				<channel_r>
+					<anm x0="0.0" y0="255" x1="0.65" y1="200"/>
+					<anm x0="0.65" y0="200" x1="1" y1="16"/>
+				</channel_r>
+				<channel_g>
+					<anm x0="0.0" y0="255" x1="0.65" y1="50"/>
+					<anm x0="0.65" y0="50" x1="1" y1="0"/>
+				</channel_g>
+				<channel_b>
+					<anm x0="0.0" y0="200" x1="0.65" y1="20"/>
+					<anm x0="0.65" y0="20" x1="1" y1="0"/>
+				</channel_b>
+				<rotate>
+					<anm x0="0.0" y0="-1.5705" x1="1.0" y1="-1.5705"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" var1="0.5" var2="1" mult="0.17"/>
+			</coordsmultiply>
+		</trapecia>
+		<fisics>
+			<lifetemplate1 z="0" veldump="3" lifetime="1" shape_coef="0.0" sizedump="0.0">
+				<influence gravity="" veldump="" realcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="-1.5"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.5" var1="1.0" var2="3.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.2" y="0.2" z="0" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="1.0" var1="1.0" var2="1.0" multiply="">
+						<randvector use="true" x="0.4" y="0.4" z="0" add="">
+							<dynvector use="true" dynname="car_breakage_car_vel" whole="" add=""/>
+						</randvector>
+					</random>
+				</stack2>
+			</velocity>
+			<bounce>
+				<random use="true" mult="1" var1="0.9" var2="1.1" replace=""/>
+			</bounce>
+		</fisics>
+	</particle>
+	<particle name="breakage_towing_hitch_spark" type="type6" nom="6">done
+		<spark>
+			<shapeTemplate1 color="255 255 255 255">
+				<coords x0="-0.3" y0="-0.6" x1="-0.3" y1="0.6" x2="0.3" y2="-0.6" x3="0.3" y3="0.6"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0" time="0." maxcycles="0.">
+					<texcentr x0="0.25" y0="0.25" sz="0.25"/>
+					<texanimations>
+						<texcentr x0="0.25" y0="0.75" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.25" sz="0.25"/>
+						<texcentr x0="0.75" y0="0.75" sz="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<channel_r>
+					<anm x0="0.0" y0="255" x1="0.65" y1="200"/>
+					<anm x0="0.65" y0="200" x1="1" y1="16"/>
+				</channel_r>
+				<channel_g>
+					<anm x0="0.0" y0="255" x1="0.65" y1="50"/>
+					<anm x0="0.65" y0="50" x1="1" y1="0"/>
+				</channel_g>
+				<channel_b>
+					<anm x0="0.0" y0="200" x1="0.65" y1="20"/>
+					<anm x0="0.65" y0="20" x1="1" y1="0"/>
+				</channel_b>
+				<rotate>
+					<anm x0="0.0" y0="-1.5705" x1="1.0" y1="-1.5705"/>
+				</rotate>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="0.125" var1="0.4" var2="1"/>
+			</coordsmultiply>
+		</spark>
+		<fisics>
+			<lifetemplate1 z="0" veldump="2" lifetime="1" shape_coef="0.0" sizedump="0.0">
+				<influence gravity="" veldump="" realcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="2.9" var1="0.5" var2="1.0" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.1" y="0.1" z="0.1" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<dynvector use="true" dynname="car_breakage_car_vel" whole="" add="">
+					<ringvector use="true" z="0.0" add="" inner_rad="2.0" outer_rad="5.0"/>
+				</dynvector>
+			</velocity>
+			<bounce>
+				<random use="true" mult="0.7" var1="0.9" var2="1.1" replace=""/>
+			</bounce>
+			<rought>
+				<random use="true" mult="0.7" var1="0.9" var2="1.1" replace=""/>
+			</rought>
+			<grav_const>
+				<random use="true" mult="-1.0" var1="6" var2="20" replace=""/>
+			</grav_const>
+		</fisics>
+	</particle>
+	<particle name="breakage_wheel_smoke_light" type="type17" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="3" time="0" maxcycles="0">
+					<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0.0" x1="0.1" y1="16"/>
+					<anm x0="0.1" y0="16" x1="0.6" y1="16"/>
+					<anm x0="0.6" y0="16" x1="0.8" y1="2"/>
+					<anm x0="0.8" y0="2" x1="1.0" y1="0"/>
+				</alfa>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.5" var1="0.8" var2="1.2"/>
+			</coordsmultiply>
+		</trapecia>
+		<fisics>
+			<lifetemplate1 z="0.0" veldump="0.8" lifetime="1.0" shape_coef="0.2">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+				<act_on_first_frame/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.8" var1="1" var2="1.5"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="0.5" var1="0.9" var2="1.2" multiply="">
+						<dynvector use="true" dynname="car_breakage_car_vel" whole="" add=""/>
+					</random>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="0.01" y="0.01" z="0.001" add=""/>
+				</stack1>
+			</position>
+			<grav_const>
+				<random use="true" mult="0.5" var1="1" var2="1" replace=""/>
+			</grav_const>
+		</fisics>
+	</particle>
+	<particle name="breakage_wheel_smoke_dense" type="type19" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="4" time="0" maxcycles="0">
+					<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0.0" x1="0.1" y1="64"/>
+					<anm x0="0.1" y0="64" x1="0.4" y1="84"/>
+					<anm x0="0.4" y0="84" x1="0.6" y1="32"/>
+					<anm x0="0.6" y0="32" x1="0.8" y1="10"/>
+					<anm x0="0.8" y0="10" x1="1.0" y1="0"/>
+				</alfa>
+				<time>
+					<random use="true" mult="1.0" var1="0.0" var2="1.0"/>
+				</time>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.6" var1="0.2" var2="1.4"/>
+			</coordsmultiply>
+			<transparency>
+				<mult>
+					<dynvariable dynname="dust_alpha_scale" use="true" multiply=""/>
+				</mult>
+			</transparency>
+		</trapecia>
+		<fisics>
+			<lifetemplate1 z="0.0" veldump="0.9" lifetime="1.0" shape_coef="0.5">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="0.7" var1="1" var2="1.5"/>
+			</lifetime>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<random use="true" mult="1.0" var1="0.9" var2="1.2" multiply="">
+						<dynvector use="true" dynname="car_breakage_car_vel" whole="" add=""/>
+					</random>
+				</stack2>
+			</velocity>
+			<position>
+				<stack1 use="true" whole="" replace="">
+					<randvector use="true" x="0.01" y="0.01" z="0.001" add=""/>
+				</stack1>
+			</position>
+			<grav_const>
+				<random use="true" mult="0.45" var1="1" var2="1" replace=""/>
+			</grav_const>
+		</fisics>
+	</particle>
+	<particle name="breakage_pipe_smoke" type="type1" nom="1">done
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 0">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="2" time="0" maxcycles="0">
+					<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+						<texsized x0="0.75" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<alfa>
+					<anm x0="0.0" y0="0.0" x1="0.05" y1="255"/>
+					<anm x0="0.05" y0="255" x1="0.2" y1="150"/>
+					<anm x0="0.2" y0="150" x1="0.6" y1="40"/>
+					<anm x0="0.6" y0="40" x1="0.8" y1="5"/>
+					<anm x0="0.8" y0="5" x1="1.0" y1="0"/>
+				</alfa>
+				<rotate>
+					<anm x0="0.0" y0="0.0" x1="0.5" y1="3.14"/>
+					<anm x0="0.5" y0="3.14" x1="1.0" y1="6.28"/>
+				</rotate>
+				<decrease_fillrate/>
+			</shapeTemplate1>
+			<coordsmultiply>
+				<random use="true" mult="1.1" var1="0.5" var2="1.0"/>
+			</coordsmultiply>
+			<rotate>
+				<offset>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</offset>
+				<mult>
+					<random use="true" mult="1" var1="0" var2="1"/>
+				</mult>
+				<choose random="true" nom="0"/>
+			</rotate>
+			<time>
+				<random use="true" mult="1.0" var1="0.0" var2="1.0"/>
+			</time>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-100000" veldump="0.99" lifetime="1" shape_coef="0.8" sizedump="0.0">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0.2"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="1" var2="3" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.02" y="0.02" z="0.02" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<collide_with_roofs/>
+		</simple>
+	</particle>
+</particles>

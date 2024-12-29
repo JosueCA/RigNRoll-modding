@@ -1,0 +1,166 @@
+<cbcall>
+	<element name="cb00033" dialog="cb00033" who="SC_KOH" timecall="10" talkanyway="true">
+		<finish>
+			<action text="cb00033 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb00040" dialog="cb00040" who="SC_MATTHEW" timecall="10" talkanyway="true">
+		<answer value="0">
+			<action text="cb00040 accepted" event=""/>
+		</answer>
+		<answer value="1">
+			<action text="cb00040 declined" event=""/>
+		</answer>
+	</element>
+	<element name="cb00165" dialog="cb00165" who="SC_KOH" timecall="10" talkanyway="true">
+		<finish>
+			<action text="cb00165 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb00322" dialog="cb00322" who="SC_POLICE" timecall="0" talkanyway="true">
+		<finish>
+			<action createquest="" name="SC Police Mat Death"/>
+		</finish>
+	</element>
+	<element name="stranger call" dialog="cb00410" who="SC_STRANGER" timecall="10" talkanyway="true">
+		<finish>
+			<action createquest="" name="SC meet stranger"/>
+		</finish>
+	</element>
+	<element name="pp_badendrace1" dialog="cb00465" who="SC_PITERPAN" timecall="0" talkanyway="true">
+		<finish>
+			<action text="pp_badendrace1 finished" event=""/>
+		</finish>
+	</element>
+	<element name="pp_badendrace2" dialog="cb00530" who="SC_PITERPAN" timecall="0" talkanyway="true">
+		<finish>
+			<action text="bankrupt" event=""/>
+		</finish>
+	</element>
+	<element name="dor_aboutjohn" dialog="cb00468" who="SC_DOROTHY" timecall="10" talkanyway="true">
+		<finish>
+			<action phasequest="" name="SC meet John" phase="1"/>
+		</finish>
+	</element>
+	<element name="cb00611" dialog="cb00611" who="SC_BANDITJOE" timecall="0" talkanyway="true"/>
+	<element name="cb00690" dialog="cb00690" who="SC_KOH" timecall="2" talkanyway="true"/>
+	<element name="cb00691" dialog="cb00691" who="SC_ONTANIELO" timecall="0" talkanyway="true"/>
+	<element name="cb00740" dialog="cb00740" who="ID_Unknown_1" timecall="5" talkanyway="true">
+		<finish>
+			<action text="cb00740 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb00770" dialog="cb00770" who="SC_DOROTHY" timecall="1" talkanyway="true">
+		<finish>
+			<action phasequest="" name="SC Topo chase" phase="7"/>
+		</finish>
+	</element>
+	<element name="cb00805" dialog="cb00805" who="ID_Unknown_1" timecall="5" talkanyway="true">
+		<finish>
+			<action text="Topo chase customer call 2 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb00860" dialog="cb00860" who="ID_Unknown_1" timecall="5" talkanyway="true">
+		<finish>
+			<action text="cb00860 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb00862" dialog="cb00862" who="ID_Unknown_1" timecall="0" talkanyway="true">
+		<finish>
+			<action text="cb00862 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb01020" dialog="cb01020" who="SC_SECRETARY" timecall="10" talkanyway="true">
+		<finish>
+			<action text="cb01020 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb01040" dialog="cb01040" who="SC_ONIRILOW" timecall="10" talkanyway="true">
+		<finish>
+			<action text="cb01040 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb01110" dialog="cb01110" who="SC_ONIRILOW" timecall="10" talkanyway="true">
+		<finish>
+			<action text="cb01110 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb01160" dialog="cb01160" who="SC_SECRETARY" timecall="10" talkanyway="true">
+		<finish>
+			<action text="BigRace Quest Pam called" event=""/>
+		</finish>
+	</element>
+	<element name="cb01400" dialog="cb01400" who="SC_ONTANIELO" timecall="10" talkanyway="true">
+		<finish>
+			<action text="Dakota Quest called" event=""/>
+		</finish>
+	</element>
+	<element name="cb01430" dialog="cb01430" who="SC_ONTANIELO" timecall="10" talkanyway="true">
+		<finish>
+			<action text="Dakota Quest called" event=""/>
+		</finish>
+	</element>
+	<element name="cb01500" dialog="cb01500" who="SC_MATTHEW" timecall="1" talkanyway="true">
+		<finish>
+			<action text="cb01500 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb01520" dialog="cb01520" who="SC_KOH" timecall="10" talkanyway="true">
+		<finish>
+			<action text="cb01520 finished" event=""/>
+		</finish>
+		<answer value="1">
+			<action name="m01500" fail="true" finishmission=""/>
+			<action description="j01521" jou=""/>
+		</answer>
+		<answer value="0">
+			<action value="true" police_immunity=""/>
+			<action name="MissionsEnebledByScenario" value="false" set_scenario_flag=""/>
+			<action name="WarehousesEnabledByScenario" value="false" set_scenario_flag=""/>
+			<action kill_taken_missions=""/>
+		</answer>
+	</element>
+	<element name="cb01546" dialog="cb01546" who="SC_ONTANIELO" timecall="1" talkanyway="true">
+		<finish>
+			<action phasequest="" name="SC Meet Mat" phase="5"/>
+		</finish>
+	</element>
+	<element name="cb01548" dialog="cb01548" who="SC_ONTANIELO" timecall="1" talkanyway="true">
+		<finish>
+			<action text="cb01548 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb01600" dialog="cb01600" who="ID_MONICA_2" timecall="10.5">
+		<finish>
+			<action text="cb01600 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb01660" dialog="cb01660" who="ID_MONICA_2" timecall="10.5">
+		<finish>
+			<action text="cb01660 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb02010" dialog="cb02010" who="ID_Unknown_1" timecall="10.5">
+		<finish>
+			<action text="cb02010 finished" event=""/>
+			<action description="j02010" jou=""/>
+		</finish>
+	</element>
+	<element name="cb02015" dialog="cb02015" who="SC_ONTANIELO" timecall="10.5">
+		<finish>
+			<action text="cb02015 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb02020" dialog="cb02020" who="ID_Unknown_1" timecall="10.5">
+		<finish>
+			<action text="cb02020 finished" event=""/>
+		</finish>
+	</element>
+	<element name="cb02026" dialog="cb02026" who="SC_ONIRILOW" timecall="10.5">
+		<finish>
+			<action jou="" description="j02026"/>
+		</finish>
+	</element>
+	<element name="cb01300" dialog="cb01300" who="SC_FBI" timecall="10.5"/>
+	<element name="cb01330" dialog="cb01330" who="SC_KOH" timecall="10.5"/>
+</cbcall>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoundParameters>
+  <scoring dir="">
+    <trainslow id="train_run" mindist="50" maxdist="300" volume="1" group="0" />
+    <TrainHorn_distant id="train_horn" mindist="50" maxdist="300" volume="1" group="0" />
+    <tramhorn1 id="tramhorn1" mindist="30" maxdist="300" volume="1" group="0" />
+    <tramhorn2 id="tramhorn2" mindist="30" maxdist="300" volume="1" group="0" />
+    <tramslow id="tram_run" mindist="50" maxdist="300" volume="1" group="0" />
+  </scoring>
+</SoundParameters>

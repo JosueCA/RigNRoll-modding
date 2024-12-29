@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+  <mission name="short_army=army_start" bounded="false" uniq="true" description="Визит в Кеттлмен-сити. ВНИМАНИЕ! здесь и далее для &quot;полковника&quot; используется рабочая модель от другого персонажа. После появления модели &quot;полковник&quot; ее нужно будет заменить во всей ветке." org="short_army=army_start" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_KM_02" finish=""/>
+    <dependences>
+      <parentFor mission="short_army=army_dizel"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_start=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_start=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_start=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_PT_03"/>
+        <point name="MP_KM_PT_04"/>
+        <point name="MP_FR_KM_05"/>
+        <point name="MP_BK_LB_01"/>
+        <point name="MP_BK_LB_03"/>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_KM_AT_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_PT_03"/>
+    <point name="MP_KM_PT_04"/>
+    <point name="MP_FR_KM_05"/>
+    <point name="MP_BK_LB_01"/>
+    <point name="MP_BK_LB_03"/>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_KM_AT_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_start=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_army=army_start=success=LiveDialog=decline"/>
+            <action name="short_army=army_dizel" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_army=army_start=success=LiveDialog=accept"/>
+            <action startmission="" name="short_army=army_dizel"/>
+          </accept>
+          <point name="MP_KM_02"/>
+          <add_item AddItemVehicle="" model="Freightliner_FL_65_Schoolbus" color="0"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_army=army_dizel" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_start=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_dizel" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_army=army_dizel" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="short_army=army_dizel" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="short_army=army_dizel" bounded="false" uniq="true" description="Доставка груза из Кеттлмен-сити в направлении Атаскадеро." org="short_army=army_dizel" dependByActivation="false" depend="true">
+    <quest_item QISemitrailer="" place="MP_KM_02" model="DIESEL_OIL"/>
+    <point name="MP_KM_AT_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_army=army_mans" bounded="false" uniq="true" description="Доставка груза. НУЖЕН: Контейнеровоз без маркировки." org="short_army=army_mans" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_FR_KM_04" model="AIRCRAFT_PARTS"/>
+    <point name="MP_MJ_03" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mans=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_mans=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_mans=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_FR_05"/>
+        <point name="MP_BK_FR_04"/>
+        <point name="MP_FR_01"/>
+        <point name="MP_BK_FR_02"/>
+        <point name="MP_BK_03"/>
+        <point name="MP_Mc_Fr_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_FR_05"/>
+    <point name="MP_BK_FR_04"/>
+    <point name="MP_FR_01"/>
+    <point name="MP_BK_FR_02"/>
+    <point name="MP_BK_03"/>
+    <point name="MP_Mc_Fr_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_mans=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_MJ_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_MJ_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mans=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mans=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mans=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mans=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionFinishedRequirement mission="short_army=army_dizel"/>
+      <MissionDeclinedRequirement mission="short_army=army_dizel"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_draiver" bounded="false" uniq="true" description="За полковником в Атаскадеро." org="short_army=army_draiver" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_SB_AT_02" finish=""/>
+    <dependences>
+      <parentFor mission="short_army=army_draiver_2"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_draiver=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_draiver=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_draiver=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_GF_AT_02"/>
+        <point name="MP_OV_SB_03"/>
+        <point name="MP_OV_SB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_GF_AT_02"/>
+    <point name="MP_OV_SB_03"/>
+    <point name="MP_OV_SB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_draiver=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_army=army_draiver=success=LiveDialog=decline"/>
+            <action name="short_army=army_draiver_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_army=army_draiver=success=LiveDialog=accept"/>
+            <action startmission="" name="short_army=army_draiver_2"/>
+          </accept>
+          <point name="MP_SB_AT_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_SB_AT_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_army=army_draiver_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_draiver=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_draiver_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_army=army_draiver_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels/>
+      <action name="short_army=army_draiver_2" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_mans"/>
+      <MissionCompleteRequirement mission="short_army=army_dizel"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_draiver_2" bounded="false" uniq="true" description="Доставить полковника в Санта-Барбару." org="short_army=army_draiver_2" dependByActivation="false" depend="true">
+    <quest_item QINpc="" place="MP_SB_AT_02" model="ID_ALAN_1"/>
+    <point name="MP_OV_SB_03" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ALAN_1" resource="short_army=army_draiver_2=success=CarDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_OV_SB_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OV_SB_03"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ALAN_1" resource="short_army=army_draiver_2=fail_timeout_complete=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_OV_SB_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OV_SB_03"/>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ALAN_1" resource="short_army=army_draiver_2=fail_damaged=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_OV_SB_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OV_SB_03"/>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CarDialogChannel" npc="ID_ALAN_1" resource="short_army=army_draiver_2=decline=CarDialog" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+          <point name="MP_OV_SB_03"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_OV_SB_03"/>
+  </mission>
+  <mission name="short_army=army_beton" bounded="false" uniq="true" description="Доставка груза из Палмдейла в Мохаве." org="short_army=army_beton" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_PD_01" model="CEMENT"/>
+    <point name="MP_PL_MJ_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_beton=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_beton=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_beton=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_LB_04"/>
+        <point name="MP_LA_LB_03"/>
+        <point name="MP_LA_01"/>
+        <point name="MP_LA_LB_01"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_LB_04"/>
+    <point name="MP_LA_LB_03"/>
+    <point name="MP_LA_01"/>
+    <point name="MP_LA_LB_01"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_beton=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_PL_MJ_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_PL_MJ_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_beton=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_beton=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_beton=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_beton=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_draiver_2"/>
+      <MissionCompleteRequirement mission="short_army=army_mans"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_cel" bounded="false" uniq="true" description="Забрать прибор из Кеттлмен-Сити." org="short_army=army_cel" dependByActivation="false" depend="false">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_KM_02" finish=""/>
+    <dependences>
+      <parentFor mission="short_army=army_cel_1"/>
+    </dependences>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_cel=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_cel=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_KM_LB_02"/>
+        <point name="MP_FR_KM_05"/>
+        <point name="MP_FR_KM_01"/>
+        <point name="MP_KM_PT_03"/>
+        <point name="MP_KM_AT_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_KM_LB_02"/>
+    <point name="MP_FR_KM_05"/>
+    <point name="MP_FR_KM_01"/>
+    <point name="MP_KM_PT_03"/>
+    <point name="MP_KM_AT_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_cel=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_army=army_cel=success=LiveDialog=decline"/>
+            <action name="short_army=army_cel_1" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_army=army_cel=success=LiveDialog=accept"/>
+            <action startmission="" name="short_army=army_cel_1"/>
+          </accept>
+          <point name="MP_KM_02"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_02"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_army=army_cel_1" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_cel_1" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_army=army_cel_1" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_cel_1" deactivatemission=""/>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_beton"/>
+      <MissionCompleteRequirement mission="short_army=army_draiver_2"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_cel_1" bounded="false" uniq="true" description="Визит в Фресно." org="short_army=army_cel_1" dependByActivation="false" depend="true">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_Office_FR_01" finish=""/>
+    <dependences>
+      <parentFor mission="short_army=army_cel_2"/>
+    </dependences>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_1=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_army=army_cel_1=success=CbVideo=decline"/>
+            <action name="short_army=army_cel_2" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_army=army_cel_1=success=CbVideo=accept"/>
+            <action startmission="" name="short_army=army_cel_2"/>
+          </accept>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_army=army_cel_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_1=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_cel_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_army=army_cel_2" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_1=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_cel_2" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="short_army=army_cel_2" bounded="false" uniq="true" description="Визит в Мерсед." org="short_army=army_cel_2" dependByActivation="false" depend="true">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_MR_02" finish=""/>
+    <dependences>
+      <parentFor mission="short_army=army_cel_3"/>
+    </dependences>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_2=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline>
+            <action journal="" description="short_army=army_cel_2=success=CbVideo=decline"/>
+            <action name="short_army=army_cel_3" deactivatemission=""/>
+          </decline>
+          <accept>
+            <action journal="" description="short_army=army_cel_2=success=CbVideo=accept"/>
+            <action startmission="" name="short_army=army_cel_3"/>
+          </accept>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+      <action name="short_army=army_cel_3" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_cel_3" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+      <action name="short_army=army_cel_3" deactivatemission=""/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action name="short_army=army_cel_3" deactivatemission=""/>
+    </end>
+  </mission>
+  <mission name="short_army=army_cel_3" bounded="false" uniq="true" description="Визит в Мантику." org="short_army=army_cel_3" dependByActivation="false" depend="true">
+    <quest_item QIVisit="" model="VISIT"/>
+    <point name="MP_MT_02" finish=""/>
+    <dependences/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_3=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_3=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels/>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_cel_3=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+  </mission>
+  <mission name="short_army=army_med" bounded="false" uniq="true" description="Груз медикаментов из Гринфилда в Кеттлмен-Сити." org="short_army=army_med" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_GF_01" model="MED_EQUIPMENT"/>
+    <point name="MP_KM_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_med=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_med=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_med=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SJ_GF_01"/>
+        <point name="MP_SJ_02"/>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_SB_AT_04"/>
+        <point name="MP_GF_AT_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SJ_GF_01"/>
+    <point name="MP_SJ_02"/>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_SB_AT_04"/>
+    <point name="MP_GF_AT_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_med=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_med=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_med=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_med=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_med=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_cel_3"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_dress" bounded="false" uniq="true" description="Груз из Окснарда в Кеттелман-Сити. НУЖЕН тентованый полуприцеп без маркировки." org="short_army=army_dress" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_OV_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_KM_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dress=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_dress=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_dress=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_SB_01"/>
+        <point name="MP_OV_SB_03"/>
+        <point name="MP_LA_LB_01"/>
+        <point name="MP_LA_01"/>
+        <point name="MP_LB_01"/>
+        <point name="MP_LA_LB_03"/>
+      </infochannel>
+    </channels>
+    <point name="MP_SB_01"/>
+    <point name="MP_OV_SB_03"/>
+    <point name="MP_LA_LB_01"/>
+    <point name="MP_LA_01"/>
+    <point name="MP_LB_01"/>
+    <point name="MP_LA_LB_03"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_dress=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_KM_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_KM_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dress=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dress=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dress=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dress=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_cel_3"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_mex" bounded="false" uniq="true" description="Доставка груза в пределах Сан-Диего. НУЖЕН тентованый прицеп без маркировки." org="short_army=army_mex" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_SD_03" model="AIRCRAFT_PARTS"/>
+    <point name="MP_SD_Tem_Motel01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mex=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_mex=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_mex=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_LA_SC_01"/>
+        <point name="MP_SC_02"/>
+        <point name="MP_SD_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_LA_SC_01"/>
+    <point name="MP_SC_02"/>
+    <point name="MP_SD_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mex=success=CbVideo" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+      <action faderemoveresource=""/>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mex=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mex=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mex=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_mex=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_dress"/>
+      <MissionCompleteRequirement mission="short_army=army_med"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_food" bounded="false" uniq="true" description="Груз из Барстоу в Викторвиль. НУЖЕН тентованый прицеп без маркировки." org="short_army=army_food" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_BS_01" model="AIRCRAFT_PARTS"/>
+    <point name="MP_VV_01" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_food=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_food=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_food=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_MJ_BS_01"/>
+        <point name="MP_VV_LA_01"/>
+        <point name="MP_VV_LA_04"/>
+      </infochannel>
+    </channels>
+    <point name="MP_MJ_BS_01"/>
+    <point name="MP_VV_LA_01"/>
+    <point name="MP_VV_LA_04"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_food=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_VV_01"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_VV_01"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_food=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_food=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_food=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_food=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_med"/>
+      <MissionCompleteRequirement mission="short_army=army_dress"/>
+    </req>
+  </mission>
+  <mission name="short_army=army_dizel_2" bounded="false" uniq="true" description="Груз из Кеттлмен-Сити в Бишоп." org="short_army=army_dizel_2" dependByActivation="false" depend="false">
+    <quest_item QISemitrailer="" place="MP_KM_02" model="DIESEL_OIL"/>
+    <point name="MP_BI_04" finish=""/>
+    <dependences/>
+    <channels>
+      <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel_2=start=CbVideo">
+        <appear/>
+        <decline>
+          <action journal="" description="short_army=army_dizel_2=start=CbVideo=decline"/>
+        </decline>
+        <accept>
+          <action journal="" description="short_army=army_dizel_2=start=CbVideo=accept"/>
+          <action startmission="" name="this"/>
+        </accept>
+        <point name="MP_KM_AT_01"/>
+        <point name="MP_KM_AT_02"/>
+        <point name="MP_KM_PT_03"/>
+        <point name="MP_KM_PT_04"/>
+        <point name="MP_FR_KM_05"/>
+        <point name="MP_KM_LB_02"/>
+      </infochannel>
+    </channels>
+    <point name="MP_KM_AT_01"/>
+    <point name="MP_KM_AT_02"/>
+    <point name="MP_KM_PT_03"/>
+    <point name="MP_KM_PT_04"/>
+    <point name="MP_FR_KM_05"/>
+    <point name="MP_KM_LB_02"/>
+    <start>
+      <action startorg="" name="this"/>
+    </start>
+    <end>
+      <cond missionend="" type="success"/>
+      <action name="this" finishorg=""/>
+      <channels>
+        <infochannel name="LiveDialogChannel" npc="ID_ALAN_1" resource="short_army=army_dizel_2=success=LiveDialog" main="" success="">
+          <appear>
+            <action removeresources=""/>
+          </appear>
+          <decline/>
+          <accept/>
+          <point name="MP_BI_04"/>
+        </infochannel>
+      </channels>
+    </end>
+    <point name="MP_BI_04"/>
+    <end>
+      <cond missionend="" type="fail timeout pickup"/>
+      <action name="this" failorg="" type_fail="0"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel_2=fail_timeout_pickup=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail timeout complete"/>
+      <action name="this" failorg="" type_fail="1"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel_2=fail_timeout_complete=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="fail damaged"/>
+      <action name="this" failorg="" type_fail="2"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel_2=fail_damaged=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <end>
+      <cond missionend="" type="decline"/>
+      <action name="this" failorg="" type_fail="3"/>
+      <channels>
+        <infochannel name="CbvChannel" npc="ID_ALAN_1" resource="short_army=army_dizel_2=decline=CbVideo" main="">
+          <appear/>
+          <decline/>
+          <accept/>
+        </infochannel>
+      </channels>
+    </end>
+    <req>
+      <MissionCompleteRequirement mission="short_army=army_food"/>
+      <MissionCompleteRequirement mission="short_army=army_mex"/>
+    </req>
+  </mission>
+</missions>
+

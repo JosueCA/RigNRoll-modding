@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <locations>
+    <enemy_base>
+      <timings>in seconds
+				<time_to_break_rope game_level_hard="35" game_level_medium="45" game_level_easy="55">time to break rope after end of scene 02030</time_to_break_rope></timings>
+      <distances>in meters
+				<drive_after_broken_rope length="20">braking distance of our car in animation with rope breaking</drive_after_broken_rope></distances>
+    </enemy_base>
+  </locations>
+  <chases>
+    <chase_cochraine>
+      <timings>in seconds
+				<time_to_catch game_level_hard="180" game_level_medium="180" game_level_easy="180">time to shoot coch car after end of scene 02050</time_to_catch></timings>
+      <distances>in meters
+				<distance_to_hit_coch game_level_hard="100" game_level_medium="200" game_level_easy="300">distance on which shoots will be counted</distance_to_hit_coch></distances>
+      <counts>
+        <shoot_to_kill_coch game_level_hard="30" game_level_medium="20" game_level_easy="10">shoots count to win race</shoot_to_kill_coch>
+      </counts>
+    </chase_cochraine>
+    <chase_rescue_dorothy>
+      <timings>in minutes
+				<time_to_rescue game_level_hard="3" game_level_medium="3" game_level_easy="3">time to rescue from bandits</time_to_rescue></timings>
+      <distances>in meters
+				<to_shoot game_level_hard="200" game_level_medium="200" game_level_easy="200" /><to_rescue game_level_hard="300" game_level_medium="300" game_level_easy="300" /><to_kill game_level_hard="20" game_level_medium="20" game_level_easy="20" /></distances>
+    </chase_rescue_dorothy>
+    <chase_special_cargo>
+      <timings>in seconds
+				<call_from_bandits_delay game_level_hard="121" game_level_medium="181" game_level_easy="241">time before bandits start chase</call_from_bandits_delay></timings>
+      <distances>in meters
+				<player_bounding_sphere_radius>9</player_bounding_sphere_radius></distances>
+    </chase_special_cargo>
+  </chases>
+  <ai_chase_parameters>
+    <all_parameters>
+      <parameters name="weekChasing" mode="relative">
+        <dist_ahead2 game_level_hard="-20" game_level_medium="-20" game_level_easy="-20" />
+        <dist_ahead0 game_level_hard="-25" game_level_medium="-25" game_level_easy="-25" />
+        <dist_behind0 game_level_hard="-45" game_level_medium="-45" game_level_easy="-45" />
+        <dist_behind2 game_level_hard="-300" game_level_medium="-300" game_level_easy="-300" />
+        <minvel game_level_hard="0" game_level_medium="0" game_level_easy="0" />
+        <maxvel game_level_hard="10" game_level_medium="10" game_level_easy="10" />
+      </parameters>
+      <parameters name="easyChasing" mode="absolute">
+        <dist_ahead2 game_level_hard="11" game_level_medium="11" game_level_easy="11" />
+        <dist_ahead0 game_level_hard="10" game_level_medium="10" game_level_easy="10" />
+        <dist_behind0 game_level_hard="-10" game_level_medium="-10" game_level_easy="-10" />
+        <dist_behind2 game_level_hard="-11" game_level_medium="-11" game_level_easy="-11" />
+        <minvel game_level_hard="35" game_level_medium="30" game_level_easy="25" />
+        <maxvel game_level_hard="40" game_level_medium="35" game_level_easy="30" />
+      </parameters>
+      <parameters name="moderateChasing" mode="absolute">
+        <dist_ahead2 game_level_hard="11" game_level_medium="11" game_level_easy="11" />
+        <dist_ahead0 game_level_hard="10" game_level_medium="10" game_level_easy="10" />
+        <dist_behind0 game_level_hard="-10" game_level_medium="-10" game_level_easy="-10" />
+        <dist_behind2 game_level_hard="-11" game_level_medium="-11" game_level_easy="-11" />
+        <minvel game_level_hard="40" game_level_medium="35" game_level_easy="30" />
+        <maxvel game_level_hard="45" game_level_medium="40" game_level_easy="35" />
+      </parameters>
+      <parameters name="madChasing" mode="absolute">
+        <dist_ahead2 game_level_hard="200" game_level_medium="200" game_level_easy="200" />
+        <dist_ahead0 game_level_hard="50" game_level_medium="50" game_level_easy="50" />
+        <dist_behind0 game_level_hard="50" game_level_medium="50" game_level_easy="50" />
+        <dist_behind2 game_level_hard="0" game_level_medium="0" game_level_easy="0" />
+        <minvel game_level_hard="50" game_level_medium="50" game_level_easy="50" />
+        <maxvel game_level_hard="100" game_level_medium="100" game_level_easy="100" />
+      </parameters>
+      <parameters name="madRacing" mode="absolute">
+        <dist_ahead2 game_level_hard="11" game_level_medium="11" game_level_easy="11" />
+        <dist_ahead0 game_level_hard="10" game_level_medium="10" game_level_easy="10" />
+        <dist_behind0 game_level_hard="-10" game_level_medium="-10" game_level_easy="-10" />
+        <dist_behind2 game_level_hard="-11" game_level_medium="-11" game_level_easy="-11" />
+        <minvel game_level_hard="45" game_level_medium="40" game_level_easy="35" />
+        <maxvel game_level_hard="50" game_level_medium="45" game_level_easy="40" />
+      </parameters>
+    </all_parameters>
+  </ai_chase_parameters>
+</scenario>

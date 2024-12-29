@@ -1,0 +1,26 @@
+<directory>
+	<dir>..\\Data\\Actors\\Pedestrians\\animations</dir>
+	<dir>..\\Data\\Actors\\Bigrace\\animations</dir>
+	<dir>..\\Data\\Actors\\Driver\\animations</dir>
+	<dir>..\\Data\\Actors\\Driver\\camchase</dir>
+	<dir>..\\Data\\Actors\\Driver\\shooter</dir>
+	<dir>..\\Data\\Actors\\Bar\\animations</dir>
+	<dir>..\\Data\\Actors\\Bar\\camera</dir>
+	<dir>..\\Data\\Actors\\e\\Flag\\animations</dir>
+	<dir>..\\Data\\Actors\\ScreenPlay\\animations</dir>
+	<dir>..\\Data\\Actors\\ScreenPlay\\animations\\impersonator</dir>
+	<dir>..\\Data\\Actors\\ScreenPlay\\animations\\mimics</dir>
+	<dir>..\\Data\\Actors\\ScreenPlay\\animations\\cbvideo</dir>
+	<dir>..\\Data\\Actors\\Warehouse\\animations</dir>
+	<dir>..\\Data\\Actors\\Warehouse\\Camera</dir>
+	<dir>..\\Data\\Actors\\GasStation\\animations</dir>
+	<dir>..\\Data\\Actors\\GasStation\\Camera</dir>
+	<dir>..\\Data\\Actors\\Repair\\Camera</dir>
+	<dir>..\\Data\\Actors\\Repair\\animations</dir>
+	<dir>..\\Data\\Actors\\Motel\\animations</dir>
+	<dir>..\\Data\\Actors\\Motel\\camera</dir>
+	<dir>..\\Data\\Actors\\Office\\animations</dir>
+	<dir>..\\Data\\Actors\\Office\\camera</dir>
+	<dir>..\\Data\\Actors\\Camera</dir>
+	<dir>..\\Data\\Actors\\am\\animations</dir>
+</directory>

@@ -1,0 +1,64 @@
+<rnr_quests>
+	<isoquests>
+		<item name="gamebegining" finishonlastphase="true">
+			<task finish="false" phase="1" none="">
+				<action blockso="" type="johnhouse"/>
+				<action blockso="" type="police"/>
+				<action name="sc00009" scene=""/>
+				<action createquest="" name="SC intro"/>
+			</task>
+			<task finish="false" phase="2" none="">
+				<cond message="" text="Begining Scene phase1"/>
+				<action name="sc00010" scene=""/>
+			</task>
+			<task finish="true" phase="3" none="">
+				<cond message="" text="Begining Scene phase2"/>
+				<action name="sc00011" scene=""/>
+				<action finishquest="" name="SC intro"/>
+			</task>
+		</item>
+		<item name="Rescue Dorothy" finishonlastphase="true">
+			<task finish="false" phase="1" none="">bandits car hit
+				<cond message="" text="Bandits car collided"/>
+				<action name="this" phasequest="" phase="6">go to chase</action>
+			</task>
+			<task finish="false" phase="1" none="">we'll be killed
+				<cond message="" text="dorothy rescue too late"/>
+				<action name="this" phasequest="" phase="2">go to chase</action>
+			</task>
+			<task finish="false" phase="1" f2="">dorothy rescue it time
+				<cond so="" type="bar" name="Room_Oxnard_Bar1"/>
+				<action value="false" so_animation=""/>
+				<action name="this" phasequest="" phase="4">go to succed</action>
+			</task>
+			<task finish="false" phase="2" f2="">dorothy rescue it time
+				<cond so="" type="bar" name="Room_Oxnard_Bar1"/>
+				<action name="sc00065" scene=""/>
+			</task>
+			<task finish="true" phase="3" none="">killed by bandits
+				<cond message="" text="loose"/>
+				<action loosegame=""/>
+			</task>
+			<task finish="false" phase="4" none="">chase after rescue: part 1
+				<action name="sc00060part1" scene="" afterparking="true"/>
+			</task>
+			<task finish="false" phase="4" exit="">chase after rescue: part 1
+				<action value="true" so_animation=""/>
+			</task>
+			<task finish="true" phase="5" none="">quest completed
+				<cond message="" text="Dorothy chase finished"/>
+				<action name="sc00100" scene=""/>
+			</task>
+			<task finish="false" phase="6" none="">chase after rescue: part 2
+				<action name="sc00060part2" scene=""/>
+			</task>
+		</item>
+	</isoquests>
+	<quests>
+		<q name="SC intro">
+			<finish>
+				<jou description="j00011"/>
+			</finish>
+		</q>
+	</quests>
+</rnr_quests>

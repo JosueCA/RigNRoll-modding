@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<missions>
+	<!--mission name="sc00040" bounded="true" uniq="false" description="" org="o00040" dependByActivation="false" depend="false">
+		<quest_item place="MP_Oxnard_Bar_01" QIVisit="" model="VISIT"/>
+		<point name="MP_Oxnard_Bar_01" finish=""/>
+		<dependences/>
+		<channels>
+			<infochannel name="CbvChannel" npc="SC_MATTHEWLOW" resource="cb00040">
+				<appear>
+					<action startmission="" name="this"/>
+				</appear>
+				<decline/>
+				<accept/>
+				<point name="MP_Oxnard_Bar_01"/>
+			</infochannel>
+		</channels>
+		<point name="MP_Oxnard_Bar_01"/>
+		<start>
+			<action startorg="" name="this"/>
+		</start>
+		<end>
+			<cond missionend="" type="success"/>
+			<action name="this" finishorg=""/>
+			<channels/>
+			<action faderemoveresource=""/>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout pickup"/>
+			<action name="this" failorg="" type_fail="0"/>
+			<channels/>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout complete"/>
+			<action name="this" failorg="" type_fail="1"/>
+			<channels/>
+		</end>
+		<end>
+			<cond missionend="" type="fail damaged"/>
+			<action name="this" failorg="" type_fail="2"/>
+			<channels/>
+		</end>
+		<end>
+			<cond missionend="" type="decline"/>
+			<action name="this" failorg="" type_fail="3"/>
+			<channels/>
+		</end>
+		<req>
+			<ResqueDorothyReq/>
+		</req>
+	</mission-->
+	<mission name="sc00610" bounded="false" uniq="false" description="" org="o00610" dependByActivation="false" depend="false" scenarioMission="true">
+		<quest_item QISemitrailer="" place="SP_Topo_Office" model="CIGARETTES"/>
+		<point name="SP_CP_126_5" finish=""/>
+		<dependences/>
+		<channels>
+			<infochannel name="ExternalChannel" resource="sc00610_start_channel">
+				<appear>
+					<action startmission="" name="this"/>
+				</appear>
+				<decline/>
+				<accept/>
+				<point name="SP_Topo_Office"/>
+			</infochannel>
+		</channels>
+		<point name="SP_Topo_Office"/>
+		<start>
+			<action startorg="" name="this"/>
+		</start>
+		<end>
+			<cond missionend="" type="success"/>
+			<action name="this" finishorg=""/>
+			<channels/>
+			<action faderemoveresource=""/>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout pickup"/>
+			<action name="this" failorg="" type_fail="0"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="ID_Unknown_1" resource="cb00862" main="">
+					<appear/>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout complete"/>
+			<action name="this" failorg="" type_fail="1"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="ID_Unknown_1" resource="cb00862" main="">
+					<appear/>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+		<end>
+			<cond missionend="" type="fail damaged"/>
+			<action name="this" failorg="" type_fail="2"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="ID_Unknown_1" resource="cb00862" main="">
+					<appear/>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+		<end>
+			<cond missionend="" type="decline"/>
+			<action name="this" failorg="" type_fail="3"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="ID_Unknown_1" resource="cb00862" main="">
+					<appear/>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+		<req/>
+	</mission>
+	<!--mission name="sc01080" bounded="false" uniq="false" description="" org="o01080" dependByActivation="false" depend="false" scenarioMission="true">
+		<quest_item QISemitrailer="" place="MP_PD_06" model="GUEPARD_SEMITRAILER"/>
+		<point name="SP_John_House" finish=""/>
+		<dependences/>
+		<channels>
+			<infochannel name="ExternalChannel" resource="sc01080_start_channel">
+				<appear>
+					<action startmission="" name="this"/>
+				</appear>
+				<decline/>
+				<accept/>
+				<point name="SP_John_House"/>
+			</infochannel>
+		</channels>
+		<point name="MP_OV_SB_01"/>
+		<start>
+			<action startorg="" name="this"/>
+		</start>
+		<end>
+			<cond missionend="" type="success"/>
+			<action name="this" finishorg=""/>
+			<channels/>
+			<action faderemoveresource=""/>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout pickup"/>
+			<action name="this" failorg="" type_fail="0"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="SC_ONIRILOW" resource="cb01110">
+					<appear>
+						<action journal="" description="j01110"/>
+					</appear>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout complete"/>
+			<action name="this" failorg="" type_fail="1"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="SC_ONIRILOW" resource="cb01110">
+					<appear>
+						<action journal="" description="j01110"/>
+					</appear>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+		<end>
+			<cond missionend="" type="fail damaged"/>
+			<action name="this" failorg="" type_fail="2"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="SC_ONIRILOW" resource="cb01110">
+					<appear>
+						<action journal="" description="j01110"/>
+					</appear>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+		<end>
+			<cond missionend="" type="decline"/>
+			<action name="this" failorg="" type_fail="3"/>
+			<channels>
+				<infochannel name="CbvChannel" npc="SC_ONIRILOW" resource="cb01110">
+					<appear>
+						<action journal="" description="j01110"/>
+					</appear>
+					<decline/>
+					<accept/>
+				</infochannel>
+			</channels>
+		</end>
+	</mission-->
+	<!--mission name="sc01300" bounded="false" uniq="false" description="" org="o01300" dependByActivation="false" depend="false" scenarioMission="true">
+		<quest_item QISemitrailer="" place="MP_BR_02" model="CIGARETTES"/>
+		<point name="MP_MW_01" finish=""/>
+		<dependences/>
+		<channels>
+			<infochannel name="CbvChannel" npc="SC_FBILOW" resource="cb01300">
+				<appear/>
+				<decline>
+					<action journal="" description="j01310"/>
+				</decline>
+				<accept>
+					<action journal="" description="j01300"/>
+					<action startmission="" name="this"/>
+				</accept>
+			</infochannel>
+		</channels>
+		<point name="MP_motel_BR_MD_01"/>
+		<start>
+			<action startorg="" name="this"/>
+		</start>
+		<end>
+			<cond missionend="" type="success"/>
+			<action name="this" finishorg=""/>
+			<channels/>
+			<action faderemoveresource=""/>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout pickup"/>
+			<action name="this" failorg="" type_fail="0"/>
+			<channels/>
+		</end>
+		<end>
+			<cond missionend="" type="fail timeout complete"/>
+			<action name="this" failorg="" type_fail="1"/>
+			<channels/>
+		</end>
+		<end>
+			<cond missionend="" type="fail damaged"/>
+			<action name="this" failorg="" type_fail="2"/>
+			<channels/>
+		</end>
+		<end>
+			<cond missionend="" type="decline"/>
+			<action name="this" failorg="" type_fail="3"/>
+			<channels/>
+		</end>
+		<req>
+			<CursedHiwayReq/>
+		</req>
+	</mission-->
+</missions>

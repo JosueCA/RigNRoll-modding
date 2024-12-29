@@ -1,0 +1,3477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> Message GAMEOVER</title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>ComCommon</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<buttonres name="---------------------  START of ADD  ---------------------">
+			<material>WarehouseCommon</material>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="411" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="445" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="411" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="445" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="411" x1="110" y1="411" x2="110" y2="443" x3="124" y3="443"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="445" x1="110" y1="445" x2="110" y2="477" x3="124" y3="477"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="GAMEOVER_INSTANTORDER_01">
+			<wdbmaterial>mat_menu_GAMEOVER_INSTANTORDER_01_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_INSTANTORDER_trucks">
+			<wdbmaterial>mat_menu_GAMEOVER_INSTANTORDER_trucks_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="BUTTON - InstantOrder - EXECUTED">
+			<buttonstate type="passive">
+				<font>ButtonMM FONT GOLD big</font>
+				<textres_ref name="MMTEXT - big - center"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="BUTTON - InstantOrder - DEFAULTED">
+			<buttonstate type="passive">
+				<font>ButtonMM FONT CHROME big</font>
+				<textres_ref name="MMTEXT - big - center"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="Main_Menu_TOP02">
+			<wdbmaterial>mat_main_menu_TOP02_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="2"/>
+			<texture index="1" maxx="64" maxy="64"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>10</tilex>
+				<tiley>7.5</tiley>
+			</autogen>
+			<texture index="2" maxx="256" maxy="256"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>4</tilex>
+				<tiley>3</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Main_Menu_BETON01">
+			<wdbmaterial>mat_main_menu_beton01_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="2"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>6</tilex>
+				<tiley>4.5</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.4</tilex>
+				<tiley>0.3</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL_NoDet">
+			<wdbmaterial>mat_GameoverTOTAL_NoDet_110</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL_traffic_to_LEFT">
+			<wdbmaterial>mat_GameoverTOTAL_traffic_toLEFT_110</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="16"/>
+		</materialres>
+		<materialres name="MenuGameoverTOTAL_traffic_to_RIGHT">
+			<wdbmaterial>mat_GameoverTOTAL_traffic_toRIGHT_110</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="16"/>
+		</materialres>
+		<materialres name="MenuGameoverTOTALBanner">
+			<wdbmaterial>mat_GameoverTOTAL_BANNER_110</wdbmaterial>
+			<texture index="0" maxx="512" maxy="128"/>
+			<texture index="1" maxx="1024" maxy="2"/>
+			<texture index="2" maxx="1024" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BUTTON_TopMenu_P">
+			<wdbmaterial>mat_GameoverTOTAL_ButtTopMenuP_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="1024" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BUTTON_TopMenu_A">
+			<wdbmaterial>mat_GameoverTOTAL_ButtTopMenuA_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="1024" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.1</tilex>
+				<tiley>12</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button TOPMENU Tab 350" script="Complex9">
+			<material>MenuGameoverTOTAL_NoDet</material>
+			<buttonstate type="passive">DESK
+				<material>BUTTON_TopMenu_P</material>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="BUTTON_TopMenu_gray"/>
+				<texrect index="0" x="18" y="306" sx="350" sy="80"/>
+			</buttonstate>
+			<buttonstate type="active">DESK
+				<material>BUTTON_TopMenu_A</material>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="BUTTON_TopMenu_white"/>
+				<texrect index="0" x="18" y="306" sx="350" sy="80"/>
+			</buttonstate>
+			<buttonstate type="active">DESK
+				<material>BUTTON_TopMenu_A</material>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="BUTTON_TopMenu_yellow_2pxdown"/>
+				<texrect index="0" x="18" y="306" sx="350" sy="80"/>
+			</buttonstate>
+			<buttonstate type="passive">SHADOW
+				<texrect index="0" x="0" y="386" sx="350" sy="5"/>
+				<patch state="0" x="0" y="80" sx="350" sy="5"/>
+			</buttonstate>
+			<buttonstate type="active">SHADOW
+				<texrect index="0" x="0" y="386" sx="350" sy="5"/>
+				<patch state="0" x="0" y="80" sx="350" sy="5"/>
+			</buttonstate>
+			<buttonstate type="active">SHADOW
+				<texrect index="0" x="0" y="386" sx="350" sy="5"/>
+				<patch state="1" x="0" y="80" sx="350" sy="5"/>
+			</buttonstate>
+			<buttonstate type="passive">ARROW
+				<patch state="0" x="155" y="41" sx="41" sy="30"/>
+				<texrect index="0" x="87" y="159" sx="41" sy="30"/>
+			</buttonstate>
+			<buttonstate type="active">ARROW
+				<patch state="0" x="155" y="41" sx="41" sy="30"/>
+				<texrect index="0" x="87" y="391" sx="41" sy="30"/>
+			</buttonstate>
+			<buttonstate type="active">ARROW
+				<patch state="1" x="155" y="43" sx="41" sy="30"/>
+				<texrect index="0" x="23" y="391" sx="41" sy="30"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="2" sx="11" sy="11" id="leftUP"/>
+				<texrect index="0" x="64" y="159" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="2" sx="11" sy="11" id="leftUP"/>
+				<texrect index="0" x="64" y="391" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="2" sx="11" sy="11" id="leftUP"/>
+				<texrect index="0" x="0" y="391" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="2" sx="218" sy="11" id="centerUP"/>
+				<texrect index="0" x="75" y="159" sx="1" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="11" y="2" sx="218" sy="11" id="centerUP"/>
+				<texrect index="0" x="75" y="391" sx="1" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="11" y="2" sx="218" sy="11" id="centerUP"/>
+				<texrect index="0" x="11" y="391" sx="1" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="2" sx="11" sy="11" id="rightUP"/>
+				<texcoords index="0" x0="75" y0="159" x1="64" y1="159" x2="64" y2="170" x3="75" y3="170"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="229" y="2" sx="11" sy="11" id="rightUP"/>
+				<texcoords index="0" x0="75" y0="391" x1="64" y1="391" x2="64" y2="402" x3="75" y3="402"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="229" y="2" sx="11" sy="11" id="rightUP"/>
+				<texcoords index="0" x0="11" y0="391" x1="0" y1="391" x2="0" y2="402" x3="11" y3="402"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="13" sx="11" sy="58" id="leftCENTER"/>
+				<texrect index="0" x="64" y="173" sx="11" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="13" sx="11" sy="58" id="leftCENTER"/>
+				<texrect index="0" x="64" y="405" sx="11" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="13" sx="11" sy="58" id="leftCENTER"/>
+				<texrect index="0" x="0" y="405" sx="11" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="13" sx="218" sy="58" id="centerCENTER"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="11" y="13" sx="218" sy="58" id="centerCENTER"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="11" y="13" sx="218" sy="58" id="centerCENTER"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="13" sx="11" sy="58" id="rightCENTER"/>
+				<texcoords index="0" x0="75" y0="173" x1="64" y1="173" x2="64" y2="174" x3="75" y3="174"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="229" y="13" sx="11" sy="58" id="rightCENTER"/>
+				<texcoords index="0" x0="75" y0="405" x1="64" y1="405" x2="64" y2="406" x3="75" y3="406"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="229" y="13" sx="11" sy="58" id="rightCENTER"/>
+				<texcoords index="0" x0="11" y0="405" x1="0" y1="405" x2="0" y2="406" x3="11" y3="406"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="71" sx="11" sy="11" id="leftDOWN"/>
+				<texrect index="0" x="64" y="178" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="71" sx="11" sy="11" id="leftDOWN"/>
+				<texrect index="0" x="64" y="410" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="71" sx="11" sy="11" id="leftDOWN"/>
+				<texrect index="0" x="0" y="410" sx="11" sy="11"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="11" y="71" sx="218" sy="11" id="centerDOWN"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="11" y="71" sx="218" sy="11" id="centerDOWN"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="11" y="71" sx="218" sy="11" id="centerDOWN"/>
+				<texrect index="0" x="0" y="393" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="229" y="71" sx="11" sy="11" id="rightDOWN"/>
+				<texcoords index="0" x0="75" y0="178" x1="64" y1="178" x2="64" y2="189" x3="75" y3="189"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="229" y="71" sx="11" sy="11" id="rightDOWN"/>
+				<texcoords index="0" x0="75" y0="410" x1="64" y1="410" x2="64" y2="421" x3="75" y3="421"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="229" y="71" sx="11" sy="11" id="rightDOWN"/>
+				<texcoords index="0" x0="11" y0="410" x1="0" y1="410" x2="0" y2="421" x3="11" y3="421"/>
+			</buttonstate>
+			<buttonstate type="passive">LIGHT
+				<patch state="0" x="0" y="69" sx="350" sy="24"/>
+				<texrect index="0" x="122" y="421" sx="525" sy="31"/>
+				<material>MenuGameoverTOTAL_NoDet</material>
+			</buttonstate>
+			<buttonstate type="active">LIGHT
+				<patch state="0" x="0" y="69" sx="350" sy="24"/>
+				<texrect index="0" x="122" y="421" sx="525" sy="31"/>
+				<material>MenuGameoverTOTAL_NoDet</material>
+			</buttonstate>
+			<buttonstate type="active">LIGHT
+				<patch state="1" x="0" y="69" sx="350" sy="24"/>
+				<texrect index="0" x="122" y="421" sx="525" sy="31"/>
+				<material>MenuGameoverTOTAL_NoDet</material>
+			</buttonstate>
+			<buttonstate type="passive">GREEN
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<patch state="0" x="144" y="89" sx="64" sy="29"/>
+				<texrect index="0" x="64" y="277" sx="64" sy="29"/>
+			</buttonstate>
+			<buttonstate type="active">GREEN
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<patch state="0" x="144" y="89" sx="64" sy="29"/>
+				<texrect index="0" x="64" y="277" sx="64" sy="29"/>
+			</buttonstate>
+			<buttonstate type="active">GREEN
+				<material>MenuGameoverTOTAL_NoDet</material>
+				<patch state="1" x="144" y="89" sx="64" sy="29"/>
+				<texrect index="0" x="64" y="277" sx="64" sy="29"/>
+			</buttonstate>
+		</buttonres>
+		<textres name="BUTTON_TopMenu_gray">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>36</baseline>
+			<textcolor>184 204 200 192</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BUTTON_TopMenu_white">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>36</baseline>
+			<textcolor>255 255 255 192</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="BUTTON_TopMenu_yellow_2pxdown">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>38</baseline>
+			<textcolor>255 255 92 192</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="RESULTS - orange - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 205 65 255</textcolor>
+		</textres>
+		<textres name="RESULTS - yellow - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 230 165 192</textcolor>
+		</textres>
+		<textres name="RESULTS - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 192</textcolor>
+		</textres>
+		<buttonres name="---------------------  END of ADD  ---------------------">
+			<material>WarehouseCommon</material>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="411" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="445" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="411" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="445" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="411" x1="110" y1="411" x2="110" y2="443" x3="124" y3="443"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="445" x1="110" y1="445" x2="110" y2="477" x3="124" y3="477"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="---------------------  GAMEOVERs  ---------------------">
+			<material>WarehouseCommon</material>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="411" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="445" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="411" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="445" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="411" x1="110" y1="411" x2="110" y2="443" x3="124" y3="443"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="445" x1="110" y1="445" x2="110" y2="477" x3="124" y3="477"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="GAMEOVER_SIGN">
+			<wdbmaterial>mat_menu_GAMEOVER_SIGN_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="256"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER">
+			<wdbmaterial>mat_Message_GAMEOVER_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER_PaperBack">
+			<wdbmaterial>mat_Message_GAMEOVER_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Message_GAMEOVER_PaperBack" script="Complex9">
+			<material>Message_GAMEOVER_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Message_GAMEOVER_PaperBackShadow" script="Complex9">
+			<material>Message_GAMEOVER_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="Message_GAMEOVER_01">
+			<wdbmaterial>mat_Message_GAMEOVER_01_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER_01_PaperBack">
+			<wdbmaterial>mat_Message_GAMEOVER_01_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Message_GAMEOVER_01_PaperBack" script="Complex9">
+			<material>Message_GAMEOVER_01_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Message_GAMEOVER_01_PaperBackShadow" script="Complex9">
+			<material>Message_GAMEOVER_01_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="Message_GAMEOVER_02">
+			<wdbmaterial>mat_Message_GAMEOVER_02_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER_02_PaperBack">
+			<wdbmaterial>mat_Message_GAMEOVER_02_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Message_GAMEOVER_02_PaperBack" script="Complex9">
+			<material>Message_GAMEOVER_02_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Message_GAMEOVER_02_PaperBackShadow" script="Complex9">
+			<material>Message_GAMEOVER_02_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="Message_GAMEOVER_03">
+			<wdbmaterial>mat_Message_GAMEOVER_03_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER_03_PaperBack">
+			<wdbmaterial>mat_Message_GAMEOVER_03_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Message_GAMEOVER_03_PaperBack" script="Complex9">
+			<material>Message_GAMEOVER_03_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Message_GAMEOVER_03_PaperBackShadow" script="Complex9">
+			<material>Message_GAMEOVER_03_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="Message_GAMEOVER_04">
+			<wdbmaterial>mat_Message_GAMEOVER_04_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER_04_PaperBack">
+			<wdbmaterial>mat_Message_GAMEOVER_04_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Message_GAMEOVER_04_PaperBack" script="Complex9">
+			<material>Message_GAMEOVER_04_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Message_GAMEOVER_04_PaperBackShadow" script="Complex9">
+			<material>Message_GAMEOVER_04_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="Message_GAMEOVER_05">
+			<wdbmaterial>mat_Message_GAMEOVER_05_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER_05_PaperBack">
+			<wdbmaterial>mat_Message_GAMEOVER_05_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Message_GAMEOVER_05_PaperBack" script="Complex9">
+			<material>Message_GAMEOVER_05_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Message_GAMEOVER_05_PaperBackShadow" script="Complex9">
+			<material>Message_GAMEOVER_05_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="Message_GAMEOVER_06">
+			<wdbmaterial>mat_Message_GAMEOVER_06_NEW_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Message_GAMEOVER_06_PaperBack">
+			<wdbmaterial>mat_Message_GAMEOVER_06_NEW_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>24</tilex>
+				<tiley>18</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.3</tilex>
+				<tiley>0.225</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Message_GAMEOVER_06_PaperBack" script="Complex9">
+			<material>Message_GAMEOVER_06_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="32" sy="32" id="leftUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="0" sx="1" sy="32" id="centerUP"/>
+				<texcoords index="0" x0="1" y0="32" x1="0" y1="32" x2="0" y2="0" x3="1" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="0" sx="32" sy="32" id="rightUP"/>
+				<texcoords index="0" x0="0" y0="32" x1="32" y1="32" x2="32" y2="0" x3="0" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="32" sx="32" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="32" y0="1" x1="0" y1="1" x2="0" y2="0" x3="32" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="32" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="32" sx="32" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="33" sx="32" sy="32" id="leftDOWN"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="32" x3="32" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="32" y="33" sx="1" sy="32" id="centerDOWN"/>
+				<texrect index="0" x="0" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="33" sx="32" sy="32" id="rightDOWN"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Message_GAMEOVER_06_PaperBackShadow" script="Complex9">
+			<material>Message_GAMEOVER_06_PaperBack</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="48" sy="48" id="leftUP"/>
+				<texcoords index="0" x0="67" y0="32" x1="35" y1="32" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="0" sx="1" sy="48" id="centerUP"/>
+				<texcoords index="0" x0="36" y0="32" x1="35" y1="32" x2="35" y2="0" x3="36" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="0" sx="48" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="35" y0="32" x1="67" y1="32" x2="67" y2="0" x3="35" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="48" sy="1" id="leftCENTER"/>
+				<texcoords index="0" x0="67" y0="1" x1="35" y1="1" x2="35" y2="0" x3="67" y3="0"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="48" sx="48" sy="1" id="rightCENTER"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="48" sy="48" id="leftDOWN"/>
+				<texcoords index="0" x0="67" y0="0" x1="35" y1="0" x2="35" y2="32" x3="67" y3="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="48" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="35" y="0" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="49" y="49" sx="48" sy="48" id="rightDOWN"/>
+				<texrect index="0" x="35" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="---------------------  VICTORIES  ---------------------">
+			<material>WarehouseCommon</material>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="411" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="445" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="411" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="445" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="411" x1="110" y1="411" x2="110" y2="443" x3="124" y3="443"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="445" x1="110" y1="445" x2="110" y2="477" x3="124" y3="477"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="GAMEOVER_CaliforniaChampion">
+			<wdbmaterial>mat_menu_GAMEOVER_CaliforniaChampion_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_CaliforniaChampion_CUP">
+			<wdbmaterial>mat_menu_GAMEOVER_CaliforniaChampion_CUP_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_CaliforniaChampion_FILM">
+			<wdbmaterial>mat_menu_GAMEOVER_CaliforniaChampion_FILMmoveLEFT_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="4"/>
+			<texture index="1" maxx="1024" maxy="64"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.83</tilex>
+				<tiley>10</tiley>
+			</autogen>
+			<texture index="2" maxx="256" maxy="256"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_CaliforniaChampion_moveRIGHT">
+			<wdbmaterial>mat_menu_GAMEOVER_CaliforniaChampion_moveRIGHT_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_CaliforniaChampion_onPAPER">
+			<wdbmaterial>mat_menu_GAMEOVER_CaliforniaChampion_onPAPER_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_CaliforniaChampion_PAPER">
+			<wdbmaterial>mat_menu_GAMEOVER_CaliforniaChampion_PAPER_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="GAMEOVER_CaliforniaChampion_PAPER" script="Complex9">
+			<material>GAMEOVER_CaliforniaChampion_PAPER</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="64" sy="96" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="0" sx="1" sy="96" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="0" sx="64" sy="96" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="64" sx="64" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="64" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="64" sx="64" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="65" sx="64" sy="96" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="65" sx="1" sy="96" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="65" sx="64" sy="96" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_CaliforniaChampion_Border_PAPER" script="Complex9">
+			<material>GAMEOVER_CaliforniaChampion_onPAPER</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="60" sy="48" id="leftUP"/>
+				<texrect index="0" x="192" y="0" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="0" sx="1" sy="48" id="centerUP"/>
+				<texrect index="0" x="251" y="0" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="0" sx="60" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="252" y0="0" x1="192" y1="0" x2="192" y2="48" x3="252" y3="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="60" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="192" y="47" sx="60" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="251" y="47" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="48" sx="60" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="252" y0="47" x1="192" y1="47" x2="192" y2="48" x3="252" y3="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="60" sy="48" id="leftDOWN"/>
+				<texrect index="0" x="192" y="48" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="251" y="48" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="49" sx="60" sy="48" id="rightDOWN"/>
+				<texcoords index="0" x0="252" y0="48" x1="192" y1="48" x2="192" y2="96" x3="252" y3="96"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_CaliforniaChampion_Border_CONGRATULATIONS" script="Complex9">
+			<material>GAMEOVER_CaliforniaChampion</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="60" sy="48" id="leftUP"/>
+				<texrect index="0" x="192" y="96" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="0" sx="1" sy="48" id="centerUP"/>
+				<texrect index="0" x="251" y="96" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="0" sx="60" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="252" y0="96" x1="192" y1="96" x2="192" y2="144" x3="252" y3="144"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="60" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="192" y="143" sx="60" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="251" y="143" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="48" sx="60" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="252" y0="143" x1="192" y1="143" x2="192" y2="144" x3="252" y3="144"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="60" sy="48" id="leftDOWN"/>
+				<texrect index="0" x="192" y="144" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="251" y="144" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="49" sx="60" sy="48" id="rightDOWN"/>
+				<texcoords index="0" x0="252" y0="144" x1="192" y1="144" x2="192" y2="192" x3="252" y3="192"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_CaliforniaChampion_StripeBIG" script="Complex3">
+			<material>GAMEOVER_CaliforniaChampion</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="508" sy="140" id="left"/>
+				<texcoords index="0" x0="510" y0="192" x1="2" y1="192" x2="2" y2="332" x3="510" y3="332"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="508" y="0" sx="1" sy="140" id="center"/>
+				<texrect index="0" x="2" y="192" sx="1" sy="140"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="509" y="0" sx="508" sy="140" id="right"/>
+				<texrect index="0" x="2" y="192" sx="508" sy="140"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_CaliforniaChampion_StripeSMALL" script="Complex3">
+			<material>GAMEOVER_CaliforniaChampion</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="508" sy="80" id="left"/>
+				<texcoords index="0" x0="510" y0="332" x1="2" y1="332" x2="2" y2="412" x3="510" y3="412"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="508" y="0" sx="1" sy="80" id="center"/>
+				<texrect index="0" x="2" y="332" sx="1" sy="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="509" y="0" sx="508" sy="80" id="right"/>
+				<texrect index="0" x="2" y="332" sx="508" sy="80"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="GAMEOVER_TruckerOfTheYear">
+			<wdbmaterial>mat_menu_GAMEOVER_TruckerOfTheYear_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_TruckerOfTheYear_CUP">
+			<wdbmaterial>mat_menu_GAMEOVER_TruckerOfTheYear_CUP_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_TruckerOfTheYear_FILM">
+			<wdbmaterial>mat_menu_GAMEOVER_TruckerOfTheYear_FILMmoveLEFT_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="4"/>
+			<texture index="1" maxx="1024" maxy="64"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.83</tilex>
+				<tiley>10</tiley>
+			</autogen>
+			<texture index="2" maxx="256" maxy="256"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_TruckerOfTheYear_moveRIGHT">
+			<wdbmaterial>mat_menu_GAMEOVER_TruckerOfTheYear_moveRIGHT_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_TruckerOfTheYear_onPAPER">
+			<wdbmaterial>mat_menu_GAMEOVER_TruckerOfTheYear_onPAPER_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_TruckerOfTheYear_PAPER">
+			<wdbmaterial>mat_menu_GAMEOVER_TruckerOfTheYear_PAPER_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="GAMEOVER_TruckerOfTheYear_PAPER" script="Complex9">
+			<material>GAMEOVER_TruckerOfTheYear_PAPER</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="64" sy="96" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="0" sx="1" sy="96" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="0" sx="64" sy="96" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="64" sx="64" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="64" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="64" sx="64" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="65" sx="64" sy="96" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="65" sx="1" sy="96" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="65" sx="64" sy="96" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_TruckerOfTheYear_Border_PAPER" script="Complex9">
+			<material>GAMEOVER_TruckerOfTheYear_onPAPER</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="60" sy="48" id="leftUP"/>
+				<texrect index="0" x="192" y="0" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="0" sx="1" sy="48" id="centerUP"/>
+				<texrect index="0" x="251" y="0" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="0" sx="60" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="252" y0="0" x1="192" y1="0" x2="192" y2="48" x3="252" y3="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="60" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="192" y="47" sx="60" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="251" y="47" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="48" sx="60" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="252" y0="47" x1="192" y1="47" x2="192" y2="48" x3="252" y3="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="60" sy="48" id="leftDOWN"/>
+				<texrect index="0" x="192" y="48" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="251" y="48" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="49" sx="60" sy="48" id="rightDOWN"/>
+				<texcoords index="0" x0="252" y0="48" x1="192" y1="48" x2="192" y2="96" x3="252" y3="96"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_TruckerOfTheYear_Border_CONGRATULATIONS" script="Complex9">
+			<material>GAMEOVER_TruckerOfTheYear</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="60" sy="48" id="leftUP"/>
+				<texrect index="0" x="192" y="96" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="0" sx="1" sy="48" id="centerUP"/>
+				<texrect index="0" x="251" y="96" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="0" sx="60" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="252" y0="96" x1="192" y1="96" x2="192" y2="144" x3="252" y3="144"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="60" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="192" y="143" sx="60" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="251" y="143" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="48" sx="60" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="252" y0="143" x1="192" y1="143" x2="192" y2="144" x3="252" y3="144"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="60" sy="48" id="leftDOWN"/>
+				<texrect index="0" x="192" y="144" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="251" y="144" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="49" sx="60" sy="48" id="rightDOWN"/>
+				<texcoords index="0" x0="252" y0="144" x1="192" y1="144" x2="192" y2="192" x3="252" y3="192"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_TruckerOfTheYear_StripeBIG" script="Complex3">
+			<material>GAMEOVER_TruckerOfTheYear</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="508" sy="140" id="left"/>
+				<texcoords index="0" x0="510" y0="192" x1="2" y1="192" x2="2" y2="332" x3="510" y3="332"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="508" y="0" sx="1" sy="140" id="center"/>
+				<texrect index="0" x="2" y="192" sx="1" sy="140"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="509" y="0" sx="508" sy="140" id="right"/>
+				<texrect index="0" x="2" y="192" sx="508" sy="140"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_TruckerOfTheYear_StripeSMALL" script="Complex3">
+			<material>GAMEOVER_TruckerOfTheYear</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="508" sy="80" id="left"/>
+				<texcoords index="0" x0="510" y0="332" x1="2" y1="332" x2="2" y2="412" x3="510" y3="412"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="508" y="0" sx="1" sy="80" id="center"/>
+				<texrect index="0" x="2" y="332" sx="1" sy="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="509" y="0" sx="508" sy="80" id="right"/>
+				<texrect index="0" x="2" y="332" sx="508" sy="80"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="GAMEOVER_GoldCarrier">
+			<wdbmaterial>mat_menu_GAMEOVER_GoldCarrier_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_GoldCarrier_CUP">
+			<wdbmaterial>mat_menu_GAMEOVER_GoldCarrier_CUP_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_GoldCarrier_FILM">
+			<wdbmaterial>mat_menu_GAMEOVER_GoldCarrier_FILMmoveLEFT_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="2"/>
+			<texture index="1" maxx="1024" maxy="64"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.83</tilex>
+				<tiley>10</tiley>
+			</autogen>
+			<texture index="2" maxx="256" maxy="256"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_GoldCarrier_moveRIGHT">
+			<wdbmaterial>mat_menu_GAMEOVER_GoldCarrier_moveRIGHT_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_GoldCarrier_onPAPER">
+			<wdbmaterial>mat_menu_GAMEOVER_GoldCarrier_onPAPER_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GAMEOVER_GoldCarrier_PAPER">
+			<wdbmaterial>mat_menu_GAMEOVER_GoldCarrier_PAPER_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="128"/>
+			<texture index="1" maxx="256" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>8</tilex>
+				<tiley>6</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="GAMEOVER_GoldCarrier_PAPER" script="Complex9">
+			<material>GAMEOVER_GoldCarrier_PAPER</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="64" sy="96" id="leftUP"/>
+				<texrect index="0" x="0" y="32" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="0" sx="1" sy="96" id="centerUP"/>
+				<texrect index="0" x="31" y="32" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="0" sx="64" sy="96" id="rightUP"/>
+				<texcoords index="0" x0="32" y0="32" x1="0" y1="32" x2="0" y2="80" x3="32" y3="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="64" sx="64" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="64" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="64" sx="64" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="81" x3="32" y3="81"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="65" sx="64" sy="96" id="leftDOWN"/>
+				<texrect index="0" x="0" y="80" sx="32" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="64" y="65" sx="1" sy="96" id="centerDOWN"/>
+				<texrect index="0" x="31" y="80" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="65" y="65" sx="64" sy="96" id="rightDOWN"/>
+				<texcoords index="0" x0="32" y0="80" x1="0" y1="80" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_GoldCarrier_Border_PAPER" script="Complex9">
+			<material>GAMEOVER_GoldCarrier_onPAPER</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="60" sy="48" id="leftUP"/>
+				<texrect index="0" x="192" y="0" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="0" sx="1" sy="48" id="centerUP"/>
+				<texrect index="0" x="251" y="0" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="0" sx="60" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="252" y0="0" x1="192" y1="0" x2="192" y2="48" x3="252" y3="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="60" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="192" y="47" sx="60" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="251" y="47" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="48" sx="60" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="252" y0="47" x1="192" y1="47" x2="192" y2="48" x3="252" y3="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="60" sy="48" id="leftDOWN"/>
+				<texrect index="0" x="192" y="48" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="251" y="48" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="49" sx="60" sy="48" id="rightDOWN"/>
+				<texcoords index="0" x0="252" y0="48" x1="192" y1="48" x2="192" y2="96" x3="252" y3="96"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_GoldCarrier_Border_CONGRATULATIONS" script="Complex9">
+			<material>GAMEOVER_GoldCarrier</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="60" sy="48" id="leftUP"/>
+				<texrect index="0" x="192" y="96" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="0" sx="1" sy="48" id="centerUP"/>
+				<texrect index="0" x="251" y="96" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="0" sx="60" sy="48" id="rightUP"/>
+				<texcoords index="0" x0="252" y0="96" x1="192" y1="96" x2="192" y2="144" x3="252" y3="144"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="48" sx="60" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="192" y="143" sx="60" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="48" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="251" y="143" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="48" sx="60" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="252" y0="143" x1="192" y1="143" x2="192" y2="144" x3="252" y3="144"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="49" sx="60" sy="48" id="leftDOWN"/>
+				<texrect index="0" x="192" y="144" sx="60" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="60" y="49" sx="1" sy="48" id="centerDOWN"/>
+				<texrect index="0" x="251" y="144" sx="1" sy="48"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="61" y="49" sx="60" sy="48" id="rightDOWN"/>
+				<texcoords index="0" x0="252" y0="144" x1="192" y1="144" x2="192" y2="192" x3="252" y3="192"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_GoldCarrier_StripeBIG" script="Complex3">
+			<material>GAMEOVER_GoldCarrier</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="508" sy="140" id="left"/>
+				<texcoords index="0" x0="510" y0="192" x1="2" y1="192" x2="2" y2="332" x3="510" y3="332"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="508" y="0" sx="1" sy="140" id="center"/>
+				<texrect index="0" x="2" y="192" sx="1" sy="140"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="509" y="0" sx="508" sy="140" id="right"/>
+				<texrect index="0" x="2" y="192" sx="508" sy="140"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GAMEOVER_GoldCarrier_StripeSMALL" script="Complex3">
+			<material>GAMEOVER_GoldCarrier</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="508" sy="80" id="left"/>
+				<texcoords index="0" x0="510" y0="332" x1="2" y1="332" x2="2" y2="412" x3="510" y3="412"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="508" y="0" sx="1" sy="80" id="center"/>
+				<texrect index="0" x="2" y="332" sx="1" sy="80"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="509" y="0" sx="508" sy="80" id="right"/>
+				<texrect index="0" x="2" y="332" sx="508" sy="80"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="---------------------  TOTALS  ---------------------">
+			<material>WarehouseCommon</material>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="411" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="445" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="14" sy="32" id="left"/>
+				<texrect index="0" x="110" y="479" sx="14" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="411" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="445" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="14" y="0" sx="2" sy="32" id="center"/>
+				<texrect index="0" x="124" y="479" sx="1" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="411" x1="110" y1="411" x2="110" y2="443" x3="124" y3="443"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="445" x1="110" y1="445" x2="110" y2="477" x3="124" y3="477"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="16" y="0" sx="14" sy="32" id="right"/>
+				<texcoords index="0" x0="124" y0="479" x1="110" y1="479" x2="110" y2="511" x3="124" y3="511"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<materialres name="ComCommon_A">
+			<wdbmaterial>mat_menu_Com_COMMONa_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon">
+			<wdbmaterial>mat_menu_Com_COMMON_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon_ACTIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_ACTIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="ComCommon_PASSIVE">
+			<wdbmaterial>mat_menu_Com_COMMON_PASSIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button COMMON Communicator" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Comm"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="256" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="256" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_A</material>
+				<patch state="1" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="256" x1="36" y1="256" x2="36" y2="320" x3="52" y3="320"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button COMMON Communicator NoDet" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Comm"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Comm"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="192" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="0" y="0" sx="16" sy="64" id="left"/>
+				<texrect index="0" x="36" y="256" sx="16" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="16" y="0" sx="84" sy="128" id="center"/>
+				<texrect index="0" x="51" y="256" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>ComCommon_PASSIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="0" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="192" x1="36" y1="192" x2="36" y2="256" x3="52" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>ComCommon_ACTIVE</material>
+				<patch state="1" x="100" y="0" sx="16" sy="64" id="right"/>
+				<texcoords index="0" x0="52" y0="256" x1="36" y1="256" x2="36" y2="320" x3="52" y3="320"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Comm">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>205 230 255 255</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="ButtonMM FONT CHROME big">
+			<name>Futura Condensed MainMenu Pbig</name>
+			<size>61</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="ButtonMM FONT GOLD big">
+			<name>Futura Condensed MainMenu Abig</name>
+			<size>61</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="ButtonMM FONT GOLD small">
+			<name>Futura Condensed MainMenu Asmall</name>
+			<size>55</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="MMTEXT - big - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="MMTEXT - big - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="MMTEXT - big - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="MMTEXT - small - left">
+			<vertalign>baseline</vertalign>
+			<baseline>53</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="MMTEXT - small - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>53</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="MMTEXT - small - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>53</baseline>
+			<textcolor>255 255 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - left - News">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>100 70 70 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - left">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>100 70 70 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+	</resources>
+	<controlgroup name="Message GAMEOVER">
+		<picture name=" Message GAMEOVER back">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Gameover_BACK">
+				<material>Message_GAMEOVER</material>
+				<coords x="100" y="0" sx="1280" sy="1200"/>
+				<!--coords x="200" y="140" sx="900" sy="845"/-->
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="Gameover_SIGN">
+				<material>GAMEOVER_SIGN</material>
+				<coords x="888" y="306" sx="512" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+			</picture>
+			<picture name="Gameover_TEXT">
+				<coords x="395" y="60" sx="1" sy="1"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="776" sx="810" sy="194"/>
+					<buttonres_ref name="Message_GAMEOVER_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="776" sx="770" sy="154"/>
+					<buttonres_ref name="Message_GAMEOVER_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text">
+					<font>Blue Highway</font>
+					<coords x="70" y="820" sx="670" sy="74"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER\ Message GAMEOVER back\Gameover_TEXT\BackPaper - text">...%NICOLAS_ARMSTRONG% was tragically killed.</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1000" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER with Black Background">
+		<picture name=" Message GAMEOVER with Black Background back">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="BACK FADE">
+				<material>ComCommon_PASSIVE</material>
+				<coords x="-2800" y="-100" sx="7200" sy="1400"/>
+				<texrect index="0" x="121" y="314" sx="1" sy="1"/>
+			</picture>
+			<picture name="Gameover_BACK">
+				<material>Message_GAMEOVER</material>
+				<coords x="100" y="0" sx="1280" sy="1200"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="Gameover_SIGN">
+				<material>GAMEOVER_SIGN</material>
+				<coords x="888" y="306" sx="512" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+			</picture>
+			<picture name="Gameover_TEXT">
+				<coords x="395" y="60" sx="1" sy="1"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="776" sx="810" sy="194"/>
+					<buttonres_ref name="Message_GAMEOVER_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="776" sx="770" sy="154"/>
+					<buttonres_ref name="Message_GAMEOVER_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text">
+					<font>Blue Highway</font>
+					<coords x="70" y="820" sx="670" sy="74"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER\ Message GAMEOVER back\Gameover_TEXT\BackPaper - text">...%NICOLAS_ARMSTRONG% was tragically killed.</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1000" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER 01">
+		<picture name=" Message GAMEOVER 01 back">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Gameover01_BACK">
+				<material>Message_GAMEOVER_01</material>
+				<coords x="100" y="0" sx="1280" sy="1200"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="Gameover_SIGN">
+				<material>GAMEOVER_SIGN</material>
+				<coords x="888" y="306" sx="512" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+			</picture>
+			<picture name="Gameover01_TEXT">
+				<coords x="395" y="0" sx="1600" sy="1200"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="714" sx="810" sy="356"/>
+					<buttonres_ref name="Message_GAMEOVER_01_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="714" sx="770" sy="316"/>
+					<buttonres_ref name="Message_GAMEOVER_01_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text1">
+					<font>Blue Highway</font>
+					<coords x="70" y="754" sx="670" sy="36"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER 01\ Message GAMEOVER 01 back\Gameover01_TEXT\BackPaper - text1">TRUCKER CONVICTED OF MAIMING A PEDESTRIAN</text>
+				</textfield>
+				<picture name="Border DARK">
+					<material>Message_GAMEOVER_01_PaperBack</material>
+					<coords x="70" y="802" sx="670" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>Message_GAMEOVER_01_PaperBack</material>
+					<coords x="70" y="806" sx="670" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<textfield name="BackPaper - text">
+					<font>Blue Highway</font>
+					<coords x="70" y="818" sx="670" sy="172"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER 01\ Message GAMEOVER 01 back\Gameover01_TEXT\BackPaper - text2">...Nick Trucking Co is likely to cease existing before long, as a result of conviction of the company CEO, %NICOLAS_ARMSTRONG%, who was found guilty on a charge of inflicting grievous bodily harm with a vehicle.</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1040" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER 02">
+		<picture name=" Message GAMEOVER 02 back">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Gameover02_BACK">
+				<material>Message_GAMEOVER_02</material>
+				<coords x="100" y="0" sx="1280" sy="1200"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="Gameover_SIGN">
+				<material>GAMEOVER_SIGN</material>
+				<coords x="888" y="306" sx="512" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+			</picture>
+			<picture name="Gameover02_TEXT">
+				<coords x="395" y="60" sx="1" sy="1"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="776" sx="810" sy="194"/>
+					<buttonres_ref name="Message_GAMEOVER_02_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="776" sx="770" sy="154"/>
+					<buttonres_ref name="Message_GAMEOVER_02_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text">
+					<font>Blue Highway</font>
+					<coords x="70" y="820" sx="670" sy="74"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER 02\ Message GAMEOVER 02 back\Gameover02_TEXT\BackPaper - text">...Trucker convicted of murder</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1000" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER 03">
+		<picture name=" Message GAMEOVER 03 back">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="GAMEOVER03_BACK">
+				<material>Message_GAMEOVER_03</material>
+				<coords x="100" y="0" sx="1280" sy="1200"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="Gameover_SIGN">
+				<material>GAMEOVER_SIGN</material>
+				<coords x="888" y="306" sx="512" sy="512"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+			</picture>
+			<picture name="GAMEOVER03_TEXT">
+				<coords x="395" y="0" sx="1600" sy="1200"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="714" sx="810" sy="356"/>
+					<buttonres_ref name="Message_GAMEOVER_03_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="714" sx="770" sy="316"/>
+					<buttonres_ref name="Message_GAMEOVER_03_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text1">
+					<font>Blue Highway</font>
+					<coords x="70" y="754" sx="670" sy="36"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER 03\ Message GAMEOVER 03 back\GAMEOVER03_TEXT\BackPaper - text1">NICK TRUCKING - IS DECLARED BANKRUPT</text>
+				</textfield>
+				<picture name="Border DARK">
+					<material>Message_GAMEOVER_03_PaperBack</material>
+					<coords x="70" y="802" sx="670" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<material>Message_GAMEOVER_03_PaperBack</material>
+					<coords x="70" y="806" sx="670" sy="2"/>
+					<texrect index="0" x="509" y="2" sx="1" sy="1"/>
+				</picture>
+				<textfield name="BackPaper - text2">
+					<font>Blue Highway</font>
+					<coords x="70" y="818" sx="670" sy="172"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER 03\ Message GAMEOVER 03 back\GAMEOVER03_TEXT\BackPaper - text2">According to the decree of the US Bankruptcy Court the company "Nick Trucking" is declared bankrupt. All the property of the company will be put up at an auction for repayment of the company obligations to the creditors.</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1040" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER_Social">
+		<picture name="Message GAMEOVER_Social">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="GAMEOVER04_BACK">
+				<material>Message_GAMEOVER_04</material>
+				<coords x="100" y="0" sx="1280" sy="1200"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="GAMEOVER04_TEXT">
+				<coords x="395" y="60" sx="1600" sy="1200"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="776" sx="810" sy="194"/>
+					<buttonres_ref name="Message_GAMEOVER_04_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="776" sx="770" sy="154"/>
+					<buttonres_ref name="Message_GAMEOVER_04_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text">
+					<font>Blue Highway</font>
+					<coords x="70" y="820" sx="670" sy="74"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER_Social\Message GAMEOVER_Social\GAMEOVER04_TEXT\BackPaper - text">Your competitor was awarded the "Trucker of the Year" title.</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1000" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\CONTINUE">CONTINUE</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER_Economic">
+		<picture name="Message GAMEOVER_Economic">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="GAMEOVER05_BACK">
+				<material>Message_GAMEOVER_05</material>
+				<coords x="100" y="0" sx="1280" sy="1200"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="GAMEOVER05_TEXT">
+				<coords x="395" y="60" sx="1600" sy="1200"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="776" sx="810" sy="194"/>
+					<buttonres_ref name="Message_GAMEOVER_05_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="776" sx="770" sy="154"/>
+					<buttonres_ref name="Message_GAMEOVER_05_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text">
+					<font>Blue Highway</font>
+					<coords x="70" y="820" sx="670" sy="74"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER_Economic\Message GAMEOVER_Economic\GAMEOVER05_TEXT\BackPaper - text">Your competitor was awarded the "Gold Carrier" title.</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1000" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\CONTINUE">CONTINUE</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER_Sport">
+		<picture name="Message GAMEOVER_Sport">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="GAMEOVER06_BACK">
+				<material>Message_GAMEOVER_06</material>
+				<coords x="200" y="140" sx="900" sy="845"/>
+				<texrect index="0" x="0" y="32" sx="512" sy="480"/>
+			</picture>
+			<picture name="GAMEOVER06_TEXT">
+				<coords x="395" y="60" sx="1600" sy="1200"/>
+				<picture name="BackPaperShadow">
+					<coords x="0" y="776" sx="810" sy="194"/>
+					<buttonres_ref name="Message_GAMEOVER_06_PaperBackShadow"/>
+				</picture>
+				<picture name="BackPaper">
+					<coords x="20" y="776" sx="770" sy="154"/>
+					<buttonres_ref name="Message_GAMEOVER_06_PaperBack"/>
+				</picture>
+				<textfield name="BackPaper - text">
+					<font>Blue Highway</font>
+					<coords x="70" y="820" sx="670" sy="74"/>
+					<textres_ref name="JustText - black - left - News"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER_Sport\Message GAMEOVER_Sport\GAMEOVER06_TEXT\BackPaper - text">Your competitor became the California Champion.</text>
+				</textfield>
+			</picture>
+			<button name="BUTTON - OK">
+				<coords x="770" y="1000" sx="400" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\CONTINUE">CONTINUE</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message Victory_Social">
+		<picture name="Message Victory_Social">
+			<coords x="0" y="0" sx="1600" sy="600"/>
+			<picture name="Message Victory_Social - SHEET">
+				<coords x="0" y="183" sx="1" sy="1"/>
+				<picture name="BackPaper">
+					<coords x="140" y="0" sx="1320" sy="910"/>
+					<buttonres_ref name="GAMEOVER_TruckerOfTheYear_PAPER"/>
+				</picture>
+				<picture name="BackPaper Border">
+					<coords x="183" y="35" sx="1234" sy="836"/>
+					<buttonres_ref name="GAMEOVER_TruckerOfTheYear_Border_PAPER"/>
+				</picture>
+				<picture name="BackPaper Border STRIPE TOP">
+					<material>GAMEOVER_TruckerOfTheYear_onPAPER</material>
+					<coords x="200" y="49" sx="1200" sy="20"/>
+					<texrect index="0" x="0" y="492" sx="1200" sy="20"/>
+				</picture>
+				<picture name="BackPaper Border STRIPE BOTTOM">
+					<material>GAMEOVER_TruckerOfTheYear_onPAPER</material>
+					<coords x="200" y="837" sx="1200" sy="20"/>
+					<texrect index="0" x="0" y="492" sx="1200" sy="20"/>
+				</picture>
+				<picture name="LENTA under PLATE">
+					<coords x="233" y="114" sx="1134" sy="140"/>
+					<buttonres_ref name="GAMEOVER_TruckerOfTheYear_StripeBIG"/>
+				</picture>
+				<picture name="CONGRATULATIONS Stripe">
+					<material>GAMEOVER_TruckerOfTheYear_moveRIGHT</material>
+					<coords x="320" y="250" sx="960" sy="160"/>
+					<texrect index="0" x="0" y="414" sx="380" sy="76"/>
+				</picture>
+				<picture name="CONGRATULATIONS Border">
+					<coords x="300" y="230" sx="1000" sy="200"/>
+					<buttonres_ref name="GAMEOVER_TruckerOfTheYear_Border_CONGRATULATIONS"/>
+				</picture>
+				<textfield name="CONGRATULATIONS 01">
+					<font>ButtonMM FONT GOLD small</font>
+					<coords x="400" y="267" sx="800" sy="80"/>
+					<textres_ref name="MMTEXT - small - center"/>
+					<text locref="menu_msg_gameover.xml\Message Victory_Social\Message Victory_Social\Message Victory_Social - SHEET\CONGRATULATIONS 01">CONGRATULATIONS FOR RECEIVING</text>
+				</textfield>
+				<textfield name="CONGRATULATIONS 02">
+					<font>ButtonMM FONT GOLD small</font>
+					<coords x="400" y="324" sx="800" sy="80"/>
+					<textres_ref name="MMTEXT - small - center"/>
+					<text locref="menu_msg_gameover.xml\Message Victory_Social\Message Victory_Social\Message Victory_Social - SHEET\CONGRATULATIONS 02">THE "TRUCKER OF THE YEAR" TITLE!!!</text>
+				</textfield>
+				<picture name="PLATE">
+					<material>GAMEOVER_TruckerOfTheYear</material>
+					<coords x="704" y="83" sx="192" sy="192"/>
+					<texrect index="0" x="0" y="0" sx="192" sy="192"/>
+				</picture>
+			</picture>
+			<picture name="FILM">
+				<material>GAMEOVER_TruckerOfTheYear_FILM</material>
+				<coords x="240" y="841" sx="1120" sy="120"/>
+				<texrect index="0" x="0" y="0" sx="128" sy="4"/>
+			</picture>
+			<picture name="Message Victory_Social - LOGOS - LEFT SIDE">
+				<coords x="300" y="740" sx="1" sy="1"/>
+				<picture name="logo TRUCK">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="8" y="6" sx="62" sy="66"/>
+					<texrect index="0" x="256" y="0" sx="62" sy="66"/>
+				</picture>
+				<picture name="logo BIGRACE">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="80" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="384" y="0" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo PUMA">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="218" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="384" y="128" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo ORDEN">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="356" y="6" sx="66" sy="66"/>
+					<texrect index="0" x="318" y="0" sx="66" sy="66"/>
+				</picture>
+			</picture>
+			<picture name="Message Victory_Social - LOGOS - RIGHT SIDE">
+				<coords x="880" y="740" sx="1" sy="1"/>
+				<picture name="logo MCOC">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="0" y="0" sx="66" sy="78"/>
+					<texrect index="0" x="318" y="66" sx="66" sy="78"/>
+				</picture>
+				<picture name="logo FLYTRUCK">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="76" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="384" y="64" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo MAKERHINO">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="214" y="15" sx="128" sy="48"/>
+					<texrect index="0" x="256" y="144" sx="128" sy="48"/>
+				</picture>
+				<picture name="logo CUP">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="352" y="0" sx="62" sy="78"/>
+					<texrect index="0" x="256" y="66" sx="62" sy="78"/>
+				</picture>
+			</picture>
+			<picture name="CUP">
+				<material>GAMEOVER_TruckerOfTheYear_CUP</material>
+				<coords x="704" y="610" sx="192" sy="384"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="512"/>
+			</picture>
+			<picture name="LENTA bottom">
+				<coords x="292" y="932" sx="1017" sy="80"/>
+				<buttonres_ref name="GAMEOVER_TruckerOfTheYear_StripeSMALL"/>
+			</picture>
+			<button name="Message Victory_Social - BUTTON - CONTINUE">
+				<coords x="550" y="1090" sx="500" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\CONTINUE">CONTINUE</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message Victory_Economic">
+		<picture name="Message Victory_Economic">
+			<coords x="0" y="0" sx="1600" sy="600"/>
+			<picture name="Message Victory_Economic - SHEET">
+				<coords x="0" y="183" sx="1" sy="1"/>
+				<picture name="BackPaper">
+					<coords x="140" y="0" sx="1320" sy="910"/>
+					<buttonres_ref name="GAMEOVER_GoldCarrier_PAPER"/>
+				</picture>
+				<picture name="BackPaper Border">
+					<coords x="183" y="35" sx="1234" sy="836"/>
+					<buttonres_ref name="GAMEOVER_GoldCarrier_Border_PAPER"/>
+				</picture>
+				<picture name="BackPaper Border STRIPE TOP">
+					<material>GAMEOVER_GoldCarrier_onPAPER</material>
+					<coords x="232" y="49" sx="1138" sy="20"/>
+					<texrect index="0" x="0" y="492" sx="1138" sy="20"/>
+				</picture>
+				<picture name="BackPaper Border STRIPE BOTTOM">
+					<material>GAMEOVER_GoldCarrier_onPAPER</material>
+					<coords x="232" y="837" sx="1138" sy="20"/>
+					<texrect index="0" x="0" y="492" sx="1138" sy="20"/>
+				</picture>
+				<picture name="LENTA under PLATE">
+					<coords x="233" y="114" sx="1134" sy="140"/>
+					<buttonres_ref name="GAMEOVER_GoldCarrier_StripeBIG"/>
+				</picture>
+				<picture name="CONGRATULATIONS Stripe">
+					<material>GAMEOVER_GoldCarrier_moveRIGHT</material>
+					<coords x="320" y="250" sx="960" sy="160"/>
+					<texrect index="0" x="0" y="414" sx="380" sy="76"/>
+				</picture>
+				<picture name="CONGRATULATIONS Border">
+					<coords x="300" y="230" sx="1000" sy="200"/>
+					<buttonres_ref name="GAMEOVER_GoldCarrier_Border_CONGRATULATIONS"/>
+				</picture>
+				<textfield name="CONGRATULATIONS 01">
+					<font>ButtonMM FONT GOLD small</font>
+					<coords x="400" y="267" sx="800" sy="80"/>
+					<textres_ref name="MMTEXT - small - center"/>
+					<text locref="menu_msg_gameover.xml\Message Victory_Economic\Message Victory_Economic\Message Victory_Economic - SHEET\CONGRATULATIONS 01">CONGRATULATIONS FOR RECEIVING</text>
+				</textfield>
+				<textfield name="CONGRATULATIONS 02">
+					<font>ButtonMM FONT GOLD small</font>
+					<coords x="400" y="324" sx="800" sy="80"/>
+					<textres_ref name="MMTEXT - small - center"/>
+					<text locref="menu_msg_gameover.xml\Message Victory_Economic\Message Victory_Economic\Message Victory_Economic - SHEET\CONGRATULATIONS 02">THE "GOLD CARRIER" TITLE!!!</text>
+				</textfield>
+				<picture name="PLATE">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="704" y="83" sx="192" sy="192"/>
+					<texrect index="0" x="0" y="0" sx="192" sy="192"/>
+				</picture>
+			</picture>
+			<picture name="FILM">
+				<material>GAMEOVER_GoldCarrier_FILM</material>
+				<coords x="240" y="841" sx="1120" sy="120"/>
+				<texrect index="0" x="0" y="0" sx="128" sy="4"/>
+			</picture>
+			<picture name="Message Victory_Economic - LOGOS - LEFT SIDE">
+				<coords x="300" y="740" sx="1" sy="1"/>
+				<picture name="logo TRUCK">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="8" y="6" sx="62" sy="66"/>
+					<texrect index="0" x="256" y="0" sx="62" sy="66"/>
+				</picture>
+				<picture name="logo BIGRACE">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="80" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="384" y="0" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo PUMA">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="218" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="384" y="128" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo ORDEN">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="356" y="6" sx="66" sy="66"/>
+					<texrect index="0" x="318" y="0" sx="66" sy="66"/>
+				</picture>
+			</picture>
+			<picture name="Message Victory_Economic - LOGOS - RIGHT SIDE">
+				<coords x="880" y="740" sx="1" sy="1"/>
+				<picture name="logo MCOC">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="0" y="0" sx="66" sy="78"/>
+					<texrect index="0" x="318" y="66" sx="66" sy="78"/>
+				</picture>
+				<picture name="logo FLYTRUCK">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="76" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="384" y="64" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo MAKERHINO">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="214" y="15" sx="128" sy="48"/>
+					<texrect index="0" x="256" y="144" sx="128" sy="48"/>
+				</picture>
+				<picture name="logo CUP">
+					<material>GAMEOVER_GoldCarrier</material>
+					<coords x="352" y="0" sx="62" sy="78"/>
+					<texrect index="0" x="256" y="66" sx="62" sy="78"/>
+				</picture>
+			</picture>
+			<picture name="CUP">
+				<material>GAMEOVER_GoldCarrier_CUP</material>
+				<coords x="704" y="610" sx="192" sy="384"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="512"/>
+			</picture>
+			<picture name="LENTA bottom">
+				<coords x="292" y="932" sx="1017" sy="80"/>
+				<buttonres_ref name="GAMEOVER_GoldCarrier_StripeSMALL"/>
+			</picture>
+			<button name="Message Victory_Economic - BUTTON - CONTINUE">
+				<coords x="550" y="1090" sx="500" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\CONTINUE">CONTINUE</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message Victory_Sport">
+		<picture name="Message Victory_Sport">
+			<coords x="0" y="0" sx="1600" sy="600"/>
+			<picture name="Message Victory_Sport - SHEET">
+				<coords x="0" y="183" sx="1" sy="1"/>
+				<picture name="BackPaper">
+					<coords x="140" y="0" sx="1320" sy="910"/>
+					<buttonres_ref name="GAMEOVER_CaliforniaChampion_PAPER"/>
+				</picture>
+				<picture name="BackPaper Border">
+					<coords x="183" y="35" sx="1234" sy="836"/>
+					<buttonres_ref name="GAMEOVER_CaliforniaChampion_Border_PAPER"/>
+				</picture>
+				<picture name="BackPaper Border STRIPE TOP">
+					<material>GAMEOVER_CaliforniaChampion_onPAPER</material>
+					<coords x="218" y="48" sx="1164" sy="20"/>
+					<texrect index="0" x="0" y="492" sx="1164" sy="20"/>
+				</picture>
+				<picture name="BackPaper Border STRIPE BOTTOM">
+					<material>GAMEOVER_CaliforniaChampion_onPAPER</material>
+					<coords x="218" y="838" sx="1164" sy="20"/>
+					<texrect index="0" x="0" y="492" sx="1164" sy="20"/>
+				</picture>
+				<picture name="LENTA under PLATE">
+					<coords x="233" y="114" sx="1134" sy="140"/>
+					<buttonres_ref name="GAMEOVER_CaliforniaChampion_StripeBIG"/>
+				</picture>
+				<picture name="CONGRATULATIONS Stripe">
+					<material>GAMEOVER_CaliforniaChampion_moveRIGHT</material>
+					<coords x="320" y="250" sx="960" sy="160"/>
+					<texrect index="0" x="0" y="414" sx="380" sy="76"/>
+				</picture>
+				<picture name="CONGRATULATIONS Border">
+					<coords x="300" y="230" sx="1000" sy="200"/>
+					<buttonres_ref name="GAMEOVER_CaliforniaChampion_Border_CONGRATULATIONS"/>
+				</picture>
+				<textfield name="CONGRATULATIONS 01">
+					<font>ButtonMM FONT GOLD small</font>
+					<coords x="400" y="267" sx="800" sy="80"/>
+					<textres_ref name="MMTEXT - small - center"/>
+					<text locref="menu_msg_gameover.xml\Message Victory_Sport\Message Victory_Sport\Message Victory_Sport - SHEET\CONGRATULATIONS 01">CONGRATULATIONS FOR WINNING</text>
+				</textfield>
+				<textfield name="CONGRATULATIONS 02">
+					<font>ButtonMM FONT GOLD small</font>
+					<coords x="400" y="324" sx="800" sy="80"/>
+					<textres_ref name="MMTEXT - small - center"/>
+					<text locref="menu_msg_gameover.xml\Message Victory_Sport\Message Victory_Sport\Message Victory_Sport - SHEET\CONGRATULATIONS 02">THE "CALIFORNIA CHAMPION" TITLE!!!</text>
+				</textfield>
+				<picture name="PLATE">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="704" y="83" sx="192" sy="192"/>
+					<texrect index="0" x="0" y="0" sx="192" sy="192"/>
+				</picture>
+			</picture>
+			<picture name="FILM">
+				<material>GAMEOVER_CaliforniaChampion_FILM</material>
+				<coords x="240" y="841" sx="1120" sy="120"/>
+				<texrect index="0" x="0" y="0" sx="128" sy="4"/>
+			</picture>
+			<picture name="Message Victory_Sport - LOGOS - LEFT SIDE">
+				<coords x="408" y="645" sx="1" sy="1"/>
+				<picture name="logo TRUCK">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="0" y="7" sx="64" sy="64"/>
+					<texrect index="0" x="384" y="64" sx="64" sy="64"/>
+				</picture>
+				<picture name="logo ORDEN">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="0" y="81" sx="64" sy="64"/>
+					<texrect index="0" x="384" y="128" sx="64" sy="64"/>
+				</picture>
+				<picture name="logo RACE01">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="74" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="256" y="0" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo RACE02">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="74" y="81" sx="128" sy="64"/>
+					<texrect index="0" x="256" y="64" sx="128" sy="64"/>
+				</picture>
+			</picture>
+			<picture name="Message Victory_Sport - LOGOS - RIGHT SIDE">
+				<coords x="980" y="645" sx="1" sy="1"/>
+				<picture name="logo RACE03">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="0" y="7" sx="128" sy="64"/>
+					<texrect index="0" x="256" y="128" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo RACE04">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="0" y="81" sx="128" sy="64"/>
+					<texrect index="0" x="384" y="0" sx="128" sy="64"/>
+				</picture>
+				<picture name="logo MCOC">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="138" y="7" sx="64" sy="64"/>
+					<texrect index="0" x="448" y="64" sx="64" sy="64"/>
+				</picture>
+				<picture name="logo CUP">
+					<material>GAMEOVER_CaliforniaChampion</material>
+					<coords x="138" y="81" sx="64" sy="64"/>
+					<texrect index="0" x="448" y="128" sx="64" sy="64"/>
+				</picture>
+			</picture>
+			<picture name="CUP">
+				<material>GAMEOVER_CaliforniaChampion_CUP</material>
+				<coords x="704" y="610" sx="192" sy="384"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="512"/>
+			</picture>
+			<picture name="LENTA bottom">
+				<coords x="292" y="932" sx="1017" sy="80"/>
+				<buttonres_ref name="GAMEOVER_CaliforniaChampion_StripeSMALL"/>
+			</picture>
+			<button name="Message Victory_Sport - BUTTON - CONTINUE">
+				<coords x="550" y="1090" sx="500" sy="64"/>
+				<buttonres_ref name="Button COMMON Communicator NoDet"/>
+				<text locref="common\CONTINUE">CONTINUE</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER INSTANTORDER - DEFAULTED">
+		<picture name="Message GAMEOVER INSTANTORDER - DEFAULTED - BACK">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="GameoverINSTANTORDER - DEFAULTED - BACK middle">
+				<coords x="0" y="535" sx="1" sy="1"/>
+				<picture name="SKY left">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="28" sx="2810" sy="172"/>
+					<texcoords index="0" x0="323" y0="2" x1="323" y1="115" x2="353" y2="115" x3="353" y3="2"/>
+				</picture>
+				<picture name="SKY right">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="1590" y="28" sx="2810" sy="172"/>
+					<texcoords index="0" x0="323" y0="2" x1="323" y1="115" x2="353" y2="115" x3="353" y3="2"/>
+				</picture>
+				<picture name="SKY">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="5" y="28" sx="1590" sy="172"/>
+					<texcoords index="0" x0="323" y0="115" x1="323" y1="2" x2="353" y2="2" x3="353" y3="115"/>
+				</picture>
+				<picture name="CITY left">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="10" y="120" sx="480" sy="84"/>
+					<texrect index="0" x="0" y="0" sx="320" sy="56"/>
+				</picture>
+				<picture name="CITY right">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="1110" y="120" sx="480" sy="84"/>
+					<texrect index="0" x="0" y="60" sx="320" sy="56"/>
+				</picture>
+				<picture name="GROUND bottom">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="200" sx="7200" sy="72"/>
+					<texrect index="0" x="358" y="2" sx="1" sy="28"/>
+				</picture>
+				<picture name="GROUND top">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="194" sx="7200" sy="10"/>
+					<texrect index="0" x="0" y="118" sx="7200" sy="10"/>
+				</picture>
+				<picture name="TRUCK right">
+					<material>GAMEOVER_INSTANTORDER_trucks</material>
+					<coords x="640" y="82" sx="256" sy="128"/>
+					<texrect index="0" x="256" y="0" sx="256" sy="128"/>
+				</picture>
+				<picture name="ORDER">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="812" y="60" sx="144" sy="178"/>
+					<texrect index="0" x="416" y="0" sx="96" sy="118"/>
+				</picture>
+				<picture name="ORDER - DEFAULTED">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="834" y="125" sx="106" sy="116"/>
+					<texrect index="0" x="363" y="0" sx="53" sy="58"/>
+				</picture>
+			</picture>
+			<picture name="GameoverINSTANTORDER - DEFAULTED - BACK 01">
+				<coords x="0" y="245" sx="1" sy="1"/>
+				<picture name="SHADOW up">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="-5" sx="7200" sy="50"/>
+					<texcoords index="0" x0="359" y0="115" x1="358" y1="115" x2="358" y2="100" x3="359" y3="100"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - Traffic TO LEFT">
+					<material>MenuGameoverTOTAL_traffic_to_LEFT</material>
+					<coords x="-2800" y="176" sx="7200" sy="18"/>
+					<texrect index="0" x="0" y="1" sx="718" sy="6"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - Traffic TO RIGHT">
+					<material>MenuGameoverTOTAL_traffic_to_RIGHT</material>
+					<coords x="-2800" y="176" sx="7200" sy="18"/>
+					<texrect index="0" x="0" y="9" sx="718" sy="6"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK middle">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="176" sx="7200" sy="16"/>
+					<texrect index="0" x="0" y="78" sx="5400" sy="16"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK top">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="20" sx="7200" sy="156"/>
+					<texrect index="0" x="0" y="0" sx="5400" sy="78"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK bottom">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="192" sx="7200" sy="128"/>
+					<texrect index="0" x="0" y="94" sx="5400" sy="64"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK bottom FERMA">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="406" y="191" sx="788" sy="114"/>
+					<texrect index="0" x="118" y="468" sx="916" sy="44"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - BANNER">
+					<material>MenuGameoverTOTALBanner</material>
+					<coords x="522" y="24" sx="552" sy="138"/>
+					<texrect index="0" x="0" y="0" sx="512" sy="128"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - BANNER - Lights">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="528" y="150" sx="540" sy="24"/>
+					<texrect index="0" x="43" y="422" sx="810" sy="31"/>
+				</picture>
+			</picture>
+			<button name="BUTTON - GAMEOVER INSTANTORDER - DEFAULTED - RESTART">
+				<coords x="440" y="450" sx="350" sy="80"/>
+				<buttonres_ref name="Button TOPMENU Tab 350"/>
+				<text locref="common\Restart">Restart</text>
+			</button>
+			<button name="BUTTON - GAMEOVER INSTANTORDER - DEFAULTED - MAIN MENU">
+				<coords x="810" y="450" sx="350" sy="80"/>
+				<buttonres_ref name="Button TOPMENU Tab 350"/>
+				<text locref="common\Main Menu">Main Menu</text>
+			</button>
+			<picture name="GameoverINSTANTORDER - DEFAULTED - BACK 02">
+				<coords x="0" y="-30" sx="1" sy="1"/>
+				<picture name="SHADOW down">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="946" sx="7200" sy="100"/>
+					<texrect index="0" x="358" y="100" sx="1" sy="17"/>
+				</picture>
+				<picture name="Beton">
+					<material>Main_Menu_BETON01</material>
+					<coords x="-2800" y="837" sx="7200" sy="108"/>
+					<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+				</picture>
+				<picture name="Top Picture 02">
+					<material>Main_Menu_TOP02</material>
+					<coords x="-2800" y="837" sx="7200" sy="108"/>
+					<texrect index="0" x="0" y="0" sx="768" sy="2"/>
+				</picture>
+				<picture name="Line_BETON">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="832" sx="7200" sy="16"/>
+					<texrect index="0" x="0" y="452" sx="2154" sy="16"/>
+				</picture>
+				<picture name="Line_BETON">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="940" sx="7200" sy="16"/>
+					<texrect index="0" x="0" y="452" sx="2154" sy="16"/>
+				</picture>
+				<textfield name="GameoverINSTANTORDER - TEXT - DEFAULTED">
+					<font>ButtonMM FONT CHROME big</font>
+					<coords x="0" y="857" sx="1600" sy="90"/>
+					<textres_ref name="MMTEXT - big - center"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER INSTANTORDER - DEFAULTED\Message GAMEOVER INSTANTORDER - DEFAULTED - BACK\GameoverINSTANTORDER - DEFAULTED - BACK 02\GameoverINSTANTORDER - TEXT - DEFAULTED">YOU DEFAULTED THE ORDER</text>
+				</textfield>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Message GAMEOVER INSTANTORDER - EXECUTED">
+		<picture name="Message GAMEOVER INSTANTORDER - EXECUTED - BACK">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="GameoverINSTANTORDER - EXECUTED - BACK middle">
+				<coords x="0" y="470" sx="1" sy="1"/>
+				<picture name="SKY left">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="28" sx="2820" sy="172"/>
+					<texcoords index="0" x0="323" y0="2" x1="323" y1="115" x2="353" y2="115" x3="353" y3="2"/>
+				</picture>
+				<picture name="SKY right">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="1580" y="28" sx="2820" sy="172"/>
+					<texcoords index="0" x0="323" y0="2" x1="323" y1="115" x2="353" y2="115" x3="353" y3="2"/>
+				</picture>
+				<picture name="SKY">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="0" y="28" sx="1600" sy="172"/>
+					<texcoords index="0" x0="323" y0="115" x1="323" y1="2" x2="353" y2="2" x3="353" y3="115"/>
+				</picture>
+				<picture name="CITY left">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="10" y="120" sx="480" sy="84"/>
+					<texrect index="0" x="0" y="0" sx="320" sy="56"/>
+				</picture>
+				<picture name="CITY right">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="1110" y="120" sx="480" sy="84"/>
+					<texrect index="0" x="0" y="60" sx="320" sy="56"/>
+				</picture>
+				<picture name="GROUND bottom">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="200" sx="7200" sy="202"/>
+					<texrect index="0" x="358" y="2" sx="1" sy="28"/>
+				</picture>
+				<picture name="GROUND top">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="194" sx="7200" sy="10"/>
+					<texrect index="0" x="0" y="118" sx="2134" sy="10"/>
+				</picture>
+				<picture name="TRUCK left">
+					<material>GAMEOVER_INSTANTORDER_trucks</material>
+					<coords x="720" y="82" sx="256" sy="128"/>
+					<texrect index="0" x="0" y="0" sx="256" sy="128"/>
+				</picture>
+				<picture name="ORDER">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="622" y="60" sx="144" sy="178"/>
+					<texrect index="0" x="416" y="0" sx="96" sy="118"/>
+				</picture>
+				<picture name="ORDER - EXECUTED">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="659" y="105" sx="106" sy="116"/>
+					<texrect index="0" x="363" y="58" sx="53" sy="58"/>
+				</picture>
+			</picture>
+			<picture name="GameoverINSTANTORDER - EXECUTED - RESULTS">
+				<coords x="0" y="726" sx="1" sy="1"/>
+				<picture name="line">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="300" y="36" sx="1000" sy="2"/>
+					<texcoords index="0" x0="358" y0="65" x1="358" y1="35" x2="359" y2="35" x3="359" y3="65"/>
+				</picture>
+				<picture name="stripe">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="300" y="38" sx="1000" sy="28"/>
+					<texcoords index="0" x0="358" y0="97" x1="358" y1="67" x2="359" y2="67" x3="359" y3="97"/>
+				</picture>
+				<picture name="stripe">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="300" y="94" sx="1000" sy="28"/>
+					<texcoords index="0" x0="358" y0="97" x1="358" y1="67" x2="359" y2="67" x3="359" y3="97"/>
+				</picture>
+				<picture name="line">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="300" y="122" sx="1000" sy="2"/>
+					<texcoords index="0" x0="358" y0="65" x1="358" y1="35" x2="359" y2="35" x3="359" y3="65"/>
+				</picture>
+				<textfield name="GameoverINSTANTORDER - EXECUTED - RESULTS - TITLE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="300" y="0" sx="1000" sy="36"/>
+					<textres_ref name="RESULTS - orange - center"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER INSTANTORDER - EXECUTED\Message GAMEOVER INSTANTORDER - EXECUTED - BACK\GameoverINSTANTORDER - EXECUTED - RESULTS\GameoverINSTANTORDER - EXECUTED - RESULTS - TITLE">RESULTS</text>
+				</textfield>
+				<textfield name="GameoverINSTANTORDER - EXECUTED - PROFIT - TITLE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="300" y="35" sx="500" sy="36"/>
+					<textres_ref name="RESULTS - yellow - right"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER INSTANTORDER - EXECUTED\Message GAMEOVER INSTANTORDER - EXECUTED - BACK\GameoverINSTANTORDER - EXECUTED - RESULTS\GameoverINSTANTORDER - EXECUTED - PROFIT - TITLE">Profit :</text>
+				</textfield>
+				<textfield name="GameoverINSTANTORDER - EXECUTED - PROFIT - VALUE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="810" y="35" sx="500" sy="36"/>
+					<textres_ref name="RESULTS - white - left"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER INSTANTORDER - EXECUTED\Message GAMEOVER INSTANTORDER - EXECUTED - BACK\GameoverINSTANTORDER - EXECUTED - RESULTS\GameoverINSTANTORDER - EXECUTED - PROFIT - VALUE">%SIGN%$ %MONEY%/h</text>
+				</textfield>
+				<textfield name="GameoverINSTANTORDER - EXECUTED - AVERAGE SPEED - TITLE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="300" y="63" sx="500" sy="36"/>
+					<textres_ref name="RESULTS - yellow - right"/>
+					<text locref="common\Average Speed :">Average Speed :</text>
+				</textfield>
+				<textfield name="GameoverINSTANTORDER - EXECUTED - AVERAGE SPEED - VALUE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="810" y="63" sx="500" sy="36"/>
+					<textres_ref name="RESULTS - white - left"/>
+					<text locref="common\%VALUE% mph">%VALUE% mph</text>
+				</textfield>
+				<textfield name="GameoverINSTANTORDER - EXECUTED - CAREFULNESS - TITLE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="300" y="91" sx="500" sy="36"/>
+					<textres_ref name="RESULTS - yellow - right"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER INSTANTORDER - EXECUTED\Message GAMEOVER INSTANTORDER - EXECUTED - BACK\GameoverINSTANTORDER - EXECUTED - RESULTS\GameoverINSTANTORDER - EXECUTED - CAREFULNESS - TITLE">Carefulness :</text>
+				</textfield>
+				<textfield name="GameoverINSTANTORDER - EXECUTED - CAREFULNESS - VALUE">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="810" y="91" sx="500" sy="36"/>
+					<textres_ref name="RESULTS - white - left"/>
+					<text>%VALUE% %</text>
+				</textfield>
+			</picture>
+			<picture name="GameoverINSTANTORDER - EXECUTED - BACK 01">
+				<coords x="0" y="180" sx="1" sy="1"/>
+				<picture name="SHADOW up">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="-5" sx="7200" sy="50"/>
+					<texcoords index="0" x0="359" y0="115" x1="358" y1="115" x2="358" y2="100" x3="359" y3="100"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - Traffic TO LEFT">
+					<material>MenuGameoverTOTAL_traffic_to_LEFT</material>
+					<coords x="-2800" y="176" sx="7200" sy="18"/>
+					<texrect index="0" x="0" y="1" sx="718" sy="6"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - Traffic TO RIGHT">
+					<material>MenuGameoverTOTAL_traffic_to_RIGHT</material>
+					<coords x="-2800" y="176" sx="7200" sy="18"/>
+					<texrect index="0" x="0" y="9" sx="718" sy="6"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK middle">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="176" sx="7200" sy="16"/>
+					<texrect index="0" x="0" y="78" sx="5400" sy="16"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK top">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="20" sx="7200" sy="156"/>
+					<texrect index="0" x="0" y="0" sx="5400" sy="78"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK bottom">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="192" sx="7200" sy="128"/>
+					<texrect index="0" x="0" y="94" sx="5400" sy="64"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - COMMON BACK bottom FERMA">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="406" y="191" sx="788" sy="114"/>
+					<texrect index="0" x="118" y="468" sx="916" sy="44"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - BANNER">
+					<material>MenuGameoverTOTALBanner</material>
+					<coords x="522" y="24" sx="552" sy="138"/>
+					<texrect index="0" x="0" y="0" sx="512" sy="128"/>
+				</picture>
+				<picture name="GameoverINSTANTORDER - BANNER - Lights">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="528" y="150" sx="540" sy="24"/>
+					<texrect index="0" x="43" y="422" sx="810" sy="31"/>
+				</picture>
+			</picture>
+			<button name="BUTTON - GAMEOVER INSTANTORDER - EXECUTED - RESTART">
+				<coords x="440" y="385" sx="350" sy="80"/>
+				<buttonres_ref name="Button TOPMENU Tab 350"/>
+				<text locref="common\Restart">Restart</text>
+			</button>
+			<button name="BUTTON - GAMEOVER INSTANTORDER - EXECUTED - MAIN MENU">
+				<coords x="810" y="385" sx="350" sy="80"/>
+				<buttonres_ref name="Button TOPMENU Tab 350"/>
+				<text locref="common\Main Menu">Main Menu</text>
+			</button>
+			<picture name="GameoverINSTANTORDER - EXECUTED - BACK 02">
+				<coords x="0" y="35" sx="1" sy="1"/>
+				<picture name="SHADOW down">
+					<material>GAMEOVER_INSTANTORDER_01</material>
+					<coords x="-2800" y="946" sx="7200" sy="100"/>
+					<texrect index="0" x="358" y="100" sx="1" sy="17"/>
+				</picture>
+				<picture name="Beton">
+					<material>Main_Menu_BETON01</material>
+					<coords x="-2800" y="837" sx="7200" sy="108"/>
+					<texrect index="0" x="0" y="0" sx="1" sy="1"/>
+				</picture>
+				<picture name="Top Picture 02">
+					<material>Main_Menu_TOP02</material>
+					<coords x="-2800" y="837" sx="7200" sy="108"/>
+					<texrect index="0" x="0" y="0" sx="768" sy="2"/>
+				</picture>
+				<picture name="Line_BETON">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="832" sx="7200" sy="16"/>
+					<texrect index="0" x="0" y="452" sx="2154" sy="16"/>
+				</picture>
+				<picture name="Line_BETON">
+					<material>MenuGameoverTOTAL_NoDet</material>
+					<coords x="-2800" y="940" sx="7200" sy="16"/>
+					<texrect index="0" x="0" y="452" sx="2154" sy="16"/>
+				</picture>
+				<textfield name="GameoverINSTANTORDER - TEXT - EXECUTED">
+					<font>ButtonMM FONT GOLD big</font>
+					<coords x="0" y="857" sx="1600" sy="90"/>
+					<textres_ref name="MMTEXT - big - center"/>
+					<text locref="menu_msg_gameover.xml\Message GAMEOVER INSTANTORDER - EXECUTED\Message GAMEOVER INSTANTORDER - EXECUTED - BACK\GameoverINSTANTORDER - EXECUTED - BACK 02\GameoverINSTANTORDER - TEXT - EXECUTED">CONGRATULATIONS! THE ORDER IS EXECUTED!!!</text>
+				</textfield>
+			</picture>
+		</picture>
+	</controlgroup>
+</menu>

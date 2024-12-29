@@ -1,0 +1,1855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--The XML-file contains: description of cabin panel (gauges and associated control lights, lights), outer lights and wipers.-->
+<CABIN_PANEL_DESCRIPTION>
+	<VEHICLE name="PETERBILT_378">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_378_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Peterbilt_378_GauSpeedSpace" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Peterbilt_378_GauRPMSpace" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_378_GauFuelSpace" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_378_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_378_Gau001Space" type="VOID_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Gau002Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau004Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_378_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Peterbilt_378_Gau003Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau005Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau006Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau007Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Gau008Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Gau009Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Gau010Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_378_Gau011Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau012Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Gau013Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau014Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau015Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_378_Gau016Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_378_Gau017Space" type="VOID_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Peterbilt_378_Gau018Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Gau019Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-19.0" max_value="1.0" min_angle="80.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-18.0" max_value="1.0" min_angle="75.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_378_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Capot_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Capot_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Capot_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Capot_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_1_1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_1_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_2_1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_2_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_2_3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_2_4" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_3_1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_3_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Upgrade_3_3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Case_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_LLight_Case_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_379">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_379_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Peterbilt_379_GauSpeedSpace" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Peterbilt_379_GauRPMSpace" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_379_GauFuelSpace" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_378_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_379_Gau001Space" type="VOID_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Gau002Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau004Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_378_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Peterbilt_379_Gau003Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau005Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau006Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau007Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Gau008Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Gau009Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Gau010Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_379_Gau011Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau012Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Gau013Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau014Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau015Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_379_Gau016Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_379_Gau017Space" type="VOID_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Peterbilt_379_Gau018Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Gau019Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-19.0" max_value="1.0" min_angle="80.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-18.0" max_value="1.0" min_angle="75.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Capot_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Capot_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Capot_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Capot_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Case_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Case_GabL" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Case_GabR" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Upgrade1_Left" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Upgrade1_Right" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Upgrade2_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Upgrade2_Left" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_LLight_Upgrade2_Right" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_379_SPORT">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_Sport_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Peterbilt_Sport_GauSpeedSpace" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Peterbilt_Sport_GauRPMSpace" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_Sport_GauFuelSpace" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_378_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau001Space" type="VOID_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau002Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau004Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_378_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau003Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau005Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau006Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau007Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau008Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau009Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau010Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau011Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau012Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau013Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau014Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau015Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau016Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau017Space" type="VOID_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau018Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Gau019Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-19.0" max_value="1.0" min_angle="80.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-18.0" max_value="1.0" min_angle="75.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_Sport_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_PETERBILT_379_SPORT_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_PETERBILT_379_SPORT_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_PETERBILT_379_SPORT_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_PETERBILT_379_SPORT_LLight_FRONT_FAR_LIGHT" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_PETERBILT_379_SPORT_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_PETERBILT_379_SPORT_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_387">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_387_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Peterbilt_387_GauSpeedSpace" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Peterbilt_387_GauRPMSpace" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_387_GauFuelSpace" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_387_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_387_Gau001Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_387_Gau003Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_387_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_387_Gau008Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_387_Gau010Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_387_Gau012Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_387_Gau007Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Peterbilt_387_Gau002Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_387_Gau004Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_387_Gau013Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_387_Gau005Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_387_Gau009Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_387_Gau011Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Peterbilt_387_Gau006Space" type="VOID_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-40.0" max_value="1.0" min_angle="75.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_387_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-40.0" max_value="1.0" min_angle="72.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_387_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Capot_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Capot_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Capot_FrontFar1" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Capot_FrontFar2" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Capot_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Capot_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Case_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Case_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Case_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Upgrade1_1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Upgrade1_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Upgrade2_1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_387_LLight_Upgrade2_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="KENWORTH_W900L">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Kenworth_W900_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Kenworth_W900_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Kenworth_W900_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Kenworth_W900_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_W900_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_W900_Gau003_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_W900_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau007_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau008_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau009_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau013_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau014_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Kenworth_W900_Gau005_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_W900_Gau006_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_W900_Gau011_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_W900_Gau010_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_W900_Gau012_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_W900_Gau015_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_W900_Gau016_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau017_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Gau018_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-72.61" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="72.12" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_W900_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Front0" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Spoiler_Kit_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Spoiler_Kit_3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Upgrade_Kit_1_Bumper" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Upgrade_Kit_2_Bumper" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Upgrade_Kit_1_Case_Left" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Upgrade_Kit_1_Case_Right" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Upgrade_Kit_2_Case_Left" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_W900_LLight_Upgrade_Kit_2_Case_Right" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="KENWORTH_W900L_SPORT">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Kenworth_Sport_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_Sport_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Kenworth_Sport_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Kenworth_Sport_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Kenworth_Sport_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_Sport_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau003_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_Sport_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau007_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau008_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau009_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau013_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau014_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau005_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau006_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau011_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau010_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau012_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau015_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau016_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau017_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Gau018_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-72.61" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="72.12" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_Sport_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KENWORTH_W900L_SPORT_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KENWORTH_W900L_SPORT_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KENWORTH_W900L_SPORT_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KENWORTH_W900L_SPORT_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KENWORTH_W900L_SPORT_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KENWORTH_W900L_SPORT_LLight_FRONT_FAR_LIGHT" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="KENWORTH_T2000">
+		<INSIDE>
+			<LIGHT dword_name="Dword_KenworthT2000_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_turner_left" type="LEFT_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Kenworth_T2000_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Kenworth_T2000_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="false">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_T2000_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau001_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="false">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_T2000_rear_br" max_value="260.0" min_value="237.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau003_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau007_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau008_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau009_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau013_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau014_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau005_Space" type="VOLT_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau006_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau011_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau010_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau012_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T2000_Gau015_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="false"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-34.16" max_value="1.0" min_angle="80.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-35.54" max_value="1.0" min_angle="71.75" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T2000_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Bumper_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Bumper_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Bumper_Front3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Bumper_Front4" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Bumper_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Bumper_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_Gab0" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_Gab1" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_Gab2" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_upgr2_Gab1" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_upgr2_Gab2" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_upgr3_Gab1" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Case_upgr3_Gab2" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Step02_upgr2_Gab1" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Step02_upgr2_Gab2" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Step02_upgr3_Gab2" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T2000_LLight_Step02_upgr3_Gab1" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KenworthT2000_LLights_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KenworthT2000_LLights_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_KenworthT2000_LLights_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="KENWORTH_T600W">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Kenworth_T600_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Kenworth_T600_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Kenworth_T600_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Kenworth_T600_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_T600_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="280.0" min_angle="-55.0" min_value="80.0" scale_factor="1.0" space_name="Kenworth_T600_Gau003_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_T600_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau007_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau008_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau009_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau013_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau014_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Kenworth_T600_Gau005_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T600_Gau006_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T600_Gau011_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T600_Gau010_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T600_Gau012_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T600_Gau015_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T600_Gau016_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau017_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Gau018_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-80.8" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="88.17" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T600_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_CapotLeft1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_CapotLeft2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_BumperLeft" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_CapotRight1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_CapotRight2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_BumperLeft" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Upgrade1_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Upgrade1_Left" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Upgrade1_Right" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Upgrade2_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Upgrade2_Left" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Upgrade2_Right" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T600_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="KENWORTH_T800">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Kenworth_T800_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Kenworth_T800_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Kenworth_T800_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Kenworth_T800_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_T800_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T800_Gau003_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Kenworth_T800_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau007_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau008_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau009_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau013_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau014_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Kenworth_T800_Gau005_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T800_Gau006_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T800_Gau011_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T800_Gau010_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T800_Gau012_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T800_Gau015_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Kenworth_T800_Gau016_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau017_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Gau018_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-75.0" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="75.0" max_value="1.0" min_angle="0.0" min_value="0.0" scale_factor="1.0" space_name="Kenworth_T800_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightBack" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightGab" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightStop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCaseBack01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCaseGab01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCaseBack02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCaseGab02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCapotLeft" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCapotRight" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCapotFront04" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCapotFront01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCapotFront02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCapotFront03" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightBumper01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightBumper02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_LLightCaseGab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_Upgrade_Lights_LLight_upgrade2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_Upgrade_Lights_LLight_upgrade3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Kenworth_T800_Upgrade_Lights_LLight_upgrade4" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="STERLING_9500">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Sterling_9500_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_9500_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_9500_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_9500_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_9500_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_9500_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_9500_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Sterling_9500_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Sterling_9500_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Sterling_9500_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Sterling_9500_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Sterling_9500_Gau001_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_9500_Gau002_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Sterling_9500_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_9500_Gau003_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_9500_Gau004_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_9500_Gau006_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_9500_Gau005_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_9500_Gau007_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_9500_Gau008_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_9500_Gau010_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_9500_Gau009_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_9500_Gau011_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-25.0" max_value="1.0" min_angle="77.53" min_value="0.0" scale_factor="1.0" space_name="Sterling_9500_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-32.0" max_value="1.0" min_angle="76.41" min_value="0.0" scale_factor="1.0" space_name="Sterling_9500_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Case_Gab1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Case_Gab2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Case_Gab3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Capot_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Capot_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Capot_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Capot_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Capot_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_9500_LLight_Capot_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="STERLING_9500_SPORT">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Sterling_Sport_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Sterling_Sport_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Sterling_Sport_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Sterling_Sport_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Sterling_Sport_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Sterling_Sport_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Sterling_Sport_Gau001_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_Sport_Gau002_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Sterling_Sport_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_Sport_Gau003_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_Sport_Gau004_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_Sport_Gau006_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_Sport_Gau005_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_Sport_Gau007_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_Sport_Gau008_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Sterling_Sport_Gau010_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_Sport_Gau009_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Sterling_Sport_Gau011_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-25.0" max_value="1.0" min_angle="77.53" min_value="0.0" scale_factor="1.0" space_name="Sterling_Sport_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-32.0" max_value="1.0" min_angle="76.41" min_value="0.0" scale_factor="1.0" space_name="Sterling_Sport_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_STERLING_9500_SPORT_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_STERLING_9500_SPORT_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_STERLING_9500_SPORT_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_STERLING_9500_SPORT_LLight_FRONT_FAR_LIGHT" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_STERLING_9500_SPORT_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_STERLING_9500_SPORT_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="FREIGHTLINER_CLASSIC_XL">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_ClassicXL_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Freight_ClassicXL_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Freight_ClassicXL_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Freight_ClassicXL_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Freight_ClassicXL_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau003_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Freight_ClassicXL_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau007_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau008_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau009_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau013_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau014_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau005_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau006_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau011_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau010_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau015_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau016_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau017_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Gau018_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-30.0" max_value="1.0" min_angle="70.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-20.0" max_value="1.0" min_angle="70.0" min_value="0.0" scale_factor="1.0" space_name="Freight_ClassicXL_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FCXL_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FCXL_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FCXL_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Switch_FCXL_LLight_FFL" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FCXL_LLight_Far" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FCXL_LLight" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FCXL_LLight_Turn_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FCXL_LLight_Turn_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="FREIGHTLINER_ARGOSY">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_Gauges_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Freight_Argosy_GauSpeedSpace" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Freight_Argosy_GauRPMSpace" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Freight_Argosy_GauFuelSpace" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Freight_Argosy_Gauges_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Argosy_Gau001Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Argosy_Gau002Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Freight_Argosy_Gauges_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Argosy_Gau010Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Argosy_Gau006Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Argosy_Gau007Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Argosy_Gau008Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Freight_Argosy_Gau004Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Argosy_Gau005Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Argosy_Gau003Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Argosy_Gau009Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Argosy_Gau011Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-9.5" max_value="1.0" min_angle="90.5" min_value="0.0" scale_factor="1.0" space_name="Freight_Argosy_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-9.5" max_value="1.0" min_angle="90.5" min_value="0.0" scale_factor="1.0" space_name="Freight_Argosy_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Front_Far_01" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Front_01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Front_Far_02" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Front_02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Argosy_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="FREIGHTLINER_CORONADO">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Freight_Cor_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Cor_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Cor_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Cor_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Cor_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Cor_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Cor_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Freight_Cor_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Freight_Cor_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Freight_Cor_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau002_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Freight_Cor_Gau003_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau004_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Cor_Gau012_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau013_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau005_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Cor_Gau006_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau001_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Cor_Gau007_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau010_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Cor_Gau011_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau008_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Cor_Gau009_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-5.0" max_value="1.0" min_angle="90.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Cor_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-30.0" max_value="1.0" min_angle="90.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Cor_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_back_01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_back_02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_back_03" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_front_01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_front_02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_front_03" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_front_04" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_front_05" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_front_06" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_03" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_04" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_left_01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_left_02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_left_03" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_right_01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_right_02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_right_03" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_right_04" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_gab_right_05" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_left_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_left_02" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_left_03" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_left_04" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_park_01" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_park_02" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_right_01" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_right_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_right_03" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_right_04" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_stop_01" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_stop_02" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_1_1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_1_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_1_3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_1_4" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_1_5" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_1_6" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_1_7" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_3" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_4" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_5" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_6" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_7" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_8" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Cor_LLight_Upgrade_Sidemarker_Lights_2_9" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="FREIGHTLINER_CENTURY">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Freight_Century_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Freight_Century_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Freight_Century_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Freight_Century_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Gau002_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Gau005_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Gau006_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Gau007_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Freight_Century_Gau003_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Gau004_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Gau008_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Gau009_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="0.0" max_value="1.0" min_angle="91.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="0.0" max_value="1.0" min_angle="90.68" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_FrontFar" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_rot_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_LLight_rot_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="FREIGHTLINER_CENTURY_SPORT">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freight_Century_Sport_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="Freight_Century_Sport_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Freight_Century_Sport_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="Freight_Century_Sport_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau002_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau003_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau004_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau012_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau013_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau005_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau006_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau001_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau007_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau010_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau011_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau008_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="Freight_Century_Sport_Gau009_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-5.0" max_value="1.0" min_angle="90.0" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Sport_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-3.9" max_value="1.0" min_angle="88.7" min_value="0.0" scale_factor="1.0" space_name="Freight_Century_Sport_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FREIGHTLINER_CENTURY_SPORT_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FREIGHTLINER_CENTURY_SPORT_LLight_FRONT_FAR_LIGHT" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FREIGHTLINER_CENTURY_SPORT_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FREIGHTLINER_CENTURY_SPORT_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FREIGHTLINER_CENTURY_SPORT_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_FREIGHTLINER_CENTURY_SPORT_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GEPARD">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Gepard_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Gepard_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Gepard_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Gepard_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Gepard_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Gepard_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Gepard_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="115.0" min_angle="-90.0" min_value="0.0" scale_factor="2.237" space_name="Gepard_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="3.0" min_angle="-90.0" min_value="0.0" scale_factor="0.06" space_name="Gepard_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="1.0" min_angle="-90.0" min_value="-0.0" scale_factor="1.0" space_name="Gepard_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="1.0" min_angle="-90.0" min_value="-0.0" scale_factor="1.0" space_name="Gepard_GauJetFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="150.0" min_angle="-90.0" min_value="0.0" scale_factor="1.0" space_name="Gepard_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="18.0" min_angle="-90.0" min_value="10.0" scale_factor="1.0" space_name="Gepard_Gau003_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="250.0" min_angle="-90.0" min_value="100.0" scale_factor="1.0" space_name="Gepard_Gau001_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Gepard_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="90.0" max_value="300.0" min_angle="-90.0" min_value="100.0" scale_factor="1.0" space_name="Gepard_Gau004_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="90.0" max_value="300.0" min_angle="-90.0" min_value="100.0" scale_factor="1.0" space_name="Gepard_Gau005_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-14.33" max_value="1.0" min_angle="75.45" min_value="0.0" scale_factor="-1.0" space_name="Gepard_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="15.34" max_value="1.0" min_angle="-75.88" min_value="0.0" scale_factor="1.0" space_name="Gepard_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Booth_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Booth_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Booth_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Bumper_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Bumper_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Capot_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Capot_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Capot_Rot_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Capot_Rot_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Booth_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Capot_Rot_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Capot_Rot_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_LLight_Booth_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="WESTERN_STAR4900_EX">
+		<INSIDE>
+			<LIGHT dword_name="Dword_WesternStar_4900_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="WesternStar_4900_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="WesternStar_4900_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="WesternStar_4900_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="WesternStar_4900_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_4900_Gau003_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_WesternStar_4900_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Gau006_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Gau007_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Gau008_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Gau012_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="WesternStar_4900_Gau004_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_4900_Gau005_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_4900_Gau010_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_4900_Gau009_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_4900_Gau011_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="0.0" max_value="1.0" min_angle="88.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="5.0" max_value="1.0" min_angle="89.9" min_value="0.0" scale_factor="1.0" space_name="WesternStar_4900_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_CaseBack" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_UpGab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Bumper" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Front02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_Front01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_CaseGab01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_AirFilter02" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_4900_LLight_AirFilter01" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="WESTERN_STAR4900_SPORT">
+		<INSIDE>
+			<LIGHT dword_name="Dword_WesternStar_Sport_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WesternStar_Sport_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="85.0" min_angle="-120.0" min_value="5.0" scale_factor="2.237" space_name="WesternStar_Sport_GauSpeed_Space" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="3.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="WesternStar_Sport_GauRPM_Space" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="1.0" min_angle="-55.0" min_value="-0.0" scale_factor="1.0" space_name="WesternStar_Sport_GauFuel_Space" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="WesternStar_Sport_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau001_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="100.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau002_Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="250.0" min_angle="-135.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau003_Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_WesternStar_Sport_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau006_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau007_Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau008_Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau012_Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="18.0" min_angle="-55.0" min_value="10.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau004_Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau005_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau010_Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau009_Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="300.0" min_angle="-55.0" min_value="100.0" scale_factor="1.0" space_name="WesternStar_Sport_Gau011_Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="0.0" max_value="1.0" min_angle="88.0" min_value="0.0" scale_factor="1.0" space_name="WS_Sport_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="5.0" max_value="1.0" min_angle="89.9" min_value="0.0" scale_factor="1.0" space_name="WS_Sport_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WESTERN_STAR4900_SPORT_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WESTERN_STAR4900_SPORT_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WESTERN_STAR4900_SPORT_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WESTERN_STAR4900_SPORT_LLight_FRONT_FAR_LIGHT" type="FRONT_FAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WESTERN_STAR4900_SPORT_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_WESTERN_STAR4900_SPORT_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_379_WRECKER">
+		<INSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_Gauges" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_hnd_br" type="HAND_BREAK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_turner_left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_turner_right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_light" type="FRONT_FAR_LIGHT" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_fwd_br" type="SUSPENSION_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_antifriz" type="ANTIFREESE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_abs" type="ABS_DAMAGED" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_oil_wh_dr" type="OIL_HYDRO_AMPL_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_oil" type="OIL_PREASURE_LOW" work_with_ignition_only="true"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_av" type="ALLERT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_podv" type="CHARGING_DAMAGED" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="120.0" min_angle="-120.0" min_value="0.0" scale_factor="2.237" space_name="Peterbilt_379_Wrecker_GauSpeedSpace" type="SPEDOMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="135.0" max_value="4.0" min_angle="-135.0" min_value="0.0" scale_factor="0.06" space_name="Peterbilt_379_Wrecker_GauRPMSpace" type="TACHMETR_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="1.0" min_angle="-45.0" min_value="-0.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_GauFuelSpace" type="FUEL_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_379_Wrecker_lamp" max_value="0.1" min_value="0.0"/>
+			</GAUGE>
+			<GAUGE max_angle="45.0" max_value="1.0" min_angle="-45.0" min_value="-0.25" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau011Space" type="FUEL_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="138.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau002Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="138.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau004Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true">
+				<CONTROL_LIGHT dword_name="Dword_Peterbilt_379_Wrecker_rear_br" max_value="1.0" min_value="0.93"/>
+			</GAUGE>
+			<GAUGE max_angle="55.0" max_value="280.0" min_angle="-55.0" min_value="80.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau012Space" type="WATERTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="110.0" min_angle="-45.0" min_value="-10.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau013Space" type="OILPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="110.0" min_angle="-45.0" min_value="-10.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau008Space" type="AIRPREASU_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="110.0" min_angle="-45.0" min_value="-10.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau009Space" type="AIRPESASUSECONDARY_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau010Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="120.0" max_value="150.0" min_angle="-135.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau019Space" type="AIRAPPLIE_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau003Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="45.0" max_value="18.0" min_angle="-45.0" min_value="8.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau018Space" type="VOLT_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="140.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau007Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="140.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau014Space" type="OILBOXTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="140.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau005Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="140.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau016Space" type="AXLEFRONTTEMP_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="140.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau006Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+			<GAUGE max_angle="55.0" max_value="320.0" min_angle="-55.0" min_value="140.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Gau015Space" type="OILTEMPER_GAUGE" work_with_ignition_only="true"/>
+		</INSIDE>
+		<OUTSIDE>
+			<GAUGE max_angle="-19.0" max_value="1.0" min_angle="80.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Wiper1Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<GAUGE max_angle="-18.0" max_value="1.0" min_angle="75.0" min_value="0.0" scale_factor="1.0" space_name="Peterbilt_379_Wrecker_Wiper2Space" type="WIPERS_GAUGE" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Capot_Front1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Capot_Front2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Capot_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Capot_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Case_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Case_Gab1" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Case_Gab2" type="PARK_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_379_Wrecker_LLight_Case_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Chevrolet_Avalanche">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Chevy_Avalanche_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Avalanche_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Avalanche_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Avalanche_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Avalanche_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Avalanche_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Chevrolet_Express">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Express_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Chevrolet_Silverado">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Chevy_Silverado_LLight_Front_Far" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Silverado_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Silverado_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Silverado_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Silverado_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Silverado_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Silverado_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Chevrolet_Cavalier">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Left2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Left3" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Left4" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chevy_Cavalier_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Chrysler_Voyager">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Fronti" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Chrysler_Voyager_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Dodge_Grand_Caravan">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Gr_Cv_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Dodge_Intrepid">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Dodge_Intrepid_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Intrepid_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Intrepid_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Intrepid_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Intrepid_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dodge_Intrepid_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="FREIGHTLINER_FL60">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="FREIGHTLINER_FL60_2">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Freightliner_FL60_2_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Freightliner_FL_65_Schoolbus">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Schoolbus_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GMC_TOPKICK4500">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GMC_TOPKICK4500_JOHN">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick4500_John_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GMC_TOPKICK4500_JOHN_TRAMPLIN">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Tramp_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Tramp_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Tramp_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Tramp_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GMC_TOPKICK8500">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GMC_TOPKICK8500_FLAT">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Flat_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GMC_TOPKICK8500_CISTERN">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Cistern_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="GMC_TOPKICK8500_DUMP">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_GMC_TopKick8500_Dump_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_378_DUMP">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dump_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_378_CONTAINER">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_container_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_378_DRYVAN">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="PETERBILT_378_DRYVAN_2">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Peterbilt_378_dryvan_2_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="WORK_TRUCK">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Work_truck_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Army_vechicle">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Army_vechicle_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Army_vechicle_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Army_vechicle_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Army_vechicle_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Army_vechicle_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Ford_CV">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Ford_CV_taxi">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Ford_CV_taxi1">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_CV_taxi1_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Ford_CV_police">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Police01_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Police01_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Police01_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Police01_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Police01_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Police01_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Police01_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Police01_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Ford_F350">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Left1" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Left2" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Right1" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Right2" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Ford_F_350_LLight_Gab" type="PARK_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Lincoln_Town_Car">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_LincolnTownCar_LLight_Front_Far" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_LincolnTownCar_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_LincolnTownCar_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_LincolnTownCar_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_LincolnTownCar_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_LincolnTownCar_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Toyota_Camry">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Toyota_Camry_LLight_Front_Far" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Toyota_Camry_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Toyota_Camry_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Toyota_Camry_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Toyota_Camry_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Toyota_Camry_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="VW_NewBeatle">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_rot_03" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_rot_04" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_VW_NewBeatle_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Low_boy">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Low_boy_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Low_boy_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Low_boy_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Low_boy_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Low_boy_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="flat_bed">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Flat_bed_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="flat_bed_cargo1">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Flat_bed_cargo1_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo1_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo1_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo1_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo1_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="flat_bed_cargo2">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Flat_bed_cargo2_Light_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo2_Light_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo2_Light_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo2_Light_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo2_Light_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="flat_bed_cargo3">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Flat_bed_cargo3_Light_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo3_Light_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo3_Light_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo3_Light_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_cargo3_Light_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="flat_bed_sheets">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Flat_bed_Sheets_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Sheets_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Sheets_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Sheets_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Sheets_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Sheets_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="flat_bed_hay">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Flat_bed_Hay_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Hay_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Hay_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Hay_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Hay_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Hay_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="flat_bed_wire">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Flat_bed_Wire_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Wire_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Wire_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Wire_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Wire_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Flat_bed_Wire_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="refrigerator">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Refrigerator_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Refrigerator_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Refrigerator_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Refrigerator_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Refrigerator_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Refrigerator_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Oil_tank">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Oil_tank_LLight_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Oil_tank_LLight_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Oil_tank_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Oil_tank_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Oil_tank_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Oil_tank_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Car_carier">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Car_carier_Light_rot_01" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Car_carier_Light_rot_02" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Car_carier_Light_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Car_carier_Light_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Car_carier_Light_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Car_carier_Light_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_01">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_01_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_01_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_01_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_01_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_01_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_Stimorol">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_Stimorol_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Stimorol_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Stimorol_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Stimorol_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Stimorol_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_Ochakovo">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_Ochakovo_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Ochakovo_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Ochakovo_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Ochakovo_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_Ochakovo_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_02">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_02_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_02_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_02_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_02_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_02_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_021">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_021_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_021_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_021_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_021_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_021_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_03">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_03_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_03_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_03_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_03_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_03_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_031">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_031_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_031_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_031_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_031_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_031_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_48d_04">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_48d_04_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_04_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_04_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_04_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_48d_04_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_49d_01">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_DryVan_49d_01_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_01_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_01_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_01_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_01_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_49d_02">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_DryVan_49d_02_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_02_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_02_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_02_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_02_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="DryVan_49d_03">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_DryVan_49d_03_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_03_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_03_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_03_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_DryVan_49d_03_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Hopper">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Hopper_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Hopper_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Hopper_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Hopper_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Hopper_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Horse_Trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Horse_Trailer_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Horse_Trailer_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Horse_Trailer_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Horse_Trailer_LLight_Park" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Horse_Trailer_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Horse_Trailer_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Dump">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Dump_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Dump2">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Dump2_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump2_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump2_LLight_Back1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump2_LLight_Back2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump2_LLight_Stop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump2_LLight_Stop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump2_LLight_Gab1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dump2_LLight_Gab2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Livestock_cow">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Livestock_cow_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_cow_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_cow_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_cow_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_cow_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Livestock_pig">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Livestock_pig_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_pig_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_pig_LLight_Back" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_pig_LLight_Stop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Livestock_pig_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Gas_tank_01">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Gas_tank_LightBack" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gas_tank_LightStop" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gas_tank_LightPark" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gas_tank_LightLeft" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gas_tank_LightRight" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Curtain_side">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Back1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Back2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Stop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Stop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Gab1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Curtain_side_LLight_Gab2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Dry_Bulk">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Dry_Bulk_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dry_Bulk_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dry_Bulk_LLight_Back1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dry_Bulk_LLight_Back2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dry_Bulk_LLight_Stop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Dry_Bulk_LLight_Stop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Beverage">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Beverage_LLight_Front" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Beverage_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Beverage_LLight_Back1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Beverage_LLight_Back2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Beverage_LLight_Stop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Beverage_LLight_Stop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Log_Logs">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Log_Logs_LLightLeft" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Logs_LLightRight" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Logs_LLightBack1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Logs_LLightBack2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Logs_LLightStop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Logs_LLightStop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Log_Timbers">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Log_Timber_LLightLeft" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Timber_LLightRight" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Timber_LLightBack1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Timber_LLightBack2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Timber_LLightStop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Timber_LLightStop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Log_Pipes">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Log_Pipes_LLightLeft" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Pipes_LLightRight" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Pipes_LLightBack1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Pipes_LLightBack2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Pipes_LLightStop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Log_Pipes_LLightStop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="Gepard_Trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Gab" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Left" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Right" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Back1" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Back2" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Stop1" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Stop2" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Park1" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_Gepard_Trailer_LLight_Park2" type="REAR_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="BIG_RACE_trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_BIG_RACE_trailer_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_trailer_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_trailer_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_trailer_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_trailer_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="BIG_RACE_l1_trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_BIG_RACE_l1_trailer_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l1_trailer_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l1_trailer_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l1_trailer_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l1_trailer_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="BIG_RACE_l2_trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_BIG_RACE_l2_trailer_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l2_trailer_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l2_trailer_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l2_trailer_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_l2_trailer_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="BIG_RACE_lc_trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_BIG_RACE_lc_trailer_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lc_trailer_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACEr_lc_traile_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lc_trailer_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lc_trailer_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="BIG_RACE_lm_trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_BIG_RACE_lm_trailer_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lm_trailer_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lm_trailer_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lm_trailer_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lm_trailer_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+	<VEHICLE name="BIG_RACE_lp_trailer">
+		<OUTSIDE>
+			<LIGHT dword_name="Dword_BIG_RACE_lp_trailer_LLight_REAR_LIGHT" type="REAR_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lp_trailer_LLight_RIGHT_LIGHT" type="RIGHT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lp_trailer_LLight_LEFT_LIGHT" type="LEFT_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lp_trailer_LLight_STOP_LIGHT" type="STOP_LIGHT" work_with_ignition_only="false"/>
+			<LIGHT dword_name="Dword_BIG_RACE_lp_trailer_LLight_FRONT_LIGHT" type="FRONT_LIGHT" work_with_ignition_only="false"/>
+		</OUTSIDE>
+	</VEHICLE>
+</CABIN_PANEL_DESCRIPTION>

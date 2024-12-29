@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<icons resx="512" resy="512">
+  <item id="Woman021" x="129" y="1" sx="62" sy="62" />
+  <item id="Woman022" x="65" y="1" sx="62" sy="62"></item>
+  <item id="Woman023" x="193" y="1" sx="62" sy="62"></item>
+  <item id="Woman024" x="257" y="1" sx="62" sy="62"></item>
+  <item id="Woman025" x="321" y="1" sx="62" sy="62" />
+  <item id="Man_000" x="1" y="1" sx="62" sy="62" />
+  <item id="Man_001" x="1" y="193" sx="62" sy="62" />
+  <item id="Man_002" x="65" y="193" sx="62" sy="62" />
+  <item id="Man_003" x="129" y="193" sx="62" sy="62" />
+  <item id="Man_004" x="193" y="193" sx="62" sy="62" />
+  <item id="Man_005" x="257" y="193" sx="62" sy="62" />
+  <item id="Man_006" x="321" y="193" sx="62" sy="62" />
+  <item id="Man_007" x="385" y="193" sx="62" sy="62" />
+  <item id="Man_008" x="449" y="193" sx="62" sy="62" />
+  <item id="Man_009" x="1" y="257" sx="62" sy="62" />
+  <item id="Man_010" x="65" y="257" sx="62" sy="62" />
+  <item id="Man_011" x="129" y="257" sx="62" sy="62" />
+  <item id="Man_012" x="193" y="257" sx="62" sy="62" />
+  <item id="Man_013" x="257" y="257" sx="62" sy="62" />
+  <item id="Man_014" x="321" y="257" sx="62" sy="62" />
+  <item id="Man_015" x="385" y="257" sx="62" sy="62" />
+  <item id="Man_016" x="449" y="257" sx="62" sy="62" />
+  <item id="Man_017" x="1" y="321" sx="62" sy="62" />
+  <item id="Man_018" x="65" y="321" sx="62" sy="62" />
+  <item id="Man_019" x="129" y="321" sx="62" sy="62" />
+  <item id="Man_020" x="193" y="321" sx="62" sy="62" />
+  <item id="Man_021" x="1" y="129" sx="62" sy="62" />
+  <item id="Man_022" x="65" y="129" sx="62" sy="62" />
+  <item id="Man_023" x="129" y="129" sx="62" sy="62" />
+  <item id="Man_024" x="193" y="129" sx="62" sy="62" />
+  <item id="Man_025" x="257" y="129" sx="62" sy="62" />
+  <item id="Man_026" x="321" y="129" sx="62" sy="62" />
+  <item id="Man_027" x="385" y="129" sx="62" sy="62" />
+  <item id="Man_028" x="449" y="129" sx="62" sy="62" />
+  <item id="Man_029" x="449" y="65" sx="62" sy="62" />
+  <item id="Man_030" x="449" y="1" sx="62" sy="62"></item>
+  <item id="Man_031" x="385" y="1" sx="62" sy="62" />
+  <item id="Woman001" x="257" y="321" sx="62" sy="62" />
+  <item id="Woman002" x="321" y="321" sx="62" sy="62" />
+  <item id="Woman003" x="385" y="321" sx="62" sy="62" />
+  <item id="Woman004" x="449" y="321" sx="62" sy="62" />
+  <item id="Woman005" x="1" y="385" sx="62" sy="62" />
+  <item id="Woman006" x="65" y="385" sx="62" sy="62" />
+  <item id="Woman007" x="129" y="385" sx="62" sy="62" />
+  <item id="Woman008" x="193" y="385" sx="62" sy="62" />
+  <item id="Woman009" x="257" y="385" sx="62" sy="62" />
+  <item id="Woman010" x="321" y="385" sx="62" sy="62" />
+  <item id="Woman011" x="385" y="385" sx="62" sy="62" />
+  <item id="Woman012" x="449" y="385" sx="62" sy="62" />
+  <item id="Woman013" x="1" y="449" sx="62" sy="62" />
+  <item id="Woman014" x="65" y="449" sx="62" sy="62" />
+  <item id="Woman015" x="129" y="449" sx="62" sy="62" />
+  <item id="Woman016" x="193" y="449" sx="62" sy="62" />
+  <item id="Woman017" x="257" y="449" sx="62" sy="62" />
+  <item id="Woman018" x="321" y="449" sx="62" sy="62" />
+  <item id="Woman019" x="385" y="449" sx="62" sy="62" />
+  <item id="Woman020" x="449" y="449" sx="62" sy="62" />
+</icons>

@@ -1,0 +1,511 @@
+<cargo>
+	<CargoType>
+		<item name="beverages">
+			<group name="Beverages"/>
+			<gridparams x="2" y="4"/>
+		</item>
+		<item name="carcarrier">
+			<group name="CarCariers"/>
+			<gridparams x="1" y="2"/>
+		</item>
+		<item name="cisternwater">
+			<group name="Oil_tanks"/>
+			<gridparams x="3" y="0"/>
+		</item>
+		<item name="cisternfuel">
+			<group name="Chem_tanks"/>
+			<gridparams x="0" y="1"/>
+		</item>
+		<item name="cisternchem">
+			<group name="Chem_tanks"/>
+			<gridparams x="0" y="1"/>
+		</item>
+		<item name="container">
+			<model name="model_Flat_bed_cargo1"/>
+			<model name="model_Flat_bed_cargo2"/>
+			<model name="model_Flat_bed_cargo3"/>
+			<gridparams x="2" y="2"/>
+		</item>
+		<item name="curtain_side">
+			<group name="Curtain_sides"/>
+			<gridparams x="2" y="0"/>
+		</item>
+		<item name="drybulk_cement">
+			<group name="DryBulks"/>
+			<gridparams x="0" y="4"/>
+		</item>
+		<item name="drybulk_flour">
+			<group name="DryBulks"/>
+			<gridparams x="3" y="3"/>
+		</item>
+		<item name="dryvan">
+			<group name="DryVans"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="gepard_semitrailer">
+			<model name="model_Gepard_Trailer"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="dump">
+			<group name="Dumps"/>
+			<gridparams x="1" y="3"/>
+		</item>
+		<item name="flatbed_sheets">
+			<model name="model_Flat_bed_Sheets"/>
+			<gridparams x="3" y="2"/>
+		</item>
+		<item name="flatbed_wire">
+			<model name="model_Flat_bed_Wire"/>
+			<gridparams x="3" y="2"/>
+		</item>
+		<item name="flatbed_hay">
+			<model name="model_Flat_bed_Hay"/>
+			<gridparams x="3" y="2"/>
+		</item>
+		<item name="hopper">
+			<group name="Hoppers"/>
+			<gridparams x="0" y="3"/>
+		</item>
+		<item name="live_calves">
+			<group name="Livestocks_CALVES"/>
+			<gridparams x="2" y="3"/>
+		</item>
+		<item name="live_cattle">
+			<group name="Livestocks_CATTLE"/>
+			<gridparams x="2" y="3"/>
+		</item>
+		<item name="live_horses">
+			<model name="model_Horse_Trailer"/>
+			<gridparams x="2" y="3"/>
+		</item>
+		<item name="live_sheep">
+			<group name="Livestocks_SHEEP"/>
+			<gridparams x="2" y="3"/>
+		</item>
+		<item name="live_lambs">
+			<group name="Livestocks_LAMBS"/>
+			<gridparams x="2" y="3"/>
+		</item>
+		<item name="live_pigs">
+			<group name="Livestocks_PIGS"/>
+			<gridparams x="2" y="3"/>
+		</item>
+		<item name="live_hogs">
+			<group name="Livestocks_HOGS"/>
+			<gridparams x="2" y="3"/>
+		</item>
+		<item name="log_logs">
+			<model name="model_Log_Logs"/>
+			<gridparams x="1" y="4"/>
+		</item>
+		<item name="log_pipes">
+			<model name="model_Log_Pipes"/>
+			<gridparams x="1" y="4"/>
+		</item>
+		<item name="log_timber">
+			<model name="model_Log_Timber"/>
+			<gridparams x="1" y="4"/>
+		</item>
+		<item name="lowboy_excavator">
+			<model name="model_Low_boy"/>
+			<gridparams x="0" y="2"/>
+		</item>
+		<item name="lowboy_combine">
+			<model name="model_Low_boy_Combain"/>
+			<gridparams x="0" y="2"/>
+		</item>
+		<item name="lowboy_buldozer">
+			<model name="model_Low_boy_Bulldozer"/>
+			<gridparams x="0" y="2"/>
+		</item>
+		<item name="lowboy_tractor">
+			<model name="model_Low_boy_Traktor"/>
+			<gridparams x="0" y="2"/>
+		</item>
+		<item name="lowboy_turbine">
+			<model name="model_Low_boy_Gas_turbine"/>
+			<gridparams x="0" y="2"/>
+		</item>
+		<item name="lowboy_boiler">
+			<model name="model_Low_boy_Boiler"/>
+			<gridparams x="0" y="2"/>
+		</item>
+		<item name="lowboy_roller">
+			<model name="model_Low_boy_Katok"/>
+			<gridparams x="0" y="2"/>
+		</item>
+		<item name="refrigerator">
+			<group name="Refrigerators"/>
+			<gridparams x="0" y="0"/>
+		</item>
+		<item name="ochakovo_trailer">
+			<model name="model_DryVan_48d_Ochakovo"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="stimorol_trailer">
+			<model name="model_DryVan_48d_Stimorol"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="BIG_RACE_trailer">
+			<model name="model_BIG_RACE_trailer"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="l1_trailer">
+			<model name="model_BIG_RACE_l1_trailer"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="l2_trailer">
+			<model name="model_BIG_RACE_l2_trailer"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="lc_trailer">
+			<model name="model_BIG_RACE_lc_trailer"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="lm_trailer">
+			<model name="model_BIG_RACE_lm_trailer"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="lp_trailer">
+			<model name="model_BIG_RACE_lp_trailer"/>
+			<gridparams x="1" y="0"/>
+		</item>
+		<item name="package_box">
+			<model name="model_mission_package1"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="package_safe">
+			<model name="model_mission_package2"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="toxic_liquid_pack">
+			<model name="model_mission_toxic_liquid_pack"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="flowers_box">
+			<model name="model_mission_flowers_box"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="package_box_s1">
+			<model name="model_mission_package_box_s1"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="package_box_s2">
+			<model name="model_mission_package_box_s2"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="generator_pack">
+			<model name="model_mission_generator_pack"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="old_tv_item">
+			<model name="model_mission_old_tv_item"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="fish_pack">
+			<model name="model_mission_fish_pack"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="gen_package">
+			<model name="model_gen_package"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="gen_package_small">
+			<model name="model_gen_package_small"/>
+			<gridparams x="3" y="4"/>
+		</item>
+		<item name="gen_package_big">
+			<model name="model_gen_package_big"/>
+			<gridparams x="3" y="4"/>
+		</item>
+	</CargoType>
+	<ModelGroups>
+		<item name="Temp">
+			<model name="model_Car_carier"/>
+		</item>
+		<item name="Beverages">
+			<model name="model_Beverage"/>
+		</item>
+		<item name="CarCariers">
+			<model name="model_Car_carier"/>
+		</item>
+		<item name="Chem_tanks">
+			<model name="model_Gas_tank_01"/>
+		</item>
+		<item name="Curtain_sides">
+			<model name="model_Curtain_side"/>
+		</item>
+		<item name="DryBulks">
+			<model name="model_Dry_Bulk"/>
+		</item>
+		<item name="DryVans">
+			<model name="model_DryVan_48d_01"/>
+			<model name="model_DryVan_49d_01"/>
+		</item>
+		<item name="Dumps">
+			<model name="model_Dump"/>
+			<model name="model_Dump2"/>
+		</item>
+		<item name="Flat_Beds">
+			<model name="model_Flat_bed_cargo1"/>
+			<model name="model_Flat_bed_cargo2"/>
+			<model name="model_Flat_bed_cargo3"/>
+			<model name="model_Flat_bed_Sheets"/>
+			<model name="model_Flat_bed_Hay"/>
+			<model name="model_Flat_bed_Wire"/>
+		</item>
+		<item name="Hoppers">
+			<model name="model_Hopper"/>
+		</item>
+		<item name="Livestocks_CALVES">
+			<model name="model_Livestock_cow"/>
+		</item>
+		<item name="Livestocks_CATTLE">
+			<model name="model_Livestock_cow"/>
+		</item>
+		<item name="Livestocks_SHEEP">
+			<model name="model_Livestock_sheep"/>
+		</item>
+		<item name="Livestocks_LAMBS">
+			<model name="model_Livestock_sheep"/>
+		</item>
+		<item name="Livestocks_PIGS">
+			<model name="model_Livestock_pig"/>
+		</item>
+		<item name="Livestocks_HOGS">
+			<model name="model_Livestock_pig"/>
+		</item>
+		<item name="Logs">
+			<model name="model_Log_Timber"/>
+			<model name="model_Log_Logs"/>
+			<model name="model_Log_Pipes"/>
+		</item>
+		<item name="Lowboy">
+			<model name="model_Low_boy"/>
+		</item>
+		<item name="Oil_tanks">
+			<model name="model_Oil_tank"/>
+		</item>
+		<item name="Refrigerators">
+			<model name="model_refrigerator"/>
+		</item>
+	</ModelGroups>
+	<Models>
+		<item name="model_Beverage">
+			<params length="11.745" width="2.7" rear="0.15" offset="1.9" centrshift="5.78" lift=""/>
+			<gameparams volume="85" tonnage="10"/>
+		</item>
+		<item name="model_Car_carier">
+			<params length="13.9" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="76" tonnage="10"/>
+		</item>
+		<item name="model_Curtain_side">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78"/>
+			<gameparams volume="90" tonnage="15"/>
+		</item>
+		<item name="model_Dry_Bulk">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="110" tonnage="20"/>
+		</item>
+		<item name="model_DryVan_48d_01">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_DryVan_48d_Ochakovo">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="70" tonnage="10"/>
+		</item>
+		<item name="model_DryVan_48d_Stimorol">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="70" tonnage="10"/>
+		</item>
+		<item name="model_DryVan_49d_01">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_Gepard_Trailer">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_Dump">
+			<params length="10.67" width="2.645" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="40.6" tonnage="10"/>
+		</item>
+		<item name="model_Dump2">
+			<params length="10.67" width="2.645" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="40.6" tonnage="10"/>
+		</item>
+		<item name="model_Flat_bed_cargo1">
+			<params length="13.85" width="2.75" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="77" tonnage="10"/>
+		</item>
+		<item name="model_Flat_bed_cargo2">
+			<params length="13.85" width="2.75" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="77" tonnage="10"/>
+		</item>
+		<item name="model_Flat_bed_cargo3">
+			<params length="13.85" width="2.75" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="77" tonnage="10"/>
+		</item>
+		<item name="model_Flat_bed_Sheets">
+			<params length="13.85" width="2.75" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="77" tonnage="10"/>
+		</item>
+		<item name="model_Flat_bed_Wire">
+			<params length="13.85" width="2.75" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="58" tonnage="10"/>
+		</item>
+		<item name="model_Flat_bed_Sheets">
+			<params length="13.85" width="2.75" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="58" tonnage="10"/>
+		</item>
+		<item name="model_Flat_bed_Hay">
+			<params length="13.85" width="2.75" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="85" tonnage="10"/>
+		</item>
+		<item name="model_Gas_tank_01">
+			<params length="6" width="2.4" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="10"/>
+		</item>
+		<item name="model_Hopper">
+			<params length="13.85" width="2.645" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="46" tonnage="10"/>
+		</item>
+		<item name="model_Horse_Trailer">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="110" tonnage="20"/>
+		</item>
+		<item name="model_Log_Logs">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78" lift=""/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_Log_Pipes">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78" lift=""/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_Log_Timber">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78" lift=""/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_Livestock_cow">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="110" tonnage="20"/>
+		</item>
+		<item name="model_Livestock_pig">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="110" tonnage="20"/>
+		</item>
+		<item name="model_Livestock_sheep">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="110" tonnage="20"/>
+		</item>
+		<item name="model_Low_boy">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="40"/>
+		</item>
+		<item name="model_Low_boy_Boiler">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="40"/>
+		</item>
+		<item name="model_Low_boy_Gas_turbine">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="40"/>
+		</item>
+		<item name="model_Low_boy_Traktor">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="40"/>
+		</item>
+		<item name="model_Low_boy_Bulldozer">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="40"/>
+		</item>
+		<item name="model_Low_boy_Katok">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="40"/>
+		</item>
+		<item name="model_Low_boy_Combain">
+			<params length="14.5" width="2.7" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="50" tonnage="40"/>
+		</item>
+		<item name="model_Oil_tank">
+			<params length="6" width="2.4" rear="1.173" offset="0.08" centrshift="5.78" lift=""/>
+			<gameparams volume="40" tonnage="10"/>
+		</item>
+		<item name="model_BIG_RACE_trailer">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_BIG_RACE_l1_trailer">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_BIG_RACE_l2_trailer">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_BIG_RACE_lc_trailer">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_BIG_RACE_lm_trailer">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_BIG_RACE_lp_trailer">
+			<params length="14.565" width="2.645" rear="1.173" offset="0.1" centrshift="5.78"/>
+			<gameparams volume="80" tonnage="10"/>
+		</item>
+		<item name="model_refrigerator">
+			<params length="13.85" width="2.645" rear="1.173" offset="0.08" centrshift="5.78"/>
+			<gameparams volume="65" tonnage="10"/>
+		</item>
+		<item name="model_mission_package1">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.06"/>
+		</item>
+		<item name="model_mission_package2">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_mission_generator_pack">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_mission_package_box_s1">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_mission_package_box_s2">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_mission_fish_pack">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_mission_old_tv_item">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_mission_toxic_liquid_pack">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_mission_flowers_box">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_gen_package">
+			<params length="0.5" width="0.3" rear="0.4" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_gen_package_big">
+			<params length="0.3" width="0.2" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+		<item name="model_gen_package_small">
+			<params length="0.5" width="0.8" rear="0.5" offset="0.0" centrshift="0"/>
+			<gameparams volume="0.2" tonnage="0.1"/>
+		</item>
+	</Models>
+</cargo>

@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> Motel Menu </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>MotelCommon</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<materialres name="MotelCommon">
+			<wdbmaterial>mat_Menu_Motel_COMMON_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MotelCommon_A">
+			<wdbmaterial>mat_Menu_Motel_COMMONa_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MotelBackIN">
+			<wdbmaterial>mat_Menu_Motel_backIN_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="4" maxy="1024"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>0.075</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="MotelLogo">
+			<wdbmaterial>mat_Menu_Motel_Logo_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="128"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="4" maxy="1024"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>0.075</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BackOUT_yellow">
+			<wdbmaterial>mat_Menu_backOUT_yellow_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BORDER_yellow">
+			<wdbmaterial>mat_Menu_border_yellow_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="256"/>
+			<texture index="1" maxx="2" maxy="256"/>
+			<texture index="2" maxx="2" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BORDER_yellow_horiz">
+			<wdbmaterial>mat_Menu_border_yellow_horiz_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="256"/>
+			<texture index="1" maxx="256" maxy="2"/>
+			<texture index="2" maxx="256" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button DETAILS">
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="24" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="60" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="24" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowUP">
+			<buttonstate type="passive">
+				<texrect index="0" x="37" y="0" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="37" y="36" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="37" y="0" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowDOWN">
+			<buttonstate type="passive">
+				<texrect index="0" x="37" y="72" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="37" y="108" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="37" y="72" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Clock OUTLINED">
+			<name>TahomaClockOUTLINED</name>
+			<size>78</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="JustText - black - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>51 28 0 255</textcolor>
+		</textres>
+		<textres name="JustText - black - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>51 28 0 255</textcolor>
+		</textres>
+		<textres name="JustText - black - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>51 28 0 255</textcolor>
+		</textres>
+		<textres name="JustText - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white50px - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>50</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - yellow50px - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>50</baseline>
+			<textcolor>255 234 128 255</textcolor>
+		</textres>
+		<textres name="JustText - white - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - yellow - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 234 128 255</textcolor>
+		</textres>
+		<textres name="JustText - yellow - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 234 128 255</textcolor>
+		</textres>
+		<textres name="JustText - yellow - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 234 128 255</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<buttonres name="Button COMMON Motel" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Motel"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Motel"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Motel"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Motel"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>MotelCommon</material>
+				<patch state="0" x="0" y="0" sx="33" sy="64" id="left"/>
+				<texrect index="0" x="0" y="24" sx="33" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>MotelCommon_A</material>
+				<patch state="0" x="0" y="0" sx="33" sy="64" id="left"/>
+				<texrect index="0" x="0" y="24" sx="33" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>MotelCommon_A</material>
+				<patch state="1" x="0" y="0" sx="33" sy="64" id="left"/>
+				<texrect index="0" x="0" y="88" sx="33" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>MotelCommon</material>
+				<patch state="0" x="128" y="0" sx="436" sy="128" id="center"/>
+				<texrect index="0" x="33" y="24" sx="2" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>MotelCommon_A</material>
+				<patch state="0" x="128" y="0" sx="436" sy="128" id="center"/>
+				<texrect index="0" x="33" y="24" sx="2" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>MotelCommon_A</material>
+				<patch state="1" x="128" y="0" sx="436" sy="128" id="center"/>
+				<texrect index="0" x="33" y="88" sx="2" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>MotelCommon</material>
+				<patch state="0" x="0" y="0" sx="33" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="24" x1="0" y1="24" x2="0" y2="88" x3="32" y3="88"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>MotelCommon_A</material>
+				<patch state="0" x="0" y="0" sx="33" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="24" x1="0" y1="24" x2="0" y2="88" x3="32" y3="88"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>MotelCommon_A</material>
+				<patch state="1" x="0" y="0" sx="33" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="88" x1="0" y1="88" x2="0" y2="152" x3="32" y3="152"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Motel">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>255 235 205 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Motel">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>255 235 205 255</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+	</resources>
+	<controlgroup name="MenuMotel COMMON">
+		<picture name="BACK Menu Motel">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Motel - BACK WHITE">
+				<material>BackOUT_yellow</material>
+				<coords x="42" y="277" sx="1514" sy="722"/>
+				<texrect index="0" x="0" y="0" sx="757" sy="361"/>
+			</picture>
+			<picture name="Motel FRAME - bodyTOP">
+				<coords x="72" y="327" sx="1454" sy="4"/>
+				<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel FRAME - bodyTOP2">
+				<coords x="72" y="331" sx="1454" sy="6"/>
+				<texrect index="0" x="89" y="72" sx="1" sy="12"/>
+			</picture>
+			<picture name="Motel FRAME - headLEFT">
+				<coords x="351" y="296" sx="14" sy="33"/>
+				<texrect index="0" x="75" y="69" sx="14" sy="33"/>
+			</picture>
+			<picture name="Motel FRAME - headCENTER">
+				<coords x="365" y="296" sx="870" sy="33"/>
+				<texrect index="0" x="89" y="69" sx="1" sy="33"/>
+			</picture>
+			<picture name="Motel FRAME - headRIGHT">
+				<coords x="1234" y="296" sx="14" sy="33"/>
+				<texcoords index="0" x0="89" y0="69" x1="75" y1="69" x2="75" y2="102" x3="89" y3="102"/>
+			</picture>
+			<textfield name="Motel FRAME - TITLE">
+				<coords x="365" y="297" sx="870" sy="33"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_motel.xml\MenuMotel COMMON\BACK Menu Motel\Motel FRAME - TITLE">MOTEL</text>
+			</textfield>
+			<picture name="MotelMENU - BACK">
+				<material>MotelBackIN</material>
+				<coords x="72" y="337" sx="1454" sy="566"/>
+				<texrect index="0" x="0" y="0" sx="727" sy="283"/>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MenuMotel">
+		<picture name="Menu Motel">
+			<coords x="-61" y="0" sx="1600" sy="1200"/>
+			<picture name="MotelMENU - Logo">
+				<material>MotelLogo</material>
+				<coords x="436" y="348" sx="128" sy="128"/>
+				<texrect index="0" x="0" y="0" sx="128" sy="128"/>
+			</picture>
+			<picture name="Motel MAIN - Border DARK">
+				<coords x="588" y="373" sx="724" sy="78"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel MAIN 1 - Field YELLOW LIGHT1">
+				<coords x="590" y="375" sx="720" sy="74"/>
+				<texrect index="0" x="3" y="155" sx="88" sy="18"/>
+			</picture>
+			<picture name="Motel MAIN - Border DARK">
+				<coords x="589" y="411" sx="722" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="Motel MAIN 1 - TITLE">
+				<coords x="600" y="375" sx="710" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\Motel MAIN 1 - TITLE">Trucker Lodge</text>
+			</textfield>
+			<textfield name="Motel MAIN 2 - TITLE">
+				<coords x="600" y="413" sx="710" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text>%CITY%</text>
+			</textfield>
+			<picture name="Motel - INFO - FieldBLACK">
+				<coords x="413" y="488" sx="898" sy="76"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="412" y="487" sx="900" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="412" y="525" sx="900" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="412" y="563" sx="900" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="1310" y="488" sx="2" sy="76"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO 1 - Border DARK">
+				<coords x="412" y="487" sx="302" sy="78"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel INFO - Field YELLOW LIGHT1">
+				<coords x="414" y="489" sx="298" sy="74"/>
+				<texrect index="0" x="3" y="155" sx="88" sy="18"/>
+			</picture>
+			<picture name="Motel - INFO 1 - Border DARK">
+				<coords x="413" y="525" sx="300" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="Guest">
+				<coords x="414" y="489" sx="288" sy="36"/>
+				<textres_ref name="JustText - black - right"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\Guest">Guest</text>
+			</textfield>
+			<textfield name="Company">
+				<coords x="414" y="527" sx="288" sy="36"/>
+				<textres_ref name="JustText - black - right"/>
+				<text locref="common\Company">Company</text>
+			</textfield>
+			<textfield name="Guest VALUE">
+				<coords x="724" y="489" sx="586" sy="36"/>
+				<textres_ref name="JustText - yellow - left"/>
+				<text>%NICOLAS_ARMSTRONG%</text>
+			</textfield>
+			<textfield name="Company VALUE">
+				<coords x="724" y="527" sx="586" sy="36"/>
+				<textres_ref name="JustText - yellow - left"/>
+				<text locref="common\Nick Trucking">Nick Trucking</text>
+			</textfield>
+			<picture name="Motel - INFO - FieldBLACK">
+				<coords x="565" y="614" sx="278" sy="114"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - FieldBLACK">
+				<coords x="995" y="614" sx="316" sy="114"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="1272" y="652" sx="2" sy="76"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="1310" y="613" sx="2" sy="115"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="564" y="651" sx="748" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO - Border LIGHT">
+				<coords x="564" y="727" sx="748" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO 1 - Border DARK">
+				<coords x="412" y="575" sx="900" sy="40"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO 2 - Border DARK">
+				<coords x="412" y="613" sx="154" sy="116"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel - INFO 3 - Border DARK">
+				<coords x="842" y="613" sx="154" sy="116"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Motel INFO - Field YELLOW LIGHT1">
+				<coords x="414" y="577" sx="428" sy="36"/>
+				<texrect index="0" x="3" y="173" sx="50" sy="8"/>
+			</picture>
+			<picture name="Motel INFO - Field YELLOW LIGHT1">
+				<coords x="844" y="577" sx="466" sy="36"/>
+				<texrect index="0" x="3" y="173" sx="50" sy="8"/>
+			</picture>
+			<picture name="Motel INFO - Field YELLOW LIGHT1">
+				<coords x="414" y="615" sx="150" sy="36"/>
+				<texrect index="0" x="3" y="173" sx="50" sy="8"/>
+			</picture>
+			<picture name="Motel INFO - Field YELLOW LIGHT1">
+				<coords x="414" y="653" sx="150" sy="74"/>
+				<texrect index="0" x="3" y="173" sx="50" sy="18"/>
+			</picture>
+			<picture name="Motel INFO - Field YELLOW LIGHT1">
+				<coords x="844" y="615" sx="150" sy="36"/>
+				<texrect index="0" x="3" y="173" sx="50" sy="8"/>
+			</picture>
+			<picture name="Motel INFO - Field YELLOW LIGHT1">
+				<coords x="844" y="653" sx="150" sy="74"/>
+				<texrect index="0" x="3" y="173" sx="50" sy="18"/>
+			</picture>
+			<textfield name="Check IN">
+				<coords x="414" y="577" sx="428" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\Check IN">CHECK IN</text>
+			</textfield>
+			<textfield name="Check IN - Date">
+				<coords x="414" y="615" sx="150" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="common\Date">Date</text>
+			</textfield>
+			<textfield name="Check IN - Date - VALUE">
+				<coords x="566" y="615" sx="276" sy="36"/>
+				<textres_ref name="JustText - yellow - center"/>
+				<text>%FULL_DATE%</text>
+			</textfield>
+			<textfield name="Check IN - Time">
+				<coords x="414" y="672" sx="150" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="common\Time">Time</text>
+			</textfield>
+			<textfield name="Check IN - VALUE">
+				<font>Blue Highway Clock OUTLINED</font>
+				<coords x="566" y="660" sx="276" sy="60"/>
+				<textres_ref name="JustText - yellow50px - center"/>
+				<text>%HOURS%:%MINUTES%</text>
+			</textfield>
+			<textfield name="Check OUT">
+				<coords x="844" y="577" sx="466" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\Check OUT">CHECK OUT</text>
+			</textfield>
+			<textfield name="Check OUT - Date">
+				<coords x="844" y="615" sx="150" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="common\Date">Date</text>
+			</textfield>
+			<textfield name="Check OUT - Date - VALUE">
+				<coords x="996" y="615" sx="314" sy="36"/>
+				<textres_ref name="JustText - yellow - center"/>
+				<text>%FULL_DATE%</text>
+			</textfield>
+			<textfield name="Check OUT - Time">
+				<coords x="844" y="672" sx="150" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="common\Time">Time</text>
+			</textfield>
+			<picture name="BILL - BACK">
+				<coords x="412" y="749" sx="900" sy="118"/>
+				<texrect index="0" x="3" y="237" sx="88" sy="16"/>
+			</picture>
+			<picture name="BILL - Border DARK">
+				<coords x="433" y="769" sx="858" sy="78"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="TITLES - Field TOP">
+				<coords x="435" y="771" sx="854" sy="36"/>
+				<texrect index="0" x="3" y="197" sx="88" sy="16"/>
+			</picture>
+			<picture name="VALUES - Field BOTTOM">
+				<coords x="435" y="809" sx="568" sy="36"/>
+				<texrect index="0" x="3" y="217" sx="88" sy="16"/>
+			</picture>
+			<picture name="VALUES - Field BOTTOM RED">
+				<coords x="1003" y="809" sx="286" sy="36"/>
+				<texrect index="0" x="3" y="3" sx="24" sy="6"/>
+			</picture>
+			<picture name="BILL - Border DARK">
+				<coords x="718" y="770" sx="2" sy="76"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="BILL - Border DARK">
+				<coords x="1003" y="770" sx="2" sy="76"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="1 TITLE">
+				<coords x="435" y="771" sx="283" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\1 TITLE">Rate</text>
+			</textfield>
+			<textfield name="1 VALUE">
+				<coords x="435" y="809" sx="283" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\1 VALUE">%MOTEL_RATE% $/hour</text>
+			</textfield>
+			<textfield name="2 TITLE">
+				<coords x="720" y="771" sx="283" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\2 TITLE">Hours(time spent)</text>
+			</textfield>
+			<textfield name="2 VALUE">
+				<coords x="720" y="809" sx="283" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_motel.xml\MenuMotel\Menu Motel\2 VALUE">%MOTEL_HOURS_SPENT% hours</text>
+			</textfield>
+			<textfield name="3 TITLE">
+				<coords x="1005" y="771" sx="283" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="common\Total">Total</text>
+			</textfield>
+			<textfield name="3 VALUE">
+				<coords x="1005" y="809" sx="283" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text>$ %MOTEL_MONEY_TOTAL%</text>
+			</textfield>
+			<picture name="GLOW BORDER - YELLOW - TOP">
+				<material>BORDER_yellow_horiz</material>
+				<coords x="103" y="275" sx="1515" sy="16"/>
+				<texcoords index="0" x0="0" y0="480" x1="0" y1="0" x2="32" y2="0" x3="32" y3="480"/>
+			</picture>
+			<picture name="GLOW BORDER - YELLOW - BOTTOM">
+				<material>BORDER_yellow_horiz</material>
+				<coords x="103" y="984" sx="1515" sy="16"/>
+				<texcoords index="0" x0="32" y0="0" x1="32" y1="480" x2="0" y2="480" x3="0" y3="0"/>
+			</picture>
+			<picture name="GLOW BORDER - YELLOW - LEFT">
+				<material>BORDER_yellow</material>
+				<coords x="91" y="277" sx="64" sy="722"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="256"/>
+			</picture>
+			<picture name="GLOW BORDER - YELLOW - RIGHT">
+				<material>BORDER_yellow</material>
+				<coords x="1565" y="277" sx="64" sy="722"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="256" x3="32" y3="256"/>
+			</picture>
+			<picture name="MOTEL - Your Balance">
+				<coords x="133" y="930" sx="544" sy="40"/>
+				<picture name="VALUES - Field WHITE">
+					<coords x="2" y="2" sx="540" sy="36"/>
+					<texrect index="0" x="3" y="237" sx="88" sy="16"/>
+				</picture>
+				<picture name="Border DARK">
+					<coords x="0" y="0" sx="544" sy="2"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<coords x="0" y="38" sx="544" sy="2"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<coords x="0" y="1" sx="2" sy="38"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="Border DARK">
+					<coords x="542" y="1" sx="2" sy="38"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<textfield name="YOUR BALANCE">
+					<coords x="2" y="2" sx="270" sy="36"/>
+					<textres_ref name="JustText - black - right"/>
+					<text locref="common\Your balance :">Your balance :</text>
+				</textfield>
+				<textfield name="YOUR BALANCE - VALUE">
+					<coords x="282" y="2" sx="260" sy="36"/>
+					<textres_ref name="JustText - black - left"/>
+					<text>%SIGN%$ %MONEY%</text>
+				</textfield>
+			</picture>
+		</picture>
+		<picture name="Menu Motel - ALL Buttons">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<editbox name="Check OUT - VALUE">
+				<font>Blue Highway Clock OUTLINED</font>
+				<coords x="946" y="660" sx="276" sy="60"/>
+				<textres_ref name="JustText - white50px - center"/>
+				<text>%HOUR%:%MINUTES%</text>
+			</editbox>
+			<button name="BUTTON - Scroller ArrowUP">
+				<coords x="1213" y="653" sx="36" sy="36"/>
+				<buttonres_ref name="Scroller ArrowUP"/>
+			</button>
+			<button name="BUTTON - Scroller ArrowDOWN">
+				<coords x="1213" y="691" sx="36" sy="36"/>
+				<buttonres_ref name="Scroller ArrowDOWN"/>
+			</button>
+			<button name="BUTTON - OK">
+				<coords x="920" y="922" sx="300" sy="64"/>
+				<buttonres_ref name="Button COMMON Motel"/>
+				<text locref="common\OK">OK</text>
+			</button>
+			<button name="BUTTON - CANCEL">
+				<coords x="1222" y="922" sx="300" sy="64"/>
+				<buttonres_ref name="Button COMMON Motel"/>
+				<text locref="common\CANCEL">CANCEL</text>
+			</button>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MESSAGE - Not enough money">
+		<menu name="MESSAGE - Not enough money" popup="false" modal="true" draggable="true">
+			<coords x="200" y="568" sx="1200" sy="140"/>
+			<picture name="Field BLACK">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Field RED">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="77" y="106" sx="1" sy="1"/>
+			</picture>
+			<textfield name="TEXT">
+				<coords x="2" y="16" sx="1198" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="common\Not enough money. Operation rejected.">Not enough money. Operation rejected.</text>
+			</textfield>
+			<picture name="Border">
+				<coords x="0" y="0" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="138" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="1198" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<button name="OK">
+				<coords x="500" y="61" sx="200" sy="64"/>
+				<buttonres_ref name="Button COMMON Motel"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</menu>
+	</controlgroup>
+</menu>

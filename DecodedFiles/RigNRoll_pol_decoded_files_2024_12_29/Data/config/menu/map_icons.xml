@@ -1,0 +1,4543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapicons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> MAP icons </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>MAPicons_Menu</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<materialres name="MAPicons_Menu">
+			<wdbmaterial>mat_MAPicons_Menu_110</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="32"/>
+		</materialres>
+		<materialres name="Photos_weather_00">
+			<wdbmaterial>mat_menu_photos_weather_00_NoDet_110</wdbmaterial>
+			<texture index="0" maxx="256" maxy="64"/>
+		</materialres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Clock Small OUTLINED">
+			<name>TahomaClockSmallOUTLINED</name>
+			<size>39</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="IconRoad - white">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>255 255 255 128</textcolor>
+		</textres>
+		<textres name="IconRoad - white255">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="IconRoad - gray">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>145 195 205 255</textcolor>
+		</textres>
+		<textres name="IconRoad - red">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>255 85 0 255</textcolor>
+		</textres>
+		<textres name="IconRoad - yellow">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>255 225 0 255</textcolor>
+		</textres>
+		<textres name="IconRoad - green">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>105 210 155 255</textcolor>
+		</textres>
+		<textres name="IconRoad - black">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>0 0 0 255</textcolor>
+		</textres>
+	</resources>
+	<controlgroup name="Icon ROAD 0">
+		<picture name="map_icon_road_0_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="64" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<coords x="0" y="4"/>
+				<textres_ref name="IconRoad - white"/>
+				<controlflags horizalign="center" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_road_0_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="64" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<coords x="0" y="4"/>
+				<textres_ref name="IconRoad - white"/>
+				<controlflags horizalign="center" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon ROAD 1">
+		<picture name="map_icon_road_1_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="96" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<coords x="0" y="-8"/>
+				<textres_ref name="IconRoad - white"/>
+				<controlflags horizalign="center" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_road_1_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="96" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<coords x="0" y="-8"/>
+				<textres_ref name="IconRoad - white"/>
+				<controlflags horizalign="center" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon ROAD 2">
+		<picture name="map_icon_road_2_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="128" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<coords x="0" y="0"/>
+				<textres_ref name="IconRoad - black"/>
+				<controlflags horizalign="center" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_road_2_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="128" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<coords x="0" y="0"/>
+				<textres_ref name="IconRoad - black"/>
+				<controlflags horizalign="center" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon REPAIR">
+		<picture name="map_icon_repair_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="40" sy="40"/>
+				<texrect index="0" x="256" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_repair_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="256" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_repair_selected_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="40" sy="40"/>
+				<texrect index="0" x="288" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_repair_selected_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="288" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon Weather WAREHOUSE">
+		<picture name="map_icon_weather_warehouse_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="-80" y="0" sx="56" sy="56"/>
+				<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white255"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_weather_warehouse_passive">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="-80" y="0" sx="48" sy="48"/>
+				<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_weather_warehouse_selected_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="56" sy="56"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="56" sy="56"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_weather_warehouse_selected_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="48" sy="48"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="48" sy="48"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon Weather WAREHOUSE - MY">
+		<picture name="map_icon_weather_warehouse_my_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="-80" y="0" sx="56" sy="56"/>
+				<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - green"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_weather_warehouse_my_passive">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="-80" y="0" sx="48" sy="48"/>
+				<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - green"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_weather_warehouse_my_selected_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="56" sy="56"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="56" sy="56"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_weather_warehouse_my_selected_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="48" sy="48"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="-80" y="0" sx="48" sy="48"/>
+					<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - green"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon Gamer WAREHOUSE">
+		<picture name="map_icon_gamer_warehouse_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="0" y="-32"/>
+				<textres_ref name="IconRoad - green"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_gamer_warehouse_passive">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - green"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_gamer_warehouse_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - green"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_gamer_warehouse_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - green"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_gamer_warehouse_selected_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="0" y="-32"/>
+				<textres_ref name="IconRoad - red"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_gamer_warehouse_selected_passive">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_gamer_warehouse_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_gamer_warehouse_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon Office WAREHOUSE">
+		<picture name="map_icon_office_warehouse_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white255"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_office_warehouse_passive">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_office_warehouse_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_warehouse_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_office_warehouse_selected_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_office_warehouse_selected_passive">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_office_warehouse_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_warehouse_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon WAREHOUSE">
+		<picture name="map_icon_warehouse_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="0" y="-32"/>
+				<textres_ref name="IconRoad - white255"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_warehouse_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_warehouse_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - white255"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_warehouse_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="192" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - white255"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_warehouse_selected_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_warehouse_selected_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_warehouse_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_warehouse_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon WAREHOUSE - MY">
+		<picture name="map_icon_warehouse_my_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="0" y="-32"/>
+				<textres_ref name="IconRoad - green"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_warehouse_my_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - green"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_warehouse_my_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - green"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_warehouse_my_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="416" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - green"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_warehouse_my_selected_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_warehouse_my_selected_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_warehouse_my_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_warehouse_my_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="224" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="-32"/>
+					<textres_ref name="IconRoad - red"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon OFFICE">
+		<picture name="map_icon_office_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="40" sy="40"/>
+				<texrect index="0" x="320" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white255"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_office_passive" fps="6">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="320" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="256" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="320" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="320" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_office_selected_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="40" sy="40"/>
+				<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_office_selected_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_office_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon OFFICE FOR SALE">
+		<picture name="map_icon_office_for_sale_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="40" sy="40"/>
+				<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white255"/>
+				<coords x="0" y="-16"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_office_for_sale_passive" fps="6">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="288" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_for_sale_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_for_sale_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_office_for_sale_selected_active">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="40" sy="40"/>
+				<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-16"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_office_for_sale_selected_passive">
+			<coords x="0" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-16"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_office_for_sale_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="40" sy="40"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_office_for_sale_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="352" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="384" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-16"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORDER">
+		<picture name="map_icon_warehouse_order_passive">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="22" sy="14"/>
+				<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="14" sx="12" sy="32"/>
+				<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_warehouse_order_active">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="44" sy="28"/>
+				<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="28" sx="24" sy="32"/>
+				<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_warehouse_order_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="44" sy="28"/>
+					<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_warehouse_order_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="44" sy="28"/>
+					<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_warehouse_order_selected_passive">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="24" sy="14"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="14" sx="12" sy="32"/>
+				<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_warehouse_order_selected_active">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="48" sy="28"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="28" sx="24" sy="32"/>
+				<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_warehouse_order_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="1" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="684" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_warehouse_order_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="1" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="684" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon DEALER">
+		<picture name="map_icon_dealer_active">
+			<coords sx="96" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="104" sy="72"/>
+				<texrect index="0" x="416" y="0" sx="48" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white255"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_dealer_passive">
+			<coords sx="96" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="96" sy="64"/>
+				<texrect index="0" x="416" y="0" sx="48" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_dealer_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="96" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="104" sy="72"/>
+					<texrect index="0" x="464" y="0" sx="48" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="96" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="104" sy="72"/>
+					<texrect index="0" x="416" y="0" sx="48" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_dealer_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="96" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="96" sy="64"/>
+					<texrect index="0" x="464" y="0" sx="48" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="96" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="96" sy="64"/>
+					<texrect index="0" x="416" y="0" sx="48" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon DESTINATION">
+		<animationgroup name="map_icon_destinations_passive" fps="12" bounce="">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="2" y="-2" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 002">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="4" y="-4" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 003">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="6" y="-6" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 004">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="7" y="-7" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 005">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="8" y="-8" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 006">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="8" y="-8" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_destinations_active" fps="12" bounce="">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="2" y="-2" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 002">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="4" y="-4" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 003">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="6" y="-6" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 004">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="7" y="-7" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 005">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="8" y="-8" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 006">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="8" y="-8" sx="64" sy="64"/>
+					<texrect index="0" x="544" y="0" sy="32" sx="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon EMPLOYEE">
+		<picture name="map_icon_employee_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="44" sy="44"/>
+				<texrect index="0" x="448" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white255"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_employee_passive">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="448" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - white"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_employee_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="512" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="480" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_employee_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="512" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="480" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<!--picture name="map_icon_employee_selected_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="44" sy="44"/>
+				<texrect index="0" x="512" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture-->
+		<picture name="map_icon_employee_selected_active">
+			<coords sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="44" sy="44"/>
+				<texrect index="0" x="512" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="IconRoad - red"/>
+				<coords x="0" y="-32"/>
+				<controlflags horizalign="center" vertalign="top"/>
+			</textfield>
+		</picture>
+		<animationgroup name="map_icon_employee_selected_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="512" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="480" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_employee_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="512" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="480" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_employee_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="512" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - red"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="44" sy="44"/>
+					<texrect index="0" x="480" y="0" sx="32" sy="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="IconRoad - white255"/>
+					<coords x="0" y="-32"/>
+					<controlflags horizalign="center" vertalign="top"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon Weather MOON CLEAR">
+		<picture name="map_icon_weather_moon_clear_passive">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="32" sy="64"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="64"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_weather_moon_clear_active">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="32" sy="64"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="64"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon Weather MOON MOSTLY CLEAR">
+		<picture name="map_icon_weather_moon_mostly_clear_passive">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="32" sy="64"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="64"/>
+				<controlflags vertalign="center" horizalign="left"/>
+			</picture>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="-6" y="0" sx="76" sy="44"/>
+				<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+				<controlflags vertalign="bottom" horizalign="left"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_weather_moon_mostly_clear_active">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="32" sy="64"/>
+				<texrect index="0" x="224" y="0" sy="32" sx="64"/>
+				<controlflags vertalign="center" horizalign="left"/>
+			</picture>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="-6" y="0" sx="76" sy="44"/>
+				<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+				<controlflags vertalign="bottom" horizalign="left"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon Weather SUNNY">
+		<picture name="map_icon_weather_sunny_passive">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sy="64" sx="64"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_weather_sunny_active">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sy="64" sx="64"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon Weather MOSTLY CLEAR">
+		<picture name="map_icon_weather_mostly_clear_passive">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sy="64" sx="64"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="-6" y="0" sx="76" sy="44"/>
+				<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+				<controlflags vertalign="bottom" horizalign="left"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_weather_mostly_clear_active">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="0" y="0" sx="64" sy="64"/>
+				<texrect index="0" x="0" y="0" sy="64" sx="64"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="-6" y="0" sx="76" sy="44"/>
+				<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+				<controlflags vertalign="bottom" horizalign="left"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon Weather CLOUDY">
+		<picture name="map_icon_weather_cloudy_passive">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="-6" y="0" sx="76" sy="44"/>
+				<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+		<picture name="map_icon_weather_cloudy_active">
+			<coords x="-15" y="0" sx="64" sy="64"/>
+			<picture name="Icon picture">
+				<material>Photos_weather_00</material>
+				<coords x="-6" y="0" sx="76" sy="44"/>
+				<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+			<textfield name="Icon text">
+				<font>Blue Highway Clock Small OUTLINED</font>
+				<textres_ref name="IconRoad - gray"/>
+				<coords x="70" y="0"/>
+				<controlflags horizalign="left" vertalign="center"/>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon Weather THUNDER">
+		<animationgroup name="map_icon_weather_thunder_passive" fps="8">
+			<picture name="Frame 000">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 002">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 003">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 004">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 005">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="16" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 006">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 007">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 008">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 009">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 010">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 011">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 012">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 013">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 014">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 015">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 016">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 017">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 018">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 019">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_weather_thunder_active" fps="8">
+			<picture name="Frame 000">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 002">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 003">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 004">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 005">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="16" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 006">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 007">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 008">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 009">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 010">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 011">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 012">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 013">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 014">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 015">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="128" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="6" y="38" sx="60" sy="28"/>
+					<texrect index="0" x="192" y="0" sx="32" sy="16"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 016">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 017">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 018">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 019">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="0" y="0" sx="0" sy="0"/>
+					<texrect index="0" x="220" y="0" sx="1" sy="1"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon Weather RAIN">
+		<animationgroup name="map_icon_weather_rain_passive" fps="3">
+			<picture name="Frame 000">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="64" y="48" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="66" y="46" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 002">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="68" y="43" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 003">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="70" y="39" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 004">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="72" y="35" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_weather_rain_active" fps="3">
+			<picture name="Frame 000">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="64" y="48" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="66" y="46" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 002">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="68" y="43" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 003">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="70" y="39" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 004">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="72" y="35" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon Weather SNOW">
+		<animationgroup name="map_icon_weather_snow_passive" fps="3">
+			<picture name="Frame 000">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="128" y="48" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="130" y="46" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 002">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="132" y="43" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 003">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="134" y="39" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 004">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="136" y="35" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_weather_snow_active" fps="3">
+			<picture name="Frame 000">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="128" y="48" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 001">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="130" y="46" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 002">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="132" y="43" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 003">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="134" y="39" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+			<picture name="Frame 004">
+				<coords x="-15" y="0" sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-4" y="42" sx="64" sy="17"/>
+					<texrect index="0" x="136" y="35" sx="54" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Icon picture">
+					<material>Photos_weather_00</material>
+					<coords x="-6" y="0" sx="76" sy="44"/>
+					<texrect index="0" x="64" y="0" sx="64" sy="30"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<textfield name="Icon text">
+					<font>Blue Highway Clock Small OUTLINED</font>
+					<textres_ref name="IconRoad - gray"/>
+					<coords x="70" y="0"/>
+					<controlflags horizalign="left" vertalign="center"/>
+				</textfield>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER MYTRUCK">
+		<animationgroup name="map_icon_org_player_car_passive" fps="12" bounce="">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 002">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 003">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 004">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 005">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 006">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 007">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 008">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 009">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 010">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 011">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_player_car_active" fps="12" bounce="">
+			<picture name="Frame 000">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 002">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 003">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 004">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 005">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 006">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 007">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 008">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="16" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 009">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 010">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="32" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 011">
+				<coords sx="64" sy="64"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="16" y="0" sy="16" sx="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER PASSENGER">
+		<picture name="map_icon_org_passanger_passive">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="160" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_passanger_active">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="160" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER PACKAGE">
+		<picture name="map_icon_org_sending_passive">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="772" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_sending_active">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="772" y="0" sx="32" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER SEMITRAILER">
+		<picture name="map_icon_org_semitrailer_passive">
+			<coords sx="64" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="32"/>
+				<texrect index="0" x="708" y="0" sx="64" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_semitrailer_active">
+			<coords sx="64" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="64" sy="32"/>
+				<texrect index="0" x="708" y="0" sx="64" sy="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER TASK">
+		<picture name="map_icon_org_task_passive">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="22" sy="14"/>
+				<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="14" sx="12" sy="32"/>
+				<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_active">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="44" sy="28"/>
+				<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="28" sx="24" sy="32"/>
+				<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="44" sy="28"/>
+					<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="44" sy="28"/>
+					<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_org_task_selected_passive">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="24" sy="14"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="14" sx="12" sy="32"/>
+				<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_selected_active">
+			<coords sx="32" sy="92"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="48" sy="28"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="28" sx="24" sy="32"/>
+				<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="44" sy="28"/>
+					<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="48" sy="28"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="672" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="92"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="44" sy="28"/>
+					<texrect index="0" x="592" y="17" sx="22" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="28" sx="24" sy="32"/>
+					<texrect index="0" x="660" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER TASK CURRENT">
+		<picture name="map_icon_org_task_current_passive">
+			<coords sx="32" sy="124"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="48" sy="28"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="28" sx="24" sy="32"/>
+				<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_current_active">
+			<coords sx="32" sy="124"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="52" sy="30"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="30" sx="28" sy="36"/>
+				<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_current_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="1" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="684" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_current_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="1" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="684" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_org_task_current_selected_passive">
+			<coords sx="32" sy="124"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="48" sy="28"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="28" sx="24" sy="32"/>
+				<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_current_selected_active">
+			<coords sx="32" sy="124"/>
+			<picture name="Arrow">
+				<coords x="0" y="0" sx="52" sy="30"/>
+				<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+			<picture name="Line">
+				<coords x="0" y="30" sx="28" sy="36"/>
+				<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+				<controlflags vertalign="top" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_current_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="1" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="684" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_current_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="17" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="696" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="124"/>
+				<picture name="Arrow">
+					<coords x="0" y="0" sx="52" sy="30"/>
+					<texrect index="0" x="636" y="1" sx="24" sy="14"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+				<picture name="Line">
+					<coords x="0" y="30" sx="28" sy="36"/>
+					<texrect index="0" x="684" y="0" sx="12" sy="32"/>
+					<controlflags vertalign="top" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER TASK ICON">
+		<picture name="map_icon_org_task_icon_passive">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="23" sy="32"/>
+				<texcoords index="0" x0="592" y0="16" x1="592" y1="0" x2="614" y2="0" x3="614" y3="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_icon_active">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="35" sy="48"/>
+				<texcoords index="0" x0="592" y0="16" x1="592" y1="0" x2="614" y2="0" x3="614" y3="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_icon_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="592" y0="16" x1="592" y1="0" x2="614" y2="0" x3="614" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_icon_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="592" y0="16" x1="592" y1="0" x2="614" y2="0" x3="614" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_org_task_icon_selected_passive">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="23" sy="32"/>
+				<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_icon_selected_active">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="35" sy="48"/>
+				<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_icon_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="592" y0="16" x1="592" y1="0" x2="614" y2="0" x3="614" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_icon_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="592" y0="16" x1="592" y1="0" x2="614" y2="0" x3="614" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER TASK CURRENT ICON">
+		<picture name="map_icon_org_task_current_icon_passive">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="23" sy="32"/>
+				<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_current_icon_active">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="35" sy="48"/>
+				<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_current_icon_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="16" x1="614" y1="0" x2="636" y2="0" x3="636" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_current_icon_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="16" x1="614" y1="0" x2="636" y2="0" x3="636" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_org_task_current_icon_selected_passive">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="23" sy="32"/>
+				<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_task_current_icon_selected_active">
+			<coords sx="23" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="35" sy="48"/>
+				<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_task_current_icon_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="16" x1="614" y1="0" x2="636" y2="0" x3="636" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_task_current_icon_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="32" x1="614" y1="16" x2="636" y2="16" x3="636" y3="32"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="23" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="35" sy="48"/>
+					<texcoords index="0" x0="614" y0="16" x1="614" y1="0" x2="636" y2="0" x3="636" y3="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER DESTINATION">
+		<picture name="map_icon_org_destination_passive">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="576" y="0" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_destination_active">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="576" y="0" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_destination_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="0" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_destination_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="0" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_org_destination_selected_passive">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_destination_selected_active">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_destination_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="0" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_destination_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="0" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+	<controlgroup name="Icon ORGANIZER DESTINATION CURRENT">
+		<picture name="map_icon_org_destination_current_passive">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_destination_current_active">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_destination_current_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_destination_current_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<picture name="map_icon_org_destination_current_selected_passive">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<picture name="map_icon_org_destination_current_selected_active">
+			<coords sx="32" sy="32"/>
+			<picture name="Icon picture">
+				<coords x="0" y="0" sx="32" sy="32"/>
+				<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+				<controlflags vertalign="center" horizalign="center"/>
+			</picture>
+		</picture>
+		<animationgroup name="map_icon_org_destination_current_selected_hilighted_passive" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+		<animationgroup name="map_icon_org_destination_current_selected_hilighted_active" fps="1">
+			<picture name="Frame 000">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="48" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+			<picture name="Frame 001">
+				<coords sx="32" sy="32"/>
+				<picture name="Icon picture">
+					<coords x="0" y="0" sx="32" sy="32"/>
+					<texrect index="0" x="576" y="16" sx="16" sy="16"/>
+					<controlflags vertalign="center" horizalign="center"/>
+				</picture>
+			</picture>
+		</animationgroup>
+	</controlgroup>
+</mapicons>

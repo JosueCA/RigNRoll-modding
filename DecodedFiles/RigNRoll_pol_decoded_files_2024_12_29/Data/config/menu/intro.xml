@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu xmlns="http://your_namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://your_namespace     C:\Semen\VWI\Jvm\menu.xsd">
+	<title> Repair Menu </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>Video_INTRO</material>
+	</default>
+	<resources>
+		<materialres name="Video_INTRO">
+			<wdbmaterial>mat_video_110</wdbmaterial>
+			<texture index="0" maxx="1024" maxy="512" video=""/>
+		</materialres>
+	</resources>
+	<controlgroup name="anim">
+		<picture name="INTRO">
+			<material>Video_INTRO</material>
+			<coords x="0" y="150" sx="1600" sy="900"/>
+			<texrect index="0" x="0" y="0" sx="720" sy="480"/>
+		</picture>
+	</controlgroup>
+</menu>

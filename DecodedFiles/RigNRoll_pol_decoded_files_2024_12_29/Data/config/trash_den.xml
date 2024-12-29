@@ -1,0 +1,172 @@
+<particles>
+	<particle name="trash_particle_big" type="type9" nom="1">big debris, have very long life. WARNING!!! IF YOU CHANGE SHAPE, YOU MUST CHANGE TYPECAST IN DynObjectParticles.cpp
+		<trapecia_rot>
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="-0.1" y0="-0.1" x1="-0.1" y1="0.1" x2="0.1" y2="-0.1" x3="0.1" y3="0.1" z1="0.0" z2="0.0" z3="0.0" z0="0.0"/>
+				<alfa>
+					<anm x0="0." y0="250" x1="0.55" y1="255"/>
+					<anm x0="0.55" y0="255" x1="1" y1="250"/>
+				</alfa>
+				<rotate/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0.0000001" time="0." maxcycles="0.">
+					<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.5" y0="0.5" sx="0.25" sy="0.25"/>
+						<texsized x0="0.5" y0="0.5" sx="0.25" sy="0.25"/>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<time>
+				<random use="true" mult="1.0" var1="0.0" var2="1.0" replace=""/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="0.4" var2="1"/>
+			</coordsmultiply>
+			<rotusehalign>use spetial rotation to align particle parallel to the ground</rotusehalign>
+		</trapecia_rot>
+		<fisics>
+			<lifetemplate1 z="0" veldump="0.99" lifetime="10000" shape_coef="0.0">
+				<influence gravity="" zcollision=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="10" var1="1" var2="1" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.1" y="0.1" z="0.1" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<glue_velocity>
+				<random use="true" mult="0.8" var1="1" var2="1" replace=""/>
+			</glue_velocity>
+			<bounce>
+				<random use="true" mult="0.25" var1="1" var2="1" replace=""/>
+			</bounce>
+			<rought>
+				<random use="true" mult="0.95" var1="1" var2="1" replace=""/>
+			</rought>
+		</fisics>
+	</particle>
+	<particle name="dust_particle" type="type34" nom="2">dust particle
+		<trapecia>
+			<shapeTemplate1 color="255 255 255 150">
+				<coords x0="-0.5" y0="-0.5" x1="-0.5" y1="0.5" x2="0.5" y2="-0.5" x3="0.5" y3="0.5"/>
+				<shapeAnimatable animatable="true" cycle="true" change="true" invertonend="false" use_max_cyclelimit="false" fps="12" time="0." maxcycles="0.">
+					<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.125" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.25" sx="0.125" sy="0.25"/>
+						<texsized x0="0.125" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.375" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.625" y0="0.75" sx="0.125" sy="0.25"/>
+						<texsized x0="0.875" y0="0.75" sx="0.125" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+				<color>
+					<anm x0="0.0" y0="0" x1="0.15" y1="48"/>
+					<anm x0="0.15" y0="48" x1="0.3" y1="64"/>
+					<anm x0="0.3" y0="64" x1="0.6" y1="24"/>
+					<anm x0="0.6" y0="24" x1="0.8" y1="8"/>
+					<anm x0="0.8" y0="8" x1="1" y1="0"/>
+				</color>
+			</shapeTemplate1>
+			<time>
+				<random use="true" mult="1" var1="0" var2="1" replace=""/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="1" var2="4"/>
+			</coordsmultiply>
+		</trapecia>
+		<simple>
+			<lifetemplate1 z="-10" veldump="1" lifetime="1" shape_coef="0.6" sizedump="0.1">
+				<influence veldump=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="1" var2="1.5" multiply=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.4" y="0.4" z="0.4" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add="">
+					<randvector use="true" x="0.4" y="0.4" z="5" add="">
+						<random use="true" mult="0.4" var1="1" var2="1" multiply=""/>
+					</randvector>
+				</stack2>
+			</velocity>
+			<z>
+				<random use="true" mult="-10" var1="1" var2="1" add=""/>
+			</z>
+		</simple>
+	</particle>
+	<particle name="trash_particle_small" type="type9" nom="1">small debris - lives few seconds
+		<trapecia_rot>
+			<shapeTemplate2 color="255 255 255 255">
+				<coords x0="-0.15" y0="-0.15" x1="-0.15" y1="0.15" x2="0.15" y2="-0.15" x3="0.15" y3="0.15" z1="0.0" z2="0.0" z3="0.0" z0="0.0"/>
+				<alfa>
+					<anm x0="0." y0="250" x1="0.80" y1="255"/>
+					<anm x0="0.80" y0="255" x1="1" y1="16"/>
+				</alfa>
+				<rotate/>
+				<shapeAnimatable animatable="true" cycle="false" change="true" invertonend="false" use_max_cyclelimit="false" fps="0.0000001" time="0.0" maxcycles="0.0">
+					<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+					<texanimations>
+						<texsized x0="0.25" y0="0.25" sx="0.25" sy="0.25"/>
+						<texsized x0="0.5" y0="0.5" sx="0.25" sy="0.25"/>
+						<texsized x0="0.5" y0="0.5" sx="0.25" sy="0.25"/>
+						<texsized x0="0.25" y0="0.75" sx="0.25" sy="0.25"/>
+					</texanimations>
+				</shapeAnimatable>
+			</shapeTemplate2>
+			<time>
+				<random use="true" mult="1.0" var1="0.0" var2="1.0" replace=""/>
+			</time>
+			<coordsmultiply>
+				<random use="true" mult="1" var1="0.2" var2="0.5"/>
+			</coordsmultiply>
+		</trapecia_rot>
+		<fisics>
+			<lifetemplate1 z="0" veldump="0.95" lifetime="1" shape_coef="0" velatten="0.1" sizedump="1">
+				<influence gravity="" zcollision="" sizedump="" velatten=""/>
+				<!--influence wind="" veldump="" gravity="" realcollision="" zcollision="" deadoncollision="" sizedump="" velatten=""/-->
+				<velocity x="0" y="0" z="0"/>
+				<position x="0" y="0" z="0"/>
+			</lifetemplate1>
+			<lifetime>
+				<random use="true" mult="1" var1="1" var2="2" replace=""/>
+			</lifetime>
+			<position>
+				<stack1 use="true" whole="" add="">
+					<randvector use="true" x="0.1" y="0.1" z="0.1" add=""/>
+				</stack1>
+			</position>
+			<velocity>
+				<stack2 use="true" whole="" add=""/>
+			</velocity>
+			<glue_velocity>
+				<random use="true" mult="0.4" var1="1" var2="1" replace=""/>
+			</glue_velocity>
+			<bounce>
+				<random use="true" mult="0.3" var1="1" var2="1" replace=""/>
+			</bounce>
+			<rought>
+				<random use="true" mult="0.9" var1="1" var2="1" replace=""/>
+			</rought>
+		</fisics>
+	</particle>
+</particles>

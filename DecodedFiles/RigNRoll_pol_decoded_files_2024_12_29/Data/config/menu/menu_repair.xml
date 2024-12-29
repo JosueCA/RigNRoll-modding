@@ -1,0 +1,4390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> Repair Menu </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>RepairCommon</material>
+		<font>Blue Highway</font>
+	</default>
+	<resources>
+		<buttonres name="-------------   BEGIN of DLC   -----------------"/>
+		<materialres name="Repair_COMMON_DLC">
+			<wdbmaterial>mat_Menu_Repair_COMMON_DLC_310</wdbmaterial>
+			<texture index="0" maxx="64" maxy="64"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<textres name="JustText - yellow - center NOWRAP">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 205 45 255</textcolor>
+		</textres>
+		<buttonres name="Restyle - MainColor - DLC">
+			<buttonstate type="passive">
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="PopUP button toRIGHT">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="24" x1="36" y1="60" x2="0" y2="60" x3="0" y3="24"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="36" y0="24" x1="36" y1="60" x2="0" y2="60" x3="0" y3="24"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="36" y0="24" x1="36" y1="60" x2="0" y2="60" x3="0" y3="24"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="PopUP button toLEFT">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="0" y0="60" x1="0" y1="24" x2="36" y2="24" x3="36" y3="60"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="0" y0="60" x1="0" y1="24" x2="36" y2="24" x3="36" y3="60"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="0" y0="60" x1="0" y1="24" x2="36" y2="24" x3="36" y3="60"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="-------------   END of DLC   -----------------"/>
+		<materialres name="RepairCommon_GRADIENT">
+			<wdbmaterial>mat_Menu_Repair_COMMON_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.4</tilex>
+				<tiley>0.3</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Repair_LOGOS">
+			<wdbmaterial>mat_repair_menu_LOGOS_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button Repair LOGOS">
+			<buttonstate type="passive">FREIGHTLINER
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="0" y="30" sx="192" sy="44"/>
+				<texrect index="0" x="0" y="270" sx="328" sy="77"/>
+			</buttonstate>
+			<buttonstate type="active">FREIGHTLINER
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="0" y="30" sx="192" sy="44"/>
+				<texrect index="0" x="0" y="270" sx="328" sy="77"/>
+			</buttonstate>
+			<buttonstate type="pressed">FREIGHTLINER
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="0" y="30" sx="192" sy="44"/>
+				<texrect index="0" x="0" y="270" sx="328" sy="77"/>
+			</buttonstate>
+			<buttonstate type="passive">FREIGHTLINER
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="0" y="30" sx="192" sy="44"/>
+				<texrect index="0" x="0" y="270" sx="328" sy="77"/>
+			</buttonstate>
+			<buttonstate type="active">FREIGHTLINER
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="0" y="30" sx="192" sy="44"/>
+				<texrect index="0" x="0" y="270" sx="328" sy="77"/>
+			</buttonstate>
+			<buttonstate type="pressed">FREIGHTLINER
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="0" y="30" sx="192" sy="44"/>
+				<texrect index="0" x="0" y="270" sx="328" sy="77"/>
+			</buttonstate>
+			<buttonstate type="passive">WESTERN STAR
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="32" y="10" sx="127" sy="84"/>
+				<texrect index="0" x="307" y="0" sx="205" sy="135"/>
+			</buttonstate>
+			<buttonstate type="active">WESTERN STAR
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="32" y="10" sx="127" sy="84"/>
+				<texrect index="0" x="307" y="0" sx="205" sy="135"/>
+			</buttonstate>
+			<buttonstate type="pressed">WESTERN STAR
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="32" y="10" sx="127" sy="84"/>
+				<texrect index="0" x="307" y="0" sx="205" sy="135"/>
+			</buttonstate>
+			<buttonstate type="passive">WESTERN STAR
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="32" y="10" sx="127" sy="84"/>
+				<texrect index="0" x="307" y="0" sx="205" sy="135"/>
+			</buttonstate>
+			<buttonstate type="active">WESTERN STAR
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="32" y="10" sx="127" sy="84"/>
+				<texrect index="0" x="307" y="0" sx="205" sy="135"/>
+			</buttonstate>
+			<buttonstate type="pressed">WESTERN STAR
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="32" y="10" sx="127" sy="84"/>
+				<texrect index="0" x="307" y="0" sx="205" sy="135"/>
+			</buttonstate>
+			<buttonstate type="passive">STERLING
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="4" y="10" sx="183" sy="84"/>
+				<texrect index="0" x="0" y="130" sx="304" sy="140"/>
+			</buttonstate>
+			<buttonstate type="active">STERLING
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="4" y="10" sx="183" sy="84"/>
+				<texrect index="0" x="0" y="130" sx="304" sy="140"/>
+			</buttonstate>
+			<buttonstate type="pressed">STERLING
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="4" y="10" sx="183" sy="84"/>
+				<texrect index="0" x="0" y="130" sx="304" sy="140"/>
+			</buttonstate>
+			<buttonstate type="passive">STERLING
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="4" y="10" sx="183" sy="84"/>
+				<texrect index="0" x="0" y="130" sx="304" sy="140"/>
+			</buttonstate>
+			<buttonstate type="active">STERLING
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="4" y="10" sx="183" sy="84"/>
+				<texrect index="0" x="0" y="130" sx="304" sy="140"/>
+			</buttonstate>
+			<buttonstate type="pressed">STERLING
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="4" y="10" sx="183" sy="84"/>
+				<texrect index="0" x="0" y="130" sx="304" sy="140"/>
+			</buttonstate>
+			<buttonstate type="passive">KENWORTH
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="69" y="2" sx="53" sy="100"/>
+				<texcoords index="0" x0="321" y0="512" x1="321" y1="411" x2="512" y2="411" x3="512" y3="512"/>
+			</buttonstate>
+			<buttonstate type="active">KENWORTH
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="69" y="2" sx="53" sy="100"/>
+				<texcoords index="0" x0="321" y0="512" x1="321" y1="411" x2="512" y2="411" x3="512" y3="512"/>
+			</buttonstate>
+			<buttonstate type="pressed">KENWORTH
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="69" y="2" sx="53" sy="100"/>
+				<texcoords index="0" x0="321" y0="512" x1="321" y1="411" x2="512" y2="411" x3="512" y3="512"/>
+			</buttonstate>
+			<buttonstate type="passive">KENWORTH
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="69" y="2" sx="53" sy="100"/>
+				<texcoords index="0" x0="321" y0="512" x1="321" y1="411" x2="512" y2="411" x3="512" y3="512"/>
+			</buttonstate>
+			<buttonstate type="active">KENWORTH
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="69" y="2" sx="53" sy="100"/>
+				<texcoords index="0" x0="321" y0="512" x1="321" y1="411" x2="512" y2="411" x3="512" y3="512"/>
+			</buttonstate>
+			<buttonstate type="pressed">KENWORTH
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="69" y="2" sx="53" sy="100"/>
+				<texcoords index="0" x0="321" y0="512" x1="321" y1="411" x2="512" y2="411" x3="512" y3="512"/>
+			</buttonstate>
+			<buttonstate type="passive">PETERBILT
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="0" y="11" sx="192" sy="82"/>
+				<texrect index="0" x="0" y="0" sx="307" sy="130"/>
+			</buttonstate>
+			<buttonstate type="active">PETERBILT
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="0" y="11" sx="192" sy="82"/>
+				<texrect index="0" x="0" y="0" sx="307" sy="130"/>
+			</buttonstate>
+			<buttonstate type="pressed">PETERBILT
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="0" y="11" sx="192" sy="82"/>
+				<texrect index="0" x="0" y="0" sx="307" sy="130"/>
+			</buttonstate>
+			<buttonstate type="passive">PETERBILT
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="0" y="11" sx="192" sy="82"/>
+				<texrect index="0" x="0" y="0" sx="307" sy="130"/>
+			</buttonstate>
+			<buttonstate type="active">PETERBILT
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="0" y="11" sx="192" sy="82"/>
+				<texrect index="0" x="0" y="0" sx="307" sy="130"/>
+			</buttonstate>
+			<buttonstate type="pressed">PETERBILT
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="0" y="11" sx="192" sy="82"/>
+				<texrect index="0" x="0" y="0" sx="307" sy="130"/>
+			</buttonstate>
+			<buttonstate type="passive">VOLVO
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="45" y="3" sx="102" sy="98"/>
+				<texrect index="0" x="149" y="347" sx="172" sy="165"/>
+			</buttonstate>
+			<buttonstate type="active">VOLVO
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="45" y="3" sx="102" sy="98"/>
+				<texrect index="0" x="149" y="347" sx="172" sy="165"/>
+			</buttonstate>
+			<buttonstate type="pressed">VOLVO
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="45" y="3" sx="102" sy="98"/>
+				<texrect index="0" x="149" y="347" sx="172" sy="165"/>
+			</buttonstate>
+			<buttonstate type="passive">VOLVO
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="45" y="3" sx="102" sy="98"/>
+				<texrect index="0" x="149" y="347" sx="172" sy="165"/>
+			</buttonstate>
+			<buttonstate type="active">VOLVO
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="45" y="3" sx="102" sy="98"/>
+				<texrect index="0" x="149" y="347" sx="172" sy="165"/>
+			</buttonstate>
+			<buttonstate type="pressed">VOLVO
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="45" y="3" sx="102" sy="98"/>
+				<texrect index="0" x="149" y="347" sx="172" sy="165"/>
+			</buttonstate>
+			<buttonstate type="passive">MACK
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="20" y="1" sx="152" sy="102"/>
+				<texcoords index="0" x0="328" y0="411" x1="328" y1="135" x2="512" y2="135" x3="512" y3="411"/>
+			</buttonstate>
+			<buttonstate type="active">MACK
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="20" y="1" sx="152" sy="102"/>
+				<texcoords index="0" x0="328" y0="411" x1="328" y1="135" x2="512" y2="135" x3="512" y3="411"/>
+			</buttonstate>
+			<buttonstate type="pressed">MACK
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="20" y="1" sx="152" sy="102"/>
+				<texcoords index="0" x0="328" y0="411" x1="328" y1="135" x2="512" y2="135" x3="512" y3="411"/>
+			</buttonstate>
+			<buttonstate type="passive">MACK
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="20" y="1" sx="152" sy="102"/>
+				<texcoords index="0" x0="328" y0="411" x1="328" y1="135" x2="512" y2="135" x3="512" y3="411"/>
+			</buttonstate>
+			<buttonstate type="active">MACK
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="20" y="1" sx="152" sy="102"/>
+				<texcoords index="0" x0="328" y0="411" x1="328" y1="135" x2="512" y2="135" x3="512" y3="411"/>
+			</buttonstate>
+			<buttonstate type="pressed">MACK
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="20" y="1" sx="152" sy="102"/>
+				<texcoords index="0" x0="328" y0="411" x1="328" y1="135" x2="512" y2="135" x3="512" y3="411"/>
+			</buttonstate>
+			<buttonstate type="passive">INTERNATIONAL
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="49" y="0" sx="93" sy="104"/>
+				<texrect index="0" x="0" y="347" sx="149" sy="165"/>
+			</buttonstate>
+			<buttonstate type="active">INTERNATIONAL
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="49" y="0" sx="93" sy="104"/>
+				<texrect index="0" x="0" y="347" sx="149" sy="165"/>
+			</buttonstate>
+			<buttonstate type="pressed">INTERNATIONAL
+				<material>Repair_LOGOS</material>
+				<patch state="0" x="49" y="0" sx="93" sy="104"/>
+				<texrect index="0" x="0" y="347" sx="149" sy="165"/>
+			</buttonstate>
+			<buttonstate type="passive">INTERNATIONAL
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="49" y="0" sx="93" sy="104"/>
+				<texrect index="0" x="0" y="347" sx="149" sy="165"/>
+			</buttonstate>
+			<buttonstate type="active">INTERNATIONAL
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="49" y="0" sx="93" sy="104"/>
+				<texrect index="0" x="0" y="347" sx="149" sy="165"/>
+			</buttonstate>
+			<buttonstate type="pressed">INTERNATIONAL
+				<material>Repair_LOGOS</material>
+				<patch state="1" x="49" y="0" sx="93" sy="104"/>
+				<texrect index="0" x="0" y="347" sx="149" sy="165"/>
+			</buttonstate>
+		</buttonres>
+		<materialres name="photos_upgrades" shotupdater="0" screenshotid="14">
+			<wdbmaterial>mat_Menu_Repair_photos_upgrades_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="4" maxy="1024"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>0.075</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="photos_upgrades_BACK">
+			<wdbmaterial>mat_Menu_Repair_photos_upgrades_DEFAULT_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="4" maxy="1024"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>0.075</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="RepairBackIN">
+			<wdbmaterial>mat_Menu_Repair_backIN_310</wdbmaterial>
+			<texture index="0" maxx="512" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="4" maxy="1024"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>0.075</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BackOUT_blue">
+			<wdbmaterial>mat_Menu_backOUT_blue_310</wdbmaterial>
+			<texture index="0" maxx="256" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BORDER_blue">
+			<wdbmaterial>mat_Menu_border_blue_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="256"/>
+			<texture index="1" maxx="2" maxy="256"/>
+			<texture index="2" maxx="2" maxy="256"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="BORDER_blue_horiz">
+			<wdbmaterial>mat_Menu_border_blue_horiz_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="256"/>
+			<texture index="1" maxx="256" maxy="2"/>
+			<texture index="2" maxx="256" maxy="2"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>1</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Repair_restyleCOLORS">
+			<wdbmaterial>mat_Menu_Repair_restyleCOLORS_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Repair_RestyleCLR_MainColor">
+			<wdbmaterial>mat_Menu_Repair_RestyleCLR_MainColor_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Repair_RestyleCLR_DashGauges">
+			<wdbmaterial>mat_Menu_Repair_RestyleCLR_DashGauges_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Repair_RestyleCLR_Leather">
+			<wdbmaterial>mat_Menu_Repair_RestyleCLR_Leather_310</wdbmaterial>
+			<texture index="0" maxx="64" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Repair_RestyleCLR_Cloth">
+			<wdbmaterial>mat_Menu_Repair_RestyleCLR_Cloth_310</wdbmaterial>
+			<texture index="0" maxx="64" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Repair_RestyleCLR_Glasses">
+			<wdbmaterial>mat_Menu_Repair_RestyleCLR_GlassColor_310</wdbmaterial>
+			<texture index="0" maxx="32" maxy="512"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="Menu_Mouse">
+			<wdbmaterial>mat_menu_mouse_310</wdbmaterial>
+			<texture index="0" maxx="64" maxy="128"/>
+			<texture index="1" maxx="128" maxy="128"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button UPGRADE">
+			<buttonstate type="passive">
+				<patch state="0" x="4" y="6" sx="64" sy="22"/>
+				<texrect index="0" x="64" y="212" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="4" sx="73" sy="26"/>
+				<texrect index="0" x="64" y="212" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="4" y="6" sx="64" sy="22"/>
+				<texrect index="0" x="64" y="212" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="3" sx="28" sy="28"/>
+				<texrect index="0" x="36" y="228" sx="28" sy="28"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="33" y="1" sx="32" sy="32"/>
+				<texrect index="0" x="36" y="228" sx="28" sy="28"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="33" y="3" sx="28" sy="28"/>
+				<texrect index="0" x="36" y="228" sx="28" sy="28"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button UPGRADE GRAY">
+			<buttonstate type="passive">
+				<patch state="0" x="4" y="6" sx="64" sy="22"/>
+				<texrect index="0" x="64" y="234" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="3" sx="28" sy="28"/>
+				<texrect index="0" x="36" y="200" sx="28" sy="28"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button DOWNGRADE">
+			<buttonstate type="passive">
+				<patch state="0" x="4" y="6" sx="64" sy="22"/>
+				<texrect index="0" x="64" y="212" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="4" sx="73" sy="26"/>
+				<texrect index="0" x="64" y="212" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="4" y="6" sx="64" sy="22"/>
+				<texrect index="0" x="64" y="212" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="3" sx="28" sy="28"/>
+				<texrect index="0" x="36" y="172" sx="28" sy="28"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="33" y="1" sx="32" sy="32"/>
+				<texrect index="0" x="36" y="172" sx="28" sy="28"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="33" y="3" sx="28" sy="28"/>
+				<texrect index="0" x="36" y="172" sx="28" sy="28"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button DOWNGRADE GRAY">
+			<buttonstate type="passive">
+				<patch state="0" x="4" y="6" sx="64" sy="22"/>
+				<texrect index="0" x="64" y="234" sx="64" sy="22"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="33" y="3" sx="28" sy="28"/>
+				<texcoords index="0" x0="64" y0="228" x1="36" y1="228" x2="36" y2="200" x3="64" y3="200"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Check BOX">
+			<buttonstate type="passive">
+				<texrect index="0" x="36" y="0" sx="36" sy="36"/>
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="36" y="0" sx="36" sy="36"/>
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="36" y="0" sx="36" sy="36"/>
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="36" y="36" sx="36" sy="36"/>
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="36" y="36" sx="36" sy="36"/>
+				<patch state="1" x="0" y="0" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="36" y="36" sx="36" sy="36"/>
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Check BOX GRAY">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="60" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="PopUP button">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="24" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texrect index="0" x="0" y="24" sx="36" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="24" sx="36" sy="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller Thumb" script="Complex3Vert">
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="36" y="72" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="36" y="108" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="36" sy="17" id="up"/>
+				<texrect index="0" x="36" y="72" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="36" y="89" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="36" y="125" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="36" sx="36" sy="2" id="center"/>
+				<texrect index="0" x="36" y="89" sx="36" sy="2"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="36" y="91" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="36" y="127" sx="36" sy="17"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="38" sx="36" sy="17" id="down"/>
+				<texrect index="0" x="36" y="91" sx="36" sy="17"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<materialres name="RepairCommon">
+			<wdbmaterial>mat_Menu_Repair_COMMON_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="RepairCommon_A">
+			<wdbmaterial>mat_Menu_Repair_COMMONa_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="Button COMMON Repair" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Repair"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Repair"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Repair"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Repair"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>RepairCommon</material>
+				<patch state="0" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="96" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>RepairCommon_A</material>
+				<patch state="0" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="96" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>RepairCommon_A</material>
+				<patch state="1" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="160" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>RepairCommon</material>
+				<patch state="0" x="32" y="0" sx="1" sy="128" id="center"/>
+				<texrect index="0" x="31" y="96" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>RepairCommon_A</material>
+				<patch state="0" x="32" y="0" sx="1" sy="128" id="center"/>
+				<texrect index="0" x="31" y="96" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>RepairCommon_A</material>
+				<patch state="1" x="32" y="0" sx="1" sy="128" id="center"/>
+				<texrect index="0" x="31" y="160" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>RepairCommon</material>
+				<patch state="0" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="96" x1="0" y1="96" x2="0" y2="160" x3="32" y3="160"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>RepairCommon_A</material>
+				<patch state="0" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="96" x1="0" y1="96" x2="0" y2="160" x3="32" y3="160"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>RepairCommon_A</material>
+				<patch state="1" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="160" x1="0" y1="160" x2="0" y2="224" x3="32" y3="224"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Repair">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>155 240 255 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Repair">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>155 240 255 255</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+		<buttonres name="Button SORT" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="12" sy="36" id="left"/>
+				<texrect index="0" x="109" y="1" sx="12" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="12" sy="36" id="left"/>
+				<texrect index="0" x="109" y="37" sx="12" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="12" sy="36" id="left"/>
+				<texrect index="0" x="109" y="73" sx="12" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="12" y="0" sx="1" sy="36" id="center"/>
+				<texrect index="0" x="121" y="1" sx="1" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="12" y="0" sx="1" sy="36" id="center"/>
+				<texrect index="0" x="121" y="37" sx="1" sy="36"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="12" y="0" sx="1" sy="36" id="center"/>
+				<texrect index="0" x="121" y="73" sx="1" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="13" y="0" sx="12" sy="36" id="right"/>
+				<texcoords index="0" x0="121" y0="1" x1="109" y1="1" x2="109" y2="37" x3="121" y3="37"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="13" y="0" sx="12" sy="36" id="right"/>
+				<texcoords index="0" x0="121" y0="37" x1="109" y1="37" x2="109" y2="73" x3="121" y3="73"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="13" y="0" sx="12" sy="36" id="right"/>
+				<texcoords index="0" x0="121" y0="73" x1="109" y1="73" x2="109" y2="109" x3="121" y3="109"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button CONDITION Red" script="Complex3">
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="16" sy="36" id="left"/>
+				<texrect index="0" x="72" y="36" sx="16" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="4" sy="36" id="center"/>
+				<texrect index="0" x="88" y="36" sx="1" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="20" y="0" sx="16" sy="36" id="right"/>
+				<texcoords index="0" x0="88" y0="36" x1="72" y1="36" x2="72" y2="72" x3="88" y3="72"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button CONDITION Yellow" script="Complex3">
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="16" sy="36" id="left"/>
+				<texrect index="0" x="72" y="108" sx="16" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="4" sy="36" id="center"/>
+				<texrect index="0" x="88" y="108" sx="1" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="20" y="0" sx="16" sy="36" id="right"/>
+				<texcoords index="0" x0="88" y0="108" x1="72" y1="108" x2="72" y2="144" x3="88" y3="144"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button CONDITION Green" script="Complex3">
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="16" sy="36" id="left"/>
+				<texrect index="0" x="72" y="72" sx="16" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="4" sy="36" id="center"/>
+				<texrect index="0" x="88" y="72" sx="1" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="20" y="0" sx="16" sy="36" id="right"/>
+				<texcoords index="0" x0="88" y0="72" x1="72" y1="72" x2="72" y2="108" x3="88" y3="108"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button CONDITION Border" script="Complex3">
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="16" sy="36" id="left"/>
+				<texrect index="0" x="36" y="0" sx="16" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="4" sy="36" id="center"/>
+				<texrect index="0" x="52" y="0" sx="1" sy="36"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="20" y="0" sx="16" sy="36" id="right"/>
+				<texcoords index="0" x0="52" y0="0" x1="36" y1="0" x2="36" y2="36" x3="52" y3="36"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowUP">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="32" y0="224" x1="32" y1="256" x2="0" y2="256" x3="0" y3="224"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="32" y0="224" x1="32" y1="256" x2="0" y2="256" x3="0" y3="224"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="32" y0="224" x1="32" y1="256" x2="0" y2="256" x3="0" y3="224"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowDOWN">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="0" y0="256" x1="0" y1="224" x2="32" y2="224" x3="32" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="0" y0="256" x1="0" y1="224" x2="32" y2="224" x3="32" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="0" y0="256" x1="0" y1="224" x2="32" y2="224" x3="32" y3="256"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowRIGHT">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Scroller ArrowLEFT">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="32" y0="224" x1="0" y1="224" x2="0" y2="256" x3="32" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texcoords index="0" x0="32" y0="224" x1="0" y1="224" x2="0" y2="256" x3="32" y3="256"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texcoords index="0" x0="32" y0="224" x1="0" y1="224" x2="0" y2="256" x3="32" y3="256"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Arrow BROWSE">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="36" sy="36"/>
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="32" sy="32"/>
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Glow">
+			<name>TahomaGlow</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<textres name="JustText - blue - left">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>128 234 255 255</textcolor>
+		</textres>
+		<textres name="JustText - blue - left WRAP">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>128 234 255 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - blue - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>128 234 255 255</textcolor>
+		</textres>
+		<textres name="JustText - blue - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>128 234 255 255</textcolor>
+		</textres>
+		<textres name="JustText - black - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>0 26 51 255</textcolor>
+		</textres>
+		<textres name="JustText - black - left - bsln24">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>24</baseline>
+			<textcolor>0 26 51 255</textcolor>
+		</textres>
+		<textres name="JustText - black - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>0 26 51 255</textcolor>
+		</textres>
+		<textres name="JustText - black - center WRAP">
+			<horizalign>center</horizalign>
+			<vertalign>center</vertalign>
+			<textcolor>0 26 51 255</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - black - center - bsln24">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<textcolor>0 26 51 255</textcolor>
+		</textres>
+		<textres name="JustText - black - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>0 26 51 255</textcolor>
+		</textres>
+		<textres name="JustText - gray - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>64 64 64 128</textcolor>
+		</textres>
+		<textres name="JustText - gray - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>128 128 128 128</textcolor>
+		</textres>
+		<textres name="JustText - gray - center WRAP">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>128 128 128 128</textcolor>
+			<wordwrap>true</wordwrap>
+		</textres>
+		<textres name="JustText - gray - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>64 64 64 128</textcolor>
+		</textres>
+		<textres name="JustText - white - left">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - left - bsln24">
+			<vertalign>baseline</vertalign>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>10</horizbaseline>
+			<baseline>24</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white_P - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 200</textcolor>
+		</textres>
+		<textres name="JustText - white_A - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 200</textcolor>
+		</textres>
+		<textres name="JustText - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - center - bsln24">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>24</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - yellow - left">
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 221 51 255</textcolor>
+		</textres>
+		<buttonres name="Table Button 1 Level - OLD">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="5" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="5" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="5" y="13" sx="1" sy="8"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Table Button 1 Level">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="1" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="4" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="1" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="28" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Table Button 2 Level">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="7" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="10" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="7" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="28" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Table Button 3 Level">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="13" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="16" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="13" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="28" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Table Button 4 Level">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="19" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="22" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - left - bsln24"/>
+				<texrect index="0" x="19" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="28" y="13" sx="1" sy="8"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - black - left - bsln24"/>
+				<texrect index="0" x="25" y="13" sx="1" sy="8"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="TAB" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - black - center"/>
+				<font>Blue Highway</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="14" sy="33" id="left"/>
+				<texrect index="0" x="110" y="110" sx="14" sy="33"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="14" sy="33" id="left"/>
+				<texrect index="0" x="110" y="144" sx="14" sy="33"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<patch state="0" x="0" y="0" sx="14" sy="33" id="left"/>
+				<texrect index="0" x="110" y="178" sx="14" sy="33"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="0" y="0" sx="14" sy="33" id="left"/>
+				<texrect index="0" x="110" y="178" sx="14" sy="33"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="0" y="0" sx="14" sy="33" id="left"/>
+				<texrect index="0" x="110" y="178" sx="14" sy="33"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<patch state="1" x="0" y="0" sx="14" sy="33" id="left"/>
+				<texrect index="0" x="110" y="178" sx="14" sy="33"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="14" y="0" sx="2" sy="33" id="center"/>
+				<texrect index="0" x="124" y="110" sx="1" sy="33"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="14" y="0" sx="2" sy="33" id="center"/>
+				<texrect index="0" x="124" y="144" sx="1" sy="33"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<patch state="0" x="14" y="0" sx="2" sy="33" id="center"/>
+				<texrect index="0" x="124" y="178" sx="1" sy="33"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="14" y="0" sx="2" sy="33" id="center"/>
+				<texrect index="0" x="124" y="178" sx="1" sy="33"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="14" y="0" sx="2" sy="33" id="center"/>
+				<texrect index="0" x="124" y="178" sx="1" sy="33"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<patch state="1" x="14" y="0" sx="2" sy="33" id="center"/>
+				<texrect index="0" x="124" y="178" sx="1" sy="33"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="16" y="0" sx="14" sy="33" id="right"/>
+				<texcoords index="0" x0="124" y0="110" x1="110" y1="110" x2="110" y2="143" x3="124" y3="143"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="16" y="0" sx="14" sy="33" id="right"/>
+				<texcoords index="0" x0="124" y0="144" x1="110" y1="144" x2="110" y2="177" x3="124" y3="177"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<patch state="0" x="16" y="0" sx="14" sy="33" id="right"/>
+				<texcoords index="0" x0="124" y0="178" x1="110" y1="178" x2="110" y2="211" x3="124" y3="211"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="1" x="16" y="0" sx="14" sy="33" id="right"/>
+				<texcoords index="0" x0="124" y0="178" x1="110" y1="178" x2="110" y2="211" x3="124" y3="211"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="16" y="0" sx="14" sy="33" id="right"/>
+				<texcoords index="0" x0="124" y0="178" x1="110" y1="178" x2="110" y2="211" x3="124" y3="211"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<patch state="1" x="16" y="0" sx="14" sy="33" id="right"/>
+				<texcoords index="0" x0="124" y0="178" x1="110" y1="178" x2="110" y2="211" x3="124" y3="211"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Restyle - MainColor">
+			<material>Repair_RestyleCLR_MainColor</material>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="64" sx="32" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="64" sx="32" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="64" sx="32" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="96" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="96" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="96" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="128" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="128" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="128" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="160" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="160" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="160" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="192" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="192" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="192" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Restyle - Leather">
+			<material>Repair_RestyleCLR_Leather</material>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="192" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="192" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="192" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="224" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="224" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="224" sx="324" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Restyle - Dash">
+			<material>Repair_RestyleCLR_DashGauges</material>
+			<buttonstate type="passive">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<textres_ref name="JustText - white - center"/>
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Restyle - Cloth">
+			<material>Repair_RestyleCLR_Cloth</material>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="32" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="64" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="96" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="128" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="160" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="192" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="192" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="192" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="224" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="224" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="224" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="256" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="256" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="256" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="288" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="288" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="288" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="320" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="320" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="320" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="352" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="352" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="352" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="384" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="384" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="384" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="416" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="416" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="416" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="448" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="448" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="448" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="480" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="480" sx="324" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="480" sx="324" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Restyle - Gauges">
+			<material>Repair_RestyleCLR_DashGauges</material>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="224" sx="256" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="224" sx="256" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="224" sx="256" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="256" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="256" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="256" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="288" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="288" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="288" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="320" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="320" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="320" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="352" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="352" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="352" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="384" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="384" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="384" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="416" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="416" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="416" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="448" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="448" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="448" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="480" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="480" sx="256" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="480" sx="256" sy="32"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Restyle - Glasses">
+			<material>Repair_RestyleCLR_Glasses</material>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="480" sx="32" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="480" sx="32" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="480" sx="32" sy="32"/>
+				<textres_ref name="JustText - white - center"/>
+				<font>Blue Highway OUTLINED</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="448" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="448" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="448" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="416" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="416" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="416" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="384" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="384" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="384" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="352" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="352" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="352" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="320" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="320" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="320" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="288" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="288" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="288" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="256" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="256" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="256" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="192" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="192" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="192" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="160" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="160" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="160" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="128" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="128" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="128" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="96" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="96" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="96" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="64" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="64" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="64" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="32" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="32" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="32" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+			<buttonstate type="pressed">
+				<texrect index="0" x="0" y="0" sx="32" sy="32"/>
+			</buttonstate>
+		</buttonres>
+	</resources>
+	<controlgroup name="MenuREPAIR COMMON 1">
+		<picture name="Repair - BACK WHITE">
+			<material>BackOUT_blue</material>
+			<coords x="20" y="20" sx="1560" sy="1160"/>
+			<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+		</picture>
+		<picture name="Repair - TOP INFO">
+			<coords x="120" y="0" sx="1" sy="1"/>
+			<picture name="Border DARK">
+				<coords x="160" y="40" sx="1280" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="160" y="76" sx="1280" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="160" y="82" sx="1280" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="160" y="118" sx="1280" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="160" y="41" sx="2" sy="36"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="160" y="83" sx="2" sy="36"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="1438" y="41" sx="2" sy="36"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="1438" y="83" sx="2" sy="36"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="RepairINFO - Field PIC">
+				<material>RepairBackIN</material>
+				<coords x="162" y="42" sx="1276" sy="34"/>
+				<texrect index="0" x="0" y="0" sx="638" sy="20"/>
+			</picture>
+			<picture name="RepairINFO - Field PIC">
+				<material>RepairBackIN</material>
+				<coords x="162" y="84" sx="1276" sy="34"/>
+				<texrect index="0" x="0" y="28" sx="638" sy="20"/>
+			</picture>
+			<picture name="RepairINFO - Field WHITE40">
+				<coords x="162" y="42" sx="1276" sy="34"/>
+				<texrect index="0" x="33" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="RepairINFO - Field WHITE40">
+				<coords x="162" y="84" sx="1276" sy="34"/>
+				<texrect index="0" x="33" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="Vehicle type">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="172" y="41" sx="210" sy="36"/>
+				<textres_ref name="JustText - white - right"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 1\Repair - TOP INFO\Vehicle type">Vehicle type :</text>
+			</textfield>
+			<textfield name="Vehicle type - VALUE">
+				<coords x="392" y="41" sx="190" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text>Truck</text>
+			</textfield>
+			<textfield name="Make">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="JustText - white - right"/>
+				<coords x="589" y="41" sx="200" sy="36"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 1\Repair - TOP INFO\Make">Make :</text>
+			</textfield>
+			<textfield name="Make - VALUE">
+				<coords x="799" y="41" sx="260" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text/>
+			</textfield>
+			<textfield name="Model">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="JustText - white - right"/>
+				<coords x="1068" y="41" sx="145" sy="36"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 1\Repair - TOP INFO\Model">Model :</text>
+			</textfield>
+			<textfield name="Model - VALUE">
+				<coords x="1223" y="41" sx="205" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text/>
+			</textfield>
+			<textfield name="Company">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="JustText - white - right"/>
+				<coords x="258" y="83" sx="250" sy="36"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 1\Repair - TOP INFO\Company">Company :</text>
+			</textfield>
+			<textfield name="Company - VALUE">
+				<coords x="518" y="83" sx="250" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text locref="common\Nick Trucking">Nick Trucking</text>
+			</textfield>
+			<textfield name="Driver">
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="JustText - white - right"/>
+				<coords x="778" y="83" sx="200" sy="36"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 1\Repair - TOP INFO\Driver">Driver :</text>
+			</textfield>
+			<textfield name="Driver - VALUE">
+				<coords x="988" y="83" sx="400" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text locref="common\Nicolas Armstrong">%NICOLAS_ARMSTRONG%</text>
+			</textfield>
+		</picture>
+		<picture name="Repair - COMPANIES LOGOS">
+			<coords x="0" y="0" sx="1" sy="1"/>
+		</picture>
+		<picture name="RepairFRAME - bodyTOP">
+			<coords x="40" y="170" sx="1520" sy="4"/>
+			<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+		</picture>
+		<picture name="RepairFRAME - bodyTOP2">
+			<coords x="40" y="174" sx="1520" sy="6"/>
+			<texrect index="0" x="123" y="181" sx="1" sy="12"/>
+		</picture>
+		<picture name="RepairMENU - BACK">
+			<material>RepairBackIN</material>
+			<coords x="40" y="180" sx="1520" sy="891"/>
+			<texrect index="0" x="0" y="0" sx="760" sy="445"/>
+		</picture>
+		<picture name="RepairMENU - Your Balance">
+			<coords x="40" y="1091" sx="544" sy="40"/>
+			<picture name="VALUES - Field WHITE">
+				<coords x="2" y="2" sx="540" sy="64"/>
+				<texrect index="0" x="26" y="3" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="0" y="0" sx="544" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="0" y="66" sx="544" sy="2"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="0" y="1" sx="2" sy="66"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border DARK">
+				<coords x="542" y="1" sx="2" sy="66"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="YOUR BALANCE">
+				<coords x="2" y="2" sx="270" sy="36"/>
+				<textres_ref name="JustText - black - right"/>
+				<text locref="common\Your balance :">Your balance :</text>
+			</textfield>
+			<textfield name="YOUR BALANCE - VALUE">
+				<coords x="282" y="2" sx="260" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text>%SIGN%$ %MONEY%</text>
+			</textfield>
+			<textfield name="TOTAL AUTHORIZED">
+				<coords x="2" y="30" sx="270" sy="36"/>
+				<textres_ref name="JustText - black - right"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 1\RepairMENU - Your Balance\TOTAL AUTHORIZED">Total authorized :</text>
+			</textfield>
+			<textfield name="TOTAL AUTHORIZED - VALUE">
+				<coords x="282" y="30" sx="260" sy="36"/>
+				<textres_ref name="JustText - black - left"/>
+				<text>%SIGN%$ %MONEY%</text>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MenuRepair RepairVEHICLE">
+		<picture name="BACK ALL - RepairVEHICLE">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Vehicle Inspection Report TITLE - Border DARK">
+				<coords x="60" y="197" sx="887" sy="40"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Vehicle Inspection Report TITLE - Field YELLOW LIGHT1">
+				<coords x="62" y="199" sx="883" sy="36"/>
+				<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+			</picture>
+			<textfield name="Vehicle Inspection Report TITLE">
+				<coords x="62" y="199" sx="883" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\Vehicle Inspection Report TITLE">VEHICLE INSPECTION REPORT</text>
+			</textfield>
+			<picture name="VIRtable - Field BLACK">
+				<coords x="62" y="287" sx="883" sy="644"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable LEGENDS - Border DARK">
+				<coords x="60" y="247" sx="887" sy="78"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable LEGENDS - Field gray">
+				<coords x="62" y="249" sx="883" sy="36"/>
+				<texrect index="0" x="12" y="3" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable LEGENDS - RED">
+				<coords x="72" y="249" sx="36" sy="36"/>
+				<texrect index="0" x="72" y="36" sx="36" sy="36"/>
+			</picture>
+			<textfield name="VIRtable LEGENDS Urgent TITLE">
+				<font>Blue Highway</font>
+				<coords x="118" y="249" sx="185" sy="36"/>
+				<textres_ref name="JustText - gray - left"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\VIRtable LEGENDS Urgent TITLE">- Urgent</text>
+			</textfield>
+			<picture name="VIRtable LEGENDS - YELLOW">
+				<coords x="313" y="249" sx="36" sy="36"/>
+				<texrect index="0" x="72" y="108" sx="36" sy="36"/>
+			</picture>
+			<textfield name="VIRtable LEGENDS Advisory TITLE">
+				<font>Blue Highway</font>
+				<coords x="359" y="249" sx="185" sy="36"/>
+				<textres_ref name="JustText - gray - left"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\VIRtable LEGENDS Advisory TITLE">- Advisory</text>
+			</textfield>
+			<picture name="VIRtable LEGENDS - GREEN">
+				<coords x="554" y="249" sx="36" sy="36"/>
+				<texrect index="0" x="72" y="72" sx="36" sy="36"/>
+			</picture>
+			<textfield name="VIRtable LEGENDS Ok TITLE">
+				<font>Blue Highway</font>
+				<coords x="600" y="249" sx="185" sy="36"/>
+				<textres_ref name="JustText - gray - left"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\VIRtable LEGENDS Ok TITLE">- Ok</text>
+			</textfield>
+			<picture name="VIRtableTITLE - Field YELLOW LIGHT1">
+				<coords x="62" y="287" sx="883" sy="36"/>
+				<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+			</picture>
+			<textfield name="VIRtable System TITLE">
+				<coords x="62" y="287" sx="419" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\VIRtable System TITLE">System</text>
+			</textfield>
+			<textfield name="VIRtable Cond. TITLE">
+				<coords x="483" y="287" sx="100" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\VIRtable Cond. TITLE">Cond.</text>
+			</textfield>
+			<textfield name="VIRtable Rep.price TITLE">
+				<coords x="585" y="287" sx="141" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\VIRtable Rep.price TITLE">Rep.price</text>
+			</textfield>
+			<textfield name="VIRtable Authorize TITLE">
+				<coords x="728" y="287" sx="217" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\VIRtable Authorize TITLE">Authorize</text>
+			</textfield>
+			<picture name="VIRtable - Border DARK">
+				<coords x="481" y="286" sx="2" sy="38"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border DARK">
+				<coords x="583" y="286" sx="2" sy="38"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border DARK">
+				<coords x="726" y="286" sx="2" sy="38"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="361" sx="887" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="399" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="437" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="475" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="513" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="551" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="589" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="627" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="665" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="703" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="741" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="779" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="817" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="855" sx="849" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="893" sx="887" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="931" sx="887" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="60" y="325" sx="2" sy="607"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="481" y="325" sx="2" sy="607"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="583" y="325" sx="2" sy="607"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="726" y="325" sx="2" sy="607"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="907" y="325" sx="2" sy="607"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VIRtable - Border LIGHT">
+				<coords x="945" y="325" sx="2" sy="607"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="TABLEGROUP 01 - RepairVEHICLE - TABLE">
+				<coords x="62" y="325" sx="883" sy="606"/>
+			</picture>
+			<ranger name="ShipTo - tableranger" orientation="vert" keyfocus="false">
+				<coords x="909" y="363" sx="36" sy="530"/>
+				<buttonsize>36</buttonsize>
+				<page>10</page>
+				<increment>1</increment>
+				<minthumbsize>36</minthumbsize>
+				<rangerup>
+					<buttonres_ref name="Scroller ArrowUP"/>
+				</rangerup>
+				<rangerdown>
+					<buttonres_ref name="Scroller ArrowDOWN"/>
+				</rangerdown>
+				<rangerthumb>
+					<buttonres_ref name="Scroller Thumb"/>
+				</rangerthumb>
+			</ranger>
+			<picture name="Vehicle condition monitor TITLE - Border DARK">
+				<coords x="967" y="197" sx="573" sy="40"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="Vehicle condition monitor TITLE - Field YELLOW LIGHT1">
+				<coords x="969" y="199" sx="569" sy="36"/>
+				<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+			</picture>
+			<textfield name="Vehicle condition monitor TITLE">
+				<coords x="969" y="199" sx="569" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair RepairVEHICLE\BACK ALL - RepairVEHICLE\Vehicle condition monitor TITLE">VEHICLE CONDITION MONITOR</text>
+			</textfield>
+			<picture name="VehCondMonitor - Border LIGHT">
+				<coords x="967" y="247" sx="573" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VehCondMonitor - Border LIGHT">
+				<coords x="967" y="248" sx="2" sy="532"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VehCondMonitor - Border LIGHT">
+				<coords x="1538" y="248" sx="2" sy="532"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VehCondMonitor - Border LIGHT">
+				<coords x="967" y="779" sx="573" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="VehCondMonitor - Field BLACK">
+				<material>RepairCommon_GRADIENT</material>
+				<coords x="969" y="249" sx="569" sy="530"/>
+				<texrect index="0" x="40" y="146" sx="1" sy="24"/>
+			</picture>
+			<truckview name="VehCondMonitor - 3D Vehicle">
+				<coords x="969" y="249" sx="569" sy="530"/>
+			</truckview>
+			<picture name="Exterior LEGENDS - Mouse1">
+				<material>Menu_Mouse</material>
+				<coords x="1264" y="733" sx="64" sy="36"/>
+				<texrect index="0" x="0" y="0" sx="64" sy="36"/>
+			</picture>
+			<picture name="Exterior LEGENDS - Mouse2">
+				<material>Menu_Mouse</material>
+				<coords x="1364" y="733" sx="64" sy="36"/>
+				<texrect index="0" x="0" y="36" sx="64" sy="36"/>
+			</picture>
+			<picture name="Exterior LEGENDS - Mouse3">
+				<material>Menu_Mouse</material>
+				<coords x="1464" y="733" sx="64" sy="36"/>
+				<texrect index="0" x="0" y="72" sx="64" sy="36"/>
+			</picture>
+			<picture name="RepairBILL - BACK">
+				<coords x="40" y="953" sx="1520" sy="118"/>
+				<texrect index="0" x="26" y="3" sx="1" sy="1"/>
+			</picture>
+			<picture name="BILL - Border DARK">
+				<coords x="598" y="973" sx="404" sy="78"/>
+				<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+			</picture>
+			<picture name="TITLES - Field TOP YELLOW">
+				<coords x="600" y="975" sx="400" sy="36"/>
+				<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+			</picture>
+			<picture name="TITLES - Field TOP BLUE">
+				<coords x="600" y="975" sx="400" sy="36"/>
+				<texrect index="0" x="17" y="3" sx="1" sy="1"/>
+			</picture>
+			<picture name="VALUES - Field BOTTOM RED">
+				<coords x="600" y="1013" sx="400" sy="36"/>
+				<texrect index="0" x="2" y="3" sx="1" sy="1"/>
+			</picture>
+			<textfield name="1 TITLE">
+				<coords x="600" y="975" sx="400" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="common\Total">Total</text>
+			</textfield>
+			<textfield name="1 VALUE">
+				<coords x="600" y="1013" sx="400" sy="36"/>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="JustText - white - center"/>
+				<text>$ %VALUE%</text>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MenuRepair RepairVEHICLE - TABLE">
+		<button name="VALUES - 1level - BUTTONbrowse">
+			<coords x="2" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Arrow BROWSE"/>
+		</button>
+		<radiobutton name="VALUES - 1 level - Text" statenum="2">
+			<coords x="40" y="2" sx="377" sy="32"/>
+			<buttonres_ref name="Table Button 1 Level"/>
+			<text locref="common\Vehicle">Vehicle</text>
+		</radiobutton>
+		<textfield name="VALUES - 1 level - Text Glow">
+			<coords x="40" y="2" sx="377" sy="32"/>
+			<textres_ref name="JustText - white - left - bsln24"/>
+			<text locref="common\Vehicle">Vehicle</text>
+			<font>Blue Highway Glow</font>
+		</textfield>
+		<picture name="VALUES - 1level - BUTTONconditionRED">
+			<coords x="421" y="0" sx="100" sy="36"/>
+			<buttonres_ref name="Button CONDITION Red"/>
+		</picture>
+		<picture name="VALUES - 1level - BUTTONconditionYELLOW">
+			<coords x="421" y="0" sx="100" sy="36"/>
+			<buttonres_ref name="Button CONDITION Yellow"/>
+		</picture>
+		<picture name="VALUES - 1level - BUTTONconditionGREEN">
+			<coords x="421" y="0" sx="100" sy="36"/>
+			<buttonres_ref name="Button CONDITION Green"/>
+		</picture>
+		<button name="VALUES - 2level - BUTTONbrowse">
+			<coords x="12" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Arrow BROWSE"/>
+		</button>
+		<radiobutton name="VALUES - 2 level - Text" statenum="2">
+			<coords x="50" y="2" sx="367" sy="32"/>
+			<buttonres_ref name="Table Button 2 Level"/>
+			<text/>
+		</radiobutton>
+		<textfield name="VALUES - 2 level - Text Glow">
+			<coords x="50" y="2" sx="367" sy="32"/>
+			<textres_ref name="JustText - white - left - bsln24"/>
+			<text/>
+			<font>Blue Highway Glow</font>
+		</textfield>
+		<picture name="VALUES - 2level - BUTTONconditionRED">
+			<coords x="436" y="2" sx="85" sy="36"/>
+			<buttonres_ref name="Button CONDITION Red"/>
+		</picture>
+		<picture name="VALUES - 2level - BUTTONconditionYELLOW">
+			<coords x="436" y="2" sx="85" sy="36"/>
+			<buttonres_ref name="Button CONDITION Yellow"/>
+		</picture>
+		<picture name="VALUES - 2level - BUTTONconditionGREEN">
+			<coords x="436" y="2" sx="85" sy="36"/>
+			<buttonres_ref name="Button CONDITION Green"/>
+		</picture>
+		<button name="VALUES - 3level - BUTTONbrowse">
+			<coords x="22" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Arrow BROWSE"/>
+		</button>
+		<radiobutton name="VALUES - 3 level - Text" statenum="2">
+			<coords x="60" y="2" sx="357" sy="32"/>
+			<buttonres_ref name="Table Button 3 Level"/>
+			<text/>
+		</radiobutton>
+		<textfield name="VALUES - 3 level - Text Glow">
+			<coords x="60" y="2" sx="357" sy="32"/>
+			<textres_ref name="JustText - white - left - bsln24"/>
+			<text/>
+			<font>Blue Highway Glow</font>
+		</textfield>
+		<picture name="VALUES - 3level - BUTTONconditionRED">
+			<coords x="451" y="2" sx="70" sy="36"/>
+			<buttonres_ref name="Button CONDITION Red"/>
+		</picture>
+		<picture name="VALUES - 3level - BUTTONconditionYELLOW">
+			<coords x="451" y="2" sx="70" sy="36"/>
+			<buttonres_ref name="Button CONDITION Yellow"/>
+		</picture>
+		<picture name="VALUES - 3level - BUTTONconditionGREEN">
+			<coords x="451" y="2" sx="70" sy="36"/>
+			<buttonres_ref name="Button CONDITION Green"/>
+		</picture>
+		<textfield name="Repair Price - VALUES">
+			<coords x="525" y="2" sx="137" sy="32"/>
+			<textres_ref name="JustText - white - center - bsln24"/>
+			<text>$ %VALUE%</text>
+		</textfield>
+		<textfield name="Authorize - VALUES">
+			<coords x="668" y="2" sx="137" sy="32"/>
+			<textres_ref name="JustText - white - center - bsln24"/>
+			<text>$ %VALUE%</text>
+		</textfield>
+		<radiobutton name="Check BOX" statenum="3">
+			<coords x="809" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Check BOX"/>
+		</radiobutton>
+	</controlgroup>
+	<controlgroup name="MenuRepair RestyleVEHICLE">
+		<picture name="BACK ALL - RestyleVEHICLE">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Exterior - LEFT TOP BLOCK">
+				<coords x="0" y="0" sx="1" sy="1"/>
+				<picture name="Exterior - DECOR">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<picture name="Exterior TITLE - Border DARK">
+						<coords x="60" y="197" sx="730" sy="40"/>
+						<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+					</picture>
+					<picture name="Exterior TITLE - Field YELLOW LIGHT1">
+						<coords x="62" y="199" sx="726" sy="36"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</picture>
+					<textfield name="Exterior TITLE">
+						<coords x="62" y="199" sx="726" sy="36"/>
+						<textres_ref name="JustText - black - center"/>
+						<text locref="common\EXTERIOR">EXTERIOR</text>
+					</textfield>
+					<picture name="Exterior - Field BLACK">
+						<material>RepairCommon_GRADIENT</material>
+						<coords x="62" y="237" sx="726" sy="492"/>
+						<texrect index="0" x="40" y="146" sx="1" sy="24"/>
+					</picture>
+				</picture>
+				<truckview name="Exterior">
+					<coords x="62" y="237" sx="726" sy="492"/>
+				</truckview>
+				<picture name="Exterior - DECOR - ON TOP">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<picture name="Exterior LEGENDS - Mouse1">
+						<coords x="514" y="683" sx="64" sy="36"/>
+						<material>Menu_Mouse</material>
+						<texrect index="0" x="0" y="0" sx="64" sy="36"/>
+					</picture>
+					<picture name="Exterior LEGENDS - Mouse2">
+						<coords x="614" y="683" sx="64" sy="36"/>
+						<material>Menu_Mouse</material>
+						<texrect index="0" x="0" y="36" sx="64" sy="36"/>
+					</picture>
+					<picture name="Exterior LEGENDS - Mouse3">
+						<coords x="714" y="683" sx="64" sy="36"/>
+						<material>Menu_Mouse</material>
+						<texrect index="0" x="0" y="72" sx="64" sy="36"/>
+					</picture>
+				</picture>
+			</picture>
+			<picture name="Exterior - LEFT BOTTOM BLOCK">
+				<coords x="0" y="0" sx="1" sy="1"/>
+				<picture name="Body Paint - DECOR">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<picture name="Exterior - Border LIGHT">
+						<coords x="60" y="237" sx="2" sy="494"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="Exterior - Border LIGHT">
+						<coords x="788" y="237" sx="2" sy="494"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="Exterior - Border LIGHT">
+						<coords x="60" y="729" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaintOptions - Border DARK">
+						<coords x="60" y="741" sx="730" sy="40"/>
+						<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Field BLACK">
+						<coords x="62" y="743" sx="36" sy="36"/>
+						<texrect index="0" x="33" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Field BLACK">
+						<coords x="752" y="743" sx="36" sy="36"/>
+						<texrect index="0" x="33" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaintOptions - Field YELLOW LIGHT1">
+						<coords x="100" y="743" sx="650" sy="36"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Field BLACK">
+						<coords x="62" y="781" sx="726" sy="150"/>
+						<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="60" y="817" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="60" y="855" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="60" y="893" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="60" y="931" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="60" y="781" sx="2" sy="151"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="424" y="781" sx="2" sy="151"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="788" y="781" sx="2" sy="151"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="386" y="818" sx="2" sy="38"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="BodyPaint - Border LIGHT">
+						<coords x="386" y="894" sx="2" sy="38"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+				</picture>
+				<button name="BodyPaintOptions - BUTTON LEFT">
+					<coords x="62" y="743" sx="36" sy="36"/>
+					<buttonres_ref name="Scroller ArrowLEFT"/>
+				</button>
+				<textfield name="BodyPaintOptions TITLE">
+					<coords x="100" y="743" sx="650" sy="36"/>
+					<textres_ref name="JustText - black - center"/>
+					<text/>
+				</textfield>
+				<button name="BodyPaintOptions - BUTTON RIGHT">
+					<coords x="752" y="743" sx="36" sy="36"/>
+					<buttonres_ref name="Scroller ArrowRIGHT"/>
+				</button>
+				<picture name="Body Paint - TEXT FIELDS">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<textfield name="MAIN TITLE">
+						<coords x="62" y="781" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Main Color">Main Color</text>
+					</textfield>
+					<textfield name="GLASSES TITLE">
+						<coords x="62" y="857" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Tinting">Tinting</text>
+					</textfield>
+					<textfield name="METALLIC TITLE">
+						<coords x="426" y="781" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Metallic">Metallic</text>
+					</textfield>
+					<textfield name="CHAMELEON TITLE">
+						<coords x="426" y="857" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Chameleon">Chameleon</text>
+					</textfield>
+				</picture>
+				<picture name="GROUP 02 - RestyleVEHICLE">
+					<coords x="62" y="819" sx="726" sy="112"/>
+					<radiobutton name="Restyle - MainColor" statenum="6">
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<buttonres_ref name="Restyle - MainColor"/>
+						<text locref="common\Body...">Body...</text>
+					</radiobutton>
+					<button name="Restyle - MainColor - DLC">
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<buttonres_ref name="Restyle - MainColor - DLC"/>
+						<text locref="common\Body color (custom)">Body color (custom)</text>
+					</button>
+					<button name="MAIN - PopUP button">
+						<coords x="326" y="0" sx="36" sy="36"/>
+						<buttonres_ref name="PopUP button"/>
+					</button>
+					<radiobutton name="Restyle - Glasses" statenum="16">
+						<coords x="0" y="76" sx="324" sy="36"/>
+						<buttonres_ref name="Restyle - Glasses"/>
+						<text locref="common\Tinting...">Tinting...</text>
+					</radiobutton>
+					<button name="GLASSES - PopUP button">
+						<coords x="326" y="76" sx="36" sy="36"/>
+						<buttonres_ref name="PopUP button"/>
+					</button>
+					<radiobutton name="METALLIC Check BOX" statenum="2">
+						<coords x="527" y="0" sx="36" sy="36"/>
+						<buttonres_ref name="Check BOX"/>
+					</radiobutton>
+					<radiobutton name="CHAMELEON Check BOX" statenum="2">
+						<coords x="527" y="76" sx="36" sy="36"/>
+						<buttonres_ref name="Check BOX"/>
+					</radiobutton>
+					<picture name="CHAMELEON Check BOX - GRAY">
+						<material>Repair_COMMON_DLC</material>
+						<coords x="529" y="78" sx="32" sy="32"/>
+						<texrect index="0" x="0" y="0" sx="36" sy="36"/>
+					</picture>
+				</picture>
+			</picture>
+			<picture name="Interior - RIGHT TOP BLOCK">
+				<coords x="0" y="0" sx="1" sy="1"/>
+				<picture name="Interior - DECOR">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<picture name="Interior TITLE - Border DARK">
+						<coords x="810" y="197" sx="730" sy="40"/>
+						<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+					</picture>
+					<picture name="Interior TITLE - Field YELLOW LIGHT1">
+						<coords x="812" y="199" sx="726" sy="36"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</picture>
+					<textfield name="Interior TITLE">
+						<coords x="812" y="199" sx="726" sy="36"/>
+						<textres_ref name="JustText - black - center"/>
+						<text locref="common\INTERIOR">INTERIOR</text>
+					</textfield>
+					<picture name="Interior - Field BLACK">
+						<material>RepairCommon_GRADIENT</material>
+						<coords x="812" y="237" sx="726" sy="492"/>
+						<texrect index="0" x="40" y="146" sx="1" sy="24"/>
+					</picture>
+				</picture>
+				<truckview name="Interior">
+					<coords x="812" y="237" sx="726" sy="492"/>
+				</truckview>
+				<picture name="Interior - DECOR - ON TOP">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<picture name="Exterior LEGENDS - Mouse1">
+						<coords x="1364" y="683" sx="64" sy="36"/>
+						<material>Menu_Mouse</material>
+						<texrect index="0" x="0" y="0" sx="64" sy="36"/>
+					</picture>
+					<picture name="Exterior LEGENDS - Mouse2">
+						<coords x="1464" y="683" sx="64" sy="36"/>
+						<material>Menu_Mouse</material>
+						<texrect index="0" x="0" y="36" sx="64" sy="36"/>
+					</picture>
+				</picture>
+			</picture>
+			<picture name="Interior - RIGHT BOTTOM BLOCK">
+				<coords x="0" y="0" sx="1" sy="1"/>
+				<picture name="Interior Restyle - DECOR">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<picture name="Interior - Border LIGHT">
+						<coords x="810" y="237" sx="2" sy="494"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="Interior - Border LIGHT">
+						<coords x="1538" y="237" sx="2" sy="494"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="Interior - Border LIGHT">
+						<coords x="810" y="729" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyleOptions - Border DARK">
+						<coords x="810" y="741" sx="730" sy="40"/>
+						<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyleOptions - Field YELLOW LIGHT1">
+						<coords x="812" y="743" sx="726" sy="36"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Field BLACK">
+						<coords x="812" y="781" sx="726" sy="150"/>
+						<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="810" y="817" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="810" y="855" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="810" y="893" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="810" y="931" sx="730" sy="2"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="810" y="781" sx="2" sy="151"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="1174" y="781" sx="2" sy="151"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="1538" y="781" sx="2" sy="151"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="1136" y="818" sx="2" sy="38"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="1500" y="818" sx="2" sy="38"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="1136" y="894" sx="2" sy="38"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+					<picture name="InteriorStyle - Border LIGHT">
+						<coords x="1500" y="894" sx="2" sy="38"/>
+						<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+					</picture>
+				</picture>
+				<textfield name="InteriorStyleOptions TITLE">
+					<coords x="812" y="743" sx="726" sy="36"/>
+					<textres_ref name="JustText - black - center"/>
+					<text locref="common\Interior Style">Interior Style</text>
+				</textfield>
+				<picture name="Interior Restyle - TEXT FIELDS">
+					<coords x="0" y="0" sx="1" sy="1"/>
+					<textfield name="LEATHER TITLE">
+						<coords x="812" y="781" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Leather">Leather</text>
+					</textfield>
+					<textfield name="DASH TITLE">
+						<coords x="812" y="857" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Dash">Dash</text>
+					</textfield>
+					<textfield name="CLOTH TITLE">
+						<coords x="1176" y="781" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Cloth">Cloth</text>
+					</textfield>
+					<textfield name="GAUGES TITLE">
+						<coords x="1176" y="857" sx="362" sy="36"/>
+						<textres_ref name="JustText - blue - center"/>
+						<text locref="common\Gauges">Gauges</text>
+					</textfield>
+				</picture>
+				<picture name="GROUP 03 - RestyleVEHICLE">
+					<coords x="812" y="819" sx="726" sy="112"/>
+					<radiobutton name="Restyle - Leather" statenum="8">
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<buttonres_ref name="Restyle - Leather"/>
+						<text locref="common\Leather...">Leather...</text>
+					</radiobutton>
+					<button name="LEATHER - PopUP button">
+						<coords x="326" y="0" sx="36" sy="36"/>
+						<buttonres_ref name="PopUP button"/>
+					</button>
+					<radiobutton name="Restyle - Dash" statenum="6">
+						<coords x="0" y="76" sx="324" sy="36"/>
+						<buttonres_ref name="Restyle - Dash"/>
+						<text locref="common\Dash...">Dash...</text>
+					</radiobutton>
+					<button name="DASH - PopUP button">
+						<coords x="326" y="76" sx="36" sy="36"/>
+						<buttonres_ref name="PopUP button"/>
+					</button>
+					<radiobutton name="Restyle - Cloth" statenum="16">
+						<coords x="364" y="0" sx="324" sy="36"/>
+						<buttonres_ref name="Restyle - Cloth"/>
+						<text locref="common\Cloth...">Cloth...</text>
+					</radiobutton>
+					<button name="CLOTH - PopUP button">
+						<coords x="690" y="0" sx="36" sy="36"/>
+						<buttonres_ref name="PopUP button"/>
+					</button>
+					<radiobutton name="Restyle - Gauges" statenum="9">
+						<coords x="364" y="76" sx="324" sy="36"/>
+						<buttonres_ref name="Restyle - Gauges"/>
+						<text locref="common\Gauges...">Gauges...</text>
+					</radiobutton>
+					<button name="GAUGES - PopUP button">
+						<coords x="690" y="76" sx="36" sy="36"/>
+						<buttonres_ref name="PopUP button"/>
+					</button>
+				</picture>
+			</picture>
+			<picture name="Restyle - RepairBILL">
+				<coords x="0" y="0" sx="1" sy="1"/>
+				<picture name="RepairBILL - BACK">
+					<coords x="40" y="953" sx="1520" sy="118"/>
+					<texrect index="0" x="26" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="BILL - Border DARK">
+					<coords x="196" y="973" sx="1208" sy="78"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="TITLES - Field TOP BLUE">
+					<coords x="198" y="975" sx="1204" sy="36"/>
+					<texrect index="0" x="17" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="VALUES - Field BOTTOM WHITE">
+					<coords x="198" y="1013" sx="802" sy="36"/>
+					<texrect index="0" x="22" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="VALUES - Field BOTTOM RED">
+					<coords x="1002" y="1013" sx="400" sy="36"/>
+					<texrect index="0" x="2" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="BILL - Border DARK">
+					<coords x="598" y="974" sx="2" sy="76"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="BILL - Border DARK">
+					<coords x="1000" y="974" sx="2" sy="76"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<textfield name="BodyRepaint - TITLE">
+					<coords x="198" y="975" sx="400" sy="36"/>
+					<textres_ref name="JustText - black - center"/>
+					<text locref="menu_repair.xml\MenuRepair RestyleVEHICLE\BACK ALL - RestyleVEHICLE\BodyRepaint - TITLE">Body Repaint</text>
+				</textfield>
+				<textfield name="BodyRepaint - VALUE">
+					<coords x="198" y="1013" sx="400" sy="36"/>
+					<textres_ref name="JustText - black - center"/>
+					<text>$ %VALUE%</text>
+				</textfield>
+				<textfield name="InteriorRestyle - TITLE">
+					<coords x="600" y="975" sx="400" sy="36"/>
+					<textres_ref name="JustText - black - center"/>
+					<text locref="menu_repair.xml\MenuRepair RestyleVEHICLE\BACK ALL - RestyleVEHICLE\InteriorRestyle - TITLE">Interior Restyle</text>
+				</textfield>
+				<textfield name="InteriorRestyle - VALUE">
+					<coords x="600" y="1013" sx="400" sy="36"/>
+					<textres_ref name="JustText - black - center"/>
+					<text>$ %VALUE%</text>
+				</textfield>
+				<textfield name="RestyleTOTAL - TITLE">
+					<coords x="1002" y="975" sx="400" sy="36"/>
+					<textres_ref name="JustText - black - center"/>
+					<text locref="common\Total">Total</text>
+				</textfield>
+				<textfield name="RestyleTOTAL - VALUE">
+					<coords x="1002" y="1013" sx="400" sy="36"/>
+					<font>Blue Highway OUTLINED</font>
+					<textres_ref name="JustText - white - center"/>
+					<text>$ %VALUE%</text>
+				</textfield>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MenuRepair RestyleVEHICLE - Exterior - MainColor">
+		<menu name="Border - MainColor - JustForTest 8 positions" popup="true">
+			<coords x="0" y="627" sx="328" sy="230"/>
+			<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+		</menu>
+		<picture name="MainColor00_pic">
+			<material>Repair_RestyleCLR_MainColor</material>
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+		</picture>
+		<button name="MainColor00">
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<buttonres>
+				<buttonstate type="passive">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_P - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_A - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+			</buttonres>
+			<text/>
+		</button>
+	</controlgroup>
+	<controlgroup name="TABLEGROUP MenuRepair RestyleVEHICLE MainColor DLC - 4 38">
+		<menu name="TABLEGROUP MenuRepair RestyleVEHICLE MainColor DLC - 4 38" popup="true" modal="false" draggable="false">
+			<coords x="60" y="703" sx="366" sy="154"/>
+			<picture name="RestyleVEHICLE - MainColor - DLC - BACK">
+				<coords x="0" y="0" sx="366" sy="154"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="RestyleVEHICLE - MainColor - DLC - BACK tableranger UP">
+				<material>Repair_COMMON_DLC</material>
+				<coords x="328" y="2" sx="36" sy="36"/>
+				<texrect index="0" x="2" y="43" sx="1" sy="1"/>
+			</picture>
+			<picture name="RestyleVEHICLE - MainColor - DLC - BACK tableranger SCROLLER">
+				<material>Repair_COMMON_DLC</material>
+				<coords x="328" y="40" sx="36" sy="74"/>
+				<texrect index="0" x="2" y="43" sx="1" sy="1"/>
+			</picture>
+			<picture name="RestyleVEHICLE - MainColor - DLC - BACK tableranger DOWN">
+				<material>Repair_COMMON_DLC</material>
+				<coords x="328" y="116" sx="36" sy="36"/>
+				<texrect index="0" x="2" y="43" sx="1" sy="1"/>
+			</picture>
+			<picture name="TABLEGROUP MenuRepair RestyleVEHICLE MainColor DLC - 4 38">
+				<coords x="0" y="0" sx="0" sy="0"/>
+			</picture>
+			<ranger name="Tableranger - RestyleVEHICLE - MainColor - DLC" orientation="vert">
+				<coords x="328" y="40" sx="36" sy="74"/>
+				<buttonsize>36</buttonsize>
+				<page>10</page>
+				<increment>1</increment>
+				<minthumbsize>36</minthumbsize>
+				<rangerup>
+					<buttonres_ref name="Scroller ArrowUP"/>
+				</rangerup>
+				<rangerdown>
+					<buttonres_ref name="Scroller ArrowDOWN"/>
+				</rangerdown>
+				<rangerthumb>
+					<buttonres_ref name="Scroller Thumb"/>
+				</rangerthumb>
+			</ranger>
+		</menu>
+	</controlgroup>
+	<controlgroup name="TABLEGROUP MenuRepair RestyleVEHICLE MainColor DLC">
+		<picture name="LINE">
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<radiobutton name="MainColor_DLC_DefaultSkin" statenum="2">
+				<coords x="0" y="0" sx="324" sy="36"/>
+				<buttonres>
+					<buttonstate type="passive">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="1" sx="20" sy="30"/>
+						<textres_ref name="JustText - white_P - center"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="1" sx="20" sy="30"/>
+						<textres_ref name="JustText - white_A - center"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="1" sx="20" sy="30"/>
+						<textres_ref name="JustText - yellow - center NOWRAP"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="1" sx="20" sy="30"/>
+						<textres_ref name="JustText - yellow - center NOWRAP"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="1" sx="20" sy="30"/>
+						<textres_ref name="JustText - white_A - center"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="1" sx="20" sy="30"/>
+						<textres_ref name="JustText - yellow - center NOWRAP"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+				</buttonres>
+				<text locref="common\Default Skin">Default Skin</text>
+			</radiobutton>
+			<radiobutton name="MainColor_DLC_CustomSkin" statenum="2">
+				<coords x="0" y="0" sx="324" sy="36"/>
+				<buttonres>
+					<buttonstate type="passive">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="33" sx="20" sy="30"/>
+						<textres_ref name="JustText - white_P - center"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="33" sx="20" sy="30"/>
+						<textres_ref name="JustText - white_A - center"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="33" sx="20" sy="30"/>
+						<textres_ref name="JustText - yellow - center NOWRAP"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="33" sx="20" sy="30"/>
+						<textres_ref name="JustText - yellow - center NOWRAP"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="33" sx="20" sy="30"/>
+						<textres_ref name="JustText - white_A - center"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<coords x="0" y="0" sx="324" sy="36"/>
+						<texrect index="0" x="43" y="33" sx="20" sy="30"/>
+						<textres_ref name="JustText - yellow - center NOWRAP"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+						<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+					</buttonstate>
+				</buttonres>
+				<text/>
+			</radiobutton>
+			<radiobutton name="MainColor_DLC_Empty" statenum="2">
+				<coords x="0" y="0" sx="324" sy="36"/>
+				<buttonres>
+					<buttonstate type="passive">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<texrect index="0" x="7" y="43" sx="1" sy="1"/>
+						<textres_ref name="JustText - gray - center"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<texrect index="0" x="7" y="43" sx="1" sy="1"/>
+						<textres_ref name="JustText - gray - center"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<texrect index="0" x="7" y="43" sx="1" sy="1"/>
+						<textres_ref name="JustText - gray - center"/>
+					</buttonstate>
+					<buttonstate type="passive">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<texrect index="0" x="7" y="43" sx="1" sy="1"/>
+						<textres_ref name="JustText - gray - center"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<texrect index="0" x="7" y="43" sx="1" sy="1"/>
+						<textres_ref name="JustText - gray - center"/>
+					</buttonstate>
+					<buttonstate type="pressed">
+						<material>Repair_COMMON_DLC</material>
+						<font>Blue Highway OUTLINED</font>
+						<texrect index="0" x="7" y="43" sx="1" sy="1"/>
+						<textres_ref name="JustText - gray - center"/>
+					</buttonstate>
+				</buttonres>
+				<text locref="common\Make your own skin...">Make your own skin...</text>
+			</radiobutton>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MenuRepair RestyleVEHICLE - Exterior - Glasses">
+		<menu name="Border - Glasses - JustForTest 8 positions" popup="true">
+			<coords x="0" y="703" sx="328" sy="230"/>
+			<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+		</menu>
+		<picture name="Glasses00_pic">
+			<material>Repair_RestyleCLR_Glasses</material>
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<texrect index="0" x="0" y="224" sx="32" sy="32"/>
+		</picture>
+		<button name="Glasses00">
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<buttonres>
+				<buttonstate type="passive">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_P - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_A - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+			</buttonres>
+			<text/>
+		</button>
+	</controlgroup>
+	<controlgroup name="MenuRepair RestyleVEHICLE - Interior - Leather">
+		<menu name="Border - Leather - JustForTest 8 positions" popup="true">
+			<coords x="0" y="551" sx="328" sy="306"/>
+			<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+		</menu>
+		<picture name="Leather00_pic">
+			<material>Repair_RestyleCLR_Leather</material>
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+		</picture>
+		<button name="Leather00">
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<buttonres>
+				<buttonstate type="passive">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_P - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_A - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+			</buttonres>
+			<text/>
+		</button>
+	</controlgroup>
+	<controlgroup name="MenuRepair RestyleVEHICLE - Interior - Dash">
+		<menu name="Border - Dash - JustForTest 8 positions" popup="true">
+			<coords x="0" y="703" sx="328" sy="230"/>
+			<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+		</menu>
+		<picture name="Dash00_pic">
+			<material>Repair_RestyleCLR_DashGauges</material>
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+		</picture>
+		<button name="Dash00">
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<buttonres>
+				<buttonstate type="passive">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_P - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_A - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+			</buttonres>
+			<text/>
+		</button>
+	</controlgroup>
+	<controlgroup name="MenuRepair RestyleVEHICLE - Interior - Cloth">
+		<menu name="Border - Cloth - JustForTest 8 positions" popup="true">
+			<coords x="0" y="247" sx="328" sy="610"/>
+			<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+		</menu>
+		<picture name="Cloth00_pic">
+			<material>Repair_RestyleCLR_Cloth</material>
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<texrect index="0" x="0" y="0" sx="324" sy="32"/>
+		</picture>
+		<button name="Cloth00">
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<buttonres>
+				<buttonstate type="passive">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_P - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_A - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+			</buttonres>
+			<text/>
+		</button>
+	</controlgroup>
+	<controlgroup name="MenuRepair RestyleVEHICLE - Interior - Gauges">
+		<menu name="Border - Gauges - JustForTest 8 positions" popup="true">
+			<coords x="0" y="589" sx="328" sy="344"/>
+			<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+		</menu>
+		<picture name="Gauges00_pic">
+			<material>Repair_RestyleCLR_DashGauges</material>
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<texrect index="0" x="0" y="224" sx="256" sy="32"/>
+		</picture>
+		<button name="Gauges00">
+			<coords x="2" y="2" sx="324" sy="36"/>
+			<buttonres>
+				<buttonstate type="passive">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_P - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white_A - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<font>Blue Highway OUTLINED</font>
+					<coords x="0" y="0" sx="324" sy="32"/>
+					<textres_ref name="JustText - white - center"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-2" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="34" sx="328" sy="4"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="-2" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="0" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="33" y="2" sx="1" sy="1"/>
+				</buttonstate>
+				<buttonstate type="active">
+					<patch state="1" x="322" y="-1" sx="4" sy="38"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</buttonstate>
+			</buttonres>
+			<text/>
+		</button>
+	</controlgroup>
+	<controlgroup name="MenuRepair UpgradeVEHICLE">
+		<picture name="BACK ALL - UpgradeVEHICLE">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="BACK ALL - UpgradeVEHICLE - PIC">
+				<coords x="0" y="0" sx="1" sy="1"/>
+				<picture name="UPGRADES &amp; ACCESSORIES TITLE - Border DARK">
+					<coords x="60" y="197" sx="1017" sy="40"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="UPGRADES &amp; ACCESSORIES TITLE - Field YELLOW LIGHT1">
+					<coords x="62" y="199" sx="1013" sy="36"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Field BLACK">
+					<coords x="62" y="325" sx="1013" sy="606"/>
+					<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtableTITLE - Border DARK">
+					<coords x="60" y="247" sx="1017" sy="78"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtableTITLE - Field YELLOW LIGHT1">
+					<coords x="62" y="249" sx="1013" sy="74"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border DARK">
+					<coords x="481" y="248" sx="2" sy="76"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border DARK">
+					<coords x="671" y="248" sx="2" sy="76"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border DARK">
+					<coords x="845" y="248" sx="2" sy="76"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="361" sx="1017" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="399" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="437" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="475" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="513" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="551" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="589" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="627" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="665" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="703" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="741" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="779" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="817" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="855" sx="978" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="893" sx="1016" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="931" sx="1017" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="60" y="325" sx="2" sy="608"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="481" y="325" sx="2" sy="608"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="671" y="325" sx="2" sy="608"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="845" y="325" sx="2" sy="608"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="1037" y="325" sx="2" sy="608"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="UandAtable - Border LIGHT">
+					<coords x="1075" y="325" sx="2" sy="608"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="Vehicle upgrade monitor TITLE - Border DARK">
+					<coords x="1097" y="197" sx="443" sy="40"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="Vehicle upgrade monitor TITLE - Field YELLOW LIGHT1">
+					<coords x="1099" y="199" sx="439" sy="36"/>
+					<texrect index="0" x="7" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Field BLACK">
+					<coords x="1099" y="249" sx="439" sy="682"/>
+					<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1097" y="247" sx="443" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1098" y="578" sx="441" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1098" y="582" sx="441" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1097" y="931" sx="443" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1097" y="248" sx="2" sy="684"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1538" y="248" sx="2" sy="684"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="RepairBILL - BACK">
+					<coords x="40" y="953" sx="1520" sy="118"/>
+					<texrect index="0" x="26" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="BILL - Border DARK">
+					<coords x="196" y="973" sx="1208" sy="78"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="TITLES - Field TOP BLUE">
+					<coords x="198" y="975" sx="1204" sy="36"/>
+					<texrect index="0" x="17" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="VALUES - Field BOTTOM WHITE">
+					<coords x="198" y="1013" sx="802" sy="36"/>
+					<texrect index="0" x="22" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="VALUES - Field BOTTOM RED">
+					<coords x="1002" y="1013" sx="400" sy="36"/>
+					<texrect index="0" x="2" y="3" sx="1" sy="1"/>
+				</picture>
+				<picture name="BILL - Border DARK">
+					<coords x="598" y="974" sx="2" sy="76"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+				<picture name="BILL - Border DARK">
+					<coords x="1000" y="974" sx="2" sy="76"/>
+					<texrect index="0" x="30" y="8" sx="1" sy="1"/>
+				</picture>
+			</picture>
+			<textfield name="UPGRADES &amp; ACCESSORIES TITLE">
+				<coords x="62" y="199" sx="1013" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\UPGRADES &amp; ACCESSORIES TITLE">AVAILABLE UPGRADES</text>
+			</textfield>
+			<textfield name="UA TITLES - Items">
+				<coords x="62" y="249" sx="419" sy="72"/>
+				<textres_ref name="JustText - black - center WRAP"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\UA TITLES - Items">Items</text>
+			</textfield>
+			<textfield name="UA TITLES - Upgrade Price">
+				<coords x="483" y="249" sx="188" sy="72"/>
+				<textres_ref name="JustText - black - center WRAP"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\UA TITLES - Upgrade Price">Upgrade Price</text>
+			</textfield>
+			<textfield name="UA TITLES - UpgradeDowngrade">
+				<coords x="673" y="249" sx="172" sy="72"/>
+				<textres_ref name="JustText - black - center WRAP"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\UA TITLES - UpgradeDowngrade">Upgrade / Downgrade</text>
+			</textfield>
+			<textfield name="UA TITLES - Return Price">
+				<coords x="847" y="249" sx="228" sy="72"/>
+				<textres_ref name="JustText - black - center WRAP"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\UA TITLES - Return Price">Return Price</text>
+			</textfield>
+			<ranger name="UA - TABLEGROUP - tableranger" orientation="vert">
+				<coords x="1039" y="363" sx="36" sy="530"/>
+				<buttonsize>36</buttonsize>
+				<page>10</page>
+				<increment>1</increment>
+				<minthumbsize>36</minthumbsize>
+				<rangerup>
+					<buttonres_ref name="Scroller ArrowUP"/>
+				</rangerup>
+				<rangerdown>
+					<buttonres_ref name="Scroller ArrowDOWN"/>
+				</rangerdown>
+				<rangerthumb>
+					<buttonres_ref name="Scroller Thumb"/>
+				</rangerthumb>
+			</ranger>
+			<picture name="UA - TABLEGROUP - 16 38">
+				<coords x="62" y="325" sx="975" sy="606"/>
+			</picture>
+			<textfield name="UA - VehicleUpgradeMONITOR - TITLE">
+				<coords x="1099" y="199" sx="439" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\UA - VehicleUpgradeMONITOR - TITLE">DESCRIPTION</text>
+			</textfield>
+			<!--textfield name="UA - VehicleUpgradeMONITOR - UpgradeDEFAULT">
+				<coords x="1099" y="396" sx="439" sy="72"/>
+				<textres_ref name="JustText - gray - center WRAP"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\UA - VehicleUpgradeMONITOR - UpgradeDEFAULT">MULTIPLE SELECTION</text>
+			</textfield-->
+			<picture name="UA - VehicleUpgradeMONITOR - UpgradePIC BACK">
+				<material>photos_upgrades_BACK</material>
+				<coords x="1099" y="249" sx="439" sy="329"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+			</picture>
+			<picture name="UA - VehicleUpgradeMONITOR - UpgradePIC">
+				<material>photos_upgrades</material>
+				<coords x="1099" y="249" sx="439" sy="329"/>
+				<texrect index="0" x="0" y="0" sx="256" sy="256"/>
+			</picture>
+			<textfield name="UA - VehicleUpgradeMONITOR - DETAILS TEXT">
+				<coords x="1099" y="584" sx="401" sy="347"/>
+				<textres_ref name="JustText - blue - left WRAP"/>
+				<text/>
+			</textfield>
+			<picture name="UA - VehicleUpgradeMONITOR - tableranger GROUP">
+				<coords x="1500" y="583" sx="40" sy="351"/>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="0" y="0" sx="2" sy="349"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1" y="37" sx="38" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<picture name="VehUpgradeMonitor - Border LIGHT">
+					<coords x="1" y="310" sx="38" sy="2"/>
+					<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+				</picture>
+				<ranger name="UA - VehicleUpgradeMONITOR - tableranger" orientation="vert">
+					<coords x="2" y="39" sx="36" sy="271"/>
+					<buttonsize>36</buttonsize>
+					<page>10</page>
+					<increment>1</increment>
+					<minthumbsize>36</minthumbsize>
+					<rangerup>
+						<buttonres_ref name="Scroller ArrowUP"/>
+					</rangerup>
+					<rangerdown>
+						<buttonres_ref name="Scroller ArrowDOWN"/>
+					</rangerdown>
+					<rangerthumb>
+						<buttonres_ref name="Scroller Thumb"/>
+					</rangerthumb>
+				</ranger>
+			</picture>
+			<textfield name="Marked for purchase - TITLE">
+				<coords x="198" y="975" sx="400" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\Marked for purchase - TITLE">Marked For Purchase</text>
+			</textfield>
+			<textfield name="Marked for purchase - VALUE">
+				<coords x="198" y="1013" sx="400" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text>%VALUE%</text>
+			</textfield>
+			<textfield name="Marked for return - TITLE">
+				<coords x="600" y="975" sx="400" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\Marked for return - TITLE">Marked For Return</text>
+			</textfield>
+			<textfield name="Marked for return - VALUE">
+				<coords x="600" y="1013" sx="400" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text>%VALUE%</text>
+			</textfield>
+			<textfield name="Total/Return - TITLE">
+				<coords x="1002" y="975" sx="400" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text locref="menu_repair.xml\MenuRepair UpgradeVEHICLE\BACK ALL - UpgradeVEHICLE\Total/Return - TITLE">Total/Return</text>
+			</textfield>
+			<textfield name="Total/Return - VALUE">
+				<coords x="1002" y="1013" sx="400" sy="36"/>
+				<font>Blue Highway OUTLINED</font>
+				<textres_ref name="JustText - white - center"/>
+				<text>$ %MONEY%</text>
+			</textfield>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MenuRepair UpgradeVEHICLE - TABLE">
+		<button name="VALUES - 1 level - BUTTONbrowse">
+			<coords x="2" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Arrow BROWSE"/>
+		</button>
+		<radiobutton name="VALUES - 1 level - Text" statenum="2">
+			<coords x="40" y="2" sx="265" sy="32"/>
+			<buttonres_ref name="Table Button 1 Level"/>
+			<text locref="common\Vehicle">Vehicle</text>
+		</radiobutton>
+		<textfield name="VALUES - 1 level - Text Glow">
+			<coords x="40" y="2" sx="265" sy="32"/>
+			<textres_ref name="JustText - white - left - bsln24"/>
+			<text locref="common\Vehicle">Vehicle</text>
+			<font>Blue Highway Glow</font>
+		</textfield>
+		<picture name="VALUES - 1 level - INDICATOR">
+			<coords x="314" y="8" sx="94" sy="18"/>
+			<texrect index="0" x="53" y="45" sx="1" sy="18"/>
+		</picture>
+		<picture name="VALUES - 1 level - INDICATOR GREEN">
+			<coords x="314" y="8" sx="94" sy="18"/>
+			<texrect index="0" x="89" y="80" sx="1" sy="20"/>
+		</picture>
+		<picture name="VALUES - 1 level - INDICATOR RED">
+			<coords x="314" y="8" sx="94" sy="18"/>
+			<texrect index="0" x="89" y="44" sx="1" sy="20"/>
+		</picture>
+		<picture name="VALUES - 1 level - INDICATOR Border">
+			<coords x="306" y="0" sx="110" sy="36"/>
+			<buttonres_ref name="Button CONDITION Border"/>
+		</picture>
+		<button name="VALUES - 2 level - BUTTONbrowse">
+			<coords x="12" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Arrow BROWSE"/>
+		</button>
+		<radiobutton name="VALUES - 2 level - Text" statenum="2">
+			<coords x="50" y="2" sx="367" sy="32"/>
+			<buttonres_ref name="Table Button 2 Level"/>
+			<text/>
+		</radiobutton>
+		<textfield name="VALUES - 2 level - Text Glow">
+			<coords x="50" y="2" sx="367" sy="32"/>
+			<textres_ref name="JustText - white - left - bsln24"/>
+			<text/>
+			<font>Blue Highway Glow</font>
+		</textfield>
+		<button name="VALUES - 3 level - BUTTONbrowse">
+			<coords x="22" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Arrow BROWSE"/>
+		</button>
+		<radiobutton name="VALUES - 3 level - Text" statenum="2">
+			<coords x="60" y="2" sx="357" sy="32"/>
+			<buttonres_ref name="Table Button 3 Level"/>
+			<text/>
+		</radiobutton>
+		<textfield name="VALUES - 3 level - Text Glow">
+			<coords x="60" y="2" sx="357" sy="32"/>
+			<textres_ref name="JustText - white - left - bsln24"/>
+			<text/>
+			<font>Blue Highway Glow</font>
+		</textfield>
+		<button name="VALUES - 4 level - BUTTONbrowse">
+			<coords x="32" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Arrow BROWSE"/>
+		</button>
+		<radiobutton name="VALUES - 4 level - Text" statenum="2">
+			<coords x="70" y="2" sx="347" sy="32"/>
+			<buttonres_ref name="Table Button 4 Level"/>
+			<text/>
+		</radiobutton>
+		<textfield name="VALUES - 4 level - Text Glow">
+			<coords x="70" y="2" sx="347" sy="32"/>
+			<textres_ref name="JustText - white - left - bsln24"/>
+			<text/>
+			<font>Blue Highway Glow</font>
+		</textfield>
+		<textfield name="VALUES - Upgrade Price">
+			<coords x="421" y="2" sx="188" sy="32"/>
+			<textres_ref name="JustText - white - center - bsln24"/>
+			<text>$ %MONEY%</text>
+		</textfield>
+		<textfield name="VALUES - Downgrade Return">
+			<coords x="785" y="2" sx="190" sy="32"/>
+			<textres_ref name="JustText - white - center - bsln24"/>
+			<text>$ %MONEY%</text>
+		</textfield>
+		<button name="VALUES - Button UPGRADE">
+			<coords x="621" y="1" sx="73" sy="34"/>
+			<buttonres_ref name="Button UPGRADE"/>
+		</button>
+		<button name="VALUES - Button DOWNGRADE">
+			<coords x="700" y="1" sx="73" sy="34"/>
+			<buttonres_ref name="Button DOWNGRADE"/>
+		</button>
+		<picture name="VALUES - Button UPGRADE GRAY">
+			<coords x="621" y="1" sx="73" sy="34"/>
+			<buttonres_ref name="Button UPGRADE GRAY"/>
+		</picture>
+		<picture name="VALUES - Button DOWNGRADE GRAY">
+			<coords x="700" y="1" sx="73" sy="34"/>
+			<buttonres_ref name="Button DOWNGRADE GRAY"/>
+		</picture>
+		<picture name="UpDown - Check BOX GRAY">
+			<coords x="680" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Check BOX GRAY"/>
+		</picture>
+		<radiobutton name="UpDown - Check BOX" statenum="2">
+			<coords x="680" y="0" sx="36" sy="36"/>
+			<buttonres_ref name="Check BOX"/>
+		</radiobutton>
+	</controlgroup>
+	<controlgroup name="MenuREPAIR COMMON 2">
+		<picture name="GROUP 09 - COMMON BUTTONS">
+			<coords x="608" y="1095" sx="936" sy="64"/>
+			<button name="BUTTON - EXIT">
+				<coords x="0" y="0" sx="316" sy="64"/>
+				<buttonres_ref name="Button COMMON Repair"/>
+				<text locref="common\EXIT">EXIT</text>
+			</button>
+			<button name="BUTTON - DISCARD ALL">
+				<coords x="321" y="0" sx="316" sy="64"/>
+				<buttonres_ref name="Button COMMON Repair"/>
+				<text locref="common\DISCARD ALL">DISCARD ALL</text>
+			</button>
+			<button name="BUTTON - APPLY ALL">
+				<coords x="642" y="0" sx="316" sy="64"/>
+				<buttonres_ref name="Button COMMON Repair"/>
+				<text locref="common\APPLY ALL">APPLY ALL</text>
+			</button>
+		</picture>
+		<picture name="GROUP 10 - TABS">
+			<coords x="55" y="139" sx="1490" sy="33"/>
+			<radiobutton name="TAB - REPAIR VEHICLE" statenum="2">
+				<coords x="0" y="0" sx="490" sy="33"/>
+				<buttonres_ref name="TAB"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 2\GROUP 10 - TABS\TAB - REPAIR VEHICLE">REPAIR VEHICLE</text>
+			</radiobutton>
+			<radiobutton name="TAB - UPGRADES &amp; ACCESSORIES" statenum="2">
+				<coords x="500" y="0" sx="490" sy="33"/>
+				<buttonres_ref name="TAB"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 2\GROUP 10 - TABS\TAB - UPGRADES">UPGRADES</text>
+			</radiobutton>
+			<radiobutton name="TAB - RESTYLE VEHICLE" statenum="2">
+				<coords x="1000" y="0" sx="490" sy="33"/>
+				<buttonres_ref name="TAB"/>
+				<text locref="menu_repair.xml\MenuREPAIR COMMON 2\GROUP 10 - TABS\TAB - RESTYLE VEHICLE">RESTYLE VEHICLE</text>
+			</radiobutton>
+		</picture>
+		<picture name="MenuRepair LOGOS">
+			<coords x="61" y="31" sx="192" sy="104"/>
+			<picture name="FREIGHTLINER">
+				<material>Repair_LOGOS</material>
+				<coords x="0" y="30" sx="192" sy="44"/>
+				<texrect index="0" x="0" y="270" sx="328" sy="77"/>
+			</picture>
+			<picture name="WESTERN STAR">
+				<material>Repair_LOGOS</material>
+				<coords x="32" y="10" sx="127" sy="84"/>
+				<texrect index="0" x="307" y="0" sx="205" sy="135"/>
+			</picture>
+			<picture name="STERLING">
+				<material>Repair_LOGOS</material>
+				<coords x="4" y="10" sx="183" sy="84"/>
+				<texrect index="0" x="0" y="130" sx="304" sy="140"/>
+			</picture>
+			<picture name="KENWORTH">
+				<material>Repair_LOGOS</material>
+				<coords x="69" y="2" sx="53" sy="100"/>
+				<texcoords index="0" x0="321" y0="512" x1="321" y1="411" x2="512" y2="411" x3="512" y3="512"/>
+			</picture>
+			<picture name="PETERBILT">
+				<material>Repair_LOGOS</material>
+				<coords x="0" y="11" sx="192" sy="82"/>
+				<texrect index="0" x="0" y="0" sx="307" sy="130"/>
+			</picture>
+			<picture name="VOLVO">
+				<material>Repair_LOGOS</material>
+				<coords x="45" y="3" sx="102" sy="98"/>
+				<texrect index="0" x="149" y="347" sx="172" sy="165"/>
+			</picture>
+			<picture name="MACK">
+				<material>Repair_LOGOS</material>
+				<coords x="20" y="1" sx="152" sy="102"/>
+				<texcoords index="0" x0="328" y0="411" x1="328" y1="135" x2="512" y2="135" x3="512" y3="411"/>
+			</picture>
+			<picture name="INTERNATIONAL">
+				<material>Repair_LOGOS</material>
+				<coords x="49" y="0" sx="93" sy="104"/>
+				<texrect index="0" x="0" y="347" sx="149" sy="165"/>
+			</picture>
+		</picture>
+		<picture name="GLOW BORDER - BLUE - TOP">
+			<material>BORDER_blue_horiz</material>
+			<coords x="20" y="18" sx="1561" sy="16"/>
+			<texcoords index="0" x0="0" y0="480" x1="0" y1="0" x2="32" y2="0" x3="32" y3="480"/>
+		</picture>
+		<picture name="GLOW BORDER - BLUE - BOTTOM">
+			<material>BORDER_blue_horiz</material>
+			<coords x="20" y="1165" sx="1561" sy="16"/>
+			<texcoords index="0" x0="32" y0="0" x1="32" y1="480" x2="0" y2="480" x3="0" y3="0"/>
+		</picture>
+		<picture name="GLOW BORDER - BLUE - LEFT">
+			<material>BORDER_blue</material>
+			<coords x="14" y="20" sx="32" sy="1160"/>
+			<texrect index="0" x="0" y="0" sx="32" sy="480"/>
+		</picture>
+		<picture name="GLOW BORDER - BLUE - RIGHT">
+			<material>BORDER_blue</material>
+			<coords x="1554" y="20" sx="32" sy="1160"/>
+			<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="480" x3="32" y3="480"/>
+		</picture>
+	</controlgroup>
+	<controlgroup name="MenuREPAIR CONFIRM">
+		<menu name="YES_NO_CANCEL" popup="false" modal="true">
+			<coords x="0" y="0" sx="1600" sy="1200"/>
+			<picture name="Field BLACK">
+				<coords x="160" y="533" sx="1300" sy="120"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border LIGHT">
+				<coords x="158" y="531" sx="1304" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border LIGHT">
+				<coords x="158" y="653" sx="1304" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border LIGHT">
+				<coords x="158" y="532" sx="2" sy="122"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border LIGHT">
+				<coords x="1460" y="532" sx="2" sy="122"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<textfield name="Request">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="170" y="540" sx="1280" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_repair.xml\MenuREPAIR CONFIRM\YES_NO_CANCEL\Request">PROCEED WITH ITEMS AUTHORIZED?</text>
+			</textfield>
+			<picture name="GROUP 10 - CONFIRM">
+				<coords x="320" y="583" sx="960" sy="64"/>
+				<button name="BUTTON - YES">
+					<coords x="0" y="0" sx="300" sy="64"/>
+					<buttonres_ref name="Button COMMON Repair"/>
+					<text locref="common\YES">YES</text>
+				</button>
+				<button name="BUTTON - NO">
+					<coords x="330" y="0" sx="300" sy="64"/>
+					<buttonres_ref name="Button COMMON Repair"/>
+					<text locref="common\NO">NO</text>
+				</button>
+				<button name="BUTTON - CANCEL">
+					<coords x="660" y="0" sx="300" sy="64"/>
+					<buttonres_ref name="Button COMMON Repair"/>
+					<text locref="common\CANCEL">CANCEL</text>
+				</button>
+			</picture>
+		</menu>
+	</controlgroup>
+	<controlgroup name="MESSAGE - Not enough money">
+		<menu name="MESSAGE - Not enough money" popup="false" modal="true">
+			<coords x="200" y="550" sx="1200" sy="140"/>
+			<picture name="Field BLACK">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Field RED">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="2" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="TEXT">
+				<coords x="2" y="16" sx="1198" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="common\Not enough money. Operation rejected.">Not enough money. Operation rejected.</text>
+			</textfield>
+			<picture name="Border">
+				<coords x="0" y="0" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="138" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="1198" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<button name="OK">
+				<coords x="500" y="61" sx="200" sy="64"/>
+				<buttonres_ref name="Button COMMON Repair"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</menu>
+	</controlgroup>
+	<controlgroup name="MESSAGE - Full repair first">
+		<menu name="MESSAGE - Full repair first" popup="false" modal="true">
+			<coords x="200" y="550" sx="1200" sy="140"/>
+			<picture name="Field BLACK">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Field RED">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="2" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="TEXT">
+				<coords x="2" y="16" sx="1198" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_repair.xml\MESSAGE - Full repair first\MESSAGE - Full repair first\TEXT">Your vehicle has to undergo a full repair first.</text>
+			</textfield>
+			<picture name="Border">
+				<coords x="0" y="0" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="138" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="1198" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<button name="OK">
+				<coords x="500" y="61" sx="200" sy="64"/>
+				<buttonres_ref name="Button COMMON Repair"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</menu>
+	</controlgroup>
+	<controlgroup name="MESSAGE - Guepard unupgradable">
+		<menu name="MESSAGE - Guepard unupgradable" popup="false" modal="true">
+			<coords x="200" y="550" sx="1200" sy="140"/>
+			<picture name="Field BLACK">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="30" y="2" sx="1" sy="1"/>
+			</picture>
+			<picture name="Field RED">
+				<coords x="2" y="2" sx="1196" sy="136"/>
+				<texrect index="0" x="2" y="8" sx="1" sy="1"/>
+			</picture>
+			<textfield name="TEXT">
+				<coords x="2" y="16" sx="1198" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_repair.xml\MESSAGE - Guepard unupgradable\MESSAGE - Guepard unupgradable\TEXT">Not a mass production vehicle. Restyle or upgrades unavailable.</text>
+			</textfield>
+			<picture name="Border">
+				<coords x="0" y="0" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="138" sx="1200" sy="2"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="0" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<picture name="Border">
+				<coords x="1198" y="1" sx="2" sy="138"/>
+				<texrect index="0" x="30" y="5" sx="1" sy="1"/>
+			</picture>
+			<button name="OK">
+				<coords x="500" y="61" sx="200" sy="64"/>
+				<buttonres_ref name="Button COMMON Repair"/>
+				<text locref="common\OK">OK</text>
+			</button>
+		</menu>
+	</controlgroup>
+</menu>

@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="R:\VWI\lib\menu.xsd">
+	<title> Gas Menu </title>
+	<default>
+		<res x="1600" y="1200"/>
+		<material>GasCommon</material>
+		<font>Blue Highway Clock Small</font>
+	</default>
+	<resources>
+		<materialres name="menu_Gas_TABLO">
+			<wdbmaterial>mat_menu_Gas_TABLO_110</wdbmaterial>
+			<texture index="0" maxx="128" maxy="128"/>
+		</materialres>
+		<materialres name="GasCommon">
+			<wdbmaterial>mat_menu_Gas_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="64" maxy="64"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>12</tilex>
+				<tiley>9</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GasCommon_NoDet">
+			<wdbmaterial>mat_menu_Gas_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="64" maxy="64"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>120</tilex>
+				<tiley>90</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GasCommon_METAL">
+			<wdbmaterial>mat_menu_Gas_PASSIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GasCommon_GLASS">
+			<wdbmaterial>mat_menu_Gas_PASSIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>0.8</tilex>
+				<tiley>0.6</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GasCommon_ACTIVE">
+			<wdbmaterial>mat_menu_Gas_ACTIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<materialres name="GasCommon_PASSIVE">
+			<wdbmaterial>mat_menu_Gas_PASSIVE_310</wdbmaterial>
+			<texture index="0" maxx="128" maxy="256"/>
+			<texture index="1" maxx="8" maxy="8"/>
+			<texture index="2" maxx="128" maxy="128"/>
+			<autogen index="1" type="STOMenu">
+				<tilex>1</tilex>
+				<tiley>105</tiley>
+			</autogen>
+			<autogen index="2" type="STOMenu">
+				<tilex>1.4</tilex>
+				<tiley>1.05</tiley>
+			</autogen>
+		</materialres>
+		<buttonres name="-----------------------------------   COMMON buttons begin --------------------------------------"/>
+		<buttonres name="Button COMMON GasStation YELLOW" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Gas YELLOW"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Gas YELLOW"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Gas YELLOW"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Gas YELLOW"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>GasCommon_PASSIVE</material>
+				<patch state="0" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="0" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="0" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="1" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="64" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>GasCommon_PASSIVE</material>
+				<patch state="0" x="32" y="0" sx="1" sy="64" id="center"/>
+				<texrect index="0" x="32" y="0" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="0" x="32" y="0" sx="1" sy="64" id="center"/>
+				<texrect index="0" x="32" y="0" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="1" x="32" y="0" sx="1" sy="64" id="center"/>
+				<texrect index="0" x="32" y="64" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>GasCommon_PASSIVE</material>
+				<patch state="0" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="64" x3="32" y3="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="0" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="0" x1="0" y1="0" x2="0" y2="64" x3="32" y3="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="1" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="64" x1="0" y1="64" x2="0" y2="128" x3="32" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="Button COMMON GasStation RED" script="Complex3">
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Gas RED"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT passive Gas RED"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<textres_ref name="Button - TEXT passive Gas RED"/>
+				<font>Button FONT passive</font>
+			</buttonstate>
+			<buttonstate type="active">
+				<textres_ref name="Button - TEXT active pressed Gas RED"/>
+				<font>Button FONT active pressed</font>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>GasCommon_PASSIVE</material>
+				<patch state="0" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="128" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="0" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="128" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="1" x="0" y="0" sx="32" sy="64" id="left"/>
+				<texrect index="0" x="0" y="192" sx="32" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>GasCommon_PASSIVE</material>
+				<patch state="0" x="32" y="0" sx="1" sy="64" id="center"/>
+				<texrect index="0" x="32" y="128" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="0" x="32" y="0" sx="1" sy="64" id="center"/>
+				<texrect index="0" x="32" y="128" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="1" x="32" y="0" sx="1" sy="64" id="center"/>
+				<texrect index="0" x="32" y="192" sx="1" sy="64"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<material>GasCommon_PASSIVE</material>
+				<patch state="0" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="128" x1="0" y1="128" x2="0" y2="192" x3="32" y3="192"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="0" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="128" x1="0" y1="128" x2="0" y2="192" x3="32" y3="192"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<material>GasCommon_ACTIVE</material>
+				<patch state="1" x="33" y="0" sx="32" sy="64" id="right"/>
+				<texcoords index="0" x0="32" y0="192" x1="0" y1="192" x2="0" y2="256" x3="32" y3="256"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Button FONT passive">
+			<name>Futura Condensed P Office</name>
+			<size>35</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Button FONT active pressed">
+			<name>Futura Condensed AP Office</name>
+			<size>32</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="Button - TEXT passive Gas YELLOW">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>255 200 130 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Gas YELLOW">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>255 200 130 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT passive Gas RED">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>40</baseline>
+			<textcolor>255 150 130 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT active pressed Gas RED">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>255 150 130 255</textcolor>
+		</textres>
+		<textres name="Button - TEXT neutral">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>39</baseline>
+			<textcolor>185 190 195 128</textcolor>
+		</textres>
+		<buttonres name="-----------------------------------   COMMON buttons end --------------------------------------"/>
+		<buttonres name="RANGER button">
+			<buttonstate type="passive">
+				<patch state="0" x="2" y="2" sx="16" sy="36"/>
+				<texrect index="0" x="47" y="216" sx="20" sy="40"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="0" x="0" y="0" sx="20" sy="40"/>
+				<texrect index="0" x="47" y="216" sx="20" sy="40"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<patch state="1" x="2" y="2" sx="16" sy="36"/>
+				<texrect index="0" x="47" y="216" sx="20" sy="40"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="PAY button">
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="0" sx="126" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="64" sx="126" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="128" sx="126" sy="64"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="CANCEL button">
+			<buttonstate type="passive">
+				<texrect index="0" x="0" y="192" sx="126" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="256" sx="126" sy="64"/>
+			</buttonstate>
+			<buttonstate type="active">
+				<texrect index="0" x="0" y="320" sx="126" sy="64"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GasStation PANEL - Border BOLTS" script="Complex9">
+			<material>GasCommon</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="28" sy="24" id="leftUP"/>
+				<texrect index="0" x="36" y="32" sx="28" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="0" sx="1" sy="24" id="centerUP"/>
+				<texrect index="0" x="63" y="32" sx="1" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="0" sx="28" sy="24" id="rightUP"/>
+				<texcoords index="0" x0="64" y0="32" x1="36" y1="32" x2="36" y2="56" x3="64" y3="56"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="24" sx="28" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="36" y="55" sx="28" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="24" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="64" y="55" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="24" sx="28" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="64" y0="55" x1="36" y1="55" x2="36" y2="56" x3="64" y3="56"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="25" sx="28" sy="24" id="leftDOWN"/>
+				<texrect index="0" x="36" y="56" sx="28" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="25" sx="1" sy="24" id="centerDOWN"/>
+				<texrect index="0" x="63" y="56" sx="1" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="25" sx="28" sy="24" id="rightDOWN"/>
+				<texcoords index="0" x0="64" y0="56" x1="36" y1="56" x2="36" y2="80" x3="64" y3="80"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GasStation PANEL - Border GLASS" script="Complex9">
+			<material>GasCommon_NoDet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="28" sy="24" id="leftUP"/>
+				<texrect index="0" x="36" y="80" sx="28" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="0" sx="1" sy="24" id="centerUP"/>
+				<texrect index="0" x="63" y="80" sx="1" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="0" sx="28" sy="24" id="rightUP"/>
+				<texcoords index="0" x0="64" y0="80" x1="36" y1="80" x2="36" y2="104" x3="64" y3="104"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="24" sx="28" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="36" y="103" sx="28" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="24" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="64" y="103" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="24" sx="28" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="64" y0="103" x1="36" y1="103" x2="36" y2="104" x3="64" y3="104"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="25" sx="28" sy="24" id="leftDOWN"/>
+				<texrect index="0" x="36" y="104" sx="28" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="25" sx="1" sy="24" id="centerDOWN"/>
+				<texrect index="0" x="63" y="104" sx="1" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="25" sx="28" sy="24" id="rightDOWN"/>
+				<texcoords index="0" x0="64" y0="104" x1="36" y1="104" x2="36" y2="128" x3="64" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GasStation PANEL - Border GLASS small" script="Complex9">
+			<material>GasCommon_NoDet</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="28" sy="10" id="leftUP"/>
+				<texrect index="0" x="36" y="80" sx="28" sy="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="0" sx="1" sy="10" id="centerUP"/>
+				<texrect index="0" x="63" y="80" sx="1" sy="10"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="0" sx="28" sy="10" id="rightUP"/>
+				<texcoords index="0" x0="64" y0="80" x1="36" y1="80" x2="36" y2="90" x3="64" y3="90"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="10" sx="28" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="36" y="103" sx="28" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="10" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="64" y="103" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="10" sx="28" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="64" y0="103" x1="36" y1="103" x2="36" y2="104" x3="64" y3="104"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="11" sx="28" sy="24" id="leftDOWN"/>
+				<texrect index="0" x="36" y="104" sx="28" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="11" sx="1" sy="24" id="centerDOWN"/>
+				<texrect index="0" x="63" y="104" sx="1" sy="24"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="11" sx="28" sy="24" id="rightDOWN"/>
+				<texcoords index="0" x0="64" y0="104" x1="36" y1="104" x2="36" y2="128" x3="64" y3="128"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GasStation PANEL - Border OUT" script="Complex9">
+			<material>GasCommon_METAL</material>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="28" sy="28" id="leftUP"/>
+				<texrect index="0" x="37" y="1" sx="28" sy="28"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="0" sx="1" sy="28" id="centerUP"/>
+				<texrect index="0" x="64" y="1" sx="1" sy="28"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="0" sx="28" sy="28" id="rightUP"/>
+				<texcoords index="0" x0="65" y0="1" x1="37" y1="1" x2="37" y2="29" x3="65" y3="29"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="28" sx="28" sy="1" id="leftCENTER"/>
+				<texrect index="0" x="37" y="28" sx="28" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="28" sx="1" sy="1" id="centerCENTER"/>
+				<texrect index="0" x="64" y="28" sx="1" sy="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="28" sx="28" sy="1" id="rightCENTER"/>
+				<texcoords index="0" x0="65" y0="28" x1="37" y1="28" x2="37" y2="29" x3="65" y3="29"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="29" sx="28" sy="28" id="leftDOWN"/>
+				<texcoords index="0" x0="37" y0="29" x1="65" y1="29" x2="65" y2="1" x3="37" y3="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="28" y="29" sx="1" sy="28" id="centerDOWN"/>
+				<texcoords index="0" x0="63" y0="29" x1="64" y1="29" x2="64" y2="1" x3="63" y3="1"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="29" y="29" sx="28" sy="28" id="rightDOWN"/>
+				<texcoords index="0" x0="65" y0="29" x1="37" y1="29" x2="37" y2="1" x3="65" y3="1"/>
+			</buttonstate>
+		</buttonres>
+		<buttonres name="GasStation PANEL - Border TANK" script="Complex3">
+			<buttonstate type="passive">
+				<patch state="0" x="0" y="0" sx="23" sy="25" id="left"/>
+				<texrect index="0" x="42" y="128" sx="23" sy="25"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="23" y="0" sx="1" sy="25" id="center"/>
+				<texrect index="0" x="64" y="128" sx="1" sy="25"/>
+			</buttonstate>
+			<buttonstate type="passive">
+				<patch state="0" x="24" y="0" sx="23" sy="25" id="right"/>
+				<texcoords index="0" x0="65" y0="128" x1="42" y1="128" x2="42" y2="153" x3="65" y3="153"/>
+			</buttonstate>
+		</buttonres>
+		<fontres name="Blue Highway">
+			<name>Tahoma</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway OUTLINED">
+			<name>TahomaOUTLINED</name>
+			<size>24</size>
+			<textflags bold="true" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Clock Small">
+			<name>TahomaClockSmall</name>
+			<size>39</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Clock OUTLINED">
+			<name>TahomaClockOUTLINED</name>
+			<size>78</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<fontres name="Blue Highway Clock Small OUTLINED">
+			<name>TahomaClockSmallOUTLINED</name>
+			<size>39</size>
+			<textflags bold="false" italic="false"/>
+		</fontres>
+		<textres name="BHT - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="BHT - white - left">
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<horizalign>baseline</horizalign>
+			<horizbaseline>2</horizbaseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="BHT - white - right">
+			<horizalign>right</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>55</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - black - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>28</baseline>
+			<textcolor>0 26 51 180</textcolor>
+		</textres>
+		<textres name="JustText - black255 - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>28</baseline>
+			<textcolor>0 26 51 255</textcolor>
+		</textres>
+		<textres name="JustText - red - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>28</baseline>
+			<textcolor>215 55 20 255</textcolor>
+		</textres>
+		<textres name="JustText - white255 - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 255</textcolor>
+		</textres>
+		<textres name="JustText - white - center">
+			<horizalign>center</horizalign>
+			<vertalign>baseline</vertalign>
+			<baseline>26</baseline>
+			<textcolor>255 255 255 128</textcolor>
+		</textres>
+	</resources>
+	<controlgroup name="Menu GAS">
+		<picture name="BACKGROUND Gas Menu ">
+			<coords x="980" y="260" sx="1" sy="1"/>
+			<picture name="BACK Gas Colon">
+				<material>GasCommon_METAL</material>
+				<coords x="-56" y="-122" sx="60" sy="962"/>
+				<texrect index="0" x="69" y="0" sx="58" sy="256"/>
+			</picture>
+			<picture name="BACK Gas Colon">
+				<material>GasCommon_METAL</material>
+				<coords x="508" y="-122" sx="60" sy="962"/>
+				<texcoords index="0" x0="127" y0="0" x1="69" y1="0" x2="69" y2="256" x3="127" y3="256"/>
+			</picture>
+			<picture name="Gas Menu - PIC - TOP Border OUT">
+				<coords x="-100" y="-240" sx="712" sy="120"/>
+				<buttonres_ref name="GasStation PANEL - Border OUT"/>
+			</picture>
+			<picture name="Gas Menu - PIC - TOP">
+				<material>GasCommon_METAL</material>
+				<coords x="-84" y="-225" sx="682" sy="91"/>
+				<texcoords index="0" x0="71" y0="236" x1="71" y1="20" x2="100" y2="20" x3="100" y3="236"/>
+			</picture>
+			<picture name="Gas Menu - PIC - PANEL">
+				<coords x="10" y="40" sx="492" sy="800"/>
+				<texrect index="0" x="38" y="130" sx="1" sy="126"/>
+			</picture>
+			<picture name="Gas Menu - PIC - PANEL REFLECTION">
+				<material>GasCommon_METAL</material>
+				<coords x="10" y="40" sx="492" sy="800"/>
+				<texrect index="0" x="43" y="243" sx="1" sy="1"/>
+			</picture>
+			<picture name="Gas Menu - PIC - Border OUT">
+				<coords x="0" y="30" sx="512" sy="810"/>
+				<buttonres_ref name="GasStation PANEL - Border OUT"/>
+			</picture>
+			<picture name="Gas Menu - PIC - Border BOLTS">
+				<coords x="15" y="45" sx="482" sy="335"/>
+				<buttonres_ref name="GasStation PANEL - Border BOLTS"/>
+			</picture>
+			<picture name="Gas Menu - PIC - Border BOLTS">
+				<coords x="15" y="380" sx="482" sy="220"/>
+				<buttonres_ref name="GasStation PANEL - Border BOLTS"/>
+			</picture>
+			<picture name="Gas Menu - PIC - Border BOLTS">
+				<coords x="15" y="600" sx="482" sy="95"/>
+				<buttonres_ref name="GasStation PANEL - Border BOLTS"/>
+			</picture>
+			<picture name="Gas Menu - PIC - Border BOLTS">
+				<coords x="15" y="695" sx="241" sy="133"/>
+				<buttonres_ref name="GasStation PANEL - Border BOLTS"/>
+			</picture>
+			<picture name="Gas Menu - PIC - Border BOLTS">
+				<coords x="256" y="695" sx="241" sy="133"/>
+				<buttonres_ref name="GasStation PANEL - Border BOLTS"/>
+			</picture>
+			<picture name="Gas Menu - PIC - BOTTOM - Border OUT">
+				<coords x="-60" y="836" sx="632" sy="90"/>
+				<buttonres_ref name="GasStation PANEL - Border OUT"/>
+			</picture>
+			<picture name="Gas Menu - PIC - BOTTOM">
+				<material>GasCommon_METAL</material>
+				<coords x="-44" y="851" sx="602" sy="61"/>
+				<texcoords index="0" x0="71" y0="236" x1="71" y1="20" x2="100" y2="20" x3="100" y3="236"/>
+			</picture>
+			<textfield name="TITLE - Head">
+				<font>Button FONT passive</font>
+				<coords x="-60" y="-207" sx="630" sy="64"/>
+				<textres_ref name="Button - TEXT neutral"/>
+				<text locref="menu_gasstation.xml\Menu GAS\BACKGROUND Gas Menu \TITLE - Head">G A S   S T A T I O N</text>
+			</textfield>
+			<picture name="Gas Menu - PIC - Border GLASS">
+				<coords x="112" y="88" sx="290" sy="55"/>
+				<buttonres_ref name="GasStation PANEL - Border GLASS"/>
+			</picture>
+			<textfield name="TITLE - ThisSale">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="41" y="142" sx="430" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_gasstation.xml\Menu GAS\BACKGROUND Gas Menu \TITLE - ThisSale">THIS SALE, $</text>
+			</textfield>
+			<picture name="Gas Menu - PIC - Border GLASS">
+				<coords x="112" y="183" sx="290" sy="55"/>
+				<buttonres_ref name="GasStation PANEL - Border GLASS"/>
+			</picture>
+			<textfield name="TITLE - Gallons">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="41" y="237" sx="430" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="common\GALLONS">GALLONS</text>
+			</textfield>
+			<picture name="Gas Menu - PIC - Border GLASS">
+				<coords x="112" y="278" sx="290" sy="55"/>
+				<buttonres_ref name="GasStation PANEL - Border GLASS"/>
+			</picture>
+			<textfield name="TITLE - PricePerGallon">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="41" y="332" sx="430" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_gasstation.xml\Menu GAS\BACKGROUND Gas Menu \TITLE - PricePerGallon">PRICE PER GALLON, $</text>
+			</textfield>
+			<picture name="Gas Menu - PIC - Border GLASS TANK">
+				<coords x="38" y="395" sx="349" sy="36"/>
+				<buttonres_ref name="GasStation PANEL - Border GLASS small"/>
+			</picture>
+			<picture name="Gas Menu - PIC - Border TANK">
+				<coords x="38" y="431" sx="348" sy="25"/>
+				<buttonres_ref name="GasStation PANEL - Border TANK"/>
+			</picture>
+			<textfield name="TITLE - FuelTank">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="42" y="456" sx="340" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_gasstation.xml\Menu GAS\BACKGROUND Gas Menu \TITLE - FuelTank">FUEL TANK</text>
+			</textfield>
+			<textfield name="TITLE - Full">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="382" y="456" sx="110" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_gasstation.xml\Menu GAS\BACKGROUND Gas Menu \TITLE - Full">FULL</text>
+			</textfield>
+			<picture name="Gas Menu - PIC - Border GLASS">
+				<coords x="38" y="497" sx="220" sy="55"/>
+				<buttonres_ref name="GasStation PANEL - Border GLASS"/>
+			</picture>
+			<textfield name="TITLE - TotalGallons">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="33" y="551" sx="220" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="common\GALLONS">GALLONS</text>
+			</textfield>
+			<picture name="Gas Menu - PIC - Border GLASS">
+				<coords x="257" y="497" sx="220" sy="55"/>
+				<buttonres_ref name="GasStation PANEL - Border GLASS"/>
+			</picture>
+			<textfield name="TITLE - TotalPrice">
+				<font>Blue Highway OUTLINED</font>
+				<coords x="252" y="551" sx="220" sy="36"/>
+				<textres_ref name="JustText - white - center"/>
+				<text locref="menu_gasstation.xml\Menu GAS\BACKGROUND Gas Menu \TITLE - TotalPrice">TOTAL</text>
+			</textfield>
+		</picture>
+		<picture name="BACK Gas Menu">
+			<coords x="980" y="260" sx="412" sy="700"/>
+			<textfield name="ThisSale">
+				<coords x="132" y="97" sx="251" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text>$ %GAS_THIS_SALE%</text>
+			</textfield>
+			<textfield name="Gallons">
+				<coords x="132" y="192" sx="251" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text/>
+			</textfield>
+			<textfield name="PricePerGallon">
+				<coords x="132" y="287" sx="251" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text>$ %GAS_PRICE_PER_GALLON%</text>
+			</textfield>
+			<picture name="FuelTankIndicator">
+				<coords x="49" y="407" sx="327" sy="13"/>
+				<texrect index="0" x="43" y="253" sx="1" sy="1"/>
+			</picture>
+			<textfield name="TotalGallons">
+				<coords x="48" y="506" sx="200" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text/>
+			</textfield>
+			<textfield name="TotalPrice">
+				<coords x="267" y="506" sx="200" sy="36"/>
+				<textres_ref name="JustText - black - center"/>
+				<text>$ %GAS_TOTAL_PRICE%</text>
+			</textfield>
+			<ranger name="RANGER button" orientation="horiz">
+				<coords x="36" y="428" sx="353" sy="40"/>
+				<buttonsize>0</buttonsize>
+				<page>10</page>
+				<increment>1</increment>
+				<minthumbsize>22</minthumbsize>
+				<rangerup/>
+				<rangerdown/>
+				<rangerthumb>
+					<buttonres_ref name="RANGER button"/>
+				</rangerthumb>
+			</ranger>
+			<button name="FULL button">
+				<coords x="391" y="398" sx="89" sy="64"/>
+				<buttonres_ref name="Button COMMON GasStation YELLOW"/>
+				<buttonres>
+					<buttonstate type="passive">
+						<material>GasCommon_PASSIVE</material>
+						<patch state="0" x="20" y="10" sx="47" sy="36"/>
+						<texcoords index="0" x0="42" y0="188" x1="42" y1="153" x2="68" y2="153" x3="68" y3="188"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>GasCommon_ACTIVE</material>
+						<patch state="0" x="20" y="10" sx="47" sy="36"/>
+						<texcoords index="0" x0="42" y0="188" x1="42" y1="153" x2="68" y2="153" x3="68" y3="188"/>
+					</buttonstate>
+					<buttonstate type="active">
+						<material>GasCommon_ACTIVE</material>
+						<patch state="1" x="22" y="12" sx="43" sy="32"/>
+						<texcoords index="0" x0="42" y0="188" x1="42" y1="153" x2="68" y2="153" x3="68" y3="188"/>
+					</buttonstate>
+				</buttonres>
+			</button>
+			<button name="PAY button">
+				<coords x="38" y="618" sx="218" sy="64"/>
+				<buttonres_ref name="Button COMMON GasStation YELLOW"/>
+				<text locref="common\PAY">PAY</text>
+			</button>
+			<button name="CANCEL button">
+				<coords x="258" y="618" sx="218" sy="64"/>
+				<buttonres_ref name="Button COMMON GasStation RED"/>
+				<text locref="common\CANCEL">CANCEL</text>
+			</button>
+		</picture>
+		<picture name="FOREGROUND Gas Menu ">
+			<coords x="980" y="260" sx="1" sy="1"/>
+			<picture name="Gas Menu - PIC - GLASS">
+				<material>GasCommon_GLASS</material>
+				<coords x="119" y="95" sx="276" sy="41"/>
+				<texrect index="0" x="42" y="189" sx="25" sy="5"/>
+			</picture>
+			<picture name="Gas Menu - PIC - GLASS">
+				<material>GasCommon_GLASS</material>
+				<coords x="119" y="190" sx="276" sy="41"/>
+				<texrect index="0" x="42" y="199" sx="25" sy="5"/>
+			</picture>
+			<picture name="Gas Menu - PIC - GLASS">
+				<material>GasCommon_GLASS</material>
+				<coords x="119" y="285" sx="276" sy="41"/>
+				<texrect index="0" x="42" y="209" sx="25" sy="5"/>
+			</picture>
+			<picture name="Gas Menu - PIC - GLASS">
+				<material>GasCommon_GLASS</material>
+				<coords x="45" y="402" sx="355" sy="22"/>
+				<texrect index="0" x="42" y="191" sx="25" sy="2"/>
+			</picture>
+			<picture name="Gas Menu - PIC - GLASS">
+				<material>GasCommon_GLASS</material>
+				<coords x="45" y="504" sx="206" sy="41"/>
+				<texrect index="0" x="42" y="189" sx="25" sy="5"/>
+			</picture>
+			<picture name="Gas Menu - PIC - GLASS">
+				<material>GasCommon_GLASS</material>
+				<coords x="264" y="504" sx="206" sy="41"/>
+				<texrect index="0" x="42" y="209" sx="25" sy="5"/>
+			</picture>
+		</picture>
+	</controlgroup>
+	<controlgroup name="GAS_PRICE_TABLO">
+		<picture name="BLACK">
+			<material>menu_Gas_TABLO</material>
+			<coords x="0" y="0" sx="300" sy="300"/>
+			<texrect index="0" x="127" y="0" sx="1" sy="1"/>
+		</picture>
+		<picture name="GAS_PRICE_TABLO - Back">
+			<material>menu_Gas_TABLO</material>
+			<coords x="0" y="0" sx="216" sy="270"/>
+			<texrect index="0" x="0" y="0" sx="102" sy="128"/>
+		</picture>
+		<textfield name="GAS_PRICE_TABLO - Self Serve">
+			<coords x="0" y="10" sx="216" sy="36"/>
+			<textres_ref name="JustText - white255 - center"/>
+			<font>Blue Highway OUTLINED</font>
+			<text>Self Serve</text>
+		</textfield>
+		<textfield name="GAS_PRICE_TABLO - Pay at Pump">
+			<coords x="0" y="64" sx="216" sy="36"/>
+			<textres_ref name="JustText - white255 - center"/>
+			<font>Blue Highway OUTLINED</font>
+			<text>Pay at Pump</text>
+		</textfield>
+		<picture name="9/10">
+			<material>menu_Gas_TABLO</material>
+			<coords x="174" y="129" sx="24" sy="43"/>
+			<texrect index="0" x="104" y="85" sx="24" sy="43"/>
+		</picture>
+		<textfield name="GAS_PRICE_TABLO - VALUE">
+			<coords x="0" y="115" sx="172" sy="70"/>
+			<textres_ref name="BHT - white - right"/>
+			<font>Blue Highway Clock OUTLINED</font>
+			<text>3.68</text>
+		</textfield>
+		<textfield name="GAS_PRICE_TABLO - DIESEL">
+			<coords x="0" y="217" sx="216" sy="36"/>
+			<textres_ref name="JustText - white255 - center"/>
+			<font>Blue Highway OUTLINED</font>
+			<text>DIESEL</text>
+		</textfield>
+	</controlgroup>
+</menu>

@@ -1,0 +1,43 @@
+<scenes>
+	<xxxenvironments>
+		<env name="bar">
+			<xxx id="Man">
+				<id>Man_019</id>
+			</xxx>
+			<matrix name="M">
+				<vector index="0" x="1" y="0" z="0"/>
+				<vector index="1" x="0" y="1" z="0"/>
+				<vector index="2" x="0" y="0" z="1"/>
+				<vector index="3" x="0" y="0" z="0"/>
+			</matrix>
+			<vector name="pos" x="0" y="0" z="0"/>
+		</env>
+	</xxxenvironments>
+	<scene name="gold_driver" fade="off" wide="on" useshow="off" cutscene="1">
+		<!--economy victory-->
+		<run>
+			<message text="Igrok_car_out"/>
+		</run>
+		<runafter>
+			<message text="resumescript"/>
+		</runafter>
+		<world name="bar"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\000VM\\IVAN_NEW_VM.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\000VM\\Model_Prize_man_of_year_VM.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\000VM\\Model_Check_00VM_VM.txt"/>
+		<persontrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\000VM\\XXXMan_VictoryMonopolist.txt" id="ID_JONATHANL"/>
+		<cameratrack trackfile="..\\Data\\Actors\\ScreenPlay\\Scenes\\000VM\\CamS000VM_VM.txt" type="anm" anmspace="Camera_CamS000VM"/>
+		<cameras>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</cameras>
+		<persons>
+			<bindmatrix>
+				<matrix name="M"/>
+				<vector name="pos"/>
+			</bindmatrix>
+		</persons>
+	</scene>
+</scenes>

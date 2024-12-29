@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org>
+  <element name="o'Leary=koleso_n" description="o'Leary=koleso_n" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=koleso_n=finish"/>
+    <fail_timeout_complete description="o'Leary=koleso_n=fail_timeout_complete"/>
+    <decline description="o'Leary=koleso_n=decline"/>
+  </element>
+  <element name="o'Leary=car_helper" description="o'Leary=car_helper" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=car_helper=finish"/>
+    <fail_timeout_complete description="o'Leary=car_helper=fail_timeout_complete"/>
+    <decline description="o'Leary=car_helper=decline"/>
+  </element>
+  <element name="o'Leary=girl_helper" description="o'Leary=girl_helper" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=girl_helper=finish"/>
+    <fail_timeout_complete description="o'Leary=girl_helper=fail_timeout_complete"/>
+    <decline description="o'Leary=girl_helper=decline"/>
+  </element>
+  <element name="o'Leary=kofe_girl" description="o'Leary=kofe_girl" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=kofe_girl=finish"/>
+    <fail_timeout_complete description="o'Leary=kofe_girl=fail_timeout_complete"/>
+    <decline description="o'Leary=kofe_girl=decline"/>
+  </element>
+  <element name="o'Leary=lunch_n" description="o'Leary=lunch_n" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=lunch_n=finish"/>
+    <fail_timeout_complete description="o'Leary=lunch_n=fail_timeout_complete"/>
+    <decline description="o'Leary=lunch_n=decline"/>
+  </element>
+  <element name="o'Leary=cinema" description="o'Leary=cinema" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=cinema=fail_timeout_complete"/>
+    <decline description="o'Leary=cinema=decline"/>
+  </element>
+  <element name="o'Leary=cinema_2" description="o'Leary=cinema_2" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=cinema_2=finish"/>
+    <fail_timeout_pickup description="o'Leary=cinema_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=cinema_2=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=cinema_2=fail_damaged"/>
+    <decline description="o'Leary=cinema_2=decline"/>
+  </element>
+  <element name="o'Leary=biliard" description="o'Leary=biliard" importance="true" type="visit" customer_npc="ID_DOROTHY_TRIP">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=biliard=finish"/>
+    <fail_timeout_complete description="o'Leary=biliard=fail_timeout_complete"/>
+    <decline description="o'Leary=biliard=decline"/>
+  </element>
+  <element name="o'Leary=golden_gate" description="o'Leary=golden_gate" importance="true" type="visit" customer_npc="ID_DOROTHY_CLUB">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=golden_gate=finish"/>
+    <fail_timeout_complete description="o'Leary=golden_gate=fail_timeout_complete"/>
+  </element>
+  <element name="o'Leary=big_gonki_1" description="o'Leary=big_gonki_1" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=big_gonki_1=fail_timeout_complete"/>
+    <decline description="o'Leary=big_gonki_1=decline"/>
+  </element>
+  <element name="o'Leary=big_gonki2" description="o'Leary=big_gonki2" importance="false" type="passangerDelivery" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=big_gonki2=finish"/>
+    <fail_timeout_pickup description="o'Leary=big_gonki2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=big_gonki2=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=big_gonki2=fail_damaged"/>
+    <decline description="o'Leary=big_gonki2=decline"/>
+  </element>
+  <element name="o'Leary=koncert_3" description="o'Leary=koncert_3" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=koncert_3=fail_timeout_complete"/>
+    <decline description="o'Leary=koncert_3=decline"/>
+  </element>
+  <element name="o'Leary=koncert_4" description="o'Leary=koncert_4" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_CLUB">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=koncert_4=finish"/>
+    <fail_timeout_pickup description="o'Leary=koncert_4=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=koncert_4=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=koncert_4=fail_damaged"/>
+    <decline description="o'Leary=koncert_4=decline"/>
+  </element>
+  <element name="o'Leary=bowling_n" description="o'Leary=bowling_n" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=bowling_n=fail_timeout_complete"/>
+    <decline description="o'Leary=bowling_n=decline"/>
+  </element>
+  <element name="o'Leary=bowling_2_n" description="o'Leary=bowling_2_n" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_TRIP">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=bowling_2_n=finish"/>
+    <fail_timeout_pickup description="o'Leary=bowling_2_n=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=bowling_2_n=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=bowling_2_n=fail_damaged"/>
+    <decline description="o'Leary=bowling_2_n=decline"/>
+  </element>
+  <element name="o'Leary=truks_nn" description="o'Leary=truks_nn" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=truks_nn=fail_timeout_complete"/>
+    <decline description="o'Leary=truks_nn=decline"/>
+  </element>
+  <element name="o'Leary=truks_2" description="o'Leary=truks_2" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=truks_2=finish"/>
+    <fail_timeout_pickup description="o'Leary=truks_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=truks_2=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=truks_2=fail_damaged"/>
+    <decline description="o'Leary=truks_2=decline"/>
+  </element>
+  <element name="o'Leary=prezent" description="o'Leary=prezent" importance="true" type="visit" customer_npc="ID_DOROTHY_CLUB">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=prezent=finish"/>
+    <fail_timeout_complete description="o'Leary=prezent=fail_timeout_complete"/>
+    <decline description="o'Leary=prezent=decline"/>
+  </element>
+  <element name="o'Leary=retro_n" description="o'Leary=retro_n" importance="true" type="visit" customer_npc="ID_DOROTHY_CLUB">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=retro_n=finish"/>
+    <fail_timeout_complete description="o'Leary=retro_n=fail_timeout_complete"/>
+    <decline description="o'Leary=retro_n=decline"/>
+  </element>
+  <element name="o'Leary=drunk" description="o'Leary=drunk" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=drunk=finish"/>
+    <fail_timeout_complete description="o'Leary=drunk=fail_timeout_complete"/>
+    <decline description="o'Leary=drunk=decline"/>
+  </element>
+  <element name="o'Leary=beach" description="o'Leary=beach" importance="true" type="visit" customer_npc="ID_DOROTHY_BEACH">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=beach=fail_timeout_complete"/>
+    <decline description="o'Leary=beach=decline"/>
+  </element>
+  <element name="o'Leary=beach_2" description="o'Leary=beach_2" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_BEACH">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=beach_2=finish"/>
+    <fail_timeout_pickup description="o'Leary=beach_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=beach_2=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=beach_2=fail_damaged"/>
+    <decline description="o'Leary=beach_2=decline"/>
+  </element>
+  <element name="o'Leary=real_carnival_2" description="o'Leary=real_carnival_2" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=real_carnival_2=finish"/>
+    <fail_timeout_complete description="o'Leary=real_carnival_2=fail_timeout_complete"/>
+    <decline description="o'Leary=real_carnival_2=decline"/>
+  </element>
+  <element name="o'Leary=rancho" description="o'Leary=rancho" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=rancho=finish"/>
+    <fail_timeout_complete description="o'Leary=rancho=fail_timeout_complete"/>
+    <decline description="o'Leary=rancho=decline"/>
+  </element>
+  <element name="o'Leary=hello_nick" description="o'Leary=hello_nick"/>
+  <element name="o'Leary=shar" description="o'Leary=shar" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=shar=fail_timeout_complete"/>
+    <decline description="o'Leary=shar=decline"/>
+  </element>
+  <element name="o'Leary=shar_2" description="o'Leary=shar_2" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=shar_2=finish"/>
+    <fail_timeout_pickup description="o'Leary=shar_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=shar_2=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=shar_2=fail_damaged"/>
+    <decline description="o'Leary=shar_2=decline"/>
+  </element>
+  <element name="o'Leary=koncert" description="o'Leary=koncert" importance="true" type="visit" customer_npc="ID_DOROTHY_TRIP">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=koncert=fail_timeout_complete"/>
+    <decline description="o'Leary=koncert=decline"/>
+  </element>
+  <element name="o'Leary=koncert_2" description="o'Leary=koncert_2" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_TRIP">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=koncert_2=finish"/>
+    <fail_timeout_pickup description="o'Leary=koncert_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=koncert_2=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=koncert_2=fail_damaged"/>
+    <decline description="o'Leary=koncert_2=decline"/>
+  </element>
+  <element name="o'Leary=chiken" description="o'Leary=chiken" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=chiken=finish"/>
+    <fail_timeout_complete description="o'Leary=chiken=fail_timeout_complete"/>
+    <decline description="o'Leary=chiken=decline"/>
+  </element>
+  <element name="o'Leary=carnival" description="o'Leary=carnival" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <fail_timeout_complete description="o'Leary=carnival=fail_timeout_complete"/>
+    <decline description="o'Leary=carnival=decline"/>
+  </element>
+  <element name="o'Leary=carnival_2" description="o'Leary=carnival_2" importance="true" type="passangerDelivery" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=carnival_2=finish"/>
+    <fail_timeout_pickup description="o'Leary=carnival_2=fail_timeout_pickup"/>
+    <fail_timeout_complete description="o'Leary=carnival_2=fail_timeout_complete"/>
+    <fail_damaged description="o'Leary=carnival_2=fail_damaged"/>
+    <decline description="o'Leary=carnival_2=decline"/>
+  </element>
+  <element name="o'Leary=tatoo" description="o'Leary=tatoo" importance="true" type="visit" customer_npc="ID_DOROTHY_2">
+    <reward money="0" rank="0" rating="0"/>
+    <forfeit money="0" rank="0" rating="0"/>
+    <periods outoftime_questitem="urgent"/>
+    <periods outoftime_mission="urgent"/>
+    <finish description="o'Leary=tatoo=finish"/>
+    <fail_timeout_complete description="o'Leary=tatoo=fail_timeout_complete"/>
+    <decline description="o'Leary=tatoo=decline"/>
+  </element>
+</org>
+

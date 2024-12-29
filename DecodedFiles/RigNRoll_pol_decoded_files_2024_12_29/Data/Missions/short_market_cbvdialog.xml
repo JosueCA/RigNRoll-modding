@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbvdialogs>
+  <dialog name="short_market=market_start=start=CbVideo">
+    <item caller="" wav="short_market=market_start=start=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_start=start=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_start=start=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_start=start=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=start=CbVideo=07=Nick"/>
+    <item caller="" wav="short_market=market_start=start=CbVideo=08=ID_JOSEPH_3"/>
+    <item>
+      <question text="short_market=Y" id="0">
+        <dialog name="short_market=market_start=start=CbVideo=Y">
+          <item callee="" wav="short_market=market_start=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_market=market_start=start=CbVideo=Y=01=ID_JOSEPH_3"/>
+          <item callee="" wav="short_market=market_start=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_market=N" id="1">
+        <dialog name="short_market=market_start=start=CbVideo=N">
+          <item callee="" wav="short_market=market_start=start=CbVideo=N=00=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_market=market_start=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_start=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_start=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_start=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_start=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_start=fail_damaged=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_start=decline=CbVideo">
+    <item caller="" wav="short_market=market_start=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_start=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_start=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_start=decline=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_start=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_holod=start=CbVideo">
+    <item caller="" wav="short_market=market_holod=start=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_holod=start=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_holod=start=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_holod=start=CbVideo=06=ID_JOSEPH_3"/>
+    <item>
+      <question text="short_market=Y" id="0">
+        <dialog name="short_market=market_holod=start=CbVideo=Y">
+          <item callee="" wav="short_market=market_holod=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_market=market_holod=start=CbVideo=Y=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+      <question text="short_market=N" id="1">
+        <dialog name="short_market=market_holod=start=CbVideo=N">
+          <item callee="" wav="short_market=market_holod=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_market=market_holod=start=CbVideo=N=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_market=market_holod=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_market=market_holod=fail_timeout_pickup=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_holod=fail_timeout_pickup=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_holod=fail_timeout_pickup=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_timeout_pickup=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_holod=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_holod=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_holod=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_holod=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_holod=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_holod=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_holod=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_holod=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_holod=decline=CbVideo">
+    <item caller="" wav="short_market=market_holod=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_holod=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_holod=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_holod=decline=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_holod=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_slots=start=CbVideo">
+    <item caller="" wav="short_market=market_slots=start=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_slots=start=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_slots=start=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_slots=start=CbVideo=06=ID_JOSEPH_3"/>
+    <item>
+      <question text="short_market=Y" id="0">
+        <dialog name="short_market=market_slots=start=CbVideo=Y">
+          <item callee="" wav="short_market=market_slots=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_market=market_slots=start=CbVideo=Y=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+      <question text="short_market=N" id="1">
+        <dialog name="short_market=market_slots=start=CbVideo=N">
+          <item callee="" wav="short_market=market_slots=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_market=market_slots=start=CbVideo=N=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_market=market_slots=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_slots=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_slots=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_slots=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_slots=fail_damaged=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_slots=decline=CbVideo">
+    <item caller="" wav="short_market=market_slots=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_slots=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_slots=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_slots=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_TV=start=CbVideo">
+    <item caller="" wav="short_market=market_TV=start=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_TV=start=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_TV=start=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_TV=start=CbVideo=06=ID_JOSEPH_3"/>
+    <item>
+      <question text="short_market=Y" id="0">
+        <dialog name="short_market=market_TV=start=CbVideo=Y">
+          <item callee="" wav="short_market=market_TV=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_market=market_TV=start=CbVideo=Y=01=ID_JOSEPH_3"/>
+          <item callee="" wav="short_market=market_TV=start=CbVideo=Y=02=Nick"/>
+        </dialog>
+      </question>
+      <question text="short_market=N" id="1">
+        <dialog name="short_market=market_TV=start=CbVideo=N">
+          <item callee="" wav="short_market=market_TV=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_market=market_TV=start=CbVideo=N=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_market=market_TV=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_TV=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_TV=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_TV=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_TV=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_TV=decline=CbVideo">
+    <item caller="" wav="short_market=market_TV=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_TV=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_TV=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_TV=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_brak=success=CbVideo">
+    <item caller="" wav="short_market=market_brak=success=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_brak=success=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_brak=success=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=success=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_brak=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_brak=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_brak=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_brak=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_brak=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_brak=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_brak=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_brak=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=fail_damaged=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_brak=decline=CbVideo">
+    <item caller="" wav="short_market=market_brak=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_brak=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_brak=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_brak=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_mobila=start=CbVideo">
+    <item caller="" wav="short_market=market_mobila=start=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_mobila=start=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_mobila=start=CbVideo=04=ID_JOSEPH_3"/>
+    <item>
+      <question text="short_market=Y" id="0">
+        <dialog name="short_market=market_mobila=start=CbVideo=Y">
+          <item callee="" wav="short_market=market_mobila=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_market=market_mobila=start=CbVideo=Y=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+      <question text="short_market=N" id="1">
+        <dialog name="short_market=market_mobila=start=CbVideo=N">
+          <item callee="" wav="short_market=market_mobila=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_market=market_mobila=start=CbVideo=N=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_market=market_mobila=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_mobila=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_mobila=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_mobila=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_mobila=fail_damaged=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=fail_damaged=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_mobila=decline=CbVideo">
+    <item caller="" wav="short_market=market_mobila=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_mobila=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_mobila=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_mobila=decline=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_mobila=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_food=success=CbVideo">
+    <item caller="" wav="short_market=market_food=success=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_food=success=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_food=success=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=success=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_food=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_food=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_food=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_food=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=fail_timeout_complete=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_food=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_food=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_food=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_food=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+  </dialog>
+  <dialog name="short_market=market_food=decline=CbVideo">
+    <item caller="" wav="short_market=market_food=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_food=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_food=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_food=decline=CbVideo=05=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_cd=start=CbVideo">
+    <item caller="" wav="short_market=market_cd=start=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_cd=start=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_cd=start=CbVideo=04=ID_JOSEPH_3"/>
+    <item>
+      <question text="short_market=Y" id="0">
+        <dialog name="short_market=market_cd=start=CbVideo=Y">
+          <item callee="" wav="short_market=market_cd=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_market=market_cd=start=CbVideo=Y=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+      <question text="short_market=N" id="1">
+        <dialog name="short_market=market_cd=start=CbVideo=N">
+          <item callee="" wav="short_market=market_cd=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_market=market_cd=start=CbVideo=N=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_market=market_cd=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_market=market_cd=fail_timeout_pickup=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_timeout_pickup=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_timeout_pickup=CbVideo=04=ID_JOSEPH_3"/>
+  </dialog>
+  <dialog name="short_market=market_cd=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_cd=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_timeout_complete=CbVideo=06=ID_JOSEPH_3"/>
+  </dialog>
+  <dialog name="short_market=market_cd=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_cd=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_cd=fail_damaged=CbVideo=06=ID_JOSEPH_3"/>
+  </dialog>
+  <dialog name="short_market=market_cd=decline=CbVideo">
+    <item caller="" wav="short_market=market_cd=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_cd=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_cd=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_cd=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_cd=decline=CbVideo=06=ID_JOSEPH_3"/>
+  </dialog>
+  <dialog name="short_market=market_plazma=start=CbVideo">
+    <item caller="" wav="short_market=market_plazma=start=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=start=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_plazma=start=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=start=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_plazma=start=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=start=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_plazma=start=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=start=CbVideo=07=Nick"/>
+    <item caller="" wav="short_market=market_plazma=start=CbVideo=08=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=start=CbVideo=09=Nick"/>
+    <item caller="" wav="short_market=market_plazma=start=CbVideo=10=ID_JOSEPH_3"/>
+    <item>
+      <question text="short_market=Y" id="0">
+        <dialog name="short_market=market_plazma=start=CbVideo=Y">
+          <item callee="" wav="short_market=market_plazma=start=CbVideo=Y=00=Nick"/>
+          <item caller="" wav="short_market=market_plazma=start=CbVideo=Y=01=ID_JOSEPH_3"/>
+        </dialog>
+      </question>
+      <question text="short_market=N" id="1">
+        <dialog name="short_market=market_plazma=start=CbVideo=N">
+          <item callee="" wav="short_market=market_plazma=start=CbVideo=N=00=Nick"/>
+          <item caller="" wav="short_market=market_plazma=start=CbVideo=N=01=ID_JOSEPH_3"/>
+          <item callee="" wav="short_market=market_plazma=start=CbVideo=N=02=Nick"/>
+        </dialog>
+      </question>
+    </item>
+  </dialog>
+  <dialog name="short_market=market_plazma=fail_timeout_pickup=CbVideo">
+    <item caller="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_pickup=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_plazma=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_timeout_complete=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_plazma=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_plazma=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_damaged=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_damaged=CbVideo=07=Nick"/>
+    <item caller="" wav="short_market=market_plazma=fail_damaged=CbVideo=08=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=fail_damaged=CbVideo=09=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_plazma=decline=CbVideo">
+    <item caller="" wav="short_market=market_plazma=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_plazma=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_plazma=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_plazma=decline=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_plazma=decline=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_vip=success=CbVideo">
+    <item caller="" wav="short_market=market_vip=success=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=success=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_vip=success=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=success=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_vip=success=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=success=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_vip=success=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=success=CbVideo=07=Nick"/>
+  </dialog>
+  <dialog name="short_market=market_vip=fail_timeout_complete=CbVideo">
+    <item caller="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=07=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_timeout_complete=CbVideo=08=ID_JOSEPH_3"/>
+  </dialog>
+  <dialog name="short_market=market_vip=fail_damaged=CbVideo">
+    <item caller="" wav="short_market=market_vip=fail_damaged=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_damaged=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_damaged=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_damaged=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_damaged=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_damaged=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_damaged=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=fail_damaged=CbVideo=07=Nick"/>
+    <item caller="" wav="short_market=market_vip=fail_damaged=CbVideo=08=ID_JOSEPH_3"/>
+  </dialog>
+  <dialog name="short_market=market_vip=decline=CbVideo">
+    <item caller="" wav="short_market=market_vip=decline=CbVideo=00=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=decline=CbVideo=01=Nick"/>
+    <item caller="" wav="short_market=market_vip=decline=CbVideo=02=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=decline=CbVideo=03=Nick"/>
+    <item caller="" wav="short_market=market_vip=decline=CbVideo=04=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=decline=CbVideo=05=Nick"/>
+    <item caller="" wav="short_market=market_vip=decline=CbVideo=06=ID_JOSEPH_3"/>
+    <item callee="" wav="short_market=market_vip=decline=CbVideo=07=Nick"/>
+    <item caller="" wav="short_market=market_vip=decline=CbVideo=08=ID_JOSEPH_3"/>
+  </dialog>
+</cbvdialogs>
+
